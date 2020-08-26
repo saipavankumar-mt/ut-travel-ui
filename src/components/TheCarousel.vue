@@ -7,29 +7,31 @@
             class="trekking"
             v-bind:src="require('../assets/' + item.image)"
             v-bind:alt="item.image"
-          />
-          <div class="text">
-            <div class="sub-text">{{ item.textOverImage }}</div>
-          </div>
+          />          
+          <div class="sub-image">
+            <mini-image-holder></mini-image-holder>
+          </div>                  
         </div>
       </slide>
-    </carousel>
+    </carousel>    
   </div>
 </template>
 
 <script>
 import { Carousel, Slide } from 'vue-carousel';
+import MiniImageHolder from './MiniImageHolder.vue';
 export default {
   name: 'TheCarousel',
   components: {
     Carousel,
     Slide,
+    MiniImageHolder    
   },
   data: function() {
     return {
       carouselItem: [
         {
-          image: 'trekking.png',
+          image: 'ChardamPackage/ChardhamHeroImage.jpg',
           textOverImage: 'Slide 1',
           id: 1,
         },
@@ -54,12 +56,16 @@ export default {
 <style>
 .container {
   position: relative;
+  width: 100%;
+    left: 0%;
+    height: 500px;
+    top: 0%;
 }
 
 .trekking {
-  object-fit: cover;
   width: 100%;
   height: 500px;
+  opacity: 0.5;
 }
 
 .text {
@@ -68,4 +74,10 @@ export default {
   top: 25%;
   left: 25%;
 }
+
+.sub-image{
+   position: absolute;
+  top: 10%;
+  left: 4%;
+  }
 </style>

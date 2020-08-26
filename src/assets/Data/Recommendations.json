@@ -1,0 +1,35 @@
+{
+    "data":[
+        {
+            "id": "Pckg4.0",
+            "title": "Chardam Package",
+            "qoute": "...Voice of Conscience",
+            "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
+            "route": "Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi",
+            "duration": "11 Nights / 12 Days",
+            "nightStay": "Haridwar (2N), Barkot (2N), Uttarkashi (2N), Guptkashi (2N), Kedarnath (1N), Badrinath (1N), Rudraprayag (1N)",
+            "heroImage": "ChardamPackage/ChardhamHeroImage.jpg",
+            "subImages":
+            [
+                {
+                    "image": "ChardamPackage/YamunotriDham.jpg",
+                    "title": "Jai Yamuna Maa"
+                },
+                {
+                    "image": "ChardamPackage/GangotriDham.jpg",
+                    "title": "Jai Ganga Maiya"
+                },
+                {
+                    "image": "ChardamPackage/KedarnathDham.jpg",
+                    "title": "Jai Kedar Baba"
+                },
+                {
+                    "image": "ChardamPackage/BadrinathDham.jpg",
+                    "title": "Jai Badri Vishal"
+                }	
+            ]
+            
+        }]
+}
+    
+    
