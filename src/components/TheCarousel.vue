@@ -1,6 +1,13 @@
 <template>
   <div class="carousel">
-    <carousel :per-page="1" :mouse-drag="true">
+    <carousel
+      :per-page="1"
+      :mouse-drag="true"
+      :autoplay="true"
+      :autoplayTimeout="1500"
+      :loop="true"
+      :easing="'slide-ease'"
+    >
       <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
         <div class="container">
           <img
@@ -34,7 +41,7 @@ export default {
           id: 1,
         },
         {
-          image: 'trekking.png',
+          image: 'NewImage.png',
           textOverImage: 'Slide 2',
           id: 2,
         },
@@ -51,7 +58,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style lang="scss">
 .container {
   position: relative;
 }
@@ -60,6 +67,10 @@ export default {
   object-fit: cover;
   width: 100%;
   height: 500px;
+}
+
+.slide-ease {
+  transition: 5s fade-in;
 }
 
 .text {
