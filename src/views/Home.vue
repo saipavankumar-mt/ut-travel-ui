@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import TheCarousel from "./TheCarousel.vue";
+import TheCarousel from "../components/TheCarousel.vue";
 import OfferList from "./OfferList.vue";
 export default {
   name: "Home",

@@ -10,7 +10,7 @@
       :paginationPosition="'bottom-overlay'"
     >
       <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
-        <div class="container">
+        <div class="trek-container">
           <img
             class="trekking"
             v-bind:src="require('../assets/' + item.image)"
@@ -79,12 +79,15 @@ export default {
     font-weight: 800;
   }
 }
-.container {
+.trek-container {
   position: relative;
   width: 100%;
   left: 0%;
   height: 500px;
   top: 0%;
+  img {
+    object-fit: contain;
+  }
 }
 
 .title {
