@@ -6,7 +6,6 @@
       :autoplay="true"
       :autoplayTimeout="1500"
       :loop="true"
-      :easing="'slide-ease'"
     >
       <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
         <div class="container">
@@ -14,13 +13,13 @@
             class="trekking"
             v-bind:src="require('../assets/' + item.image)"
             v-bind:alt="item.image"
-          />          
+          />
           <div class="sub-image">
             <mini-image-holder></mini-image-holder>
-          </div>                  
+          </div>
         </div>
       </slide>
-    </carousel>    
+    </carousel>
   </div>
 </template>
 
@@ -32,7 +31,7 @@ export default {
   components: {
     Carousel,
     Slide,
-    MiniImageHolder    
+    MiniImageHolder,
   },
   data: function() {
     return {
@@ -64,9 +63,9 @@ export default {
 .container {
   position: relative;
   width: 100%;
-    left: 0%;
-    height: 500px;
-    top: 0%;
+  left: 0%;
+  height: 500px;
+  top: 0%;
 }
 
 .trekking {
@@ -86,9 +85,9 @@ export default {
   left: 25%;
 }
 
-.sub-image{
-   position: absolute;
+.sub-image {
+  position: absolute;
   top: 10%;
   left: 4%;
-  }
+}
 </style>

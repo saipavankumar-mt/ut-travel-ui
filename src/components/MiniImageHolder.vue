@@ -25,7 +25,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style type="scss">
 .mini-img-container {
   position: absolute;
   width: 150px;
