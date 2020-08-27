@@ -1,19 +1,16 @@
 <template>
   <div id="app">
-    <the-carousel></the-carousel>
-    <offer-list></offer-list>
+    <home></home>
   </div>
 </template>
 
 <script>
-import TheCarousel from './components/TheCarousel.vue';
-import OfferList from './components/OfferList.vue';
+import Home from "./components/Home.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    TheCarousel,
-    OfferList
-  }
+    Home,
+  },
 };
 </script>
 
@@ -23,7 +20,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;    
+  color: #2c3e50;
   width: 100%;
 }
 </style>
