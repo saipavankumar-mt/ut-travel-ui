@@ -39,6 +39,7 @@ export default {
   display: flex;
   position: fixed;
   right: 0;
+  top:0;
   z-index: 40;  
   .top-nav-item {
     margin-right: 25px;

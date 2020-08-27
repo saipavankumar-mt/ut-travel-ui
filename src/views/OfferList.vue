@@ -49,7 +49,7 @@ export default {
           name: "Hill Station Tours",
           offerPer: 10,
           image: "OfferTiles/HillStationOfferTile.jpg",
-        },
+        }
       ],
     };
   },
