@@ -7,7 +7,7 @@
       :navigationEnabled="true"
       :navigationNextLabel="'>'"
       :navigationPrevLabel="'<'"
-      :paginationPosition="bottom-overlay"
+      :paginationPosition="'bottom-overlay'"
     >
       <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
         <div class="container">
