@@ -58,7 +58,6 @@ export default {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-left: 25px;
 }
 
 .offer-title {
