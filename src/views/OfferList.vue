@@ -2,8 +2,9 @@
   <div>
     <div class="divider-container">
       <div class="divider">
-        <h2>UttaraKhand Tour Packages</h2>
+        UttaraKhand Tour Packages
       </div>
+      <app-divider></app-divider>
     </div>
     <div class="offer-list-container">
       <div class="offer-title" v-for="item in offerList" :key="item.id">
@@ -15,10 +16,12 @@
 
 <script>
 import Offer from "./Offer.vue";
+import AppDivider from "../components/ui-components/AppDivider.vue";
 export default {
   name: "OfferList",
   components: {
     Offer,
+    AppDivider
   },
   data() {
     return {
@@ -69,7 +72,8 @@ export default {
   color: white;
   .divider {
     margin-top: 5px;
-    background: linear-gradient(-95deg, #064e68, #f8f8f8);
+    font-size: 1.2rem;
+    font-weight: bold;
     padding: 5px;
   }
 }
