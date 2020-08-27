@@ -18,7 +18,7 @@
           />
         </div>
         <div class="title">
-          <div class="sub-title">Yatra</div>
+          <!-- <div class="sub-title">Yatra</div> -->
         </div>
       </slide>
     </carousel>
