@@ -1,5 +1,5 @@
 <template>
-  <div id="home">
+  <div class="home">
     <the-carousel></the-carousel>
     <offer-list></offer-list>
   </div>
@@ -18,4 +18,7 @@ export default {
 </script>
 
 <style lang="scss">
+.home{
+  padding-top: 100px;
+  }
 </style>
