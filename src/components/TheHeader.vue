@@ -23,9 +23,7 @@ export default {
 .logo {
   height: 5rem;
 }
-a.navbar-brand.bg-light:hover {
-  /* background-color: #f8f9fa !important; */
-}
+
 .navbar {
   background: linear-gradient(-95deg, rgb(97,192,242), #e9ecef);
 }
