@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss">
-.home{
-  padding-top: 100px;
-  }
+.home {
+  padding-top: 1.375rem;
+}
 </style>
