@@ -7,6 +7,7 @@
       :navigationEnabled="true"
       :navigationNextLabel="'>'"
       :navigationPrevLabel="'<'"
+      :paginationPosition="bottom-overlay"
     >
       <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
         <div class="container">
@@ -62,8 +63,8 @@ export default {
 .VueCarousel-navigation-prev {
   left: 40px !important;
   font-size: 42px;
-  outline: none;
-  opacity: 0.5;
+  outline: none !important;
+  color: white !important;
   &:hover {
     font-weight: 800;
   }
@@ -72,8 +73,8 @@ export default {
 .VueCarousel-navigation-next {
   right: 40px !important;
   font-size: 42px;
-  outline: none;
-  opacity: 0.5;
+  outline: none !important;
+  color: white !important;
   &:hover {
     font-weight: 800;
   }
