@@ -6,31 +6,19 @@
       </div>
     </div>
     <div class="offer-list-container">
-      <carousel
-        :per-page="3"
-        :mouse-drag="true"
-        :loop="true"
-        :navigationEnabled="true"
-        :navigationNextLabel="'>'"
-        :navigationPrevLabel="'<'"
-      >
-        <slide class="offer-title" v-for="item in offerList" :key="item.id">
-          <offer :offer-info="item"></offer>
-        </slide>
-      </carousel>
+      <div class="offer-title" v-for="item in offerList" :key="item.id">
+        <offer :offer-info="item"></offer>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import Offer from "./Offer.vue";
-import { Carousel, Slide } from "vue-carousel";
 export default {
   name: "OfferList",
   components: {
     Offer,
-    Carousel,
-    Slide,
   },
   data() {
     return {
@@ -67,10 +55,10 @@ export default {
 
 <style lang="scss">
 .offer-list-container {
-  // display: flex;
-  // justify-content: space-between;
-  // width: 100%;
-  // margin-left: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 25px;
 }
 
 .offer-title {
