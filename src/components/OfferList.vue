@@ -1,8 +1,9 @@
 <template>
-  <div>
+  <div class="offer-list">
     <div class="divider-container">
       <div class="divider">
-        <h2>UttaraKhand Tour Packages</h2>
+        <div class="layer"></div>
+        <div class="title">UttaraKhand Tour Packages</div>
       </div>
     </div>
     <div class="offer-list-container">
@@ -54,6 +55,22 @@ export default {
 </script>
 
 <style lang="scss">
+.offer-list {
+  background-image: url("../assets/trekking.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.layer {
+  background-color: rgba(19, 18, 18, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .offer-list-container {
   display: flex;
   justify-content: space-between;
@@ -68,9 +85,14 @@ export default {
 .divider-container {
   color: white;
   .divider {
-    margin-top: 5px;
-    background: linear-gradient(-95deg, #064e68, #f8f8f8);
+    //background: linear-gradient(-95deg, #064e68, #f8f8f8);
     padding: 5px;
+
+    .title {
+      font-size: 28px;
+      padding: 46px;
+      font-weight: 700;
+    }
   }
 }
 </style>
