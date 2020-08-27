@@ -37,14 +37,29 @@ export default {
     return {
       carouselItem: [
         {
-          image: "ChardamPackage/CharDhamCombinedHeroImage.jpg",
+          image: "images/Haridwar.png",
           textOverImage: "Slide 1",
           id: 1,
         },
         {
-          image: "NewImage.png",
+          image: "images/trekking.png",
           textOverImage: "Slide 2",
           id: 2,
+        },
+        {
+          image: "images/Tiger.png",
+          textOverImage: "Slide 3",
+          id: 3,
+        },
+        {
+          image: "images/parmarth.png",
+          textOverImage: "Slide 4",
+          id: 4,
+        },
+        {
+          image: "images/LakshmanJhula.png",
+          textOverImage: "Slide 5",
+          id: 5,
         },
       ],
     };
@@ -83,10 +98,10 @@ export default {
   position: relative;
   width: 100%;
   left: 0%;
-  height: 500px;
+  height: 800px;
   top: 0%;
   img {
-    object-fit: contain;
+    object-fit: fill;
   }
 }
 
@@ -104,7 +119,7 @@ export default {
 
 .trekking {
   width: 100%;
-  height: 500px;
+  height: 800px;
 }
 
 .slide-ease {
