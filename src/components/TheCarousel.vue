@@ -14,9 +14,6 @@
             v-bind:src="require('../assets/' + item.image)"
             v-bind:alt="item.image"
           />
-          <div class="sub-image">
-            <mini-image-holder></mini-image-holder>
-          </div>
         </div>
       </slide>
     </carousel>
@@ -25,19 +22,17 @@
 
 <script>
 import { Carousel, Slide } from 'vue-carousel';
-import MiniImageHolder from './MiniImageHolder.vue';
 export default {
   name: 'TheCarousel',
   components: {
     Carousel,
-    Slide,
-    MiniImageHolder,
+    Slide
   },
   data: function() {
     return {
       carouselItem: [
         {
-          image: 'ChardamPackage/ChardhamHeroImage.jpg',
+          image: 'ChardamPackage/CharDhamCombinedHeroImage.jpg',
           textOverImage: 'Slide 1',
           id: 1,
         },
@@ -45,7 +40,7 @@ export default {
           image: 'NewImage.png',
           textOverImage: 'Slide 2',
           id: 2,
-        },
+        }
       ],
     };
   },
@@ -71,7 +66,6 @@ export default {
 .trekking {
   width: 100%;
   height: 500px;
-  opacity: 0.5;
 }
 
 .slide-ease {
@@ -85,9 +79,4 @@ export default {
   left: 25%;
 }
 
-.sub-image {
-  position: absolute;
-  top: 10%;
-  left: 4%;
-}
 </style>
