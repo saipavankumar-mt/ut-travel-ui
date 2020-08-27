@@ -1,31 +1,26 @@
 <template>
   <div class="mini-img-container">
-    <img class="mini-img"
-            v-bind:src="require('../assets/' + Item.image)"
-            v-bind:alt="Item.image"
-          />
+    <img
+      class="mini-img"
+      v-bind:src="require('../assets/' + Item.image)"
+      v-bind:alt="Item.image"
+    />
     <div class="mini-img-text">{{ Item.title }}</div>
   </div>
 </template>
 <script>
 export default {
   name: 'MiniImageHolder',
-  components: {
-  },
+  components: {},
   data: function() {
     return {
-        Item:{
+      Item: {
         image: 'ChardamPackage/YamunotriDham.jpg',
-        title: 'Jai Yamuna Maa'
-        }
+        title: 'Jai Yamuna Maa',
+      },
     };
   },
-  methods: {
-    getImgUrl: function(path) {
-      console.log(path);
-      return require(path);
-    },
-  },
+  methods: {},
 };
 </script>
 
@@ -34,18 +29,18 @@ export default {
 .mini-img-container {
   position: absolute;
   width: 150px;
-  height: 150px;  
+  height: 150px;
   display: grid;
 }
 
 .mini-img {
-  width:150px;
+  width: 150px;
   height: 150px;
   border-radius: 50%;
 }
 
 .mini-img-text {
-  color: rgb(88,88,88);
+  color: rgb(88, 88, 88);
   font-weight: bold;
 }
 </style>
