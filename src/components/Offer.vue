@@ -29,7 +29,6 @@ export default {
   // width: 450px;
 
   .offer-container {
-    width: 90%;
     display: flex;
     flex-direction: column;
     position: relative;
