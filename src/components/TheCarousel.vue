@@ -3,9 +3,10 @@
     <carousel
       :per-page="1"
       :mouse-drag="true"
-      :autoplay="true"
-      :autoplayTimeout="1500"
       :loop="true"
+      :navigationEnabled="true"
+      :navigationNextLabel="'>'"
+      :navigationPrevLabel="'<'"
     >
       <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
         <div class="container">
@@ -18,39 +19,42 @@
             <mini-image-holder></mini-image-holder>
           </div>
         </div>
+        <div class="title">
+          <div class="sub-title">Yatra</div>
+        </div>
       </slide>
     </carousel>
   </div>
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel';
-import MiniImageHolder from './MiniImageHolder.vue';
+import { Carousel, Slide } from "vue-carousel";
+import MiniImageHolder from "./MiniImageHolder.vue";
 export default {
-  name: 'TheCarousel',
+  name: "TheCarousel",
   components: {
     Carousel,
     Slide,
     MiniImageHolder,
   },
-  data: function() {
+  data: function () {
     return {
       carouselItem: [
         {
-          image: 'ChardamPackage/ChardhamHeroImage.jpg',
-          textOverImage: 'Slide 1',
+          image: "ChardamPackage/ChardhamHeroImage.jpg",
+          textOverImage: "Slide 1",
           id: 1,
         },
         {
-          image: 'NewImage.png',
-          textOverImage: 'Slide 2',
+          image: "NewImage.png",
+          textOverImage: "Slide 2",
           id: 2,
         },
       ],
     };
   },
   methods: {
-    getImgUrl: function(path) {
+    getImgUrl: function (path) {
       console.log(path);
       return require(path);
     },
@@ -60,12 +64,43 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
+.VueCarousel-navigation-prev {
+  left: 40px !important;
+  font-size: 42px;
+  outline: none;
+  opacity: 0.5;
+  &:hover {
+    font-weight: 800;
+  }
+}
+
+.VueCarousel-navigation-next {
+  right: 40px !important;
+  font-size: 42px;
+  outline: none;
+  opacity: 0.5;
+  &:hover {
+    font-weight: 800;
+  }
+}
 .container {
   position: relative;
   width: 100%;
   left: 0%;
   height: 500px;
   top: 0%;
+}
+
+.title {
+  position: relative;
+
+  .sub-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
 }
 
 .trekking {
