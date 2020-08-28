@@ -1,12 +1,12 @@
 <template>
-  <div id="home">
+  <div class="home">
     <the-carousel></the-carousel>
     <offer-list></offer-list>
   </div>
 </template>
 
 <script>
-import TheCarousel from "./TheCarousel.vue";
+import TheCarousel from "../components/TheCarousel.vue";
 import OfferList from "./OfferList.vue";
 export default {
   name: "Home",
@@ -18,4 +18,7 @@ export default {
 </script>
 
 <style lang="scss">
+.home {
+  padding-top: 5.625rem;
+}
 </style>
