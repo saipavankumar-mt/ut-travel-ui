@@ -11,7 +11,10 @@
     </div>
     <div class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" v-for="(navItem, idx) in navMenu" :key="idx">{{navItem}}</a>
+        <a class="navbar-item" v-for="(navItem, idx) in navMenu" :key="idx">
+          <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
+          <span>{{navItem.label}}</span>
+        </a>
       </div>
     </div>
   </nav>
@@ -23,15 +26,15 @@ export default {
   data() {
     return {
       navMenu: [
-        'Home',
-        'Tour Packages',
-        'Destinations',
-        'Trekking',
-        'Hotel',
-        'Car Rental',
-        'Helipad',
-        'About Us',
-        'Contact Us',
+        { label: 'Home', icon: 'home' },
+        { label: 'Tour Packages', icon: 'bag-checked' },
+        { label: 'Destinations', icon: 'map-marker' },
+        { label: 'Trekking', icon: 'walk' },
+        { label: 'Hotel', icon: 'bed' },
+        { label: 'Car Rental', icon: 'car' },
+        { label: 'Helipad', icon: 'helicopter' },
+        { label: 'About Us', icon: 'head-question' },
+        { label: 'Contact Us', icon: 'card-account-phone' },
       ],
     };
   },
@@ -49,9 +52,13 @@ export default {
     right: 0;
     top: 0;
     z-index: 40;
+    margin-right: 20px;
+    margin-top: 5px;
     .navbar-item {
-      margin-right: 15px;
-      margin-top: 5px;
+      .icon {
+        padding-right: 5px;
+      }
+      font-size: 0.95rem;
       color: red;
     }
   }
@@ -61,12 +68,16 @@ export default {
   a.navbar-item {
     color: white;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     align-self: flex-end;
     &:hover {
       text-decoration: none;
       text-decoration-color: white;
       background: inherit;
+    }
+    transition: all .3s ease-in;
+    .icon {
+        padding-right: 5px;
     }
   }
 }
