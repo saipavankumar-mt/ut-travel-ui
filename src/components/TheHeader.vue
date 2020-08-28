@@ -58,15 +58,16 @@ export default {
       .icon {
         padding-right: 5px;
       }
+      font-weight: bold;
       font-size: 0.95rem;
-      color: red;
+      color: rgb(216, 81, 39)  ;
     }
   }
   .navbar-brand img {
     max-height: 4rem;
   }
   a.navbar-item {
-    color: white;
+    color: rgba(19, 18, 18, 0.7);
     font-weight: bold;
     font-size: 1rem;
     align-self: flex-end;
