@@ -76,7 +76,7 @@ export default {
       text-decoration-color: white;
       background: inherit;
     }
-    transition: all .3s ease-in;
+    transition: all .2s ease-in;
     .icon {
         padding-right: 5px;
     }
