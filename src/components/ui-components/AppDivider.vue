@@ -23,21 +23,21 @@ export default {
 .divider-tool{
   display: flex;
   flex-direction: row;
-  margin-top:5px;
-  margin-bottom: 5px;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
   justify-content: center;
   }
 .rectangle-div{
   background-color: white;
-  height: 10pxpx;
-  width: 200px;  
+  height: 0.35rem;
+  width: 25%;  
   }
 
 .circle-div{
   background-color: white;
   border-radius: 50%;
-  height: 10px;
-  width: 10px;
+  height: 0.3rem;
+  width: 0.35rem;
   margin-left: 25px;
   margin-right: 25px;
   }
@@ -45,18 +45,18 @@ export default {
   .arrow-right {
   width: 0; 
   height: 0; 
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
+  border-top: 0.18rem solid transparent;
+  border-bottom: 0.18rem solid transparent;
   
-  border-left: 15px solid white;
+  border-left: 0.5rem solid white;
 }
 
 .arrow-left {
   width: 0; 
   height: 0; 
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent; 
+  border-top: 0.18rem solid transparent;
+  border-bottom: 0.18rem solid transparent; 
   
-  border-right:15px solid white; 
+  border-right:0.5rem solid white; 
 }
 </style>
