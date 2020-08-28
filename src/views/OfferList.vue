@@ -59,11 +59,11 @@ export default {
 
 <style lang="scss">
 .offer-list {
-  background-image: url('../assets/trekking.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
+  // background-image: url('../assets/images/Tiger.png');
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-attachment: fixed;
+  // position: relative;
 }
 
 .layer {
