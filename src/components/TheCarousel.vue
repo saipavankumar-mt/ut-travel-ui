@@ -37,15 +37,15 @@ export default {
     return {
       carouselItem: [
         {
-          image: "images/Haridwar.png",
+          image: "images/ChardhamYatra.png",
           textOverImage: "Slide 1",
           id: 1,
         },
         {
-          image: "images/trekking.png",
+          image: "images/Haridwar.png",
           textOverImage: "Slide 2",
           id: 2,
-        },
+        },        
         {
           image: "images/Tiger.png",
           textOverImage: "Slide 3",
@@ -60,6 +60,11 @@ export default {
           image: "images/LakshmanJhula.png",
           textOverImage: "Slide 5",
           id: 5,
+        },
+        {
+          image: "images/trekking.png",
+          textOverImage: "Slide 6",
+          id: 6,
         },
       ],
     };
