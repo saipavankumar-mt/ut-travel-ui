@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import TheCarousel from "../components/TheCarousel.vue";
-import OfferList from "./OfferList.vue";
-import Destinations from "./Destinations.vue";
+import TheCarousel from '../components/TheCarousel.vue';
+import OfferList from './OfferList.vue';
+import Destinations from './Destinations.vue';
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     TheCarousel,
     OfferList,
@@ -20,8 +20,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.home {
-  padding-top: 5rem;
-}
-</style>
+<style lang="scss"></style>

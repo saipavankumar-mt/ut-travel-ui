@@ -23,4 +23,8 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.travel-detail {
+  position: relative;
+}
+</style>

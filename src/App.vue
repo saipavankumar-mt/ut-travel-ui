@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <the-header></the-header>
-    <!-- <div class="container" id="app-main-container"> -->
-    <router-view />
-    <!-- </div> -->
+    <div class="app-router" id="app-main-container">
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -27,5 +27,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   width: 100%;
+}
+
+.app-router {
+  padding-top: 5rem;
 }
 </style>
