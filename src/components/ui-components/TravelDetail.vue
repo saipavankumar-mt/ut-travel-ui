@@ -1,12 +1,36 @@
 <template>
   <div class="travel-detail">
-    <div class="column is-one-quarter">
-      <img
-        class="image"
-        src="../../assets/images/destinations/nainital.webp"
-        alt="destination"
-      />
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <img
+          class="image"
+          src="../../assets/images/destinations/nainital.webp"
+          alt="destination"
+        />
+      </div>
+      <div>
+        <div>
+          {{ posts.title }}
+        </div>
+        <div>
+          {{ posts.qoute }}
+        </div>
+        <div>{{ posts.subtitle }}</div>
+        <div>
+          {{ posts.route }}
+        </div>
+        <div>Duration: {{ posts.duration }}</div>
+        <div>Night Stay: {{ posts.nightStays }}</div>
+        <div v-for="item in posts['Description']" :key="item.id">
+          <div>{{ item.title }}</div>
+          <div v-for="(title, index) in item.subtitles" :key="index">
+            <div v-if="index != 0">,</div>
+            <div>{{ title }}</div>
+          </div>
+        </div>
+      </div>
     </div>
+
     <!-- v-bind:src="require('../../assets/' + posts.HeroImage)" -->
   </div>
 </template>
@@ -43,5 +67,8 @@ export default {
 <style lang="scss">
 .travel-detail {
   position: relative;
+  .columns {
+    margin: 0 !important;
+  }
 }
 </style>
