@@ -10,9 +10,9 @@
       :paginationPosition="'bottom-overlay'"
     >
       <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
-        <div class="trek-container">
+        <div class="carousel-container">
           <img
-            class="trekking"
+            class="carousel-img"
             v-bind:src="require('../assets/' + item.image)"
             v-bind:alt="item.image"
           />
@@ -45,7 +45,7 @@ export default {
           image: "images/Haridwar.png",
           textOverImage: "Slide 2",
           id: 2,
-        },        
+        },
         {
           image: "images/Tiger.png",
           textOverImage: "Slide 3",
@@ -99,7 +99,7 @@ export default {
     font-weight: 800;
   }
 }
-.trek-container {
+.carousel-container {
   position: relative;
   width: 100%;
   left: 0%;
@@ -122,7 +122,7 @@ export default {
   }
 }
 
-.trekking {
+.carousel-img {
   width: 100%;
   height: 800px;
 }

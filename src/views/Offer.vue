@@ -41,7 +41,7 @@ export default {
   .name-container {
     color: white;
     .name {
-      font-size: 20pt;
+      font-size: 20px;
       margin-top: 5px;
       background: linear-gradient(-95deg, #064e68, #9b9acc);
       padding: 5px;
