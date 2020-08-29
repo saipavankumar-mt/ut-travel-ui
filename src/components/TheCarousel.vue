@@ -16,8 +16,7 @@
             v-bind:src="require('../assets/' + item.image)"
             v-bind:alt="item.image"
           />
-        </div>
-        <div class="carousel-content">
+          <div class="carousel-content">
           <div class="carousel-left-content">
             <div class="carousel-title">
               <p>Chardham Tour Packages</p>          
@@ -26,9 +25,9 @@
             <div class="carousel-route"><p>Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi</p></div>
             <div class="carousel-desc"><p>(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)</p></div>
           </div>
-          
-
         </div>
+        </div>
+        
         
       </slide>
     </carousel>
@@ -114,7 +113,7 @@ export default {
   width: 100%;
   left: 0%;
   height: 550px;
-  top: 0%;
+  top: 0%;  
   img {
     object-fit: fill;
   }
@@ -153,12 +152,11 @@ export default {
 
 .carousel-content{
   width: 100%;
-  height: 100%;
-  background-color: rgba(38,38,38, 0.2);
- position: absolute;
- opacity: 0.6;
- top:0%;
- left:0%;
+  height: 100%;  
+  position: absolute;
+  top:0%;
+  left:0%;
+  background-color: rgba(38,38,38, 0.6) !important;
 }
 
 .carousel-left-content{
@@ -174,6 +172,9 @@ export default {
 .carousel-title{
   display: flex;
   justify-content: flex-start;
+  text-decoration: underline;
+  text-decoration-color: rgb(241, 126, 84);
+  text-underline-position: under;
 }
 
 .carousel-title p {
@@ -192,6 +193,7 @@ export default {
 
 .carousel-route{  
   align-self: center;
+  padding:0.2rem;
     p{
       color: rgb(200, 248, 27);
       font-size: 1rem;
