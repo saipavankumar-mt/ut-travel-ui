@@ -8,24 +8,36 @@
           alt="destination"
         />
       </div>
-      <div>
-        <div>
-          {{ posts.title }}
+      <div class="detail-container">
+        <div class="detail-title">
+          <div class="title is-3">
+            {{ posts.title }}
+          </div>
+          <p class="quote subtitle is-5 is-italic">
+            {{ posts.qoute }}
+          </p>
         </div>
-        <div>
-          {{ posts.qoute }}
-        </div>
-        <div>{{ posts.subtitle }}</div>
-        <div>
-          {{ posts.route }}
-        </div>
-        <div>Duration: {{ posts.duration }}</div>
-        <div>Night Stay: {{ posts.nightStays }}</div>
-        <div v-for="item in posts['Description']" :key="item.id">
-          <div>{{ item.title }}</div>
-          <div v-for="(title, index) in item.subtitles" :key="index">
-            <div v-if="index != 0">,</div>
-            <div>{{ title }}</div>
+        <div class="description subtitle is-5">{{ posts.subtitle }}</div>
+        <app-divider></app-divider>
+        <div class="itinerary">
+          <div><span id="name">Route: </span> {{ posts.route }}</div>
+          <div><span id="name">Duration: </span> {{ posts.duration }}</div>
+          <div><span id="name">Night Stay:</span> {{ posts.nightStay }}</div>
+          <div
+            class="days-container"
+            v-for="item in posts['Description']"
+            :key="item.id"
+          >
+            <div class="days">{{ item.title }}</div>
+            <div>
+              <ui
+                class="day-route"
+                v-for="(title, index) in item.subtitles"
+                :key="index"
+              >
+                <li>{{ title }}</li>
+              </ui>
+            </div>
           </div>
         </div>
       </div>
@@ -37,10 +49,13 @@
 
 <script>
 import axios from 'axios';
+import AppDivider from './AppDivider.vue';
 
 export default {
   name: 'TravelDetail',
-  components: {},
+  components: {
+    AppDivider,
+  },
   data() {
     return {
       posts: {},
@@ -69,6 +84,38 @@ export default {
   position: relative;
   .columns {
     margin: 0 !important;
+  }
+
+  .detail-container {
+    padding: 32px;
+    .quote {
+      margin-left: 45%;
+      color: red;
+    }
+    .detail-title {
+      padding-bottom: 26px;
+    }
+    .itinerary {
+      padding: 12px;
+      color: white;
+      font-weight: 700;
+      .day-route {
+      }
+      .days-container {
+        text-align: left;
+        padding: 24px 16px;
+        .days {
+          color: darkred;
+        }
+      }
+    }
+    .description {
+      color: #382d29;
+    }
+  }
+
+  #name {
+    color: darkred;
   }
 }
 </style>
