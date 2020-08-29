@@ -6,10 +6,7 @@ import router from './router';
 import store from './store';
 import 'buefy/dist/buefy.css';
 import './assets/app.scss';
-import axios from 'axios';
-import VueAxios from 'vue-axios';
 
-Vue.use(VueAxios, axios);
 Vue.use(VueCarousel);
 Vue.use(Buefy);
 
