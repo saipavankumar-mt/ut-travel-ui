@@ -9,13 +9,13 @@
 <script>
 import TheCarousel from "../components/TheCarousel.vue";
 import OfferList from "./OfferList.vue";
-import Destinations from './Destinations.vue';
+import Destinations from "./Destinations.vue";
 export default {
   name: "Home",
   components: {
     TheCarousel,
     OfferList,
-    Destinations
+    Destinations,
   },
 };
 </script>
