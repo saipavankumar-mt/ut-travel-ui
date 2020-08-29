@@ -2,7 +2,9 @@
   <nav class="navbar is-fixed-top">
     <div class="navbar-contact">
       <div class="navbar-item">Email: sales@uttranchalholidays.com</div>
-      <div class="navbar-item">Call Us: +91-9368079393, +91-9359079393, +91-7830030003</div>
+      <div class="navbar-item">
+        Call Us: +91-9368079393, +91-9359079393, +91-7830030003
+      </div>
     </div>
     <div class="navbar-brand">
       <a class="navbar-item">
@@ -12,8 +14,10 @@
     <div class="navbar-menu">
       <div class="navbar-end">
         <a class="navbar-item" v-for="(navItem, idx) in navMenu" :key="idx">
-          <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
-          <span>{{navItem.label}}</span>
+          <router-link :to="{ path: navItem.path }">
+            <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
+            <span>{{ navItem.label }}</span>
+          </router-link>
         </a>
       </div>
     </div>
@@ -26,7 +30,7 @@ export default {
   data() {
     return {
       navMenu: [
-        { label: 'Home', icon: 'home' },
+        { label: 'Home', icon: 'home', path: '/home' },
         { label: 'Tour Packages', icon: 'bag-checked' },
         { label: 'Destinations', icon: 'map-marker' },
         { label: 'Trekking', icon: 'walk' },
@@ -60,7 +64,7 @@ export default {
       }
       font-weight: bold;
       font-size: 0.95rem;
-      color: rgb(216, 81, 39)  ;
+      color: rgb(216, 81, 39);
     }
   }
   .navbar-brand img {
@@ -76,9 +80,9 @@ export default {
       text-decoration-color: white;
       background: inherit;
     }
-    transition: all .2s ease-in;
+    transition: all 0.2s ease-in;
     .icon {
-        padding-right: 5px;
+      padding-right: 5px;
     }
   }
 }
