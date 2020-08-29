@@ -17,9 +17,19 @@
             v-bind:alt="item.image"
           />
         </div>
-        <div class="title">
-          <!-- <div class="sub-title">Yatra</div> -->
+        <div class="carousel-content">
+          <div class="carousel-left-content">
+            <div class="carousel-title">
+              <p>Chardham Tour Packages</p>          
+            </div>
+            <div class="carousel-subtitle"><p>...Voice of Conscience</p></div>
+            <div class="carousel-route"><p>Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi</p></div>
+            <div class="carousel-desc"><p>(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)</p></div>
+          </div>
+          
+
         </div>
+        
       </slide>
     </carousel>
   </div>
@@ -103,11 +113,30 @@ export default {
   position: relative;
   width: 100%;
   left: 0%;
-  height: 800px;
+  height: 550px;
   top: 0%;
   img {
     object-fit: fill;
   }
+}
+
+
+
+.carousel-img {
+  width: 100%;
+  height: 550px;
+  
+}
+
+.slide-ease {
+  transition: 5s fade-in;
+}
+
+.text {
+  position: absolute;
+  color: white;
+  top: 25%;
+  left: 25%;
 }
 
 .title {
@@ -122,19 +151,59 @@ export default {
   }
 }
 
-.carousel-img {
+.carousel-content{
   width: 100%;
-  height: 800px;
+  height: 100%;
+  background-color: rgba(38,38,38, 0.2);
+ position: absolute;
+ opacity: 0.6;
+ top:0%;
+ left:0%;
 }
 
-.slide-ease {
-  transition: 5s fade-in;
+.carousel-left-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 80%;
+  margin-left: 2.5%;
+  justify-content: center;
 }
 
-.text {
-  position: absolute;
+.carousel-title{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.carousel-title p {
+  font-size: 2rem;
   color: white;
-  top: 25%;
-  left: 25%;
+  width: max-content;
 }
+
+.carousel-subtitle{
+  align-self: flex-end;
+    p{
+      color: yellow;
+      font-size: 0.8rem;
+    }
+}
+
+.carousel-route{  
+  align-self: center;
+    p{
+      color: rgb(200, 248, 27);
+      font-size: 1rem;
+    }
+}
+
+.carousel-desc{  
+  align-self: center;
+    p{
+      color: #efbb20;
+      font-size: 0.8rem;
+    }
+}
+
 </style>
