@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "title": "Chardham",
+      "subtitle": "Yamunotri - Gangotri - Kedarnath - Badrinath",
+      "image": "chardham.png"
+    },
+    {
+      "title": "Teendham",
+      "subtitle": "Gangotri - Kedarnath - Badrinath",
+      "image": "theendham.png"
+    },
+    {
+      "title": "Dodham",
+      "subtitle": "Kedarnath - Badrinath",
+      "image": "dodham.png"
+    },
+    {
+      "title": "Panchkedar",
+      "subtitle": "Kedarnath - Madhmaeshwar - Tungnath - Rudranath - Kalpeshwar",
+      "image": "panchkedar.png"
+    }
+  ]
+}

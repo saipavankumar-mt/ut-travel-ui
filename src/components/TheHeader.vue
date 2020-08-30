@@ -2,9 +2,7 @@
   <nav class="navbar is-fixed-top">
     <div class="navbar-contact">
       <div class="navbar-item">Email: sales@uttranchalholidays.com</div>
-      <div class="navbar-item">
-        Call Us: +91-9368079393, +91-9359079393, +91-7830030003
-      </div>
+      <div class="navbar-item">Call Us: +91-9368079393, +91-9359079393, +91-7830030003</div>
     </div>
     <div class="navbar-brand">
       <a class="navbar-item">
@@ -13,12 +11,16 @@
     </div>
     <div class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" v-for="(navItem, idx) in navMenu" :key="idx">
-          <router-link :to="{ path: navItem.path }">
-            <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
-            <span>{{ navItem.label }}</span>
-          </router-link>
-        </a>
+        <router-link
+          class="navbar-item"
+          v-for="(navItem, idx) in navMenu"
+          :to="navItem.path || '/'"
+          exact
+          :key="idx"
+        >
+          <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
+          <span>{{ navItem.label }}</span>
+        </router-link>
       </div>
     </div>
   </nav>
@@ -71,16 +73,12 @@ export default {
     max-height: 4rem;
   }
   a.navbar-item {
-    color: rgba(19, 18, 18, 0.7);
+    color: #585858;
     font-weight: bold;
     font-size: 1rem;
     align-self: flex-end;
-    &:hover {
-      text-decoration: none;
-      text-decoration-color: white;
-      background: inherit;
-    }
     transition: all 0.2s ease-in;
+    background: inherit !important;
     .icon {
       padding-right: 5px;
     }
