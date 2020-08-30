@@ -58,8 +58,11 @@ export default {
     right: 0;
     top: 0;
     z-index: 40;
-    margin-right: 20px;
-    margin-top: 5px;
+    margin-right: 1.2rem;
+    padding-top: 0.2rem;
+    border-bottom: rgba(0, 0, 0, 0.349);
+    border-bottom-style: solid;
+    
     .navbar-item {
       .icon {
         padding-right: 5px;

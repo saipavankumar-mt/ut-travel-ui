@@ -53,11 +53,6 @@ export default {
       default: 'is-even',
     },
   },
-  data() {
-    return {
-      showCompoent: false,
-    };
-  },
 
   methods: {
     redirect: function() {
