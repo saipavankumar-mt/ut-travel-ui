@@ -19,6 +19,16 @@
       "title": "Panchkedar",
       "subtitle": "Kedarnath - Madhmaeshwar - Tungnath - Rudranath - Kalpeshwar",
       "image": "panchkedar.png"
+    },
+    {
+      "title": "Panchbadri",
+      "subtitle": "Vishal Badri (Badrinath) - Yogdhyan Badri - Bhavishya Badri - Vridha Badri - Adi Badri",
+      "image": "panchkedar.png"
+    },
+    {
+      "title": "Panchprayag",
+      "subtitle": "Karanprayag - Nandprayag - Rudraprayag - Vishnuprayag - Devpryag",
+      "image": "panchkedar.png"
     }
   ]
 }

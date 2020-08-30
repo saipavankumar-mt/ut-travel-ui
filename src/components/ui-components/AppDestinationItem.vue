@@ -11,13 +11,13 @@
       </div>
       <div class="column">
         <div class="card-content has-text-left">
-          <div class="media-content">
+          <div class="media-content" :class="toggleClass === 'is-odd' && 'has-text-right'">
             <p class="title is-4">Nainital</p>
             <p class="subtitle is-7 is-italic">
               ...Peachy and Decency, Sign A Peace Treaty
             </p>
           </div>
-          <div class="content has-text-grey">
+          <div class="content has-text-dark-grey">
             Beautiful mountain, crystal-clear lakes, famous temples and greenery
             all over is Nainital for you. Popularly known as the City of Lakes,
             Nainital is an idyllic escape from the humdrum of city life.

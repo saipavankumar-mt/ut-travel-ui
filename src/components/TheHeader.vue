@@ -2,7 +2,7 @@
   <nav class="navbar is-fixed-top">
     <div class="navbar-contact">
       <div class="navbar-item">Email: sales@uttranchalholidays.com</div>
-      <div class="navbar-item">Call Us: +91-9368079393, +91-9359079393, +91-7830030003</div>
+      <div class="navbar-item">Call Us:  +91-9359079393, +91-9368079393, +91-7830030003</div>
     </div>
     <div class="navbar-brand">
       <a class="navbar-item">
@@ -49,7 +49,7 @@ export default {
 
 <style lang="scss">
 .navbar {
-  background: linear-gradient(-95deg, rgb(97, 192, 242), #e9ecef);
+  background: linear-gradient(-95deg, rgb(196,213,221), #e9ecef);  
   padding-top: 0;
   padding-bottom: 0;
   .navbar-contact {

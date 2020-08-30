@@ -56,6 +56,9 @@ export default {
     .title {
       margin-bottom: 0.3rem;
     }
+    .is-italic{
+    color:#efbb20;
+    }
   }
   .preview-carousel {
     box-shadow: none !important;
@@ -65,5 +68,7 @@ export default {
       padding: 30px;
     }
   }
+
+  
 }
 </style>

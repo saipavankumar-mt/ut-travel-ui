@@ -4,14 +4,27 @@
     <!-- <offer-list></offer-list> -->
     <app-preview
       class="packages"
-      title="Yatras"
-      title-desc="...some text"
+      title="Devotional Yatras"
+      title-desc="Beautiful mountain, crystal-clear lakes, famous temples and greenery
+            all over is Nainital for you. Popularly known as the City of Lakes,
+            Nainital is an idyllic escape from the humdrum of city life.
+            Enveloped in a thick foil of nature, accentuated by the scent of the
+            flowering blossoms blending miraculously in the crisp fresh air,
+            Nainital is truly the treasure trove of Kumano. It is among the most
+            visited hill station of the North India since British period."
       :preview-items-list="packages"
     ></app-preview>
+    <destinations></destinations>
     <app-preview
-      class="destinations"
+      class="packages"
       title="Destinations"
-      title-desc="...some text"
+      title-desc="Beautiful mountain, crystal-clear lakes, famous temples and greenery
+            all over is Nainital for you. Popularly known as the City of Lakes,
+            Nainital is an idyllic escape from the humdrum of city life.
+            Enveloped in a thick foil of nature, accentuated by the scent of the
+            flowering blossoms blending miraculously in the crisp fresh air,
+            Nainital is truly the treasure trove of Kumano. It is among the most
+            visited hill station of the North India since British period."
       :preview-items-list="destinations"
     >
       <div class="columns">
@@ -19,15 +32,14 @@
           <button class="button">View All Destinations</button>
         </div>
       </div>
-    </app-preview>
-    <!-- <destinations></destinations> -->
+    </app-preview>    
   </div>
 </template>
 
 <script>
 import TheCarousel from '../components/TheCarousel.vue';
 // import OfferList from './OfferList.vue';
-// import Destinations from './Destinations.vue';
+import Destinations from './Destinations.vue';
 import AppPreview from '../components/ui-components/AppPreview.vue';
 
 export default {
@@ -36,7 +48,7 @@ export default {
     TheCarousel,
     AppPreview,
     // OfferList,
-    // Destinations,
+    Destinations,
   },
   data() {
     return {
@@ -74,6 +86,11 @@ export default {
     /deep/.hero-body, /deep/.title {
       color: #4a4a4a !important;
     }
+  }
+
+  .packages{
+    background-image: url('../assets/images/DeoriyaTal.jpg');
+    
   }
 }
 </style>
