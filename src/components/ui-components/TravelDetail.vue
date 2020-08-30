@@ -9,7 +9,7 @@
           <div class="title is-3">{{ posts.title }}</div>
           <p class="quote subtitle is-5 is-italic">{{ posts.qoute }}</p>
         </div>
-        <div class="description subtitle is-5">{{ posts.subtitle }}</div>
+        <div class="description subtitle is-6">{{ posts.subtitle }}</div>
         <app-divider></app-divider>
         <div class="itinerary">
           <div>
