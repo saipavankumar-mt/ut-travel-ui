@@ -6,13 +6,13 @@
           </div>          
           <div class="pvmodel2-inner-title">
               <p class="pvmodel2-title">{{ item.title }}</p>
-              <p class="is-7 is-italic">{{ item.subtitle }}</p>
+              <p class="is-7 is-italic">{{ item.route }}</p>
               <div class="pvmodel2-duration"><p> {{item.duration}} </p></div>
               <div class="pvmodel2-price"><p> From: &#8377; {{item.price}}/- </p></div>
           </div>
       </div>
-      <div class="pvmodel2-subtitles">
-          <p></p>
+      <div class="pvmodel2-subtitle">
+          <p class="is-7 is-italic">{{ item.subtitle }}</p>
       </div>
   </div>
 </template>
@@ -40,21 +40,29 @@ export default {
 
 <style lang="scss">
 
+.pvmodel2-outer{
+    box-shadow: 5px 0 10px;
+    background-color: white;
+}
+
 .pvmodel2-inner{
     display: flex;
 }
 
 .pvmodel2-inner-img{
-    width:40%;
+    width:50%;
     height: 100%;
 }
 
 .pvmodel2-inner-title{
-    width: 60%;
+    width: 50%;
     display: flex;
-    align-items: center;
+    justify-content: center;
     background: white;
     flex-direction: column;
+    .is-italic{
+    color:#86690f;
+    }
 }
 
 .pvmodel2-title{
