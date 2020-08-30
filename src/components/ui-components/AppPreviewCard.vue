@@ -1,5 +1,5 @@
 <template>
-  <div class="preview-card card">
+  <div class="preview-card card" v-on:click="redirect()">
     <div class="card-image">
       <figure class="image is-4by3">
         <!-- <img :src="'/img/'+item.image"> -->
@@ -17,13 +17,18 @@
 
 <script>
 export default {
-  name: 'AppPreviewCard',
+  name: "AppPreviewCard",
   props: {
     item: { type: Object, required: true },
     image: { type: String },
   },
   created() {
-    console.log({item: this.item});
+    console.log({ item: this.item });
+  },
+  methods: {
+    redirect: function () {
+      this.$router.push({ name: "Detail", params: { packageId: "Pckg4-0" } });
+    },
   },
 };
 </script>

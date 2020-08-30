@@ -97,8 +97,6 @@ export default {
         // color: white;
         font-weight: 700;
         text-align: left;
-        .day-route {
-        }
       }
       .description {
         color: #382d29;
