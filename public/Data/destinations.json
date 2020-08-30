@@ -3,32 +3,56 @@
     {
       "title": "Nainital",
       "subtitle": "...Peachy and Decency, Sign A Peace Treaty",
-      "image": "nainital.webp"
+      "type": "destinations",
+      "image": {
+        "name": "Nainital",
+        "ext": "png "
+      }
     },
     {
       "title": "Kausani",
       "subtitle": "...Abode of Heavenly Mist",
-      "image": "nainital.webp"
+      "type": "destinations",
+      "image": {
+        "name": "Kausani",
+        "ext": "png "
+      }
     },
     {
       "title": "Ranikhet",
       "subtitle": "...Peachy and Decency, Sign A Peace Treaty",
-      "image": "nainital.webp"
+      "type": "destinations",
+      "image": {
+        "name": "Ranikhet",
+        "ext": "png "
+      }
     },
     {
       "title": "Almora",
       "subtitle": "...Peachy and Decency, Sign A Peace Treaty",
-      "image": "nainital.webp"
+      "type": "destinations",
+      "image": {
+        "name": "Almora",
+        "ext": "png "
+      }
     },
     {
       "title": "Rishikesh",
       "subtitle": "...Peachy and Decency, Sign A Peace Treaty",
-      "image": "nainital.webp"
+      "type": "destinations",
+      "image": {
+        "name": "Rishikesh",
+        "ext": "png "
+      }
     },
     {
       "title": "Mussoorie",
       "subtitle": "...Peachy and Decency, Sign A Peace Treaty",
-      "image": "nainital.webp"
+      "type": "destinations",
+      "image": {
+        "name": "Mussoorie",
+        "ext": "png "
+      }
     }
   ]
 }

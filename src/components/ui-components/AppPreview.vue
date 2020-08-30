@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <div class="preview">
+    <div v-if="!isModelTwo" class="preview">
     <section class="preview-header hero is-dark is-bold">
       <div class="hero-body">
         <h1 class="title">{{title}}</h1>
@@ -19,7 +18,7 @@
     </b-carousel-list>
     <slot></slot>
   </div>
-  <div class="preview">
+  <div v-else class="preview">
     <section class="preview-header hero is-dark is-bold">
       <div class="hero-body">
         <h1 class="title">{{title}}</h1>
@@ -38,18 +37,20 @@
     </b-carousel-list>
     <slot></slot>
   </div>
-  </div>
 </template>
 
 <script>
 import AppPreviewCard from './AppPreviewCard.vue';
 import AppPreviewCardModel2 from './AppPreviewCardModel2.vue';
+// no need to import registered via _globals.js
+// import AppPreviewCard from './AppPreviewCard.vue';
 
 export default {
   name: 'AppPreview',
   components: {
     AppPreviewCard,
     AppPreviewCardModel2
+    // AppPreviewCard,
   },
   data() {
     return {
@@ -60,6 +61,7 @@ export default {
     title: { type: String, required: true },
     titleDesc: { type: String },
     previewItemsList: { type: Array, required: true },
+    isModelTwo: { type: Boolean, default: false },
   },
 };
 </script>

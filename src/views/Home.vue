@@ -14,6 +14,25 @@
             visited hill station of the North India since British period."
       :preview-items-list="packages"
     ></app-preview>
+    <app-preview
+      class="packages"
+      title="Destinations"
+      title-desc="Beautiful mountain, crystal-clear lakes, famous temples and greenery
+            all over is Nainital for you. Popularly known as the City of Lakes,
+            Nainital is an idyllic escape from the humdrum of city life.
+            Enveloped in a thick foil of nature, accentuated by the scent of the
+            flowering blossoms blending miraculously in the crisp fresh air,
+            Nainital is truly the treasure trove of Kumano. It is among the most
+            visited hill station of the North India since British period."
+      :preview-items-list="packagesNew"
+      :isModelTwo="true"
+    >
+      <div class="columns">
+        <div class="column">
+          <button class="button">View All Destinations</button>
+        </div>
+      </div>
+    </app-preview> 
     <destinations></destinations>
     <app-preview
       class="packages"
@@ -56,11 +75,13 @@ export default {
       BASE_URL: process.env.BASE_URL,
       packages: [],
       destinations: [],
+      packagesNew: [],
     };
   },
   created() {
     this.getPackages();
     this.getDestinations();
+    this.getPackagesNew();
   },
   methods: {
     getDestinations() {
@@ -73,6 +94,11 @@ export default {
     getPackages() {
       this.apiClient.get(`${this.BASE_URL}data/packages.json`).then((res) => {
         this.packages = res.data.items;
+      });
+    },
+    getPackagesNew() {
+      this.apiClient.get(`${this.BASE_URL}data/packages-new.json`).then((res) => {
+        this.packagesNew = res.data.items;
       });
     },
   },
