@@ -8,6 +8,7 @@ import 'buefy/dist/buefy.css';
 import './assets/app.scss';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
+import './components/ui-components/_globals';
 
 Vue.use(VueAxios, axios);
 Vue.use(VueCarousel);
