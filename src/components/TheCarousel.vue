@@ -19,22 +19,35 @@
           <div class="carousel-content">
             <div class="carousel-left-content">
               <div class="carousel-title">
-                <p>Chardham Yatra</p>          
+                <p>{{item.title}}</p>
               </div>
-              <div class="carousel-subtitle"><p>...Voice of Conscience</p></div>
-              <div class="carousel-route"><p>Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi</p></div>
-              <div class="carousel-desc"><p>(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)</p></div>
+              <div class="carousel-subtitle">
+                <p>{{item.subtitle}}</p>
+              </div>
+              <div class="carousel-route">
+                <p>{{item.route}}</p>
+              </div>
+              <div class="carousel-desc">
+                <p>{{item.description}}</p>
+              </div>
             </div>
             <div class="carousel-right-content">
-              <div class="carousel-duration"><p><b>11</b> Nights / <b>12</b> Days</p></div>
-                <p>@</p>
-                <div class="carousel-price"><p> &#8377; 41000/-</p></div>
-                <div><p>PER PERSON</p></div>              
+              <div class="carousel-duration">
+                <p>
+                  <b>{{item.nights}}</b> Nights /
+                  <b>{{item.days}}</b> Days
+                </p>
+              </div>
+              <p>@</p>
+              <div class="carousel-price">
+                <p>&#8377; {{item.price}}/-</p>
+              </div>
+              <div>
+                <p>PER PERSON</p>
+              </div>
             </div>
           </div>
-
-        </div>        
-        
+        </div>
       </slide>
     </carousel>
   </div>
@@ -50,45 +63,16 @@ export default {
   },
   data: function () {
     return {
-      carouselItem: [
-        {
-          image: "images/ChardhamYatra.png",
-          textOverImage: "Slide 1",
-          id: 1,
-        },
-        {
-          image: "images/Haridwar.png",
-          textOverImage: "Slide 2",
-          id: 2,
-        },
-        {
-          image: "images/Tiger.png",
-          textOverImage: "Slide 3",
-          id: 3,
-        },
-        {
-          image: "images/parmarth.png",
-          textOverImage: "Slide 4",
-          id: 4,
-        },
-        {
-          image: "images/LakshmanJhula.png",
-          textOverImage: "Slide 5",
-          id: 5,
-        },
-        {
-          image: "images/trekking.png",
-          textOverImage: "Slide 6",
-          id: 6,
-        },
-      ],
+      carouselItem: [],
     };
   },
-  methods: {
-    getImgUrl: function (path) {
-      console.log(path);
-      return require(path);
-    },
+  methods: {},
+  created() {
+    this.$http
+      .get(`${process.env.BASE_URL}Data/carousel.json`)
+      .then((response) => {
+        this.carouselItem = response.data.items;
+      });
   },
 };
 </script>
@@ -119,18 +103,15 @@ export default {
   width: 100%;
   left: 0%;
   height: 550px;
-  top: 0%;  
+  top: 0%;
   img {
     object-fit: fill;
   }
 }
 
-
-
 .carousel-img {
   width: 100%;
   height: 550px;
-  
 }
 
 .slide-ease {
@@ -156,18 +137,18 @@ export default {
   }
 }
 
-.carousel-content{
-  display: flex;  
+.carousel-content {
+  display: flex;
   width: 100%;
-  height: 100%;  
+  height: 100%;
   position: absolute;
-  top:0%;
-  left:0%;
-  background-color: rgba(38,38,38, 0.6) !important;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(38, 38, 38, 0.6) !important;
   justify-content: space-between;
 }
 
-.carousel-left-content{
+.carousel-left-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,10 +158,10 @@ export default {
   justify-content: center;
 }
 
-.carousel-title{
+.carousel-title {
   display: flex;
   justify-content: flex-start;
-  font-family: 'Lucida Handwriting';
+  font-family: "Lucida Handwriting";
 }
 
 .carousel-title p {
@@ -189,35 +170,35 @@ export default {
   width: max-content;
 }
 
-.carousel-subtitle{
+.carousel-subtitle {
   align-self: flex-end;
-    p{
-      color: yellow;
-      font-size: 0.8rem;
-    }
+  p {
+    color: yellow;
+    font-size: 0.8rem;
+  }
 }
 
-.carousel-route{  
+.carousel-route {
   align-self: center;
-  padding:0.2rem;
-    p{
-      color: rgb(200, 248, 27);
-      font-size: 1rem;
-    }
+  padding: 0.2rem;
+  p {
+    color: rgb(200, 248, 27);
+    font-size: 1rem;
+  }
 }
 
-.carousel-desc{  
+.carousel-desc {
   align-self: center;
-    p{
-      color: #efbb20;
-      font-size: 0.8rem;
-    }
+  p {
+    color: #efbb20;
+    font-size: 0.8rem;
+  }
 }
 
-.carousel-right-content{
-  top:0%;
+.carousel-right-content {
+  top: 0%;
   display: flex;
-  color:white;
+  color: white;
   flex-direction: column;
   width: 12.5%;
   height: fit-content;
@@ -229,24 +210,23 @@ export default {
   border-bottom-style: solid;
 }
 
-.carousel-duration{
-  padding:0.5rem;
+.carousel-duration {
+  padding: 0.5rem;
   align-self: center;
-  p{
+  p {
     font-size: 2.1rem;
     font-family: "Brush Script MT";
   }
 }
 
-.carousel-price{
+.carousel-price {
   padding: 0.5rem;
-  p{
+  p {
     border: none;
-  border-radius: 40px 10px;
-  background: #690404;
+    border-radius: 40px 10px;
+    background: #690404;
     font-size: 2.1rem;
-    font-family: "Brush Script MT";    
+    font-family: "Brush Script MT";
   }
 }
-
 </style>
