@@ -64,10 +64,12 @@ export default {
     },
   },
   created() {
-    axios.get(`${process.env.BASE_URL}Data/Pckg4-0.json`).then((response) => {
-      this.posts = response.data.data[0];
-      console.log(this.posts);
-    });
+    this.$http
+      .get(`${process.env.BASE_URL}Data/Pckg4-0.json`)
+      .then((response) => {
+        this.posts = response.data.data[0];
+        console.log(this.posts);
+      });
   },
 };
 </script>
