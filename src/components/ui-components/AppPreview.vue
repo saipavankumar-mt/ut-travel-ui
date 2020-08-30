@@ -1,5 +1,6 @@
 <template>
-  <div class="preview">
+  <div>
+    <div class="preview">
     <section class="preview-header hero is-dark is-bold">
       <div class="hero-body">
         <h1 class="title">{{title}}</h1>
@@ -13,20 +14,42 @@
       :items-to-show="4"
     >
       <template slot="item" slot-scope="list">
-        <app-preview-card :item="list"></app-preview-card>
+        <app-preview-card :item="list"></app-preview-card>        
       </template>
     </b-carousel-list>
     <slot></slot>
+  </div>
+  <div class="preview">
+    <section class="preview-header hero is-dark is-bold">
+      <div class="hero-body">
+        <h1 class="title">{{title}}</h1>
+        <p class="is-italic">{{titleDesc}}</p>
+      </div>
+    </section>
+    <b-carousel-list
+      class="preview-carousel container"
+      v-model="itemIndex"
+      :data="previewItemsList"
+      :items-to-show="2"
+    >
+      <template slot="item" slot-scope="list">        
+        <app-preview-card-model2 :item="list"></app-preview-card-model2>     
+      </template>
+    </b-carousel-list>
+    <slot></slot>
+  </div>
   </div>
 </template>
 
 <script>
 import AppPreviewCard from './AppPreviewCard.vue';
+import AppPreviewCardModel2 from './AppPreviewCardModel2.vue';
 
 export default {
   name: 'AppPreview',
   components: {
     AppPreviewCard,
+    AppPreviewCardModel2
   },
   data() {
     return {

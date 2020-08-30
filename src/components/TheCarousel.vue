@@ -42,7 +42,7 @@
               <div class="carousel-price">
                 <p>&#8377; {{item.price}}/-</p>
               </div>
-              <div>
+              <div class="carousel-perperson">
                 <p>PER PERSON</p>
               </div>
             </div>
@@ -208,7 +208,9 @@ export default {
   border-left-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
+  border-radius: 0px 0px 0.5rem 5rem;
 }
+
 
 .carousel-duration {
   padding: 0.5rem;
@@ -223,10 +225,15 @@ export default {
   padding: 0.5rem;
   p {
     border: none;
-    border-radius: 40px 10px;
+    //border-radius: 40px 10px;
+    border-radius: 30px/10px;
     background: #690404;
     font-size: 2.1rem;
     font-family: "Brush Script MT";
   }
+}
+
+.carousel-perperson{
+  padding-bottom: 2rem;;
 }
 </style>

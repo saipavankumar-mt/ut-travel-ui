@@ -4,32 +4,44 @@
       "title": "Chardham",
       "subtitle": "Yamunotri - Gangotri - Kedarnath - Badrinath",
       "image": "chardham.png",
-      "id": "Pckg4-0.json"
+      "id": "Pckg4-0.json",
+      "duration": "11 Nights / 12 Days",
+      "price": "41000"
     },
     {
       "title": "Teendham",
       "subtitle": "Gangotri - Kedarnath - Badrinath",
-      "image": "theendham.png"
+      "image": "theendham.png",
+      "duration": "7 Nights / 8 Days",
+      "price": "35000"
     },
     {
       "title": "Dodham",
       "subtitle": "Kedarnath - Badrinath",
-      "image": "dodham.png"
+      "image": "dodham.png",
+      "duration": "4 Nights / 5 Days",
+      "price": "25000"
     },
     {
       "title": "Panchkedar",
       "subtitle": "Kedarnath - Madhmaeshwar - Tungnath - Rudranath - Kalpeshwar",
-      "image": "panchkedar.png"
+      "image": "panchkedar.png",
+      "duration": "14 Nights / 15 Days",
+      "price": "51999"
     },
     {
       "title": "Panchbadri",
       "subtitle": "Vishal Badri (Badrinath) - Yogdhyan Badri - Bhavishya Badri - Vridha Badri - Adi Badri",
-      "image": "panchkedar.png"
+      "image": "panchkedar.png",
+      "duration": "14 Nights / 15 Days",
+      "price": "49999"
     },
     {
       "title": "Panchprayag",
       "subtitle": "Karanprayag - Nandprayag - Rudraprayag - Vishnuprayag - Devpryag",
-      "image": "panchkedar.png"
+      "image": "panchkedar.png",
+      "duration": "14 Nights / 15 Days",
+      "price": "49999"
     }
   ]
 }
