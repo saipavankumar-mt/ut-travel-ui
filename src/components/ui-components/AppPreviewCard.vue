@@ -1,5 +1,5 @@
 <template>
-  <div class="preview-card card" v-on:click="redirect()">
+  <div class="preview-card card" v-on:click="item.id ?redirect():''">
     <div class="card-image">
       <figure class="image is-4by3">
         <!-- <img :src="'/img/'+item.image"> -->
@@ -27,7 +27,10 @@ export default {
   },
   methods: {
     redirect: function () {
-      this.$router.push({ name: "Detail", params: { packageId: "Pckg4-0" } });
+      this.$router.push({
+        name: "Detail",
+        params: { packageId: this.item.id },
+      });
     },
   },
 };
