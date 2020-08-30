@@ -8,7 +8,7 @@
       title-desc="...some text"
       :preview-items-list="packages"
     ></app-preview>
-    <!-- <app-preview
+    <app-preview
       class="destinations"
       title="Destinations"
       title-desc="...some text"
@@ -19,15 +19,15 @@
           <button class="button">View All Destinations</button>
         </div>
       </div>
-    </app-preview> -->
-    <destinations></destinations>
+    </app-preview>
+    <!-- <destinations></destinations> -->
   </div>
 </template>
 
 <script>
 import TheCarousel from '../components/TheCarousel.vue';
 // import OfferList from './OfferList.vue';
-import Destinations from './Destinations.vue';
+// import Destinations from './Destinations.vue';
 import AppPreview from '../components/ui-components/AppPreview.vue';
 
 export default {
@@ -36,7 +36,7 @@ export default {
     TheCarousel,
     AppPreview,
     // OfferList,
-    Destinations,
+    // Destinations,
   },
   data() {
     return {
