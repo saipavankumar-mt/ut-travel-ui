@@ -94,8 +94,7 @@ export default {
   padding: 0 0 10px 0;
 }
 
-.modal-card-head,
-.is-blue {
+.modal-card-head {
   background-color: #47caf0 !important;
 }
 

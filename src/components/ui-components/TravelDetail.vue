@@ -45,7 +45,7 @@
           </div>
         </div>
         <!-- <router-link :to="{ name: 'contact'}"> -->
-        <b-button type="is-primary " @click="cardModal()">Book Now</b-button>
+        <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
         <!-- </router-link> -->
       </div>
     </div>

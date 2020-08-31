@@ -9,9 +9,9 @@
 
 <script>
 // import Home from './views/Home.vue';
-import TheHeader from './components/TheHeader.vue';
+import TheHeader from "./components/TheHeader.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     // Home,
     TheHeader,
@@ -31,5 +31,11 @@ export default {
 
 .app-router {
   padding-top: 5rem;
+}
+
+.is-blue {
+  background-color: #47caf0 !important;
+  color: white !important;
+  font-weight: 700;
 }
 </style>
