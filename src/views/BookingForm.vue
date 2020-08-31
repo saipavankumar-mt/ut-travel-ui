@@ -37,14 +37,16 @@
             </b-field>
           </div>
           <b-field>
-            <b-datepicker
-              v-model="selected"
-              :show-week-number="showWeekNumber"
-              :locale="'en-GB'"
-              placeholder="Click to select..."
-              icon="calendar-today"
-              trap-focus
-            ></b-datepicker>
+            <div class="date-picker1" v-on:click="scrollToView('date-picker1')">
+              <b-datepicker
+                v-model="selected"
+                :show-week-number="showWeekNumber"
+                :locale="'en-GB'"
+                placeholder="Click to select..."
+                icon="calendar-today"
+                trap-focus
+              ></b-datepicker>
+            </div>
           </b-field>
           <b-field>
             <b-input maxlength="200" type="textarea" placeholder="Requirement"></b-input>
@@ -63,7 +65,15 @@
 export default {
   name: "BookingForm",
   components: {},
-  methods: {},
+  methods: {
+    scrollToView(className) {
+      console.log(className);
+      // let el = this.$el.getElementsByClassName(className);
+      document.querySelector("." + className).scrollIntoView({
+        behavior: "smooth",
+      });
+    },
+  },
   data() {
     return {
       name: "",
@@ -76,6 +86,7 @@ export default {
       showWeekNumber: false,
     };
   },
+  created() {},
 };
 </script>
 
