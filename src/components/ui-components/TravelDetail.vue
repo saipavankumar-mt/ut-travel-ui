@@ -205,7 +205,7 @@ export default {
         padding: 8px;
       }
       .itinerary {
-        padding: 12px 8px;
+        padding: 18px 8px;
         font-weight: 700;
         text-align: left;
 
