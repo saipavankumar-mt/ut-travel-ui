@@ -50,7 +50,7 @@
     </div>
 
     <div>
-      <div class="days-container" v-for="(item, i) in posts['Description']" :key="i">
+      <div class="days-container" v-for="(item, i) in posts['description']" :key="i">
         <div class="columns">
           <div class="column is-one-quarter" v-if="checkIfIndexIsOdd(i)">
             <img
@@ -93,8 +93,6 @@
 </template>
 
 <script>
-import axios from "axios";
-
 export default {
   name: "TravelDetail",
   components: {},
@@ -120,49 +118,34 @@ export default {
       },
       items: [
         {
-          title: "Slide 1",
           image: "https://picsum.photos/id/0/1230/500",
         },
         {
-          title: "Slide 2",
           image: "https://picsum.photos/id/1/1230/500",
         },
         {
-          title: "Slide 3",
           image: "https://picsum.photos/id/2/1230/500",
         },
         {
-          title: "Slide 4",
           image: "https://picsum.photos/id/3/1230/500",
         },
         {
-          title: "Slide 5",
           image: "https://picsum.photos/id/4/1230/500",
         },
         {
-          title: "Slide 6",
           image: "https://picsum.photos/id/5/1230/500",
         },
         {
-          title: "Slide 7",
           image: "https://picsum.photos/id/6/1230/500",
         },
         {
-          title: "Slide 8",
           image: "https://picsum.photos/id/7/1230/500",
         },
       ],
     };
   },
   methods: {
-    getData() {
-      const baseUrl = process.env.BASE_URL;
-      return axios.get(`${baseUrl}Data/Pckg4-0.json`).then((res) => {
-        this.detailData = res.data;
-      });
-    },
     checkIfIndexIsOdd(index) {
-      console.log(index);
       return index % 2;
     },
   },
@@ -171,7 +154,7 @@ export default {
       .get(`${process.env.BASE_URL}Data/Pckg4-0.json`)
       .then((response) => {
         this.posts = response.data.data[0];
-        console.log(this.posts);
+        console.log("dat", this.posts);
       });
   },
 };

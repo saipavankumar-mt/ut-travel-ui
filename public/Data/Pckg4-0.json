@@ -8,11 +8,17 @@
       "route": "Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi",
       "duration": "11 Nights / 12 Days",
       "nightStay": "Haridwar (2N), Barkot (2N), Uttarkashi (2N), Guptkashi (2N), Kedarnath (1N), Badrinath (1N), Rudraprayag (1N)",
-      "HeroImage": "",
-      "Images": ["ChardhamYatra.png", "BadrinathDham.png", "GangotriDham.png", "KedarnathDham.png", "yamunotriDham.png"],
-      "Description": [
+      "heroImage": "",
+      "images": [
+        "ChardhamYatra.png",
+        "BadrinathDham.png",
+        "GangotriDham.png",
+        "KedarnathDham.png",
+        "yamunotriDham.png"
+      ],
+      "description": [
         {
-          "Image":"Haridwar.png",          
+          "image": "Haridwar.png",
           "title": "Day 1st : Pickup from Delhi Railway Station / Airport (215 Kms : 6 Hrs. Travelling to Haridwar)",
           "subtitles": [
             "Start Yatra from Delhi to Haridwar.",
@@ -24,7 +30,7 @@
         {
           "image": "Barkot.png",
           "title": "Day 2nd : Haridwar to Barkot (180 Kms : 6 - 7 Hrs. Travelling to Barkot)",
-          "subtitles":[
+          "subtitles": [
             "After breakfast, Check Out from Hotel, Depart for Haridwar.",
             "On the way you can visit Kampty Fall.",
             "Evening free for rest.",
@@ -32,9 +38,9 @@
           ]
         },
         {
-          "image":"yamunotriDham.png",
+          "image": "yamunotriDham.png",
           "title": "Day 3rd : Barkot to Yamunotri to Barkot (45 km. By Road and 6 Km. by foot one way)",
-          "subtitles":[
+          "subtitles": [
             "After Breakfast Start Yatra for 1st Dham Yamunotri.",
             "Yamunotri Temple is dedicated to Goddess Yamuna. Yamunotri is the source of revered river Yamuna which originates from the Champasar Glacier lying 1 Km. Ahead of the shrine situated at an elevation of 3235 mts above sea level. The approach is extremely difficult and pilgrims therefore offer Pooja at the temple itself. Yamunotri was the home of an ancient sage Asit Muni.",
             "Yamuna :- Yamuna is the daughter of the Sun just like Yama who is considered his son. It is believed that Yama would not torment any person at the time of death who bathes in Yamuna, his sister.",
@@ -44,9 +50,9 @@
           ]
         },
         {
-          "image":"uttarkasi.png",
+          "image": "uttarkasi.png",
           "title": "Day 4th : Barkot to Uttarkashi",
-          "subtitles":[
+          "subtitles": [
             "After Breakfast move for Uttarkashi.",
             "Uttarkashi is a small and beautiful town, situated between two rivers: Varuna and Ashi, whose water flow into the Bhagirathi from either side of the town. Elevated, at a height of 1588 metres, this little town is very similar to Kashi and Varanasi, in that it has the same kind of temples and ghats and likewise, a north or 'uttar' facing river. The major temple is the Vishwanath Temple, dedicated to Lord Shiva.",
             "Dinner & Overnight Stay at Uttarkashi."
@@ -55,7 +61,7 @@
         {
           "image": "gangotriDham.png",
           "title": "Day 5th : Uttarkashi to Gangotri to Uttarkashi (95 kms. – 3 -4 Hrs. Travelling to reach Gangotri)",
-          "subtitles":[
+          "subtitles": [
             "After breakfast, start Yatra for 2nd Dham Gangotri.",
             "Gangotri temple is 18th Century temple dedicated to Goddess Ganga. It is located near a sacred stone where king Bhagirath worshipped Lord Shiva Ganga is believed to have touched earth at this spot. Accordingly to another legend, Pandavas performed the great Deva Yagna here to a tone the death of their kinsmen in the epic battle of Mahabharata. The temple is an exquisite 20 ft. high structure made of white granite.",
             "Gangnani :-Further up on way to Gangotri, is the hot water spring at Gangnani, where one can have refreshing bath in the kund called Rishikund. There is a temple near the kund dedicated to the Sage Parashar, believed to be the father of Ved Vyas.",
@@ -65,16 +71,16 @@
         {
           "image": "guptkashi.png",
           "title": "Day 6th : Uttarkashi to Guptkashi (240 kms. – 8 - 9 Hrs. Travelling to reach Guptkashi)",
-          "subtitles":[
+          "subtitles": [
             "After breakfast, move for Guptkashi.",
             "Leave very early in the morning for almost day long drive to Guptkashi",
             "Dinner & Overnight Stay at Guptkashi."
           ]
         },
         {
-          "image":"KedarnathDham.png",
+          "image": "KedarnathDham.png",
           "title": "Day 7th : Guptkashi to Kedarnath (35 km. from Vehicle and 21 km. by foot)",
-          "subtitles":[
+          "subtitles": [
             "After breakfast, start Yatra for 3rd Dham Kedarnath.",
             "The present temple built in 8th Century A.D. by Adi Guru Shankaracharya lies adjacent to the site of an ancient temple built by Pandavas. The temple has a conical lingam - the main idol, a statue of Nandi - the celestial bull, a 'Garba Grah' for worship and a man dap for assemblies of pilgrims and visitors. The temple is more than 1000 years old.",
             "Bhaironath Temple :-About half a kilometer away from Kedarnathji, a small temple is dedicated to Bhaironath. It is worshipped on the opening and closing day of Sri Kedarnath Shrine. Ii is believed that when Kedarnathji temple is closed. Bhaironathji protects this land from evil.",
@@ -82,7 +88,7 @@
           ]
         },
         {
-          "image":"guptkashi.png",
+          "image": "guptkashi.png",
           "title": "Day 8th : Kedarnath to Guptkashi (21 km. by foot and 35 km. from Vehicle)",
           "subtitles": [
             "After breakfast, move for Guptkashi.",
@@ -104,7 +110,7 @@
           ]
         },
         {
-          "image":"rudrapryag.png",
+          "image": "rudrapryag.png",
           "title": "Day 10th : Badrinath to Rudrapryag (160 kms. – 6 - 7 Hrs. Travelling to reach Rudrapryag)",
           "subtitles": [
             "After breakfast, Move for Rudrapryag.",
@@ -115,7 +121,7 @@
         {
           "image": "Haridwar.png",
           "title": "Day 11th : Rudrapryag to Haridwar (160 kms. – 6 - 7 Hrs. Travelling to reach Haridwar)",
-          "subtitles":[
+          "subtitles": [
             "After breakfast, move for Haridwar.",
             "On the way you can visit Rishikesh such as Prabhat Niketan, Ram Jhoola, Laxman Jhoola.",
             "Dinner & Overnight Stay at Haridwar."
@@ -130,7 +136,7 @@
           ]
         }
       ],
-      "ImportantInfo": [
+      "importantInfo": [
         {
           "title": "Note",
           "subtitles": [
@@ -140,16 +146,14 @@
         },
         {
           "title": "For your kind Perusal:",
-          "subtitles": [
-            "VIP darshan Rs. 2,100/- per person per Dham."
-          ]
+          "subtitles": ["VIP darshan Rs. 2,100/- per person per Dham."]
         },
         {
-           "title": "General",
-           "subtitles": [
-             "All the rates are subject to change without prior notice.",
-             "All disputes are subject to Haridwar Jurisdiction."
-           ]
+          "title": "General",
+          "subtitles": [
+            "All the rates are subject to change without prior notice.",
+            "All disputes are subject to Haridwar Jurisdiction."
+          ]
         }
       ]
     }
