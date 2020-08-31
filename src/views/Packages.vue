@@ -1,15 +1,16 @@
 <template>
   <app-preview
-    class="destinations"
+    class="packages"
     :title="title"
     :title-desc="titleDesc"
-    :preview-items-list="destinations"
+    :preview-items-list="packages"
+    :is-model-two="true"
     :show-all="showAll"
   >
     <div class="columns">
       <div class="column">
         <button class="button" @click.prevent="showAll=!showAll">
-          <span v-if="!showAll">View All Destinations</span>
+          <span v-if="!showAll">View All Packages</span>
           <span v-else>View Less</span>
         </button>
       </div>
@@ -19,29 +20,29 @@
 
 <script>
 export default {
-  name: 'Destinations',
+  name: 'Packages',
   components: {},
   data() {
     return {
       title: '',
       titleDesc: '',
-      destinations: [],
+      packages: [],
       showAll: false,
     };
   },
   created() {
-    this.getDestinations();
+    this.getPackages();
   },
   methods: {
-    getDestinations() {
+    getPackages() {
       this.$http
-        .get(`${process.env.BASE_URL}data/destinations.json`)
+        .get(`${process.env.BASE_URL}data/packages.json`)
         .then((res) => {
           this.title = res.data.title;
           this.titleDesc = res.data.titleDesc;
-          this.destinations = this.showAll
+          this.packages = this.showAll
             ? res.data.items
-            : res.data.items.slice(0, 8);
+            : res.data.items.slice(0, 4);
         });
     },
   },
@@ -49,13 +50,16 @@ export default {
 </script>
 
 <style lang="scss">
-.destinations {
-  background-image: url('../assets/images/DeoriyaTal.jpg');
+.packages {
+  // background-image: url('../assets/images/DeoriyaTal.jpg');
+  background-image: linear-gradient(
+    141deg,
+    #1f191a 0%,
+    #363636 71%,
+    #46403f 100%
+  );
+  background-color: #363636;
   background-size: cover;
   background-blend-mode: overlay;
-  background-color: #363636;
-  /deep/ .preview-all {
-    transition: all 0.3s ease-in-out;
-  }
 }
 </style>

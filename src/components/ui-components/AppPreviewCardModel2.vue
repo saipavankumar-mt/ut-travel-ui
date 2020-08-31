@@ -23,18 +23,15 @@
 
 <script>
 export default {
-  name: "AppPreviewCardModel2",
+  name: 'AppPreviewCardModel2',
   props: {
     item: { type: Object, required: true },
     image: { type: String },
   },
-  created() {
-    console.log({ item: this.item });
-  },
   methods: {
     redirect: function () {
       this.$router.push({
-        name: "detail",
+        name: 'detail',
         params: { packageId: this.item.id },
       });
     },
@@ -46,15 +43,28 @@ export default {
 .pvmodel2-outer {
   box-shadow: 5px 0 10px;
   background-color: white;
+  height: 100%;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px 2px;
+    z-index: 50;
+    transform: scale(1.09);
+  }
 }
 
 .pvmodel2-inner {
   display: flex;
+  border-radius: 5px 5px 0 0;
 }
 
 .pvmodel2-inner-img {
   width: 50%;
   height: 100%;
+  & img {
+    border-radius: 5px 0 0 0;
+  }
 }
 
 .pvmodel2-inner-title {
@@ -63,9 +73,17 @@ export default {
   justify-content: center;
   background: white;
   flex-direction: column;
+  padding: 1rem;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  border-radius: 0 5px 0 0;
   .is-italic {
     color: #86690f;
   }
+}
+
+.pvmodel2-subtitle {
+  padding: 1rem;
 }
 
 .pvmodel2-title {
@@ -77,14 +95,14 @@ export default {
 .pvmodel2-duration {
   align-self: center;
   font-size: 1.5rem;
-  font-family: "Brush Script MT";
+  font-family: 'Brush Script MT';
 }
 
 .pvmodel2-price {
   p {
     color: #690404;
     font-size: 1.8rem;
-    font-family: "Brush Script MT";
+    font-family: 'Brush Script MT';
   }
 }
 </style>

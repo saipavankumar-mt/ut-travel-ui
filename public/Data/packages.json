@@ -1,59 +1,55 @@
 {
+  "title": "Devotional Yatras",
+  "titleDesc": "Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period.",
   "items": [
     {
       "id": "Pckg4-0.json",
       "title": "Chardham",
-      "subtitle": "Yamunotri - Gangotri - Kedarnath - Badrinath",
-      "type": "packages",
-      "image": {
-        "name": "Chardham",
-        "ext": "png"
-      }
+      "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
+      "image": "chardham.png",
+      "duration": "11 Nights / 12 Days",
+      "price": "41000",
+      "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     },
     {
       "title": "Teendham",
-      "subtitle": "Gangotri - Kedarnath - Badrinath",
-      "type": "packages",
-      "image": {
-        "name": "Teendham",
-        "ext": "png "
-      }
+      "route": "Gangotri - Kedarnath - Badrinath",
+      "image": "theendham.png",
+      "duration": "7 Nights / 8 Days",
+      "price": "35000",
+      "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     },
     {
       "title": "Dodham",
-      "subtitle": "Kedarnath - Badrinath",
-      "type": "packages",
-      "image": {
-        "name": "Dodham",
-        "ext": "png "
-      }
+      "route": "Kedarnath - Badrinath",
+      "image": "dodham.png",
+      "duration": "4 Nights / 5 Days",
+      "price": "25000",
+      "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     },
     {
       "title": "Panchkedar",
-      "subtitle": "Kedarnath - Madhmaeshwar - Tungnath - Rudranath - Kalpeshwar",
-      "type": "packages",
-      "image": {
-        "name": "Panchkedar",
-        "ext": "png "
-      }
+      "route": "Kedarnath - Madhmaeshwar - Tungnath - Rudranath - Kalpeshwar",
+      "image": "panchkedar.png",
+      "duration": "14 Nights / 15 Days",
+      "price": "51999",
+      "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     },
     {
       "title": "Panchbadri",
-      "subtitle": "Vishal Badri (Badrinath) - Yogdhyan Badri - Bhavishya Badri - Vridha Badri - Adi Badri",
-      "type": "packages",
-      "image": {
-        "name": "Panchbadri",
-        "ext": "png "
-      }
+      "route": "Vishal Badri (Badrinath) - Yogdhyan Badri - Bhavishya Badri - Vridha Badri - Adi Badri",
+      "image": "panchkedar.png",
+      "duration": "14 Nights / 15 Days",
+      "price": "49999",
+      "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     },
     {
       "title": "Panchprayag",
-      "subtitle": "Karanprayag - Nandprayag - Rudraprayag - Vishnuprayag - Devpryag",
-      "type": "packages",
-      "image": {
-        "name": "Panchprayag",
-        "ext": "png "
-      }
+      "route": "Karanprayag - Nandprayag - Rudraprayag - Vishnuprayag - Devpryag",
+      "image": "panchkedar.png",
+      "duration": "14 Nights / 15 Days",
+      "price": "49999",
+      "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     }
   ]
 }

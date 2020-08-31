@@ -1,38 +1,30 @@
 <template>
-    <div v-if="!isModelTwo" class="preview">
-    <section class="preview-header hero is-dark is-bold">
+  <div class="preview">
+    <header class="preview-header hero is-dark is-bold">
       <div class="hero-body">
         <h1 class="title">{{title}}</h1>
         <p class="is-italic">{{titleDesc}}</p>
       </div>
+    </header>
+    <section v-show="showAll" class="preview-all columns is-multiline">
+      <template v-for="(item, idx) in previewItemsList">
+        <div class="column" :class="isModelTwo ? 'is-6' : 'is-3' " :key="idx">
+          <app-preview-card-model2 v-if="isModelTwo" :item="item"></app-preview-card-model2>
+          <app-preview-card v-else :item="item"></app-preview-card>
+        </div>
+      </template>
     </section>
     <b-carousel-list
+      v-show="!showAll"
       class="preview-carousel container"
       v-model="itemIndex"
       :data="previewItemsList"
-      :items-to-show="4"
+      :items-to-show="isModelTwo ? 2 : 4"
+      :arrow-hover="false"
     >
       <template slot="item" slot-scope="list">
-        <app-preview-card :item="list"></app-preview-card>        
-      </template>
-    </b-carousel-list>
-    <slot></slot>
-  </div>
-  <div v-else class="preview">
-    <section class="preview-header hero is-dark is-bold">
-      <div class="hero-body">
-        <h1 class="title">{{title}}</h1>
-        <p class="is-italic">{{titleDesc}}</p>
-      </div>
-    </section>
-    <b-carousel-list
-      class="preview-carousel container"
-      v-model="itemIndex"
-      :data="previewItemsList"
-      :items-to-show="2"
-    >
-      <template slot="item" slot-scope="list">        
-        <app-preview-card-model2 :item="list"></app-preview-card-model2>     
+        <app-preview-card-model2 v-if="isModelTwo" :item="list"></app-preview-card-model2>
+        <app-preview-card v-else :item="list"></app-preview-card>
       </template>
     </b-carousel-list>
     <slot></slot>
@@ -40,18 +32,9 @@
 </template>
 
 <script>
-import AppPreviewCard from './AppPreviewCard.vue';
-import AppPreviewCardModel2 from './AppPreviewCardModel2.vue';
-// no need to import registered via _globals.js
-// import AppPreviewCard from './AppPreviewCard.vue';
-
 export default {
   name: 'AppPreview',
-  components: {
-    AppPreviewCard,
-    AppPreviewCardModel2
-    // AppPreviewCard,
-  },
+  components: {},
   data() {
     return {
       itemIndex: 0,
@@ -62,6 +45,7 @@ export default {
     titleDesc: { type: String },
     previewItemsList: { type: Array, required: true },
     isModelTwo: { type: Boolean, default: false },
+    showAll: { type: Boolean, default: false },
   },
 };
 </script>
@@ -69,22 +53,17 @@ export default {
 <style lang="scss">
 .preview {
   padding-bottom: 1.5rem;
-  background-color: #363636;
-  background-image: linear-gradient(
-    141deg,
-    #1f191a 0%,
-    #363636 71%,
-    #46403f 100%
-  );
   .preview-header {
     background: none !important;
     .title {
       margin-bottom: 0.3rem;
     }
-    .is-italic{
-    color:#efbb20;
+    .is-italic {
+      color: #efbb20;
     }
   }
+
+  .preview-all,
   .preview-carousel {
     box-shadow: none !important;
     margin: 0 2rem !important;
@@ -92,8 +71,10 @@ export default {
     /deep/.carousel-slide {
       padding: 30px;
     }
+    .column {
+      padding: 30px !important;
+      height: inherit;
+    }
   }
-
-  
 }
 </style>

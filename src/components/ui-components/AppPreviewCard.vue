@@ -48,24 +48,20 @@ export default {
 
 <style lang="scss">
 .preview-card {
-  min-height: 20rem;
   height: 100%;
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
 
-  .image img {
+  .card-image >.image >img {
     border-radius: 5px 5px 0 0;
+  }
+  .card-content {
+    padding: 1rem !important;
   }
   &:hover {
     cursor: pointer;
     box-shadow: 0 0 15px 2px;
-    z-index: 50;
-    transform: scale(1.08);
-    .image img {
-      transform: scale(1.05);
-      border-radius: 0;
-      transition: all 0.1s ease-in-out;
-    }
+    transform: scale(1.09);
   }
 }
 </style>
