@@ -67,8 +67,6 @@ export default {
   components: {},
   methods: {
     scrollToView(className) {
-      console.log(className);
-      // let el = this.$el.getElementsByClassName(className);
       document.querySelector("." + className).scrollIntoView({
         behavior: "smooth",
       });
