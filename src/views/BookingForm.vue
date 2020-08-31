@@ -52,7 +52,7 @@
         </section>
         <footer class="modal-card-foot">
           <button class="button" type="button" @click="$emit('close')">Close</button>
-          <button class="button is-primary">Submit</button>
+          <button class="button is-blue">Submit</button>
         </footer>
       </div>
     </form>
@@ -92,5 +92,14 @@ export default {
 }
 .modal-card-heading {
   padding: 0 0 10px 0;
+}
+
+.modal-card-head,
+.is-blue {
+  background-color: #47caf0 !important;
+}
+
+.is-blue {
+  border-color: #44f3ca;
 }
 </style>
