@@ -77,11 +77,12 @@ export default {
 <style lang="scss">
 .travel-detail {
   position: relative;
-  padding: 40px;
+  background: white;
+  margin: 40px;
   .travel-detail-container {
     display: flex;
     .image-container {
-      width: 100%;
+      width: 60%;
       // padding: 52px 0 52px 52px;
     }
 
