@@ -12,6 +12,7 @@
           <span v-if="gallery" class="modal-close is-medium" />
           <template slot="list" slot-scope="props">
             <b-carousel-list
+              class="carousel-gallery"
               v-model="props.active"
               :data="items"
               v-bind="al"
@@ -49,14 +50,14 @@
       </div>
     </div>
 
-    <div>
-      <div class="days-container" v-for="(item, i) in posts['description']" :key="i">
+    <div class="days-container">
+      <div v-for="(item, i) in posts['description']" :key="i">
         <div class="columns">
           <div class="column is-one-quarter" v-if="checkIfIndexIsOdd(i)">
             <img
               class="image"
               :class="checkIfIndexIsOdd(i)?'is-even':''"
-              src="../../assets/images/destinations/nainital.webp"
+              v-bind:src="require('../../assets/images/' + item.image)"
               alt="destination"
             />
           </div>
@@ -66,13 +67,10 @@
                 <p class="title is-5">{{ item.title }}</p>
               </div>
               <div class="content has-text-dark-grey">
-                <ul>
-                  <li
-                    class="day-route"
-                    v-for="(title, index) in item.subtitles"
-                    :key="index"
-                  >{{ title }}</li>
-                </ul>
+                <div class="day-route" v-for="(title, index) in item.subtitles" :key="index">
+                  <i class="fas fa-atom"></i>
+                  <div>{{ title }}</div>
+                </div>
               </div>
             </div>
           </div>
@@ -80,9 +78,20 @@
             <img
               class="image"
               :class="!checkIfIndexIsOdd(i)?'is-odd':''"
-              src="../../assets/images/destinations/nainital.webp"
+              v-bind:src="require('../../assets/images/' + item.image)"
               alt="destination"
             />
+          </div>
+        </div>
+      </div>
+      <div class="imp-info-container">
+        <div class="imp-description" v-for="(item, i) in posts['importantInfo']" :key="i">
+          <span class="imp-title">{{item.title}}:&nbsp;</span>
+          <div class="imp-sub-container">
+            <div class="imp-subtitle" v-for="(title, index) in item.subtitles" :key="index">
+              <i class="fas fa-atom"></i>
+              {{ title }}
+            </div>
           </div>
         </div>
       </div>
@@ -103,7 +112,7 @@ export default {
 
       gallery: false,
       al: {
-        hasGrayscale: true,
+        hasGrayscale: false,
         itemsToShow: 2,
         breakpoints: {
           768: {
@@ -111,37 +120,12 @@ export default {
             itemsToShow: 4,
           },
           960: {
-            hasGrayscale: true,
+            hasGrayscale: false,
             itemsToShow: 6,
           },
         },
       },
-      items: [
-        {
-          image: "https://picsum.photos/id/0/1230/500",
-        },
-        {
-          image: "https://picsum.photos/id/1/1230/500",
-        },
-        {
-          image: "https://picsum.photos/id/2/1230/500",
-        },
-        {
-          image: "https://picsum.photos/id/3/1230/500",
-        },
-        {
-          image: "https://picsum.photos/id/4/1230/500",
-        },
-        {
-          image: "https://picsum.photos/id/5/1230/500",
-        },
-        {
-          image: "https://picsum.photos/id/6/1230/500",
-        },
-        {
-          image: "https://picsum.photos/id/7/1230/500",
-        },
-      ],
+      items: [],
     };
   },
   methods: {
@@ -154,7 +138,12 @@ export default {
       .get(`${process.env.BASE_URL}Data/Pckg4-0.json`)
       .then((response) => {
         this.posts = response.data.data[0];
-        console.log("dat", this.posts);
+        for (let i = 0; i < this.posts.images.length; i++) {
+          this.items.push({
+            image: require("../../assets/images/" + this.posts.images[i]),
+          });
+        }
+        console.log(this.items);
       });
   },
 };
@@ -170,13 +159,23 @@ export default {
   .image {
     &.is-even {
       box-shadow: 5px 0 10px;
+      // height: 190px;
     }
     &.is-odd {
       box-shadow: -5px 0 10px;
+      // height: 190px;
     }
   }
   .media-content {
     margin-bottom: 1.5rem;
+  }
+}
+
+.carousel-gallery {
+  .carousel-slide {
+    img {
+      height: 40px;
+    }
   }
 }
 .travel-detail {
@@ -234,10 +233,38 @@ export default {
       .media-content {
         margin-bottom: 5px;
       }
+      .content {
+        .day-route {
+          display: flex;
+          svg {
+            margin: 4px;
+          }
+        }
+      }
     }
     .days {
       color: darkred;
       font-weight: 700;
+    }
+  }
+  .imp-info-container {
+    padding: 20px 0;
+    .imp-heading {
+      font-size: 24px;
+    }
+    .imp-description {
+      padding-bottom: 6px;
+      color: #930;
+      font-weight: 700;
+      .imp-sub-container {
+        padding-left: 24px;
+      }
+      .imp-title {
+        span {
+        }
+      }
+      .imp-subtitle {
+      }
     }
   }
 
