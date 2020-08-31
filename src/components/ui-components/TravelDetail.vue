@@ -44,9 +44,9 @@
             <span class="is-italic route">{{ posts.nightStay }}</span>
           </div>
         </div>
-        <router-link :to="{ name: 'contact'}">
-          <b-button type="is-primary">Book Now</b-button>
-        </router-link>
+        <!-- <router-link :to="{ name: 'contact'}"> -->
+        <b-button type="is-primary " @click="cardModal()">Book Now</b-button>
+        <!-- </router-link> -->
       </div>
     </div>
 
@@ -102,6 +102,7 @@
 </template>
 
 <script>
+import BookingFormVue from "../../views/BookingForm.vue";
 export default {
   name: "TravelDetail",
   components: {},
@@ -131,6 +132,15 @@ export default {
   methods: {
     checkIfIndexIsOdd(index) {
       return index % 2;
+    },
+    cardModal() {
+      this.$buefy.modal.open({
+        parent: this,
+        component: BookingFormVue,
+        hasModalCard: true,
+        customClass: "custom-class custom-class-2",
+        trapFocus: true,
+      });
     },
   },
   created() {
