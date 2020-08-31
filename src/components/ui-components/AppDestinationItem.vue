@@ -13,9 +13,7 @@
         <div class="card-content has-text-left">
           <div class="media-content" :class="toggleClass === 'is-odd' && 'has-text-right'">
             <p class="title is-4">Nainital</p>
-            <p class="subtitle is-7 is-italic">
-              ...Peachy and Decency, Sign A Peace Treaty
-            </p>
+            <p class="subtitle is-7 is-italic">...Peachy and Decency, Sign A Peace Treaty</p>
           </div>
           <div class="content has-text-dark-grey">
             Beautiful mountain, crystal-clear lakes, famous temples and greenery
@@ -43,20 +41,20 @@
 <script>
 // import TravelDetailVue from './TravelDetail.vue';
 export default {
-  name: 'AppDestinationItem',
+  name: "AppDestinationItem",
   components: {
     // 'travel-detail': TravelDetailVue,
   },
   props: {
     toggleClass: {
       type: String,
-      default: 'is-even',
+      default: "is-even",
     },
   },
 
   methods: {
-    redirect: function() {
-      this.$router.push({ name: 'Detail', params: { packageId: 'Pckg4-0' } });
+    redirect: function () {
+      this.$router.push({ name: "detail", params: { packageId: "Pckg4-0" } });
     },
   },
 };

@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: 'AppPreviewCard',
+  name: "AppPreviewCard",
   props: {
     item: { type: Object, required: true },
     type: { type: String },
@@ -32,13 +32,13 @@ export default {
       // const ext = this.item.image.ext;
 
       // return require(`../../assets/images/${type}/${fileName}.${ext}`);
-      return require('../../assets/images/destinations/nainital.webp');
+      return require("../../assets/images/destinations/nainital.webp");
     },
   },
   methods: {
     redirect: function () {
       this.$router.push({
-        name: 'Detail',
+        name: "detail",
         params: { packageId: this.item.id },
       });
     },
@@ -61,7 +61,7 @@ export default {
     box-shadow: 0 0 15px 2px;
     z-index: 50;
     transform: scale(1.08);
-    .image img { 
+    .image img {
       transform: scale(1.05);
       border-radius: 0;
       transition: all 0.1s ease-in-out;
