@@ -1,5 +1,5 @@
 <template>
-  <div class="travel-detail">
+<div class="travel-detail">
     <div class="travel-detail-container">
       <div class="image-container">
         <!-- <img class="image" src="../../assets/images/destinations/nainital.webp" alt="destination" /> -->
@@ -24,10 +24,10 @@
       </div>
       <div class="detail-container">
         <div class="detail-title">
-          <div class="title is-3">{{ posts.title }}</div>
+          <div class="title is-2">{{ posts.title }}</div>
           <p class="quote subtitle is-5 is-italic">{{ posts.qoute }}</p>
         </div>
-        <div class="description is-6 is-italic">
+        <div class="description is-italic">
           <div>{{ posts.subtitle }}</div>
         </div>
         <div class="itinerary">
@@ -43,23 +43,35 @@
             <span id="name">Night Stay:</span>
             <span class="is-italic route">{{ posts.nightStay }}</span>
           </div>
+          <div class="price">
+            <p><b>From: &#8377;</b><b class="title"> {{posts.price}}/-</b></p>
+            <!-- <router-link :to="{ name: 'contact'}"> -->
+            <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
+            <!-- </router-link> -->
+          </div>
         </div>
-        <!-- <router-link :to="{ name: 'contact'}"> -->
-        <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
-        <!-- </router-link> -->
+        
+        
+      </div>
+      <div>
+        <img src="../../assets/images/lordShiva.png"/>
       </div>
     </div>
 
     <div class="days-container">
       <div v-for="(item, i) in posts['description']" :key="i">
-        <div class="columns">
+        <div class="columns" :class="!checkIfIndexIsOdd(i)?'is-even':''">
+          <div class="column is-one-quarter" v-if="!checkIfIndexIsOdd(i)">            
+            <app-mile-stone :item="item.place"
+              :class="checkIfIndexIsOdd(i)?'is-even':''"></app-mile-stone>            
+          </div>
           <div class="column is-one-quarter" v-if="checkIfIndexIsOdd(i)">
             <img
               class="image"
               :class="checkIfIndexIsOdd(i)?'is-even':''"
               v-bind:src="require('../../assets/images/' + item.image)"
               alt="destination"
-            />
+            />            
           </div>
           <div class="column">
             <div class="card-content has-text-left">
@@ -68,11 +80,15 @@
               </div>
               <div class="content has-text-dark-grey">
                 <div class="day-route" v-for="(title, index) in item.subtitles" :key="index">
-                  <i class="fas fa-atom"></i>
+                  <i class="fas fa-angle-double-right"></i>
                   <div>{{ title }}</div>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="column is-one-quarter" v-if="checkIfIndexIsOdd(i)">            
+            <app-mile-stone-art :item="item.place"
+              :class="checkIfIndexIsOdd(i)?'is-odd':''"></app-mile-stone-art>            
           </div>
           <div class="column is-one-quarter" v-if="!checkIfIndexIsOdd(i)">
             <img
@@ -98,7 +114,7 @@
     </div>
 
     <!-- v-bind:src="require('../../assets/' + posts.HeroImage)" -->
-  </div>
+  </div> 
 </template>
 
 <script>
@@ -161,19 +177,31 @@ export default {
 
 <style lang="scss">
 .image-ht {
-  height: 250px !important;
+  height: 300px !important;
 }
+
+.columns{
+  padding: 1rem;
+  &.is-even {
+      background-color: whitesmoke;
+    }
+  margin: 0px 0px 0px 0px !important;
+}
+
 .column {
   padding-left: 0;
   padding-right: 0;
+  
   .image {
     &.is-even {
       box-shadow: 5px 0 10px;
-      // height: 190px;
+      height: 200px;
+      width: 350px;
     }
     &.is-odd {
       box-shadow: -5px 0 10px;
-      // height: 190px;
+      height: 200px;
+      width: 350px;
     }
   }
   .media-content {
@@ -191,7 +219,6 @@ export default {
 .travel-detail {
   position: relative;
   background: white;
-  margin: 40px;
   .detail-title {
     .title {
       color: #2c3e50;
@@ -202,30 +229,46 @@ export default {
   .travel-detail-container {
     display: flex;
     .image-container {
-      width: 40%;
-      padding: 30px;
+      width: 55%;
+      padding: 1rem;
     }
 
     .detail-container {
+      padding: 2rem;
+      width: 45%;
       .quote {
-        margin-left: 45%;
+        text-align: end;
         color: red;
       }
       .detail-title {
-        padding: 8px;
+        padding: 0.5rem;
+        .title{
+          text-align: center;
+          color: rgb(101,202,241);
+        }
       }
       .itinerary {
-        padding: 18px 8px;
+        padding: 1rem;
         font-weight: 700;
         text-align: left;
 
         .route {
           color: #86690f;
         }
+
+        .price{
+          padding: 1rem 0;
+          text-align: start;
+          display: flex;
+          .title{
+            font-size: 2rem !important;
+            color: green;
+          }
+        }
       }
       .description {
-        color: blue;
-        text-shadow: 2px 2px 4px #8c7676;
+        color: #efbb20;
+        font-size: 0.8rem;
       }
       button {
         display: flex;
@@ -235,13 +278,15 @@ export default {
   }
 
   .days-container {
-    text-align: left;
-    padding: 8px 16px;
-    font-size: 14px;
+    text-align: left;    
+    font-size: 1rem;
+
     .card-content {
       padding: unset;
       .media-content {
-        margin-bottom: 5px;
+        .title{
+          color: red;
+        }
       }
       .content {
         .day-route {
@@ -279,8 +324,8 @@ export default {
   }
 
   #name {
-    color: darkred;
-    padding-right: 6px;
+    color: Black;
+    padding-right: 0.5rem;
   }
 
   ul {
@@ -288,4 +333,7 @@ export default {
     margin-left: 40px;
   }
 }
+
+
+
 </style>
