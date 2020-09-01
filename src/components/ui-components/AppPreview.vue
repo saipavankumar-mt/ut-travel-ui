@@ -1,42 +1,40 @@
 <template>
   <div class="preview">
-    <header class="preview-header hero is-dark is-bold">
+    <header class="preview-header hero is-dark is-bold" :class="'scroll-preview-'+scrollClass">
       <div class="hero-body">
         <h1 class="title">{{title}}</h1>
         <p class="is-italic">{{titleDesc}}</p>
       </div>
     </header>
-    <div :class="'scroll-preview_'+title">
-      <section v-show="showAll" class="preview-all columns is-multiline">
-        <template v-for="(item, idx) in previewItemsList">
-          <div class="column" :class="isModelTwo ? 'is-6' : 'is-3' " :key="idx">
-            <app-preview-card-model2 v-if="isModelTwo" :item="item"></app-preview-card-model2>
-            <app-preview-card v-else :item="item"></app-preview-card>
-          </div>
-        </template>
-      </section>
+    <section v-show="showAll" class="preview-all columns is-multiline">
+      <template v-for="(item, idx) in previewItemsList">
+        <div class="column" :class="isModelTwo ? 'is-6' : 'is-3' " :key="idx">
+          <app-preview-card-model2 v-if="isModelTwo" :item="item"></app-preview-card-model2>
+          <app-preview-card v-else :item="item"></app-preview-card>
+        </div>
+      </template>
+    </section>
 
-      <b-carousel-list
-        v-show="!showAll"
-        class="preview-carousel container"
-        v-model="itemIndex"
-        :data="previewItemsList"
-        :items-to-show="isModelTwo ? 2 : 4"
-        :arrow-hover="false"
-      >
-        <template slot="item" slot-scope="list">
-          <app-preview-card-model2 v-if="isModelTwo" :item="list"></app-preview-card-model2>
-          <app-preview-card v-else :item="list"></app-preview-card>
-        </template>
-      </b-carousel-list>
-      <slot></slot>
-    </div>
+    <b-carousel-list
+      v-show="!showAll"
+      class="preview-carousel container"
+      v-model="itemIndex"
+      :data="previewItemsList"
+      :items-to-show="isModelTwo ? 2 : 4"
+      :arrow-hover="false"
+    >
+      <template slot="item" slot-scope="list">
+        <app-preview-card-model2 v-if="isModelTwo" :item="list"></app-preview-card-model2>
+        <app-preview-card v-else :item="list"></app-preview-card>
+      </template>
+    </b-carousel-list>
+    <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: "AppPreview",
+  name: 'AppPreview',
   components: {},
   data() {
     return {
@@ -49,6 +47,7 @@ export default {
     previewItemsList: { type: Array, required: true },
     isModelTwo: { type: Boolean, default: false },
     showAll: { type: Boolean, default: false },
+    scrollClass: { type: String },
   },
 };
 </script>

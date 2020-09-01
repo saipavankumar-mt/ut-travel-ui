@@ -6,10 +6,11 @@
     :preview-items-list="packages"
     :is-model-two="true"
     :show-all="showAll"
+    :scroll-class="scrollClass"
   >
     <div class="columns">
       <div class="column">
-        <button class="button" @click.prevent="showAll=!showAll">
+        <button class="button" @click="scrollToView('scroll-preview-'+scrollClass)">
           <span v-if="!showAll">View All Packages</span>
           <span v-else>View Less</span>
         </button>
@@ -34,6 +35,14 @@ export default {
     this.getPackages();
   },
   methods: {
+    scrollToView(className) {
+      this.showAll = !this.showAll;
+      if (this.showAll) {
+        document.querySelector('.' + className).scrollIntoView({
+          behavior: 'smooth',
+        });
+      }
+    },
     getPackages() {
       this.$http
         .get(`${process.env.BASE_URL}data/packages.json`)
@@ -44,6 +53,14 @@ export default {
             ? res.data.items
             : res.data.items.slice(0, 4);
         });
+    },
+  },
+  computed: {
+    scrollClass() {
+      return this.title
+        .split(' ')
+        .map((s) => s.toLowerCase())
+        .join('-');
     },
   },
 };
