@@ -4,6 +4,7 @@
     <packages></packages>
     <destinations></destinations>
     <destinations-old></destinations-old>
+    <about-us></about-us>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import TheCarousel from '../components/TheCarousel.vue';
 import Packages from './Packages.vue';
 import Destinations from './Destinations.vue';
 import DestinationsOld from './DestinationsOld.vue';
+import AboutUs from './AboutUs.vue';
 
 export default {
   name: 'Home',
@@ -22,6 +24,7 @@ export default {
     Packages,
     Destinations,
     DestinationsOld,
+    AboutUs,
   },
 };
 </script>
