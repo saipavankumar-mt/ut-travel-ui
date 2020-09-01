@@ -29,7 +29,8 @@ export default {
     position: absolute;
     top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(14deg);
+    transform: translate(-50%, -50%) rotate(-14deg);
+    overflow: hidden;
     color: wheat;
 }
 

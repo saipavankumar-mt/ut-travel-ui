@@ -68,14 +68,14 @@ export default {
 
 <style lang="scss">
 .packages {
-  // background-image: url('../assets/images/DeoriyaTal.jpg');
-  background-image: linear-gradient(
-    141deg,
-    #1f191a 0%,
-    #363636 71%,
-    #46403f 100%
-  );
-  background-color: #363636;
+  background-image: url('../assets/images/Haridwar.png');
+  // background-image: linear-gradient(
+  //   141deg,
+  //   #1f191a 0%,
+  //   #363636 71%,
+  //   #46403f 100%
+  // );
+  background-color: rgba(38, 38, 38, 0.6) !important;
   background-size: cover;
   background-blend-mode: overlay;
 }

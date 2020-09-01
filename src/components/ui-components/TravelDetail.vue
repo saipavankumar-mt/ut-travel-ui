@@ -58,70 +58,77 @@
       </div>
     </div>
 
-    <div class="days-container">
-      <div v-for="(item, i) in posts['description']" :key="i">
-        <div class="columns" :class="!checkIfIndexIsOdd(i)?'is-even':''">
-          <div class="column is-one-quarter" v-if="!checkIfIndexIsOdd(i)">            
-            <app-mile-stone :item="item.place"
-              :class="checkIfIndexIsOdd(i)?'is-even':''"></app-mile-stone>            
-          </div>
-          <div class="column is-one-quarter" v-if="checkIfIndexIsOdd(i)">
-            <img
-              class="image"
-              :class="checkIfIndexIsOdd(i)?'is-even':''"
-              v-bind:src="require('../../assets/images/' + item.image)"
-              alt="destination"
-            />            
-          </div>
-          <div class="column">
-            <div class="card-content has-text-left">
-              <div class="media-content">
-                <p class="title is-5">{{ item.title }}</p>
+    <div class="itinerary-container">
+      <section>
+        <b-tabs>
+            <b-tab-item label="ITINERARY" pack="fas" icon="map-marked-alt"  size="is-medium">
+              <div>
+                <p></p>
               </div>
-              <div class="content has-text-dark-grey">
-                <div class="day-route" v-for="(title, index) in item.subtitles" :key="index">
-                  <i class="fas fa-angle-double-right"></i>
-                  <div>{{ title }}</div>
+              <div class="days-container">
+                <div v-for="(item, i) in posts['description']" :key="i">
+                  <div class="columns" :class="!checkIfIndexIsOdd(i)?'is-even':''">
+                    <div class="column is-one-quarter" v-if="!checkIfIndexIsOdd(i)">            
+                      <app-mile-stone :item="item.place"
+                        :class="checkIfIndexIsOdd(i)?'is-even':''"></app-mile-stone>
+                    </div>  
+                    <div class="column is-one-quarter" v-if="checkIfIndexIsOdd(i)">            
+                      <app-mile-stone-art :item="item.place"
+                        :class="checkIfIndexIsOdd(i)?'is-odd':''"></app-mile-stone-art> 
+                                
+                    </div>                       
+                      
+                    <div class="column">
+                      <div class="card-content has-text-left">
+                        <div class="day-title">
+                          <h4>{{ item.title }}</h4>
+                        </div>
+                        <div class="content has-text-dark-grey">
+                          <div class="day-route" v-for="(title, index) in item.subtitles" :key="index">
+                            <i class="fas fa-angle-double-right"></i>
+                            <div class="day-subtitle"><p>{{ title }}</p></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                    
+                  </div>
+                </div>
+                <div class="imp-info-container">
+                  <div class="imp-description" v-for="(item, i) in posts['importantInfo']" :key="i">
+                    <span class="imp-title">{{item.title}}:&nbsp;</span>
+                    <div class="imp-sub-container">
+                      <div class="imp-subtitle" v-for="(title, index) in item.subtitles" :key="index">
+                        <i class="fas fa-atom"></i>
+                        {{ title }}
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="column is-one-quarter" v-if="checkIfIndexIsOdd(i)">            
-            <app-mile-stone-art :item="item.place"
-              :class="checkIfIndexIsOdd(i)?'is-odd':''"></app-mile-stone-art>            
-          </div>
-          <div class="column is-one-quarter" v-if="!checkIfIndexIsOdd(i)">
-            <img
-              class="image"
-              :class="!checkIfIndexIsOdd(i)?'is-odd':''"
-              v-bind:src="require('../../assets/images/' + item.image)"
-              alt="destination"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="imp-info-container">
-        <div class="imp-description" v-for="(item, i) in posts['importantInfo']" :key="i">
-          <span class="imp-title">{{item.title}}:&nbsp;</span>
-          <div class="imp-sub-container">
-            <div class="imp-subtitle" v-for="(title, index) in item.subtitles" :key="index">
-              <i class="fas fa-atom"></i>
-              {{ title }}
-            </div>
-          </div>
-        </div>
+            </b-tab-item>
+            <b-tab-item label="INCLUSIONS & EXCLUSIONS" icon="library-music"></b-tab-item>
+            <b-tab-item label="HOTEL INFO" icon="video"></b-tab-item>
+            <b-tab-item label="TERMS" icon="video"></b-tab-item>
+        </b-tabs>
+      </section>
+      <div class="similartours">
+        <similar-packages :itineraryId="posts.id"></similar-packages>        
       </div>
     </div>
+    
 
-    <!-- v-bind:src="require('../../assets/' + posts.HeroImage)" -->
+    
   </div> 
 </template>
 
 <script>
 import BookingFormVue from "../../views/BookingForm.vue";
+import SimilarPackages from "../../views/SimilarPackages.vue"
 export default {
   name: "TravelDetail",
-  components: {},
+  components: {
+    SimilarPackages
+  },
   data() {
     return {
       posts: {},
@@ -285,7 +292,7 @@ export default {
       padding: unset;
       .media-content {
         .title{
-          color: red;
+          color: #48c774;
         }
       }
       .content {
@@ -333,6 +340,37 @@ export default {
     margin-left: 40px;
   }
 }
+
+.itinerary-container{
+  padding:2rem;
+  display: flex;
+  flex-direction: row;
+  section{
+    width: 100%;
+  }
+  .similartours{
+    width:30%;
+  }
+}
+
+.day-title{
+  font-size: 1rem !important;
+  h4{
+    font-weight: bold !important;
+    font: 17px/30px "Montserrat-SemiBold";
+    color: #4a5258;
+    text-transform: uppercase;
+  }
+}
+
+.day-subtitle{
+  p{
+    font: 16px/28px "open_sansregular";
+    color: #4a5258;
+    padding-bottom: 5px
+  }
+}
+
 
 
 
