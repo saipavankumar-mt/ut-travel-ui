@@ -92,8 +92,13 @@
                       </div>
                     </div>                    
                   </div>
-                </div>
-                <div class="imp-info-container">
+                </div>                
+              </div>
+            </b-tab-item>
+            <b-tab-item label="INCLUSIONS & EXCLUSIONS" icon="library-music"></b-tab-item>
+            <b-tab-item label="HOTEL INFO" icon="video"></b-tab-item>
+            <b-tab-item label="TERMS">
+              <div class="imp-info-container">
                   <div class="imp-description" v-for="(item, i) in posts['importantInfo']" :key="i">
                     <span class="imp-title">{{item.title}}:&nbsp;</span>
                     <div class="imp-sub-container">
@@ -104,11 +109,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
             </b-tab-item>
-            <b-tab-item label="INCLUSIONS & EXCLUSIONS" icon="library-music"></b-tab-item>
-            <b-tab-item label="HOTEL INFO" icon="video"></b-tab-item>
-            <b-tab-item label="TERMS" icon="video"></b-tab-item>
         </b-tabs>
       </section>
       <div class="similartours">
