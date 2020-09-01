@@ -11,7 +11,6 @@
     <div class="columns">
       <div class="column">
         <button class="button" @click="scrollToView('scroll-preview-'+scrollClass)">
-          {{scrollClass}}
           <span v-if="!showAll">View All Packages</span>
           <span v-else>View Less</span>
         </button>
