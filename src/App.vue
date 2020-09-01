@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <the-header></the-header>
-    <div class="app-router" id="app-main-container">
-      <router-view />
+    <div class="app-container">
+      <the-header></the-header>
+      <div class="app-router" id="app-main-container">
+        <router-view />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 // import Home from './views/Home.vue';
-import TheHeader from "./components/TheHeader.vue";
+import TheHeader from './components/TheHeader.vue';
 export default {
-  name: "App",
+  name: 'App',
   components: {
     // Home,
     TheHeader,
@@ -28,9 +30,18 @@ export default {
   color: #2c3e50;
   width: 100%;
 }
+.app-container {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 
 .app-router {
-  padding-top: 5rem;
+  overflow: hidden;
 }
 
 .is-blue {

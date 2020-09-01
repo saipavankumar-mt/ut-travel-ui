@@ -19,28 +19,27 @@
           <div class="carousel-content">
             <div class="carousel-left-content">
               <div class="carousel-title">
-                <p>{{item.title}}</p>
+                <p>{{ item.title }}</p>
               </div>
               <div class="carousel-subtitle">
-                <p>{{item.subtitle}}</p>
+                <p>{{ item.subtitle }}</p>
               </div>
               <div class="carousel-route">
-                <p>{{item.route}}</p>
+                <p>{{ item.route }}</p>
               </div>
               <div class="carousel-desc">
-                <p>{{item.description}}</p>
+                <p>{{ item.description }}</p>
               </div>
             </div>
             <div class="carousel-right-content">
               <div class="carousel-duration">
                 <p>
-                  <b>{{item.nights}}</b> Nights /
-                  <b>{{item.days}}</b> Days
+                  <b>{{ item.nights }}</b> Nights / <b>{{ item.days }}</b> Days
                 </p>
               </div>
               <p>@</p>
               <div class="carousel-price">
-                <p>&#8377; {{item.price}}/-</p>
+                <p>&#8377; {{ item.price }}/-</p>
               </div>
               <div class="carousel-perperson">
                 <p>PER PERSON</p>
@@ -54,14 +53,14 @@
 </template>
 
 <script>
-import { Carousel, Slide } from "vue-carousel";
+import { Carousel, Slide } from 'vue-carousel';
 export default {
-  name: "TheCarousel",
+  name: 'TheCarousel',
   components: {
     Carousel,
     Slide,
   },
-  data: function () {
+  data: function() {
     return {
       carouselItem: [],
     };
@@ -114,10 +113,6 @@ export default {
   height: 550px;
 }
 
-.slide-ease {
-  transition: 5s fade-in;
-}
-
 .text {
   position: absolute;
   color: white;
@@ -161,7 +156,7 @@ export default {
 .carousel-title {
   display: flex;
   justify-content: flex-start;
-  font-family: "Lucida Handwriting";
+  font-family: 'Lucida Handwriting';
 }
 
 .carousel-title p {
@@ -211,13 +206,12 @@ export default {
   border-radius: 0px 0px 0.5rem 5rem;
 }
 
-
 .carousel-duration {
   padding: 0.5rem;
   align-self: center;
   p {
     font-size: 2.1rem;
-    font-family: "Brush Script MT";
+    font-family: 'Brush Script MT';
   }
 }
 
@@ -229,11 +223,11 @@ export default {
     border-radius: 30px/10px;
     background: #690404;
     font-size: 2.1rem;
-    font-family: "Brush Script MT";
+    font-family: 'Brush Script MT';
   }
 }
 
-.carousel-perperson{
-  padding-bottom: 2rem;;
+.carousel-perperson {
+  padding-bottom: 2rem;
 }
 </style>
