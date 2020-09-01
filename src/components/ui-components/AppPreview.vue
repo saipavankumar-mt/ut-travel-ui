@@ -6,14 +6,16 @@
         <p class="is-italic">{{titleDesc}}</p>
       </div>
     </header>
-    <section v-show="showAll" class="preview-all columns is-multiline">
-      <template v-for="(item, idx) in previewItemsList">
-        <div class="column" :class="isModelTwo ? 'is-6' : 'is-3' " :key="idx">
-          <app-preview-card-model2 v-if="isModelTwo" :item="item"></app-preview-card-model2>
-          <app-preview-card v-else :item="item"></app-preview-card>
-        </div>
-      </template>
-    </section>
+    <div :class="'scroll-preview_'+title">
+      <section v-show="showAll" class="preview-all columns is-multiline">
+        <template v-for="(item, idx) in previewItemsList">
+          <div class="column" :class="isModelTwo ? 'is-6' : 'is-3' " :key="idx">
+            <app-preview-card-model2 v-if="isModelTwo" :item="item"></app-preview-card-model2>
+            <app-preview-card v-else :item="item"></app-preview-card>
+          </div>
+        </template>
+      </section>
+    </div>
     <b-carousel-list
       v-show="!showAll"
       class="preview-carousel container"
@@ -33,7 +35,7 @@
 
 <script>
 export default {
-  name: 'AppPreview',
+  name: "AppPreview",
   components: {},
   data() {
     return {

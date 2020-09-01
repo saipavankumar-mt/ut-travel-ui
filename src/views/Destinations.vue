@@ -8,7 +8,7 @@
   >
     <div class="columns">
       <div class="column">
-        <button class="button" @click.prevent="showAll=!showAll">
+        <button class="button" @click="scrollToView('scroll-preview_'+title)">
           <span v-if="!showAll">View All Destinations</span>
           <span v-else>View Less</span>
         </button>
@@ -19,12 +19,12 @@
 
 <script>
 export default {
-  name: 'Destinations',
+  name: "Destinations",
   components: {},
   data() {
     return {
-      title: '',
-      titleDesc: '',
+      title: "",
+      titleDesc: "",
       destinations: [],
       showAll: false,
     };
@@ -33,6 +33,14 @@ export default {
     this.getDestinations();
   },
   methods: {
+    scrollToView(className) {
+      this.showAll = !this.showAll;
+      if (this.showAll) {
+        document.querySelector("." + className).scrollIntoView({
+          behavior: "smooth",
+        });
+      }
+    },
     getDestinations() {
       this.$http
         .get(`${process.env.BASE_URL}data/destinations.json`)
@@ -50,7 +58,7 @@ export default {
 
 <style lang="scss">
 .destinations {
-  background-image: url('../assets/images/DeoriyaTal.jpg');
+  background-image: url("../assets/images/DeoriyaTal.jpg");
   background-size: cover;
   background-blend-mode: overlay;
   background-color: #363636;
