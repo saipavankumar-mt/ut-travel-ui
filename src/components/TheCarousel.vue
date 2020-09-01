@@ -203,7 +203,7 @@ export default {
   border-left-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
-  border-radius: 0px 0px 0.5rem 5rem;
+  border-radius: 0px 0px 1rem 1rem;
 }
 
 .carousel-duration {

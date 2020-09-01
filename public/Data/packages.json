@@ -3,7 +3,7 @@
   "titleDesc": "Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period.",
   "items": [
     {
-      "id": "Pckg4-0.json",
+      "id": "Pckg4-0",
       "title": "Chardham",
       "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
       "image": "chardham.png",
@@ -12,6 +12,7 @@
       "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     },
     {
+      "id": "Pckg3-0",
       "title": "Teendham",
       "route": "Gangotri - Kedarnath - Badrinath",
       "image": "theendham.png",
@@ -20,6 +21,7 @@
       "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     },
     {
+      "id": "Pckg2-0",
       "title": "Dodham",
       "route": "Kedarnath - Badrinath",
       "image": "dodham.png",
@@ -28,6 +30,7 @@
       "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     },
     {
+      "id": "Pckg5-0",
       "title": "Panchkedar",
       "route": "Kedarnath - Madhmaeshwar - Tungnath - Rudranath - Kalpeshwar",
       "image": "panchkedar.png",
@@ -36,6 +39,7 @@
       "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     },
     {
+      "id": "Pckg5-1",
       "title": "Panchbadri",
       "route": "Vishal Badri (Badrinath) - Yogdhyan Badri - Bhavishya Badri - Vridha Badri - Adi Badri",
       "image": "panchkedar.png",
@@ -44,6 +48,7 @@
       "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     },
     {
+      "id": "Pckg5-2",
       "title": "Panchprayag",
       "route": "Karanprayag - Nandprayag - Rudraprayag - Vishnuprayag - Devpryag",
       "image": "panchkedar.png",
