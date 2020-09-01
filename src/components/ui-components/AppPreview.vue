@@ -1,6 +1,6 @@
 <template>
   <div class="preview">
-    <header class="preview-header hero is-dark is-bold">
+    <header class="preview-header hero is-dark is-bold" :class="'scroll-preview-'+scrollClass">
       <div class="hero-body">
         <h1 class="title">{{title}}</h1>
         <p class="is-italic">{{titleDesc}}</p>
@@ -14,6 +14,7 @@
         </div>
       </template>
     </section>
+
     <b-carousel-list
       v-show="!showAll"
       class="preview-carousel container"
@@ -46,6 +47,7 @@ export default {
     previewItemsList: { type: Array, required: true },
     isModelTwo: { type: Boolean, default: false },
     showAll: { type: Boolean, default: false },
+    scrollClass: { type: String },
   },
 };
 </script>
