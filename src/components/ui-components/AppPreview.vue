@@ -15,21 +15,22 @@
           </div>
         </template>
       </section>
+
+      <b-carousel-list
+        v-show="!showAll"
+        class="preview-carousel container"
+        v-model="itemIndex"
+        :data="previewItemsList"
+        :items-to-show="isModelTwo ? 2 : 4"
+        :arrow-hover="false"
+      >
+        <template slot="item" slot-scope="list">
+          <app-preview-card-model2 v-if="isModelTwo" :item="list"></app-preview-card-model2>
+          <app-preview-card v-else :item="list"></app-preview-card>
+        </template>
+      </b-carousel-list>
+      <slot></slot>
     </div>
-    <b-carousel-list
-      v-show="!showAll"
-      class="preview-carousel container"
-      v-model="itemIndex"
-      :data="previewItemsList"
-      :items-to-show="isModelTwo ? 2 : 4"
-      :arrow-hover="false"
-    >
-      <template slot="item" slot-scope="list">
-        <app-preview-card-model2 v-if="isModelTwo" :item="list"></app-preview-card-model2>
-        <app-preview-card v-else :item="list"></app-preview-card>
-      </template>
-    </b-carousel-list>
-    <slot></slot>
   </div>
 </template>
 
