@@ -2,6 +2,7 @@
   "data": [
     {
       "id": "Pckg4-0",
+      "key": "chardham",
       "title": "Chardam Package",
       "qoute": "...Voice of Conscience",
       "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
@@ -9,7 +10,7 @@
       "duration": "11 Nights / 12 Days",
       "nightStay": "Haridwar (2N), Barkot (2N), Uttarkashi (2N), Guptkashi (2N), Kedarnath (1N), Badrinath (1N), Rudraprayag (1N)",
       "heroImage": "",
-      "price":"41000",
+      "price": "41000",
       "images": [
         "ChardhamYatra.png",
         "BadrinathDham.png",
@@ -20,9 +21,9 @@
       "description": [
         {
           "image": "Haridwar.png",
-          "place":{
-            "title":"Haridwar",
-            "subtitle":"215kms : 6Hrs"
+          "place": {
+            "title": "Haridwar",
+            "subtitle": "215kms : 6Hrs"
           },
           "title": "Day 1st : Pickup from Delhi Railway Station / Airport (215 Kms : 6 Hrs. Travelling to Haridwar)",
           "subtitles": [
@@ -34,9 +35,9 @@
         },
         {
           "image": "Barkot.png",
-          "place":{
-            "title":"Barkot",
-            "subtitle":"180kms : 6-7Hrs"
+          "place": {
+            "title": "Barkot",
+            "subtitle": "180kms : 6-7Hrs"
           },
           "title": "Day 2nd : Haridwar to Barkot (180 Kms : 6 - 7 Hrs. Travelling to Barkot)",
           "subtitles": [
@@ -48,9 +49,9 @@
         },
         {
           "image": "yamunotriDham.png",
-          "place":{
-            "title":"Yamunotri",
-            "subtitle":"45kms : 6km by foot"
+          "place": {
+            "title": "Yamunotri",
+            "subtitle": "45kms : 6km by foot"
           },
           "title": "Day 3rd : Barkot to Yamunotri to Barkot (45 km. By Road and 6 Km. by foot one way)",
           "subtitles": [
@@ -64,11 +65,11 @@
         },
         {
           "image": "uttarkasi.png",
-          "place":{
-            "title":"UttarKashi",
-            "subtitle":"83Kms : 3Hrs"
+          "place": {
+            "title": "UttarKashi",
+            "subtitle": "83Kms : 3Hrs"
           },
-          "title": "Day 4th : Barkot to Uttarkashi",          
+          "title": "Day 4th : Barkot to Uttarkashi",
           "subtitles": [
             "After Breakfast move for Uttarkashi.",
             "Uttarkashi is a small and beautiful town, situated between two rivers: Varuna and Ashi, whose water flow into the Bhagirathi from either side of the town. Elevated, at a height of 1588 metres, this little town is very similar to Kashi and Varanasi, in that it has the same kind of temples and ghats and likewise, a north or 'uttar' facing river. The major temple is the Vishwanath Temple, dedicated to Lord Shiva.",
@@ -77,9 +78,9 @@
         },
         {
           "image": "GangotriDham.png",
-          "place":{
-            "title":"Gangotri",
-            "subtitle":"95Kms : 3-4Hrs"
+          "place": {
+            "title": "Gangotri",
+            "subtitle": "95Kms : 3-4Hrs"
           },
           "title": "Day 5th : Uttarkashi to Gangotri to Uttarkashi (95 kms. – 3-4 Hrs. Travelling to reach Gangotri)",
           "subtitles": [
@@ -91,9 +92,9 @@
         },
         {
           "image": "guptkashi.png",
-          "place":{
-            "title":"GuptKashi",
-            "subtitle":"240Kms : 8-9Hrs"
+          "place": {
+            "title": "GuptKashi",
+            "subtitle": "240Kms : 8-9Hrs"
           },
           "title": "Day 6th : Uttarkashi to Guptkashi (240 kms. – 8-9 Hrs. Travelling to reach Guptkashi)",
           "subtitles": [
@@ -104,9 +105,9 @@
         },
         {
           "image": "KedarnathDham.png",
-          "place":{
-            "title":"Kedarnath",
-            "subtitle":"35Kms : 21kms by foot"
+          "place": {
+            "title": "Kedarnath",
+            "subtitle": "35Kms : 21kms by foot"
           },
           "title": "Day 7th : Guptkashi to Kedarnath (35 km. from Vehicle and 21 km. by foot)",
           "subtitles": [
@@ -118,9 +119,9 @@
         },
         {
           "image": "guptkashi.png",
-          "place":{
-            "title":"GuptKashi",
-            "subtitle":"21kms by foot : 35kms"
+          "place": {
+            "title": "GuptKashi",
+            "subtitle": "21kms by foot : 35kms"
           },
           "title": "Day 8th : Kedarnath to Guptkashi (21 km. by foot and 35 km. from Vehicle)",
           "subtitles": [
@@ -131,9 +132,9 @@
         },
         {
           "image": "BadrinathDham.png",
-          "place":{
-            "title":"Badrinath",
-            "subtitle":"190Kms : 7-8Hrs"
+          "place": {
+            "title": "Badrinath",
+            "subtitle": "190Kms : 7-8Hrs"
           },
           "title": "Day 9th : Guptkashi to Badrinath (190 kms. – 7 - 8 Hrs. Travelling to reach Badrinath)",
           "subtitles": [
@@ -148,9 +149,9 @@
         },
         {
           "image": "rudrapryag.png",
-          "place":{
-            "title":"Rudrapryag",
-            "subtitle":"160Kms : 6-7Hrs"
+          "place": {
+            "title": "Rudrapryag",
+            "subtitle": "160Kms : 6-7Hrs"
           },
           "title": "Day 10th : Badrinath to Rudrapryag (160 kms. – 6 - 7 Hrs. Travelling to reach Rudrapryag)",
           "subtitles": [
@@ -161,9 +162,9 @@
         },
         {
           "image": "Haridwar.png",
-          "place":{
-            "title":"Haridwar",
-            "subtitle":"160Kms : 6-7Hrs"
+          "place": {
+            "title": "Haridwar",
+            "subtitle": "160Kms : 6-7Hrs"
           },
           "title": "Day 11th : Rudrapryag to Haridwar (160 kms. – 6 - 7 Hrs. Travelling to reach Haridwar)",
           "subtitles": [
@@ -174,9 +175,9 @@
         },
         {
           "image": "DelhiRailwayStation.png",
-          "place":{
-            "title":"Delhi",
-            "subtitle":"270Kms : 6-7Hrs"
+          "place": {
+            "title": "Delhi",
+            "subtitle": "270Kms : 6-7Hrs"
           },
           "title": "Day 12th : Check Out from Haridwar (270 Kms : 6 -7 Hrs. Travelling to Delhi)",
           "subtitles": [

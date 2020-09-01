@@ -8,10 +8,10 @@
         <p class="pvmodel2-title">{{ item.title }}</p>
         <p class="is-7 is-italic">{{ item.route }}</p>
         <div class="pvmodel2-duration">
-          <p>{{item.duration}}</p>
+          <p>{{ item.duration }}</p>
         </div>
         <div class="pvmodel2-price">
-          <p>From: &#8377; {{item.price}}/-</p>
+          <p>From: &#8377; {{ item.price }}/-</p>
         </div>
       </div>
     </div>
@@ -29,10 +29,10 @@ export default {
     image: { type: String },
   },
   methods: {
-    redirect: function () {
+    redirect: function() {
       this.$router.push({
         name: 'detail',
-        params: { packageId: this.item.id },
+        params: { packageId: this.item.key },
       });
     },
   },

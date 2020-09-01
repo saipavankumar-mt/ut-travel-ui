@@ -21,7 +21,7 @@ const routes = [
   },
 
   {
-    path: '/detail/:packageId',
+    path: '/tour-package/:packageName',
     name: 'detail',
     component: TravelDetail,
   },

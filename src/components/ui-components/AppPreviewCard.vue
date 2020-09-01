@@ -1,5 +1,5 @@
 <template>
-  <div class="preview-card card" v-on:click="item.id ?redirect():''">
+  <div class="preview-card card" v-on:click="item.id ? redirect() : ''">
     <div class="card-image">
       <figure class="image is-4by3">
         <img :src="getImageUrl" :alt="item.image" />
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "AppPreviewCard",
+  name: 'AppPreviewCard',
   props: {
     item: { type: Object, required: true },
     type: { type: String },
@@ -32,14 +32,14 @@ export default {
       // const ext = this.item.image.ext;
 
       // return require(`../../assets/images/${type}/${fileName}.${ext}`);
-      return require("../../assets/images/destinations/nainital.webp");
+      return require('../../assets/images/destinations/nainital.webp');
     },
   },
   methods: {
-    redirect: function () {
+    redirect: function() {
       this.$router.push({
-        name: "detail",
-        params: { packageId: this.item.id },
+        name: 'detail',
+        params: { packageId: this.item.key },
       });
     },
   },
@@ -52,7 +52,7 @@ export default {
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
 
-  .card-image >.image >img {
+  .card-image > .image > img {
     border-radius: 5px 5px 0 0;
   }
   .card-content {
