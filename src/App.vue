@@ -5,6 +5,7 @@
       <div class="app-router" id="app-main-container">
         <router-view />
       </div>
+      <the-footer></the-footer>
     </div>
   </div>
 </template>
@@ -12,11 +13,14 @@
 <script>
 // import Home from './views/Home.vue';
 import TheHeader from './components/TheHeader.vue';
+import TheFooter from './components/TheFooter.vue';
+
 export default {
   name: 'App',
   components: {
     // Home,
     TheHeader,
+    TheFooter,
   },
 };
 </script>
@@ -36,8 +40,6 @@ export default {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 .app-router {
