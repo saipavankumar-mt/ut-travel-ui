@@ -4,12 +4,12 @@
         <img src="../../assets/images/roadmap.png" />
     </div>    
     <div class="milestone-text-from">
-        <p class="milestone-title">{{item.title}}</p>
-        <p class="milestone-kms">{{item.subtitle}}</p>
+        <p class="milestone-title">{{item[0].title}}</p>
+        <p class="milestone-kms">{{item[0].subtitle}}</p>
     </div>
     <div class="milestone-text-to">
-        <p class="milestone-title">{{item.title}}</p>
-        <p class="milestone-kms">{{item.subtitle}}</p>
+        <p class="milestone-title">{{item[1].title}}</p>
+        <p class="milestone-kms">{{item[1].subtitle}}</p>
     </div>
   </div>
 </template>
@@ -40,19 +40,20 @@ export default {
 
 .milestone-text-from{
   position: absolute;
-  top: 52%;
+  top: 56%;
   left: 14%;
   transform: translate(-50%, -50%) rotate(-1deg);
-  width: 40%;
+  width: 10%;
 }
 
 .milestone-text-to{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 72%;
+  left: 36%;
   transform: translate(-50%, -50%) rotate(-1deg);
-  width: 40%;
+  width: 10%;
 }
+
 .milestone-title{
     font-weight: bold;
     font-size: 0.6rem;

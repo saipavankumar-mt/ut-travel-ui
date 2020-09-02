@@ -67,15 +67,12 @@
               </div>
               <div class="days-container">
                 <div v-for="(item, i) in posts['description']" :key="i">
-                  <div class="columns" :class="!checkIfIndexIsOdd(i)?'is-even':''">
-                    <div class="column is-one-quarter" v-if="!checkIfIndexIsOdd(i)">            
-                      <app-mile-stone :item="item.place"
-                        :class="checkIfIndexIsOdd(i)?'is-even':''"></app-mile-stone>
+                  <div class="columns">
+                    <div class="column is-one-quarter" v-if="item.isMileStone">            
+                      <app-mile-stone :item="item.place"></app-mile-stone>
                     </div>  
-                    <div class="column is-one-quarter" v-if="checkIfIndexIsOdd(i)">            
-                      <app-mile-stone-art :item="item.place"
-                        :class="checkIfIndexIsOdd(i)?'is-odd':''"></app-mile-stone-art> 
-                                
+                    <div class="column is-one-quarter" v-if="!item.isMileStone">            
+                      <app-mile-stone-art :item="item.place"></app-mile-stone-art>                                 
                     </div>                       
                       
                     <div class="column">

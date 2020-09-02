@@ -20,10 +20,17 @@
       "description": [
         {
           "image": "Haridwar.png",
-          "place":{
-            "title":"Haridwar",
-            "subtitle":"215kms : 6Hrs"
-          },
+          "isMileStone": true,
+          "place":[
+            {
+            "title":"Delhi",
+            "subtitle":"0kms"
+            },
+            {
+              "title":"Haridwar",
+              "subtitle":"215kms : 6Hrs"
+            }            
+          ],
           "title": "Day 1st : Pickup from Delhi Railway Station / Airport (215 Kms : 6 Hrs. Travelling to Haridwar)",
           "subtitles": [
             "Start Yatra from Delhi to Haridwar. Check In at Haridwar Hotel, Take Welcome Drink (Non Alcoholic). In evening you can visit world famous Ganga Aarti at Har ki Pauri. Dinner & Overnight Stay at Haridwar."
@@ -31,10 +38,17 @@
         },
         {
           "image": "Barkot.png",
-          "place":{
-            "title":"Barkot",
-            "subtitle":"180kms : 6-7Hrs"
-          },
+          "isMileStone": true,
+          "place":[
+            {
+              "title":"Haridwar",
+              "subtitle":""
+            },
+            {
+              "title":"Barkot",
+              "subtitle":"180kms : 6-7Hrs"
+            }            
+          ],
           "title": "Day 2nd : Haridwar to Barkot (180 Kms : 6 - 7 Hrs. Travelling to Barkot)",
           "subtitles": [
             "After breakfast, Check Out from Hotel, Depart for Haridwar.",
@@ -45,10 +59,11 @@
         },
         {
           "image": "yamunotriDham.png",
-          "place":{
+          "isMileStone": false,
+          "place":[{            
             "title":"Yamunotri",
             "subtitle":"45kms : 6km by foot"
-          },
+          }],
           "title": "Day 3rd : Barkot to Yamunotri to Barkot (45 km. By Road and 6 Km. by foot one way)",
           "subtitles": [
             "After Breakfast Start Yatra for 1st Dham Yamunotri.",
@@ -61,10 +76,16 @@
         },
         {
           "image": "uttarkasi.png",
-          "place":{
+          "isMileStone":true,
+          "place":[
+            {
+              "title":"Barkot",
+              "subtitle":""
+            },
+            {
             "title":"UttarKashi",
             "subtitle":"83Kms : 3Hrs"
-          },
+          }],
           "title": "Day 4th : Barkot to Uttarkashi",          
           "subtitles": [
             "After Breakfast move for Uttarkashi.",
@@ -74,10 +95,11 @@
         },
         {
           "image": "GangotriDham.png",
-          "place":{
+          "isMileStone":false,
+          "place":[{
             "title":"Gangotri",
             "subtitle":"95Kms : 3-4Hrs"
-          },
+          }],
           "title": "Day 5th : Uttarkashi to Gangotri to Uttarkashi (95 kms. – 3-4 Hrs. Travelling to reach Gangotri)",
           "subtitles": [
             "After breakfast, start Yatra for 2nd Dham Gangotri.",
@@ -88,10 +110,16 @@
         },
         {
           "image": "guptkashi.png",
-          "place":{
+          "isMileStone":true,
+          "place":[
+            {
+              "title":"Uttarkashi",
+              "subtitle":"240Kms : 8-9Hrs"
+            },
+            {
             "title":"GuptKashi",
             "subtitle":"240Kms : 8-9Hrs"
-          },
+          }],
           "title": "Day 6th : Uttarkashi to Guptkashi (240 kms. – 8-9 Hrs. Travelling to reach Guptkashi)",
           "subtitles": [
             "After breakfast, move for Guptkashi.",
@@ -101,10 +129,11 @@
         },
         {
           "image": "KedarnathDham.png",
-          "place":{
+          "isMileStone":false,
+          "place":[{
             "title":"Kedarnath",
             "subtitle":"35Kms : 21kms by foot"
-          },
+          }],
           "title": "Day 7th : Guptkashi to Kedarnath (35 km. from Vehicle and 21 km. by foot)",
           "subtitles": [
             "After breakfast, start Yatra for 3rd Dham Kedarnath.",
@@ -115,10 +144,16 @@
         },
         {
           "image": "guptkashi.png",
-          "place":{
+          "isMileStone":true,
+          "place":[
+            {
+              "title":"Kedarnath",
+              "subtitle":""
+            },
+            {
             "title":"GuptKashi",
             "subtitle":"21kms by foot : 35kms"
-          },
+          }],
           "title": "Day 8th : Kedarnath to Guptkashi (21 km. by foot and 35 km. from Vehicle)",
           "subtitles": [
             "After breakfast, move for Guptkashi.",
@@ -128,10 +163,11 @@
         },
         {
           "image": "BadrinathDham.png",
-          "place":{
+          "isMileStone":false,
+          "place":[{
             "title":"Badrinath",
             "subtitle":"190Kms : 7-8Hrs"
-          },
+          }],
           "title": "Day 9th : Guptkashi to Badrinath (190 kms. – 7 - 8 Hrs. Travelling to reach Badrinath)",
           "subtitles": [
             "After breakfast, Start Yatra for 4th Dham Badrinath.",
@@ -145,10 +181,16 @@
         },
         {
           "image": "rudrapryag.png",
-          "place":{
+          "isMileStone":true,
+          "place":[
+            {
+              "title":"Badrinath",
+              "subtitle":""
+            },
+            {
             "title":"Rudrapryag",
             "subtitle":"160Kms : 6-7Hrs"
-          },
+          }],
           "title": "Day 10th : Badrinath to Rudrapryag (160 kms. – 6 - 7 Hrs. Travelling to reach Rudrapryag)",
           "subtitles": [
             "After breakfast, Move for Rudrapryag.",
@@ -158,10 +200,11 @@
         },
         {
           "image": "Haridwar.png",
-          "place":{
+          "isMileStone":false,
+          "place":[{
             "title":"Haridwar",
             "subtitle":"160Kms : 6-7Hrs"
-          },
+          }],
           "title": "Day 11th : Rudrapryag to Haridwar (160 kms. – 6 - 7 Hrs. Travelling to reach Haridwar)",
           "subtitles": [
             "After breakfast, move for Haridwar.",
@@ -171,10 +214,16 @@
         },
         {
           "image": "DelhiRailwayStation.png",
-          "place":{
+          "isMileStone":true,
+          "place":[
+            {
+              "title":"Haridwar",
+              "subtitle":""
+            },
+            {
             "title":"Delhi",
             "subtitle":"270Kms : 6-7Hrs"
-          },
+          }],
           "title": "Day 12th : Check Out from Haridwar (270 Kms : 6 -7 Hrs. Travelling to Delhi)",
           "subtitles": [
             "After Breakfast the journey begin to go back to Delhi",
