@@ -2,6 +2,7 @@
   <div id="app">
     <div class="app-container">
       <the-header></the-header>
+
       <div class="app-router" id="app-main-container">
         <router-view />
       </div>
@@ -12,6 +13,7 @@
 <script>
 // import Home from './views/Home.vue';
 import TheHeader from './components/TheHeader.vue';
+
 export default {
   name: 'App',
   components: {

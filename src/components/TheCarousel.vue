@@ -10,6 +10,13 @@
       :paginationPosition="'bottom-overlay'"
     >
       <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
+        <vue-weather
+          api-key="141973eab82fd1074988ffa8397b09bf"
+          units="uk"
+          :latitude="lat"
+          :longitude="long"
+          language="en"
+        />
         <div class="carousel-container">
           <img
             class="carousel-img"
@@ -54,15 +61,19 @@
 
 <script>
 import { Carousel, Slide } from 'vue-carousel';
+import VueWeather from 'vue-weather-widget';
 export default {
   name: 'TheCarousel',
   components: {
     Carousel,
     Slide,
+    VueWeather,
   },
   data: function() {
     return {
       carouselItem: [],
+      lat: '29.94791',
+      long: '78.16025',
     };
   },
   methods: {},

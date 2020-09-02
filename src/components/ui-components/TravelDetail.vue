@@ -1,9 +1,14 @@
 <template>
-<div class="travel-detail">
+  <div class="travel-detail">
     <div class="travel-detail-container">
       <div class="image-container">
         <!-- <img class="image" src="../../assets/images/destinations/nainital.webp" alt="destination" /> -->
-        <b-carousel :autoplay="false" with-carousel-list :indicator="false" :overlay="gallery">
+        <b-carousel
+          :autoplay="false"
+          with-carousel-list
+          :indicator="false"
+          :overlay="gallery"
+        >
           <b-carousel-item v-for="(item, i) in items" :key="i">
             <figure class="image">
               <img class="image-ht" :src="item.image" />
@@ -44,34 +49,36 @@
             <span class="is-italic route">{{ posts.nightStay }}</span>
           </div>
           <div class="price">
-            <p><b>From: &#8377;</b><b class="title"> {{posts.price}}/-</b></p>
+            <p>
+              <b>From: &#8377;</b><b class="title"> {{ posts.price }}/-</b>
+            </p>
             <!-- <router-link :to="{ name: 'contact'}"> -->
             <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
             <!-- </router-link> -->
           </div>
         </div>
-        
-        
       </div>
       <div>
-        <img src="../../assets/images/lordShiva.png"/>
+        <img src="../../assets/images/lordShiva.png" />
       </div>
     </div>
 
     <div class="days-container">
       <div v-for="(item, i) in posts['description']" :key="i">
-        <div class="columns" :class="!checkIfIndexIsOdd(i)?'is-even':''">
-          <div class="column is-one-quarter" v-if="!checkIfIndexIsOdd(i)">            
-            <app-mile-stone :item="item.place"
-              :class="checkIfIndexIsOdd(i)?'is-even':''"></app-mile-stone>            
+        <div class="columns" :class="!checkIfIndexIsOdd(i) ? 'is-even' : ''">
+          <div class="column is-one-quarter" v-if="!checkIfIndexIsOdd(i)">
+            <app-mile-stone
+              :item="item.place"
+              :class="checkIfIndexIsOdd(i) ? 'is-even' : ''"
+            ></app-mile-stone>
           </div>
           <div class="column is-one-quarter" v-if="checkIfIndexIsOdd(i)">
             <img
               class="image"
-              :class="checkIfIndexIsOdd(i)?'is-even':''"
+              :class="checkIfIndexIsOdd(i) ? 'is-even' : ''"
               v-bind:src="require('../../assets/images/' + item.image)"
               alt="destination"
-            />            
+            />
           </div>
           <div class="column">
             <div class="card-content has-text-left">
@@ -79,21 +86,27 @@
                 <p class="title is-5">{{ item.title }}</p>
               </div>
               <div class="content has-text-dark-grey">
-                <div class="day-route" v-for="(title, index) in item.subtitles" :key="index">
+                <div
+                  class="day-route"
+                  v-for="(title, index) in item.subtitles"
+                  :key="index"
+                >
                   <i class="fas fa-angle-double-right"></i>
                   <div>{{ title }}</div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="column is-one-quarter" v-if="checkIfIndexIsOdd(i)">            
-            <app-mile-stone-art :item="item.place"
-              :class="checkIfIndexIsOdd(i)?'is-odd':''"></app-mile-stone-art>            
+          <div class="column is-one-quarter" v-if="checkIfIndexIsOdd(i)">
+            <app-mile-stone-art
+              :item="item.place"
+              :class="checkIfIndexIsOdd(i) ? 'is-odd' : ''"
+            ></app-mile-stone-art>
           </div>
           <div class="column is-one-quarter" v-if="!checkIfIndexIsOdd(i)">
             <img
               class="image"
-              :class="!checkIfIndexIsOdd(i)?'is-odd':''"
+              :class="!checkIfIndexIsOdd(i) ? 'is-odd' : ''"
               v-bind:src="require('../../assets/images/' + item.image)"
               alt="destination"
             />
@@ -101,10 +114,18 @@
         </div>
       </div>
       <div class="imp-info-container">
-        <div class="imp-description" v-for="(item, i) in posts['importantInfo']" :key="i">
-          <span class="imp-title">{{item.title}}:&nbsp;</span>
+        <div
+          class="imp-description"
+          v-for="(item, i) in posts['importantInfo']"
+          :key="i"
+        >
+          <span class="imp-title">{{ item.title }}:&nbsp;</span>
           <div class="imp-sub-container">
-            <div class="imp-subtitle" v-for="(title, index) in item.subtitles" :key="index">
+            <div
+              class="imp-subtitle"
+              v-for="(title, index) in item.subtitles"
+              :key="index"
+            >
               <i class="fas fa-atom"></i>
               {{ title }}
             </div>
@@ -114,13 +135,13 @@
     </div>
 
     <!-- v-bind:src="require('../../assets/' + posts.HeroImage)" -->
-  </div> 
+  </div>
 </template>
 
 <script>
-import BookingFormVue from "../../views/BookingForm.vue";
+import BookingFormVue from '../../views/BookingForm.vue';
 export default {
-  name: "TravelDetail",
+  name: 'TravelDetail',
   components: {},
   data() {
     return {
@@ -154,7 +175,7 @@ export default {
         parent: this,
         component: BookingFormVue,
         hasModalCard: true,
-        customClass: "custom-class custom-class-2",
+        customClass: 'custom-class custom-class-2',
         trapFocus: true,
       });
     },
@@ -166,7 +187,7 @@ export default {
         this.posts = response.data.data[0];
         for (let i = 0; i < this.posts.images.length; i++) {
           this.items.push({
-            image: require("../../assets/images/" + this.posts.images[i]),
+            image: require('../../assets/images/' + this.posts.images[i]),
           });
         }
         console.log(this.items);
@@ -180,18 +201,18 @@ export default {
   height: 300px !important;
 }
 
-.columns{
+.columns {
   padding: 1rem;
   &.is-even {
-      background-color: whitesmoke;
-    }
+    background-color: whitesmoke;
+  }
   margin: 0px 0px 0px 0px !important;
 }
 
 .column {
   padding-left: 0;
   padding-right: 0;
-  
+
   .image {
     &.is-even {
       box-shadow: 5px 0 10px;
@@ -242,9 +263,9 @@ export default {
       }
       .detail-title {
         padding: 0.5rem;
-        .title{
+        .title {
           text-align: center;
-          color: rgb(101,202,241);
+          color: rgb(101, 202, 241);
         }
       }
       .itinerary {
@@ -256,11 +277,11 @@ export default {
           color: #86690f;
         }
 
-        .price{
+        .price {
           padding: 1rem 0;
           text-align: start;
           display: flex;
-          .title{
+          .title {
             font-size: 2rem !important;
             color: green;
           }
@@ -278,13 +299,13 @@ export default {
   }
 
   .days-container {
-    text-align: left;    
+    text-align: left;
     font-size: 1rem;
 
     .card-content {
       padding: unset;
       .media-content {
-        .title{
+        .title {
           color: red;
         }
       }
@@ -333,7 +354,4 @@ export default {
     margin-left: 40px;
   }
 }
-
-
-
 </style>
