@@ -20,7 +20,7 @@ export default {
   components: {
   },  
   props: {
-      item: { type: Object, required: true }
+      item: { type: Array, required: true }
   }
 };
 </script>
