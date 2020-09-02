@@ -72,7 +72,7 @@
               </div>
             </b-tab-item>
             <b-tab-item label="INCLUSIONS & EXCLUSIONS" icon="library-music"></b-tab-item>
-            <b-tab-item label="HOTEL INFO" icon="video"></b-tab-item>
+            <b-tab-item label="DESTINATIONS"></b-tab-item>
             <b-tab-item label="TERMS">
               <div class="imp-info-container">
                   <div class="imp-description" v-for="(item, i) in posts['importantInfo']" :key="i">
@@ -109,6 +109,7 @@
                 </b-carousel>
               </div>
             </b-tab-item>
+            <b-tab-item label="MAP"></b-tab-item>
         </b-tabs>
       </section>
       <div class="similartours">
@@ -356,8 +357,7 @@ export default {
 .day-title{
   font-size: 1rem !important;
   h4{
-    font-weight: bold !important;
-    font: 17px/30px "Montserrat-SemiBold";
+    font-family: 'Mogra';
     color: #4a5258;
     text-transform: uppercase;
   }
@@ -365,7 +365,7 @@ export default {
 
 .day-subtitle{
   p{
-    font: 16px/28px "open_sansregular";
+    font-family: 'Roboto', sans-serif;
     color: #4a5258;
     padding-bottom: 5px
   }
