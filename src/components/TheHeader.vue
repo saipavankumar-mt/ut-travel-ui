@@ -2,7 +2,9 @@
   <nav class="navbar is-fixed-top">
     <div class="navbar-contact">
       <div class="navbar-item">Email: sales@uttranchalholidays.com</div>
-      <div class="navbar-item">Call Us:  +91-9359079393, +91-9368079393, +91-7830030003</div>
+      <div class="navbar-item">
+        Call Us: +91-9359079393, +91-9368079393, +91-7830030003
+      </div>
     </div>
     <div class="navbar-brand">
       <a class="navbar-item">
@@ -33,12 +35,12 @@ export default {
     return {
       navMenu: [
         { label: 'Home', icon: 'home', path: '/home' },
-        { label: 'Tour Packages', icon: 'bag-checked' },
+        { label: 'Tour Packages', icon: 'bag-checked', path: '/tour-packages' },
         { label: 'Destinations', icon: 'map-marker' },
         { label: 'Trekking', icon: 'walk' },
-        { label: 'Hotel', icon: 'bed' },
-        { label: 'Car Rental', icon: 'car' },
-        { label: 'Helipad', icon: 'helicopter' },
+        // { label: 'Hotel', icon: 'bed' },
+        // { label: 'Car Rental', icon: 'car' },
+        // { label: 'Helipad', icon: 'helicopter' },
         { label: 'About Us', icon: 'head-question' },
         { label: 'Contact Us', icon: 'card-account-phone' },
       ],
@@ -49,7 +51,7 @@ export default {
 
 <style lang="scss">
 .navbar {
-  background: linear-gradient(-95deg, rgb(196,213,221), #e9ecef);  
+  background: linear-gradient(-95deg, rgb(196, 213, 221), #e9ecef);
   padding-top: 0;
   padding-bottom: 0;
   .navbar-contact {
@@ -62,7 +64,7 @@ export default {
     padding-top: 0.2rem;
     border-bottom: rgba(0, 0, 0, 0.349);
     border-bottom-style: solid;
-    
+
     .navbar-item {
       .icon {
         padding-right: 5px;

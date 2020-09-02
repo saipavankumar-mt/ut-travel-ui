@@ -2,8 +2,8 @@
   <div class="milestone-art-container">
     <img src="../../assets/images/milestoneart.png" />
     <div class="milestone-art-text">
-        <p class="milestone-art-title">{{item.title}}</p>
-        <p class="milestone-art-kms">{{item.subtitle}}</p>
+        <p class="milestone-art-title">{{item[0].title}}</p>
+        <p class="milestone-art-kms">{{item[0].subtitle}}</p>
     </div>
   </div>
 </template>
@@ -29,7 +29,8 @@ export default {
     position: absolute;
     top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(14deg);
+    transform: translate(-50%, -50%) rotate(-14deg);
+    overflow: hidden;
     color: wheat;
 }
 
