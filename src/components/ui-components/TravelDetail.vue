@@ -1,27 +1,6 @@
 <template>
 <div class="travel-detail">
-    <div class="travel-detail-container">
-      <div class="image-container">
-        <!-- <img class="image" src="../../assets/images/destinations/nainital.webp" alt="destination" /> -->
-        <b-carousel :autoplay="false" with-carousel-list :indicator="false" :overlay="gallery">
-          <b-carousel-item v-for="(item, i) in items" :key="i">
-            <figure class="image">
-              <img class="image-ht" :src="item.image" />
-            </figure>
-          </b-carousel-item>
-          <span v-if="gallery" class="modal-close is-medium" />
-          <template slot="list" slot-scope="props">
-            <b-carousel-list
-              class="carousel-gallery"
-              v-model="props.active"
-              :data="items"
-              v-bind="al"
-              @switch="props.switch($event, false)"
-              as-indicator
-            />
-          </template>
-        </b-carousel>
-      </div>
+    <div class="travel-detail-container">      
       <div class="detail-container">
         <div class="detail-title">
           <div class="title is-2">{{ posts.title }}</div>
@@ -61,7 +40,7 @@
     <div class="itinerary-container">
       <section>
         <b-tabs>
-            <b-tab-item label="ITINERARY" pack="fas" icon="map-marked-alt"  size="is-medium">
+            <b-tab-item label="ITINERARY">
               <div>
                 <p></p>
               </div>
@@ -106,6 +85,29 @@
                     </div>
                   </div>
                 </div>
+            </b-tab-item>
+            <b-tab-item label="GALLERY" >
+              <div class="image-container">
+                <!-- <img class="image" src="../../assets/images/destinations/nainital.webp" alt="destination" /> -->
+                <b-carousel :autoplay="false" with-carousel-list :indicator="false" :overlay="gallery">
+                  <b-carousel-item v-for="(item, i) in items" :key="i">
+                    <figure class="image">
+                      <img class="image-ht" :src="item.image" />
+                    </figure>
+                  </b-carousel-item>
+                  <span v-if="gallery" class="modal-close is-medium" />
+                  <template slot="list" slot-scope="props">
+                    <b-carousel-list
+                      class="carousel-gallery"
+                      v-model="props.active"
+                      :data="items"
+                      v-bind="al"
+                      @switch="props.switch($event, false)"
+                      as-indicator
+                    />
+                  </template>
+                </b-carousel>
+              </div>
             </b-tab-item>
         </b-tabs>
       </section>
