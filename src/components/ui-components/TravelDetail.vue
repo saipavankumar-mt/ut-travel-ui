@@ -1,7 +1,16 @@
 <template>
-<div class="travel-detail">
-    <div class="travel-detail-container">      
-      <div class="detail-container">
+<div class="travel-detail">    
+    <div class="travel-detail-container"> 
+      <div class="golden-banner-section">
+        <img :src="posts.heroImage"/>
+        <div class="golden-caption-section">
+          <div class="golden-caption">
+            <h4>{{ posts.title }}</h4>
+          </div>
+        </div>
+      </div>
+       
+      <!-- <div class="detail-container">
         <div class="detail-title">
           <div class="title is-2">{{ posts.title }}</div>
           <p class="quote subtitle is-5 is-italic">{{ posts.qoute }}</p>
@@ -24,22 +33,22 @@
           </div>
           <div class="price">
             <p><b>From: &#8377;</b><b class="title"> {{posts.price}}/-</b></p>
-            <!-- <router-link :to="{ name: 'contact'}"> -->
+            
             <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
-            <!-- </router-link> -->
+            
           </div>
         </div>
         
         
-      </div>
-      <div>
-        <img src="../../assets/images/lordShiva.png"/>
-      </div>
+      </div> -->      
     </div>
 
     <div class="itinerary-container">
       <section>
         <b-tabs>
+            <b-tab-item label="OVERVIEW">
+
+            </b-tab-item>
             <b-tab-item label="ITINERARY">
               <div>
                 <p></p>
@@ -172,6 +181,7 @@ export default {
       .get(`${process.env.BASE_URL}Data/Pckg4-0.json`)
       .then((response) => {
         this.posts = response.data.data[0];
+        this.posts.heroImage = require("../../assets/images/" + this.posts.heroImage);
         for (let i = 0; i < this.posts.images.length; i++) {
           this.items.push({
             image: require("../../assets/images/" + this.posts.images[i]),
@@ -226,6 +236,8 @@ export default {
 }
 .travel-detail {
   position: relative;
+  top: 50%;
+
   background: white;
   .detail-title {
     .title {
@@ -236,6 +248,7 @@ export default {
   }
   .travel-detail-container {
     display: flex;
+    flex-direction: column;
     .image-container {
       width: 55%;
       padding: 1rem;
@@ -370,6 +383,36 @@ export default {
     padding-bottom: 5px
   }
 }
+
+.golden-banner-section
+ {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;   
+    .golden-caption-section
+    {
+      position: absolute;
+      bottom: 3px;
+      left: 0;
+      height: 130px;
+      width: 100%;      
+      background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%);
+      .golden-caption
+      {
+        max-width: 1200px;
+        margin: 0 auto;
+        h4{
+          color: #fff;
+          position: absolute;
+          bottom: 22px;
+          font: 50px/45px 'SFProDisplay-Bold';
+          padding-bottom: 15px;
+        }
+      }
+    } 
+  }
 
 
 

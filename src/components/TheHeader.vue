@@ -87,10 +87,8 @@ export default {
       padding-right: 5px;
     }
     h4{
-        font-family: 'Mogra';
-        //font: 14px/14px "Montserrat-SemiBold";
-        color: #585858 !important;
-        //color:rgb(97,192,243);
+        font-family: 'SFProDisplay-Bold';
+        color: #3b404b !important;        
         text-transform: uppercase;
       }
   }

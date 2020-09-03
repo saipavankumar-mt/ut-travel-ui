@@ -156,11 +156,11 @@ export default {
 .carousel-title {
   display: flex;
   justify-content: flex-start;
-  font-family: 'Mogra';
+  font-family: 'SFProDisplay-Bold';
 }
 
 .carousel-title p {
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;  
 }
 

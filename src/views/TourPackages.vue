@@ -47,7 +47,7 @@
         </ul>
       </div>
 
-      <img class="banner-inner" src="../assets/images/india-tour-banner.png" alt="kashmir-banner" />
+      <img class="banner-inner" src="../assets/images/tour-package-banner.png" alt="kashmir-banner" />
     </div>
     <div class="package-container">
       <section>
@@ -156,16 +156,16 @@ export default {
   padding: unset !important;
 }
 
-.tour-package {
-  padding: 0 40px;
+.tour-package { 
 
   .banner {
     display: flex;
     padding-bottom: 36px;
+    justify-content: space-between;
     .intro {
-      width: 100%;
+      width: 50%;
       text-align: left;
-      // padding-left: 40px;
+      padding-left: 2rem;
     }
 
     h1 {
@@ -178,7 +178,7 @@ export default {
       padding-bottom: 16px;
 
       span {
-        color: #e70808;
+        color: rgb(96,191,243);
       }
     }
     ul {
