@@ -29,7 +29,7 @@
             :label="item.type"
             size="is-medium"
           >
-            <div class="column is-one-fifth" v-for="(item, idx) in item.data" :key="idx">
+            <div class="column is-one-quarter" v-for="(item, idx) in item.data" :key="idx">
               <app-preview-card :item="item" :app-preview-settings="appPreviewSettings"></app-preview-card>
             </div>
           </b-tab-item>
@@ -73,7 +73,7 @@ export default {
         cardContent: "card-setting",
         content: "content-setting",
         cardImage: {
-          imageSize: "is-4by5",
+          imageSize: "is-4by3",
         },
       },
     };

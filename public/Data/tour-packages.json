@@ -5,41 +5,39 @@
       "title": "Chardham",
       "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
       "image": "chardham.png",
-      "duration": "11 Nights / 12 Days",
       "price": "41000",
-      "subtitle": "20 Packages"
+      "subtitle": "11 Nights / 12 Days"
     },
     {
       "id": "",
       "title": "Teendham",
       "image": "theendham.png",
-      "subtitle": "10 Packages"
+      "subtitle": "9 Nights / 10 Days"
     },
     {
       "id": "",
       "title": "Dodham",
       "image": "dodham.png",
-      "subtitle": "5 packages"
+      "subtitle": "4 Nights / 5 Days"
     },
     {
       "id": "",
       "title": "Panchkedar",
       "image": "panchkedar.png",
-      "subtitle": "4 Packages"
+      "subtitle": "14 Nights / 15 Days"
     },
     {
       "id": "",
       "title": "Panchbadri",
       "image": "panchkedar.png",
-      "subtitle": " 3 Packages"
+      "subtitle": "14 Nights / 15 Days"
     },
     {
       "id": "",
       "title": "Panchprayag",
       "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
       "price": "49999",
-      "subtitle": "7 Packages"
+      "subtitle": "14 Nights / 15 Days"
     }
   ],
   "beautifulUttranchal": [
