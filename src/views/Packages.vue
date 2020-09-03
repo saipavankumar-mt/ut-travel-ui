@@ -3,7 +3,7 @@
     class="packages"
     :title="title"
     :title-desc="titleDesc"
-    :preview-items-list="packages"
+    :preview-items-list="currentList"
     :is-model-two="true"
     :show-all="showAll"
     :scroll-class="scrollClass"
@@ -49,9 +49,7 @@ export default {
         .then((res) => {
           this.title = res.data.title;
           this.titleDesc = res.data.titleDesc;
-          this.packages = this.showAll
-            ? res.data.items
-            : res.data.items.slice(0, 4);
+          this.packages =  res.data.items;
         });
     },
   },
@@ -61,6 +59,9 @@ export default {
         .split(' ')
         .map((s) => s.toLowerCase())
         .join('-');
+    },
+    currentList() {
+      return this.showAll ? this.packages : this.packages.slice(0, 4);
     },
   },
 };

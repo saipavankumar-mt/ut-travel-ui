@@ -3,7 +3,7 @@
     class="destinations"
     :title="title"
     :title-desc="titleDesc"
-    :preview-items-list="destinations"
+    :preview-items-list="currentList"
     :show-all="showAll"
     :scroll-class="scrollClass"
   >
@@ -48,9 +48,7 @@ export default {
         .then((res) => {
           this.title = res.data.title;
           this.titleDesc = res.data.titleDesc;
-          this.destinations = this.showAll
-            ? res.data.items
-            : res.data.items.slice(0, 8);
+          this.destinations = res.data.items;
         });
     },
   },
@@ -60,6 +58,9 @@ export default {
         .split(' ')
         .map((s) => s.toLowerCase())
         .join('-');
+    },
+    currentList() {
+      return this.showAll ? this.destinations : this.destinations.slice(0, 8);
     },
   },
 };
