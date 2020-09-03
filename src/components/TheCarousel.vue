@@ -139,7 +139,7 @@ export default {
   position: absolute;
   top: 0%;
   left: 0%;
-  background-color: rgba(38, 38, 38, 0.6) !important;
+  background-color: rgba(38, 38, 38, 0.4) !important;
   justify-content: space-between;
 }
 
@@ -197,7 +197,7 @@ export default {
   flex-direction: column;
   width: 12.5%;
   height: fit-content;
-  background: rgb(233, 88, 36);
+  background: rgba(229,78,43,0.2);
   margin-right: 15%;
   border: white;
   border-left-style: solid;
@@ -221,7 +221,7 @@ export default {
     border: none;
     //border-radius: 40px 10px;
     border-radius: 30px/10px;
-    background: #690404;
+    background: rgb(229,78,43);
     font-size: 2.1rem;
     font-family: 'Brush Script MT';
   }

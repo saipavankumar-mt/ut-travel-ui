@@ -21,7 +21,7 @@
           :key="idx"
         >
           <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
-          <span>{{ navItem.label }}</span>
+          <h4>{{ navItem.label }}</h4>
         </router-link>
       </div>
     </div>
@@ -51,7 +51,7 @@ export default {
 
 <style lang="scss">
 .navbar {
-  background: linear-gradient(-95deg, rgb(196, 213, 221), #e9ecef);
+  box-shadow: 0 1px 5px;
   padding-top: 0;
   padding-bottom: 0;
   .navbar-contact {
@@ -60,16 +60,14 @@ export default {
     right: 0;
     top: 0;
     z-index: 40;
-    margin-right: 1.2rem;
     padding-top: 0.2rem;
-    border-bottom: rgba(0, 0, 0, 0.349);
-    border-bottom-style: solid;
+    box-shadow: -2px 2px 3px -2px;
 
-    .navbar-item {
+    .navbar-item {      
       .icon {
         padding-right: 5px;
       }
-      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
       font-size: 0.95rem;
       color: rgb(216, 81, 39);
     }
@@ -79,6 +77,7 @@ export default {
   }
   a.navbar-item {
     color: #585858;
+    //color: rgb(97,192,243);
     font-weight: bold;
     font-size: 1rem;
     align-self: flex-end;
@@ -87,6 +86,13 @@ export default {
     .icon {
       padding-right: 5px;
     }
+    h4{
+        font-family: 'Mogra';
+        //font: 14px/14px "Montserrat-SemiBold";
+        color: #585858 !important;
+        //color:rgb(97,192,243);
+        text-transform: uppercase;
+      }
   }
 }
 </style>
