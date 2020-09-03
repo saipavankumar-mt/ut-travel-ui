@@ -93,9 +93,26 @@ export default {
   .content {
     padding: 6px;
     text-align: left;
+
     .title.is-4 {
-      font-size: 20px;
-      font-weight: unset;
+      font-family: SFProDisplay-Bold;
+      font-size: 24px;
+      line-height: 20px;
+      text-transform: capitalize;
+      color: #3b404b;
+      padding-bottom: 8px;
+    }
+
+    .subtitle {
+      // margin-top: 4px !important;
+      font-style: unset !important;
+      font-family: SFProDisplay-Bold;
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: capitalize;
+      color: #9d9fa5;
+      padding-bottom: 8px;
+      font-weight: 700;
     }
   }
 }
