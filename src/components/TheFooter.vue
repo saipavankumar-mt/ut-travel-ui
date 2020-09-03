@@ -1,7 +1,7 @@
 <template>
   <footer class="app-footer">
     <div class="footer-top columns">
-      <div class="column has-text-left">
+      <div class="footer-section column has-text-left">
         <div class="columns is-multiline">
           <div class="footer-logo column is-full">
             <img src="../assets/footer-logo.png" alt="Footer Logo" />
@@ -9,9 +9,9 @@
           <div class="footer-logo column is-full">
             <img src="../assets/footer-stamp.png" alt="Footer Stamp" />
           </div>
-          <div class="footer-section column is-full">
+          <div class="footer-section social column is-full">
             <h3 class="footer-section-title column is-full">SOCIAL MEDIA</h3>
-            <div class="footer-section-item social">
+            <div class="footer-section-item">
               <a href="https://www.facebook.com/uttranchal.holidaysuh">
                 <b-icon icon="facebook" size="is-small" />&nbsp;
               </a>
@@ -170,11 +170,15 @@ export default {
       .footer-section-item {
         padding-top: 0;
         p,
-        a,
-        a:hover {
+        a {
           color: #f8f8f9;
           opacity: 0.5;
           text-decoration: none;
+          transition: all 0.3s ease-in-out;
+        }
+        a:hover {
+          color: #47caf0;
+          opacity: 1;
         }
         .label {
           opacity: 0.7;
@@ -183,11 +187,11 @@ export default {
             text-decoration: none;
           }
         }
-        &.social {
+      }
+      &.social {
+        .icon {
           font-size: 2rem;
-          .icon {
-            padding: 0 1.5rem;
-          }
+          padding: 0 1.2rem 0 1.5rem;
         }
       }
     }
