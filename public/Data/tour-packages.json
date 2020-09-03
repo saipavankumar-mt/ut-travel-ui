@@ -43,39 +43,37 @@
   "beautifulUttranchal": [
     {
       "id": "Pckg4-0",
-      "title": "Nainital",
+      "title": "Garhwal Glimpse",
       "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
       "image": "chardham.png",
-      "duration": "11 Nights / 12 Days",
-      "price": "41000",
-      "subtitle": "20 Packages"
+      "subtitle": "11 Nights / 12 Days"
     },
     {
       "id": "Pckg3-0",
-      "title": "Kausani",
+      "title": "Magnificent Gharwal ",
       "image": "theendham.png",
       "subtitle": "10 Packages"
     },
     {
       "id": "",
-      "title": "Ranikhet",
+      "title": "Complete Uttranchal",
       "image": "dodham.png",
       "subtitle": "5 packages"
     },
     {
       "id": "",
-      "title": "Almora",
+      "title": "Kumaon Heritage",
       "image": "panchkedar.png",
       "subtitle": "4 Packages"
     },
     {
       "id": "",
-      "title": "Mukteshwar",
+      "title": "Beautiful Kumaon",
       "image": "panchkedar.png",
       "subtitle": " 3 Packages"
     },
     {
-      "id": "",
+      "id": "Tiny Uttranchal",
       "title": "Ramgarh",
       "image": "panchkedar.png",
       "duration": "14 Nights / 15 Days",
@@ -84,7 +82,7 @@
     },
     {
       "id": "Pckg4-0",
-      "title": "Binsar",
+      "title": "Scenic Uttranchal",
       "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
       "image": "chardham.png",
       "duration": "11 Nights / 12 Days",
@@ -93,97 +91,27 @@
     },
     {
       "id": "Pckg3-0",
-      "title": "Jageshwar",
+      "title": "Untouched Garwhal",
       "image": "theendham.png",
       "subtitle": "10 Packages"
     },
     {
       "id": "",
-      "title": "Jim Corbett Nation Park",
+      "title": "Uttranchal Preview",
       "image": "dodham.png",
       "subtitle": "5 packages"
     },
     {
       "id": "",
-      "title": "Chakouri",
+      "title": "Weekend Uttranchal",
       "image": "panchkedar.png",
       "subtitle": "4 Packages"
-    },
-    {
-      "id": "",
-      "title": "Munsyari",
-      "image": "panchkedar.png",
-      "subtitle": " 3 Packages"
-    },
-    {
-      "id": "",
-      "title": "Pithoragarh",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "Pckg4-0",
-      "title": "Haridwar",
-      "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
-      "image": "chardham.png",
-      "duration": "11 Nights / 12 Days",
-      "price": "41000",
-      "subtitle": "20 Packages"
-    },
-    {
-      "id": "Pckg3-0",
-      "title": "Rishikesh",
-      "image": "theendham.png",
-      "subtitle": "10 Packages"
-    },
-    {
-      "id": "",
-      "title": "Mussoorie",
-      "image": "dodham.png",
-      "subtitle": "5 packages"
-    },
-    {
-      "id": "",
-      "title": "Dehradun",
-      "image": "panchkedar.png",
-      "subtitle": "4 Packages"
-    },
-    {
-      "id": "",
-      "title": "Harshil",
-      "image": "panchkedar.png",
-      "subtitle": " 3 Packages"
-    },
-    {
-      "id": "",
-      "title": "Auli",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Harshil",
-      "image": "panchkedar.png",
-      "subtitle": " 3 Packages"
-    },
-    {
-      "id": "",
-      "title": "Khirshu",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
     }
   ],
   "adventurePackages": [
     {
       "id": "Pckg4-0",
-      "title": "Hemkund Sahib",
-      "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
+      "title": "Real Adventure With Corbett",
       "image": "chardham.png",
       "duration": "11 Nights / 12 Days",
       "price": "41000",
@@ -191,81 +119,9 @@
     },
     {
       "id": "Pckg3-0",
-      "title": "Valley of Flower",
+      "title": "Real Adventure",
       "image": "theendham.png",
       "subtitle": "10 Packages"
-    },
-    {
-      "id": "",
-      "title": "Satopanth",
-      "image": "dodham.png",
-      "subtitle": "5 packages"
-    },
-    {
-      "id": "",
-      "title": "Deoria Tal",
-      "image": "panchkedar.png",
-      "subtitle": "4 Packages"
-    },
-    {
-      "id": "",
-      "title": "Kakabhushandi Tal",
-      "image": "panchkedar.png",
-      "subtitle": " 3 Packages"
-    },
-    {
-      "id": "",
-      "title": "Kedar Tal",
-      "image": "panchkedar.png",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Kedarkantha",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Kedar Tal",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Bali Pass",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Har ki Dun",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Brahmatal",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Kalandi Khal",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
     }
   ]
 }
