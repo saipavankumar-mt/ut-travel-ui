@@ -161,9 +161,9 @@ export default {
 
   .banner {
     display: flex;
-
+    padding-bottom: 36px;
     .intro {
-      width: 640px;
+      width: 100%;
       text-align: left;
       // padding-left: 40px;
     }
