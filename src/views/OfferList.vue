@@ -1,11 +1,5 @@
 <template>
   <div class="offer-list">
-    <div class="divider-container">
-      <div class="divider">
-        <div class="title">UttaraKhand Tour Packages</div>
-      </div>
-      <app-divider></app-divider>
-    </div>
     <div class="offer-list-container">
       <div class="offer-title" v-for="item in offerList" :key="item.id">
         <offer :offer-info="item"></offer>
@@ -15,40 +9,38 @@
 </template>
 
 <script>
-import Offer from "./Offer.vue";
-import AppDivider from "../components/ui-components/AppDivider.vue";
+import Offer from './Offer.vue';
 export default {
-  name: "OfferList",
+  name: 'OfferList',
   components: {
     Offer,
-    AppDivider,
   },
   data() {
     return {
       offerList: [
         {
           id: 1,
-          name: "Piligrimage Tour Packages",
+          name: 'Piligrimage Tour Packages',
           offerPer: 10,
-          image: "OfferTiles/PackageOfferTile.jpg",
+          image: 'OfferTiles/PackageOfferTile.jpg',
         },
         {
           id: 2,
-          name: "Wildlife Tours Package",
+          name: 'Wildlife Tours Package',
           offerPer: 10,
-          image: "OfferTiles/WildLifeOfferTile.jpg",
+          image: 'OfferTiles/WildLifeOfferTile.jpg',
         },
         {
           id: 3,
-          name: "Trekking Tours Package",
+          name: 'Trekking Tours Package',
           offerPer: 10,
-          image: "OfferTiles/TrekkingOfferTile.jpg",
+          image: 'OfferTiles/TrekkingOfferTile.jpg',
         },
         {
           id: 4,
-          name: "Hill Station Tours",
+          name: 'Hill Station Tours',
           offerPer: 10,
-          image: "OfferTiles/HillStationOfferTile.jpg",
+          image: 'OfferTiles/HillStationOfferTile.jpg',
         },
       ],
     };
