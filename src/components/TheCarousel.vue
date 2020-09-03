@@ -139,7 +139,7 @@ export default {
   position: absolute;
   top: 0%;
   left: 0%;
-  background-color: rgba(38, 38, 38, 0.4) !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
   justify-content: space-between;
 }
 
@@ -148,7 +148,7 @@ export default {
   flex-direction: column;
   align-items: center;
   width: 50%;
-  height: 80%;
+  height: 120%;
   margin-left: 2.5%;
   justify-content: center;
 }
@@ -156,13 +156,12 @@ export default {
 .carousel-title {
   display: flex;
   justify-content: flex-start;
-  font-family: 'Lucida Handwriting';
+  font-family: 'Mogra';
 }
 
 .carousel-title p {
   font-size: 4rem;
-  color: white;
-  width: max-content;
+  color: white;  
 }
 
 .carousel-subtitle {
