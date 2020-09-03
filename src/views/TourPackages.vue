@@ -1,18 +1,20 @@
 <template>
-  <div>
+  <div class="inner-banner">
     <div class="banner">
       <div class="intro">
         <h1>
           <span>Uttranchal Tour</span> Packages
         </h1>
         <p>
-          India, the world’s 7th biggest country by area, and one of the oldest
-          civilizations in the world, has lots to offer to the travellers around
-          the world. Explore the diversity of incredible India with our India
-          tour packages that let you explore the magnificence of nature; thrill
-          of adventure; rich heritage; soul-soothing spirituality and vibrant
-          culture. Come and explore the best of India with our Indian holiday
-          packages.
+          The onrush of nature’s beauty; the charm of those endearing languages;
+          the aroma of the simple food; and the tranquility in sacred temples,
+          Uttarakhand is certainly a destination that can satiate wanderlust.
+          Wish to make your experience of Uttarakhand holiday an exceptional one?
+          Well, in us, you have the solution. With more than a decade experience in designing tour packages
+          for people around the world, Tour My India knows what it takes to make any vacation across the country
+          stand out. So, when it comes to one of our favourite tourist destinations in Indian Himalayas region
+          i.e., Uttarakhand, we deserve all your trust with crafting holiday packages that shall not only
+          cater to your travel interests but can give you a new experience all together.
         </p>
       </div>
       <img class="banner-inner" src="../assets/images/india-tour-banner.png" alt="kashmir-banner" />
@@ -21,23 +23,16 @@
       <section>
         <b-tabs>
           <b-tab-item
-            label="DEVOTIONAL YATRAS"
-            pack="fas"
-            icon="map-marked-alt"
-            size="is-small"
-            class="columns"
+            v-for="(item, idx) in tourPackagesHeader"
+            :key="idx"
+            class="columns is-multiline"
+            :label="item.type"
+            size="is-medium"
           >
-            <div class="columns">
-              <app-preview-card
-                class="column"
-                v-for="(item, idx) in packages"
-                :key="idx"
-                :item="item"
-              ></app-preview-card>
+            <div class="column is-one-fifth" v-for="(item, idx) in item.data" :key="idx">
+              <app-preview-card :item="item" :app-preview-settings="appPreviewSettings"></app-preview-card>
             </div>
           </b-tab-item>
-          <b-tab-item label="BEAUTIFUL UTTRANCHAL" icon="library-music"></b-tab-item>
-          <b-tab-item label="ADVENTURE PACKAGES"></b-tab-item>
         </b-tabs>
       </section>
     </div>
@@ -55,98 +50,101 @@ export default {
   },
   data() {
     return {
-      packages: [],
+      tourPackages: [],
+      tourPackagesHeader: [
+        {
+          type: "DEVOTIONAL YATRAS",
+          key: "DEVOTIONAL",
+          data: [],
+        },
+        {
+          type: "BEAUTIFUL UTTRANCHAL",
+          key: "BEAUTIFUL",
+          data: [],
+        },
+        {
+          type: "ADVENTURE PACKAGES",
+          key: "ADVENTURE",
+          data: [],
+        },
+      ],
+      appPreviewSettings: {
+        showHover: false,
+        cardContent: "card-setting",
+        content: "content-setting",
+        cardImage: {
+          imageSize: "is-4by5",
+        },
+      },
     };
   },
   created() {
-    this.getPackages();
+    this.getTourPackages();
   },
   methods: {
-    getPackages() {
-      //   console.log('Inside get packages');
-      //   this.$http
-      //     .get(`${process.env.BASE_URL}data/packages.json`)
-      //     .then((res) => {
-      //       console.log(res);
-      //       console.log(this.itineraryId);
-      //       this.title = res.data.title;
-      //       this.titleDesc = res.data.titleDesc;
-      //       this.packages = res.data.items.filter(
-      //         (item) => item.id !== this.itineraryId
-      //       );
-      //     });
-      this.packages = [
-        {
-          id: "Pckg4-0",
-          title: "Chardham",
-          route: "Yamunotri - Gangotri - Kedarnath - Badrinath",
-          image: "chardham.png",
-          duration: "11 Nights / 12 Days",
-          price: "41000",
-          subtitle: "",
-        },
-        {
-          id: "Pckg3-0",
-          title: "Teendham",
-          route: "Gangotri - Kedarnath - Badrinath",
-          image: "theendham.png",
-          duration: "7 Nights / 8 Days",
-          price: "35000",
-          subtitle: "",
-        },
-        {
-          id: "Pckg2-0",
-          title: "Dodham",
-          route: "Kedarnath - Badrinath",
-          image: "dodham.png",
-          duration: "4 Nights / 5 Days",
-          price: "25000",
-          subtitle: "",
-        },
-        {
-          id: "Pckg5-0",
-          title: "Panchkedar",
-          route: "Kedarnath - Madhmaeshwar - Tungnath - Rudranath - Kalpeshwar",
-          image: "panchkedar.png",
-          duration: "14 Nights / 15 Days",
-          price: "51999",
-          subtitle: "",
-        },
-        {
-          id: "Pckg5-1",
-          title: "Panchbadri",
-          route:
-            "Vishal Badri (Badrinath) - Yogdhyan Badri - Bhavishya Badri - Vridha Badri - Adi Badri",
-          image: "panchkedar.png",
-          duration: "14 Nights / 15 Days",
-          price: "49999",
-          subtitle: "",
-        },
-        {
-          id: "Pckg5-2",
-          title: "Panchprayag",
-          route:
-            "Karanprayag - Nandprayag - Rudraprayag - Vishnuprayag - Devpryag",
-          image: "panchkedar.png",
-          duration: "14 Nights / 15 Days",
-          price: "49999",
-          subtitle: ")",
-        },
-      ];
+    getTourPackages() {
+      console.log("Inside get packages");
+      this.$http
+        .get(`${process.env.BASE_URL}data/tour-packages.json`)
+        .then((res) => {
+          this.tourPackages = res.data;
+          this.tourPackagesHeader.map((response) => {
+            if (response.key === "DEVOTIONAL") {
+              response.data = res.data.devotionalYatras;
+            }
+            if (response.key === "BEAUTIFUL") {
+              response.data = res.data.beautifulUttranchal;
+            }
+            if (response.key === "ADVENTURE") {
+              response.data = res.data.adventurePackages;
+            }
+          });
+        });
     },
   },
 };
 </script>
 
 <style lang="scss">
-.inner-banner .intro {
-  width: 640px;
-  float: left;
+.package-column {
+  // margin: 8px;
+  padding: unset !important;
 }
 
-.banner {
-  display: flex;
+.inner-banner {
+  .banner {
+    display: flex;
+
+    .intro {
+      width: 640px;
+      text-align: left;
+      padding-left: 40px;
+    }
+
+    h1 {
+      color: #3b404b;
+      font-family: SFProDisplay-Bold;
+      font-size: 50px;
+      line-height: 60px;
+      padding-top: 40px;
+      text-transform: capitalize;
+      padding-bottom: 25px;
+
+      span {
+        color: #ff6612;
+      }
+    }
+
+    p {
+      color: #585c66;
+      font-size: 15px;
+      font-family: "SFProDisplay-Regular";
+      line-height: 23px;
+      padding-bottom: 25px;
+    }
+  }
 }
+
 @media only screen and (max-width: 1366px) {
   .banner-inner {
     width: auto;
