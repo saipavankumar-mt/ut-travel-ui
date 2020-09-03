@@ -2,9 +2,7 @@
   <nav class="navbar is-fixed-top">
     <div class="navbar-contact">
       <div class="navbar-item">Email: sales@uttranchalholidays.com</div>
-      <div class="navbar-item">
-        Call Us: +91-9359079393, +91-9368079393, +91-7830030003
-      </div>
+      <div class="navbar-item">Call Us: +91-9359079393, +91-9368079393, +91-7830030003</div>
     </div>
     <div class="navbar-brand">
       <a class="navbar-item">
@@ -21,7 +19,7 @@
           :key="idx"
         >
           <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
-          <h4>{{ navItem.label }}</h4>
+          <span>{{ navItem.label }}</span>
         </router-link>
       </div>
     </div>
@@ -63,7 +61,7 @@ export default {
     padding-top: 0.2rem;
     box-shadow: -2px 2px 3px -2px;
 
-    .navbar-item {      
+    .navbar-item {
       .icon {
         padding-right: 5px;
       }
@@ -78,7 +76,10 @@ export default {
   a.navbar-item {
     color: #585858;
     //color: rgb(97,192,243);
-    font-weight: bold;
+    // font-weight: bold;
+    // font-family: 'Mogra';
+    font-family: 'SFProDisplay-Bold';
+    text-transform: uppercase;
     font-size: 1rem;
     align-self: flex-end;
     transition: all 0.2s ease-in;
@@ -86,11 +87,6 @@ export default {
     .icon {
       padding-right: 5px;
     }
-    h4{
-        font-family: 'SFProDisplay-Bold';
-        color: #3b404b !important;        
-        text-transform: uppercase;
-      }
   }
 }
 </style>

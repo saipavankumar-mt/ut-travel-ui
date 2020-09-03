@@ -20,7 +20,7 @@
       class="preview-carousel container"
       v-model="itemIndex"
       :data="previewItemsList"
-      :items-to-show="isModelTwo ? 2 : 4"
+      :items-to-show="itemsToShow"
       :arrow-hover="false"
     >
       <template slot="item" slot-scope="list">
@@ -48,6 +48,11 @@ export default {
     isModelTwo: { type: Boolean, default: false },
     showAll: { type: Boolean, default: false },
     scrollClass: { type: String },
+  },
+  computed: {
+    itemsToShow() {
+      return this.isModelTwo ? 2 : 4;
+    },
   },
 };
 </script>

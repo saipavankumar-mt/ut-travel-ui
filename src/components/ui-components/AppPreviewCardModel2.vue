@@ -41,22 +41,22 @@ export default {
 
 <style lang="scss">
 .pvmodel2-outer {
-  box-shadow: 5px 0 10px;
+  // box-shadow: 5px 0 10px;
   background-color: white;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 4px;
   transition: all 0.3s ease-in-out;
   &:hover {
     cursor: pointer;
-    box-shadow: 0 0 15px 2px;
-    z-index: 50;
-    transform: scale(1.09);
+    // box-shadow: 0 0 15px 2px;
+    box-shadow: 0 0 10px 1px;
+    transform: scale(1.05);
   }
 }
 
 .pvmodel2-inner {
   display: flex;
-  border-radius: 5px 5px 0 0;
+  border-radius: 4px 4px 0 0;
 }
 
 .pvmodel2-inner-img {
@@ -83,7 +83,7 @@ export default {
 }
 
 .pvmodel2-subtitle {
-  padding: 1rem;
+  padding: 0.75rem;
 }
 
 .pvmodel2-title {

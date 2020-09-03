@@ -68,15 +68,15 @@ export default {
 <style lang="scss">
 .preview-card {
   height: 100%;
-  border-radius: 5px;
+  border-radius: 4px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 
   .card-image > .image > img {
-    border-radius: 5px 5px 0 0;
+    border-radius: 4px 4px 0 0;
   }
   .card-content {
-    // padding: 1rem !important;
+    padding: 0.75rem !important;
   }
 }
 
@@ -84,12 +84,14 @@ export default {
   &:hover {
     cursor: pointer;
     box-shadow: 0 0 15px 2px;
-    transform: scale(1.09);
+    transform: scale(1.07);
   }
 }
 
 .card-setting {
-  padding: unset !important;
+  &.card-content {
+    padding: unset !important;
+  }
   .content {
     padding: 6px;
     text-align: left;
