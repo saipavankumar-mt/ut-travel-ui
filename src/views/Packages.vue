@@ -7,15 +7,9 @@
     :is-model-two="true"
     :show-all="showAll"
     :scroll-class="scrollClass"
+    toggle-btn-label="Packages"
+    @changeview="() => showAll=!showAll"
   >
-    <div class="columns">
-      <div class="column">
-        <button class="button" @click="scrollToView('scroll-preview-'+scrollClass)">
-          <span v-if="!showAll">View All Packages</span>
-          <span v-else>View Less</span>
-        </button>
-      </div>
-    </div>
   </app-preview>
 </template>
 
@@ -35,21 +29,21 @@ export default {
     this.getPackages();
   },
   methods: {
-    scrollToView(className) {
-      this.showAll = !this.showAll;
-      if (this.showAll) {
-        document.querySelector('.' + className).scrollIntoView({
-          behavior: 'smooth',
-        });
-      }
-    },
+    // scrollToView(className) {
+    //   this.showAll = !this.showAll;
+    //   if (this.showAll) {
+    //     document.querySelector('.' + className).scrollIntoView({
+    //       behavior: 'smooth',
+    //     });
+    //   }
+    // },
     getPackages() {
       this.$http
         .get(`${process.env.BASE_URL}data/packages.json`)
         .then((res) => {
           this.title = res.data.title;
           this.titleDesc = res.data.titleDesc;
-          this.packages =  res.data.items;
+          this.packages = res.data.items;
         });
     },
   },
