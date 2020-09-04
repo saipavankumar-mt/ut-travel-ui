@@ -36,7 +36,7 @@ export default {
       navMenu: [
         { label: 'Home', icon: 'home', path: '/home' },
         { label: 'Tour Packages', icon: 'bag-checked', path: '/tour-packages' },
-        { label: 'Destinations', icon: 'map-marker' },
+        { label: 'Destinations', icon: 'map-marker', path: '/destinations' },
         { label: 'Trekking', icon: 'walk' },
         // { label: 'Hotel', icon: 'bed' },
         // { label: 'Car Rental', icon: 'car' },
@@ -63,7 +63,7 @@ export default {
     padding-top: 0.2rem;
     box-shadow: -2px 2px 3px -2px;
 
-    .navbar-item {      
+    .navbar-item {
       .icon {
         padding-right: 5px;
       }
@@ -86,13 +86,13 @@ export default {
     .icon {
       padding-right: 5px;
     }
-    h4{
-        font-family: 'Mogra';
-        //font: 14px/14px "Montserrat-SemiBold";
-        color: #585858 !important;
-        //color:rgb(97,192,243);
-        text-transform: uppercase;
-      }
+    h4 {
+      font-family: 'Mogra';
+      //font: 14px/14px "Montserrat-SemiBold";
+      color: #585858 !important;
+      //color:rgb(97,192,243);
+      text-transform: uppercase;
+    }
   }
 }
 </style>

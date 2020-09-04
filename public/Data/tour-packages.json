@@ -3,9 +3,8 @@
     {
       "id": "Pckg4-0",
       "title": "Chardham",
-      "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
+      "key": "chardham",
       "image": "chardham.png",
-      "price": "41000",
       "subtitle": "11 Nights / 12 Days"
     },
     {
