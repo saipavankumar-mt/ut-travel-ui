@@ -21,17 +21,18 @@ const routes = [
       },
     ],
   },
+  {
+    path: '/tour-package/:packageName',
+    name: 'detail',
+    component: TravelDetail,
+  },
 
   {
     path: '/tour-packages',
     name: 'tour-packages',
     component: TourPackages,
   },
-  {
-    path: '/tour-package/:packageName',
-    name: 'detail',
-    component: TravelDetail,
-  },
+
   {
     path: '/destinations',
     name: 'destinations',

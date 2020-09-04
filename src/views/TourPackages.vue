@@ -60,7 +60,7 @@
               class="column is-one-quarter"
               v-for="(item, idx) in item.data"
               :key="idx"
-              :to="{ name: 'detail', params: { packageName: item.key } }"
+              @click="redirect(item.key)"
             >
               <app-preview-card :item="item" :app-preview-settings="appPreviewSettings"></app-preview-card>
             </div>
@@ -168,6 +168,12 @@ export default {
     this.getTourPackages();
   },
   methods: {
+    redirect: function (key) {
+      this.$router.push({
+        name: "detail",
+        params: { packageName: key },
+      });
+    },
     getTourPackages() {
       console.log("Inside get packages");
       this.$http
