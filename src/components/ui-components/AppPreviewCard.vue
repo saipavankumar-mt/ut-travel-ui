@@ -8,7 +8,7 @@
   >
     <div class="card-image">
       <figure :class="['image', appPreviewSettings.cardImage.imageSize]">
-        <img :src="getImageUrl" :alt="item.image" />
+        <img :src="getImageUrl" :alt="item.image"/>
       </figure>
     </div>
     <div :class="['card-content', appPreviewSettings.cardContent]">
@@ -42,17 +42,20 @@ export default {
   created() {},
   computed: {
     getImageUrl() {
-      if (!this.item.image) {
-        return;
-      }
+      try {
+          return require("../../assets/images/" + this.item.image);
+        }
+        catch(err) {
+          return require("../../assets/images/KumaonHeritageTile.png");
+        }
       // TODO: create folders for each type eg: destinations/[name].png , packages/[name].png
       // const type = this.item.type;
       // const fileName = this.item.image.name.toLowerCase();
       // const ext = this.item.image.ext;
 
       // return require(`../../assets/images/${type}/${fileName}.${ext}`);
-      return require("../../assets/images/destinations/nainital.webp");
-    },
+      //return require("../../assets/images/destinations/nainital.webp");
+    }
   },
   methods: {
     redirect: function () {

@@ -1,14 +1,42 @@
 <template>
   <div class="travel-detail">
-    <div class="travel-detail-container">
-      <div class="golden-banner-section">
-        <img :src="posts.heroImage" />
-        <div class="golden-caption-section">
-          <div class="golden-caption">
-            <h4>{{ posts.title }}</h4>
-          </div>
-        </div>
+    <div class="banner">
+      <div class="intro">
+        <h1>
+          <span>{{ posts.title }}</span> Packages
+        </h1>
+        <p>{{posts.subtitle}}</p>
+        <h5>{{posts.overview[0].title}}</h5>
+        <p>{{posts.overview[0].subtitle}}          
+        </p>        
+        <h5>Temperature</h5>
+        <ul>
+          <li>
+            <h4>28°C to 45°C</h4>
+            <p>
+              Summer
+              <br />(April to Mid-June)
+            </p>
+          </li>
+          <li>
+            <h4>24°C to 32°C</h4>
+            <p>
+              Monsoon
+              <br />(July to September)
+            </p>
+          </li>
+          <li>
+            <h4>5°C to 27°C</h4>
+            <p>
+              Winter
+              <br />(October to March)
+            </p>
+          </li>
+        </ul>
       </div>
+
+      <img class="banner-inner" :src="posts.heroImage" alt="chardham-banner" />
+    
 
       <!-- <div class="detail-container">
         <div class="detail-title">
@@ -46,7 +74,6 @@
     <div class="itinerary-container">
       <section>
         <b-tabs>
-          <b-tab-item label="OVERVIEW"></b-tab-item>
           <b-tab-item label="ITINERARY">
             <div>
               <p></p>
@@ -242,68 +269,64 @@ export default {
   }
 }
 .travel-detail {
-  position: relative;
-  top: 50%;
-
-  background: white;
-  .detail-title {
-    .title {
-      color: #2c3e50;
-      font-weight: bold;
-      font-size: 2rem;
-    }
-  }
-  .travel-detail-container {
+  .banner {
     display: flex;
-    flex-direction: column;
-    .image-container {
-      width: 55%;
-      padding: 1rem;
+    padding-bottom: 36px;
+    justify-content: space-between;
+    .intro {
+      width: 50%;
+      text-align: left;
+      padding-left: 2rem;
+    }
+    h1 {
+      color: #3b404b;
+      font-family: SFProDisplay-Bold;
+      font-size: 50px;
+      line-height: 60px;
+      padding-top: 40px;
+      text-transform: capitalize;
+      padding-bottom: 16px;
+
+      span {
+        color: rgb(96, 191, 243);
+      }
+    }
+    ul {
+      list-style-type: none;
+      display: flex;
+      width: 100%;
+      padding: 8px 0 0 0;
+      margin: 0;
+      justify-content: space-between;
+      li {
+        h4 {
+          font: 20px/30px "open_sansbold";
+          color: #4a5258;
+          font-weight: 700;
+        }
+      }
     }
 
-    .detail-container {
-      padding: 2rem;
-      width: 45%;
-      .quote {
-        text-align: end;
-        color: red;
-      }
-      .detail-title {
-        padding: 0.5rem;
-        .title {
-          text-align: center;
-          color: rgb(101, 202, 241);
-        }
-      }
-      .itinerary {
-        padding: 1rem;
-        font-weight: 700;
-        text-align: left;
+    p {
+      font: 16px/26px "open_sansregular";
+      text-align: justify;
+      color: #4a5258;
+      padding-bottom: 21px;
 
-        .route {
-          color: #86690f;
-        }
+      span {
+        font-family: "OpenSans-Semibold";
+      }
+    }
 
-        .price {
-          padding: 1rem 0;
-          text-align: start;
-          display: flex;
-          .title {
-            font-size: 2rem !important;
-            color: green;
-          }
-        }
-      }
-      .description {
-        color: #efbb20;
-        font-size: 0.8rem;
-      }
-      button {
-        display: flex;
-        margin-left: 8px;
-      }
+    h5 {
+      font: 16px "open_sansbold";
+      color: #394048;
+      text-transform: uppercase;
+      font-weight: 700;
+      line-height: 1.2;
     }
   }
+
 
   .days-container {
     text-align: left;
@@ -419,6 +442,13 @@ export default {
         padding-bottom: 15px;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .banner-inner {
+    width: auto;
+    right: 0px;
   }
 }
 </style>

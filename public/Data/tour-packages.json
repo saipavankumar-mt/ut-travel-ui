@@ -4,37 +4,37 @@
       "id": "Pckg4-0",
       "title": "Chardham",
       "key": "chardham",
-      "image": "chardham.png",
+      "image": "ChardhamTile.png",
       "subtitle": "11 Nights / 12 Days"
     },
     {
       "id": "",
       "title": "Teendham",
-      "image": "theendham.png",
+      "image": "",
       "subtitle": "9 Nights / 10 Days"
     },
     {
       "id": "",
       "title": "Dodham",
-      "image": "dodham.png",
+      "image": "DhodhamTile.png",
       "subtitle": "4 Nights / 5 Days"
     },
     {
       "id": "",
       "title": "Panchkedar",
-      "image": "panchkedar.png",
+      "image": "",
       "subtitle": "14 Nights / 15 Days"
     },
     {
       "id": "",
       "title": "Panchbadri",
-      "image": "panchkedar.png",
+      "image": "",
       "subtitle": "14 Nights / 15 Days"
     },
     {
       "id": "",
       "title": "Panchprayag",
-      "image": "panchkedar.png",
+      "image": "",
       "price": "49999",
       "subtitle": "14 Nights / 15 Days"
     }
@@ -43,84 +43,77 @@
     {
       "id": "Pckg4-0",
       "title": "Garhwal Glimpse",
-      "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
-      "image": "chardham.png",
-      "subtitle": "11 Nights / 12 Days"
+      "image": "GarhwalGlimpseTile.png",
+      "subtitle": "4 Nights / 5 Days",
+      "price": "9000"
     },
     {
       "id": "Pckg3-0",
-      "title": "Magnificent Gharwal ",
-      "image": "theendham.png",
-      "subtitle": "10 Packages"
+      "title": "Magnificent Gharwal",
+      "image": "MagnificientGarhwalTile.png",
+      "subtitle": "7 Nights / 8 Days"
     },
     {
       "id": "",
       "title": "Complete Uttranchal",
-      "image": "dodham.png",
-      "subtitle": "5 packages"
+      "image": "CompleteUttranchalTile.png",
+      "subtitle": "10 Nights / 11 Days"
     },
     {
       "id": "",
       "title": "Kumaon Heritage",
-      "image": "panchkedar.png",
-      "subtitle": "4 Packages"
+      "image": "KumaonHeritageTile.png",
+      "subtitle": "9 Nights / 10 Days"
     },
     {
       "id": "",
       "title": "Beautiful Kumaon",
-      "image": "panchkedar.png",
-      "subtitle": " 3 Packages"
+      "image": "BeautifulKumaonTile.png",
+      "subtitle": "9 Nights / 10 Days"
     },
     {
-      "id": "Tiny Uttranchal",
-      "title": "Ramgarh",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
+      "id": "",
+      "title": "Tiny Uttranchal",
+      "image": "TinyUttranchalTile.png",
+      "subtitle": "6 Nights / 7 Days"
     },
     {
       "id": "Pckg4-0",
       "title": "Scenic Uttranchal",
-      "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
-      "image": "chardham.png",
-      "duration": "11 Nights / 12 Days",
-      "price": "41000",
-      "subtitle": "20 Packages"
+      "image": "ScenicUttranchalTile.png",
+      "subtitle": "9 Nights / 10 Days"
     },
     {
       "id": "Pckg3-0",
       "title": "Untouched Garwhal",
-      "image": "theendham.png",
-      "subtitle": "10 Packages"
+      "image": "UntouchedGarhwalTile.png",
+      "subtitle": "4 Nights / 5 Days"
     },
     {
       "id": "",
       "title": "Uttranchal Preview",
-      "image": "dodham.png",
-      "subtitle": "5 packages"
+      "image": "UttranchalPreviewTile.png",
+      "subtitle": "7 Nights / 8 Days"
     },
     {
       "id": "",
       "title": "Weekend Uttranchal",
-      "image": "panchkedar.png",
-      "subtitle": "4 Packages"
+      "image": "WeekendUttranchalTile.png",
+      "subtitle": "3 Nights / 4 Days"
     }
   ],
   "adventurePackages": [
     {
       "id": "Pckg4-0",
       "title": "Real Adventure With Corbett",
-      "image": "chardham.png",
-      "duration": "11 Nights / 12 Days",
-      "price": "41000",
-      "subtitle": "20 Packages"
+      "image": "RealAdventureWithCorbettTile.png",
+      "subtitle": "5 Nights / 6 Days"
     },
     {
       "id": "Pckg3-0",
       "title": "Real Adventure",
-      "image": "theendham.png",
-      "subtitle": "10 Packages"
+      "image": "riverrafting.png",
+      "subtitle": "6 Nights / 7 Days"
     }
   ]
 }
