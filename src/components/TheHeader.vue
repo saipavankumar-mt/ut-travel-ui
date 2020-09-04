@@ -2,9 +2,7 @@
   <nav class="navbar is-fixed-top">
     <div class="navbar-contact">
       <div class="navbar-item">Email: sales@uttranchalholidays.com</div>
-      <div class="navbar-item">
-        Call Us: +91-9359079393, +91-9368079393, +91-7830030003
-      </div>
+      <div class="navbar-item">Call Us: +91-9359079393, +91-9368079393, +91-7830030003</div>
     </div>
     <div class="navbar-brand">
       <a class="navbar-item">
@@ -21,7 +19,7 @@
           :key="idx"
         >
           <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
-          <h4>{{ navItem.label }}</h4>
+          <span>{{ navItem.label }}</span>
         </router-link>
       </div>
     </div>
@@ -30,19 +28,19 @@
 
 <script>
 export default {
-  name: 'TheHeader',
+  name: "TheHeader",
   data() {
     return {
       navMenu: [
-        { label: 'Home', icon: 'home', path: '/home' },
-        { label: 'Tour Packages', icon: 'bag-checked', path: '/tour-packages' },
-        { label: 'Destinations', icon: 'map-marker', path: '/destinations' },
-        { label: 'Trekking', icon: 'walk' },
+        { label: "Home", icon: "home", path: "/home" },
+        { label: "Tour Packages", icon: "bag-checked", path: "/tour-packages" },
+        { label: "Destinations", icon: "map-marker", path: "/destinations" },
+        { label: "Trekking", icon: "walk" },
         // { label: 'Hotel', icon: 'bed' },
         // { label: 'Car Rental', icon: 'car' },
         // { label: 'Helipad', icon: 'helicopter' },
-        { label: 'About Us', icon: 'head-question' },
-        { label: 'Contact Us', icon: 'card-account-phone' },
+        { label: "About Us", icon: "head-question" },
+        { label: "Contact Us", icon: "card-account-phone" },
       ],
     };
   },
@@ -67,7 +65,7 @@ export default {
       .icon {
         padding-right: 5px;
       }
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 0.95rem;
       color: rgb(216, 81, 39);
     }
@@ -78,20 +76,16 @@ export default {
   a.navbar-item {
     color: #585858;
     //color: rgb(97,192,243);
-    font-weight: bold;
+    // font-weight: bold;
+    // font-family: 'Mogra';
+    font-family: "SFProDisplay-Bold";
+    text-transform: uppercase;
     font-size: 1rem;
     align-self: flex-end;
     transition: all 0.2s ease-in;
     background: inherit !important;
     .icon {
       padding-right: 5px;
-    }
-    h4 {
-      font-family: 'Mogra';
-      //font: 14px/14px "Montserrat-SemiBold";
-      color: #585858 !important;
-      //color:rgb(97,192,243);
-      text-transform: uppercase;
     }
   }
 }

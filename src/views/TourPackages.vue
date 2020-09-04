@@ -2,7 +2,9 @@
   <div class="tour-package">
     <div class="banner">
       <div class="intro">
-        <h1><span>Uttranchal Tour</span> Packages</h1>
+        <h1>
+          <span>Uttranchal Tour</span> Packages
+        </h1>
         <h5>Best Time to Visit Uttarakhand:</h5>
         <p>
           Uttarakhand is a destination to be visited all through the year as
@@ -42,11 +44,7 @@
         </ul>
       </div>
 
-      <img
-        class="banner-inner"
-        src="../assets/images/india-tour-banner.png"
-        alt="kashmir-banner"
-      />
+      <img class="banner-inner" src="../assets/images/tour-package-banner.png" alt="kashmir-banner" />
     </div>
     <div class="package-container">
       <section>
@@ -64,10 +62,7 @@
               :key="idx"
               :to="{ name: 'detail', params: { packageName: item.key } }"
             >
-              <app-preview-card
-                :item="item"
-                :app-preview-settings="appPreviewSettings"
-              ></app-preview-card>
+              <app-preview-card :item="item" :app-preview-settings="appPreviewSettings"></app-preview-card>
             </div>
           </b-tab-item>
         </b-tabs>
@@ -132,9 +127,9 @@
 
 <script>
 // import OfferList from './OfferList.vue';
-import AppPreviewCard from '../components/ui-components/AppPreviewCard';
+import AppPreviewCard from "../components/ui-components/AppPreviewCard";
 export default {
-  name: 'TourPackages',
+  name: "TourPackages",
   components: {
     // OfferList,
     AppPreviewCard,
@@ -144,27 +139,27 @@ export default {
       tourPackages: [],
       tourPackagesHeader: [
         {
-          type: 'DEVOTIONAL YATRAS',
-          key: 'DEVOTIONAL',
+          type: "DEVOTIONAL YATRAS",
+          key: "DEVOTIONAL",
           data: [],
         },
         {
-          type: 'BEAUTIFUL UTTRANCHAL',
-          key: 'BEAUTIFUL',
+          type: "BEAUTIFUL UTTRANCHAL",
+          key: "BEAUTIFUL",
           data: [],
         },
         {
-          type: 'ADVENTURE PACKAGES',
-          key: 'ADVENTURE',
+          type: "ADVENTURE PACKAGES",
+          key: "ADVENTURE",
           data: [],
         },
       ],
       appPreviewSettings: {
         showHover: false,
-        cardContent: 'card-setting',
-        content: 'content-setting',
+        cardContent: "card-setting",
+        content: "content-setting",
         cardImage: {
-          imageSize: 'is-5by3',
+          imageSize: "is-5by3",
         },
       },
     };
@@ -174,19 +169,19 @@ export default {
   },
   methods: {
     getTourPackages() {
-      console.log('Inside get packages');
+      console.log("Inside get packages");
       this.$http
         .get(`${process.env.BASE_URL}data/tour-packages.json`)
         .then((res) => {
           this.tourPackages = res.data;
           this.tourPackagesHeader.map((response) => {
-            if (response.key === 'DEVOTIONAL') {
+            if (response.key === "DEVOTIONAL") {
               response.data = res.data.devotionalYatras;
             }
-            if (response.key === 'BEAUTIFUL') {
+            if (response.key === "BEAUTIFUL") {
               response.data = res.data.beautifulUttranchal;
             }
-            if (response.key === 'ADVENTURE') {
+            if (response.key === "ADVENTURE") {
               response.data = res.data.adventurePackages;
             }
           });
@@ -203,15 +198,14 @@ export default {
 }
 
 .tour-package {
-  padding: 0 40px;
-
   .banner {
     display: flex;
     padding-bottom: 36px;
+    justify-content: space-between;
     .intro {
-      width: 100%;
+      width: 50%;
       text-align: left;
-      // padding-left: 40px;
+      padding-left: 2rem;
     }
 
     h1 {
@@ -224,7 +218,7 @@ export default {
       padding-bottom: 16px;
 
       span {
-        color: #e70808;
+        color: rgb(96, 191, 243);
       }
     }
     ul {
@@ -236,7 +230,7 @@ export default {
       justify-content: space-between;
       li {
         h4 {
-          font: 20px/30px 'open_sansbold';
+          font: 20px/30px "open_sansbold";
           color: #4a5258;
           font-weight: 700;
         }
@@ -244,18 +238,18 @@ export default {
     }
 
     p {
-      font: 16px/26px 'open_sansregular';
+      font: 16px/26px "open_sansregular";
       text-align: justify;
       color: #4a5258;
       padding-bottom: 21px;
 
       span {
-        font-family: 'OpenSans-Semibold';
+        font-family: "OpenSans-Semibold";
       }
     }
 
     h5 {
-      font: 16px 'open_sansbold';
+      font: 16px "open_sansbold";
       color: #394048;
       text-transform: uppercase;
       font-weight: 700;
@@ -272,7 +266,7 @@ export default {
       flex-direction: column;
       justify-content: center;
       h2 {
-        font: 25px/32px 'clanotmedium';
+        font: 25px/32px "clanotmedium";
         color: #394048;
         text-align: center;
         font-weight: 700;
@@ -282,7 +276,7 @@ export default {
     p {
       color: #585c66;
       font-size: 18px;
-      font-family: 'SFProDisplay-Regular';
+      font-family: "SFProDisplay-Regular";
       line-height: 23px;
       padding-bottom: 16px;
     }
