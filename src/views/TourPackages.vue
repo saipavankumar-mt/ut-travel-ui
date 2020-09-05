@@ -56,13 +56,13 @@
             :label="item.type"
             size="is-medium"
           >
-            <div
-              class="column is-one-quarter"
-              v-for="(item, idx) in item.data"
-              :key="idx"
-              @click="redirect(item.key)"
-            >
-              <app-preview-card :item="item" :app-preview-settings="appPreviewSettings"></app-preview-card>
+            <div class="column is-one-quarter" v-for="(item, idx) in item.data" :key="idx">
+              <app-preview-card
+                @viewMoreClick="onViewMoreClicked"
+                @openCardModal="openCardModal"
+                :item="item"
+                :app-preview-settings="appPreviewSettings"
+              ></app-preview-card>
             </div>
           </b-tab-item>
         </b-tabs>
@@ -126,13 +126,13 @@
 </template>
 
 <script>
-// import OfferList from './OfferList.vue';
 import AppPreviewCard from "../components/ui-components/AppPreviewCard";
+import BookingFormVue from "./BookingForm.vue";
 export default {
   name: "TourPackages",
   components: {
-    // OfferList,
     AppPreviewCard,
+    // BookingFormVue,
   },
   data() {
     return {
@@ -157,10 +157,11 @@ export default {
       appPreviewSettings: {
         showHover: false,
         cardContent: "card-setting",
-        content: "content-setting",
         cardImage: {
           imageSize: "is-5by3",
         },
+        showViewMore: true,
+        showBookNow: true,
       },
     };
   },
@@ -168,6 +169,19 @@ export default {
     this.getTourPackages();
   },
   methods: {
+    onViewMoreClicked(value) {
+      this.redirect(value);
+    },
+    openCardModal() {
+      this.$buefy.modal.open({
+        parent: this,
+        component: BookingFormVue,
+        hasModalCard: true,
+        customClass: "custom-class custom-class-2",
+        trapFocus: true,
+      });
+    },
+
     redirect: function (key) {
       this.$router.push({
         name: "detail",

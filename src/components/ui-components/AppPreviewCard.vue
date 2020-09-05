@@ -4,17 +4,28 @@
   <div
     class="preview-card card"
     v-bind:class="{'preview-card-hover': appPreviewSettings.showHover}"
-    v-on:click="item.id ? redirect() : ''"
   >
     <div class="card-image">
       <figure :class="['image', appPreviewSettings.cardImage.imageSize]">
-        <img :src="getImageUrl" :alt="item.image"/>
+        <img :src="getImageUrl" :alt="getImageUrl" />
       </figure>
     </div>
     <div :class="['card-content', appPreviewSettings.cardContent]">
       <div class="content">
         <p class="title is-4" v-if="item.title">{{ item.title }}</p>
+        <p class="subtitle is-7 is-italic" v-if="item.duration">Duration: {{ item.duration }}</p>
+        <p class="subtitle is-5 is-italic" v-if="item.price">{{ item.price }}/-Per Person</p>
         <p class="subtitle is-7 is-italic" v-if="item.subtitle">{{ item.subtitle }}</p>
+        <div class="book-now">
+          <a :href="onViewMoreClick(item.key)" v-if="appPreviewSettings.showViewMore">View More</a>
+          <b-button
+            class
+            v-if="appPreviewSettings.showBookNow"
+            @click="openCardModal()"
+            type="is-success"
+            outlined
+          >BOOK NOW</b-button>
+        </div>
       </div>
     </div>
   </div>
@@ -34,6 +45,8 @@ export default {
           cardImage: {
             imageSize: "is-4by3",
           },
+          showViewMore: false,
+          showBookNow: false,
         };
       },
       type: Object,
@@ -43,11 +56,10 @@ export default {
   computed: {
     getImageUrl() {
       try {
-          return require("../../assets/images/" + this.item.image);
-        }
-        catch(err) {
-          return require("../../assets/images/KumaonHeritageTile.png");
-        }
+        return require("../../assets/images/" + this.item.image);
+      } catch (err) {
+        return require("../../assets/images/KumaonHeritageTile.png");
+      }
       // TODO: create folders for each type eg: destinations/[name].png , packages/[name].png
       // const type = this.item.type;
       // const fileName = this.item.image.name.toLowerCase();
@@ -55,7 +67,7 @@ export default {
 
       // return require(`../../assets/images/${type}/${fileName}.${ext}`);
       //return require("../../assets/images/destinations/nainital.webp");
-    }
+    },
   },
   methods: {
     redirect: function () {
@@ -63,6 +75,12 @@ export default {
         name: "detail",
         params: { packageId: this.item.key },
       });
+    },
+    onViewMoreClick(value) {
+      this.$emit("viewMoreClicked", value);
+    },
+    openCardModal() {
+      this.$emit("openCardModal");
     },
   },
 };
@@ -92,32 +110,36 @@ export default {
 }
 
 .card-setting {
-  &.card-content {
-    padding: unset !important;
-  }
+  // &.card-content {
+  //   padding: unset !important;
+  // }
   .content {
     padding: 6px;
     text-align: left;
 
     .title.is-4 {
-      font-family: SFProDisplay-Bold;
-      font-size: 24px;
+      font-family: SFProDisplay;
+      font-size: 20px;
       line-height: 20px;
       text-transform: capitalize;
-      color: #3b404b;
+      color: green;
       padding-bottom: 8px;
     }
 
     .subtitle {
       // margin-top: 4px !important;
       font-style: unset !important;
-      font-family: SFProDisplay-Bold;
-      font-size: 12px;
-      line-height: 14px;
+      font-family: SFProDisplay;
       text-transform: capitalize;
-      color: #9d9fa5;
-      padding-bottom: 8px;
+      color: #64666b;
       font-weight: 700;
+    }
+  }
+  .book-now {
+    display: flex;
+    justify-content: space-between;
+    a {
+      font-size: 14px;
     }
   }
 }

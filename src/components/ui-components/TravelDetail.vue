@@ -7,8 +7,7 @@
         </h1>
         <p>{{posts.subtitle}}</p>
         <h5>{{posts.overview[0].title}}</h5>
-        <p>{{posts.overview[0].subtitle}}          
-        </p>        
+        <p>{{posts.overview[0].subtitle}}</p>
         <h5>Temperature</h5>
         <ul>
           <li>
@@ -36,7 +35,6 @@
       </div>
 
       <img class="banner-inner" :src="posts.heroImage" alt="chardham-banner" />
-    
 
       <!-- <div class="detail-container">
         <div class="detail-title">
@@ -201,7 +199,7 @@ export default {
     },
     cardModal() {
       this.$buefy.modal.open({
-        parent: this,
+        // parent: this,
         component: BookingFormVue,
         hasModalCard: true,
         customClass: "custom-class custom-class-2",
@@ -326,7 +324,6 @@ export default {
       line-height: 1.2;
     }
   }
-
 
   .days-container {
     text-align: left;
