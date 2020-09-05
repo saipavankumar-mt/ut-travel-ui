@@ -26,6 +26,7 @@ const routes = [
     path: '/tour-package/:packageName',
     name: 'detail',
     component: PackageDetail,
+    props: true,
   },
 
   {

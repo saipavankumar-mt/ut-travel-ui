@@ -161,13 +161,12 @@ export default {
           imageSize: "is-5by3",
         },
         showViewMore: true,
-        showBookNow: true,
       },
     };
   },
   created() {
-    this.getTourPackages();
     window.scrollTo(0, 0);
+    this.getTourPackages();
   },
   methods: {
     onViewMoreClicked(value) {
@@ -183,14 +182,13 @@ export default {
       });
     },
 
-    redirect: function (key) {
+    redirect: function (value) {
       this.$router.push({
         name: "detail",
-        params: { packageName: key },
+        params: { packageName: value.key, packageId: value.id },
       });
     },
     getTourPackages() {
-      console.log("Inside get packages");
       this.$http
         .get(`${process.env.BASE_URL}data/tour-packages.json`)
         .then((res) => {
