@@ -5,8 +5,13 @@
     class="preview-card card"
     v-bind:class="{'preview-card-hover': appPreviewSettings.showHover}"
   >
-    <div class="card-image">
-      <figure :class="['image', appPreviewSettings.cardImage.imageSize]">
+    <div class="card-image" @click="onViewMoreClick(item)">
+      <figure
+        :class="['image', appPreviewSettings.cardImage.imageSize,{'thumbnail': appPreviewSettings.showViewMore}]"
+      >
+        <div>
+          <b-button>View Package</b-button>
+        </div>
         <img :src="getImageUrl" :alt="getImageUrl" />
       </figure>
     </div>
@@ -16,16 +21,16 @@
         <p class="subtitle is-7 is-italic" v-if="item.duration">Duration: {{ item.duration }}</p>
         <!-- <p class="subtitle is-5 is-italic" v-if="item.price">From: {{ item.price }}/-Per Person</p> -->
         <p class="subtitle is-7 is-italic" v-if="item.subtitle">{{ item.subtitle }}</p>
-        <div class="book-now">
-          <!-- <a @click="onViewMoreClick(item)" v-if="appPreviewSettings.showViewMore">View More</a> -->
+        <!-- <div class="book-now">
+          <a @click="onViewMoreClick(item.key)" v-if="appPreviewSettings.showViewMore">View More</a>
           <b-button
             class
             v-if="appPreviewSettings.showBookNow"
             @click="onViewMoreClick(item)"
             type="is-success"
             outlined
-          >More Details</b-button>
-        </div>
+          >BOOK NOW</b-button>
+        </div>-->
       </div>
     </div>
   </div>
@@ -46,7 +51,6 @@ export default {
             imageSize: "is-4by3",
           },
           showViewMore: false,
-          showBookNow: false,
         };
       },
       type: Object,
@@ -147,5 +151,52 @@ export default {
       }
     }    
   }
+}
+.thumbnail {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.thumbnail > img {
+  max-width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.thumbnail div {
+  padding-top: 70px;
+  top: 0;
+  position: absolute;
+  background: rgba(1, 1, 1, 0.8);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.3s ease;
+  line-height: 300px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 2;
+
+  button {
+    color: #60bff3 !important;
+
+    &:hover {
+      background-color: #60bff3;
+      color: white !important;
+      border-color: #60bff3;
+    }
+  }
+}
+
+.thumbnail:hover > img {
+  transform: scale(1.2);
+  // transition: all 0.5s ease-in-out;
+}
+
+.thumbnail:hover > div {
+  opacity: 1;
 }
 </style>

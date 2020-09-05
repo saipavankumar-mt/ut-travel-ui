@@ -7,50 +7,49 @@
 
 <script>
 export default {
-  name: 'SimilarPackages',
+  name: "SimilarPackages",
   components: {},
   props: {
-      itineraryId: String
+    itineraryId: String,
   },
   data() {
     return {
-      packages: []
+      packages: [],
     };
-  },  
+  },
   created() {
     this.getPackages();
   },
-  methods: {    
+  methods: {
     getPackages() {
-        console.log("Inside get packages");
       this.$http
         .get(`${process.env.BASE_URL}data/packages.json`)
         .then((res) => {
-            console.log(res);
-            console.log(this.itineraryId);
           this.title = res.data.title;
           this.titleDesc = res.data.titleDesc;
-          this.packages = res.data.items.filter((item)=> item.id !== this.itineraryId);
+          this.packages = res.data.items.filter(
+            (item) => item.id !== this.itineraryId
+          );
         });
     },
-  }
+  },
 };
 </script>
 
 <style lang="scss">
-.similarpackage-section{    
-    flex-direction: column !important;
-    /deep/ .preview-card{
-        &:hover{
-            box-shadow: none !important;
-            transform: scale(1) !important;
-        }
-        border-radius: none !important;
-        box-shadow: none !important;
+.similarpackage-section {
+  flex-direction: column !important;
+  /deep/ .preview-card {
+    &:hover {
+      box-shadow: none !important;
+      transform: scale(1) !important;
     }
+    border-radius: none !important;
+    box-shadow: none !important;
+  }
 
-    border-radius: 5px;
-    box-shadow: 0 0 10px 0px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0px;
 }
 
 .similarpackages-title{

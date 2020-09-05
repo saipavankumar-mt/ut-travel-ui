@@ -5,42 +5,36 @@
       "title": "Chardham",
       "key": "chardham",
       "image": "ChardhamTile.png",
-      "price": "49999",
       "duration": "11 Nights / 12 Days"
     },
     {
       "id": "",
       "title": "Teendham",
       "image": "teendhamTile.png",
-      "price": "49999",
       "duration": "9 Nights / 10 Days"
     },
     {
       "id": "",
       "title": "Dodham",
       "image": "DhodhamTile.png",
-      "price": "49999",
       "duration": "4 Nights / 5 Days"
     },
     {
       "id": "",
       "title": "Panchkedar",
       "image": "panchkedarTile.png",
-      "price": "49999",
       "duration": "14 Nights / 15 Days"
     },
     {
       "id": "",
       "title": "Panchbadri",
       "image": "panchbadriTile.png",
-      "price": "49999",
       "duration": "14 Nights / 15 Days"
     },
     {
       "id": "",
       "title": "Panchprayag",
       "image": "rudrapryag.png",
-      "price": "49999",
       "duration": "14 Nights / 15 Days"
     }
   ],
@@ -49,70 +43,62 @@
       "id": "Pckg-B-1",
       "title": "Garhwal Glimpse",
       "image": "GarhwalGlimpseTile.png",
-      "duration": "4 Nights / 5 Days",
-      "price": "9000"
+      "duration": "4 Nights / 5 Days"
     },
     {
       "id": "Pckg3-0",
       "title": "Magnificent Gharwal",
       "image": "MagnificientGarhwalTile.png",
-      "price": "13000",
+
       "duration": "7 Nights / 8 Days"
     },
     {
       "id": "",
       "title": "Complete Uttranchal",
       "image": "CompleteUttranchalTile.png",
-      "price": "2999",
+
       "duration": "10 Nights / 11 Days"
     },
     {
       "id": "",
       "title": "Kumaon Heritage",
       "image": "KumaonHeritageTile.png",
-      "price": "49999",
       "duration": "9 Nights / 10 Days"
     },
     {
       "id": "",
       "title": "Beautiful Kumaon",
       "image": "BeautifulKumaonTile.png",
-      "price": "49999",
       "duration": "9 Nights / 10 Days"
     },
     {
       "id": "",
       "title": "Tiny Uttranchal",
       "image": "TinyUttranchalTile.png",
-      "price": "49999",
       "duration": "6 Nights / 7 Days"
     },
     {
       "id": "Pckg4-0",
       "title": "Scenic Uttranchal",
       "image": "ScenicUttranchalTile.png",
-      "price": "49999",
       "duration": "9 Nights / 10 Days"
     },
     {
       "id": "Pckg3-0",
       "title": "Untouched Garwhal",
       "image": "UntouchedGarhwalTile.png",
-      "price": "49999",
       "duration": "4 Nights / 5 Days"
     },
     {
       "id": "",
       "title": "Uttranchal Preview",
       "image": "UttranchalPreviewTile.png",
-      "price": "49999",
       "duration": "7 Nights / 8 Days"
     },
     {
       "id": "",
       "title": "Weekend Uttranchal",
       "image": "WeekendUttranchalTile.png",
-      "price": "49999",
       "duration": "3 Nights / 4 Days"
     }
   ],
@@ -121,14 +107,12 @@
       "id": "Pckg4-0",
       "title": "Real Adventure With Corbett",
       "image": "RealAdventureWithCorbettTile.png",
-      "price": "49999",
       "duration": "5 Nights / 6 Days"
     },
     {
       "id": "Pckg3-0",
       "title": "Real Adventure",
       "image": "riverrafting.png",
-      "price": "49999",
       "duration": "6 Nights / 7 Days"
     }
   ]

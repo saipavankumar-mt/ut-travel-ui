@@ -138,7 +138,8 @@ export default {
   name: "PackageDetail",
   components: {
     SimilarPackages,
-  },  
+  },
+  props: ["packageId"],
   data() {
     return {
       posts: {},
@@ -178,7 +179,7 @@ export default {
   created() {
     window.scrollTo(0, 0);
     this.$http
-      .get(`${process.env.BASE_URL}Data/Pckg4-0.json`)
+      .get(`${process.env.BASE_URL}Data/${this.packageId}.json`)
       .then((response) => {
         this.posts = response.data.data;
         this.posts.heroImage = require("../../assets/images/" +
@@ -188,7 +189,6 @@ export default {
             image: require("../../assets/images/" + this.posts.images[i]),
           });
         }
-        console.log(this.items);
       });
   },
 };
