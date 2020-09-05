@@ -280,6 +280,7 @@ export default {
   .tour-package-info {
     text-align: left;
     padding-bottom: 10px;
+    padding: 0 24px;
 
     .package-title {
       display: flex;

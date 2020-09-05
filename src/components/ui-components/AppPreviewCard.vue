@@ -88,6 +88,8 @@ export default {
 
 <style lang="scss">
 .preview-card {
+  font-family: Bahnschrift SemiBold;
+
   height: 100%;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
@@ -140,6 +142,7 @@ export default {
     justify-content: space-between;
     a {
       font-size: 14px;
+      color: green;
     }
   }
 }
