@@ -12,15 +12,6 @@
       "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     },
     {
-      "id": "Pckg3-0",
-      "title": "Teendham",
-      "route": "Gangotri - Kedarnath - Badrinath",
-      "image": "KedarnathDham.png",
-      "duration": "7 Nights / 8 Days",
-      "price": "35000",
-      "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
-    },
-    {
       "id": "Pckg2-0",
       "title": "Dodham",
       "route": "Kedarnath - Badrinath",
@@ -30,10 +21,19 @@
       "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
     },
     {
+      "id": "Pckg3-0",
+      "title": "Teendham",
+      "route": "Gangotri - Kedarnath - Badrinath",
+      "image": "teendhamTile.png",
+      "duration": "7 Nights / 8 Days",
+      "price": "35000",
+      "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
+    },
+    {
       "id": "Pckg5-0",
       "title": "Panchkedar",
       "route": "Kedarnath - Madhmaeshwar - Tungnath - Rudranath - Kalpeshwar",
-      "image": "BadrinathDham.png",
+      "image": "panchkedarTile.png",
       "duration": "14 Nights / 15 Days",
       "price": "51999",
       "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
@@ -42,7 +42,7 @@
       "id": "Pckg5-1",
       "title": "Panchbadri",
       "route": "Vishal Badri (Badrinath) - Yogdhyan Badri - Bhavishya Badri - Vridha Badri - Adi Badri",
-      "image": "Haridwar.png",
+      "image": "panchbadriTile.png",
       "duration": "14 Nights / 15 Days",
       "price": "49999",
       "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"
@@ -51,7 +51,7 @@
       "id": "Pckg5-2",
       "title": "Panchprayag",
       "route": "Karanprayag - Nandprayag - Rudraprayag - Vishnuprayag - Devpryag",
-      "image": "parmarth.png",
+      "image": "rudrapryag.png",
       "duration": "14 Nights / 15 Days",
       "price": "49999",
       "subtitle": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)"

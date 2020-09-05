@@ -1,5 +1,5 @@
 {
-  "data": [
+  "data": 
     {
       "id": "Pckg4-0",
       "key": "chardham",
@@ -277,7 +277,25 @@
             "All disputes are subject to Haridwar Jurisdiction."
           ]
         }
+      ],
+      "inclusionAndExclusion":[
+        {
+          "title": "Experience Includes:",
+          "subtitles": [
+          "Accommodation at all the places mention in the itinerary.",
+          "Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
+          "Transportation around the tour (As mentioned above).",
+          "All sightseeing and excursion as per the Itinerary.",
+          "All Toll Tax, Parking Includes."
+          ]
+        },
+        {
+          "title": "Tour Cost dose not Includes:",
+          "subtitles": [
+          "Extra Meal, Boating Charges, Ropeway Charge, Entry Fee, Guide Fee etc.",
+          "Anything not specifically mentioned in “Experience Include”."
+          ]
+        }
       ]
     }
-  ]
 }

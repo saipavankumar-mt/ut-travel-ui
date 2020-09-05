@@ -14,17 +14,17 @@
       <div class="content">
         <p class="title is-4" v-if="item.title">{{ item.title }}</p>
         <p class="subtitle is-7 is-italic" v-if="item.duration">Duration: {{ item.duration }}</p>
-        <p class="subtitle is-5 is-italic" v-if="item.price">From: {{ item.price }}/-Per Person</p>
+        <!-- <p class="subtitle is-5 is-italic" v-if="item.price">From: {{ item.price }}/-Per Person</p> -->
         <p class="subtitle is-7 is-italic" v-if="item.subtitle">{{ item.subtitle }}</p>
         <div class="book-now">
-          <a @click="onViewMoreClick(item.key)" v-if="appPreviewSettings.showViewMore">View More</a>
+          <!-- <a @click="onViewMoreClick(item)" v-if="appPreviewSettings.showViewMore">View More</a> -->
           <b-button
             class
             v-if="appPreviewSettings.showBookNow"
-            @click="openCardModal()"
+            @click="onViewMoreClick(item)"
             type="is-success"
             outlined
-          >BOOK NOW</b-button>
+          >More Details</b-button>
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@ export default {
         params: { packageId: this.item.key },
       });
     },
-    onViewMoreClick(value) {
+    onViewMoreClick(value) {      
       this.$emit("viewMoreClick", value);
     },
     openCardModal() {
@@ -122,7 +122,7 @@ export default {
       font-size: 20px;
       line-height: 20px;
       text-transform: capitalize;
-      color: green;
+      color: rgb(96, 191, 243);;
       padding-bottom: 8px;
     }
 
@@ -140,12 +140,12 @@ export default {
     align-items: center;
     a {
       font-size: 14px;
-      color: green;
+      color: rgb(96, 191, 243);;
 
       &:hover {
         opacity: 0.7;
       }
-    }
+    }    
   }
 }
 </style>

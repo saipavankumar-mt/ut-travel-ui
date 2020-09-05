@@ -1,6 +1,6 @@
 <template>     
     <section class="similarpackage-section columns">
-        <div class="column"> <p class="title is-4"> Similar Packages</p> </div>
+        <div class="similarpackages-title column"> <h2> <span> SIMILAR PACKAGES </span></h2> </div>
         <app-preview-card class="column" v-for="(item, idx) in packages" :key="idx" :item="item"></app-preview-card>
     </section>  
 </template>
@@ -52,4 +52,15 @@ export default {
     border-radius: 5px;
     box-shadow: 0 0 10px 0px;
 }
+
+.similarpackages-title{
+  h2 {
+      text-transform: capitalize;
+      font: 20px/30px "open_sansbold";
+      span {
+        color: #4a5258;
+      }
+    }
+}
+
 </style>

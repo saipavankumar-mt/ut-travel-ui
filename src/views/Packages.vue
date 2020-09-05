@@ -63,7 +63,7 @@ export default {
 
 <style lang="scss">
 .packages {
-  background-image: url('../assets/images/Haridwar.png');
+  background-image: url('../assets/images/Ut-wallpaper.png');
   // background-image: linear-gradient(
   //   141deg,
   //   #1f191a 0%,

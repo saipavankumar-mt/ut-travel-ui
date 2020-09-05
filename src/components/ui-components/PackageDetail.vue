@@ -32,41 +32,10 @@
             </p>
           </li>
         </ul>
+        <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
       </div>
 
-      <img class="banner-inner" :src="posts.heroImage" alt="chardham-banner" />
-
-      <!-- <div class="detail-container">
-        <div class="detail-title">
-          <div class="title is-2">{{ posts.title }}</div>
-          <p class="quote subtitle is-5 is-italic">{{ posts.qoute }}</p>
-        </div>
-        <div class="description is-italic">
-          <div>{{ posts.subtitle }}</div>
-        </div>
-        <div class="itinerary">
-          <div>
-            <span id="name">Route:</span>
-            <span class="is-italic route">{{ posts.route }}</span>
-          </div>
-          <div>
-            <span id="name">Duration:</span>
-            <span class="is-italic route">{{ posts.duration }}</span>
-          </div>
-          <div>
-            <span id="name">Night Stay:</span>
-            <span class="is-italic route">{{ posts.nightStay }}</span>
-          </div>
-          <div class="price">
-            <p><b>From: &#8377;</b><b class="title"> {{posts.price}}/-</b></p>
-            
-            <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
-            
-          </div>
-        </div>
-        
-        
-      </div>-->
+      <img class="banner-inner" :src="posts.heroImage" alt="chardham-banner" />      
     </div>
 
     <div class="itinerary-container">
@@ -110,7 +79,7 @@
             </div>
           </b-tab-item>
           <b-tab-item label="INCLUSIONS & EXCLUSIONS" icon="library-music"></b-tab-item>
-          <b-tab-item label="DESTINATIONS"></b-tab-item>
+          <b-tab-item label="ACCOMODATION & PRICE"></b-tab-item>
           <b-tab-item label="TERMS">
             <div class="imp-info-container">
               <div class="imp-description" v-for="(item, i) in posts['importantInfo']" :key="i">
@@ -169,12 +138,11 @@ export default {
   name: "PackageDetail",
   components: {
     SimilarPackages,
-  },
+  },  
   data() {
     return {
       posts: {},
       errors: [],
-
       gallery: false,
       al: {
         hasGrayscale: false,
@@ -212,7 +180,7 @@ export default {
     this.$http
       .get(`${process.env.BASE_URL}Data/Pckg4-0.json`)
       .then((response) => {
-        this.posts = response.data.data[0];
+        this.posts = response.data.data;
         this.posts.heroImage = require("../../assets/images/" +
           this.posts.heroImage);
         for (let i = 0; i < this.posts.images.length; i++) {

@@ -71,7 +71,7 @@
     <div class="divider"></div>
     <div class="tour-package-info">
       <div class="package-title">
-        <h2>Why Uttarancal?</h2>
+        <h2>Why Uttaranchal Holidays?</h2>
       </div>
       <div>
         <p>
@@ -133,23 +133,23 @@ export default {
   components: {
     AppPreviewCard,
     // BookingFormVue,
-  },
+  },  
   data() {
     return {
       tourPackages: [],
       tourPackagesHeader: [
         {
-          type: "DEVOTIONAL YATRAS",
+          type: "PILIGRIM YATRAS",
           key: "DEVOTIONAL",
           data: [],
         },
         {
-          type: "BEAUTIFUL UTTRANCHAL",
+          type: "LEISURE PACKAGES",
           key: "BEAUTIFUL",
           data: [],
         },
         {
-          type: "ADVENTURE PACKAGES",
+          type: "ADVENTURES PACKAGES",
           key: "ADVENTURE",
           data: [],
         },
@@ -160,7 +160,7 @@ export default {
         cardImage: {
           imageSize: "is-5by3",
         },
-        showViewMore: true,
+        showViewMore: false,
         showBookNow: true,
       },
     };
@@ -171,7 +171,7 @@ export default {
   },
   methods: {
     onViewMoreClicked(value) {
-      this.redirect(value);
+      this.redirect(value.key);
     },
     openCardModal() {
       this.$buefy.modal.open({

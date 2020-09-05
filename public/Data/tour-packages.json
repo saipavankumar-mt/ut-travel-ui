@@ -11,7 +11,7 @@
     {
       "id": "",
       "title": "Teendham",
-      "image": "",
+      "image": "teendhamTile.png",
       "price": "49999",
       "duration": "9 Nights / 10 Days"
     },
@@ -25,28 +25,28 @@
     {
       "id": "",
       "title": "Panchkedar",
-      "image": "",
+      "image": "panchkedarTile.png",
       "price": "49999",
       "duration": "14 Nights / 15 Days"
     },
     {
       "id": "",
       "title": "Panchbadri",
-      "image": "",
+      "image": "panchbadriTile.png",
       "price": "49999",
       "duration": "14 Nights / 15 Days"
     },
     {
       "id": "",
       "title": "Panchprayag",
-      "image": "",
+      "image": "rudrapryag.png",
       "price": "49999",
       "duration": "14 Nights / 15 Days"
     }
   ],
   "beautifulUttranchal": [
     {
-      "id": "Pckg4-0",
+      "id": "Pckg-B-1",
       "title": "Garhwal Glimpse",
       "image": "GarhwalGlimpseTile.png",
       "duration": "4 Nights / 5 Days",

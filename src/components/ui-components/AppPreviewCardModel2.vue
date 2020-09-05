@@ -2,7 +2,7 @@
   <div class="pvmodel2-outer">
     <div class="pvmodel2-inner">
       <div class="pvmodel2-inner-img">
-        <img src="../../assets/images/destinations/nainital.webp" />
+        <img :src="getImageUrl" :alt="getImageUrl" />
       </div>
       <div class="pvmodel2-inner-title">
         <p class="pvmodel2-title">{{ item.title }}</p>
@@ -28,6 +28,15 @@ export default {
     item: { type: Object, required: true },
     image: { type: String },
   },
+  computed: {
+    getImageUrl() {
+      try {
+        return require("../../assets/images/" + this.item.image);
+      } catch (err) {
+        return require("../../assets/images/KumaonHeritageTile.png");
+      }
+    },
+  },
   methods: {
     redirect: function() {
       this.$router.push({
@@ -42,7 +51,7 @@ export default {
 <style lang="scss">
 .pvmodel2-outer {
   // box-shadow: 5px 0 10px;
-  background-color: white;
+  background-color:#f5f5f5;
   height: 100%;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
@@ -71,7 +80,7 @@ export default {
   width: 50%;
   display: flex;
   justify-content: center;
-  background: white;
+  background: #f5f5f5;;
   flex-direction: column;
   padding: 1rem;
   overflow: hidden;
