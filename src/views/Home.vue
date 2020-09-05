@@ -9,15 +9,15 @@
 </template>
 
 <script>
-import TheCarousel from '../components/TheCarousel.vue';
+import TheCarousel from "../components/TheCarousel.vue";
 // import OfferList from './OfferList.vue';
-import Packages from './Packages.vue';
-import Destinations from './Destinations.vue';
-import DestinationsOld from './DestinationsOld.vue';
-import AboutUs from './AboutUs.vue';
+import Packages from "./Packages.vue";
+import Destinations from "./Destinations.vue";
+import DestinationsOld from "./DestinationsOld.vue";
+import AboutUs from "./AboutUs.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     TheCarousel,
     // OfferList,
@@ -25,6 +25,9 @@ export default {
     Destinations,
     DestinationsOld,
     AboutUs,
+  },
+  created() {
+    window.scrollTo(0, 0);
   },
 };
 </script>

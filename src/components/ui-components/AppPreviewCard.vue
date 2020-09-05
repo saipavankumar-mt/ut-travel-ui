@@ -14,10 +14,10 @@
       <div class="content">
         <p class="title is-4" v-if="item.title">{{ item.title }}</p>
         <p class="subtitle is-7 is-italic" v-if="item.duration">Duration: {{ item.duration }}</p>
-        <p class="subtitle is-5 is-italic" v-if="item.price">{{ item.price }}/-Per Person</p>
+        <p class="subtitle is-5 is-italic" v-if="item.price">From: {{ item.price }}/-Per Person</p>
         <p class="subtitle is-7 is-italic" v-if="item.subtitle">{{ item.subtitle }}</p>
         <div class="book-now">
-          <a :href="onViewMoreClick(item.key)" v-if="appPreviewSettings.showViewMore">View More</a>
+          <a @click="onViewMoreClick(item.key)" v-if="appPreviewSettings.showViewMore">View More</a>
           <b-button
             class
             v-if="appPreviewSettings.showBookNow"
@@ -77,7 +77,7 @@ export default {
       });
     },
     onViewMoreClick(value) {
-      this.$emit("viewMoreClicked", value);
+      this.$emit("viewMoreClick", value);
     },
     openCardModal() {
       this.$emit("openCardModal");
@@ -137,6 +137,7 @@ export default {
   .book-now {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     a {
       font-size: 14px;
       color: green;

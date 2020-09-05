@@ -75,6 +75,7 @@ export default {
   },
   created() {
     this.getTourPackages();
+    window.scrollTo(0, 0);
   },
   methods: {
     redirect: function (key) {
