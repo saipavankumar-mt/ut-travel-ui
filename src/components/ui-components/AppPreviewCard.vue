@@ -140,6 +140,10 @@ export default {
     a {
       font-size: 14px;
       color: green;
+
+      &:hover {
+        opacity: 0.7;
+      }
     }
   }
 }
