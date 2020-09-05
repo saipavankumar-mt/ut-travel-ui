@@ -69,6 +69,7 @@ export default {
         cardImage: {
           imageSize: "is-5by3",
         },
+        showViewMore: true,
       },
     };
   },
