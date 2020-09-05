@@ -88,8 +88,6 @@ export default {
 
 <style lang="scss">
 .preview-card {
-  font-family: Bahnschrift SemiBold;
-
   height: 100%;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
@@ -116,11 +114,11 @@ export default {
   //   padding: unset !important;
   // }
   .content {
+    font-family: Bahnschrift SemiBold;
     padding: 6px;
     text-align: left;
 
     .title.is-4 {
-      font-family: SFProDisplay;
       font-size: 20px;
       line-height: 20px;
       text-transform: capitalize;
@@ -131,7 +129,6 @@ export default {
     .subtitle {
       // margin-top: 4px !important;
       font-style: unset !important;
-      font-family: SFProDisplay;
       text-transform: capitalize;
       color: #64666b;
       font-weight: 700;
