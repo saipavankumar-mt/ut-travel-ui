@@ -66,7 +66,6 @@ export default {
       appPreviewSettings: {
         showHover: false,
         cardContent: "card-setting",
-        content: "content-setting",
         cardImage: {
           imageSize: "is-5by3",
         },
@@ -80,12 +79,11 @@ export default {
   methods: {
     redirect: function (key) {
       this.$router.push({
-        name: "detail",
-        params: { packageName: key },
+        name: "destination-detail",
+        params: { destinationName: key },
       });
     },
     getTourPackages() {
-      console.log("Inside get packages");
       this.$http
         .get(`${process.env.BASE_URL}data/packageDestinations.json`)
         .then((res) => {
