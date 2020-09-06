@@ -77,10 +77,10 @@ export default {
     redirect: function () {
       this.$router.push({
         name: "detail",
-        params: { packageId: this.item.key },
+        params: { packageName: this.item.key, packageId: this.item.id },
       });
     },
-    onViewMoreClick(value) {      
+    onViewMoreClick(value) {
       this.$emit("viewMoreClick", value);
     },
     openCardModal() {
@@ -126,7 +126,7 @@ export default {
       font-size: 20px;
       line-height: 20px;
       text-transform: capitalize;
-      color: rgb(96, 191, 243);;
+      color: rgb(96, 191, 243);
       padding-bottom: 8px;
     }
 
@@ -144,12 +144,12 @@ export default {
     align-items: center;
     a {
       font-size: 14px;
-      color: rgb(96, 191, 243);;
+      color: rgb(96, 191, 243);
 
       &:hover {
         opacity: 0.7;
       }
-    }    
+    }
   }
 }
 .thumbnail {

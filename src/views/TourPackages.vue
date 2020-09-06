@@ -63,6 +63,7 @@
                 :item="item"
                 :app-preview-settings="appPreviewSettings"
               ></app-preview-card>
+              <router-view></router-view>
             </div>
           </b-tab-item>
         </b-tabs>
@@ -133,7 +134,7 @@ export default {
   components: {
     AppPreviewCard,
     // BookingFormVue,
-  },  
+  },
   data() {
     return {
       tourPackages: [],
@@ -170,7 +171,7 @@ export default {
   },
   methods: {
     onViewMoreClicked(value) {
-      this.redirect(value.key);
+      this.redirect(value);
     },
     openCardModal() {
       this.$buefy.modal.open({

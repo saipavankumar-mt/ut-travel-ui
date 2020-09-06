@@ -6,8 +6,10 @@
           <span>{{ posts.title }}</span> Packages
         </h1>
         <p>{{posts.subtitle}}</p>
-        <h5>{{posts.overview[0].title}}</h5>
-        <p>{{posts.overview[0].subtitle}}</p>
+        <div v-for="(item, i) in posts.overview" :key="i">
+          <h5>{{item.title}}</h5>
+          <p>{{item.subtitle}}</p>
+        </div>
         <h5>Temperature</h5>
         <ul>
           <li>
@@ -35,7 +37,7 @@
         <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
       </div>
 
-      <img class="banner-inner" :src="posts.heroImage" alt="chardham-banner" />      
+      <img class="banner-inner" :src="posts.heroImage" alt="chardham-banner" />
     </div>
 
     <div class="itinerary-container">
@@ -78,15 +80,41 @@
               </div>
             </div>
           </b-tab-item>
-          <b-tab-item label="INCLUSIONS & EXCLUSIONS" icon="library-music"></b-tab-item>
-          <b-tab-item label="ACCOMODATION & PRICE"></b-tab-item>
+          <b-tab-item label="INCLUSIONS & EXCLUSIONS" icon="library-music">
+            <div class="imp-info-container">
+              <div
+                class="imp-description"
+                v-for="(item, i) in posts.inclusionAndExclusion"
+                :key="i"
+              >
+                <span class="imp-title">{{item.title}}:&nbsp;</span>
+                <div class="imp-sub-container">
+                  <div class="imp-subtitle" v-for="(title, index) in item.subtitles" :key="index">
+                    <div class="icon-text">
+                      <i class="fas fa-angle-double-right"></i>
+                      {{ title }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </b-tab-item>
+          <b-tab-item label="ACCOMODATION & PRICE">
+            <b-table :bordered="true" :data="posts.accomodationInfo" :columns="accomodationColumns"></b-table>
+            <div class="per-person-heading">Per Person Cost for the Package</div>
+            <b-table
+              :bordered="true"
+              :data="posts.perPersonCostInfo"
+              :columns="perPersonCostColumns"
+            ></b-table>
+          </b-tab-item>
           <b-tab-item label="TERMS">
             <div class="imp-info-container">
               <div class="imp-description" v-for="(item, i) in posts['importantInfo']" :key="i">
                 <span class="imp-title">{{item.title}}:&nbsp;</span>
                 <div class="imp-sub-container">
                   <div class="imp-subtitle" v-for="(title, index) in item.subtitles" :key="index">
-                    <i class="fas fa-atom"></i>
+                    <i class="fas fa-angle-double-right"></i>
                     {{ title }}
                   </div>
                 </div>
@@ -142,6 +170,8 @@ export default {
   props: ["packageId"],
   data() {
     return {
+      accomodationColumns: [],
+      perPersonCostColumns: [],
       posts: {},
       errors: [],
       gallery: false,
@@ -175,6 +205,41 @@ export default {
         trapFocus: true,
       });
     },
+    getAccomodationInfo() {
+      console.log(this.posts.accomodationInfo.length);
+      for (let i = 0; i < this.posts.accomodationInfo.length; i++) {
+        if (i === 0) {
+          let header = {};
+          for (const property in this.posts.accomodationInfo[i]) {
+            (header = {
+              field: property,
+              label: property.toUpperCase(),
+              centered: true,
+            }),
+              this.accomodationColumns.push(header);
+          }
+        }
+      }
+    },
+    getPerPersonCostInfo() {
+      console.log(this.posts.perPersonCostInfo.length);
+      for (let i = 0; i < this.posts.perPersonCostInfo.length; i++) {
+        if (i === 0) {
+          let header = {};
+          for (const property in this.posts.perPersonCostInfo[i]) {
+            (header = {
+              field: property,
+              label:
+                property === "passengers"
+                  ? "NO. OF PAX"
+                  : property.toUpperCase(),
+              centered: true,
+            }),
+              this.perPersonCostColumns.push(header);
+          }
+        }
+      }
+    },
   },
   created() {
     window.scrollTo(0, 0);
@@ -182,6 +247,9 @@ export default {
       .get(`${process.env.BASE_URL}Data/${this.packageId}.json`)
       .then((response) => {
         this.posts = response.data.data;
+        console.log(this.posts);
+        this.getAccomodationInfo();
+        this.getPerPersonCostInfo();
         this.posts.heroImage = require("../../assets/images/" +
           this.posts.heroImage);
         for (let i = 0; i < this.posts.images.length; i++) {
@@ -320,22 +388,31 @@ export default {
     }
   }
   .imp-info-container {
-    padding: 20px 0;
+    padding: 20px 0 20px 20%;
+    text-align: left;
     .imp-heading {
       font-size: 24px;
     }
     .imp-description {
       padding-bottom: 6px;
-      color: #930;
+
       font-weight: 700;
       .imp-sub-container {
         padding-left: 24px;
       }
       .imp-title {
+        color: #930;
         span {
         }
       }
       .imp-subtitle {
+        .icon-text {
+          display: flex;
+        }
+        svg {
+          color: #930;
+          margin-top: 3px;
+        }
       }
     }
   }
@@ -409,6 +486,29 @@ export default {
       }
     }
   }
+}
+.table thead {
+  background-color: #47caf0 !important;
+  tr {
+    th {
+      .th-wrap {
+        color: white !important;
+      }
+    }
+  }
+}
+.tabs li.is-active a {
+  border-bottom-color: #47caf0 !important;
+  color: #47caf0 !important;
+  font-weight: 700;
+}
+
+.per-person-heading {
+  margin: 30px 0 0;
+  font-size: 22px;
+  border: 1px solid #dbdbdb;
+  text-align: left;
+  color: brown;
 }
 
 @media only screen and (max-width: 1366px) {

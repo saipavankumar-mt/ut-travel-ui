@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: 'AppPreviewCardModel2',
+  name: "AppPreviewCardModel2",
   props: {
     item: { type: Object, required: true },
     image: { type: String },
@@ -38,10 +38,10 @@ export default {
     },
   },
   methods: {
-    redirect: function() {
+    redirect: function () {
       this.$router.push({
-        name: 'detail',
-        params: { packageId: this.item.key },
+        name: "detail",
+        params: { packageName: this.item.key, packageId: this.item.id },
       });
     },
   },
@@ -51,7 +51,7 @@ export default {
 <style lang="scss">
 .pvmodel2-outer {
   // box-shadow: 5px 0 10px;
-  background-color:#f5f5f5;
+  background-color: #f5f5f5;
   height: 100%;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
@@ -80,7 +80,7 @@ export default {
   width: 50%;
   display: flex;
   justify-content: center;
-  background: #f5f5f5;;
+  background: #f5f5f5;
   flex-direction: column;
   padding: 1rem;
   overflow: hidden;
@@ -104,14 +104,14 @@ export default {
 .pvmodel2-duration {
   align-self: center;
   font-size: 1.5rem;
-  font-family: 'Brush Script MT';
+  font-family: "Brush Script MT";
 }
 
 .pvmodel2-price {
   p {
     color: #690404;
     font-size: 1.8rem;
-    font-family: 'Brush Script MT';
+    font-family: "Brush Script MT";
   }
 }
 </style>

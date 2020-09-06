@@ -23,7 +23,7 @@ const routes = [
     ],
   },
   {
-    path: '/tour-package/:packageName',
+    path: '/tour-package/:packageId/:packageName',
     name: 'detail',
     component: PackageDetail,
     props: true,
