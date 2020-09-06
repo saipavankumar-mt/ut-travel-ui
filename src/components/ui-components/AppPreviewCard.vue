@@ -5,12 +5,12 @@
     class="preview-card card"
     v-bind:class="{'preview-card-hover': appPreviewSettings.showHover}"
   >
-    <div class="card-image" @click="onViewMoreClick(item)">
+    <div class="card-image">
       <figure
         :class="['image', appPreviewSettings.cardImage.imageSize,{'thumbnail': appPreviewSettings.showViewMore}]"
       >
         <div>
-          <b-button>View Package</b-button>
+          <b-button @click="onViewMoreClick(item)">View Package</b-button>
         </div>
         <img :src="getImageUrl" :alt="getImageUrl" />
       </figure>
