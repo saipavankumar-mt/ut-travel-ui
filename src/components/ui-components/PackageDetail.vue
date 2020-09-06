@@ -36,8 +36,10 @@
         </ul>
         <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
       </div>
-
-      <img class="banner-inner" :src="posts.heroImage" alt="chardham-banner" />
+      <div class="banner-inner" >
+        <img :src="posts.heroImage" alt="posts.heroImage" />
+      </div>
+      
     </div>
 
     <div class="itinerary-container">
@@ -513,8 +515,14 @@ export default {
 
 @media only screen and (max-width: 1366px) {
   .banner-inner {
-    width: auto;
-    right: 0px;
+    width: 45% !important;
+    height: 500px !important;
+    right: 0px !important;
+    img{
+      width: -webkit-fill-available !important;
+      height: -webkit-fill-available !important;
+      border-bottom-left-radius: 35% 45%
+    }
   }
 }
 </style>
