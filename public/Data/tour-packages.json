@@ -1,7 +1,7 @@
 {
   "devotionalYatras": [
     {
-      "id": "Pckg4-0",
+      "id": "Pckg-D-1",
       "title": "Chardham",
       "key": "chardham",
       "image": "ChardhamTile.png",
@@ -46,57 +46,56 @@
       "duration": "4 Nights / 5 Days"
     },
     {
-      "id": "Pckg3-0",
+      "id": "Pckg-B-2",
       "title": "Magnificent Gharwal",
       "image": "MagnificientGarhwalTile.png",
-
       "duration": "7 Nights / 8 Days"
     },
     {
-      "id": "",
+      "id": "Pckg-B-3",
       "title": "Complete Uttranchal",
       "image": "CompleteUttranchalTile.png",
 
       "duration": "10 Nights / 11 Days"
     },
     {
-      "id": "",
+      "id": "Pckg-B-4",
       "title": "Kumaon Heritage",
       "image": "KumaonHeritageTile.png",
       "duration": "9 Nights / 10 Days"
     },
     {
-      "id": "",
+      "id": "Pckg-B-5",
       "title": "Beautiful Kumaon",
       "image": "BeautifulKumaonTile.png",
       "duration": "9 Nights / 10 Days"
     },
     {
-      "id": "",
+      "id": "Pckg-B-6",
       "title": "Tiny Uttranchal",
       "image": "TinyUttranchalTile.png",
       "duration": "6 Nights / 7 Days"
     },
     {
-      "id": "Pckg4-0",
+      "id": "Pckg-B-7",
       "title": "Scenic Uttranchal",
       "image": "ScenicUttranchalTile.png",
       "duration": "9 Nights / 10 Days"
     },
     {
-      "id": "Pckg3-0",
+      "id": "Pckg-B-8",
       "title": "Untouched Garwhal",
       "image": "UntouchedGarhwalTile.png",
       "duration": "4 Nights / 5 Days"
     },
     {
-      "id": "",
+      "id": "Pckg-B-9",
       "title": "Uttranchal Preview",
       "image": "UttranchalPreviewTile.png",
       "duration": "7 Nights / 8 Days"
     },
     {
-      "id": "",
+      "id": "Pckg-B-10",
       "title": "Weekend Uttranchal",
       "image": "WeekendUttranchalTile.png",
       "duration": "3 Nights / 4 Days"
@@ -104,13 +103,13 @@
   ],
   "adventurePackages": [
     {
-      "id": "Pckg4-0",
+      "id": "Pckg-A-1",
       "title": "Real Adventure With Corbett",
       "image": "RealAdventureWithCorbettTile.png",
       "duration": "5 Nights / 6 Days"
     },
     {
-      "id": "Pckg3-0",
+      "id": "Pckg-A-2",
       "title": "Real Adventure",
       "image": "riverrafting.png",
       "duration": "6 Nights / 7 Days"

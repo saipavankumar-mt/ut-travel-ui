@@ -1,0 +1,483 @@
+{
+  "data":
+	{
+	  "id": "Pckg-B-7",
+	  "key": "ScenicUttaranchal",
+	  "title": "Scenic Uttaranchal",
+	  "qoute": "...Explore Nainital and Ranikhet and Jim Corbett National Park and Haridwar and Mussoorie",
+	  "subtitle": "",
+	  "overview":[
+		{
+		  "title":"Nainital (…Peachy and Decency, Sign A Peace Treaty):",
+		  "subtitle":"Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period."
+		},
+		{
+		  "title":"Ranikhet (…The Queen’s Meadow):",
+		  "subtitle":"Settled amidst the fresh breeze, the charming view of the lush green forests and the majestic Himalayas, the adventure wildlife and the melodious chirping of birds will leave nature’s admirers awestruck in Ranikhet. Located in the Himalayan land of Uttarakhand, Ranikhet is the best of hill stations."
+		},
+		{
+		  "title":"Jim Corbett National Park (…Hear Nature’s Roar):",
+		  "subtitle":"Jim Corbett National Park can be befittingly called the paradise of Tigers for the fact that it holds a large population of Tigers in its breathtaking landscaped that consists of different varieties of flora and fauna. Named after the legendary tiger hunter turned naturalist Jim Corbett, the proud destinations ‘Jim Corbett National Park’ was the first national park of India, which was established in 1936 in the Uttarakhand."
+		},
+		{
+		  "title":"Haridwar (…Gateway to Heaven):",
+		  "subtitle":"Haridwar is one of the seven sacred cities of the Hindus and is a major pilgrimage center. It has been known by many names originally it was called Kapila’ for the sage who once lived there. Its present name means 'Door to Hari' Hari is one of the names of Lord Vishnu’ a principal deity of Hindusim."
+		},
+		{
+		  "title":"Mussoorie (…Truly a Queen):",
+		  "subtitle":"Mussoorie, the proverbial queen of Hill station, as professed by the British gentry who evaded hot, desultory summers of Delhi and Kolkata by Spending time here. Being at an average altitude of 2,000 meters Mussoorie, with its green hills and varied flora and fauna, is a fascinating hill resort. Commanding snow ranges to the north- east, and glittering views of the Doon Valley and Shivalik ranges in the south, the town was once said to present a ‘fairyland’ atmosphere to tourists."
+		}	
+	  ],
+	  "temperature":[
+		{
+			
+
+		} 	
+	  ],
+	  "route": "Delhi – Nainital - Ranikhet - Jim Corbett National Park - Haridwar - Mussoorie - Delhi",
+	  "duration": "9 Nights / 10 Days",
+	  "nightStay": "Nainital (3 Nights), Ranikhet (1 Night), Corbett (2 Nights), Haridwar (1 Night), Mussoorie (2 Nights)",
+	  "heroImage": "",
+	  "price": "21100",
+	  "images": [
+	  ],
+	  "description": [
+		{
+		  "title": "Day 1 Pickup from Delhi Railway Station/Airport (325 Kms : 8Hrs. Travelling to Nainital)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Delhi",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Nainital",
+			  "subtitle": "325Kms : 8Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{ 
+					"time" : "5:00 pm to 6:00 pm",
+					"activities": "Arrival in Nainital and enjoy a quick and hassle-free check-in at Hotel."
+				},
+				{ 
+					"time" : "6:00 pm to 8:00 pm",
+					"activities": "Evening free to enjoy the boating at Naini Lake (At your own) & you can visit Mall Road for shopping."
+				},
+				{ 
+					"time" : "8:00 pm to 10:00 pm",
+					"activities": "Dinner at Hotel."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 2  Nainital Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Nainital",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "9:00 am to 2:00 pm",
+				"activities": "Lake Tour Bhimtal, Naukuchia Tal, Sat Tal, Hanuman Temple, Golu Devta Temple at Gorhakhal."
+			  },
+			  {
+				"time" : "4:00 pm to 7:00 pm",
+				"activities": "Evening Nainital Sightseeing such as Nainia Devi Temple, Naini Lake, Tibetan Market."
+			  },
+			  { 
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."
+			  }
+		  ]
+		},
+		{
+		"title": "Day 3  Nainital Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Nainital",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "9:00 am to 6:00 pm",
+				"activities": "Sightseeing such as Nainia Devi Temple, Naina Peak, Kilbury, Raj Bhawan, St. John’s Church, Land’s End, Zoo Gardens, Snow View Point, Cave Garden, Tiffin Top as per your time & comfort."				
+			  },
+			  { 
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."
+			  }
+		  ]
+		},
+		{
+		  "title": "Day 4  Nanintal to  Ranikhet (65 Kms : 2Hrs. Travelling to Ranikhet)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Nanintal",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Ranikhet",
+			  "subtitle": "65Kms : 2Hrs"
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "2:00 pm to 7:00 pm",
+				"activities": "Sightseeing of Ranikhet like Golf Ground, Maa Kali Temple, Kumaon Regement Army Head Quarter and evening visit to Mall Road."
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }				  
+		  ]
+		},
+		{
+		"title": "Day 5  Ranikhet to Corbett National Park (95 Kms : 3-4Hrs. Travelling to Corbett Park)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Ranikhet",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Corbett National Park",
+			  "subtitle": "95Kms : 3-4Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "3:00 pm to 6:00 pm",
+				"activities": "visit Corbett Museum and Garzia Devi Temple."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 6  Jim Corbett Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Corbett",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 8:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "9:00 am to 6:00 pm",
+				"activities": "Full day free to Explore Corbett National Park."
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }					
+		  ]
+		},
+		{
+		"title": "Day 7  Corbett to Haridwar  (210 Kms : 4-5Hrs. Travelling to Haridwar)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Corbett",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Haridwar",
+			  "subtitle": "210Kms : 4-5Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "9:00 am to 3:00 pm",
+				"activities": "Drive to Haridwar from Corbett."				
+			  },
+			  {
+				"time" : "4:00 pm to 8:00 pm",
+				"activities": "Evening Arti at Har-Ki-Pauri. Visit local market Moti Bazar and Temples like Bhuma Niketan Mandir, Bharat Mata Mandir, Vaishno Devi Mandir and Pawan Dham."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }					
+		  ]
+		},
+		{
+		"title": "Day 8  Haridwar to Mussoorie (80 Kms : 2-3Hrs. Travelling to Mussoorie)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Haridwar",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Mussoorie",
+			  "subtitle": "80Kms : 2-3Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 3:00 pm",
+				"activities": "Start Journey to Mussoorie by covering the Sightseeing of Dehradun include, Sai Baba Mandir, Prakasheshwar Mahadev Mandir and Malsi Deer Park."
+			  },
+			  {
+				"time" : "4:00 pm to 7:00 pm",
+				"activities": "Free to visit mall Road."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 9  Mussoorie Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Mussoorie",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 6:00 pm",
+				"activities": "visit Kampty Fall (15 kms from Mussoorie on the Yamunotri Road is the most fascinating and the biggest water fall, Kempty Fall is located in a beautiful valley of Mussoorie.) Company Garden, Mall Road, Rope Way (One can enjoy a thrilling ropeway ride to Gun Hill, the second highest peak of Mussoorie - 2122 mts; the peak offers a panoramic view of the Himalayan ranges.)"	
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 10 Check Out from Mussoorie (265 Kms : 7Hrs. Travelling to Delhi)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Mussoorie",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Delhi",
+			  "subtitle": "265Kms : 7Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 5:00 pm",
+				"activities": "Reaching at Airport by having Sweet Memoires in mind and lots of love."				
+			  }			
+		  ]
+		}
+	  ],
+	  "importantInfo": [
+		{
+		  "title": "Note",
+		  "subtitles": [
+			"Vehicles are not allowed on the Mall road of Nainital and Mussoorie so you have to travel by foot there.",
+			"AC and Music System in Vehicle will not be operated when we are on the Hilly Area.",
+			"All the rates are subject to change without prior notice.",
+			"All rates are valid till 30th June, 2020.",
+			"All disputes are subject to Haridwar Jurisdiction.",
+			"Govt. Taxes (GST)"
+		  ]
+		},
+		{
+		  "title": "Mode of Payment:",
+		  "subtitles": [
+		    "Kindly release 25% Payment for the Blocking.",
+			"Kindly release total 50% Payment before 30 days of arrival.",
+			"Kindly release total 100% Payment before 7 days of arrival."
+		  ]
+		}
+	  ],
+	  "cancellationPolicy":{
+		"title": "Cancellation Policy:",
+		  "subtitles": [
+			"10% of the Total Package Cost is Non-Refundable.",
+			"25% cancellation charge of the total package cost, if cancellation less than 30 days before arrival.",
+			"35% cancellation charge of the total package cost, if cancellation between 15 to 7 days before arrival.",
+			"50% cancellation charge of the total package cost if cancellation between 7 to 2 days before arrival.",
+			"100% cancellation charge of the total package cost if cancellation before 48 Hrs. before arrival.",
+			"Altering the confirmed plan Not possible."
+		  ]
+	  },
+	  "inclusionAndExclusion":[
+		{
+		  "title": "Experience Includes:",
+		  "subtitles": [
+			"Accommodation at all the places mention in the itinerary.",
+			"Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
+			"Transportation around the tour (As mentioned above).",
+			"All sightseeing and excursion as per the Itinerary.",
+			"All Toll Tax, Parking Includes."
+		  ]
+		},
+		{
+		  "title": "Tour Cost dose not Includes:",
+		  "subtitles": [
+			"Extra Meal, Boating Charges, Ropeway Charge, Entry Fee, Guide Fee etc.",
+			"Anything not specifically mentioned in “Experience Include”."
+		  ]
+		}
+	  ],
+	 "accomodationInfo":[
+		{
+			"accomodation": "Nainital",
+			"standard": "Hotel Aroma/ Mount n Mist or Similar",
+			"deluxe": "Rio Grand/ Dynasty Resort or Similar",
+			"luxury": "NV Nature View or Similar"
+		},
+		{
+			"accomodation": "Ranikhet",
+			"standard": "Ranikhet Grand / Moon or Similar",
+			"deluxe": "Pool Retreat/ Xomotel or Similar",
+			"luxury": "West View or Similar"
+		},
+		{			
+			"accomodation": "Corbett",
+			"standard": "Ashoka Tiger Trail or Similar",
+			"deluxe": "Regenta Tarika / Wild Exotica or Similar",
+			"luxury": "Corbett The Grand or Similar"
+		},
+		{
+			"accomodation": "Haridwar",
+			"standard": "Holy Basil/ Paradise Inn or Similar",
+			"deluxe": "Lakashya/ Regenta Orko’s or Similar",
+			"luxury": "Godwin or Similar"
+		},
+		{			
+			"accomodation": "Mussoorie",
+			"standard": "Savoy Residency or Similar",
+			"deluxe": "Milestone Inn / Kamakshi Grand or Similar",
+			"luxury": "Royal Orchid / Fortune Grace or Similar"
+		}		
+		
+	  ],
+	 "perPersonCostInfo":[
+		{
+			"passengers": "2",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "Rs. 31,250/- + 5% GST",
+			"Deluxe": "Rs. 37,500/- + 5% GST",
+			"Luxury": "Rs. 48,750/- + 5% GST"
+		},
+		{
+			"passengers": "3",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "Rs. 24,400/- + 5% GST",
+			"Deluxe": "Rs. 29,800/- + 5% GST",
+			"Luxury": "Rs. 40,000/- + 5% GST"
+		},
+		{
+			"passengers": "4",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 27,250/- + 5% GST",
+			"Deluxe": "Rs. 33,500/- + 5% GST",
+			"Luxury": "Rs. 44,750/- + 5% GST"
+		},
+		{
+			"passengers": "5",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 23,900/- + 5% GST",
+			"Deluxe": "Rs. 29,500/- + 5% GST",
+			"Luxury": "Rs. 40,250/- + 5% GST"
+		},
+		{
+			"passengers": "6",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 23,250/- + 5% GST",
+			"Deluxe": "Rs. 29,500/- + 5% GST",
+			"Luxury": "Rs. 40,750/- + 5% GST"
+		},
+		{
+			"passengers": "7",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 21,750/- + 5% GST",
+			"Deluxe": "Rs. 27,400/- + 5% GST",
+			"Luxury": "Rs. 38,400/- + 5% GST"
+		},
+		{
+			"passengers": "8",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 24,000/- + 5% GST",
+			"Deluxe": "Rs. 30,250/- + 5% GST",
+			"Luxury": "Rs. 41,500/- + 5% GST"
+		},
+		{
+			"passengers": "9",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 22,550/- + 5% GST",
+			"Deluxe": "Rs. 28,250/- + 5% GST",
+			"Luxury": "Rs. 39,350/- + 5% GST"
+		},
+		{
+			"passengers": "10",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 22,250/- + 5% GST",
+			"Deluxe": "Rs. 28,500/- + 5% GST",
+			"Luxury": "Rs. 39,750/- + 5% GST"
+		},
+		{
+			"passengers": "11",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 21,200/- + 5% GST",
+			"Deluxe": "Rs. 26,950/- + 5% GST",
+			"Luxury": "Rs. 38,250/- + 5% GST"
+		},
+		{
+			"passengers": "12",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 21,100/- + 5% GST",
+			"Deluxe": "Rs. 27,350/- + 5% GST",
+			"Luxury": "Rs. 28,350/- + 5% GST"
+		}
+	  ]
+	}
+}

@@ -244,7 +244,7 @@ export default {
   created() {
     window.scrollTo(0, 0);
     this.$http
-      .get(`${process.env.BASE_URL}Data/${this.packageId}.json`)
+      .get(`${process.env.BASE_URL}Data/PackageDetails/${this.packageId}.json`)
       .then((response) => {
         this.posts = response.data.data;
         console.log(this.posts);
