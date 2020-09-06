@@ -92,7 +92,7 @@
                   <div class="imp-subtitle" v-for="(title, index) in item.subtitles" :key="index">
                     <div class="icon-text">
                       <i class="fas fa-angle-double-right"></i>
-                      {{ title }}
+                      <p>{{ title }}</p>
                     </div>
                   </div>
                 </div>
@@ -395,22 +395,25 @@ export default {
     }
     .imp-description {
       padding-bottom: 6px;
-
-      font-weight: 700;
       .imp-sub-container {
         padding-left: 24px;
       }
       .imp-title {
-        color: #930;
-        span {
-        }
+        font-family: "Mogra";
+        color: #4a5258;
+        text-transform: uppercase;
       }
       .imp-subtitle {
         .icon-text {
           display: flex;
+          p {
+            font-family: "Roboto", sans-serif;
+            color: #4a5258;
+            padding-bottom: 5px;
+          }
         }
         svg {
-          color: #930;
+          font-weight: 700;
           margin-top: 3px;
         }
       }
