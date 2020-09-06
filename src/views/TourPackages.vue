@@ -193,16 +193,29 @@ export default {
       this.$http
         .get(`${process.env.BASE_URL}data/tour-packages.json`)
         .then((res) => {
-          this.tourPackages = res.data;
+          // this.tourPackages = res.data;
+          console.log(this.tourPackages);
+          res.data.data.map((res) => {
+            if (res.key === "piligrimDestination") {
+              this.tourPackages.piligrimDestination = res.items;
+            }
+            if (res.key === "beautifulUttranchal") {
+              this.tourPackages.beautifulUttranchal = res.items;
+            }
+            if (res.key === "adventurePackages") {
+              this.tourPackages.adventurePackages = res.items;
+            }
+          });
+
           this.tourPackagesHeader.map((response) => {
             if (response.key === "DEVOTIONAL") {
-              response.data = res.data.devotionalYatras;
+              response.data = this.tourPackages.piligrimDestination;
             }
             if (response.key === "BEAUTIFUL") {
-              response.data = res.data.beautifulUttranchal;
+              response.data = this.tourPackages.beautifulUttranchal;
             }
             if (response.key === "ADVENTURE") {
-              response.data = res.data.adventurePackages;
+              response.data = this.tourPackages.adventurePackages;
             }
           });
         });
