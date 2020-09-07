@@ -1,51 +1,6 @@
 <template>
   <div class="tour-package">
-    <div class="banner">
-      <div class="intro">
-        <h1>
-          <span>Uttranchal Tour</span> Packages
-        </h1>
-        <h5>Best Time to Visit Uttarakhand:</h5>
-        <p>
-          Uttarakhand is a destination to be visited all through the year as
-          each season has something special to offer.
-        </p>
-        <h5>Why Visit Uttarakhand?:</h5>
-        <p>
-          For Hindu and Sikh pilgrimage journeys, skiing experience, wildlife
-          tours, whitewater river rafting, yoga, honeymoon, enthralling trekking
-          and peak climbing ventures, birdwatching, rural tourism, culture and
-          heritage, photography tour and for organizing memorable destination
-          weddings.
-        </p>
-        <h5>Temperature</h5>
-        <ul>
-          <li>
-            <h4>17°C to 35°C</h4>
-            <p>
-              Summer
-              <br />(April to Mid-June)
-            </p>
-          </li>
-          <li>
-            <h4>15°C to 30°C</h4>
-            <p>
-              Monsoon
-              <br />(Mid-June to September)
-            </p>
-          </li>
-          <li>
-            <h4>12°C to 0°C</h4>
-            <p>
-              Winter
-              <br />(October to March)
-            </p>
-          </li>
-        </ul>
-      </div>
-
-      <img class="banner-inner" src="../assets/images/tour-package-banner.png" alt="kashmir-banner" />
-    </div>
+    <hero-banner :banner-overview="bannerInfo"></hero-banner>
     <div class="package-container">
       <section>
         <b-tabs>
@@ -128,16 +83,18 @@
 
 <script>
 import AppPreviewCard from "../components/ui-components/AppPreviewCard";
+import HeroBanner from "../components/ui-components/HeroBanner.vue";
 import BookingFormVue from "./BookingForm.vue";
 export default {
   name: "TourPackages",
   components: {
     AppPreviewCard,
-    // BookingFormVue,
+    HeroBanner,
   },
   data() {
     return {
       tourPackages: [],
+      bannerInfo: {},
       tourPackagesHeader: [
         {
           type: "PILIGRIM YATRAS",
@@ -173,6 +130,11 @@ export default {
     onViewMoreClicked(value) {
       this.redirect(value);
     },
+    getBannerInfo(res) {
+      this.bannerInfo.overview = res.overview;
+      this.bannerInfo.title = res.title;
+      this.bannerInfo.subtitle = res.subtitle;
+    },
     openCardModal() {
       this.$buefy.modal.open({
         parent: this,
@@ -193,8 +155,8 @@ export default {
       this.$http
         .get(`${process.env.BASE_URL}data/tour-packages.json`)
         .then((res) => {
-          // this.tourPackages = res.data;
-          console.log(this.tourPackages);
+          this.getBannerInfo(res.data);
+          console.log("inside", this.bannerInfo);
           res.data.data.map((res) => {
             if (res.key === "piligrimDestination") {
               this.tourPackages.piligrimDestination = res.items;
@@ -231,65 +193,6 @@ export default {
 }
 
 .tour-package {
-  .banner {
-    display: flex;
-    padding-bottom: 36px;
-    justify-content: space-between;
-    .intro {
-      width: 50%;
-      text-align: left;
-      padding-left: 2rem;
-    }
-
-    h1 {
-      color: #3b404b;
-      font-family: SFProDisplay-Bold;
-      font-size: 50px;
-      line-height: 60px;
-      padding-top: 40px;
-      text-transform: capitalize;
-      padding-bottom: 16px;
-
-      span {
-        color: rgb(96, 191, 243);
-      }
-    }
-    ul {
-      list-style-type: none;
-      display: flex;
-      width: 100%;
-      padding: 8px 0 0 0;
-      margin: 0;
-      justify-content: space-between;
-      li {
-        h4 {
-          font: 20px/30px "open_sansbold";
-          color: #4a5258;
-          font-weight: 700;
-        }
-      }
-    }
-
-    p {
-      font: 16px/26px "open_sansregular";
-      text-align: justify;
-      color: #4a5258;
-      padding-bottom: 21px;
-
-      span {
-        font-family: "OpenSans-Semibold";
-      }
-    }
-
-    h5 {
-      font: 16px "open_sansbold";
-      color: #394048;
-      text-transform: uppercase;
-      font-weight: 700;
-      line-height: 1.2;
-    }
-  }
-
   .tour-package-info {
     text-align: left;
     padding-bottom: 10px;

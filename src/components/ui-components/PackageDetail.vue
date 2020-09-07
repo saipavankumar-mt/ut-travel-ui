@@ -1,6 +1,6 @@
 <template>
   <div class="travel-detail">
-    <div class="banner">
+    <!-- <div class="banner">
       <div class="intro">
         <h1>
           <span>{{ posts.title }}</span> Packages
@@ -38,8 +38,8 @@
       </div>
 
       <img class="banner-inner" :src="posts.heroImage" alt="chardham-banner" />
-    </div>
-
+    </div>-->
+    <hero-banner :banner-overview="bannerInfo"></hero-banner>
     <div class="itinerary-container">
       <section>
         <b-tabs>
@@ -162,14 +162,17 @@
 <script>
 import BookingFormVue from "../../views/BookingForm.vue";
 import SimilarPackages from "../../views/SimilarPackages.vue";
+import HeroBanner from "./HeroBanner.vue";
 export default {
   name: "PackageDetail",
   components: {
     SimilarPackages,
+    HeroBanner,
   },
   props: ["packageId"],
   data() {
     return {
+      bannerInfo: {},
       accomodationColumns: [],
       perPersonCostColumns: [],
       posts: {},
@@ -240,6 +243,11 @@ export default {
         }
       }
     },
+    getBannerInfo() {
+      this.bannerInfo.overview = this.posts.overview;
+      this.bannerInfo.title = this.posts.title;
+      this.bannerInfo.subtitle = this.posts.subtitle;
+    },
   },
   created() {
     window.scrollTo(0, 0);
@@ -247,15 +255,20 @@ export default {
       .get(`${process.env.BASE_URL}Data/PackageDetails/${this.packageId}.json`)
       .then((response) => {
         this.posts = response.data.data;
-        console.log(this.posts);
+        console.log("post", this.posts);
         this.getAccomodationInfo();
         this.getPerPersonCostInfo();
-        this.posts.heroImage = require("../../assets/images/" +
-          this.posts.heroImage);
-        for (let i = 0; i < this.posts.images.length; i++) {
-          this.items.push({
-            image: require("../../assets/images/" + this.posts.images[i]),
-          });
+        this.getBannerInfo();
+
+        this.posts.heroImage = this.posts.heroImage
+          ? require("../../assets/images/" + this.posts.heroImage)
+          : "";
+        if (this.posts.images) {
+          for (let i = 0; i < this.posts.images.length; i++) {
+            this.items.push({
+              image: require("../../assets/images/" + this.posts.images[i]),
+            });
+          }
         }
       });
   },

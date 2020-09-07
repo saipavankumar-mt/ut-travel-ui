@@ -1,11 +1,24 @@
 {
+  "title": "Tour",
+  "subtitle": "",
+  "overview": [
+    {
+      "title": "Best Time to Visit Uttarakhand:",
+      "subtitle": "Uttarakhand is a destination to be visited all through the year as each season has something special to offer."
+    },
+    {
+      "title": "Why Visit Uttarakhand?:",
+      "subtitle": " For Hindu and Sikh pilgrimage journeys, skiing experience, wildlife tours, whitewater river rafting, yoga, honeymoon, enthralling trekking and peak climbing ventures, birdwatching, rural tourism, culture and heritage, photography tour and for organizing memorable destination weddings."
+    }
+  ],
   "data": [
     {
       "type": "Piligrime Destinations",
       "key": "piligrimDestination",
+
       "items": [
         {
-          "id": "Pckg4-0",
+          "id": "",
           "title": "Chardham",
           "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
           "image": "ChardhamTile.png",

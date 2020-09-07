@@ -38,7 +38,7 @@
 // import OfferList from './OfferList.vue';
 import AppPreviewCard from "../components/ui-components/AppPreviewCard";
 export default {
-  name: "PackageDestinations",
+  name: "TourDestinations",
   components: {
     // OfferList,
     AppPreviewCard,
