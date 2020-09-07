@@ -36,19 +36,15 @@
         </ul>
         <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
       </div>
-      <div class="banner-inner" >
+      <div class="banner-inner">
         <img :src="posts.heroImage" alt="posts.heroImage" />
       </div>
-      
     </div>
 
     <div class="itinerary-container">
       <section>
         <b-tabs>
           <b-tab-item label="ITINERARY">
-            <div>
-              <p></p>
-            </div>
             <div class="days-container">
               <div v-for="(item, i) in posts['description']" :key="i">
                 <div class="columns">
@@ -72,7 +68,8 @@
                         >
                           <i class="fas fa-angle-double-right"></i>
                           <div class="day-subtitle">
-                            <p>{{ title }}</p>
+                            <span class="time">{{ title.time }}:</span>&nbsp;
+                            <span>{{title.activities}}</span>
                           </div>
                         </div>
                       </div>
@@ -417,6 +414,7 @@ export default {
         svg {
           font-weight: 700;
           margin-top: 3px;
+          margin-right: 4px;
         }
       }
     }
@@ -455,10 +453,13 @@ export default {
 }
 
 .day-subtitle {
-  p {
+  span {
     font-family: "Roboto", sans-serif;
     color: #4a5258;
     padding-bottom: 5px;
+  }
+  .time {
+    font-weight: 700;
   }
 }
 
@@ -511,9 +512,7 @@ export default {
 .per-person-heading {
   margin: 30px 0 0;
   font-size: 22px;
-  border: 1px solid #dbdbdb;
-  text-align: left;
-  color: brown;
+  color: #47caf0;
 }
 
 @media only screen and (max-width: 1366px) {
@@ -521,10 +520,10 @@ export default {
     width: 45% !important;
     height: 500px !important;
     right: 0px !important;
-    img{
+    img {
       width: -webkit-fill-available !important;
       height: -webkit-fill-available !important;
-      border-bottom-left-radius: 35% 45%
+      border-bottom-left-radius: 35% 45%;
     }
   }
 }
