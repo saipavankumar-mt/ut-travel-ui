@@ -1,6 +1,6 @@
 <template>
   <div class="package-destination-detail">
-    <!-- <div class="banner">
+    <div class="banner">
       <div class="intro">
         <h1>
           <span>Uttranchal</span> Destinations
@@ -12,8 +12,8 @@
         src="../../assets/images/tour-package-banner.png"
         alt="kashmir-banner"
       />
-    </div>-->
-    <hero-banner></hero-banner>
+    </div>
+
     <div class="destination">
       <div>
         <span>Best Selling Packages</span>
@@ -33,12 +33,9 @@
 </template>
 
 <script>
-import HeroBanner from "./HeroBanner.vue";
 export default {
   name: "TourDestinationDetail",
-  components: {
-    HeroBanner,
-  },
+  components: {},
   data() {
     return {
       destinationPackages: [],
