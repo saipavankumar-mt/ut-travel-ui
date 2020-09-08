@@ -15,7 +15,7 @@
                 <strong>John Smith</strong>
                 <small>@johnsmith</small>
                 <small>31m</small>
-                <br />M. Rajkumar is a travel enthusiast who has an absolute passion for exploring places around him. He is the one to consult if you are stuck at place X in Uttaranchal and wanna reach place Y via place z.
+                <br />M. Rajkumar is a travel ethusiast who has an absolute passion for exploring places around him. He is the one to consult if you are stuck at place X in Uttaranchal and wanna reach place Y via place z.
                 If ever an 'Uttaranchal Awareness quiz is held on the planet, he will be the undisputed winner of the competition for he has immense knowledge about the state. He holds an MBA degree from Gurukul Kangri University and worked with Uttaranchal Government for sometime. However, the desire to start a venture of his own sent him to pack bags and jump into the battlefield of travel agents.
                 <br />M. Rajkumar has an extensive knowledge about Uttaranchal. He has personally visited almost all the properties and places where Uttaranchal Holidays accommodates its clients. This fact, together with his hobby of exploring places makes him more capable of handling issues guests are likely to face while travelling. So, Uttaranchal Holidays isn't money-creating machine for its operators but a vehicle to help people know Uttaranchal more This competitive advantage gets reflected in the services Uttaranchal Holidays provides I hope I have told you enough about Uttaranchal Holidays Now is the time for you to give us a chance to serve you. So, come and experience the difference we claim to offer shd get a trip booked with
                 Uttaranchal Holidays.NOW
@@ -188,46 +188,6 @@
             </div>
           </div>
         </section>
-
-        <!-- <div>
-          <div class="client-about-us">
-            <div class="image">
-              <img src="../assets/logo.png" alt="Profile" />
-            </div>
-            <div class="description">
-              M. Rajkumar is a travel enthusiast who has an absolute passion for exploring places around him. He is the one to consult if you are stuck at place X in Uttaranchal and wanna reach place Y via place z.
-              If ever an 'Uttaranchal Awareness quiz is held on the planet, he will be the undisputed winner of the competition for he has immense knowledge about the state. He holds an MBA degree from Gurukul Kangri University and worked with Uttaranchal Government for sometime. However, the desire to start a venture of his own sent him to pack bags and jump into the battlefield of travel agents.
-              M. Rajkumar has an extensive knowledge about Uttaranchal. He has personally visited almost all the properties and places where Uttaranchal Holidays accommodates its clients. This fact, together with his hobby of exploring places makes him more capable of handling issues guests are likely to face while travelling. So, Uttaranchal Holidays isn't money-creating machine for its operators but a vehicle to help people know Uttaranchal more This competitive advantage gets reflected in the services Uttaranchal Holidays provides I hope I have told you enough about Uttaranchal Holidays Now is the time for you to give us a chance to serve you. So, come and experience the difference we claim to offer shd get a trip booked with
-              Uttaranchal Holidays.NOW
-            </div>
-          </div>
-          <div class="content columns">
-            <div class="column columns is-multiline">
-              <div class="image column is-full">
-                <img src="../assets/logo.png" alt="Profile" />
-              </div>
-              <div class="about column is-full">Uttranchal holidays</div>
-            </div>
-            <div class="column columns is-multiline">
-              <div class="image column is-full">
-                <img src="../assets/logo.png" alt="Profile" />
-              </div>
-              <div class="about column">Uttranchal holidays</div>
-            </div>
-            <div class="column columns is-multiline">
-              <div class="image column is-full">
-                <img src="../assets/logo.png" alt="Profile" />
-              </div>
-              <div class="about column is-full">Uttranchal holidays</div>
-            </div>
-            <div class="column columns is-multiline">
-              <div class="image column is-full">
-                <img src="../assets/logo.png" alt="Profile" />
-              </div>
-              <div class="about column">Uttranchal holidays</div>
-            </div>
-          </div>
-        </div>-->
       </div>
     </div>
   </div>

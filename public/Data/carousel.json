@@ -8,7 +8,10 @@
       "description": "(Kumbh Mela, the largest religious gathering in the world, is held every 12 years in rotation at the four holy places of Haridwar, Allahabad, Ujjain and Nasik. The 2021 Maha Kumbh Mela will be held at Haridwar. It will witness the coming together of millions of pilgrims, accompanied by sadhus and different akharas, to take a dip in the holy River Ganges.)",
       "nights": "12",
       "days": "12",
-      "price": "41000",
+      "price": {
+        "showPrice": true,
+        "value": "41000"
+      },
       "id": "1"
     },
     {
@@ -19,7 +22,10 @@
       "description": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
       "nights": "12",
       "days": "12",
-      "price": "41000",
+      "price": {
+        "showPrice": true,
+        "value": "41000"
+      },
       "id": "2"
     },
     {
@@ -30,7 +36,10 @@
       "description": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
       "nights": "12",
       "days": "12",
-      "price": "41000",
+      "price": {
+        "showPrice": true,
+        "value": "41000"
+      },
       "id": 3
     },
     {
@@ -41,7 +50,10 @@
       "description": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
       "nights": "12",
       "days": "12",
-      "price": "41000",
+      "price": {
+        "showPrice": false,
+        "value": "41000"
+      },
       "id": 4
     },
     {
@@ -52,7 +64,10 @@
       "description": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
       "nights": "12",
       "days": "12",
-      "price": "41000",
+      "price": {
+        "showPrice": true,
+        "value": "41000"
+      },
       "id": 5
     },
     {
@@ -63,7 +78,10 @@
       "description": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
       "nights": "12",
       "days": "12",
-      "price": "41000",
+      "price": {
+        "showPrice": true,
+        "value": "41000"
+      },
       "id": 6
     }
   ]

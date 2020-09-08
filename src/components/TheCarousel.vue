@@ -34,15 +34,18 @@
             <div class="carousel-right-content">
               <div class="carousel-duration">
                 <p>
-                  <b>{{ item.nights }}</b> Nights / <b>{{ item.days }}</b> Days
+                  <b>{{ item.nights }}</b> Nights /
+                  <b>{{ item.days }}</b> Days
                 </p>
               </div>
-              <p>@</p>
-              <div class="carousel-price">
-                <p>&#8377; {{ item.price }}/-</p>
-              </div>
-              <div class="carousel-perperson">
-                <p>PER PERSON</p>
+              <div v-if="item.price.showPrice">
+                <p>@</p>
+                <div class="carousel-price">
+                  <p>&#8377; {{ item.price.value }}/-</p>
+                </div>
+                <div class="carousel-perperson">
+                  <p>PER PERSON</p>
+                </div>
               </div>
             </div>
           </div>
@@ -53,14 +56,14 @@
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel';
+import { Carousel, Slide } from "vue-carousel";
 export default {
-  name: 'TheCarousel',
+  name: "TheCarousel",
   components: {
     Carousel,
     Slide,
   },
-  data: function() {
+  data: function () {
     return {
       carouselItem: [],
     };
@@ -156,12 +159,12 @@ export default {
 .carousel-title {
   display: flex;
   justify-content: flex-start;
-  font-family: 'SFProDisplay-Bold';
+  font-family: "SFProDisplay-Bold";
 }
 
 .carousel-title p {
   font-size: 3rem;
-  color: white;  
+  color: white;
 }
 
 .carousel-subtitle {
@@ -196,7 +199,7 @@ export default {
   flex-direction: column;
   width: 12.5%;
   height: fit-content;
-  background: rgba(229,78,43,0.2);
+  background: rgba(229, 78, 43, 0.2);
   margin-right: 15%;
   border: white;
   border-left-style: solid;
@@ -210,7 +213,7 @@ export default {
   align-self: center;
   p {
     font-size: 2.1rem;
-    font-family: 'Brush Script MT';
+    font-family: "Brush Script MT";
   }
 }
 
@@ -220,9 +223,9 @@ export default {
     border: none;
     //border-radius: 40px 10px;
     border-radius: 30px/10px;
-    background: rgb(229,78,43);
+    background: rgb(229, 78, 43);
     font-size: 2.1rem;
-    font-family: 'Brush Script MT';
+    font-family: "Brush Script MT";
   }
 }
 
