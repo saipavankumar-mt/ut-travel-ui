@@ -40,7 +40,7 @@ export default {
 .milestone-text-from {
   position: absolute;
   top: 56%;
-  left: 14%;
+  left: 11%;
   transform: translate(-50%, -50%) rotate(-1deg);
   width: 10%;
 }
@@ -48,7 +48,7 @@ export default {
 .milestone-text-to {
   position: absolute;
   top: 72%;
-  left: 36%;
+  left: 33%;
   transform: translate(-50%, -50%) rotate(-1deg);
   width: 10%;
 }
