@@ -7,10 +7,12 @@
         </h1>
         <p>{{posts.subtitle}}</p>
         <div v-for="(item, i) in posts.overview" :key="i">
-          <h5>{{item.title}}</h5>
-          <p>{{item.subtitle}}</p>
+          <div v-if="i<=2  || i % 2 == 0">
+            <h5>{{item.title}}</h5>
+            <p>{{item.subtitle}}</p>
+          </div>
         </div>
-        <h5>Temperature</h5>
+        <!-- <h5>Temperature</h5>
         <ul>
           <li>
             <h4>28°C to 45°C</h4>
@@ -33,11 +35,17 @@
               <br />(October to March)
             </p>
           </li>
-        </ul>
+        </ul>-->
         <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
       </div>
       <div class="banner-inner">
         <img :src="posts.heroImage" alt="posts.heroImage" />
+        <div v-for="(item, i) in posts.overview" :key="i">
+          <div v-if="i>2 && Math.abs(i % 2) == 1">
+            <h5>{{item.title}}</h5>
+            <p>{{item.subtitle}}</p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -518,11 +526,12 @@ export default {
 @media only screen and (max-width: 1366px) {
   .banner-inner {
     width: 45% !important;
-    height: 500px !important;
+    // height: 500px !important;
     right: 0px !important;
     img {
       width: -webkit-fill-available !important;
-      height: -webkit-fill-available !important;
+      // height: -webkit-fill-available !important;
+      padding-bottom: 66px;
       border-bottom-left-radius: 35% 45%;
     }
   }
