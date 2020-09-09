@@ -15,7 +15,7 @@
           <b-tab-item
             v-for="(item, idx) in tourPackagesHeader"
             :key="idx"
-            class="columns is-multiline is-mobile"
+            class="columns is-multiline"
             :label="item.type"
             size="is-medium"
           >

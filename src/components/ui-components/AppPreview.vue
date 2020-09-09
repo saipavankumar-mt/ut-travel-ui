@@ -10,7 +10,7 @@
       <span v-if="!showAll">View All {{toggleBtnLabel}}</span>
       <span v-else>View Less</span>
     </button>
-    <section v-show="showAll" class="preview-all columns is-multiline is-mobile">
+    <section v-show="showAll" class="preview-all columns is-multiline">
       <template v-for="(item, idx) in previewItemsList">
         <div class="column" :class="$isMobile()? '': isModelTwo ? 'is-6' : 'is-3' " :key="idx">
           <app-preview-card-model2 v-if="isModelTwo" :item="item"></app-preview-card-model2>
