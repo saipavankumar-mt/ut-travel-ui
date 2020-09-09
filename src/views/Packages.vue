@@ -1,6 +1,7 @@
 <template>
   <app-preview
     class="packages"
+    is-mobile
     :title="title"
     :title-desc="titleDesc"
     :preview-items-list="currentList"
@@ -9,18 +10,17 @@
     :scroll-class="scrollClass"
     toggle-btn-label="Packages"
     @changeview="() => showAll=!showAll"
-  >
-  </app-preview>
+  ></app-preview>
 </template>
 
 <script>
 export default {
-  name: 'Packages',
+  name: "Packages",
   components: {},
   data() {
     return {
-      title: '',
-      titleDesc: '',
+      title: "",
+      titleDesc: "",
       packages: [],
       showAll: false,
     };
@@ -50,9 +50,9 @@ export default {
   computed: {
     scrollClass() {
       return this.title
-        .split(' ')
+        .split(" ")
         .map((s) => s.toLowerCase())
-        .join('-');
+        .join("-");
     },
     currentList() {
       return this.showAll ? this.packages : this.packages.slice(0, 4);
@@ -63,7 +63,7 @@ export default {
 
 <style lang="scss">
 .packages {
-  background-image: url('../assets/images/Ut-wallpaper.png');
+  background-image: url("../assets/images/Ut-wallpaper.png");
   // background-image: linear-gradient(
   //   141deg,
   //   #1f191a 0%,

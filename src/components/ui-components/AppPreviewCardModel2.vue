@@ -114,4 +114,19 @@ export default {
     font-family: "Brush Script MT";
   }
 }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .pvmodel2-outer {
+    .pvmodel2-inner {
+      flex-direction: column;
+      .pvmodel2-inner-img {
+        width: 100%;
+      }
+    }
+
+    .pvmodel2-inner-title {
+      width: 100%;
+    }
+  }
+}
 </style>
