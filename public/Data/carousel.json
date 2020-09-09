@@ -9,8 +9,8 @@
       "nights": "12",
       "days": "12",
       "price": {
-        "showPrice": true,
-        "value": "41000"
+        "showPrice": false,
+        "value": ""
       },
       "id": "1"
     },

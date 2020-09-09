@@ -3,7 +3,7 @@
     <the-carousel></the-carousel>
     <packages></packages>
     <destinations></destinations>
-    <destinations-old></destinations-old>
+    <!-- <destinations-old></destinations-old> -->
     <about-us></about-us>
   </div>
 </template>
@@ -13,7 +13,7 @@ import TheCarousel from "../components/TheCarousel.vue";
 // import OfferList from './OfferList.vue';
 import Packages from "./Packages.vue";
 import Destinations from "./Destinations.vue";
-import DestinationsOld from "./DestinationsOld.vue";
+// import DestinationsOld from "./DestinationsOld.vue";
 import AboutUs from "./AboutUs.vue";
 
 export default {
@@ -23,7 +23,7 @@ export default {
     // OfferList,
     Packages,
     Destinations,
-    DestinationsOld,
+    // DestinationsOld,
     AboutUs,
   },
   created() {
