@@ -1,6 +1,6 @@
 <template>
   <div class="destination-item">
-    <div class="columns" v-on:click="redirect()">
+    <div class="columns is-mobile" v-on:click="redirect()">
       <div class="column is-one-quarter" v-if="toggleClass === 'is-even'">
         <img
           class="image"

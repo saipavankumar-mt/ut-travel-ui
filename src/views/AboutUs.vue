@@ -247,11 +247,24 @@ export default {
       display: flex;
       flex-direction: column;
       margin: auto;
+
+      .media-left {
+        margin: auto;
+      }
+    }
+  }
+
+  .media-content {
+    .content {
+      text-align: center;
     }
   }
 
   .columns {
     padding: 1rem 0 !important;
+    .column {
+      padding: unset !important;
+    }
   }
 }
 </style>

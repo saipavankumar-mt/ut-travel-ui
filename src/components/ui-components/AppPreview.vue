@@ -160,7 +160,7 @@ $carousel-arrow-color: #47caf0;
       }
     }
     .toggle-view-btn {
-      right: 5rem;
+      //right: 5rem;
     }
   }
 }
