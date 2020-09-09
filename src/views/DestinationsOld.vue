@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'DestinationsOld',
+  name: "DestinationsOld",
   components: {},
 };
 </script>
@@ -18,5 +18,10 @@ export default {
 .destinations-old {
   background-image: linear-gradient(-95deg, rgb(97, 192, 242), #f8f8f8);
   padding: 4rem !important;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .destinations-old {
+    padding: 1rem !important;
+  }
 }
 </style>

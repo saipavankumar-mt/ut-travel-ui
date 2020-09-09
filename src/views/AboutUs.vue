@@ -240,4 +240,18 @@ export default {
     margin: 0 26px;
   }
 }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .about-us {
+    .media {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+  }
+
+  .columns {
+    padding: 1rem 0 !important;
+  }
+}
 </style>
