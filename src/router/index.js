@@ -3,8 +3,8 @@ import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import PackageDetail from '../components/ui-components/PackageDetail.vue';
 import TourDestinationDetail from '../components/ui-components/TourDestinationDetail.vue';
-import TourPackages from '../views/TourPackages.vue';
-import TourDestinations from '../views/TourDestinations.vue';
+import TourPackages from '../views/Package/TourPackages.vue';
+import TourDestinations from '../views/Destination/TourDestinations.vue';
 import AboutUs from '../views/AboutUs.vue';
 
 Vue.use(VueRouter);

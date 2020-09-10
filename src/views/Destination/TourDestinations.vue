@@ -7,7 +7,11 @@
         </h1>
       </div>
 
-      <img class="banner-inner" src="../assets/images/tour-package-banner.png" alt="kashmir-banner" />
+      <img
+        class="banner-inner"
+        src="../../assets/images/tour-package-banner.png"
+        alt="kashmir-banner"
+      />
     </div>
     <div class="package-container">
       <section>
@@ -36,7 +40,7 @@
 
 <script>
 // import OfferList from './OfferList.vue';
-import AppPreviewCard from "../components/ui-components/AppPreviewCard";
+import AppPreviewCard from "../../components/ui-components/AppPreviewCard";
 export default {
   name: "TourDestinations",
   components: {

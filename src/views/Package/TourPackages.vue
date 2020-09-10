@@ -44,7 +44,11 @@
         </ul>
       </div>
 
-      <img class="banner-inner" src="../assets/images/tour-package-banner.png" alt="kashmir-banner" />
+      <img
+        class="banner-inner"
+        src="../../assets/images/tour-package-banner.png"
+        alt="kashmir-banner"
+      />
     </div>
     <div class="package-container">
       <section>
@@ -127,8 +131,8 @@
 </template>
 
 <script>
-import AppPreviewCard from "../components/ui-components/AppPreviewCard";
-import BookingFormVue from "./BookingForm.vue";
+import AppPreviewCard from "../../components/ui-components/AppPreviewCard";
+import BookingFormVue from "../BookingForm.vue";
 export default {
   name: "TourPackages",
   components: {
@@ -321,6 +325,21 @@ export default {
     background: #bfa4a4;
     margin-top: 24px;
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .tour-package {
+    .banner {
+      flex-direction: column-reverse;
+      .intro {
+        width: 100%;
+        padding: 16px;
+        .banner-inner {
+          width: 100%;
+        }
+      }
+    }
   }
 }
 

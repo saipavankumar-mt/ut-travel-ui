@@ -10,8 +10,8 @@
 
 <script>
 import TheCarousel from "../components/TheCarousel.vue";
-import Packages from "./Packages.vue";
-import Destinations from "./Destinations.vue";
+import Packages from "./Package/Packages.vue";
+import Destinations from "./Destination/Destinations.vue";
 
 export default {
   name: "Home",

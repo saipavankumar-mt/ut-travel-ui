@@ -13,12 +13,12 @@
 
 <script>
 export default {
-  name: 'Destinations',
+  name: "Destinations",
   components: {},
   data() {
     return {
-      title: '',
-      titleDesc: '',
+      title: "",
+      titleDesc: "",
       destinations: [],
       showAll: false,
     };
@@ -48,9 +48,9 @@ export default {
   computed: {
     scrollClass() {
       return this.title
-        .split(' ')
+        .split(" ")
         .map((s) => s.toLowerCase())
-        .join('-');
+        .join("-");
     },
     currentList() {
       return this.showAll ? this.destinations : this.destinations.slice(0, 8);
@@ -61,7 +61,7 @@ export default {
 
 <style lang="scss">
 .destinations {
-  background-image: url('../assets/images/DeoriyaTal.jpg');
+  background-image: url("../../assets/images/DeoriyaTal.jpg");
   background-size: cover;
   background-blend-mode: overlay;
   background-color: #363636;

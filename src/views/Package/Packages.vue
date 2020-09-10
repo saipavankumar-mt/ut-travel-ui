@@ -29,14 +29,6 @@ export default {
     this.getPackages();
   },
   methods: {
-    // scrollToView(className) {
-    //   this.showAll = !this.showAll;
-    //   if (this.showAll) {
-    //     document.querySelector('.' + className).scrollIntoView({
-    //       behavior: 'smooth',
-    //     });
-    //   }
-    // },
     getPackages() {
       this.$http
         .get(`${process.env.BASE_URL}data/packages.json`)
@@ -63,13 +55,7 @@ export default {
 
 <style lang="scss">
 .packages {
-  background-image: url("../assets/images/Ut-wallpaper.png");
-  // background-image: linear-gradient(
-  //   141deg,
-  //   #1f191a 0%,
-  //   #363636 71%,
-  //   #46403f 100%
-  // );
+  background-image: url("../../assets/images/Ut-wallpaper.png");
   background-color: rgba(38, 38, 38, 0.6) !important;
   background-size: cover;
   background-blend-mode: overlay;

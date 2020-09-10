@@ -9,10 +9,14 @@
           <div class="pricetag">
             <span>{{posts.duration}}</span>
           </div>
-        </div>         -->
+        </div>-->
         <p>{{posts.subtitle}}</p>
         <div v-for="(item, i) in posts.overview" :key="i">
-          <div v-if="i<=2  || i % 2 == 0">
+          <div v-if="(i<=2  || i % 2 == 0) && !$isMobile()">
+            <h5>{{item.title}}</h5>
+            <p>{{item.subtitle}}</p>
+          </div>
+          <div v-if="$isMobile()">
             <h5>{{item.title}}</h5>
             <p>{{item.subtitle}}</p>
           </div>
@@ -46,13 +50,9 @@
       <div class="banner-inner">
         <div>
           <img :src="posts.heroImage" alt="posts.heroImage" />
-          <!-- <div class="nightStay">
-            <div class="title"><h5> NIGHT STAY </h5></div>
-            <div class="subtitle"><h5>{{posts.nightStay}}</h5></div> 
-          </div> -->
-        </div>        
+        </div>
         <div v-for="(item, i) in posts.overview" :key="i">
-          <div v-if="i>2 && Math.abs(i % 2) == 1">
+          <div v-if="(i>2 && Math.abs(i % 2) == 1) && !$isMobile()">
             <h5>{{item.title}}</h5>
             <p>{{item.subtitle}}</p>
           </div>
@@ -179,7 +179,7 @@
 
 <script>
 import BookingFormVue from "../../views/BookingForm.vue";
-import SimilarPackages from "../../views/SimilarPackages.vue";
+import SimilarPackages from "../../views/Package/SimilarPackages.vue";
 export default {
   name: "PackageDetail",
   components: {
@@ -330,47 +330,47 @@ export default {
       width: 50%;
       text-align: left;
       padding-left: 2rem;
-      .pricetag-wrapper{
+      .pricetag-wrapper {
         text-align: right;
-          .pricetag{
-          white-space:nowrap;
-          position:relative;
-          margin:0 5px 0 10px;
-          displaY:inline-block;
-          height:25px;
+        .pricetag {
+          white-space: nowrap;
+          position: relative;
+          margin: 0 5px 0 10px;
+          display: inline-block;
+          height: 25px;
           border-radius: 0 5px 5px 0;
           padding: 0 25px 0 15px;
-          background:#E8EDF0;
-          border: 0 solid #C7D2D4;
-          border-top-width:1px;
-          border-bottom-width:1px;
-          color:#999;
-          line-height:23px;
+          background: #e8edf0;
+          border: 0 solid #c7d2d4;
+          border-top-width: 1px;
+          border-bottom-width: 1px;
+          color: #999;
+          line-height: 23px;
         }
-        .pricetag:after{
-            position:absolute;
-            right:0;
-            margin:1px 7px;
-            font-weight:bold;
-            font-size:19px;
-            content:"\00D7";
+        .pricetag:after {
+          position: absolute;
+          right: 0;
+          margin: 1px 7px;
+          font-weight: bold;
+          font-size: 19px;
+          content: "\00D7";
         }
-        .pricetag:before{
-            position:absolute;
-            content:"\25CF";
-            color:white;
-            text-shadow: 0 0 1px #333;
-            font-size:11px;
-            line-height:0px;
-            text-indent:12px;
-            left:-15px;
-            width: 1px;
-            height:0px;
-            border-right:14px solid #E8EDF0;
-            border-top:  13px solid transparent;
-            border-bottom:  13px solid transparent;
-        } 
-      }  
+        .pricetag:before {
+          position: absolute;
+          content: "\25CF";
+          color: white;
+          text-shadow: 0 0 1px #333;
+          font-size: 11px;
+          line-height: 0px;
+          text-indent: 12px;
+          left: -15px;
+          width: 1px;
+          height: 0px;
+          border-right: 14px solid #e8edf0;
+          border-top: 13px solid transparent;
+          border-bottom: 13px solid transparent;
+        }
+      }
     }
     h1 {
       color: #3b404b;
@@ -574,6 +574,33 @@ export default {
   font-size: 22px;
   color: #47caf0;
 }
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .travel-detail {
+    .banner {
+      flex-direction: column-reverse;
+      h1 {
+        padding-top: 10px;
+      }
+      .intro {
+        width: 100%;
+        padding: 16px;
+      }
+      .banner-inner {
+        width: 100% !important;
+        img {
+          padding-bottom: unset;
+          border-bottom-left-radius: unset !important;
+        }
+      }
+    }
+  }
+  .itinerary-container {
+    display: unset;
+    .similartours {
+      width: 100%;
+    }
+  }
+}
 
 @media only screen and (max-width: 1366px) {
   .banner-inner {
@@ -586,17 +613,17 @@ export default {
       padding-bottom: 10px;
       border-bottom-left-radius: 35% 45%;
     }
-    .nightStay{
+    .nightStay {
       display: flex;
       flex-direction: column;
       align-items: center;
-      .title{
+      .title {
         padding: 5px 10px 5px 10px;
         border-radius: 10%;
         background: #47caf0;
         width: fit-content;
       }
-      .subtitle{
+      .subtitle {
         padding: 7px 40px 15px 40px;
       }
     }
