@@ -5,11 +5,11 @@
         <h1>
           <span>{{ posts.title }}</span> Package
         </h1>
-        <div class="pricetag-wrapper">
+        <!-- <div class="pricetag-wrapper">
           <div class="pricetag">
             <span>{{posts.duration}}</span>
           </div>
-        </div>        
+        </div>         -->
         <p>{{posts.subtitle}}</p>
         <div v-for="(item, i) in posts.overview" :key="i">
           <div v-if="i<=2  || i % 2 == 0">
@@ -46,10 +46,10 @@
       <div class="banner-inner">
         <div>
           <img :src="posts.heroImage" alt="posts.heroImage" />
-          <div class="nightStay">
+          <!-- <div class="nightStay">
             <div class="title"><h5> NIGHT STAY </h5></div>
             <div class="subtitle"><h5>{{posts.nightStay}}</h5></div> 
-          </div>
+          </div> -->
         </div>        
         <div v-for="(item, i) in posts.overview" :key="i">
           <div v-if="i>2 && Math.abs(i % 2) == 1">
