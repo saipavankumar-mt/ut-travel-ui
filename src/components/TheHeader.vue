@@ -96,7 +96,7 @@ export default {
         // { label: 'Hotel', icon: 'bed' },
         // { label: 'Car Rental', icon: 'car' },
         // { label: 'Helipad', icon: 'helicopter' },
-        { label: "About Us", icon: "head-question" },
+        { label: "About Us", icon: "head-question", path: "/about-us" },
         { label: "Contact Us", icon: "card-account-phone" },
       ],
     };

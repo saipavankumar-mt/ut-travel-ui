@@ -5,6 +5,7 @@ import PackageDetail from '../components/ui-components/PackageDetail.vue';
 import TourDestinationDetail from '../components/ui-components/TourDestinationDetail.vue';
 import TourPackages from '../views/TourPackages.vue';
 import TourDestinations from '../views/TourDestinations.vue';
+import AboutUs from '../views/AboutUs.vue';
 
 Vue.use(VueRouter);
 
@@ -44,6 +45,11 @@ const routes = [
     path: '/destination/:destinationName',
     name: 'destination-detail',
     component: TourDestinationDetail,
+  },
+  {
+    path: '/about-us',
+    name: 'about-us',
+    component: AboutUs,
   },
 ];
 
