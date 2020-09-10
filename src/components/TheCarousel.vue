@@ -31,22 +31,19 @@
                 <p>{{ item.description }}</p>
               </div>
             </div>
-            <div class="carousel-right-content">
+            <div class="carousel-right-content" v-if="item.price.showPrice">
               <div class="carousel-duration">
                 <p>
                   <b>{{ item.nights }}</b> Nights /
                   <b>{{ item.days }}</b> Days
                 </p>
-              </div>
-              <div v-if="item.price.showPrice">
-                <p>@</p>
+              </div><p>@</p>
                 <div class="carousel-price">
                   <p>&#8377; {{ item.price.value }}/-</p>
                 </div>
                 <div class="carousel-perperson">
                   <p>PER PERSON</p>
                 </div>
-              </div>
             </div>
           </div>
         </div>
