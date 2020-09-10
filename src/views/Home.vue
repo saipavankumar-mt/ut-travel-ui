@@ -26,4 +26,8 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+// .home::-webkit-scrollbar {
+//   display: none;
+// }
+</style>

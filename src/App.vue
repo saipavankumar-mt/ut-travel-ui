@@ -70,6 +70,7 @@ export default {
 }
 .app-container {
   position: absolute;
+  // overflow-y: auto;
   top: 80px;
   left: 0px;
   right: 0px;
