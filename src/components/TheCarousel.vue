@@ -4,6 +4,7 @@
       :per-page="1"
       :mouse-drag="true"
       :loop="true"
+      :autoplay="true"
       :navigationEnabled="true"
       :navigationNextLabel="'>'"
       :navigationPrevLabel="'<'"
@@ -37,13 +38,14 @@
                   <b>{{ item.nights }}</b> Nights /
                   <b>{{ item.days }}</b> Days
                 </p>
-              </div><p>@</p>
-                <div class="carousel-price">
-                  <p>&#8377; {{ item.price.value }}/-</p>
-                </div>
-                <div class="carousel-perperson">
-                  <p>PER PERSON</p>
-                </div>
+              </div>
+              <p>@</p>
+              <div class="carousel-price">
+                <p>&#8377; {{ item.price.value }}/-</p>
+              </div>
+              <div class="carousel-perperson">
+                <p>PER PERSON</p>
+              </div>
             </div>
           </div>
         </div>
