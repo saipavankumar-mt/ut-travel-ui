@@ -328,25 +328,24 @@ export default {
   }
 }
 
+@media only screen and (max-width: 1366px) {
+  .banner-inner {
+    width: auto;
+    right: 0px;
+  }
+}
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .tour-package {
     .banner {
       flex-direction: column-reverse;
       .intro {
-        width: 100%;
+        width: 100% !important;
         padding: 16px;
-        .banner-inner {
-          width: 100%;
-        }
+      }
+      .banner-inner {
+        width: 100% !important;
       }
     }
-  }
-}
-
-@media only screen and (max-width: 1366px) {
-  .banner-inner {
-    width: auto;
-    right: 0px;
   }
 }
 </style>
