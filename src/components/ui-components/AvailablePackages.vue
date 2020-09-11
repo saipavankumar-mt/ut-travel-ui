@@ -1,9 +1,9 @@
 <template>
   <div class="available-packages">
     <div class="available-packages-container">
-      <figure :class="{ 'image is-2by1': $isMobile() }">
-        <img v-bind:src="require('../../assets/' + this.availablePackagesInfo.image)" alt />
-      </figure>
+      <!-- <div :class="{ 'image is-2by1': $isMobile() }"> -->
+      <img v-bind:src="require('../../assets/' + this.availablePackagesInfo.image)" alt />
+      <!-- </div> -->
       <div class="name">
         <div>{{ this.availablePackagesInfo.title }}</div>
         <div>{{ this.availablePackagesInfo.noOfPackages }}</div>
@@ -68,6 +68,10 @@ export default {
   .available-packages {
     .name {
       padding: 70px;
+    }
+
+    img {
+      height: 170px;
     }
   }
 }
