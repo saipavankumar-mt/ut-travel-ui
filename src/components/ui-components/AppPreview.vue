@@ -24,7 +24,7 @@
       class="preview-carousel container"
       v-model="itemIndex"
       :data="previewItemsList"
-      :items-to-show="$isMobile()?1 :itemsToShow"
+      :items-to-show="$isMobile()?1.5 :itemsToShow"
       :arrow-hover="false"
       icon-prev="arrow-left"
       icon-next="arrow-right"
@@ -131,9 +131,10 @@ $carousel-arrow-color: #47caf0;
   .preview {
     .preview-all,
     .preview-carousel {
+      margin: 0 1rem !important;
       padding: 4rem 0 0 !important;
       /deep/.carousel-slide {
-        padding: unset !important;
+        padding: 10px 10px 10px 0 !important;
       }
       .carousel-arrow {
         .icon {
