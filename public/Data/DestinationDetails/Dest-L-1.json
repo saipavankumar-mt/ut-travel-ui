@@ -108,28 +108,28 @@
 				"id":"Dest-L-1-H-1",
 				"key":"ShervaniHillTop",
 				"name":"SHERVANI HILLTOP",				
-				"image":"hotels/shervaniHillTop.png",
+				"image":"destinations/nainital/shervaniHillTop.png",
 				"rating":"4"				
 			},
 			{
 			    "id":"Dest-L-1-H-2",
 				"key":"TheManuMaharani",
 				"name":"THE MANU MAHARANI",				
-				"image":"hotels/theManuMaharani.png",
+				"image":"destinations/nainital/theManuMaharani.png",
 				"rating":"4"
 			},
 			{
 			    "id":"Dest-L-1-H-3",
 				"key":"TheNainiRetreat",
 				"name":"THE NAINI RETREAT",				
-				"image":"hotels/theNainiRetreat.png",
+				"image":"destinations/nainital/theNainiRetreat.png",
 				"rating":"4"
 			},
 			{
 			    "id":"Dest-L-1-H-4",
 				"key":"VikramVintageInn",
 				"name":"VIKRAM VINTAGE INN",				
-				"image":"hotels/vikramVintageInn.png",
+				"image":"destinations/nainital/vikramVintageInn.png",
 				"rating":"4"
 			}			
 		  ],
@@ -137,49 +137,49 @@
 			{
 			  "id": "Pckg-B-3",
 			  "title": "Complete Uttranchal",
-			  "image": "",
-			  "key": "Complete-Uttranchal",
+			  "image": "CompleteUttranchalTile.png",
+			  "key": "CompleteUttranchal",
 			  "duration": "10 Nights / 11 Days"
 			},
 			{
 			  "id": "Pckg-B-4",
 			  "title": "Kumaon Heritage",
-			  "image": "",
+			  "image": "KumaonHeritageTile.png",
 			  "key": "KumaonHeritage",
 			  "duration": "9 Nights / 10 Days"
 			},
 			{
 			  "id": "Pckg-B-5",
 			  "title": "Beautiful Kumaon",
-			  "image": "",
+			  "image": "BeautifulKumaonTile.png",
 			  "key": "BeautifulKumaon",
 			  "duration": "9 Nights / 10 Days"
 			},
 			{
 			  "id": "Pckg-B-6",
 			  "title": "Tiny Uttaranchal",
-			  "image": "",
+			  "image": "TinyUttranchalTile.png",
 			  "key": "TinyUttaranchal",
 			  "duration": "6 Nights / 7 Days"
 			},
 			{
 			  "id": "Pckg-B-7",
 			  "title": "Scenic Uttaranchal",
-			  "image": "",
+			  "image": "ScenicUttranchalTile.png",
 			  "key": "ScenicUttaranchal",
 			  "duration": "9 Nights / 10 Days"
 			},
 			{
 			  "id": "Pckg-B-9",
 			  "title": "Uttaranchal Preview",
-			  "image": "",
+			  "image": "UttranchalPreviewTile.png",
 			  "key": "UttaranchalPreview",
 			  "duration": "7 Nights / 8 Days"
 			},
 			{
 			  "id": "Pckg-B-10",
 			  "title": "Weekend Uttaranchal",
-			  "image": "",
+			  "image": "WeekendUttranchalTile.png",
 			  "key": "WeekendUttaranchal",
 			  "duration": "3 Nights / 4 Days"
 			}			

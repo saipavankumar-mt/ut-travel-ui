@@ -31,7 +31,7 @@ export default {
 //   display: none;
 // }
 .destination-container {
-  padding-top: 8.5rem;
+  padding-top: 15rem;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {
