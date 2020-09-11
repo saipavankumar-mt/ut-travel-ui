@@ -65,4 +65,10 @@ export default {
     }
   }
 }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .available-packages-list-container {
+    flex-direction: column;
+  }
+}
 </style>

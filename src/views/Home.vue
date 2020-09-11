@@ -33,4 +33,10 @@ export default {
 .destination-container {
   margin-top: 5.5rem;
 }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .destination-container {
+    margin-top: unset;
+  }
+}
 </style>

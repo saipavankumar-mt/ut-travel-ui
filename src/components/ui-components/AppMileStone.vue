@@ -64,4 +64,20 @@ export default {
   font-size: 0.5rem;
   text-align: center;
 }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .milestone-text-to {
+    top: 72%;
+    left: 53%;
+  }
+
+  .milestone-text-from {
+    top: 56%;
+    left: 30%;
+  }
+
+  .milestone-img {
+    margin-left: 0;
+  }
+}
 </style>

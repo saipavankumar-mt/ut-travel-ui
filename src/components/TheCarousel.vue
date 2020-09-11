@@ -282,5 +282,11 @@ export default {
       font-size: 18px;
     }
   }
+
+  .available {
+    position: unset;
+    top: unset;
+    z-index: unset;
+  }
 }
 </style>

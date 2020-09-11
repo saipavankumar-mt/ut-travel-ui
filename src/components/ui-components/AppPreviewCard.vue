@@ -9,7 +9,7 @@
       <figure
         :class="['image', appPreviewSettings.cardImage.imageSize,{'thumbnail': appPreviewSettings.showViewMore}]"
       >
-        <div>
+        <div v-if="appPreviewSettings.showPackageButton">
           <b-button @click="onViewMoreClick(item)">View Package</b-button>
         </div>
         <img :src="getImageUrl" :alt="getImageUrl" />
@@ -48,9 +48,10 @@ export default {
           showHover: true,
           cardContent: "",
           cardImage: {
-            imageSize: "is-4by3",
+            imageSize: !this.$isMobile() ? "is-4by3" : "is-4by2",
           },
           showViewMore: false,
+          showPackageButton: false,
         };
       },
       type: Object,

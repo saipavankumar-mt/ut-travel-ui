@@ -580,6 +580,8 @@ export default {
       flex-direction: column-reverse;
       h1 {
         padding-top: 10px;
+        font-size: 36px;
+        line-height: 46px;
       }
       .intro {
         width: 100%;

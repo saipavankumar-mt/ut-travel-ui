@@ -163,9 +163,10 @@ export default {
         showHover: false,
         cardContent: "card-setting",
         cardImage: {
-          imageSize: "is-5by3",
+          imageSize: !this.$isMobile() ? "is-5by3" : "is-4by2",
         },
         showViewMore: true,
+        showPackageButton: true,
       },
     };
   },
@@ -338,9 +339,16 @@ export default {
   .tour-package {
     .banner {
       flex-direction: column-reverse;
+
+      h1 {
+        font-size: 36px;
+        line-height: 46px;
+        padding-top: 10px;
+      }
       .intro {
         width: 100% !important;
         padding: 16px;
+        padding-left: 1rem;
       }
       .banner-inner {
         width: 100% !important;
