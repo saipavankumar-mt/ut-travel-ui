@@ -1,8 +1,14 @@
 <template>
   <nav class="navbar is-fixed-top" @click="initTab($event)">
     <div class="navbar-contact">
-      <div class="navbar-item">Email: sales@uttranchalholidays.com</div>
-      <div class="navbar-item">Call Us: +91-9359079393, +91-9368079393, +91-7830030003</div>
+      <div class="navbar-item">
+        <b-icon icon="email" size="is-small" /> 
+        <p>sales@uttranchalholidays.com</p>
+        </div>
+      <div class="navbar-item">
+        <b-icon icon="phone" size="is-small" /> 
+        <p>+91-9359079393, +91-9368079393, +91-7830030003</p>
+        </div>
     </div>
     <div class="navbar-brand">
       <span class="toggle-menu" v-if="$isMobile()" @click="toggleSideNavBar()">&#9776;</span>
