@@ -1,270 +1,209 @@
 {
-  "devotionalYatras": [
+  "title": "Tour-Destinations.json",
+  "subtitle": "",
+  "overview": [
     {
-      "id": "Destination-1",
-      "title": "Chardham",
-      "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
-      "key": "chardham",
-      "image": "chardham.png",
-      "price": "41000",
-      "subtitle": "11 Nights / 12 Days"
+      "title": "Best Time to Visit Uttarakhand:",
+      "subtitle": "Uttarakhand is a destination to be visited all through the year as each season has something special to offer."
     },
     {
-      "id": "",
-      "title": "Teendham",
-      "image": "teendham.png",
-      "subtitle": "9 Nights / 10 Days"
-    },
-    {
-      "id": "",
-      "title": "Dodham",
-      "image": "dodham.png",
-      "subtitle": "4 Nights / 5 Days"
-    },
-    {
-      "id": "",
-      "title": "Panchkedar",
-      "image": "panchkedar.png",
-      "subtitle": "14 Nights / 15 Days"
-    },
-    {
-      "id": "",
-      "title": "Panchbadri",
-      "image": "panchkedar.png",
-      "subtitle": "14 Nights / 15 Days"
-    },
-    {
-      "id": "",
-      "title": "Panchprayag",
-      "image": "panchkedar.png",
-      "price": "49999",
-      "subtitle": "14 Nights / 15 Days"
+      "title": "Why Visit Uttarakhand?:",
+      "subtitle": " For Hindu and Sikh pilgrimage journeys, skiing experience, wildlife tours, whitewater river rafting, yoga, honeymoon, enthralling trekking and peak climbing ventures, birdwatching, rural tourism, culture and heritage, photography tour and for organizing memorable destination weddings."
     }
   ],
-  "beautifulUttranchal": [
+  "data": [
     {
-      "id": "Pckg4-0",
-      "title": "Nainital",
-      "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
-      "image": "chardham.png",
-      "subtitle": "11 Nights / 12 Days"
+      "type": "Hill Station Getaways",
+      "key": "hillStationGetaways",
+
+      "items": [
+        {
+          "id": "Dest-L-1",
+          "title": "Nainital",
+		      "key": "NAINITAL",
+          "image": "destinations/NainitalTile.png"
+        },
+		{
+          "id": "Dest-L-2",
+          "title": "Kausani",
+		      "key": "KAUSANI",
+          "image": "destinations/KausaniTile.png"
+        },
+		{
+          "id": "Dest-L-3",
+          "title": "Ranikhet",
+		  "key": "RANIKHET",
+          "image": "destinations/RanikhetTile.png"
+        },
+		{
+          "id": "Dest-L-4",
+          "title": "Almora",
+		  "key": "ALMORA",
+          "image": "destinations/AlmoraTile.png"
+        },
+		{
+          "id": "Dest-L-5",
+          "title": "Mukteshwar",
+		  "key": "MUKTESHWAR",
+          "image": "destinations/MukteshwarTile.png"
+        },
+		{
+          "id": "Dest-L-6",
+          "title": "Ramgarh",
+		  "key": "RAMGARH",
+          "image": "destinations/RamgarhTile.png"
+        },
+		{
+          "id": "Dest-L-7",
+          "title": "Binsar",
+		  "key": "BINSAR",
+          "image": "destinations/BinsarTile.png"
+        },
+		{
+          "id": "Dest-L-8",
+          "title": "Jageshwar",
+		  "key": "JAGESHWAR",
+          "image": "destinations/JageshwarTile.png"
+        },
+		{
+          "id": "Dest-L-9",
+          "title": "Jim Corbett Nation Park",
+		  "key": "JIM-CORBETT-NATIONAL-PARK",
+          "image": "destinations/JimCorbettNationParkTile.png"
+        },
+		{
+          "id": "Dest-L-10",
+          "title": "Chakouri",
+		  "key": "CHAKOURI",
+          "image": "destinations/ChakouriTile.png"
+        },
+		{
+          "id": "Dest-L-11",
+          "title": "Munsyari",
+		  "key": "MUNSYARI",
+          "image": "destinations/MunsyariTile.png"
+        },
+		{
+          "id": "Dest-L-12",
+          "title": "Pithoragarh",
+		  "key": "PITHORAGARH",
+          "image": "destinations/PithoragarhTile.png"
+        },
+		{
+          "id": "Dest-L-13",
+          "title": "Haridwar",
+		  "key": "HARIDWAR",
+          "image": "destinations/HaridwarTile.png"
+        },
+		{
+          "id": "Dest-L-14",
+          "title": "Rishikesh",
+		  "key": "RISHIKESH",
+          "image": "destinations/RishikeshTile.png"
+        },
+		{
+          "id": "Dest-L-15",
+          "title": "Mussoorie",
+		  "key": "MUSSOORIE",
+          "image": "destinations/MussoorieTile.png"
+        },
+		{
+          "id": "Dest-L-16",
+          "title": "Dehradun",
+		  "key": "DEHRADUN",
+          "image": "destinations/DehradunTile.png"
+        },
+		{
+          "id": "Dest-L-17",
+          "title": "Harshil",
+		  "key": "HARSHIL",
+          "image": "destinations/HarshilTile.png"
+        },
+		{
+          "id": "Dest-L-18",
+          "title": "Auli",
+		  "key": "AULI",
+          "image": "destinations/AuliTile.png"
+        },
+		{
+          "id": "Dest-L-19",
+          "title": "Khirshu",
+		  "key": "KHIRSHU",
+          "image": "destinations/KhirshuTile.png"
+        }
+      ]
     },
     {
-      "id": "Pckg3-0",
-      "title": "Kausani",
-      "image": "theendham.png",
-      "subtitle": "10 Packages"
-    },
-    {
-      "id": "",
-      "title": "Ranikhet",
-      "image": "dodham.png",
-      "subtitle": "5 packages"
-    },
-    {
-      "id": "",
-      "title": "Almora",
-      "image": "panchkedar.png",
-      "subtitle": "4 Packages"
-    },
-    {
-      "id": "",
-      "title": "Mukteshwar",
-      "image": "panchkedar.png",
-      "subtitle": " 3 Packages"
-    },
-    {
-      "id": "",
-      "title": "Ramgarh",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "Pckg4-0",
-      "title": "Binsar",
-      "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
-      "image": "chardham.png",
-      "duration": "11 Nights / 12 Days",
-      "price": "41000",
-      "subtitle": "20 Packages"
-    },
-    {
-      "id": "Pckg3-0",
-      "title": "Jageshwar",
-      "image": "theendham.png",
-      "subtitle": "10 Packages"
-    },
-    {
-      "id": "",
-      "title": "Jim Corbett Nation Park",
-      "image": "dodham.png",
-      "subtitle": "5 packages"
-    },
-    {
-      "id": "",
-      "title": "Chakouri",
-      "image": "panchkedar.png",
-      "subtitle": "4 Packages"
-    },
-    {
-      "id": "",
-      "title": "Munsyari",
-      "image": "panchkedar.png",
-      "subtitle": " 3 Packages"
-    },
-    {
-      "id": "",
-      "title": "Pithoragarh",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "Pckg4-0",
-      "title": "Haridwar",
-      "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
-      "image": "chardham.png",
-      "duration": "11 Nights / 12 Days",
-      "price": "41000",
-      "subtitle": "20 Packages"
-    },
-    {
-      "id": "Pckg3-0",
-      "title": "Rishikesh",
-      "image": "theendham.png",
-      "subtitle": "10 Packages"
-    },
-    {
-      "id": "",
-      "title": "Mussoorie",
-      "image": "dodham.png",
-      "subtitle": "5 packages"
-    },
-    {
-      "id": "",
-      "title": "Dehradun",
-      "image": "panchkedar.png",
-      "subtitle": "4 Packages"
-    },
-    {
-      "id": "",
-      "title": "Harshil",
-      "image": "panchkedar.png",
-      "subtitle": " 3 Packages"
-    },
-    {
-      "id": "",
-      "title": "Auli",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Harshil",
-      "image": "panchkedar.png",
-      "subtitle": " 3 Packages"
-    },
-    {
-      "id": "",
-      "title": "Khirshu",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    }
-  ],
-  "adventurePackages": [
-    {
-      "id": "Pckg4-0",
-      "title": "Hemkund Sahib",
-      "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
-      "image": "chardham.png",
-      "duration": "11 Nights / 12 Days",
-      "price": "41000",
-      "subtitle": "20 Packages"
-    },
-    {
-      "id": "Pckg3-0",
-      "title": "Valley of Flower",
-      "image": "theendham.png",
-      "subtitle": "10 Packages"
-    },
-    {
-      "id": "",
-      "title": "Satopanth",
-      "image": "dodham.png",
-      "subtitle": "5 packages"
-    },
-    {
-      "id": "",
-      "title": "Deoria Tal",
-      "image": "panchkedar.png",
-      "subtitle": "4 Packages"
-    },
-    {
-      "id": "",
-      "title": "Kakabhushandi Tal",
-      "image": "panchkedar.png",
-      "subtitle": " 3 Packages"
-    },
-    {
-      "id": "",
-      "title": "Kedar Tal",
-      "image": "panchkedar.png",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Kedarkantha",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Kedar Tal",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Bali Pass",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Har ki Dun",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Brahmatal",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
-    },
-    {
-      "id": "",
-      "title": "Kalandi Khal",
-      "image": "panchkedar.png",
-      "duration": "14 Nights / 15 Days",
-      "price": "49999",
-      "subtitle": "7 Packages"
+      "type": "Trekking Packages",
+      "key": "trekkingPackages",
+      "items": [
+        {
+          "id": "Trek-M-1",
+          "title": "Hemkund Sahib",
+          "key": "HEMKUND-SAHIB",
+          "image": "destinations/HemkundSahibTile.png"
+        },
+        {
+          "id": "Trek-M-2",
+          "title": "Valley Of Flower",
+          "key": "VALLEY-OF-FLOWER",
+          "image": "destinations/ValleyOfFlowerTile.png"
+        },
+        {
+          "id": "Trek-M-3",
+          "title": "Satopanth",
+          "key": "SATOPANTH",
+          "image": "destinations/SatopanthTile.png"
+        },
+        {
+          "id": "Trek-M-4",
+          "title": "Deoria Tal",
+          "key": "DEORIA-TAL",
+          "image": "destinations/DeoriaTalTile.png"
+        },
+        {
+          "id": "Trek-M-5",
+          "title": "Kakabhushandi Tal",
+          "key": "KAKABHUSHANDI-TAL",
+          "image": "destinations/KakabhushandiTalTile.png"
+        },
+        {
+          "id": "Trek-M-6",
+          "title": "Kedar Tal",
+          "key": "KEDAR-TAL",
+          "image": "destinations/KedarTalTile.png"
+        },
+        {
+          "id": "Trek-M-7",
+          "title": "Kedarkantha",
+          "key": "KEDARKANTHA",
+          "image": "destinations/KedarkanthaTile.png"
+        },
+        {
+          "id": "Trek-M-8",
+          "title": "Bali Pass",
+          "key": "BALI-PASS",
+          "image": "destinations/BaliPassTile.png"
+        },
+        {
+          "id": "Trek-M-9",
+          "title": "Har Ki Dun",
+          "key": "HAR-KI-DUN",
+          "image": "destinations/HarKiDunTile.png"
+        },
+        {
+          "id": "Trek-M-10",
+          "title": "Brahmatal",
+          "key": "BRAHMATAL",
+          "image": "destinations/BrahmatalTile.png"
+        },
+        {
+          "id": "Trek-M-11",
+          "title": "Kalandi Khal",
+          "key": "KALANDI-KHAL",
+          "image": "destinations/KalandiKhalTile.png"
+        }
+      ]
     }
   ]
 }
