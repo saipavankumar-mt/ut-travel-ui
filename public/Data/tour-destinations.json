@@ -23,16 +23,16 @@
             "key": "NAINITAL",
             "image": "destinations/NainitalTile.png"
           },
-      {
+          {
             "id": "Dest-L-2",
             "title": "Kausani",
             "key": "KAUSANI",
             "image": "destinations/KausaniTile.png"
           },
-      {
+          {
             "id": "Dest-L-3",
             "title": "Ranikhet",
-        "key": "RANIKHET",
+            "key": "RANIKHET",
             "image": "destinations/RanikhetTile.png"
           },
       {
@@ -98,7 +98,7 @@
       {
             "id": "Dest-L-14",
             "title": "Rishikesh",
-        "key": "RISHIKESH",
+            "key": "RISHIKESH",
             "image": "destinations/RishikeshTile.png"
           },
       {
