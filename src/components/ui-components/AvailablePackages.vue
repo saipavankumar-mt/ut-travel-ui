@@ -43,7 +43,8 @@ export default {
     position: relative;
 
     .package-title {
-      font-family: cursive;
+      font-family: "SFProDisplay-Bold";
+      font-weight: 700;
     }
   }
 
