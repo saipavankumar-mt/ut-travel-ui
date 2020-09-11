@@ -2,12 +2,12 @@
   <div class="available-packages">
     <div class="available-packages-container">
       <!-- <div :class="{ 'image is-2by1': $isMobile() }"> -->
+      <div class="package-title">
+        <div>{{ this.availablePackagesInfo.noOfPackages }}</div>
+        <div>{{ this.availablePackagesInfo.title }}</div>
+      </div>
       <img v-bind:src="require('../../assets/' + this.availablePackagesInfo.image)" alt />
       <!-- </div> -->
-      <div class="name">
-        <div>{{ this.availablePackagesInfo.title }}</div>
-        <div>{{ this.availablePackagesInfo.noOfPackages }}</div>
-      </div>
     </div>
   </div>
 </template>
@@ -25,6 +25,7 @@ export default {
 
 <style lang="scss">
 .available-packages {
+  background: white;
   &:hover {
     cursor: pointer;
     box-shadow: 0 0 15px 2px;
@@ -40,11 +41,16 @@ export default {
     display: flex;
     flex-direction: column;
     position: relative;
+
+    .package-title {
+      font-family: cursive;
+    }
   }
 
   img {
     width: 100%;
-    height: 130px;
+    height: 140px;
+    padding: 10px;
   }
 
   .name {

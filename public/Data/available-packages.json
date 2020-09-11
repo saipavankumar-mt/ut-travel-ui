@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "title": "Piligrimage",
+    "title": "Piligrim",
     "noOfPackages": "25+ Packages",
     "image": "OfferTiles/PackageOfferTile.jpg"
   },
   {
     "id": 2,
-    "title": "Wildlife",
+    "title": "Liesure",
     "noOfPackages": "25+ Packages",
     "image": "OfferTiles/WildLifeOfferTile.jpg"
   },
@@ -19,25 +19,13 @@
   },
   {
     "id": 4,
-    "title": "Hill Station",
+    "title": "Destinations",
     "noOfPackages": "25+ Packages",
     "image": "OfferTiles/HillStationOfferTile.jpg"
   },
   {
     "id": 5,
-    "title": "Hill Station",
-    "noOfPackages": "25+ Packages",
-    "image": "OfferTiles/HillStationOfferTile.jpg"
-  },
-  {
-    "id": 6,
-    "title": "Hill Station Tours",
-    "noOfPackages": "25+ Packages",
-    "image": "OfferTiles/HillStationOfferTile.jpg"
-  },
-  {
-    "id": 7,
-    "title": "Hill Station",
+    "title": "Hotels",
     "noOfPackages": "25+ Packages",
     "image": "OfferTiles/HillStationOfferTile.jpg"
   }

@@ -31,7 +31,7 @@ export default {
 //   display: none;
 // }
 .destination-container {
-  margin-top: 5.5rem;
+  margin-top: 7.5rem;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {

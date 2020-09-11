@@ -111,7 +111,7 @@ export default {
   position: relative;
   width: 100%;
   left: 0%;
-  height: 450px;
+  height: 550px;
   top: 0%;
   img {
     object-fit: fill;

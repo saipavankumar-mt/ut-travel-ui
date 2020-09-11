@@ -47,7 +47,7 @@ export default {
 
 .available-packages-title {
   width: 100%;
-  padding: 10px;
+  padding: 10px 30px;
 }
 
 .divider-container {
