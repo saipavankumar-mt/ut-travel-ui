@@ -163,7 +163,7 @@ export default {
         showHover: false,
         cardContent: "card-setting",
         cardImage: {
-          imageSize: !this.$isMobile() ? "is-5by3" : "is-4by2",
+          imageSize: "is-5by3",
         },
         showViewMore: true,
         showPackageButton: true,

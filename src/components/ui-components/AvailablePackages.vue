@@ -1,9 +1,11 @@
 <template>
   <div class="available-packages">
     <div class="available-packages-container">
-      <img v-bind:src="require('../../assets/' + this.availablePackagesInfo.image)" alt />
+      <figure :class="{ 'image is-2by1': $isMobile() }">
+        <img v-bind:src="require('../../assets/' + this.availablePackagesInfo.image)" alt />
+      </figure>
       <div class="name">
-        {{ this.availablePackagesInfo.title }}
+        <div>{{ this.availablePackagesInfo.title }}</div>
         <div>{{ this.availablePackagesInfo.noOfPackages }}</div>
       </div>
     </div>
@@ -61,16 +63,12 @@ export default {
     height: 100%;
     line-height: 1.2em;
   }
-
-  // .name-container {
-  //   color: white;
-  //   .name {
-  //     font-size: 20px;
-  //     margin-top: 5px;
-  //     background: linear-gradient(-95deg, #064e68, #9b9acc);
-  //     padding: 5px;
-  //     height: 60px;
-  //   }
-  // }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .available-packages {
+    .name {
+      padding: 70px;
+    }
+  }
 }
 </style>
