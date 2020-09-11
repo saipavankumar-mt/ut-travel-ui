@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <the-carousel></the-carousel>
-    <packages></packages>
+    <packages class="destination-container"></packages>
     <destinations></destinations>
     <!-- <destinations-old></destinations-old> -->
     <!-- <about-us></about-us> -->
@@ -30,4 +30,7 @@ export default {
 // .home::-webkit-scrollbar {
 //   display: none;
 // }
+.destination-container {
+  margin-top: 5.5rem;
+}
 </style>

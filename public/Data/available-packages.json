@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Piligrimage",
+    "noOfPackages": "25 + Packages",
+    "image": "OfferTiles/PackageOfferTile.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Wildlife",
+    "noOfPackages": "25 + Packages",
+    "image": "OfferTiles/WildLifeOfferTile.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Trekking ",
+    "noOfPackages": "25 + Packages",
+    "image": "OfferTiles/TrekkingOfferTile.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Hill Station",
+    "noOfPackages": "25 + Packages",
+    "image": "OfferTiles/HillStationOfferTile.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Hill Station",
+    "noOfPackages": "25 + Packages",
+    "image": "OfferTiles/HillStationOfferTile.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Hill Station Tours",
+    "noOfPackages": "25 + Packages",
+    "image": "OfferTiles/HillStationOfferTile.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Hill Station",
+    "noOfPackages": "25 + Packages",
+    "image": "OfferTiles/HillStationOfferTile.jpg"
+  }
+]
