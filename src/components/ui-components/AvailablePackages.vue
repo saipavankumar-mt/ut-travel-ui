@@ -1,10 +1,10 @@
 <template>
   <div class="available-packages">
     <div class="available-packages-container">
-      <img v-bind:src="require('../../assets/' + this.offerInfo.image)" alt />
+      <img v-bind:src="require('../../assets/' + this.availablePackagesInfo.image)" alt />
       <div class="name">
-        {{ this.offerInfo.title }}
-        <div>{{ this.offerInfo.noOfPackages }}</div>
+        {{ this.availablePackagesInfo.title }}
+        <div>{{ this.availablePackagesInfo.noOfPackages }}</div>
       </div>
     </div>
   </div>
