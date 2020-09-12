@@ -200,7 +200,7 @@ export default {
         .then((res) => {
           // this.tourPackages = res.data;
           console.log(this.tourPackages);
-          res.data.data.map((res) => {
+          res.data.packages.map((res) => {
             if (res.key === "piligrimDestination") {
               this.tourPackages.piligrimDestination = res.items;
             }

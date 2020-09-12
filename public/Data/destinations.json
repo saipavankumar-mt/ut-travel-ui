@@ -1,36 +1,45 @@
 {
-  "title": "Destinations",
-  "titleDesc": "Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period.",
+  "title": "Destinations",  
   "items": [
     {
-      "title": "Nainital",
+      "id": "Dest-L-1",
+      "title": "NAINITAL",
+      "key": "Nainital",
+      "image": "destinations/NainitalTile.png",
       "subtitle": "...Peachy and Decency, Sign A Peace Treaty",
-      "type": "destinations",
-      "image": "nainital.png"
+      "type": "destinations"      
     },
     {
-      "title": "Kausani",
+      "id": "Dest-L-2",
+      "title": "KAUSANI",
+      "key": "Kausani",
+      "image": "destinations/KausaniTile.png",
       "subtitle": "...Abode of Heavenly Mist",
-      "type": "destinations",
-      "image": "kausani.png"
+      "type": "destinations"
     },
     {
-      "title": "Ranikhet",
+      "id": "Dest-L-3",
+      "title": "RANIKHET",
+      "key": "Ranikhet",
+      "image": "destinations/RanikhetTile.png",
       "subtitle": "...Peachy and Decency, Sign A Peace Treaty",
-      "type": "destinations",
-      "image": "ranikhet.png"
+      "type": "destinations"
     },
     {
-      "title": "Almora",
+      "id": "Dest-L-4",
+      "title": "ALMORA",
+      "key": "Almora",
+      "image": "destinations/AlmoraTile.png",
       "subtitle": "...Peachy and Decency, Sign A Peace Treaty",
-      "type": "destinations",
-      "image": "almora.png"
+      "type": "destinations"
     },
     {
+      "id": "Dest-L-14",
       "title": "Rishikesh",
+      "key": "RISHIKESH",
+      "image": "destinations/RishikeshTile.png",
       "subtitle": "...Peachy and Decency, Sign A Peace Treaty",
-      "type": "destinations",
-      "image": "rishikesh.png"
+      "type": "destinations"
     },
     {
       "title": "Mussoorie",
