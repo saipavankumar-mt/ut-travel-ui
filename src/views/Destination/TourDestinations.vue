@@ -68,8 +68,12 @@ export default {
         cardImage: {
           imageSize: "is-5by3",
         },
-        showViewMore: true,
-        showPackageButton: true,
+        hoverAction: {
+          show: true,
+          text: "View Destination",
+          type: "BUTTON",
+        },
+        imageBlurOnHover: true,
       },
     };
   },
@@ -93,7 +97,7 @@ export default {
         .get(`${process.env.BASE_URL}data/tour-destinations.json`)
         .then((res) => {
           console.log(this.tourPackages);
-          res.data.data.map((res) => {
+          res.data.destinations.map((res) => {
             if (res.key === "hillStationGetaways") {
               this.tourPackages.hillStationGetaways = res.items;
             }

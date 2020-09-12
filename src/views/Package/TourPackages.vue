@@ -165,8 +165,12 @@ export default {
         cardImage: {
           imageSize: "is-5by3",
         },
-        showViewMore: true,
-        showPackageButton: true,
+        hoverAction: {
+          show: true,
+          text: "View Package",
+          type: "BUTTON",
+        },
+        imageBlurOnHover: true,
       },
     };
   },

@@ -16,8 +16,8 @@
     <p>TOP ATTRACTION IN NAINITAL</p>
     <b-carousel-list
       class="destination-carousel container"
-      v-model="itemIndex"
-      :data="items"
+      v-model="index"
+      :data="destinationPackages.attractions"
       :items-to-show="4"
       :arrow-hover="false"
       icon-prev="arrow-left"
@@ -34,7 +34,7 @@
     <b-carousel-list
       class="destination-carousel container"
       v-model="itemIndex"
-      :data="items"
+      :data="destinationPackages.hotels"
       :items-to-show="4"
       :arrow-hover="false"
       icon-prev="arrow-left"
@@ -64,60 +64,25 @@ export default {
         cardImage: {
           imageSize: "is-5by3",
         },
+        imageBlurOnHover: true,
+        hoverAction: {
+          text: "",
+          type: "TEXT",
+        },
       },
       itemIndex: 0,
-      items: [
-        {
-          title: "Slide 1",
-          image: "https://buefy.org/static/img/placeholder-1280x960.png",
-          rating: 4.4,
-        },
-        {
-          title: "Slide 2",
-          image: "https://buefy.org/static/img/placeholder-1280x960.png",
-          rating: 3.5,
-        },
-        {
-          title: "Slide 3",
-          image: "https://buefy.org/static/img/placeholder-1280x960.png",
-          rating: 5,
-        },
-        {
-          title: "Slide 4",
-          image: "https://buefy.org/static/img/placeholder-1280x960.png",
-          rating: 5,
-        },
-        {
-          title: "Slide 5",
-          image: "https://buefy.org/static/img/placeholder-1280x960.png",
-          rating: 5,
-        },
-        {
-          title: "Slide 6",
-          image: "https://buefy.org/static/img/placeholder-1280x960.png",
-          rating: 4,
-        },
-        {
-          title: "Slide 7",
-          image: "https://buefy.org/static/img/placeholder-1280x960.png",
-          rating: 2.7,
-        },
-        {
-          title: "Slide 8",
-          image: "https://buefy.org/static/img/placeholder-1280x960.png",
-          rating: 1.5,
-        },
-      ],
+      index: 0,
     };
   },
   methods: {
     getDestinationPackages() {
       this.$http
         .get(
-          `${process.env.BASE_URL}Data/PackageDetails/${this.destinationId}.json`
+          `${process.env.BASE_URL}Data/DestinationDetails/${this.destinationId}.json`
         )
         .then((res) => {
-          this.destinationPackages = res.data;
+          this.destinationPackages = res.data.data;
+          console.log(this.destinationPackages);
         });
     },
   },

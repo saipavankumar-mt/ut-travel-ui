@@ -10,10 +10,13 @@
         <b-rate :value="item.rating" disabled />
       </p>
       <figure
-        :class="['image', appPreviewSettings.cardImage.imageSize,{'thumbnail': appPreviewSettings.showViewMore}]"
+        :class="['image', appPreviewSettings.cardImage.imageSize,{'thumbnail': appPreviewSettings.imageBlurOnHover}]"
       >
-        <div v-if="appPreviewSettings.showPackageButton">
-          <b-button @click="onViewMoreClick(item)">View Package</b-button>
+        <div class="preview-button" v-if="appPreviewSettings.hoverAction.type==='BUTTON'">
+          <b-button @click="onViewMoreClick(item)">{{appPreviewSettings.hoverAction.text}}</b-button>
+        </div>
+        <div class="description" v-if="appPreviewSettings.hoverAction.type==='TEXT'">
+          <p>{{item.description}}</p>
         </div>
         <img :src="getImageUrl" :alt="getImageUrl" />
       </figure>
@@ -24,16 +27,6 @@
         <p class="subtitle is-7 is-italic" v-if="item.duration">Duration: {{ item.duration }}</p>
         <!-- <p class="subtitle is-5 is-italic" v-if="item.price">From: {{ item.price }}/-Per Person</p> -->
         <p class="subtitle is-7 is-italic" v-if="item.subtitle">{{ item.subtitle }}</p>
-        <!-- <div class="book-now">
-          <a @click="onViewMoreClick(item.key)" v-if="appPreviewSettings.showViewMore">View More</a>
-          <b-button
-            class
-            v-if="appPreviewSettings.showBookNow"
-            @click="onViewMoreClick(item)"
-            type="is-success"
-            outlined
-          >BOOK NOW</b-button>
-        </div>-->
       </div>
     </div>
   </div>
@@ -53,14 +46,20 @@ export default {
           cardImage: {
             imageSize: !this.$isMobile() ? "is-4by3" : "is-4by2",
           },
-          showViewMore: false,
-          showPackageButton: false,
+          imageBlurOnHover: false,
+          hoverAction: {
+            show: false,
+            text: "View Package",
+            type: "BUTTON",
+          },
         };
       },
       type: Object,
     },
   },
-  created() {},
+  created() {
+    console.log(this.item.description);
+  },
   computed: {
     getImageUrl() {
       try {
@@ -177,7 +176,28 @@ export default {
   transition: all 0.3s ease;
 }
 
-.thumbnail div {
+.description {
+  top: 0;
+  position: absolute;
+  background: rgba(1, 1, 1, 0.8);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+
+  transition: all 0.3s ease;
+  font-size: 12px;
+  z-index: 2;
+  p {
+    color: #60bff3 !important;
+
+    &:hover {
+      border-color: #60bff3;
+    }
+  }
+}
+
+.thumbnail .preview-button {
   padding-top: 70px;
   top: 0;
   position: absolute;

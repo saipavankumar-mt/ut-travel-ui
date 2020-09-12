@@ -1,203 +1,202 @@
 {
-	"data": {
-		  "id": "Dest-L-1",
-		  "key": "Nainital",
-		  "title": "NAINITAL",
-		  "qoute": "…Peachy and Decency, Sign A Peace Treaty",
-		  "subtitle": "Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period.",
-		  "overview":[
-			{
-			  "title":"Why Nainital:",
-			  "subtitle":"Nainital is a popular tourist hill station nested in Himalayas with exceptional scenic beauties which includes beautiful lakes, salubrious climate, the sacred Naina Devi Temple and the opportunity to savour the Kumaoni culture. Nainital has many attractions which are enough to attract visitors from all around the world."
-			},
-			{
-			  "title":"BEST TIME TO VISIT:",
-			  "subtitle":"The best time to visit Nainital is during summer, this is the peak tourist season to explore Nainital. For those who want to enjoy snowfall the best time to visit is during winter, which is also best time to visit Nainital for honeymoon thanks to romantic weather."
-			}	
-		  ],
-		  "temperature":[
-			{
-				"season":"Summer",
-				"months":"(April to Mid-June)",
-				"temp":"20°C to 32°C"
-			},
-			{
-				"season":"Monsoon",
-				"months":"(Mid-June to September)",
-				"temp":"15°C to 28°C"
-			},
-			{
-				"season":"Winter",
-				"months":"(October to March)",
-				"temp":"0°C to 12°C"
-			}
-		  ],
-		  "heroImage": "",
-		  "images": [
-			"destinations/nainital/nainilake.png",
-			"destinations/nainital/ecoCaveGarden.png",
-			"destinations/nainital/governor'sHouse.png",
-			"destinations/nainital/nainaDeviTemple.png",
-			"destinations/nainital/nainaPeak.png",
-			"destinations/nainital/pt.G.B.PantHighAltitudeZoo.png",
-			"destinations/nainital/landsEnd.png",
-			"destinations/nainital/mallRoad.png",
-			"destinations/nainital/theFlatts.png",
-			"destinations/nainital/tiffinTop.png",
-			"destinations/nainital/hanumanGarhi.png"
-		  ],
-		  "attractions":[
-			{
-				"title": "Naini Lake",
-				"image": "destinations/nainital/nainiLake.png",
-				"description":"Nainital Lake, also called as Naini Lake is a famous lake in Kumaon hills which is surrounded by snowy peaks to the North, Tiffin point to the South-West and Naini peak at the North-West. Naini Lake offers various opportunities for boating, padding, kayaking and yachting which indeed rejuvenates your senses with breathtaking views of the mountains, flora and fauna."
-			},
-			{
-				"title": "Eco Cave Garden",
-				"image": "destinations/nainital/ecoCaveGarden.png",
-				"description":"Eco Cave Garden is a cluster of natural rocky caves made into garden which are one of the popular tourist attractions of the hill station especially for childrens. Eco Cave Garden offers artificial caves of several animals made for education and fun, some of which are easy to pass through, for others to crawl through which in turn spruce up adventure quotient."
-			},
-			{
-				"title": "Governor's House",
-				"image": "destinations/nainital/governor'sHouse.png",
-				"description":"Governor's House which is also called as Raj Bhawan is a British era building. Build in 1990 based on Gothic architecture used to serve as a residence for thr governor of Nort-East province, spread over 205 acres of area with a Golf course in 45 acres of land which hosted many golf championships"
-			},
-			{
-				"title": "Naina Devi Temple",
-				"image": "destinations/nainital/nainaDeviTemple.png",
-				"description":"Naina Devi Temple is one of the most revered Hindu pilgrimage site in Nainital. It is beleived that this the location where the eyes of Sati fell while Lord Shiva was carrying the corpse of Sati, thus the town, the lake and the temple borrow its name Naina(means eye) Devi temple."
-			},
-			{
-				"title": "Naina Peak",
-				"image": "destinations/nainital/nainaPeak.png",
-				"description":"Naina Peak is the highest hill top and one of the famous tourist spots in Nainital standing at an attitude of 2,600 m above sea level, offers the best view of the valley and national city. The trek to Naina peak coverimg a distance of 6 kms is worth all the effort, money and time as one can experience surreal view of the valley."
-			},
-			{
-				"title": "Pt. G.B. Pant High Altitude Zoo",
-				"image": "destinations/nainital/pt.G.B.PantHighAltitudeZoo.png",
-				"description":"Pt. G.B. Pant High Altitude Zoo is a high altitude zoo and one of the best attraction for wildlife lovers in Nainital. Located at an elevation of 2100 m, Pt. G.B. Pant High Altitude Zoo is the first zoogical park in Uttarakhand region, spread over an area of 4.6 hectares it is home to many endangered species and providing wildlife experience since 1995."
-			},
-			{
-				"title": "Lands End",
-				"image": "destinations/nainital/landsEnd.png",
-				"description":"Lands End located at an altitude of 2118 m, offers a mesmerizing view of nature which can captivate us with its charm. With radiant view of mountains, valley and snow clad Lands End offers beautiful trek by walking uphill, one can also ride on a pony or can walk up the bridleway to the view point."
-			},
-			{
-				"title": "Mall Road",
-				"image": "destinations/nainital/mallRoad.png",
-				"description":"Mall Road is the heart of Nainital's colonial running parllel to Naini Lake. The Mall Road offers splendid panorama of Naini Lake and best shopping pleace with a wide range of restaurants."
-			},
-			{
-				"title": "The Flatts",
-				"image": "destinations/nainital/theFlatts.png",
-				"description":"The Flatts located on the northern side touching the Naini Lake is a famous gathering place for locals and  the tourists. The Flatts provide a picturesque view of Naina Devi temple along with gurudwara and mosque, it has plaing groung used for various sports, games and cultural activities."
-			},
-			{
-				"title": "Tiffin Top",
-				"image": "destinations/nainital/tiffinTop.png",
-				"description":"Tiffin Top commonly known as Dorthy's seat located at an altitude of 2290 m above the sea level at Ayarpatta Hill. Tiffin Top offers a 360 ° picturesque view of Nainital town along with panoramic view of the Himalayas."
-			},
-			{
-				"title": "Hanuman Garhi",
-				"image": "destinations/nainital/hanumanGarhi.png",
-				"description":"Hanuman Garhi is a famous Hindu temple near Mall road, Nainital inside the temple one can see Lord Hanuman portrayed as splitting his chest and showing Lord Ram residing in his heart. Hanuman Garhi is perched atop 6401 ft high and famous for its sunset view."
-			}
-		  ],
-		  "hotels":[
-			{	
-				"id":"Dest-L-1-H-1",
-				"key":"ShervaniHillTop",
-				"name":"SHERVANI HILLTOP",				
-				"image":"destinations/nainital/shervaniHillTop.png",
-				"rating":"4"				
-			},
-			{
-			    "id":"Dest-L-1-H-2",
-				"key":"TheManuMaharani",
-				"name":"THE MANU MAHARANI",				
-				"image":"destinations/nainital/theManuMaharani.png",
-				"rating":"4"
-			},
-			{
-			    "id":"Dest-L-1-H-3",
-				"key":"TheNainiRetreat",
-				"name":"THE NAINI RETREAT",				
-				"image":"destinations/nainital/theNainiRetreat.png",
-				"rating":"4"
-			},
-			{
-			    "id":"Dest-L-1-H-4",
-				"key":"VikramVintageInn",
-				"name":"VIKRAM VINTAGE INN",				
-				"image":"destinations/nainital/vikramVintageInn.png",
-				"rating":"4"
-			}			
-		  ],
-		  "includedPackages":[
-			{
-			  "id": "Pckg-B-3",
-			  "title": "Complete Uttranchal",
-			  "image": "CompleteUttranchalTile.png",
-			  "key": "CompleteUttranchal",
-			  "duration": "10 Nights / 11 Days"
-			},
-			{
-			  "id": "Pckg-B-4",
-			  "title": "Kumaon Heritage",
-			  "image": "KumaonHeritageTile.png",
-			  "key": "KumaonHeritage",
-			  "duration": "9 Nights / 10 Days"
-			},
-			{
-			  "id": "Pckg-B-5",
-			  "title": "Beautiful Kumaon",
-			  "image": "BeautifulKumaonTile.png",
-			  "key": "BeautifulKumaon",
-			  "duration": "9 Nights / 10 Days"
-			},
-			{
-			  "id": "Pckg-B-6",
-			  "title": "Tiny Uttaranchal",
-			  "image": "TinyUttranchalTile.png",
-			  "key": "TinyUttaranchal",
-			  "duration": "6 Nights / 7 Days"
-			},
-			{
-			  "id": "Pckg-B-7",
-			  "title": "Scenic Uttaranchal",
-			  "image": "ScenicUttranchalTile.png",
-			  "key": "ScenicUttaranchal",
-			  "duration": "9 Nights / 10 Days"
-			},
-			{
-			  "id": "Pckg-B-9",
-			  "title": "Uttaranchal Preview",
-			  "image": "UttranchalPreviewTile.png",
-			  "key": "UttaranchalPreview",
-			  "duration": "7 Nights / 8 Days"
-			},
-			{
-			  "id": "Pckg-B-10",
-			  "title": "Weekend Uttaranchal",
-			  "image": "WeekendUttranchalTile.png",
-			  "key": "WeekendUttaranchal",
-			  "duration": "3 Nights / 4 Days"
-			}			
-		  ],
-		  "transit":[
-			{
-				"title":"BY AIR",
-				"subtitle": "The nearest airport is Pantnagar Airport which is 72 km from the Nainital city. One has to take a cab from Pantnagar to reach the city."				
-			},
-			{
-				"title":"BY RAIL",
-				"subtitle": "Nearest railhead you will find is the Kathgodam which is 36 km from Nainital. You can get down at this station and take a bus to Nainital, or book a taxi will also do the job."			
-			},
-			{
-				"title":"BY ROAD",
-				"subtitle": "Nainital is well connected via road and you will have a sound and comfortable bus service from major cities and towns of Uttarakhand and Delhi, if you choose to travel by road. Cabs are also easily available from Haldwani and Kathgodam for Nainital."			
-			}
-		]
-	}
-	
+  "data": {
+    "id": "Dest-L-1",
+    "key": "Nainital",
+    "title": "NAINITAL",
+    "qoute": "…Peachy and Decency, Sign A Peace Treaty",
+    "subtitle": "Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period.",
+    "overview": [
+      {
+        "title": "Why Nainital:",
+        "subtitle": "Nainital is a popular tourist hill station nested in Himalayas with exceptional scenic beauties which includes beautiful lakes, salubrious climate, the sacred Naina Devi Temple and the opportunity to savour the Kumaoni culture. Nainital has many attractions which are enough to attract visitors from all around the world."
+      },
+      {
+        "title": "BEST TIME TO VISIT:",
+        "subtitle": "The best time to visit Nainital is during summer, this is the peak tourist season to explore Nainital. For those who want to enjoy snowfall the best time to visit is during winter, which is also best time to visit Nainital for honeymoon thanks to romantic weather."
+      }
+    ],
+    "temperature": [
+      {
+        "season": "Summer",
+        "months": "(April to Mid-June)",
+        "temp": "20°C to 32°C"
+      },
+      {
+        "season": "Monsoon",
+        "months": "(Mid-June to September)",
+        "temp": "15°C to 28°C"
+      },
+      {
+        "season": "Winter",
+        "months": "(October to March)",
+        "temp": "0°C to 12°C"
+      }
+    ],
+    "heroImage": "",
+    "images": [
+      "destinations/nainital/nainilake.png",
+      "destinations/nainital/ecoCaveGarden.png",
+      "destinations/nainital/governor'sHouse.png",
+      "destinations/nainital/nainaDeviTemple.png",
+      "destinations/nainital/nainaPeak.png",
+      "destinations/nainital/pt.G.B.PantHighAltitudeZoo.png",
+      "destinations/nainital/landsEnd.png",
+      "destinations/nainital/mallRoad.png",
+      "destinations/nainital/theFlatts.png",
+      "destinations/nainital/tiffinTop.png",
+      "destinations/nainital/hanumanGarhi.png"
+    ],
+    "attractions": [
+      {
+        "title": "Naini Lake",
+        "image": "destinations/nainital/nainiLake.png",
+        "description": "Nainital Lake, also called as Naini Lake is a famous lake in Kumaon hills which is surrounded by snowy peaks to the North, Tiffin point to the South-West and Naini peak at the North-West. Naini Lake offers various opportunities for boating, padding, kayaking and yachting which indeed rejuvenates your senses with breathtaking views of the mountains, flora and fauna."
+      },
+      {
+        "title": "Eco Cave Garden",
+        "image": "destinations/nainital/ecoCaveGarden.png",
+        "description": "Eco Cave Garden is a cluster of natural rocky caves made into garden which are one of the popular tourist attractions of the hill station especially for childrens. Eco Cave Garden offers artificial caves of several animals made for education and fun, some of which are easy to pass through, for others to crawl through which in turn spruce up adventure quotient."
+      },
+      {
+        "title": "Governor's House",
+        "image": "destinations/nainital/governor'sHouse.png",
+        "description": "Governor's House which is also called as Raj Bhawan is a British era building. Build in 1990 based on Gothic architecture used to serve as a residence for thr governor of Nort-East province, spread over 205 acres of area with a Golf course in 45 acres of land which hosted many golf championships"
+      },
+      {
+        "title": "Naina Devi Temple",
+        "image": "destinations/nainital/nainaDeviTemple.png",
+        "description": "Naina Devi Temple is one of the most revered Hindu pilgrimage site in Nainital. It is beleived that this the location where the eyes of Sati fell while Lord Shiva was carrying the corpse of Sati, thus the town, the lake and the temple borrow its name Naina(means eye) Devi temple."
+      },
+      {
+        "title": "Naina Peak",
+        "image": "destinations/nainital/nainaPeak.png",
+        "description": "Naina Peak is the highest hill top and one of the famous tourist spots in Nainital standing at an attitude of 2,600 m above sea level, offers the best view of the valley and national city. The trek to Naina peak coverimg a distance of 6 kms is worth all the effort, money and time as one can experience surreal view of the valley."
+      },
+      {
+        "title": "Pt. G.B. Pant High Altitude Zoo",
+        "image": "destinations/nainital/pt.G.B.PantHighAltitudeZoo.png",
+        "description": "Pt. G.B. Pant High Altitude Zoo is a high altitude zoo and one of the best attraction for wildlife lovers in Nainital. Located at an elevation of 2100 m, Pt. G.B. Pant High Altitude Zoo is the first zoogical park in Uttarakhand region, spread over an area of 4.6 hectares it is home to many endangered species and providing wildlife experience since 1995."
+      },
+      {
+        "title": "Lands End",
+        "image": "destinations/nainital/landsEnd.png",
+        "description": "Lands End located at an altitude of 2118 m, offers a mesmerizing view of nature which can captivate us with its charm. With radiant view of mountains, valley and snow clad Lands End offers beautiful trek by walking uphill, one can also ride on a pony or can walk up the bridleway to the view point."
+      },
+      {
+        "title": "Mall Road",
+        "image": "destinations/nainital/mallRoad.png",
+        "description": "Mall Road is the heart of Nainital's colonial running parllel to Naini Lake. The Mall Road offers splendid panorama of Naini Lake and best shopping pleace with a wide range of restaurants."
+      },
+      {
+        "title": "The Flatts",
+        "image": "destinations/nainital/theFlatts.png",
+        "description": "The Flatts located on the northern side touching the Naini Lake is a famous gathering place for locals and  the tourists. The Flatts provide a picturesque view of Naina Devi temple along with gurudwara and mosque, it has plaing groung used for various sports, games and cultural activities."
+      },
+      {
+        "title": "Tiffin Top",
+        "image": "destinations/nainital/tiffinTop.png",
+        "description": "Tiffin Top commonly known as Dorthy's seat located at an altitude of 2290 m above the sea level at Ayarpatta Hill. Tiffin Top offers a 360 ° picturesque view of Nainital town along with panoramic view of the Himalayas."
+      },
+      {
+        "title": "Hanuman Garhi",
+        "image": "destinations/nainital/hanumanGarhi.png",
+        "description": "Hanuman Garhi is a famous Hindu temple near Mall road, Nainital inside the temple one can see Lord Hanuman portrayed as splitting his chest and showing Lord Ram residing in his heart. Hanuman Garhi is perched atop 6401 ft high and famous for its sunset view."
+      }
+    ],
+    "hotels": [
+      {
+        "id": "Dest-L-1-H-1",
+        "key": "ShervaniHillTop",
+        "title": "SHERVANI HILLTOP",
+        "image": "destinations/nainital/shervaniHillTop.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-1-H-2",
+        "key": "TheManuMaharani",
+        "title": "THE MANU MAHARANI",
+        "image": "destinations/nainital/theManuMaharani.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-1-H-3",
+        "key": "TheNainiRetreat",
+        "title": "THE NAINI RETREAT",
+        "image": "destinations/nainital/theNainiRetreat.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-1-H-4",
+        "key": "VikramVintageInn",
+        "title": "VIKRAM VINTAGE INN",
+        "image": "destinations/nainital/vikramVintageInn.png",
+        "rating": 4
+      }
+    ],
+    "includedPackages": [
+      {
+        "id": "Pckg-B-3",
+        "title": "Complete Uttranchal",
+        "image": "CompleteUttranchalTile.png",
+        "key": "CompleteUttranchal",
+        "duration": "10 Nights / 11 Days"
+      },
+      {
+        "id": "Pckg-B-4",
+        "title": "Kumaon Heritage",
+        "image": "KumaonHeritageTile.png",
+        "key": "KumaonHeritage",
+        "duration": "9 Nights / 10 Days"
+      },
+      {
+        "id": "Pckg-B-5",
+        "title": "Beautiful Kumaon",
+        "image": "BeautifulKumaonTile.png",
+        "key": "BeautifulKumaon",
+        "duration": "9 Nights / 10 Days"
+      },
+      {
+        "id": "Pckg-B-6",
+        "title": "Tiny Uttaranchal",
+        "image": "TinyUttranchalTile.png",
+        "key": "TinyUttaranchal",
+        "duration": "6 Nights / 7 Days"
+      },
+      {
+        "id": "Pckg-B-7",
+        "title": "Scenic Uttaranchal",
+        "image": "ScenicUttranchalTile.png",
+        "key": "ScenicUttaranchal",
+        "duration": "9 Nights / 10 Days"
+      },
+      {
+        "id": "Pckg-B-9",
+        "title": "Uttaranchal Preview",
+        "image": "UttranchalPreviewTile.png",
+        "key": "UttaranchalPreview",
+        "duration": "7 Nights / 8 Days"
+      },
+      {
+        "id": "Pckg-B-10",
+        "title": "Weekend Uttaranchal",
+        "image": "WeekendUttranchalTile.png",
+        "key": "WeekendUttaranchal",
+        "duration": "3 Nights / 4 Days"
+      }
+    ],
+    "transit": [
+      {
+        "title": "BY AIR",
+        "subtitle": "The nearest airport is Pantnagar Airport which is 72 km from the Nainital city. One has to take a cab from Pantnagar to reach the city."
+      },
+      {
+        "title": "BY RAIL",
+        "subtitle": "Nearest railhead you will find is the Kathgodam which is 36 km from Nainital. You can get down at this station and take a bus to Nainital, or book a taxi will also do the job."
+      },
+      {
+        "title": "BY ROAD",
+        "subtitle": "Nainital is well connected via road and you will have a sound and comfortable bus service from major cities and towns of Uttarakhand and Delhi, if you choose to travel by road. Cabs are also easily available from Haldwani and Kathgodam for Nainital."
+      }
+    ]
+  }
 }
