@@ -47,6 +47,55 @@
         </div>
       </template>
     </b-carousel-list>
+    <section class="side-header">
+      <!-- <b-field grouped group-multiline> -->
+      <!-- <div class="control">
+          <b-switch v-model="atRight">Right position</b-switch>
+      </div>-->
+      <!-- <div class="control">
+          <b-switch v-model="expanded">Expanded</b-switch>
+      </div>-->
+      <!-- <b-field label="Size" label-position="on-border">
+          <b-select v-model="size" placeholder="Size">
+            <option :value="null">Default</option>
+            <option value="is-small">Small</option>
+            <option value="is-medium">Medium</option>
+            <option value="is-large">Large</option>
+          </b-select>
+      </b-field>-->
+      <!-- <b-field label="Type" label-position="on-border">
+          <b-select v-model="type" placeholder="Type">
+            <option :value="null">Default</option>
+            <option value="is-boxed">Boxed</option>
+            <option value="is-toggle">Toggle</option>
+          </b-select>
+      </b-field>-->
+      <!-- </b-field> -->
+
+      <b-tabs
+        :position="atRight ? 'is-right' : ''"
+        :size="size"
+        vertical
+        :expanded="expanded"
+        :type="type"
+      >
+        <b-tab-item label="Transit">
+          <template class="imp-subtitle" v-for="(item, index) in destinationPackages.transit">
+            <div :key="index">
+              <div>
+                <i class="fas fa-angle-double-right"></i>
+                {{ item.title }}
+              </div>
+              <div>{{item.subtitle}}</div>
+            </div>
+          </template>
+        </b-tab-item>
+
+        <b-tab-item label="Gallery"></b-tab-item>
+
+        <b-tab-item label="Map"></b-tab-item>
+      </b-tabs>
+    </section>
   </div>
 </template>
 
@@ -57,6 +106,10 @@ export default {
   props: ["destinationId"],
   data() {
     return {
+      expanded: false,
+      atRight: false,
+      size: "is-medium",
+      type: "is-toggle",
       destinationPackages: [],
       appPreviewSettings: {
         showHover: false,
@@ -82,7 +135,6 @@ export default {
         )
         .then((res) => {
           this.destinationPackages = res.data.data;
-          console.log(this.destinationPackages);
         });
     },
   },
@@ -93,6 +145,16 @@ export default {
 </script>
 
 <style lang="scss">
+.side-header {
+  padding: 20px 50px;
+  .tab-content {
+    width: min-content;
+
+    .tab-item {
+      text-align: left;
+    }
+  }
+}
 .package-destination-detail {
   .destination-carousel {
     box-shadow: none !important;
