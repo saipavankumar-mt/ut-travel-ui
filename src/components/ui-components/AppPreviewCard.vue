@@ -6,6 +6,9 @@
     v-bind:class="{'preview-card-hover': appPreviewSettings.showHover}"
   >
     <div class="card-image">
+      <p class="control" v-if="item.rating">
+        <b-rate :value="item.rating" disabled />
+      </p>
       <figure
         :class="['image', appPreviewSettings.cardImage.imageSize,{'thumbnail': appPreviewSettings.showViewMore}]"
       >
@@ -92,6 +95,14 @@ export default {
 </script>
 
 <style lang="scss">
+.rate {
+  position: absolute;
+  left: 181px;
+  bottom: 0;
+  top: 39px;
+  z-index: 10;
+  transform: rotate(30deg);
+}
 .preview-card {
   height: 100%;
   border-radius: 4px;

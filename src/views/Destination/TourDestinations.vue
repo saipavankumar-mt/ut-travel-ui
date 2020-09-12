@@ -23,13 +23,13 @@
             :label="item.type"
             size="is-medium"
           >
-            <div
-              class="column is-one-quarter"
-              v-for="(item, idx) in item.data"
-              :key="idx"
-              @click="redirect(item.key)"
-            >
-              <app-preview-card :item="item" :app-preview-settings="appPreviewSettings"></app-preview-card>
+            <div class="column is-one-quarter" v-for="(item, idx) in item.data" :key="idx">
+              <app-preview-card
+                @viewMoreClick="onViewMoreClicked"
+                :item="item"
+                :app-preview-settings="appPreviewSettings"
+              ></app-preview-card>
+              <router-view></router-view>
             </div>
           </b-tab-item>
         </b-tabs>
@@ -52,18 +52,13 @@ export default {
       tourPackages: [],
       tourPackagesHeader: [
         {
-          type: "DEVOTIONAL YATRAS",
-          key: "DEVOTIONAL",
+          type: "HILL STATION",
+          key: "HILL",
           data: [],
         },
         {
-          type: "BEAUTIFUL UTTRANCHAL",
-          key: "BEAUTIFUL",
-          data: [],
-        },
-        {
-          type: "ADVENTURE PACKAGES",
-          key: "ADVENTURE",
+          type: "LEISURE PACKAGES",
+          key: "TREKKING",
           data: [],
         },
       ],
@@ -74,34 +69,45 @@ export default {
           imageSize: "is-5by3",
         },
         showViewMore: true,
+        showPackageButton: true,
       },
     };
   },
   created() {
-    this.getTourPackages();
     window.scrollTo(0, 0);
+    this.getTourPackages();
   },
   methods: {
-    redirect: function (key) {
+    onViewMoreClicked(value) {
+      this.redirect(value);
+    },
+
+    redirect: function (value) {
       this.$router.push({
         name: "destination-detail",
-        params: { destinationName: key },
+        params: { destinationName: value.key, destinationId: value.id },
       });
     },
     getTourPackages() {
       this.$http
         .get(`${process.env.BASE_URL}data/tour-destinations.json`)
         .then((res) => {
-          this.tourPackages = res.data;
+          console.log(this.tourPackages);
+          res.data.data.map((res) => {
+            if (res.key === "hillStationGetaways") {
+              this.tourPackages.hillStationGetaways = res.items;
+            }
+            if (res.key === "trekkingPackages") {
+              this.tourPackages.trekkingPackages = res.items;
+            }
+          });
+
           this.tourPackagesHeader.map((response) => {
-            if (response.key === "DEVOTIONAL") {
-              response.data = res.data.devotionalYatras;
+            if (response.key === "HILL") {
+              response.data = this.tourPackages.hillStationGetaways;
             }
-            if (response.key === "BEAUTIFUL") {
-              response.data = res.data.beautifulUttranchal;
-            }
-            if (response.key === "ADVENTURE") {
-              response.data = res.data.adventurePackages;
+            if (response.key === "TREKKING") {
+              response.data = this.tourPackages.trekkingPackages;
             }
           });
         });

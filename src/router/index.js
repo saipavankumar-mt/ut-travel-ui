@@ -42,9 +42,10 @@ const routes = [
     component: TourDestinations,
   },
   {
-    path: '/destination/:destinationName',
+    path: '/destination/:destinationId/:destinationName',
     name: 'destination-detail',
     component: TourDestinationDetail,
+    props: true,
   },
   {
     path: '/about-us',

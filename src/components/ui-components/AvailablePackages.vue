@@ -9,8 +9,11 @@
           <span>{{ this.availablePackagesInfo.title }}</span>&nbsp;
           <span class="package-text">Packages</span>
         </div>
+        <div>
+          <img v-bind:src="require('../../assets/' + this.availablePackagesInfo.image)" alt />
+        </div>
       </div>
-      <img v-bind:src="require('../../assets/' + this.availablePackagesInfo.image)" alt />
+
       <!-- </div> -->
     </div>
   </div>

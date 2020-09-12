@@ -13,22 +13,40 @@
         alt="kashmir-banner"
       />
     </div>
-
-    <div class="destination">
-      <div>
-        <span>Best Selling Packages</span>
-      </div>
-      <div class="columns is-multiline">
-        <div
-          class="column is-one-quarter"
-          v-for="(item, idx) in destinationPackages"
-          :key="idx"
-          @click="redirect(item.key)"
-        >
-          <app-preview-card :item="item" :app-preview-settings="appPreviewSettings"></app-preview-card>
+    <p>TOP ATTRACTION IN NAINITAL</p>
+    <b-carousel-list
+      class="destination-carousel container"
+      v-model="itemIndex"
+      :data="items"
+      :items-to-show="4"
+      :arrow-hover="false"
+      icon-prev="arrow-left"
+      icon-next="arrow-right"
+      icon-size="is-medium"
+    >
+      <template slot="item" slot-scope="list">
+        <div>
+          <app-preview-card :item="list" :app-preview-settings="appPreviewSettings"></app-preview-card>
         </div>
-      </div>
-    </div>
+      </template>
+    </b-carousel-list>
+    <p>HOTELS</p>
+    <b-carousel-list
+      class="destination-carousel container"
+      v-model="itemIndex"
+      :data="items"
+      :items-to-show="4"
+      :arrow-hover="false"
+      icon-prev="arrow-left"
+      icon-next="arrow-right"
+      icon-size="is-medium"
+    >
+      <template slot="item" slot-scope="list">
+        <div>
+          <app-preview-card :item="list" :app-preview-settings="appPreviewSettings"></app-preview-card>
+        </div>
+      </template>
+    </b-carousel-list>
   </div>
 </template>
 
@@ -36,6 +54,7 @@
 export default {
   name: "TourDestinationDetail",
   components: {},
+  props: ["destinationId"],
   data() {
     return {
       destinationPackages: [],
@@ -46,12 +65,57 @@ export default {
           imageSize: "is-5by3",
         },
       },
+      itemIndex: 0,
+      items: [
+        {
+          title: "Slide 1",
+          image: "https://buefy.org/static/img/placeholder-1280x960.png",
+          rating: 4.4,
+        },
+        {
+          title: "Slide 2",
+          image: "https://buefy.org/static/img/placeholder-1280x960.png",
+          rating: 3.5,
+        },
+        {
+          title: "Slide 3",
+          image: "https://buefy.org/static/img/placeholder-1280x960.png",
+          rating: 5,
+        },
+        {
+          title: "Slide 4",
+          image: "https://buefy.org/static/img/placeholder-1280x960.png",
+          rating: 5,
+        },
+        {
+          title: "Slide 5",
+          image: "https://buefy.org/static/img/placeholder-1280x960.png",
+          rating: 5,
+        },
+        {
+          title: "Slide 6",
+          image: "https://buefy.org/static/img/placeholder-1280x960.png",
+          rating: 4,
+        },
+        {
+          title: "Slide 7",
+          image: "https://buefy.org/static/img/placeholder-1280x960.png",
+          rating: 2.7,
+        },
+        {
+          title: "Slide 8",
+          image: "https://buefy.org/static/img/placeholder-1280x960.png",
+          rating: 1.5,
+        },
+      ],
     };
   },
   methods: {
     getDestinationPackages() {
       this.$http
-        .get(`${process.env.BASE_URL}data/Destination-1.json`)
+        .get(
+          `${process.env.BASE_URL}Data/PackageDetails/${this.destinationId}.json`
+        )
         .then((res) => {
           this.destinationPackages = res.data;
         });
@@ -65,6 +129,15 @@ export default {
 
 <style lang="scss">
 .package-destination-detail {
+  .destination-carousel {
+    box-shadow: none !important;
+    margin: 0 2rem !important;
+    max-width: 100% !important;
+    padding: 2rem 0 0;
+    /deep/.carousel-slide {
+      padding: 14px;
+    }
+  }
   .banner {
     display: flex;
     padding-bottom: 36px;

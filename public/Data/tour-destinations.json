@@ -20,115 +20,115 @@
         {
           "id": "Dest-L-1",
           "title": "Nainital",
-		      "key": "NAINITAL",
+          "key": "NAINITAL",
           "image": "destinations/NainitalTile.png"
         },
-		{
+        {
           "id": "Dest-L-2",
           "title": "Kausani",
-		      "key": "KAUSANI",
+          "key": "KAUSANI",
           "image": "destinations/KausaniTile.png"
         },
-		{
+        {
           "id": "Dest-L-3",
           "title": "Ranikhet",
-		  "key": "RANIKHET",
+          "key": "RANIKHET",
           "image": "destinations/RanikhetTile.png"
         },
-		{
+        {
           "id": "Dest-L-4",
           "title": "Almora",
-		  "key": "ALMORA",
+          "key": "ALMORA",
           "image": "destinations/AlmoraTile.png"
         },
-		{
+        {
           "id": "Dest-L-5",
           "title": "Mukteshwar",
-		  "key": "MUKTESHWAR",
+          "key": "MUKTESHWAR",
           "image": "destinations/MukteshwarTile.png"
         },
-		{
+        {
           "id": "Dest-L-6",
           "title": "Ramgarh",
-		  "key": "RAMGARH",
+          "key": "RAMGARH",
           "image": "destinations/RamgarhTile.png"
         },
-		{
+        {
           "id": "Dest-L-7",
           "title": "Binsar",
-		  "key": "BINSAR",
+          "key": "BINSAR",
           "image": "destinations/BinsarTile.png"
         },
-		{
+        {
           "id": "Dest-L-8",
           "title": "Jageshwar",
-		  "key": "JAGESHWAR",
+          "key": "JAGESHWAR",
           "image": "destinations/JageshwarTile.png"
         },
-		{
+        {
           "id": "Dest-L-9",
           "title": "Jim Corbett Nation Park",
-		  "key": "JIM-CORBETT-NATIONAL-PARK",
+          "key": "JIM-CORBETT-NATIONAL-PARK",
           "image": "destinations/JimCorbettNationParkTile.png"
         },
-		{
+        {
           "id": "Dest-L-10",
           "title": "Chakouri",
-		  "key": "CHAKOURI",
+          "key": "CHAKOURI",
           "image": "destinations/ChakouriTile.png"
         },
-		{
+        {
           "id": "Dest-L-11",
           "title": "Munsyari",
-		  "key": "MUNSYARI",
+          "key": "MUNSYARI",
           "image": "destinations/MunsyariTile.png"
         },
-		{
+        {
           "id": "Dest-L-12",
           "title": "Pithoragarh",
-		  "key": "PITHORAGARH",
+          "key": "PITHORAGARH",
           "image": "destinations/PithoragarhTile.png"
         },
-		{
+        {
           "id": "Dest-L-13",
           "title": "Haridwar",
-		  "key": "HARIDWAR",
+          "key": "HARIDWAR",
           "image": "destinations/HaridwarTile.png"
         },
-		{
+        {
           "id": "Dest-L-14",
           "title": "Rishikesh",
-		  "key": "RISHIKESH",
+          "key": "RISHIKESH",
           "image": "destinations/RishikeshTile.png"
         },
-		{
+        {
           "id": "Dest-L-15",
           "title": "Mussoorie",
-		  "key": "MUSSOORIE",
+          "key": "MUSSOORIE",
           "image": "destinations/MussoorieTile.png"
         },
-		{
+        {
           "id": "Dest-L-16",
           "title": "Dehradun",
-		  "key": "DEHRADUN",
+          "key": "DEHRADUN",
           "image": "destinations/DehradunTile.png"
         },
-		{
+        {
           "id": "Dest-L-17",
           "title": "Harshil",
-		  "key": "HARSHIL",
+          "key": "HARSHIL",
           "image": "destinations/HarshilTile.png"
         },
-		{
+        {
           "id": "Dest-L-18",
           "title": "Auli",
-		  "key": "AULI",
+          "key": "AULI",
           "image": "destinations/AuliTile.png"
         },
-		{
+        {
           "id": "Dest-L-19",
           "title": "Khirshu",
-		  "key": "KHIRSHU",
+          "key": "KHIRSHU",
           "image": "destinations/KhirshuTile.png"
         }
       ]
