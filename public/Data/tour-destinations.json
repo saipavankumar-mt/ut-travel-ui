@@ -25,15 +25,15 @@
         },
         {
           "id": "Dest-L-2",
-          "title": "Kausani",
-          "key": "KAUSANI",
-          "image": "destinations/KausaniTile.png"
-        },
-        {
-          "id": "Dest-L-3",
           "title": "Ranikhet",
           "key": "RANIKHET",
           "image": "destinations/RanikhetTile.png"
+        },
+        {
+          "id": "Dest-L-3",
+          "title": "Kausani",
+          "key": "KAUSANI",
+          "image": "destinations/KausaniTile.png"
         },
         {
           "id": "Dest-L-4",
