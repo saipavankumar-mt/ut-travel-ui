@@ -31,12 +31,24 @@
         },
         {
           "id": "Dest-L-3",
+          "title": "Mussoorie",
+          "key": "MUSSOORIE",
+          "image": "destinations/MussoorieTile.png"
+        },
+        {
+          "id": "Dest-L-15",
           "title": "Kausani",
           "key": "KAUSANI",
           "image": "destinations/KausaniTile.png"
         },
         {
           "id": "Dest-L-4",
+          "title": "Dehradun",
+          "key": "DEHRADUN",
+          "image": "destinations/DehradunTile.png"
+        },
+        {
+          "id": "Dest-L-16",
           "title": "Almora",
           "key": "ALMORA",
           "image": "destinations/AlmoraTile.png"
@@ -100,19 +112,7 @@
           "title": "Rishikesh",
           "key": "RISHIKESH",
           "image": "destinations/RishikeshTile.png"
-        },
-        {
-          "id": "Dest-L-15",
-          "title": "Mussoorie",
-          "key": "MUSSOORIE",
-          "image": "destinations/MussoorieTile.png"
-        },
-        {
-          "id": "Dest-L-16",
-          "title": "Dehradun",
-          "key": "DEHRADUN",
-          "image": "destinations/DehradunTile.png"
-        },
+        },        
         {
           "id": "Dest-L-17",
           "title": "Harshil",
