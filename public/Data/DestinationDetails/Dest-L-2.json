@@ -1,160 +1,160 @@
 {
-	"data": {
-		  "id": "Dest-L-2",
-		  "key": "Ranikhet",
-		  "title": "RANIKHET",
-		  "qoute": "…The Queen’s Meadow",
-		  "subtitle": "Settled amidst the fresh breeze, the charming view of the lush green forests and the majestic Himalayas, the adventure wildlife and the melodious chirping of birds will leave nature’s admirers awestruck in Ranikhet. Located in the Himalayan land of Uttarakhand, Ranikhet is the best of hill stations.",
-		  "overview":[
-			{
-			  "title":"Why Ranikhet:",
-			  "subtitle":"Ranikhet is a hill station located in the admist green forest and apple orchads, famous for scenic spots and unparllel beauties which will make you awestruck."
-			},
-			{
-			  "title":"BEST TIME TO VISIT:",
-			  "subtitle":"With it's scenic and picturesque beauties, it is best to visit during April to September when the climate is pleasent and is open for most of the activities."
-			}	
-		  ],
-		  "temperature":[
-			{
-				"season":"Summer",
-				"months":"(April to Mid-June)",
-				"temp":"8°C to 22°C"
-			},
-			{
-				"season":"Monsoon",
-				"months":"(Mid-June to September)",
-				"temp":"5°C to 20°C"
-			},
-			{
-				"season":"Winter",
-				"months":"(October to March)",
-				"temp":"7°C to 13°C"
-			}
-		  ],
-		  "heroImage": "destinations/RanikhetTile.png",
-		  "images": [
-			"destinations/ranikhet/jhulaDeviTemple.png",
-			"destinations/ranikhet/kumaonRegimentalCentreMuseum.png",
-			"destinations/ranikhet/cantonmentAashiyanaPark.png",
-			"destinations/ranikhet/bhaluDam.png",
-			"destinations/ranikhet/golfCourse.png",
-			"destinations/ranikhet/majkhali.png",
-			"destinations/ranikhet/mankameshwarTemple.png",
-			"destinations/ranikhet/stBridgetChurch.png",
-			"destinations/ranikhet/syalikhet.png",
-			"destinations/ranikhet/tarikhet.png",
-			"destinations/ranikhet/chaubatiaGardens.png"
-		  ],
-		  "attractions":[
-			{
-				"title": "Jhula Devi Temple",
-				"image": "destinations/ranikhet/jhulaDeviTemple.png",
-				"description":"Jhula Devi Temple is an ancient temple dedicated to Goddess Durga, located at a distance of 7 km from RANIKHET. The presiding diety of the temple, Lord Durga sits on jhula(means cradle) and hence the name."
-			},
-			{
-				"title": "Kumaon Regimental Centre Museum",
-				"image": "destinations/ranikhet/kumaonRegimentalCentreMuseum.png",
-				"description":"Kumaon Regimental Centre Museum is the famous museum built in 1970's and is dedicated to Kumaon Regiment. This well maintained place houses old war photographs and other war collectables which will make you feel patriotic."
-			},
-			{
-				"title": "Cantonment Aashiyana Park",
-				"image": "destinations/ranikhet/cantonmentAashiyanaPark.png",
-				"description":"Aashiyana Park is the first park built in Ranikhet, it offers features like herbal park, childern park,colourful fountains and view point which offers splendid view of neighboring mountains."
-			},
-			{
-				"title": "Bhalu Dam",
-				"image": "destinations/ranikhet/bhaluDam.png",
-				"description":"Bhalu Dam is an artificial lake built which was built 200 years ago which draws million of visitors across the world and offers a panoramic view of Himalayan range."
-			},
-			{
-				"title": "Golf Course",
-				"image": "destinations/ranikhet/golfCourse.png",
-				"description":"With picturesque and a perfectly textured grasses built in and around 1920 this lush 9-hole golf course making it one of the prime attractions of the Ranikhet. Situated at an altitude of 6132 ft making it as one of the highest course in Asia."
-			},
-			{
-				"title": "Majkhali",
-				"image": "destinations/ranikhet/majkhali.png",
-				"description":"Majkhali is a popular tourist attraction known for its pleasent weather conditions and picnic spots which makes it perfect holiday destination. It offers scenic vistas of nature along with stunning views of Mount Trishul, It is also known for its Goddess Kali temple."
-			},
-			{
-				"title": "Mankameshwar Temple",
-				"image": "destinations/ranikhet/mankameshwarTemple.png",
-				"description":"Mankameshwar Temple is a Hindu shrine built in 1978 by the Kumaon Regiment of Indian Army. The shrine is dedicated to Lord Shiva, altough it contains idols of Radha-Krishna and Goddess Kalika."
-			},
-			{
-				"title": "St Bridget Church",
-				"image": "destinations/ranikhet/stBridgetChurch.png",
-				"description":"St Bridget Church is the oldest church in Ranikhet built by British, with its famous architectural marvel St Bridget Church had become one of the the famous attractions in Ranikhet."
-			},
-			{
-				"title": "Syalikhet",
-				"image": "destinations/ranikhet/syalikhet.png",
-				"description":"Syalikhet is a offbeat tourist attraction which offers a splendor view of Himalayas, this place is abound with scenic beauty, thick forest covers and apple orchards."
-			},
-			{
-				"title": "Tarikhet",
-				"image": "destinations/ranikhet/tarikhet.png",
-				"description":"Tarikhet is a famous slope station located about 8 kms from it's sister village of Ranikhet. It is well known since India's strugle for Independence, since Gandhi himself stayed here for a long time."
-			},
-			{
-				"title": "Chaubatia Gardens",
-				"image": "destinations/ranikhet/chaubatiaGardens.png",
-				"description":"Chaubatia Gardens is a nature’s playground which is known for its beautiful orchards of apple, plums, peaches and apricot. Located at an altitude of 1850 m, one can see neighboring Himalayan ranges like Nanda Devi, Trishul and Nilkanth."
-			}
-		  ],
-		  "hotels":[
-			{	
-				"id":"Dest-L-2-H-1",
-				"key":"CosmosHimalayanVillas",
-				"title":"Cosmos Himalayan Villas",				
-				"image":"destinations/ranikhet/cosmosHimalayanVillas.png",
-				"rating":"3"				
-			},
-			{
-			    "id":"Dest-L-2-H-2",
-				"key":"WoodsvillaResort",
-				"title":"Woodsvilla Resort",				
-				"image":"destinations/ranikhet/woodsvillaResort.png",
-				"rating":"4"
-			},
-			{
-			    "id":"Dest-L-2-H-3",
-				"key":"TheXanaduResort",
-				"title":"The Xanadu Resort",				
-				"image":"destinations/ranikhet/theXanaduResort.png",
-				"rating":"3"
-			},
-			{
-			    "id":"Dest-L-2-H-4",
-				"key":"WESTVIEWRANIKHET",
-				"title":"WEST VIEW RANIKHET",				
-				"image":"destinations/ranikhet/wESTVIEWRANIKHET.png",
-				"rating":"4"
-			}			
-		  ],
-		  "includedPackages":[
-			{
-			  "id": "Pckg-B-7",
-			  "title": "Scenic Uttaranchal",
-			  "image": "ScenicUttranchalTile.png",
-			  "key": "ScenicUttaranchal",
-			  "duration": "9 Nights / 10 Days"
-			}			
-		  ],
-		  "transit":[
-			{
-				"title":"BY AIR",
-				"subtitle": "The nearest airport to Ranikhet is Pantnagar, situated around 109 km away. There is a direct flight available from Delhi to Pantnagar, that runs on a daily basis. Once reached the airport, one can hire a taxi to reach Ranikhet."				
-			},
-			{
-				"title":"BY RAIL",
-				"subtitle": "Kathgodam is the nearest railway station to Ranikhet, located at a distance of 75 km. There are several trains that pass through this railway station from almost all the major cities. Upon reaching the station, cab services are all time available to finally reach Ranikhet."			
-			},
-			{
-				"title":"BY ROAD",
-				"subtitle": "Ranikhet establishes a viable connection through roads at all seasons, to places like Haldwani, Bhowali and Khairna. There are direct buses available from Delhi (359 km), Nainital (56 km), Kathgodam (75 km) and Ramnagar (96 km). Cab facility from cities like Haldwani and Nainital are also available for Ranikhet."			
-			}
-		  ]
-	}	
+  "data": {
+    "id": "Dest-L-2",
+    "key": "Ranikhet",
+    "title": "RANIKHET",
+    "qoute": "…The Queen’s Meadow",
+    "subtitle": "Settled amidst the fresh breeze, the charming view of the lush green forests and the majestic Himalayas, the adventure wildlife and the melodious chirping of birds will leave nature’s admirers awestruck in Ranikhet. Located in the Himalayan land of Uttarakhand, Ranikhet is the best of hill stations.",
+    "overview": [
+      {
+        "title": "Why Ranikhet:",
+        "subtitle": "Ranikhet is a hill station located in the admist green forest and apple orchads, famous for scenic spots and unparllel beauties which will make you awestruck."
+      },
+      {
+        "title": "BEST TIME TO VISIT:",
+        "subtitle": "With it's scenic and picturesque beauties, it is best to visit during April to September when the climate is pleasent and is open for most of the activities."
+      }
+    ],
+    "temperature": [
+      {
+        "season": "Summer",
+        "months": "(April to Mid-June)",
+        "temp": "8°C to 22°C"
+      },
+      {
+        "season": "Monsoon",
+        "months": "(Mid-June to September)",
+        "temp": "5°C to 20°C"
+      },
+      {
+        "season": "Winter",
+        "months": "(October to March)",
+        "temp": "7°C to 13°C"
+      }
+    ],
+    "heroImage": "destinations/RanikhetTile.png",
+    "images": [
+      "destinations/ranikhet/jhulaDeviTemple.png",
+      "destinations/ranikhet/kumaonRegimentalCentreMuseum.png",
+      "destinations/ranikhet/cantonmentAashiyanaPark.png",
+      "destinations/ranikhet/bhaluDam.png",
+      "destinations/ranikhet/golfCourse.png",
+      "destinations/ranikhet/majkhali.png",
+      "destinations/ranikhet/mankameshwarTemple.png",
+      "destinations/ranikhet/stBridgetChurch.png",
+      "destinations/ranikhet/syalikhet.png",
+      "destinations/ranikhet/tarikhet.png",
+      "destinations/ranikhet/chaubatiaGardens.png"
+    ],
+    "attractions": [
+      {
+        "title": "Jhula Devi Temple",
+        "image": "destinations/ranikhet/jhulaDeviTemple.png",
+        "description": "Jhula Devi Temple is an ancient temple dedicated to Goddess Durga, located at a distance of 7 km from RANIKHET. The presiding diety of the temple, Lord Durga sits on jhula(means cradle) and hence the name."
+      },
+      {
+        "title": "Kumaon Regimental Centre Museum",
+        "image": "destinations/ranikhet/kumaonRegimentalCentreMuseum.png",
+        "description": "Kumaon Regimental Centre Museum is the famous museum built in 1970's and is dedicated to Kumaon Regiment. This well maintained place houses old war photographs and other war collectables which will make you feel patriotic."
+      },
+      {
+        "title": "Cantonment Aashiyana Park",
+        "image": "destinations/ranikhet/cantonmentAashiyanaPark.png",
+        "description": "Aashiyana Park is the first park built in Ranikhet, it offers features like herbal park, childern park,colourful fountains and view point which offers splendid view of neighboring mountains."
+      },
+      {
+        "title": "Bhalu Dam",
+        "image": "destinations/ranikhet/bhaluDam.png",
+        "description": "Bhalu Dam is an artificial lake built which was built 200 years ago which draws million of visitors across the world and offers a panoramic view of Himalayan range."
+      },
+      {
+        "title": "Golf Course",
+        "image": "destinations/ranikhet/golfCourse.png",
+        "description": "With picturesque and a perfectly textured grasses built in and around 1920 this lush 9-hole golf course making it one of the prime attractions of the Ranikhet. Situated at an altitude of 6132 ft making it as one of the highest course in Asia."
+      },
+      {
+        "title": "Majkhali",
+        "image": "destinations/ranikhet/majkhali.png",
+        "description": "Majkhali is a popular tourist attraction known for its pleasent weather conditions and picnic spots which makes it perfect holiday destination. It offers scenic vistas of nature along with stunning views of Mount Trishul, It is also known for its Goddess Kali temple."
+      },
+      {
+        "title": "Mankameshwar Temple",
+        "image": "destinations/ranikhet/mankameshwarTemple.png",
+        "description": "Mankameshwar Temple is a Hindu shrine built in 1978 by the Kumaon Regiment of Indian Army. The shrine is dedicated to Lord Shiva, altough it contains idols of Radha-Krishna and Goddess Kalika."
+      },
+      {
+        "title": "St Bridget Church",
+        "image": "destinations/ranikhet/stBridgetChurch.png",
+        "description": "St Bridget Church is the oldest church in Ranikhet built by British, with its famous architectural marvel St Bridget Church had become one of the the famous attractions in Ranikhet."
+      },
+      {
+        "title": "Syalikhet",
+        "image": "destinations/ranikhet/syalikhet.png",
+        "description": "Syalikhet is a offbeat tourist attraction which offers a splendor view of Himalayas, this place is abound with scenic beauty, thick forest covers and apple orchards."
+      },
+      {
+        "title": "Tarikhet",
+        "image": "destinations/ranikhet/tarikhet.png",
+        "description": "Tarikhet is a famous slope station located about 8 kms from it's sister village of Ranikhet. It is well known since India's strugle for Independence, since Gandhi himself stayed here for a long time."
+      },
+      {
+        "title": "Chaubatia Gardens",
+        "image": "destinations/ranikhet/chaubatiaGardens.png",
+        "description": "Chaubatia Gardens is a nature’s playground which is known for its beautiful orchards of apple, plums, peaches and apricot. Located at an altitude of 1850 m, one can see neighboring Himalayan ranges like Nanda Devi, Trishul and Nilkanth."
+      }
+    ],
+    "hotels": [
+      {
+        "id": "Dest-L-2-H-1",
+        "key": "CosmosHimalayanVillas",
+        "title": "Cosmos Himalayan Villas",
+        "image": "destinations/ranikhet/cosmosHimalayanVillas.png",
+        "rating": 3
+      },
+      {
+        "id": "Dest-L-2-H-2",
+        "key": "WoodsvillaResort",
+        "title": "Woodsvilla Resort",
+        "image": "destinations/ranikhet/woodsvillaResort.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-2-H-3",
+        "key": "TheXanaduResort",
+        "title": "The Xanadu Resort",
+        "image": "destinations/ranikhet/theXanaduResort.png",
+        "rating": 3
+      },
+      {
+        "id": "Dest-L-2-H-4",
+        "key": "WESTVIEWRANIKHET",
+        "title": "WEST VIEW RANIKHET",
+        "image": "destinations/ranikhet/wESTVIEWRANIKHET.png",
+        "rating": 4
+      }
+    ],
+    "includedPackages": [
+      {
+        "id": "Pckg-B-7",
+        "title": "Scenic Uttaranchal",
+        "image": "ScenicUttranchalTile.png",
+        "key": "ScenicUttaranchal",
+        "duration": "9 Nights / 10 Days"
+      }
+    ],
+    "transit": [
+      {
+        "title": "BY AIR",
+        "subtitle": "The nearest airport to Ranikhet is Pantnagar, situated around 109 km away. There is a direct flight available from Delhi to Pantnagar, that runs on a daily basis. Once reached the airport, one can hire a taxi to reach Ranikhet."
+      },
+      {
+        "title": "BY RAIL",
+        "subtitle": "Kathgodam is the nearest railway station to Ranikhet, located at a distance of 75 km. There are several trains that pass through this railway station from almost all the major cities. Upon reaching the station, cab services are all time available to finally reach Ranikhet."
+      },
+      {
+        "title": "BY ROAD",
+        "subtitle": "Ranikhet establishes a viable connection through roads at all seasons, to places like Haldwani, Bhowali and Khairna. There are direct buses available from Delhi (359 km), Nainital (56 km), Kathgodam (75 km) and Ramnagar (96 km). Cab facility from cities like Haldwani and Nainital are also available for Ranikhet."
+      }
+    ]
+  }
 }

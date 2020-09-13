@@ -109,28 +109,28 @@
         "key": "ShervaniHillTop",
         "title": "SHERVANI HILLTOP",
         "image": "destinations/nainital/shervaniHillTop.png",
-        "rating": "4"
+        "rating": 4
       },
       {
         "id": "Dest-L-1-H-2",
         "key": "TheManuMaharani",
         "title": "THE MANU MAHARANI",
         "image": "destinations/nainital/theManuMaharani.png",
-        "rating": "4"
+        "rating": 4
       },
       {
         "id": "Dest-L-1-H-3",
         "key": "TheNainiRetreat",
         "title": "THE NAINI RETREAT",
         "image": "destinations/nainital/theNainiRetreat.png",
-        "rating": "4"
+        "rating": 4
       },
       {
         "id": "Dest-L-1-H-4",
         "key": "VikramVintageInn",
         "title": "VIKRAM VINTAGE INN",
         "image": "destinations/nainital/vikramVintageInn.png",
-        "rating": "4"
+        "rating": 4
       }
     ],
     "includedPackages": [
