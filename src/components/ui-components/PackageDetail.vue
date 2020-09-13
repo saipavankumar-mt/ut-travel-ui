@@ -606,7 +606,7 @@ export default {
       width: -webkit-fill-available !important;
       // height: -webkit-fill-available !important;
       padding-bottom: 10px;
-      border-bottom-left-radius: 35% 45%;
+      // border-bottom-left-radius: 35% 45%;
     }
     .nightStay {
       display: flex;

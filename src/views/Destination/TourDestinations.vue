@@ -5,11 +5,48 @@
         <h1>
           <span>Uttranchal</span> Destinations
         </h1>
+        <h5>Best Time to Visit Uttarakhand:</h5>
+        <p>
+          Uttarakhand is a destination to be visited all through the year as
+          each season has something special to offer.
+        </p>
+        <h5>Why Visit Uttarakhand?:</h5>
+        <p>
+          For Hindu and Sikh pilgrimage journeys, skiing experience, wildlife
+          tours, whitewater river rafting, yoga, honeymoon, enthralling trekking
+          and peak climbing ventures, birdwatching, rural tourism, culture and
+          heritage, photography tour and for organizing memorable destination
+          weddings.
+        </p>
+        <h5>Temperature</h5>
+        <ul>
+          <li>
+            <h4>17°C to 35°C</h4>
+            <p>
+              Summer
+              <br />(April to Mid-June)
+            </p>
+          </li>
+          <li>
+            <h4>15°C to 30°C</h4>
+            <p>
+              Monsoon
+              <br />(Mid-June to September)
+            </p>
+          </li>
+          <li>
+            <h4>12°C to 0°C</h4>
+            <p>
+              Winter
+              <br />(October to March)
+            </p>
+          </li>
+        </ul>
       </div>
 
       <img
         class="banner-inner"
-        src="../../assets/images/tour-package-banner.png"
+        src="../../assets/images/tour-destination-banner.png"
         alt="kashmir-banner"
       />
     </div>
@@ -57,7 +94,7 @@ export default {
           data: [],
         },
         {
-          type: "LEISURE PACKAGES",
+          type: "TREKKING",
           key: "TREKKING",
           data: [],
         },
@@ -158,7 +195,7 @@ export default {
       justify-content: space-between;
       li {
         h4 {
-          font: 20px/30px "open_sansbold";
+          font: 20px/30px "open_sansbold" !important;
           color: #4a5258;
           font-weight: 700;
         }

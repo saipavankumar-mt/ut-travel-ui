@@ -24,7 +24,7 @@
 			{
 				"season":"Monsoon",
 				"months":"(Mid-June to September)",
-				"temp":""
+				"temp":"7°C to 10°C"
 			},
 			{
 				"season":"Winter",
@@ -32,7 +32,7 @@
 				"temp":"0°C to 4°C"
 			}
 		  ],
-		  "heroImage": "",
+		  "heroImage": "destinations/MussoorieTile.png",
 		  "images": [
 		    "destinations/mussoorie/companyGarden.png",
 			"destinations/mussoorie/mussoorieChristChurch.png",

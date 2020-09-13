@@ -32,7 +32,7 @@
 				"temp":"5°C to 22°C"
 			}
 		  ],
-		  "heroImage": "",
+		  "heroImage": "destinations/DehradunTile.png",
 		  "images": [
 		    "destinations/dehradun/forestResearchInstitute.png",
 			"destinations/dehradun/lachhiwala.png",

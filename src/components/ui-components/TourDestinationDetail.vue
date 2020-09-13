@@ -2,10 +2,13 @@
   <div class="package-destination-detail">
     <div class="banner">
       <div class="intro">
-        <h1>
-          <span>{{destinationPackages.title}}</span>
-        </h1>
-        <p class="destination-subtitle">{{destinationPackages.qoute}}</p>
+        <div class="title">
+          <h1>
+            <span>{{destinationPackages.title}}</span>
+          </h1>
+          <p class="destination-subtitle">{{destinationPackages.qoute}}</p>
+        </div>
+        
         <p>{{destinationPackages.subtitle}}</p>
         <div v-for="(item, i) in destinationPackages.overview" :key="i">
           <div>
@@ -23,19 +26,16 @@
       <div class="banner-inner">
         <div>
           <!-- <img :src="destinationPackages.heroImage" alt="destinationPackages.heroImage" /> -->
-          <img
-            class="banner-inner"
-            src="../../assets/images/tour-package-banner.png"
-            alt="kashmir-banner"
-          />
+          
+          <img :src="destinationPackages.heroImage" alt="destinationPackages.heroImage" />
         </div>
         <h5>TEMPERATURE</h5>
         <div class="temperature">
           <div v-for="(item, i) in destinationPackages.temperature" :key="i">
             <div>
-              <div>{{item.months }}</div>
-              <div>{{item.season}}</div>
-              <div>{{item.temp}}</div>
+              <div class="temp">{{item.temp}}</div>
+              <div class="month">{{item.months }}</div>
+              <div class="season">{{item.season}}</div>              
             </div>
           </div>
         </div>
@@ -167,6 +167,8 @@ export default {
         .then((res) => {
           this.destinationPackages = res.data.data;
           console.log(this.destinationPackages);
+          this.destinationPackages.heroImage = require("../../assets/images/" +
+          this.destinationPackages.heroImage);
         });
     },
   },
@@ -192,16 +194,20 @@ export default {
   }
   .banner {
     display: flex;
-    padding-bottom: 36px;
+    padding-bottom: 20px;
     justify-content: space-between;
     .intro {
       width: 50%;
       text-align: left;
       padding-left: 2rem;
+      .title{
+        width: fit-content;
+      }
     }
 
     .destination-subtitle {
-      padding-left: 40px;
+      text-align: right;
+      padding-bottom: 0px;
     }
     h1 {
       color: #3b404b;
@@ -254,7 +260,24 @@ export default {
   .temperature {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    text-align: left;
+    .temp{
+      font: 20px/30px "open_sansbold";
+      color: #4a5258;
+      font-weight: 700;
+    }
+    .month{
+      font: 15px/20px "open_sansbold";
+      color: #4a5258;
+      font-weight: 200;
+    }
+    .season{
+      font: 15px/20px "open_sansbold";
+      color: #4a5258;
+      font-weight: 200;
+    }
   }
   .tour-package-info {
     text-align: left;

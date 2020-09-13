@@ -32,7 +32,7 @@
 				"temp":"7°C to 13°C"
 			}
 		  ],
-		  "heroImage": "",
+		  "heroImage": "destinations/RanikhetTile.png",
 		  "images": [
 			"destinations/ranikhet/jhulaDeviTemple.png",
 			"destinations/ranikhet/kumaonRegimentalCentreMuseum.png",
