@@ -203,7 +203,6 @@ export default {
         .get(`${process.env.BASE_URL}data/tour-packages.json`)
         .then((res) => {
           // this.tourPackages = res.data;
-          console.log(this.tourPackages);
           res.data.packages.map((res) => {
             if (res.key === "piligrimDestination") {
               this.tourPackages.piligrimDestination = res.items;

@@ -96,7 +96,6 @@ export default {
       this.$http
         .get(`${process.env.BASE_URL}data/tour-destinations.json`)
         .then((res) => {
-          console.log(this.tourPackages);
           res.data.destinations.map((res) => {
             if (res.key === "hillStationGetaways") {
               this.tourPackages.hillStationGetaways = res.items;

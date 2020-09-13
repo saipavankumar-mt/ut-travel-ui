@@ -47,3 +47,9 @@ $font-montserrat: 'Montserrat-SemiBold';
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
+
+.tabs li.is-active a {
+  border-bottom-color: #47caf0 !important;
+  color: #47caf0 !important;
+  font-weight: 700;
+}

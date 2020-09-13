@@ -224,7 +224,6 @@ export default {
       });
     },
     getAccomodationInfo() {
-      console.log(this.posts.accomodationInfo.length);
       for (let i = 0; i < this.posts.accomodationInfo.length; i++) {
         if (i === 0) {
           let header = {};
@@ -240,7 +239,6 @@ export default {
       }
     },
     getPerPersonCostInfo() {
-      console.log(this.posts.perPersonCostInfo.length);
       for (let i = 0; i < this.posts.perPersonCostInfo.length; i++) {
         if (i === 0) {
           let header = {};
@@ -562,11 +560,6 @@ export default {
       }
     }
   }
-}
-.tabs li.is-active a {
-  border-bottom-color: #47caf0 !important;
-  color: #47caf0 !important;
-  font-weight: 700;
 }
 
 .per-person-heading {

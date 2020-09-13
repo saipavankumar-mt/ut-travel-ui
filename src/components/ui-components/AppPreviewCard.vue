@@ -6,9 +6,6 @@
     v-bind:class="{'preview-card-hover': appPreviewSettings.showHover}"
   >
     <div class="card-image">
-      <p class="control" v-if="item.rating">
-        <b-rate :value="item.rating" disabled />
-      </p>
       <figure
         :class="['image', appPreviewSettings.cardImage.imageSize,{'thumbnail': appPreviewSettings.imageBlurOnHover}]"
       >
@@ -27,6 +24,9 @@
         <p class="subtitle is-7 is-italic" v-if="item.duration">Duration: {{ item.duration }}</p>
         <!-- <p class="subtitle is-5 is-italic" v-if="item.price">From: {{ item.price }}/-Per Person</p> -->
         <p class="subtitle is-7 is-italic" v-if="item.subtitle">{{ item.subtitle }}</p>
+        <p class="subtitle control" v-if="item.rating">
+          <b-rate :value="item.rating" disabled />
+        </p>
       </div>
     </div>
   </div>
@@ -94,14 +94,14 @@ export default {
 </script>
 
 <style lang="scss">
-.rate {
-  position: absolute;
-  left: 181px;
-  bottom: 0;
-  top: 39px;
-  z-index: 10;
-  transform: rotate(30deg);
-}
+// .rate {
+//   position: absolute;
+//   left: 181px;
+//   bottom: 0;
+//   top: 39px;
+//   z-index: 10;
+//   transform: rotate(30deg);
+// }
 .preview-card {
   height: 100%;
   border-radius: 4px;

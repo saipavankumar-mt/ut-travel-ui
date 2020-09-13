@@ -3,17 +3,45 @@
     <div class="banner">
       <div class="intro">
         <h1>
-          <span>Uttranchal</span> Destinations
+          <span>{{destinationPackages.title}}</span>
         </h1>
+        <p class="destination-subtitle">{{destinationPackages.qoute}}</p>
+        <p>{{destinationPackages.subtitle}}</p>
+        <div v-for="(item, i) in destinationPackages.overview" :key="i">
+          <div>
+            <h5>{{item.title}}</h5>
+            <p>{{item.subtitle}}</p>
+          </div>
+        </div>
       </div>
 
-      <img
+      <!-- <img
         class="banner-inner"
         src="../../assets/images/tour-package-banner.png"
         alt="kashmir-banner"
-      />
+      />-->
+      <div class="banner-inner">
+        <div>
+          <!-- <img :src="destinationPackages.heroImage" alt="destinationPackages.heroImage" /> -->
+          <img
+            class="banner-inner"
+            src="../../assets/images/tour-package-banner.png"
+            alt="kashmir-banner"
+          />
+        </div>
+        <h5>TEMPERATURE</h5>
+        <div class="temperature">
+          <div v-for="(item, i) in destinationPackages.temperature" :key="i">
+            <div>
+              <div>{{item.months }}</div>
+              <div>{{item.season}}</div>
+              <div>{{item.temp}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <p>TOP ATTRACTION IN NAINITAL</p>
+    <h5>TOP ATTRACTION IN NAINITAL</h5>
     <b-carousel-list
       class="destination-carousel container"
       v-model="index"
@@ -30,7 +58,7 @@
         </div>
       </template>
     </b-carousel-list>
-    <p>HOTELS</p>
+    <h5>HOTELS</h5>
     <b-carousel-list
       class="destination-carousel container"
       v-model="itemIndex"
@@ -47,31 +75,7 @@
         </div>
       </template>
     </b-carousel-list>
-    <section class="side-header">
-      <!-- <b-field grouped group-multiline> -->
-      <!-- <div class="control">
-          <b-switch v-model="atRight">Right position</b-switch>
-      </div>-->
-      <!-- <div class="control">
-          <b-switch v-model="expanded">Expanded</b-switch>
-      </div>-->
-      <!-- <b-field label="Size" label-position="on-border">
-          <b-select v-model="size" placeholder="Size">
-            <option :value="null">Default</option>
-            <option value="is-small">Small</option>
-            <option value="is-medium">Medium</option>
-            <option value="is-large">Large</option>
-          </b-select>
-      </b-field>-->
-      <!-- <b-field label="Type" label-position="on-border">
-          <b-select v-model="type" placeholder="Type">
-            <option :value="null">Default</option>
-            <option value="is-boxed">Boxed</option>
-            <option value="is-toggle">Toggle</option>
-          </b-select>
-      </b-field>-->
-      <!-- </b-field> -->
-
+    <!-- <section class="side-header">
       <b-tabs
         :position="atRight ? 'is-right' : ''"
         :size="size"
@@ -95,14 +99,41 @@
 
         <b-tab-item label="Map"></b-tab-item>
       </b-tabs>
-    </section>
+    </section>-->
+    <div class="itinerary-container">
+      <section>
+        <b-tabs>
+          <b-tab-item label="TRANSIT">
+            <template class="imp-subtitle" v-for="(item, index) in destinationPackages.transit">
+              <div :key="index">
+                <div>
+                  <i class="fas fa-angle-double-right"></i>
+                  {{ item.title }}
+                </div>
+                <div>{{item.subtitle}}</div>
+              </div>
+            </template>
+          </b-tab-item>
+
+          <b-tab-item label="GALLERY"></b-tab-item>
+
+          <b-tab-item label="MAP"></b-tab-item>
+        </b-tabs>
+      </section>
+    </div>
+    <div class="similartours">
+      <similar-destinations :itineraryId="destinationPackages.id"></similar-destinations>
+    </div>
   </div>
 </template>
 
 <script>
+import SimilarDestinations from "../../views/Destination/SimilarDestinations.vue";
 export default {
   name: "TourDestinationDetail",
-  components: {},
+  components: {
+    SimilarDestinations,
+  },
   props: ["destinationId"],
   data() {
     return {
@@ -135,6 +166,7 @@ export default {
         )
         .then((res) => {
           this.destinationPackages = res.data.data;
+          console.log(this.destinationPackages);
         });
     },
   },
@@ -145,15 +177,8 @@ export default {
 </script>
 
 <style lang="scss">
-.side-header {
-  padding: 20px 50px;
-  .tab-content {
-    width: min-content;
-
-    .tab-item {
-      text-align: left;
-    }
-  }
+.tab-content {
+  text-align: left;
 }
 .package-destination-detail {
   .destination-carousel {
@@ -175,6 +200,9 @@ export default {
       padding-left: 2rem;
     }
 
+    .destination-subtitle {
+      padding-left: 40px;
+    }
     h1 {
       color: #3b404b;
       font-family: SFProDisplay-Bold;
@@ -182,7 +210,7 @@ export default {
       line-height: 60px;
       padding-top: 40px;
       text-transform: capitalize;
-      padding-bottom: 16px;
+      // padding-bottom: 16px;
 
       span {
         color: rgb(96, 191, 243);
@@ -214,16 +242,20 @@ export default {
         font-family: "OpenSans-Semibold";
       }
     }
-
-    h5 {
-      font: 16px "open_sansbold";
-      color: #394048;
-      text-transform: uppercase;
-      font-weight: 700;
-      line-height: 1.2;
-    }
+  }
+  h5 {
+    font: 16px "open_sansbold";
+    color: #394048;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
   }
 
+  .temperature {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
   .tour-package-info {
     text-align: left;
     padding-bottom: 10px;
