@@ -202,8 +202,8 @@ export default {
       padding-left: 2rem;
       .title{
         width: fit-content;
-      }
-    }
+      }      
+    }    
 
     .destination-subtitle {
       text-align: right;
@@ -255,6 +255,14 @@ export default {
     text-transform: uppercase;
     font-weight: 700;
     line-height: 1.2;
+  }
+
+  .banner-inner {               
+      img {          
+      height: 350px !important;
+      padding-bottom: unset;
+      border-bottom-left-radius: unset !important;
+    }
   }
 
   .temperature {
