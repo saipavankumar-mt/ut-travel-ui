@@ -8,7 +8,7 @@
           </h1>
           <p class="destination-subtitle">{{destinationPackages.qoute}}</p>
         </div>
-        
+
         <p>{{destinationPackages.subtitle}}</p>
         <div v-for="(item, i) in destinationPackages.overview" :key="i">
           <div>
@@ -26,7 +26,7 @@
       <div class="banner-inner">
         <div>
           <!-- <img :src="destinationPackages.heroImage" alt="destinationPackages.heroImage" /> -->
-          
+
           <img :src="destinationPackages.heroImage" alt="destinationPackages.heroImage" />
         </div>
         <h5>TEMPERATURE</h5>
@@ -35,7 +35,7 @@
             <div>
               <div class="temp">{{item.temp}}</div>
               <div class="month">{{item.months }}</div>
-              <div class="season">{{item.season}}</div>              
+              <div class="season">{{item.season}}</div>
             </div>
           </div>
         </div>
@@ -75,42 +75,41 @@
         </div>
       </template>
     </b-carousel-list>
-    <!-- <section class="side-header">
-      <b-tabs
-        :position="atRight ? 'is-right' : ''"
-        :size="size"
-        vertical
-        :expanded="expanded"
-        :type="type"
-      >
-        <b-tab-item label="Transit">
-          <template class="imp-subtitle" v-for="(item, index) in destinationPackages.transit">
-            <div :key="index">
-              <div>
-                <i class="fas fa-angle-double-right"></i>
-                {{ item.title }}
-              </div>
-              <div>{{item.subtitle}}</div>
-            </div>
-          </template>
-        </b-tab-item>
-
-        <b-tab-item label="Gallery"></b-tab-item>
-
-        <b-tab-item label="Map"></b-tab-item>
-      </b-tabs>
-    </section>-->
+    <h5>Included Packages</h5>
+    <b-carousel-list
+      class="destination-carousel container"
+      v-model="itemIndex"
+      :data="destinationPackages.includedPackages"
+      :items-to-show="4"
+      :arrow-hover="false"
+      icon-prev="arrow-left"
+      icon-next="arrow-right"
+      icon-size="is-medium"
+    >
+      <template slot="item" slot-scope="list">
+        <div>
+          <app-preview-card
+            :item="list"
+            @viewMoreClick="onViewMoreClicked"
+            :app-preview-settings="includedPackageSettings"
+          ></app-preview-card>
+        </div>
+      </template>
+    </b-carousel-list>
     <div class="itinerary-container">
       <section>
         <b-tabs>
           <b-tab-item label="TRANSIT">
-            <template class="imp-subtitle" v-for="(item, index) in destinationPackages.transit">
+            <template v-for="(item, index) in destinationPackages.transit">
               <div :key="index">
-                <div>
-                  <i class="fas fa-angle-double-right"></i>
+                <div class="transit-title">
+                  <!-- <i class="fas fa-angle-double-right"></i> -->
+                  <i v-if="item.title==='BY AIR'" class="fas fa-train"></i>
+                  <i v-if="item.title==='BY RAIL'" class="fas fa-plane"></i>
+                  <i v-if="item.title==='BY ROAD'" class="fas fa-road"></i>
                   {{ item.title }}
                 </div>
-                <div>{{item.subtitle}}</div>
+                <div class="transit-subtitle">{{item.subtitle}}</div>
               </div>
             </template>
           </b-tab-item>
@@ -154,6 +153,18 @@ export default {
           type: "TEXT",
         },
       },
+      includedPackageSettings: {
+        showHover: false,
+        cardContent: "card-setting",
+        cardImage: {
+          imageSize: "is-5by3",
+        },
+        imageBlurOnHover: true,
+        hoverAction: {
+          text: "View Package",
+          type: "BUTTON",
+        },
+      },
       itemIndex: 0,
       index: 0,
     };
@@ -168,8 +179,18 @@ export default {
           this.destinationPackages = res.data.data;
           console.log(this.destinationPackages);
           this.destinationPackages.heroImage = require("../../assets/images/" +
-          this.destinationPackages.heroImage);
+            this.destinationPackages.heroImage);
         });
+    },
+    onViewMoreClicked(value) {
+      this.redirect(value);
+    },
+
+    redirect: function (value) {
+      this.$router.push({
+        name: "detail",
+        params: { packageName: value.key, packageId: value.id },
+      });
     },
   },
   created: function () {
@@ -182,12 +203,13 @@ export default {
 .tab-content {
   text-align: left;
 }
+
 .package-destination-detail {
   .destination-carousel {
     box-shadow: none !important;
     margin: 0 2rem !important;
     max-width: 100% !important;
-    padding: 2rem 0 0;
+    padding: 1rem 0 2rem 0;
     /deep/.carousel-slide {
       padding: 14px;
     }
@@ -200,10 +222,10 @@ export default {
       width: 50%;
       text-align: left;
       padding-left: 2rem;
-      .title{
+      .title {
         width: fit-content;
-      }      
-    }    
+      }
+    }
 
     .destination-subtitle {
       text-align: right;
@@ -257,8 +279,8 @@ export default {
     line-height: 1.2;
   }
 
-  .banner-inner {               
-      img {          
+  .banner-inner {
+    img {
       height: 350px !important;
       padding-bottom: unset;
       border-bottom-left-radius: unset !important;
@@ -271,17 +293,17 @@ export default {
     padding-top: 10px;
     padding-right: 20px;
     text-align: left;
-    .temp{
+    .temp {
       font: 20px/30px "open_sansbold";
       color: #4a5258;
       font-weight: 700;
     }
-    .month{
+    .month {
       font: 15px/20px "open_sansbold";
       color: #4a5258;
       font-weight: 200;
     }
-    .season{
+    .season {
       font: 15px/20px "open_sansbold";
       color: #4a5258;
       font-weight: 200;
@@ -309,6 +331,19 @@ export default {
       font-family: "SFProDisplay-Regular";
       line-height: 23px;
       padding-bottom: 16px;
+    }
+  }
+
+  .itinerary-container {
+    .transit-title {
+      font-family: "Mogra";
+      color: #4a5258;
+      text-transform: uppercase;
+    }
+    .transit-subtitle {
+      font-family: "Roboto", sans-serif;
+      color: #4a5258;
+      padding-bottom: 5px;
     }
   }
 
