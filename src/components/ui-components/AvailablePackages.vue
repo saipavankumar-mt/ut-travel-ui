@@ -4,13 +4,12 @@
       <!-- <div :class="{ 'image is-2by1': $isMobile() }"> -->
       <div class="package-title">
         <span class="no-of-packages">{{ this.availablePackagesInfo.noOfPackages }}</span>&nbsp;
-        <span class="plus-sign">+</span>
+        
         <div>
-          <span>{{ this.availablePackagesInfo.title }}</span>&nbsp;
-          <span class="package-text">Packages</span>
+          <span>{{ this.availablePackagesInfo.title }}</span>
         </div>
         <div>
-          <img v-bind:src="require('../../assets/' + this.availablePackagesInfo.image)" alt />
+          <img v-bind:src="require('../../assets/images/' + this.availablePackagesInfo.image)" alt />
         </div>
       </div>
 
@@ -33,11 +32,15 @@ export default {
 <style lang="scss">
 .available-packages {
   background: white;
-  border-radius: 4px;
+  border-radius: 4px;  
   &:hover {
     cursor: pointer;
-    box-shadow: 0 0 15px 2px;
+    box-shadow: 0 0 15px 2px;    
     transform: scale(1.07);
+    background: rgb(96, 191, 243);
+    span{
+      color: white;
+    }
   }
   .available-packages-tile {
     width: 100%;
@@ -54,7 +57,7 @@ export default {
       font-family: "SFProDisplay-Bold";
       font-weight: 700;
       .no-of-packages {
-        font-size: 38px;
+        font-size: 34px;
       }
       .plus-sign {
         font-size: 28px;
@@ -64,8 +67,8 @@ export default {
 
   img {
     width: 100%;
-    height: 140px;
-    padding: 10px;
+    height: 150px;
+    padding: 2px 10px;
   }
 
   .name {
