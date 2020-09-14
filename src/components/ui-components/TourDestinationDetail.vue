@@ -75,8 +75,9 @@
         </div>
       </template>
     </b-carousel-list>
-    <h5 v-if="destinationPackages.includedPackages.length">Included Packages</h5>
+
     <b-carousel-list
+      v-if="checkIfIncludedPackgesAvailabe()"
       class="destination-carousel container"
       v-model="packageIndex"
       :data="destinationPackages.includedPackages"
@@ -86,6 +87,7 @@
       icon-next="arrow-right"
       icon-size="is-medium"
     >
+      <h5>Included Packages</h5>
       <template slot="item" slot-scope="list">
         <div>
           <app-preview-card
@@ -193,8 +195,12 @@ export default {
         params: { packageName: value.key, packageId: value.id },
       });
     },
+    checkIfIncludedPackgesAvailabe() {
+      return this.destinationPackages.includedPackages > 0;
+    },
   },
   created: function () {
+    window.scrollTo(0, 0);
     this.getDestinationPackages();
   },
 };
