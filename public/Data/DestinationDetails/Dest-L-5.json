@@ -1,0 +1,164 @@
+ {
+	"data": {
+		  "id": "Dest-L-5",
+		  "key": "Almora",
+		  "title": "ALMORA",
+		  "qoute": "",
+		  "subtitle": "Almora is situated on a ridge at the southern edge of the Kumaon Hills of the Central Himalaya range, fringed by the thick forests of pine and fir trees. Almora is an enchanting hill station is famous for its picturesque landscape, rich cultural heritage, unique handicraft and delicious cuisine.",
+		  "overview":[
+			{
+			  "title":"Why Almora:",
+			  "subtitle":"Almora famous for its alluring beauty and panoramic view of the Himalayas speckled with temples, it is best for pilgrimage tour, on the other side its natural beauty and rich wildlife make it an interesting place for family vacation, honeymoon and solo ventures."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"Almora is open to visitors through out the year thanks to its moderate temperature and elevation, with its pleasent temperature in autumn and snowfall during winter it is best to visit during spring-summer seasons."
+			}
+		  ],
+		  "temperature":[
+			{
+				"season":"Summer",
+				"months":"(April to Mid-June)",
+				"temp":"12°C to 32°C"
+			},
+			{
+				"season":"Monsoon",
+				"months":"(Mid-June to September)",
+				"temp":"21°C to 29°C"
+			},
+			{
+				"season":"Winter",
+				"months":"(October to March)",
+				"temp":"-3°C to 15°C"
+			}
+		  ],
+		  "heroImage": "destinations/AlmoraTile.png",
+		  "images": [
+		    "destinations/almora/brightEndCorner.png",
+			"destinations/almora/chitaiGoluDevtaTemple.png",
+			"destinations/almora/govindBallabhPantPublicMuseum.png",
+			"destinations/almora/kalimath.png",
+			"destinations/almora/kasarDeviTemple.png",
+			"destinations/almora/katarmalSunTemple.png",
+			"destinations/almora/martola&Simtola.png"
+		  ],
+		  "attractions":[
+			{
+				"title": "Bright End Corner",
+				"image": "destinations/almora/brightEndCorner.png",
+				"description":"Bright End Corner is must see attraction which showcases Himalayan peaks such as Trishul I, Trishul II, Trishul III, Nanda Devi, Nandakot, Panchachuli and so on. Located about 2 km from Almora, watching the sunset/sunrise from Bright End Corner is one of a kind experience with its breathtaking beauty."
+			},
+			{
+				"title": "Chitai Golu Devta Temple",
+				"image": "destinations/almora/chitaiGoluDevtaTemple.png",
+				"description":"Golu Devta or Lord Golu is the legendary God of the Kumaon region and is their deity. He is regarded as the dispenser of justice by the devotees with extreme faith.He is regarded as the dispenser of justice by the devotees with extreme faith. Thousands of bells of every size can be seen hanging over the temple premises, Many devotees file a lot of written petitions daily, which are received by the temple."
+			},
+			{
+				"title": "Govind Ballabh Pant Public Museum",
+				"image": "destinations/almora/govindBallabhPantPublicMuseum.png",
+				"description":"Govind Ballabh Pant Public Museum is a popular tourist attraction located on Mall road, Almora. Built in 1980 museum consists of diverse range of historical and cultural articles from the time of Katyuri and Chand rulers. Apart from these, notable pieces of textiles, miniature paintings, woodworks, terracotta sculptures, musical instruments, coins, manuscripts have been housed in the museum."
+			},
+			{
+				"title": "Kalimath",
+				"image": "destinations/almora/kalimath.png",
+				"description":"Kalimath is a divine place of Goddess Kali, is one of 108 Shakti Peethas in India.Kalimath lies on the lap of nature offering superb views of Himalayan and also provides a good vantage point to observe the beauty of Almora. Along with its panoramic views it is also popular for the famous Kasar Devi temple within the proximity of 1 km, beleived to be in existence since 2nd century."
+			},
+			{
+				"title": "Kasar Devi Temple",
+				"image": "destinations/almora/kasarDeviTemple.png",
+				"description":"Kasar Devi Temple is a high-altitude, ancient Hindu temple featuring meditation, quiet reflection & panoramic views. The main shrine of Devi is situated inside a cave like formation by the huge rocks and the temple itself, dates back to the 2nd century. The Hill top provides beautiful scene of the valley, Himalayas along with fabulous view of the setting sun."
+			},
+			{
+				"title": "Katarmal Sun Temple",
+				"image": "destinations/almora/katarmalSunTemple.png",
+				"description":"Katarmal is a remote village located in Kumaon region, in Almora famous for its Katarmal Sun Temple buit in between 9th to 13th century by Katyuri King Katarmalla. Katarmal Sun Temple is the second most important sun temple in India after Konark Sun Temple, perched at an altitude of 2116 mt above the sea level requires 2 km steep climb to reach the temple. The main shrine is surrounded by 44 smaller temples, which called as Burhadita or Vraddhaditya."
+			},
+			{
+				"title": "Martola & Simtola",
+				"image": "destinations/almora/martola&Simtola.png",
+				"description":"Encircled by mighty Himalayas and surrounded by thick woodlands Martola is a picturesque place charmed many foreigners to live here. Located about 10 km from Almora, it is one of the famous place for weekend getaways and picnics with friends and family. Simtola is another scenic picnic spot that lies about 5 km from Almora, feasts youe eyes with best views lush green mountain clad and adjoining valleys."
+			}
+		  ],
+		  "hotels":[
+			{	
+				"id":"Dest-L-5-H-1",
+				"key":"ClubMahindraBinsarValley",
+				"name":"CLUB MAHINDRA BINSAR VALLEY",				
+				"image":"hotels/almora/clubMahindraBinsarValley.png",
+				"rating":4				
+			},
+            {	
+				"id":"Dest-L-5-H-2",
+				"key":"ImperialHeights",
+				"name":"IMPERIAL HEIGHTS",				
+				"image":"hotels/almora/imperialHeights.png",
+				"rating":4				
+			},
+            {	
+				"id":"Dest-L-5-H-3",
+				"key":"KalmatiaSangamHimalayaResort",
+				"name":"KALMATIA SANGAM HIMALAYA RESORT",				
+				"image":"hotels/almora/kalmatiaSangamHimalayaResort.png",
+				"rating":3				
+			},
+            {	
+				"id":"Dest-L-5-H-4",
+				"key":"KasaarJungleResort",
+				"name":"KASAAR JUNGLE RESORT",				
+				"image":"hotels/almora/kasaarJungleResort.png",
+				"rating":4				
+			},
+            {	
+				"id":"Dest-L-5-H-5",
+				"key":"HotelShivalik",
+				"name":"HOTEL SHIVALIK",				
+				"image":"hotels/almora/hotelShivalik.png",
+				"rating":4				
+			},
+            {	
+				"id":"Dest-L-5-H-6",
+				"key":"HotelShikhar",
+				"name":"HOTEL SHIKHAR",				
+				"image":"hotels/almora/hotelShikhar.png",
+				"rating":4				
+			},
+            {	
+				"id":"Dest-L-5-H-7",
+				"key":"HotelHimsagar",
+				"name":"HOTEL HIMSAGAR",				
+				"image":"hotels/almora/hotelHimsagar.png",
+				"rating":3				
+			},
+            {	
+				"id":"Dest-L-5-H-8",
+				"key":"SavoyHotel",
+				"name":"SAVOY HOTEL",				
+				"image":"hotels/almora/savoyHotel.png",
+				"rating":3				
+			},
+            {	
+				"id":"Dest-L-5-H-9",
+				"key":"XomotelTheParkRetreat",
+				"name":"XOMOTEL THE PARK RETREAT",				
+				"image":"hotels/almora/xomotelTheParkRetreat.png",
+				"rating":3				
+			}
+		  ],
+		  "includedPackages":[],
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "The nearest airport is located at Pantnagar, about 110 km from Almora. There are regular taxis and buses from the airport to Almora, which is usually a 4-hour drive."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "Almora does not have a railway station and the nearest station is in Kathgodam. Most trains to Kathgodam are via Delhi and this route connects Almora to most of the country. You can hire taxis from Kathgodam to Almora."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Road is the best way to reach Almora since it is well connected to all major North Indian cities and other hill stations. There are buses run by private and government operators that connect to Almora and are usually overnight. Cabs are also easily available."			
+			}
+		]
+	}
+	
+}
