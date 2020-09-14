@@ -75,7 +75,7 @@
         </div>
       </template>
     </b-carousel-list>
-    <h5 v-if="destinationPackages.includedPackages">Included Packages</h5>
+    <h5 v-if="destinationPackages.includedPackages.length">Included Packages</h5>
     <b-carousel-list
       class="destination-carousel container"
       v-model="packageIndex"
