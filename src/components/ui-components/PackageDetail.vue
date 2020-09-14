@@ -263,7 +263,6 @@ export default {
       .get(`${process.env.BASE_URL}Data/PackageDetails/${this.packageId}.json`)
       .then((response) => {
         this.posts = response.data.data;
-        console.log(this.posts);
         this.getAccomodationInfo();
         this.getPerPersonCostInfo();
         this.posts.heroImage = require("../../assets/images/" +

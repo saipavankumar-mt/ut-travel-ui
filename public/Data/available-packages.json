@@ -3,30 +3,37 @@
     "id": 1,
     "title": "Piligrim yatras",
     "noOfPackages": "7",
+    "path": "/tour-packages",
+    "activeTab": 0,
     "image": "KedarnathDham.png"
   },
   {
     "id": 2,
     "title": "Liesure packages",
     "noOfPackages": "25",
+    "activeTab": 1,
+    "path": "/tour-packages",
     "image": "riverrafting.png"
   },
   {
     "id": 3,
     "title": "Destinations",
     "noOfPackages": "36",
+    "path": "/destinations",
     "image": "destinations/KedarkanthaTile.png"
   },
   {
     "id": 4,
     "title": "Hotels",
     "noOfPackages": "720+",
+    "path": "/destinations",
     "image": "destinations/nainital/theNainiRetreat.png"
   },
   {
     "id": 5,
     "title": "Happy Customers",
     "noOfPackages": "745+",
+    "path": "",
     "image": "happy-customers.png"
   }
 ]

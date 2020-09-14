@@ -180,7 +180,6 @@ export default {
         )
         .then((res) => {
           this.destinationPackages = res.data.data;
-          console.log(this.destinationPackages);
           this.destinationPackages.heroImage = require("../../assets/images/" +
             this.destinationPackages.heroImage);
         });
@@ -212,6 +211,9 @@ export default {
 }
 
 .package-destination-detail {
+  .card-setting .content .title.is-4 {
+    min-height: 50px;
+  }
   .destination-carousel {
     box-shadow: none !important;
     margin: 0 2rem !important;

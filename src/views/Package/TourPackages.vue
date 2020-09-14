@@ -50,9 +50,9 @@
         alt="kashmir-banner"
       />
     </div>
-    <div class="package-container">
+    <div class="package-container" id="scroll">
       <section>
-        <b-tabs>
+        <b-tabs v-model="activeTab">
           <b-tab-item
             v-for="(item, idx) in tourPackagesHeader"
             :key="idx"
@@ -142,6 +142,7 @@ export default {
   data() {
     return {
       tourPackages: [],
+      activeTab: 0,
       tourPackagesHeader: [
         {
           type: "PILIGRIM YATRAS",
@@ -177,6 +178,22 @@ export default {
   created() {
     window.scrollTo(0, 0);
     this.getTourPackages();
+  },
+  mounted() {
+    const tabValue = parseInt(sessionStorage.getItem("active-tab"));
+    if (tabValue) {
+      this.activeTab = tabValue;
+      var element = document.getElementById("scroll");
+
+      var headerOffset = 80;
+      var elementPosition = element.getBoundingClientRect().top;
+      var offsetPosition = elementPosition - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
   },
   methods: {
     onViewMoreClicked(value) {
@@ -228,6 +245,9 @@ export default {
           });
         });
     },
+  },
+  destroyed() {
+    sessionStorage.removeItem("active-tab");
   },
 };
 </script>

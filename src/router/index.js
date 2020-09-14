@@ -34,6 +34,7 @@ const routes = [
     path: '/tour-packages',
     name: 'tour-packages',
     component: TourPackages,
+    props: true,
   },
 
   {

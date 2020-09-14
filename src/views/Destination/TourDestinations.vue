@@ -1,5 +1,5 @@
 <template>
-  <div class="tour-package">
+  <div class="tour-destination">
     <div class="banner">
       <div class="intro">
         <h1>
@@ -162,7 +162,7 @@ export default {
   padding: unset !important;
 }
 
-.tour-package {
+.tour-destination {
   .banner {
     display: flex;
     padding-bottom: 36px;
@@ -222,7 +222,7 @@ export default {
     }
   }
 
-  .tour-package-info {
+  .tour-destination-info {
     text-align: left;
     padding-bottom: 10px;
 

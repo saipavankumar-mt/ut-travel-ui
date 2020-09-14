@@ -1,15 +1,15 @@
 <template>
-  <div class="available-packages">
+  <div class="available-packages" @click="redirect()">
     <div class="available-packages-container">
       <!-- <div :class="{ 'image is-2by1': $isMobile() }"> -->
       <div class="package-title">
-        <span class="no-of-packages">{{ this.availablePackagesInfo.noOfPackages }}</span>&nbsp;
-        
+        <span class="no-of-packages">{{ availablePackagesInfo.noOfPackages }}</span>
+        &nbsp;
         <div>
-          <span>{{ this.availablePackagesInfo.title }}</span>
+          <span>{{ availablePackagesInfo.title }}</span>
         </div>
         <div>
-          <img v-bind:src="require('../../assets/images/' + this.availablePackagesInfo.image)" alt />
+          <img v-bind:src="require('../../assets/images/' + availablePackagesInfo.image)" alt />
         </div>
       </div>
 
@@ -25,6 +25,17 @@ export default {
   props: {
     availablePackagesInfo: Object,
   },
+  methods: {
+    redirect() {
+      sessionStorage.setItem(
+        "active-tab",
+        this.availablePackagesInfo.activeTab
+      );
+      this.$router.push({
+        path: this.availablePackagesInfo.path,
+      });
+    },
+  },
   created: function () {},
 };
 </script>
@@ -32,13 +43,13 @@ export default {
 <style lang="scss">
 .available-packages {
   background: white;
-  border-radius: 4px;  
+  border-radius: 4px;
   &:hover {
     cursor: pointer;
-    box-shadow: 0 0 15px 2px;    
+    box-shadow: 0 0 15px 2px;
     transform: scale(1.07);
     background: rgb(96, 191, 243);
-    span{
+    span {
       color: white;
     }
   }

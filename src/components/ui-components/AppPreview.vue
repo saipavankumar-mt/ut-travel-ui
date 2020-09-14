@@ -2,7 +2,7 @@
   <div class="preview">
     <header class="preview-header hero is-dark is-bold" :class="'scroll-preview-'+scrollClass">
       <div class="hero-body">
-        <h1 class="title">{{title}}</h1>        
+        <h1 class="title">{{title}}</h1>
       </div>
     </header>
     <button class="toggle-view-btn button" @click="changeView('scroll-preview-'+scrollClass)">
@@ -143,9 +143,6 @@ $carousel-arrow-color: #47caf0;
           right: 0;
         }
       }
-    }
-    .toggle-view-btn {
-      //right: 5rem;
     }
   }
 }
