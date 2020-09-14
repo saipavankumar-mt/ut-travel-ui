@@ -75,10 +75,10 @@
         </div>
       </template>
     </b-carousel-list>
-    <h5>Included Packages</h5>
+    <h5 v-if="destinationPackages.includedPackages">Included Packages</h5>
     <b-carousel-list
       class="destination-carousel container"
-      v-model="itemIndex"
+      v-model="packageIndex"
       :data="destinationPackages.includedPackages"
       :items-to-show="4"
       :arrow-hover="false"
@@ -166,6 +166,7 @@ export default {
         },
       },
       itemIndex: 0,
+      packageIndex: 0,
       index: 0,
     };
   },
