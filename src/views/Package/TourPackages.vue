@@ -141,7 +141,7 @@ export default {
     // BookingFormVue,
   },
   watch: {
-    activeTab: function (newValue, oldValue) {
+    activeTab: function () {
       this.onIndexChange();
     },
   },
