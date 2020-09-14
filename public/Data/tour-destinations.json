@@ -42,19 +42,19 @@
           "image": "destinations/DehradunTile.png"
         },
         {
-          "id": "Dest-L-15",
-          "title": "Kausani",
-          "key": "KAUSANI",
-          "image": "destinations/KausaniTile.png"
-        },        
-        {
-          "id": "Dest-L-16",
+          "id": "Dest-L-5",
           "title": "Almora",
           "key": "ALMORA",
           "image": "destinations/AlmoraTile.png"
         },
         {
-          "id": "Dest-L-5",
+          "id": "Dest-L-15",
+          "title": "Kausani",
+          "key": "KAUSANI",
+          "image": "destinations/KausaniTile.png"
+        },
+        {
+          "id": "Dest-L-16",
           "title": "Mukteshwar",
           "key": "MUKTESHWAR",
           "image": "destinations/MukteshwarTile.png"

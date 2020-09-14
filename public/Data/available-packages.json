@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "title": "Piligrim",
-    "noOfPackages": "25",
-    "image": "OfferTiles/PackageOfferTile.jpg"
+    "title": "Piligrim yatras",
+    "noOfPackages": "7",
+    "image": "KedarnathDham.png"
   },
   {
     "id": 2,
-    "title": "Liesure",
+    "title": "Liesure packages",
     "noOfPackages": "25",
-    "image": "OfferTiles/WildLifeOfferTile.jpg"
+    "image": "riverrafting.png"
   },
   {
     "id": 3,
-    "title": "Trekking",
-    "noOfPackages": "25",
-    "image": "OfferTiles/TrekkingOfferTile.jpg"
+    "title": "Destinations",
+    "noOfPackages": "36",
+    "image": "destinations/KedarkanthaTile.png"
   },
   {
     "id": 4,
-    "title": "Destinations",
-    "noOfPackages": "25",
-    "image": "OfferTiles/HillStationOfferTile.jpg"
+    "title": "Hotels",
+    "noOfPackages": "720+",
+    "image": "destinations/nainital/theNainiRetreat.png"
   },
   {
     "id": 5,
-    "title": "Hotels",
-    "noOfPackages": "25",
-    "image": "OfferTiles/HillStationOfferTile.jpg"
+    "title": "Happy Customers",
+    "noOfPackages": "745+",
+    "image": "happy-customers.png"
   }
 ]

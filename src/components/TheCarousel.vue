@@ -17,12 +17,12 @@
             v-bind:src="require('../assets/' + item.image)"
             v-bind:alt="item.image"
           />
-          <div class="carousel-content">
+          <!-- <div class="carousel-content">
             <div class="carousel-left-content">
               <div class="carousel-title">
                 <p>{{ item.title }}</p>
               </div>
-              <!-- <div class="carousel-subtitle">
+              <div class="carousel-subtitle">
                 <p>{{ item.subtitle }}</p>
               </div>
               <div class="carousel-route">
@@ -30,7 +30,7 @@
               </div>
               <div class="carousel-desc">
                 <p>{{ item.description }}</p>
-              </div>-->
+              </div>
             </div>
             <div class="carousel-right-content" v-if="item.price.showPrice">
               <div class="carousel-duration">
@@ -47,7 +47,7 @@
                 <p>PER PERSON</p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </slide>
     </carousel>
