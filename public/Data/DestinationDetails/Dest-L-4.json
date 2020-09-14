@@ -195,36 +195,7 @@
         "rating": 4
       }
     ],
-    "includedPackages": [
-      {
-        "id": "",
-        "title": "",
-        "image": "",
-        "key": "",
-        "duration": ""
-      },
-      {
-        "id": "",
-        "title": "",
-        "image": "",
-        "key": "",
-        "duration": ""
-      },
-      {
-        "id": "",
-        "title": "",
-        "image": "",
-        "key": "",
-        "duration": ""
-      },
-      {
-        "id": "",
-        "title": "",
-        "image": "",
-        "key": "",
-        "duration": ""
-      }
-    ],
+    "includedPackages": [],
     "transit": [
       {
         "title": "BY AIR",
