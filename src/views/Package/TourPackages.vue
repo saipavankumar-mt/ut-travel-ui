@@ -133,14 +133,21 @@
 <script>
 import AppPreviewCard from "../../components/ui-components/AppPreviewCard";
 import BookingFormVue from "../BookingForm.vue";
+import EventBus from "../../utils/event-bus";
 export default {
   name: "TourPackages",
   components: {
     AppPreviewCard,
     // BookingFormVue,
   },
+  watch: {
+    activeTab: function (newValue, oldValue) {
+      this.onIndexChange();
+    },
+  },
   data() {
     return {
+      isTabIndexSet: false,
       tourPackages: [],
       activeTab: 0,
       tourPackagesHeader: [
@@ -180,22 +187,28 @@ export default {
     this.getTourPackages();
   },
   mounted() {
-    const tabValue = parseInt(sessionStorage.getItem("active-tab"));
-    if (tabValue) {
-      this.activeTab = tabValue;
-      var element = document.getElementById("scroll");
+    EventBus.$on("packageActiveTab", this.scrollToPackageType);
+  },
+  methods: {
+    scrollToPackageType(index) {
+      const tabValue = index;
+      if (tabValue >= 0) {
+        this.activeTab = tabValue;
+        console.log(this.activeTab);
+      }
+    },
 
+    onIndexChange() {
+      var element = document.getElementById("scroll");
+      console.log(element);
       var headerOffset = 80;
       var elementPosition = element.getBoundingClientRect().top;
       var offsetPosition = elementPosition - headerOffset;
-
       window.scrollTo({
         top: offsetPosition,
         behavior: "smooth",
       });
-    }
-  },
-  methods: {
+    },
     onViewMoreClicked(value) {
       this.redirect(value);
     },
@@ -246,8 +259,8 @@ export default {
         });
     },
   },
-  destroyed() {
-    sessionStorage.removeItem("active-tab");
+  beforeDestroy() {
+    // sessionStorage.removeItem("active-tab");
   },
 };
 </script>

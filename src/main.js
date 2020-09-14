@@ -10,7 +10,6 @@ import axios from 'axios';
 import VueAxios from 'vue-axios';
 import './components/ui-components/_globals';
 import mobileCheck from './plugins/mobile-check';
-
 Vue.use(mobileCheck);
 Vue.use(VueAxios, axios);
 Vue.use(VueCarousel);

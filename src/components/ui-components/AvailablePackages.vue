@@ -19,18 +19,24 @@
 </template>
 
 <script>
+import EventBus from "../../utils/event-bus";
 export default {
   name: "AvailablePackages",
   components: {},
+
   props: {
     availablePackagesInfo: Object,
   },
   methods: {
+    emitMethod() {
+      EventBus.$emit("packageActiveTab", 1);
+    },
     redirect() {
-      sessionStorage.setItem(
-        "active-tab",
-        this.availablePackagesInfo.activeTab
-      );
+      // sessionStorage.setItem(
+      //   "active-tab",
+      //   this.availablePackagesInfo.activeTab
+      // );
+      this.emitMethod();
       this.$router.push({
         path: this.availablePackagesInfo.path,
       });
