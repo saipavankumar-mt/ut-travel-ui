@@ -171,7 +171,7 @@
         </b-tabs>
       </section>
       <div class="similartours">
-        <similar-packages :itineraryId="posts.id"></similar-packages>
+        <similar-packages :itineraryId="posts.id" @similarPackageRouteChange="redirect"></similar-packages>
       </div>
     </div>
   </div>
@@ -186,6 +186,12 @@ export default {
     SimilarPackages,
   },
   props: ["packageId"],
+  watch: {
+    $route() {
+      window.location.reload();
+      window.scrollTo(0, 0);
+    },
+  },
   data() {
     return {
       accomodationColumns: [],
@@ -211,6 +217,12 @@ export default {
     };
   },
   methods: {
+    redirect: function (value) {
+      this.$router.push({
+        name: "detail",
+        params: { packageName: value.key, packageId: value.id },
+      });
+    },
     checkIfIndexIsOdd(index) {
       return index % 2;
     },

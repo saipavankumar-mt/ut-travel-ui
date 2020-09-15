@@ -180,6 +180,19 @@ export default {
   components: {
     SimilarDestinations,
   },
+  // watch: {
+  //   $route() {
+  //     debugger;
+  //     console.log(this.$route.params.packageName);
+  //     debugger;
+  //     const value = {
+  //       key: this.$route.params.packageName,
+  //       id: this.$route.params.packageId,
+  //     };
+  //     this.redirect(value);
+  //   },
+  // },
+
   props: ["destinationId"],
   data() {
     return {

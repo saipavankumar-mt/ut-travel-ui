@@ -23,6 +23,7 @@ export default {
   props: {
     itineraryId: String,
   },
+
   data() {
     return {
       packages: [],
@@ -45,16 +46,10 @@ export default {
   },
   methods: {
     onViewMoreClicked(value) {
-      this.redirect(value);
-      window.location.reload();
-      window.scrollTo(0, 0);
+      // this.redirect(value);
+      this.$emit("similarPackageRouteChange", value);
     },
-    redirect: function (value) {
-      this.$router.push({
-        name: "detail",
-        params: { packageName: value.key, packageId: value.id },
-      });
-    },
+
     getPackages() {
       this.$http
         .get(`${process.env.BASE_URL}data/packages.json`)
