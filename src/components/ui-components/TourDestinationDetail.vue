@@ -75,48 +75,79 @@
         </div>
       </template>
     </b-carousel-list>
-
-    <b-carousel-list
-      v-if="checkIfIncludedPackgesAvailabe()"
-      class="destination-carousel container"
-      v-model="packageIndex"
-      :data="destinationPackages.includedPackages"
-      :items-to-show="4"
-      :arrow-hover="false"
-      icon-prev="arrow-left"
-      icon-next="arrow-right"
-      icon-size="is-medium"
-    >
+    <div v-if="checkIfIncludedPackgesAvailabe">
       <h5>Included Packages</h5>
-      <template slot="item" slot-scope="list">
-        <div>
-          <app-preview-card
-            :item="list"
-            @viewMoreClick="onViewMoreClicked"
-            :app-preview-settings="includedPackageSettings"
-          ></app-preview-card>
-        </div>
-      </template>
-    </b-carousel-list>
+      <b-carousel-list
+        class="destination-carousel container"
+        v-model="packageIndex"
+        :data="destinationPackages.includedPackages"
+        :items-to-show="4"
+        :arrow-hover="false"
+        icon-prev="arrow-left"
+        icon-next="arrow-right"
+        icon-size="is-medium"
+      >
+        <template slot="item" slot-scope="list">
+          <div>
+            <app-preview-card
+              :item="list"
+              @viewMoreClick="onViewMoreClicked"
+              :app-preview-settings="includedPackageSettings"
+            ></app-preview-card>
+          </div>
+        </template>
+      </b-carousel-list>
+    </div>
     <div class="itinerary-container">
       <section>
         <b-tabs>
           <b-tab-item label="TRANSIT">
-            <template v-for="(item, index) in destinationPackages.transit">
-              <div :key="index">
-                <div class="transit-title">
-                  <!-- <i class="fas fa-angle-double-right"></i> -->
-                  <i v-if="item.title==='BY AIR'" class="fas fa-train"></i>
-                  <i v-if="item.title==='BY RAIL'" class="fas fa-plane"></i>
-                  <i v-if="item.title==='BY ROAD'" class="fas fa-road"></i>
-                  {{ item.title }}
+            <div class="columns">
+              <template v-for="(item, index) in destinationPackages.transit">
+                <div :key="index" class="column">
+                  <div class="transit-title">
+                    <figure class="image is-128x128">
+                      <!-- <img src="../../assets/train.png" alt="Image" /> -->
+                      <i v-if="item.title==='BY AIR'" class="fas fa-train"></i>
+                      <i v-if="item.title==='BY RAIL'" class="fas fa-plane"></i>
+                      <i v-if="item.title==='BY ROAD'" class="fas fa-road"></i>
+                    </figure>
+                    {{ item.title }}
+                  </div>
+                  <div class="transit-subtitle">{{item.subtitle}}</div>
                 </div>
-                <div class="transit-subtitle">{{item.subtitle}}</div>
-              </div>
-            </template>
+              </template>
+            </div>
           </b-tab-item>
 
-          <b-tab-item label="GALLERY"></b-tab-item>
+          <b-tab-item label="GALLERY">
+            <div class="image-container">
+              <!-- <img class="image" src="../../assets/images/destinations/nainital.webp" alt="destination" /> -->
+              <b-carousel
+                :autoplay="false"
+                with-carousel-list
+                :indicator="false"
+                :overlay="gallery"
+              >
+                <b-carousel-item v-for="(item, i) in items" :key="i">
+                  <figure class="image">
+                    <img class="image-ht" :src="item.image" />
+                  </figure>
+                </b-carousel-item>
+                <span v-if="gallery" class="modal-close is-medium" />
+                <template slot="list" slot-scope="props">
+                  <b-carousel-list
+                    class="carousel-gallery"
+                    v-model="props.active"
+                    :data="items"
+                    v-bind="al"
+                    @switch="props.switch($event, false)"
+                    as-indicator
+                  />
+                </template>
+              </b-carousel>
+            </div>
+          </b-tab-item>
 
           <b-tab-item label="MAP"></b-tab-item>
         </b-tabs>
@@ -138,6 +169,22 @@ export default {
   props: ["destinationId"],
   data() {
     return {
+      gallery: false,
+      items: [],
+      al: {
+        hasGrayscale: false,
+        itemsToShow: 2,
+        breakpoints: {
+          768: {
+            hasGrayscale: false,
+            itemsToShow: 4,
+          },
+          960: {
+            hasGrayscale: false,
+            itemsToShow: 6,
+          },
+        },
+      },
       expanded: false,
       atRight: false,
       size: "is-medium",
@@ -180,8 +227,15 @@ export default {
         )
         .then((res) => {
           this.destinationPackages = res.data.data;
+          // console.log(this.destinationPackages);
           this.destinationPackages.heroImage = require("../../assets/images/" +
             this.destinationPackages.heroImage);
+          for (let i = 0; i < this.destinationPackages.images.length; i++) {
+            this.items.push({
+              image: require("../../assets/images/" +
+                this.destinationPackages.images[i]),
+            });
+          }
         });
     },
     onViewMoreClicked(value) {
@@ -194,8 +248,13 @@ export default {
         params: { packageName: value.key, packageId: value.id },
       });
     },
+  },
+  computed: {
     checkIfIncludedPackgesAvailabe() {
-      return this.destinationPackages.includedPackages > 0;
+      return this.destinationPackages.includedPackages &&
+        this.destinationPackages.includedPackages.length > 0
+        ? true
+        : false;
     },
   },
   created: function () {
@@ -206,6 +265,7 @@ export default {
 </script>
 
 <style lang="scss">
+$carousel-min-height: "200px";
 .tab-content {
   text-align: left;
 }
@@ -344,10 +404,20 @@ export default {
   }
 
   .itinerary-container {
+    .column {
+      text-align: center;
+    }
     .transit-title {
       font-family: "Mogra";
       color: #4a5258;
       text-transform: uppercase;
+      .image {
+        margin: auto;
+        svg {
+          font-size: 100px;
+          color: #47caf0;
+        }
+      }
     }
     .transit-subtitle {
       font-family: "Roboto", sans-serif;
