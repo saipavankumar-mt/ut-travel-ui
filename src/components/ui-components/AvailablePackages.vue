@@ -30,7 +30,10 @@ export default {
   methods: {
     emitMethod() {
       setTimeout(() => {
-        EventBus.$emit("packageActiveTab", 1);
+        EventBus.$emit(
+          "packageActiveTab",
+          this.availablePackagesInfo.activeTab
+        );
       }, 0);
     },
     redirect() {
