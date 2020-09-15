@@ -16,6 +16,18 @@
             <p>{{item.subtitle}}</p>
           </div>
         </div>
+        <div v-if="$isMobile()">
+          <h5>TEMPERATURE</h5>
+          <div class="temperature">
+            <div v-for="(item, i) in destinationPackages.temperature" :key="i">
+              <div>
+                <div class="temp">{{item.temp}}</div>
+                <div class="month">{{item.months }}</div>
+                <div class="season">{{item.season}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- <img
@@ -29,13 +41,15 @@
 
           <img :src="destinationPackages.heroImage" alt="destinationPackages.heroImage" />
         </div>
-        <h5>TEMPERATURE</h5>
-        <div class="temperature">
-          <div v-for="(item, i) in destinationPackages.temperature" :key="i">
-            <div>
-              <div class="temp">{{item.temp}}</div>
-              <div class="month">{{item.months }}</div>
-              <div class="season">{{item.season}}</div>
+        <div v-if="!$isMobile()">
+          <h5>TEMPERATURE</h5>
+          <div class="temperature">
+            <div v-for="(item, i) in destinationPackages.temperature" :key="i">
+              <div>
+                <div class="temp">{{item.temp}}</div>
+                <div class="month">{{item.months }}</div>
+                <div class="season">{{item.season}}</div>
+              </div>
             </div>
           </div>
         </div>
@@ -434,6 +448,25 @@ export default {
     background: #bfa4a4;
     margin-top: 24px;
     width: 100%;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .package-destination-detail {
+    .banner {
+      flex-direction: column-reverse;
+      padding: 0 1rem;
+      ul {
+        display: unset;
+      }
+      .intro {
+        width: 100%;
+        padding-left: 0;
+      }
+    }
+    .temperature {
+      padding-right: unset;
+      padding-bottom: 16px;
+    }
   }
 }
 </style>

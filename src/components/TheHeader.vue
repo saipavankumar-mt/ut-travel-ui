@@ -261,6 +261,11 @@ export default {
       .navbar-item {
         padding: 0 0;
         line-height: 2.3;
+        display: flex;
+        justify-content: center;
+        .icon {
+          padding-right: unset;
+        }
       }
     }
   }

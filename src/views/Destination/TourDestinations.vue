@@ -284,6 +284,33 @@ export default {
   }
 }
 
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .tour-destination {
+    .banner {
+      flex-direction: column-reverse;
+      padding: 0 1rem;
+      p {
+        font: 14px/26px "open_sansregular";
+      }
+      ul {
+        // display: unset;
+        li {
+          h4 {
+            font: 16px/30px "open_sansbold" !important;
+          }
+        }
+      }
+      .intro {
+        width: 100%;
+        padding-left: 0;
+      }
+    }
+  }
+  .banner-inner {
+    width: 100% !important;
+  }
+}
+
 @media only screen and (max-width: 1366px) {
   .banner-inner {
     width: auto;
