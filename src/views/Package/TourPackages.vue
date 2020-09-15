@@ -132,7 +132,6 @@
 <script>
 import AppPreviewCard from "../../components/ui-components/AppPreviewCard";
 import BookingFormVue from "../BookingForm.vue";
-import EventBus from "../../utils/event-bus";
 export default {
   name: "TourPackages",
   components: {
@@ -142,12 +141,12 @@ export default {
   props: {
     currentTabIndex: {
       type: Number,
-      default: 0
+      default: 0,
     },
     scroll: {
       type: Boolean,
       default: false,
-    }
+    },
   },
   data() {
     return {
@@ -189,11 +188,12 @@ export default {
   created() {
     window.scrollTo(0, 0);
     this.getTourPackages();
-    console.log('in created');
+    console.log("in created");
   },
   mounted() {
-    EventBus.$on("packageActiveTab", this.scrollToPackageType);
-    if (this.scroll) { this.onIndexChange(); }
+    if (this.scroll) {
+      this.onIndexChange();
+    }
   },
   methods: {
     scrollToPackageType(index) {
@@ -262,7 +262,7 @@ export default {
     },
   },
   beforeDestroy() {
-    EventBus.$off("packageActiveTab", this.scrollToPackageType);
+    // EventBus.$off("packageActiveTab", this.scrollToPackageType);
     // sessionStorage.removeItem("active-tab");
   },
 };

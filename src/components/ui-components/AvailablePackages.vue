@@ -19,29 +19,52 @@
 </template>
 
 <script>
-import EventBus from "../../utils/event-bus";
 export default {
   name: "AvailablePackages",
   components: {},
+  data() {
+    return {
+      pathMapping: {
+        PILIGRIM: {
+          path: "/tour-packages",
+          activeTab: 0,
+        },
+        LIESURE: {
+          path: "/tour-packages",
+          activeTab: 1,
+        },
+        DESTINATIONS: {
+          path: "/destinations",
+          activeTab: 0,
+        },
+        HOTELS: {
+          path: "",
+          activeTab: 1,
+        },
+        REVIEWS: {
+          path: "",
+          activeTab: 0,
+        },
+      },
+    };
+  },
 
   props: {
     availablePackagesInfo: Object,
   },
   methods: {
-    emitMethod() {
-      setTimeout(() => {
-        EventBus.$emit(
-          "packageActiveTab",
-          this.availablePackagesInfo.activeTab
-        );
-      }, 0);
-    },
     redirect() {
-      this.emitMethod();
       this.$router.push({
-        path: this.availablePackagesInfo.path,
-        name: this.availablePackagesInfo.path.replace(/^\//, ''),
-        params: { currentTabIndex: this.availablePackagesInfo.activeTab, scroll: true },
+        path: this.pathMapping[this.availablePackagesInfo.key].path,
+        name: this.pathMapping[this.availablePackagesInfo.key].path.replace(
+          /^\//,
+          ""
+        ),
+        params: {
+          currentTabIndex: this.pathMapping[this.availablePackagesInfo.key]
+            .activeTab,
+          scroll: true,
+        },
       });
     },
   },
@@ -53,7 +76,7 @@ export default {
 .available-packages {
   background: white;
   border-radius: 4px;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   &:hover {
     cursor: pointer;
     box-shadow: 0 0 15px 2px;
