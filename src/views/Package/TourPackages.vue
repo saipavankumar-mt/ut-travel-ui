@@ -197,11 +197,8 @@ export default {
   },
   methods: {
     scrollToPackageType(index) {
-      const tabValue = index;
-      if (tabValue >= 0) {
-        this.activeTab = tabValue;
-        console.log(this.activeTab);
-      }
+      this.activeTab = index;
+      this.onIndexChange();
     },
 
     onIndexChange() {

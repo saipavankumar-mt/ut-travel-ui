@@ -29,13 +29,14 @@ export default {
   },
   methods: {
     emitMethod() {
-      EventBus.$emit("packageActiveTab", 1);
+      setTimeout(() => {
+        EventBus.$emit(
+          "packageActiveTab",
+          this.availablePackagesInfo.activeTab
+        );
+      }, 0);
     },
     redirect() {
-      // sessionStorage.setItem(
-      //   "active-tab",
-      //   this.availablePackagesInfo.activeTab
-      // );
       this.emitMethod();
       this.$router.push({
         path: this.availablePackagesInfo.path,
