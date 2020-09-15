@@ -9,7 +9,7 @@
       class="destination-carousel container"
       v-model="itemIndex"
       :data="packages"
-      :items-to-show="4"
+      :items-to-show=" $isMobile()?1:4"
       :arrow-hover="false"
       icon-prev="arrow-left"
       icon-next="arrow-right"
