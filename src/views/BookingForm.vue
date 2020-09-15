@@ -96,6 +96,11 @@ export default {
 </script>
 
 <style lang="scss">
+.booking-form {
+  .title {
+    color: #47caf0 !important;
+  }
+}
 .adult-child {
   display: flex;
   select {
@@ -112,10 +117,6 @@ export default {
 
 .modal-card-head {
   background-color: #47caf0 !important;
-}
-
-.title {
-  color: #47caf0 !important;
 }
 
 .is-blue {
