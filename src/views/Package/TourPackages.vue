@@ -67,7 +67,6 @@
                 :item="item"
                 :app-preview-settings="appPreviewSettings"
               ></app-preview-card>
-              <router-view></router-view>
             </div>
           </b-tab-item>
         </b-tabs>
@@ -140,16 +139,21 @@ export default {
     AppPreviewCard,
     // BookingFormVue,
   },
-  watch: {
-    activeTab: function () {
-      this.onIndexChange();
+  props: {
+    currentTabIndex: {
+      type: Number,
+      default: 0
     },
+    scroll: {
+      type: Boolean,
+      default: false,
+    }
   },
   data() {
     return {
       isTabIndexSet: false,
       tourPackages: [],
-      activeTab: 0,
+      activeTab: this.currentTabIndex,
       tourPackagesHeader: [
         {
           type: "PILIGRIM YATRAS",
@@ -185,9 +189,11 @@ export default {
   created() {
     window.scrollTo(0, 0);
     this.getTourPackages();
+    console.log('in created');
   },
   mounted() {
     EventBus.$on("packageActiveTab", this.scrollToPackageType);
+    if (this.scroll) { this.onIndexChange(); }
   },
   methods: {
     scrollToPackageType(index) {
@@ -200,7 +206,6 @@ export default {
 
     onIndexChange() {
       var element = document.getElementById("scroll");
-      console.log(element);
       var headerOffset = 80;
       var elementPosition = element.getBoundingClientRect().top;
       var offsetPosition = elementPosition - headerOffset;
@@ -260,6 +265,7 @@ export default {
     },
   },
   beforeDestroy() {
+    EventBus.$off("packageActiveTab", this.scrollToPackageType);
     // sessionStorage.removeItem("active-tab");
   },
 };

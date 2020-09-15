@@ -39,6 +39,8 @@ export default {
       this.emitMethod();
       this.$router.push({
         path: this.availablePackagesInfo.path,
+        name: this.availablePackagesInfo.path.replace(/^\//, ''),
+        params: { currentTabIndex: this.availablePackagesInfo.activeTab, scroll: true },
       });
     },
   },
@@ -50,6 +52,7 @@ export default {
 .available-packages {
   background: white;
   border-radius: 4px;
+  transition: all .3s ease;
   &:hover {
     cursor: pointer;
     box-shadow: 0 0 15px 2px;
