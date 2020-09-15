@@ -196,11 +196,6 @@ export default {
     }
   },
   methods: {
-    scrollToPackageType(index) {
-      this.activeTab = index;
-      this.onIndexChange();
-    },
-
     onIndexChange() {
       var element = document.getElementById("scroll");
       var headerOffset = 80;
@@ -260,10 +255,6 @@ export default {
           });
         });
     },
-  },
-  beforeDestroy() {
-    // EventBus.$off("packageActiveTab", this.scrollToPackageType);
-    // sessionStorage.removeItem("active-tab");
   },
 };
 </script>

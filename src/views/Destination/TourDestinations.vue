@@ -50,9 +50,9 @@
         alt="kashmir-banner"
       />
     </div>
-    <div class="package-container">
+    <div class="package-container" id="scroll">
       <section>
-        <b-tabs>
+        <b-tabs v-model="activeIndex">
           <b-tab-item
             v-for="(item, idx) in tourPackagesHeader"
             :key="idx"
@@ -84,9 +84,22 @@ export default {
     // OfferList,
     AppPreviewCard,
   },
+
+  props: {
+    currentTabIndex: {
+      type: Number,
+      default: 0,
+    },
+    scroll: {
+      type: Boolean,
+      default: false,
+    },
+  },
+
   data() {
     return {
       tourPackages: [],
+      activeIndex: this.currentTabIndex,
       tourPackagesHeader: [
         {
           type: "HILL STATION",
@@ -118,7 +131,23 @@ export default {
     window.scrollTo(0, 0);
     this.getTourPackages();
   },
+  mounted() {
+    console.log(this.scroll);
+    if (this.scroll) {
+      this.onIndexChange();
+    }
+  },
   methods: {
+    onIndexChange() {
+      var element = document.getElementById("scroll");
+      var headerOffset = 80;
+      var elementPosition = element.getBoundingClientRect().top;
+      var offsetPosition = elementPosition - headerOffset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    },
     onViewMoreClicked(value) {
       this.redirect(value);
     },

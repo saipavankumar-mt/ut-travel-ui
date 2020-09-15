@@ -2,13 +2,13 @@
   <nav class="navbar is-fixed-top" @click="initTab($event)">
     <div class="navbar-contact">
       <div class="navbar-item">
-        <b-icon icon="email" size="is-small" /> 
+        <b-icon icon="email" size="is-small" />
         <p>sales@uttranchalholidays.com</p>
-        </div>
+      </div>
       <div class="navbar-item">
-        <b-icon icon="phone" size="is-small" /> 
+        <b-icon icon="phone" size="is-small" />
         <p>+91-9359079393, +91-9368079393, +91-7830030003</p>
-        </div>
+      </div>
     </div>
     <div class="navbar-brand">
       <span class="toggle-menu" v-if="$isMobile()" @click="toggleSideNavBar()">&#9776;</span>
@@ -21,7 +21,7 @@
         <router-link
           class="navbar-item"
           v-for="(navItem, idx) in navMenu"
-          :to="navItem.path || '/'"
+          :to="{path:navItem.path,name:navItem.label==='Trekking'?pathName(navItem):'', params:navItem.label==='Trekking'?{  scroll:true,currentTabIndex:1}:''} || '/'"
           exact
           :key="idx"
         >
@@ -98,7 +98,7 @@ export default {
         { label: "Home", icon: "home", path: "/home" },
         { label: "Tour Packages", icon: "bag-checked", path: "/tour-packages" },
         { label: "Destinations", icon: "map-marker", path: "/destinations" },
-        { label: "Trekking", icon: "walk" },
+        { label: "Trekking", icon: "walk", path: "/destinations" },
         // { label: 'Hotel', icon: 'bed' },
         // { label: 'Car Rental', icon: 'car' },
         // { label: 'Helipad', icon: 'helicopter' },
@@ -108,6 +108,10 @@ export default {
     };
   },
   methods: {
+    pathName(navItem) {
+      const value = navItem.path.replace(/^\//, "");
+      return value;
+    },
     toggleSideNavBar: function () {
       this.toggleNavbar = !this.toggleNavbar;
       this.$emit("onToggle", this.toggleNavbar);

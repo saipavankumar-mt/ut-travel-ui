@@ -41,6 +41,7 @@ const routes = [
     path: '/destinations',
     name: 'destinations',
     component: TourDestinations,
+    props: true,
   },
   {
     path: '/destination/:destinationId/:destinationName',
