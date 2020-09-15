@@ -131,10 +131,10 @@
               >
                 <b-carousel-item v-for="(item, i) in items" :key="i">
                   <figure class="image">
-                    <img class="image-ht" :src="item.image" />
+                    <img :src="item.image" />
                   </figure>
                 </b-carousel-item>
-                <span v-if="gallery" class="modal-close is-medium" />
+                <span v-if="gallery" class="modal-close is-small" />
                 <template slot="list" slot-scope="props">
                   <b-carousel-list
                     class="carousel-gallery"
@@ -265,7 +265,10 @@ export default {
 </script>
 
 <style lang="scss">
-$carousel-min-height: "200px";
+.image-container {
+  width: 50%;
+  margin: auto;
+}
 .tab-content {
   text-align: left;
 }
