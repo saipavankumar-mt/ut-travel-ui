@@ -4,8 +4,8 @@
     "title": "Piligrim yatras",
     "key": "PILIGRIM",
     "noOfPackages": "7",
-
-    "image": "KedarnathDham.png"
+    "image": "KedarnathDham.png",
+    "icon":""
   },
   {
     "id": 2,

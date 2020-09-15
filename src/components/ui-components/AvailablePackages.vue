@@ -3,14 +3,17 @@
     <div class="available-packages-container">
       <!-- <div :class="{ 'image is-2by1': $isMobile() }"> -->
       <div class="package-title">
-        <span class="no-of-packages">{{ availablePackagesInfo.noOfPackages }}</span>
+        <span class="no-of-packages">{{ availablePackagesInfo.title }}</span>
         &nbsp;
         <div>
-          <span>{{ availablePackagesInfo.title }}</span>
+          <span>{{ availablePackagesInfo.noOfPackages }} Packages</span>          
         </div>
-        <div>
+        <!-- <div>
           <img v-bind:src="require('../../assets/images/' + availablePackagesInfo.image)" alt />
-        </div>
+        </div> -->
+      </div>
+      <div class="icon-container">
+        <img class="icon-image" v-bind:src="require('../../assets/images/temple-icon.png')" alt />
       </div>
 
       <!-- </div> -->
@@ -94,18 +97,25 @@ export default {
 
   .available-packages-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
+    justify-content: space-between;
+    padding: 10px;
 
     .package-title {
       font-family: "SFProDisplay-Bold";
       font-weight: 700;
       .no-of-packages {
-        font-size: 34px;
+        font-size: 16px;
       }
       .plus-sign {
-        font-size: 28px;
+        font-size: 12px;
       }
+    }
+
+    .icon-image{
+      height: 30px;
+      width: 60px;
     }
   }
 

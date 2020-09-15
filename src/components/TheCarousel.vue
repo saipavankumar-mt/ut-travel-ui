@@ -87,6 +87,7 @@ export default {
   position: absolute;
   top: 84%;
   z-index: 10;
+  width: 100%;
 }
 .VueCarousel-navigation-prev {
   left: 40px !important;
