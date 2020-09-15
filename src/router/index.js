@@ -27,6 +27,17 @@ const routes = [
     path: '/tour-package/:packageId/:packageName',
     name: 'detail',
     component: PackageDetail,
+    // beforeEnter: (to, from, next) => {
+    //   /*
+    //    todo check if to === from
+    //    Warning!: location.reload()  completely destroy all vuejs stored states
+    //    */
+    //   if (to === from) {
+    //     window.location.reload();
+    //     return next();
+    //   }
+    // },
+
     props: true,
   },
 

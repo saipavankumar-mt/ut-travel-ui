@@ -590,6 +590,9 @@ export default {
         }
       }
     }
+    .imp-info-container {
+      padding: 10px;
+    }
   }
   .itinerary-container {
     display: unset;

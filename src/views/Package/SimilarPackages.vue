@@ -1,8 +1,19 @@
-<template>     
-    <section class="similarpackage-section columns">
-        <div class="similarpackages-title column"> <h2> <span> SIMILAR PACKAGES </span></h2> </div>
-        <app-preview-card class="column" v-for="(item, idx) in packages" :key="idx" :item="item"></app-preview-card>
-    </section>  
+<template>
+  <section class="similarpackage-section columns">
+    <div class="similarpackages-title column">
+      <h2>
+        <span>SIMILAR PACKAGES</span>
+      </h2>
+    </div>
+    <app-preview-card
+      class="column"
+      v-for="(item, idx) in packages"
+      :key="idx"
+      :item="item"
+      :app-preview-settings="appPreviewSettings"
+      @viewMoreClick="onViewMoreClicked"
+    ></app-preview-card>
+  </section>
 </template>
 
 <script>
@@ -15,12 +26,35 @@ export default {
   data() {
     return {
       packages: [],
+      appPreviewSettings: {
+        showHover: false,
+        cardContent: "card-setting",
+        cardImage: {
+          imageSize: "is-5by3",
+        },
+        imageBlurOnHover: true,
+        hoverAction: {
+          text: "View Package",
+          type: "BUTTON",
+        },
+      },
     };
   },
   created() {
     this.getPackages();
   },
   methods: {
+    onViewMoreClicked(value) {
+      this.redirect(value);
+      window.location.reload();
+      window.scrollTo(0, 0);
+    },
+    redirect: function (value) {
+      this.$router.push({
+        name: "detail",
+        params: { packageName: value.key, packageId: value.id },
+      });
+    },
     getPackages() {
       this.$http
         .get(`${process.env.BASE_URL}data/packages.json`)
@@ -52,14 +86,13 @@ export default {
   box-shadow: 0 0 10px 0px;
 }
 
-.similarpackages-title{
+.similarpackages-title {
   h2 {
-      text-transform: capitalize;
-      font: 20px/30px "open_sansbold";
-      span {
-        color: #4a5258;
-      }
+    text-transform: capitalize;
+    font: 20px/30px "open_sansbold";
+    span {
+      color: #4a5258;
     }
+  }
 }
-
 </style>

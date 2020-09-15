@@ -4,6 +4,7 @@
     {
       "id": "Pckg-D-1",
       "title": "Chardham",
+      "key": "Chardham",
       "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
       "image": "ChardhamTile.png",
       "duration": "11 Nights / 12 Days",
@@ -13,6 +14,7 @@
     {
       "id": "Pckg2-0",
       "title": "Dodham",
+      "key": "Dodham",
       "route": "Kedarnath - Badrinath",
       "image": "DhodhamTile.png",
       "duration": "4 Nights / 5 Days",
@@ -22,6 +24,7 @@
     {
       "id": "Pckg3-0",
       "title": "Teendham",
+      "key": "Teendham",
       "route": "Gangotri - Kedarnath - Badrinath",
       "image": "teendhamTile.png",
       "duration": "7 Nights / 8 Days",
@@ -31,6 +34,7 @@
     {
       "id": "Pckg5-0",
       "title": "Panchkedar",
+      "key": "Panchkedar",
       "route": "Kedarnath - Madhmaeshwar - Tungnath - Rudranath - Kalpeshwar",
       "image": "panchkedarTile.png",
       "duration": "14 Nights / 15 Days",
@@ -40,6 +44,7 @@
     {
       "id": "Pckg5-1",
       "title": "Panchbadri",
+      "key": "Panchbadri",
       "route": "Vishal Badri (Badrinath) - Yogdhyan Badri - Bhavishya Badri - Vridha Badri - Adi Badri",
       "image": "panchbadriTile.png",
       "duration": "14 Nights / 15 Days",
@@ -49,6 +54,7 @@
     {
       "id": "Pckg5-2",
       "title": "Panchprayag",
+      "key": "Panchprayag",
       "route": "Karanprayag - Nandprayag - Rudraprayag - Vishnuprayag - Devpryag",
       "image": "rudrapryag.png",
       "duration": "14 Nights / 15 Days",

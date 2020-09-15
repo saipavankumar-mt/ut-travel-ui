@@ -60,7 +60,7 @@
       class="destination-carousel container"
       v-model="index"
       :data="destinationPackages.attractions"
-      :items-to-show=" $isMobile()?1:4"
+      :items-to-show=" $isMobile()?1.5:4"
       :arrow-hover="false"
       icon-prev="arrow-left"
       icon-next="arrow-right"
@@ -77,7 +77,7 @@
       class="destination-carousel container"
       v-model="itemIndex"
       :data="destinationPackages.hotels"
-      :items-to-show=" $isMobile()?1:4"
+      :items-to-show=" $isMobile()?1.5:4"
       :arrow-hover="false"
       icon-prev="arrow-left"
       icon-next="arrow-right"
@@ -95,7 +95,7 @@
         class="destination-carousel container"
         v-model="packageIndex"
         :data="destinationPackages.includedPackages"
-        :items-to-show=" $isMobile()?1:4"
+        :items-to-show=" $isMobile()?1.5:4"
         :arrow-hover="false"
         icon-prev="arrow-left"
         icon-next="arrow-right"
@@ -452,6 +452,12 @@ export default {
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .package-destination-detail {
+    .destination-carousel {
+      margin: 0 1rem !important;
+      /deep/.carousel-slide {
+        padding: 8px;
+      }
+    }
     .banner {
       flex-direction: column-reverse;
       padding: 0 1rem;
