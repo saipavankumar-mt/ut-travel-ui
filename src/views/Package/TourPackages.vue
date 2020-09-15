@@ -140,11 +140,6 @@ export default {
     AppPreviewCard,
     // BookingFormVue,
   },
-  watch: {
-    activeTab: function () {
-      this.onIndexChange();
-    },
-  },
   data() {
     return {
       isTabIndexSet: false,
@@ -191,16 +186,12 @@ export default {
   },
   methods: {
     scrollToPackageType(index) {
-      const tabValue = index;
-      if (tabValue >= 0) {
-        this.activeTab = tabValue;
-        console.log(this.activeTab);
-      }
+      this.activeTab = index;
+      this.onIndexChange();
     },
 
     onIndexChange() {
       var element = document.getElementById("scroll");
-      console.log(element);
       var headerOffset = 80;
       var elementPosition = element.getBoundingClientRect().top;
       var offsetPosition = elementPosition - headerOffset;
