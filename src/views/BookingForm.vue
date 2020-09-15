@@ -15,6 +15,7 @@
             class="modal-card-heading"
           >Fill the booking form our travel expert will contact you within 24hrs</p>
 
+          <h5 class="title is-4">{{title}}</h5>
           <b-field>
             <b-input type="text" :value="name" placeholder="Your Name" required></b-input>
           </b-field>
@@ -65,6 +66,12 @@
 export default {
   name: "BookingForm",
   components: {},
+  props: {
+    title: {
+      type: String,
+      default: "",
+    },
+  },
   methods: {
     scrollToView(className) {
       document.querySelector("." + className).scrollIntoView({
@@ -105,6 +112,10 @@ export default {
 
 .modal-card-head {
   background-color: #47caf0 !important;
+}
+
+.title {
+  color: #47caf0 !important;
 }
 
 .is-blue {
