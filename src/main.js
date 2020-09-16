@@ -5,7 +5,7 @@ import Buefy from 'buefy';
 import router from './router';
 import store from './store';
 import 'buefy/dist/buefy.css';
-import './assets/app.scss';
+import './assets/scss/app.scss';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 import './components/ui-components/_globals';

@@ -1,0 +1,7 @@
+@import './all';
+
+.tabs li.is-active a {
+  border-bottom-color: #47caf0 !important;
+  color: #47caf0 !important;
+  font-weight: 700;
+}

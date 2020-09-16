@@ -88,7 +88,6 @@ $carousel-arrow-color: #47caf0;
   .preview-all,
   .preview-carousel {
     box-shadow: none !important;
-    margin: 0 2rem !important;
     max-width: 100% !important;
     padding: 2rem 0 0;
     /deep/.carousel-slide {
@@ -130,7 +129,6 @@ $carousel-arrow-color: #47caf0;
   .preview {
     .preview-all,
     .preview-carousel {
-      margin: 0 1rem !important;
       padding: 4rem 0 0 !important;
       /deep/.carousel-slide {
         padding: 10px 10px 10px 0 !important;

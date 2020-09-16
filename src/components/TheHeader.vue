@@ -163,8 +163,10 @@ export default {
     //color: rgb(97,192,243);
     // font-weight: bold;
     // font-family: 'Mogra';
-    font-family: "SFProDisplay-Bold";
-    text-transform: uppercase;
+    // font-family: "SFProDisplay-Bold";
+    // text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
     font-size: 1rem;
     align-self: flex-end;
     transition: all 0.2s ease-in;

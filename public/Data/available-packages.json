@@ -25,13 +25,14 @@
     "id": 4,
     "title": "Hotels",
     "key": "HOTELS",
-    "noOfPackages": "720+",
+    "noOfPackages": "720+ Hotels",
     "image": "destinations/nainital/theNainiRetreat.png"
   },
   {
     "id": 5,
     "title": "Happy Customers",
-    "noOfPackages": "745+",
+    "key": "REVIEWS",
+    "noOfPackages": "745+ Reviews",
     "image": "happy-customers.png"
   }
 ]

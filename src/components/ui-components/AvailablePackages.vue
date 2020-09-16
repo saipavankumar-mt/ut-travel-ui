@@ -2,15 +2,18 @@
   <div class="available-packages" @click="redirect()">
     <div class="available-packages-container">
       <!-- <div :class="{ 'image is-2by1': $isMobile() }"> -->
-      <div class="package-title">
+      <div class="package-title has-text-left">
         <span class="no-of-packages">{{ availablePackagesInfo.title }}</span>
         &nbsp;
-        <div>
-          <span>{{ availablePackagesInfo.noOfPackages }} Packages</span>          
+        <div class="packages-count">
+          <span
+            v-if="!['REVIEWS', 'HOTELS'].includes(availablePackagesInfo.key)"
+          >{{ availablePackagesInfo.noOfPackages }} Packages</span>
+          <span v-else>{{ availablePackagesInfo.noOfPackages }}</span>
         </div>
         <!-- <div>
           <img v-bind:src="require('../../assets/images/' + availablePackagesInfo.image)" alt />
-        </div> -->
+        </div>-->
       </div>
       <div class="icon-container">
         <img class="icon-image" v-bind:src="require('../../assets/images/temple-icon.png')" alt />
@@ -23,29 +26,29 @@
 
 <script>
 export default {
-  name: "AvailablePackages",
+  name: 'AvailablePackages',
   components: {},
   data() {
     return {
       pathMapping: {
         PILIGRIM: {
-          path: "/tour-packages",
+          path: '/tour-packages',
           activeTab: 0,
         },
         LIESURE: {
-          path: "/tour-packages",
+          path: '/tour-packages',
           activeTab: 1,
         },
         DESTINATIONS: {
-          path: "/destinations",
+          path: '/destinations',
           activeTab: 0,
         },
         HOTELS: {
-          path: "",
+          path: '',
           activeTab: 1,
         },
         REVIEWS: {
-          path: "",
+          path: '',
           activeTab: 0,
         },
       },
@@ -61,7 +64,7 @@ export default {
         path: this.pathMapping[this.availablePackagesInfo.key].path,
         name: this.pathMapping[this.availablePackagesInfo.key].path.replace(
           /^\//,
-          ""
+          ''
         ),
         params: {
           currentTabIndex: this.pathMapping[this.availablePackagesInfo.key]
@@ -86,7 +89,7 @@ export default {
     transform: scale(1.07);
     background: rgb(96, 191, 243);
     span {
-      color: white;
+      color: white !important;
     }
   }
   .available-packages-tile {
@@ -103,17 +106,23 @@ export default {
     padding: 10px;
 
     .package-title {
-      font-family: "SFProDisplay-Bold";
       font-weight: 700;
       .no-of-packages {
-        font-size: 16px;
+        // font-size: 16px;
+        color: rgb(62, 63, 84);
+        font: 17px/21px 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+      }
+      .packages-count {
+        font: 15px/18px 'Roboto Condensed', sans-serif;
+        color: rgb(145, 143, 155);
       }
       .plus-sign {
         font-size: 12px;
       }
     }
 
-    .icon-image{
+    .icon-image {
       height: 30px;
       width: 60px;
     }

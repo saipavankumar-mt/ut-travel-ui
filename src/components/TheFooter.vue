@@ -10,7 +10,7 @@
             <img src="../assets/footer-stamp.png" alt="Footer Stamp" />
           </div>
           <div class="footer-section social column is-full">
-            <h3 class="footer-section-title column is-full">SOCIAL MEDIA</h3>
+            <h3 class="footer-section-title column is-full">CONNECT WITH US</h3>
             <div class="footer-section-item">
               <a href="https://www.facebook.com/uttranchal.holidaysuh">
                 <b-icon icon="facebook" size="is-small" />&nbsp;
@@ -176,10 +176,10 @@ export default {
           text-decoration: none;
           transition: all 0.3s ease-in-out;
         }
-        a:hover {
-          color: #47caf0;
-          opacity: 1;
-        }
+        // a:hover {
+        //   color: #47caf0;
+        //   opacity: 1;
+        // }
         .label {
           opacity: 0.7;
           .icon {
