@@ -1,15 +1,19 @@
 {
   "data":
 	{
-	  "id": "Pckg-B-10",
-	  "key": "WeekendUttaranchal",
-	  "title": "Weekend Uttaranchal",
-	  "qoute": "...Explore Nainital and Jim Corbett National Park",
+	  "id": "Pckg-B-11",
+	  "key": "AestheticKumaon",
+	  "title": "AESTHETIC KUMAON",
+	  "qoute": "...Explore Nainital and Kausani and Jim Corbett National Park",
 	  "subtitle": "",
 	  "overview":[
 		{
 		  "title":"Nainital (…Peachy and Decency, Sign A Peace Treaty):",
 		  "subtitle":"Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period."
+		},		
+		{
+		  "title":"Kausani (…The Himalayan Courtyard):",
+		  "subtitle":"Kausani is a beautiful hill station, located 53 km. north of Almora. The altitude of this place is about 1890 meters above the sea level. This place offers a 350 Km. view of the Himalayan peaks loke Tirsul, Nanda Devi and Panchachuli. Kausani is famous fir its Tea Garden and wide panoramic view of mighty Himalayas. There are many other attractions near Kausani such as Rudradhari waterfall."
 		},		
 		{
 		  "title":"Jim Corbett National Park (…Hear Nature’s Roar):",
@@ -22,11 +26,11 @@
 
 		} 	
 	  ],
-	  "route": "Delhi – Nainital - Jim Corbett National Park - Delhi",
-	  "duration": "3 Nights / 4 Days",
-	  "nightStay": "Nainital (2 Nights), Corbett National Park (1 Night)",
-	  "heroImage": "WeekendUttranchalTile.png",
-	  "price": "7500",
+	  "route": "Delhi – Nainital - Kausani - Jim Corbett National Park - Delhi",
+	  "duration": "7 Nights / 8 Days",
+	  "nightStay": "Nainital (3 Nights), Kausani (2 Nights), Corbett National Park (2 Nights)",
+	  "heroImage": "",
+	  "price": "",
 	  "images": [
 	  ],
 	  "description": [
@@ -87,7 +91,31 @@
 		  ]
 		},
 		{
-		  "title": "Day 3  Nainital to Corbett (145 Kms : 5–6Hrs. Travelling to Corbett)",
+		  "title": "Day 3  Nainital Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Nainital",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "9:00 am to 6:00 pm",
+				"activities": "Sightseeing such as Nainia Devi Temple, Naina Peak, Kilbury, Raj Bhawan, St. John's Church, Land's End, Zoo Gardens, Snow View Point, Cave Garden, Tiffin Top as per your time & comfort."
+			  },
+			  { 
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."
+			  }
+		  ]
+		},
+		{
+		  "title": "Day 4  Nainital to Kausani (125 Kms : 4–5Hrs. Travelling to Kausani)",
 		  "isMileStone": true,
 		  "place": [
 			{
@@ -95,8 +123,61 @@
 			  "subtitle": "0Kms"
 			},
 			{
+			  "title": "Kausani",
+			  "subtitle": "125Kms : 4-5Hrs"
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "2:00 pm to 7:00 pm",
+				"activities": "Kausani sightseeing like Anashakti Ashram, Kausani Tea Estate, Lukshmi Ashram, Sumitrananadan Pant Gallery, Sun set at View Point, Gandhi Ji Ashram."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }				  
+		  ]
+		},
+		{
+		  "title": "Day 5  Kausani Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Kausani",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "1:00 pm to 5:00 pm",
+				"activities": "Visit Baijnath Temple (15 Km. from Kausani), Baijnath is said to be more than 1000 years old apparently, this temple was built in the course of one single day."
+			  },
+			  { 
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."
+			  }
+		  ]
+		},
+		{
+		  "title": "Day 6  Kausani to Corbett (145 Kms : 5–6Hrs. Travelling to Corbett)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Kausani",
+			  "subtitle": "0Kms"
+			},
+			{
 			  "title": "Corbett",
-			  "subtitle": "120Kms : 5-6Hrs"
+			  "subtitle": "145Kms : 5-6Hrs"
 			}
 		  ],
 		  
@@ -120,7 +201,31 @@
 		  ]
 		},
 		{
-		"title": "Day 4  Check Out from Corbett (230 Kms : 6-7Hrs. Travelling to Delhi)",
+		  "title": "Day 7  Corbett Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Corbett",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "9:00 am to 6:00 pm",
+				"activities": "Full day free to Explore the Corbett National Park."
+			  },
+			  { 
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."
+			  }
+		  ]
+		},
+		{
+		"title": "Day 8  Check Out from Corbett (230 Kms : 6-7Hrs. Travelling to Delhi)",
 		  "isMileStone": true,
 		  "place": [
 			{
@@ -139,7 +244,7 @@
 			  },
 			  {
 				"time" : "10:00 am to 5:00 pm",
-				"activities": "Reaching at home by having Sweet Memoires in mind and lots of love."				
+				"activities": "Reaching at Railway Station/Airport by having Sweet Memoires in mind and lots of love."				
 			  }			
 		  ]
 		}
@@ -203,6 +308,12 @@
 			"luxury": "NV Nature View or Similar"
 		},
 		{			
+			"accomodation": "Kausani",
+			"standard": "Hill Palace or Similar",
+			"deluxe": "Pratiksha/ Nature Valley Resort or Similar",
+			"luxury": "Burans or Similar"
+		},
+		{			
 			"accomodation": "Corbett",
 			"standard": "Ashoka Tiger Trail or Similar",
 			"deluxe": "Regenta Tarika / Wild Exotica or Similar",
@@ -214,79 +325,79 @@
 		{
 			"passengers": "2",
 			"Vehicle": "Dzire/ Indigo",
-			"Standard": "Rs. 12,000/- + 5% GST",
-			"Deluxe": "Rs. 14,250/- + 5% GST",
-			"Luxury": "Rs. 17,500/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "3",
 			"Vehicle": "Dzire/ Indigo",
-			"Standard": "Rs. 9,000/- + 5% GST",
-			"Deluxe": "Rs. 11,000/- + 5% GST",
-			"Luxury": "Rs. 14,000/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "4",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 9,800/- + 5% GST",
-			"Deluxe": "Rs. 12,000/- + 5% GST",
-			"Luxury": "Rs. 15,300/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "5",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 8,450/- + 5% GST",
-			"Deluxe": "Rs. 10,650/- + 5% GST",
-			"Luxury": "Rs. 13,650/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "6",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 8,200/- + 5% GST",
-			"Deluxe": "Rs. 10,500/- + 5% GST",
-			"Luxury": "Rs. 13,700/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "7",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 7,600/- + 5% GST",
-			"Deluxe": "Rs. 9,700/- + 5% GST",
-			"Luxury": "Rs. 12,850/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "8",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 8,750/- + 5% GST",
-			"Deluxe": "Rs. 11,000/- + 5% GST",
-			"Luxury": "Rs. 14,250/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "9",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 8,100/- + 5% GST",
-			"Deluxe": "Rs. 10,250/- + 5% GST",
-			"Luxury": "Rs. 13,400/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "10",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 8,000/- + 5% GST",
-			"Deluxe": "Rs. 10,250/- + 5% GST",
-			"Luxury": "Rs. 13,500/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "11",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 7,550/- + 5% GST",
-			"Deluxe": "Rs. 9,750/- + 5% GST",
-			"Luxury": "Rs. 12,950/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "12",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 7,550/- + 5% GST",
-			"Deluxe": "Rs. 9,750/- + 5% GST",
-			"Luxury": "Rs. 13,000/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		}
 	  ]
 	}

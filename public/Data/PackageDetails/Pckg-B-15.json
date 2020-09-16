@@ -1,15 +1,15 @@
 {
   "data":
 	{
-	  "id": "Pckg-B-2",
-	  "key": "MagnificentGarhwal",
-	  "title": "Magnificent Garhwal",
-	  "qoute": "...Explore Rishikesh and Chopta and Auli",
+	  "id": "Pckg-B-15",
+	  "key": "PleasingGarhwal",
+	  "title": "PLEASING GARHWAL",
+	  "qoute": "...Explore Lansdowne and Chopta and Auli and Rishikesh",
 	  "subtitle": "",
-	  "overview":[
+	  "overview":[		
 		{
-		  "title":"Rishikesh (…The City of Nirvana):",
-		  "subtitle":"Located in the foothills of Himalayas along the convergence of Ganga and Chanderbhaga river, Rishikesh is known for its adventure activities, ancient temples, popular cafes and as the 'Yoga Capital of the World'. With whitewater rafting industry growing and varied camping and café sports springing up, Rishikesh has grown immensely as a favorite, catering to people with different needs."
+		  "title":"Lansdowne (…The Fairytale Hills):",
+		  "subtitle":"Thick oak forests, mesmerizing hills and spellbinding views, there are numerous places to visit in Lansdowne which will take you a step closer to nature. A quaint hill station which is perched at an elevation of 1700 meters, Lansdowne brings to you a potpourri of attractions and memorable experiences. Trekking the treacherous trails of Lover’s Lane and exploring the vibrant streets of Lansdowne main Market."
 		},
 		{
 		  "title":"Chopta (…The Switzerland of India):",
@@ -18,7 +18,11 @@
 		{
 		  "title":"Auli (…The Magnificent Miracle):",
 		  "subtitle":"Auli is a beautiful tourist spot which is famous for skiing all across the globe. This scenic place is parched at an elevation 2800 meters above sea level. It is known for its oak-edged slopes and verdant coniferous forests. The history of Auli can be traced back to the 8th century. According to certain beliefs, Guru Adi Shankaracharya visited this sacred place. This place is also known as 'Bugyal', which means ’Meadows’ in the regional language. "
-		}		
+		},
+		{
+		  "title":"Rishikesh (…The City of Nirvana):",
+		  "subtitle":"Located in the foothills of Himalayas along the convergence of Ganga and Chanderbhaga river, Rishikesh is known for its adventure activities, ancient temples, popular cafes and as the 'Yoga Capital of the World'. With whitewater rafting industry growing and varied camping and café sports springing up, Rishikesh has grown immensely as a favorite, catering to people with different needs."
+		}
 	  ],
 	  "temperature":[
 		{
@@ -26,16 +30,16 @@
 
 		} 	
 	  ],
-	  "route": "Delhi – Rishikesh – Chopta - Deoriyatal - Auli - Rishikesh - Delhi",
-	  "duration": "7 Nights / 8 Days",
-	  "nightStay": "Rishikesh (2 Nights), Chopta (2 Nights), Deoriyatal (1 Night), Auli (2 Nights)",
-	  "heroImage": "MagnificientGarhwalTile.png",
-	  "price": "16450",
+	  "route": "Delhi - Lansdowne - Chopta - Auli - Rishikesh - Delhi",
+	  "duration": "6 Nights / 7 Days",
+	  "nightStay": "Lansdowne (2 Nights), Chopta (1 Night), Auli (2 Nights), Rishikesh (1 Night)",
+	  "heroImage": "",
+	  "price": "",
 	  "images": [
 	  ],
 	  "description": [
 		{
-		  "title": "Day 1  Delhi to Rishikesh (240 Kms : 6-7Hrs. Travelling to Rishikesh)",
+		  "title": "Day 1 Pickup from Delhi Railway Station/Airport (250 Kms : 7Hrs. Travelling to Lansdowne)",
 		  "isMileStone": true,
 		  "place": [
 			{
@@ -43,36 +47,36 @@
 			  "subtitle": "0Kms"
 			},
 			{
-			  "title": "Rishikesh",
-			  "subtitle": "240Kms : 6-7Hrs"
+			  "title": "Lansdowne",
+			  "subtitle": "250Kms : 7Hrs"
 			}
 		  ],		  
 		  "subtitles": [
+				{
+				  "time" : "10:00 am to 5:00 pm",
+				  "activities": "Start Journey for Lansdowne on the way You can visit Siddhbali Temple at Koatdwar."
+			    },
 				{ 
-					"time" : "3:00 pm to 4:00 pm",
-					"activities": "Arrival in Rishikesh and enjoy a quick and hassle-free check-in at Hotel."
+				  "time" : "5:00 pm to 6:00 pm",
+				  "activities": "Arrival in Lansdowne and enjoy a quick and hassle-free check-in at Hotel."
 				},
 				{ 
-					"time" : "4:00 pm to 7:00 pm",
-					"activities": "Evening Free to explore the Rishikesh (Ram Jhula, Laxman Jhula, Geeta Mandir, Parmarth Niktan along with the evening Aarti)."
+				  "time" : "6:00 pm to 8:00 pm",
+				  "activities": "Evening free to enjoy the Local Market."
 				},
 				{ 
-					"time" : "8:00 pm to 10:00 pm",
-					"activities": "Dinner at Hotel."
+				  "time" : "8:00 pm to 10:00 pm",
+				  "activities": "Dinner at Hotel."
 				}
 		  ]
 		},
 		{
-		  "title": "Day 2  Rishikesh to Chopta (220 Kms : 7-8Hrs. Travelling to Chopta)",
-		  "isMileStone": true,
+		  "title": "Day 2  Lansdowne Sightseeing",
+		  "isMileStone": false,
 		  "place": [
 			{
-			  "title": "Rishikesh",
-			  "subtitle": "0Kms"
-			},
-			{
-			  "title": "Chopta",
-			  "subtitle": "220Kms : 7-8Hrs"
+			  "title": "Lansdowne",
+			  "subtitle": ""
 			}
 		  ],		  
 		  "subtitles": [
@@ -81,54 +85,26 @@
 				"activities": "Breakfast at Hotel."
 			  },
 			  {
-				"time" : "5:00 pm to 7:00 pm",
-				"activities": "Evening free to enjoy the beauty of Chopta."
+				"time" : "10:00 am to 4:00 pm",
+				"activities": "Local sightseeing of Lansdowne like Tiffin-Top and Snow View Point, St Mary’s and St John’s, Darwan Singh Sangrahalaya, Officer’s Mess Museum, Bhim Pakora, etc."
 			  },
-			  {
+			  { 
 				"time" : "8:00 pm to 10:00 pm",
 				"activities": "Dinner at Hotel."
 			  }
 		  ]
 		},
 		{
-		"title": "Day 3  Chopta to Tungnath to Chopta (2.5 Kms : trekking 1-2Hrs. one way",
+		  "title": "Day 3  Lansdowne to Chopta (170 Kms : 5-6Hrs. Travelling to Chopta)",
 		  "isMileStone": true,
 		  "place": [
 			{
-			  "title": "Chopta",
+			  "title": "Lansdowne",
 			  "subtitle": "0Kms"
 			},
 			{
-			  "title": "Tungnath",
-			  "subtitle": "2.5Kms : 1-2Hr"
-			}
-		  ],		  
-		  "subtitles": [
-			  {
-				"time" : "7:00 am to 9:00 am",
-				"activities": "Breakfast at Hotel."
-			  },
-			  {
-				"time" : "5:00 pm to 7:00 pm",
-				"activities": "Start trekking for Tungnath."				
-			  },
-			  {
-				"time" : "8:00 pm to 10:00 pm",
-				"activities": "Dinner at Hotel."				
-			  }
-		  ]
-		},
-		{
-		  "title": "Day 4  Chopta to Deoriatal (2.5 Kms : trekking 1-2Hrs. one way",
-		  "isMileStone": true,
-		  "place": [
-			{
 			  "title": "Chopta",
-			  "subtitle": "0Kms"
-			},
-			{
-			  "title": "Deoriatal",
-			  "subtitle": "2.5Kms : 1-2Hr"
+			  "subtitle": "170Kms : 5-6Hrs"
 			}
 		  ],
 		  
@@ -138,32 +114,29 @@
 				"activities": "Breakfast at Hotel."				
 			  },
 			  {
-				"time" : "9:00 am to 11:00 am",
-				"activities": "Start trekking for Deoriatal."				
+				"time" : "5:00 pm to 7:00 pm",
+				"activities": "Evening free to enjoy the beauty of Chopta."				
 			  },
-			  {
-				"time" : "11:00 am to 7:00 pm",
-				"activities": "Full day free to enjoy the Beauty of Deoriatal."				
-			  }	,
 			  {
 				"time" : "8:00 pm to 10:00 pm",
 				"activities": "Dinner at Hotel."				
-			  }			  
+			  }				  
 		  ]
 		},
 		{
-		"title": "Day 5  Deoriatal to Auli (140 Kms : 6Hrs. Travelling to Auli)",
+		  "title": "Day 4  Chopta to Auli (140 Kms : 6Hrs. Travelling to Auli)",
 		  "isMileStone": true,
 		  "place": [
 			{
-			  "title": "Deoriatal",
+			  "title": "Chopta",
 			  "subtitle": "0Kms"
 			},
 			{
 			  "title": "Auli",
 			  "subtitle": "140Kms : 6Hrs"
 			}
-		  ],		  
+		  ],
+		  
 		  "subtitles": [
 			  {
 				"time" : "7:00 am to 9:00 am",
@@ -172,22 +145,23 @@
 			  {
 				"time" : "5:00 pm to 7:00 pm",
 				"activities": "Explore the Beauty of Auli."				
-			  }	,
+			  },
 			  {
 				"time" : "8:00 pm to 10:00 pm",
 				"activities": "Dinner at Hotel."				
-			  }		
+			  }				  
 		  ]
 		},
 		{
-		"title": "Day 6  Auli Sightseeing",
+		  "title": "Day 5  Auli Sightseeing",
 		  "isMileStone": false,
 		  "place": [
 			{
 			  "title": "Auli",
 			  "subtitle": ""
 			}
-		  ],		  
+		  ],
+		  
 		  "subtitles": [
 			  {
 				"time" : "7:00 am to 9:00 am",
@@ -196,15 +170,15 @@
 			  {
 				"time" : "11:00 am to 5:00 pm",
 				"activities": "sightseeing such as Gurson Meadows etc."				
-			  }	,
+			  },
 			  {
 				"time" : "8:00 pm to 10:00 pm",
 				"activities": "Dinner at Hotel."				
-			  }		
+			  }				  
 		  ]
 		},
 		{
-		"title": "Day 7  Auli to Rishikesh (260 Kms : 9Hrs. Travelling to reach Rishikesh)",
+		  "title": "Day 6  Auli to Rishikesh (260 Kms : 9Hrs. Travelling to Rishikesh)",
 		  "isMileStone": true,
 		  "place": [
 			{
@@ -215,7 +189,8 @@
 			  "title": "Rishikesh",
 			  "subtitle": "260Kms : 9Hrs"
 			}
-		  ],		  
+		  ],
+		  
 		  "subtitles": [
 			  {
 				"time" : "7:00 am to 9:00 am",
@@ -223,20 +198,20 @@
 			  },
 			  {
 				"time" : "9:00 am to 5:00 pm",
-				"activities": "Full day travelling."				
+				"activities": "Drive to Rishikesh from Auli."				
 			  },
 			  {
 				"time" : "5:00 pm to 8:00 pm",
 				"activities": "Rishikesh Sightseeing such as Bharat Mandir, Omkaranand Ashram, Tirvani Ghat along with the evening Aarti."				
-			  }	,
+			  },
 			  {
 				"time" : "8:00 pm to 10:00 pm",
 				"activities": "Dinner at Hotel."				
-			  }		
+			  }				  
 		  ]
 		},
 		{
-		"title": "Day 8  Check Out from Rishikesh (240 Kms : 6-7Hrs. Travelling to Delhi)",
+		"title": "Day 7  Check Out from Rishikesh (240 Kms : 6-7Hrs. Travelling to Delhi)",
 		  "isMileStone": true,
 		  "place": [
 			{
@@ -255,10 +230,11 @@
 			  },
 			  {
 				"time" : "10:00 am to 5:00 pm",
-				"activities": "Reaching at Airport by having Sweet Memoires in mind and lots of love."				
+				"activities": "Reaching at Railway Station/Airport by having Sweet Memoires in mind and lots of love."				
 			  }			
 		  ]
 		}
+		
 	  ],
 	  "importantInfo": [
 		{
@@ -312,10 +288,10 @@
 	  ],
 	 "accomodationInfo":[
 		{
-			"accomodation": "Rishikesh",
-			"standard": "Kamakshi Residency or Similar",
-			"deluxe": "Regenta Inn or Similar",
-			"luxury": "Lemon Tree / Aloha or Similar"
+			"accomodation": "Lansdowne",
+			"standard": "Hotel Hill Top Forest Palace or Similar",
+			"deluxe": "Lans Castle (Standard Room) or Similar",
+			"luxury": "Lans Castle (Valley View Room) or Similar"
 		},
 		{			
 			"accomodation": "Chopta",
@@ -324,95 +300,96 @@
 			"luxury": "Snow Pod or Similar"
 		},
 		{			
-			"accomodation": "Deoriyatal",
-			"standard": "Alpine Camp or Similar",
-			"deluxe": "Alpine Camp or Similar",
-			"luxury": "Alpine Camp or Similar"
-		},
-		{			
 			"accomodation": "Auli",
 			"standard": "Manik Resort or Similar",
 			"deluxe": "Nandan Kanan/ Auli Nature Resort or Similar",
 			"luxury": "Cliff Top Club or Similar"
+		},
+		{
+			"accomodation": "Rishikesh",
+			"standard": "Kamakshi Residency or Similar",
+			"deluxe": "Regenta Inn or Similar",
+			"luxury": "Lemon Tree / Aloha or Similar"
 		}
+		
 	  ],
 	 "perPersonCostInfo":[
 		{
 			"passengers": "2",
 			"Vehicle": "Dzire/ Indigo",
-			"Standard": "Rs. 24,550/- + 5% GST",
-			"Deluxe": "Rs. 29,300/- + 5% GST",
-			"Luxury": "Rs. 45,300/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "3",
 			"Vehicle": "Dzire/ Indigo",
-			"Standard": "Rs. 19,200/- + 5% GST",
-			"Deluxe": "Rs. 23,350/- + 5% GST",
-			"Luxury": "Rs. 37,450/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "4",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 21,350/- + 5% GST",
-			"Deluxe": "Rs. 26,100/- + 5% GST",
-			"Luxury": "Rs. 42,100/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "5",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 18,750/- + 5% GST",
-			"Deluxe": "Rs. 23,150/- + 5% GST",
-			"Luxury": "Rs. 38,000/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "6",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 18,150/- + 5% GST",
-			"Deluxe": "Rs. 22,900/- + 5% GST",
-			"Luxury": "Rs. 38,900/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "7",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 17,500/- + 5% GST",
-			"Deluxe": "Rs. 22,250/- + 5% GST",
-			"Luxury": "Rs. 38,250/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "8",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 18,750/- + 5% GST",
-			"Deluxe": "Rs. 23,500/- + 5% GST",
-			"Luxury": "Rs. 39,500/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "9",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 17,650/- + 5% GST",
-			"Deluxe": "Rs. 22,200/- + 5% GST",
-			"Luxury": "Rs. 38,500/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "10",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 17,350/- + 5% GST",
-			"Deluxe": "Rs. 22,100/- + 5% GST",
-			"Luxury": "Rs. 38,100/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "11",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 16,550/- + 5% GST",
-			"Deluxe": "Rs. 21,100/- + 5% GST",
-			"Luxury": "Rs. 36,600/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "12",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 16,450/- + 5% GST",
-			"Deluxe": "Rs. 21,200/- + 5% GST",
-			"Luxury": "Rs. 37,200/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		}
 	  ]
 	}

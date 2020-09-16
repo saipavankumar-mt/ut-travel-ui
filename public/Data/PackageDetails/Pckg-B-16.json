@@ -1,32 +1,36 @@
 {
   "data":
 	{
-	  "id": "Pckg-B-7",
-	  "key": "ScenicUttaranchal",
-	  "title": "Scenic Uttaranchal",
-	  "qoute": "...Explore Nainital and Ranikhet and Jim Corbett National Park and Haridwar and Mussoorie",
+	  "id": "Pckg-B-16",
+	  "key": "RavishingUttarakhand",
+	  "title": "RAVISHING UTTARAKHAND",
+	  "qoute": "...Explore Nainital and Kausani and Auli and Chopta and Rishikesh and Mussoorie",
 	  "subtitle": "",
-	  "overview":[
+	  "overview":[		
 		{
 		  "title":"Nainital (…Peachy and Decency, Sign A Peace Treaty):",
 		  "subtitle":"Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period."
+		},		
+		{
+		  "title":"Kausani (…The Himalayan Courtyard):",
+		  "subtitle":"Kausani is a beautiful hill station, located 53 km. north of Almora. The altitude of this place is about 1890 meters above the sea level. This place offers a 350 Km. view of the Himalayan peaks loke Tirsul, Nanda Devi and Panchachuli. Kausani is famous fir its Tea Garden and wide panoramic view of mighty Himalayas. There are many other attractions near Kausani such as Rudradhari waterfall."
 		},
 		{
-		  "title":"Ranikhet (…The Queen’s Meadow):",
-		  "subtitle":"Settled amidst the fresh breeze, the charming view of the lush green forests and the majestic Himalayas, the adventure wildlife and the melodious chirping of birds will leave nature’s admirers awestruck in Ranikhet. Located in the Himalayan land of Uttarakhand, Ranikhet is the best of hill stations."
+		  "title":"Auli (…The Magnificent Miracle):",
+		  "subtitle":"Auli is a beautiful tourist spot which is famous for skiing all across the globe. This scenic place is parched at an elevation 2800 meters above sea level. It is known for its oak-edged slopes and verdant coniferous forests. The history of Auli can be traced back to the 8th century. According to certain beliefs, Guru Adi Shankaracharya visited this sacred place. This place is also known as 'Bugyal', which means ’Meadows’ in the regional language. "
 		},
 		{
-		  "title":"Jim Corbett National Park (…Hear Nature’s Roar):",
-		  "subtitle":"Jim Corbett National Park can be befittingly called the paradise of Tigers for the fact that it holds a large population of Tigers in its breathtaking landscaped that consists of different varieties of flora and fauna. Named after the legendary tiger hunter turned naturalist Jim Corbett, the proud destinations ‘Jim Corbett National Park’ was the first national park of India, which was established in 1936 in the Uttarakhand."
+		  "title":"Chopta (…The Switzerland of India):",
+		  "subtitle":"Chopta is a peaceful and lush hill station in Uttarakhand. There’s much to explore here. It is the nexus point of the Panch Kedars (Kedarnath, Madmaheshwar, Tungnath, Rudranath and Kalpeshwar). It is called the ‘Mini Switzerland’ of India, positioned at a height of 2680 meters. Chopta is surrounded by lush green forests. It is an amazing offbeat weekend destination. It provides surreal views of peaks Nanda Devi, Trishul and Chaukhamba."
 		},
 		{
-		  "title":"Haridwar (…Gateway to Heaven):",
-		  "subtitle":"Haridwar is one of the seven sacred cities of the Hindus and is a major pilgrimage center. It has been known by many names originally it was called Kapila’ for the sage who once lived there. Its present name means 'Door to Hari' Hari is one of the names of Lord Vishnu’ a principal deity of Hindusim."
+		  "title":"Rishikesh (…The City of Nirvana):",
+		  "subtitle":"Located in the foothills of Himalayas along the convergence of Ganga and Chanderbhaga river, Rishikesh is known for its adventure activities, ancient temples, popular cafes and as the 'Yoga Capital of the World'. With whitewater rafting industry growing and varied camping and café sports springing up, Rishikesh has grown immensely as a favorite, catering to people with different needs."
 		},
 		{
 		  "title":"Mussoorie (…Truly a Queen):",
 		  "subtitle":"Mussoorie, the proverbial queen of Hill station, as professed by the British gentry who evaded hot, desultory summers of Delhi and Kolkata by Spending time here. Being at an average altitude of 2,000 meters Mussoorie, with its green hills and varied flora and fauna, is a fascinating hill resort. Commanding snow ranges to the north- east, and glittering views of the Doon Valley and Shivalik ranges in the south, the town was once said to present a ‘fairyland’ atmosphere to tourists."
-		}	
+		}
 	  ],
 	  "temperature":[
 		{
@@ -34,11 +38,11 @@
 
 		} 	
 	  ],
-	  "route": "Delhi – Nainital - Ranikhet - Jim Corbett National Park - Haridwar - Mussoorie - Delhi",
+	  "route": "Delhi - Nainital - Kausani - Auli - Chopta - Rishikesh - Mussoorie - Delhi",
 	  "duration": "9 Nights / 10 Days",
-	  "nightStay": "Nainital (3 Nights), Ranikhet (1 Night), Corbett (2 Nights), Haridwar (1 Night), Mussoorie (2 Nights)",
-	  "heroImage": "ScenicUttranchalTile.png",
-	  "price": "21100",
+	  "nightStay": "Nainital (2 Nights), Kausani(1 Night), Auli (2 Nights), Chopta (1 Night), Rishikesh (1 Night), Mussoorie(2 Nights)",
+	  "heroImage": "",
+	  "price": "",
 	  "images": [
 	  ],
 	  "description": [
@@ -56,17 +60,17 @@
 			}
 		  ],		  
 		  "subtitles": [
+				{
+				  "time" : "5:00 pm to 6:00 pm",
+				  "activities": "Arrival in Nainital and enjoy a quick and hassle-free check-in at Hotel."
+			    },
 				{ 
-					"time" : "5:00 pm to 6:00 pm",
-					"activities": "Arrival in Nainital and enjoy a quick and hassle-free check-in at Hotel."
+				  "time" : "6:00 pm to 8:00 pm",
+				  "activities": "Evening free to enjoy the boating at Naini Lake (At your own) & you can visit Mall Road for shopping."
 				},
 				{ 
-					"time" : "6:00 pm to 8:00 pm",
-					"activities": "Evening free to enjoy the boating at Naini Lake (At your own) & you can visit Mall Road for shopping."
-				},
-				{ 
-					"time" : "8:00 pm to 10:00 pm",
-					"activities": "Dinner at Hotel."
+				  "time" : "8:00 pm to 10:00 pm",
+				  "activities": "Dinner at Hotel."
 				}
 		  ]
 		},
@@ -86,11 +90,11 @@
 			  },
 			  {
 				"time" : "9:00 am to 2:00 pm",
-				"activities": "Lake Tour Bhimtal, Naukuchia Tal, Sat Tal, Hanuman Temple, Golu Devta Temple at Gorhakhal."
+				"activities": "Lake Tour Bhimtal, Naukuchia Tal, Sat Tal, Hanuman Temple, Golu Devta Temple at Gorhakhal."
 			  },
-			  {
+			  { 
 				"time" : "4:00 pm to 7:00 pm",
-				"activities": "Evening Nainital Sightseeing such as Nainia Devi Temple, Naini Lake, Tibetan Market."
+				"activities": "Evening Nainital Sightseeing such as Nainia Devi Temple, Naini Lake, Tibetan Market, Raj Bhawan, St. John's Church, Land's End, Zoo Gardens, Snow View Point, Cave Garden, as per your time & comfort."
 			  },
 			  { 
 				"time" : "8:00 pm to 10:00 pm",
@@ -99,40 +103,16 @@
 		  ]
 		},
 		{
-		"title": "Day 3  Nainital Sightseeing",
-		  "isMileStone": false,
-		  "place": [
-			{
-			  "title": "Nainital",
-			  "subtitle": ""
-			}
-		  ],		  
-		  "subtitles": [
-			  {
-				"time" : "7:00 am to 9:00 am",
-				"activities": "Breakfast at Hotel."
-			  },
-			  {
-				"time" : "9:00 am to 6:00 pm",
-				"activities": "Sightseeing such as Nainia Devi Temple, Naina Peak, Kilbury, Raj Bhawan, St. John’s Church, Land’s End, Zoo Gardens, Snow View Point, Cave Garden, Tiffin Top as per your time & comfort."				
-			  },
-			  { 
-				"time" : "8:00 pm to 10:00 pm",
-				"activities": "Dinner at Hotel."
-			  }
-		  ]
-		},
-		{
-		  "title": "Day 4  Nanintal to  Ranikhet (65 Kms : 2Hrs. Travelling to Ranikhet)",
+		  "title": "Day 3  Nainital to Kausani (120 Kms : 5Hrs. Travelling to Kausani)",
 		  "isMileStone": true,
 		  "place": [
 			{
-			  "title": "Nanintal",
+			  "title": "Nainital",
 			  "subtitle": "0Kms"
 			},
 			{
-			  "title": "Ranikhet",
-			  "subtitle": "65Kms : 2Hrs"
+			  "title": "Kausani",
+			  "subtitle": "120Kms : 5Hrs"
 			}
 		  ],
 		  
@@ -142,8 +122,41 @@
 				"activities": "Breakfast at Hotel."				
 			  },
 			  {
+				"time" : "9:00 am to 12:00 pm",
+				"activities": "Start journey to Chaukori covering sightseeing of Birthi Fall."				
+			  },
+			  {
 				"time" : "2:00 pm to 7:00 pm",
-				"activities": "Sightseeing of Ranikhet like Golf Ground, Maa Kali Temple, Kumaon Regement Army Head Quarter and evening visit to Mall Road."
+				"activities": "Visit Gandhi Ji Ashram, Anashakti Ashram, Kausani Tea Estate, Lukshmi Ashram, Sumitrananadan Pant Gallery and visit Sun set at View Point as per your time & comfort."				
+			  }	,
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }				  
+		  ]
+		},
+		{
+		  "title": "Day 4  Kausani to Auli (200 Kms : 8Hrs. Travelling to Auli)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Kausani",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Auli",
+			  "subtitle": "200Kms : 8Hrs"
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "5:00 pm to 7:00 pm",
+				"activities": "Explore the Beauty of Auli."				
 			  },
 			  {
 				"time" : "8:00 pm to 10:00 pm",
@@ -152,102 +165,106 @@
 		  ]
 		},
 		{
-		"title": "Day 5  Ranikhet to Corbett National Park (95 Kms : 3-4Hrs. Travelling to Corbett Park)",
-		  "isMileStone": true,
-		  "place": [
-			{
-			  "title": "Ranikhet",
-			  "subtitle": "0Kms"
-			},
-			{
-			  "title": "Corbett National Park",
-			  "subtitle": "95Kms : 3-4Hrs"
-			}
-		  ],		  
-		  "subtitles": [
-			  {
-				"time" : "7:00 am to 9:00 am",
-				"activities": "Breakfast at Hotel."				
-			  },
-			  {
-				"time" : "3:00 pm to 6:00 pm",
-				"activities": "visit Corbett Museum and Garzia Devi Temple."				
-			  },
-			  {
-				"time" : "8:00 pm to 10:00 pm",
-				"activities": "Dinner at Hotel."				
-			  }			
-		  ]
-		},
-		{
-		"title": "Day 6  Jim Corbett Sightseeing",
+		  "title": "Day 5  Auli Sightseeing",
 		  "isMileStone": false,
 		  "place": [
 			{
-			  "title": "Corbett",
+			  "title": "Auli",
 			  "subtitle": ""
 			}
-		  ],		  
-		  "subtitles": [
-			  {
-				"time" : "7:00 am to 8:00 am",
-				"activities": "Breakfast at Hotel."				
-			  },
-			  {
-				"time" : "9:00 am to 6:00 pm",
-				"activities": "Full day free to Explore Corbett National Park."
-			  },
-			  {
-				"time" : "8:00 pm to 10:00 pm",
-				"activities": "Dinner at Hotel."				
-			  }					
-		  ]
-		},
-		{
-		"title": "Day 7  Corbett to Haridwar  (210 Kms : 4-5Hrs. Travelling to Haridwar)",
-		  "isMileStone": true,
-		  "place": [
-			{
-			  "title": "Corbett",
-			  "subtitle": "0Kms"
-			},
-			{
-			  "title": "Haridwar",
-			  "subtitle": "210Kms : 4-5Hrs"
-			}
-		  ],		  
+		  ],
+		  
 		  "subtitles": [
 			  {
 				"time" : "7:00 am to 9:00 am",
 				"activities": "Breakfast at Hotel."				
 			  },
 			  {
-				"time" : "9:00 am to 3:00 pm",
-				"activities": "Drive to Haridwar from Corbett."				
-			  },
-			  {
-				"time" : "4:00 pm to 8:00 pm",
-				"activities": "Evening Arti at Har-Ki-Pauri. Visit local market Moti Bazar and Temples like Bhuma Niketan Mandir, Bharat Mata Mandir, Vaishno Devi Mandir and Pawan Dham."				
+				"time" : "11:00 am to 5:00 pm",
+				"activities": "sightseeing such as Gurson Meadows etc."				
 			  },
 			  {
 				"time" : "8:00 pm to 10:00 pm",
 				"activities": "Dinner at Hotel."				
-			  }					
+			  }				  
 		  ]
 		},
 		{
-		"title": "Day 8  Haridwar to Mussoorie (80 Kms : 2-3Hrs. Travelling to Mussoorie)",
+		  "title": "Day 6  Auli to Chopta (145 Kms : 5-6Hrs. Travelling to Chopta)",
 		  "isMileStone": true,
 		  "place": [
 			{
-			  "title": "Haridwar",
+			  "title": "Auli",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Chopta",
+			  "subtitle": "145Kms : 5-6Hrs"
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "5:00 pm to 7:00 pm",
+				"activities": "Evening free to enjoy the beauty of Chopta."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }				  
+		  ]
+		},
+		{
+		  "title": "Day 7 Auli to Rishikesh (260 Kms : 9Hrs. Travelling to Rishikesh)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Auli",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Rishikesh",
+			  "subtitle": "260Kms : 9Hrs"
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "9:00 am to 5:00 pm",
+				"activities": "Drive to Rishikesh from Auli."				
+			  },
+			  {
+				"time" : "5:00 pm to 8:00 pm",
+				"activities": "Rishikesh Sightseeing such as Bharat Mandir, Omkaranand Ashram, Tirvani Ghat along with the evening Aarti."				
+			  }	,
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }				  
+		  ]
+		},
+		{
+		  "title": "Day 8 Rishikesh to Mussoorie (80 Kms : 2-3Hrs. Travelling to Mussoorie)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Rishikesh",
 			  "subtitle": "0Kms"
 			},
 			{
 			  "title": "Mussoorie",
 			  "subtitle": "80Kms : 2-3Hrs"
 			}
-		  ],		  
+		  ],
+		  
 		  "subtitles": [
 			  {
 				"time" : "7:00 am to 9:00 am",
@@ -255,27 +272,28 @@
 			  },
 			  {
 				"time" : "10:00 am to 3:00 pm",
-				"activities": "Start Journey to Mussoorie by covering the Sightseeing of Dehradun include, Sai Baba Mandir, Prakasheshwar Mahadev Mandir and Malsi Deer Park."
+				"activities": "Start Journey to Mussoorie by covering the Sightseeing of Dehradun include, Sai Baba Mandir, Prakasheshwar Mahadev Mandir and Malsi Deer Park."				
 			  },
 			  {
 				"time" : "4:00 pm to 7:00 pm",
 				"activities": "Free to visit mall Road."				
-			  },
+			  }	,
 			  {
 				"time" : "8:00 pm to 10:00 pm",
 				"activities": "Dinner at Hotel."				
-			  }			
+			  }				  
 		  ]
 		},
 		{
-		"title": "Day 9  Mussoorie Sightseeing",
+		  "title": "Day 9 Mussoorie Sightseeing",
 		  "isMileStone": false,
 		  "place": [
 			{
 			  "title": "Mussoorie",
 			  "subtitle": ""
 			}
-		  ],		  
+		  ],
+		  
 		  "subtitles": [
 			  {
 				"time" : "7:00 am to 9:00 am",
@@ -283,16 +301,16 @@
 			  },
 			  {
 				"time" : "10:00 am to 6:00 pm",
-				"activities": "visit Kampty Fall (15 kms from Mussoorie on the Yamunotri Road is the most fascinating and the biggest water fall, Kempty Fall is located in a beautiful valley of Mussoorie.) Company Garden, Mall Road, Rope Way (One can enjoy a thrilling ropeway ride to Gun Hill, the second highest peak of Mussoorie - 2122 mts; the peak offers a panoramic view of the Himalayan ranges.)"	
+				"activities": "visit Kampty Fall (15 kms from Mussoorie on the Yamunotri Road is the most fascinating and the biggest water fall, Kempty Fall is located in a beautiful valley of Mussoorie.) Company Garden, Mall Road, Rope Way (One can enjoy a thrilling ropeway ride to Gun Hill, the second highest peak of Mussoorie - 2122 mts; the peak offers a panoramic view of the Himalayan ranges)."				
 			  },
 			  {
 				"time" : "8:00 pm to 10:00 pm",
 				"activities": "Dinner at Hotel."				
-			  }			
+			  }				  
 		  ]
 		},
 		{
-		"title": "Day 10 Check Out from Mussoorie (265 Kms : 7Hrs. Travelling to Delhi)",
+		"title": "Day 10  Check Out from Mussoorie (265 Kms : 7Hrs. Travelling to Delhi)",
 		  "isMileStone": true,
 		  "place": [
 			{
@@ -311,10 +329,11 @@
 			  },
 			  {
 				"time" : "10:00 am to 5:00 pm",
-				"activities": "Reaching at Airport by having Sweet Memoires in mind and lots of love."				
+				"activities": "Reaching at Railway Station/Airport by having Sweet Memoires in mind and lots of love."				
 			  }			
 		  ]
 		}
+		
 	  ],
 	  "importantInfo": [
 		{
@@ -373,109 +392,115 @@
 			"deluxe": "Rio Grand/ Dynasty Resort or Similar",
 			"luxury": "NV Nature View or Similar"
 		},
-		{
-			"accomodation": "Ranikhet",
-			"standard": "Ranikhet Grand / Moon or Similar",
-			"deluxe": "Pool Retreat/ Xomotel or Similar",
-			"luxury": "West View or Similar"
+		{			
+			"accomodation": "Kausani",
+			"standard": "Hill Palace or Similar",
+			"deluxe": "Pratiksha/ Nature Valley Resort or Similar",
+			"luxury": "Burans or Similar"
 		},
 		{			
-			"accomodation": "Corbett",
-			"standard": "Ashoka Tiger Trail or Similar",
-			"deluxe": "Regenta Tarika / Wild Exotica or Similar",
-			"luxury": "Corbett The Grand or Similar"
+			"accomodation": "Auli",
+			"standard": "Manik Resort or Similar",
+			"deluxe": "Nandan Kanan/ Auli Nature Resort or Similar",
+			"luxury": "Cliff Top Club or Similar"
+		},
+		{			
+			"accomodation": "Chopta",
+			"standard": "Chopta Retreat/ Camp Eden or Similar",
+			"deluxe": "Mayadeep or Similar",
+			"luxury": "Snow Pod or Similar"
 		},
 		{
-			"accomodation": "Haridwar",
-			"standard": "Holy Basil/ Paradise Inn or Similar",
-			"deluxe": "Lakashya/ Regenta Orko’s or Similar",
-			"luxury": "Godwin or Similar"
+			"accomodation": "Rishikesh",
+			"standard": "Kamakshi Residency or Similar",
+			"deluxe": "Regenta Inn or Similar",
+			"luxury": "Lemon Tree / Aloha or Similar"
 		},
 		{			
 			"accomodation": "Mussoorie",
 			"standard": "Savoy Residency or Similar",
 			"deluxe": "Milestone Inn / Kamakshi Grand or Similar",
 			"luxury": "Royal Orchid / Fortune Grace or Similar"
-		}		
+		}
 		
 	  ],
 	 "perPersonCostInfo":[
 		{
 			"passengers": "2",
 			"Vehicle": "Dzire/ Indigo",
-			"Standard": "Rs. 31,250/- + 5% GST",
-			"Deluxe": "Rs. 37,500/- + 5% GST",
-			"Luxury": "Rs. 48,750/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "3",
 			"Vehicle": "Dzire/ Indigo",
-			"Standard": "Rs. 24,400/- + 5% GST",
-			"Deluxe": "Rs. 29,800/- + 5% GST",
-			"Luxury": "Rs. 40,000/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "4",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 27,250/- + 5% GST",
-			"Deluxe": "Rs. 33,500/- + 5% GST",
-			"Luxury": "Rs. 44,750/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "5",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 23,900/- + 5% GST",
-			"Deluxe": "Rs. 29,500/- + 5% GST",
-			"Luxury": "Rs. 40,250/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "6",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 23,250/- + 5% GST",
-			"Deluxe": "Rs. 29,500/- + 5% GST",
-			"Luxury": "Rs. 40,750/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "7",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 21,750/- + 5% GST",
-			"Deluxe": "Rs. 27,400/- + 5% GST",
-			"Luxury": "Rs. 38,400/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "8",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 24,000/- + 5% GST",
-			"Deluxe": "Rs. 30,250/- + 5% GST",
-			"Luxury": "Rs. 41,500/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "9",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 22,550/- + 5% GST",
-			"Deluxe": "Rs. 28,250/- + 5% GST",
-			"Luxury": "Rs. 39,350/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "10",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 22,250/- + 5% GST",
-			"Deluxe": "Rs. 28,500/- + 5% GST",
-			"Luxury": "Rs. 39,750/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "11",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 21,200/- + 5% GST",
-			"Deluxe": "Rs. 26,950/- + 5% GST",
-			"Luxury": "Rs. 38,250/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "12",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 21,100/- + 5% GST",
-			"Deluxe": "Rs. 27,350/- + 5% GST",
-			"Luxury": "Rs. 28,350/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		}
 	  ]
 	}

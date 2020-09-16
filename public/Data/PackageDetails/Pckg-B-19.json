@@ -1,0 +1,450 @@
+{
+  "data":
+	{
+	  "id": "Pckg-B-19",
+	  "key": "FascinatingGarhwal",
+	  "title": "FASCINATING GARHWAL",
+	  "qoute": "...Explore Chakrata and Mussoorie and Kanatal and New Tehri and Haridwar",
+	  "subtitle": "",
+	  "overview":[		
+		{
+		  "title":"Chakrata (…The glory of the hills & hillocks):",
+		  "subtitle":"Chakrata is a pleasant getaway tucked amidst coniferous, oak and rhododendron trees and away, most importantly, from pollution. Around 2 hours from Dehradun, the place is perfect to unwind during the weekend and also enjoy a decent amount of adventure. Trekking to the 312 ft tall Tiger Falls is a must do, along with cave exploring at the Budher caves."
+		},		
+		{
+		  "title":"Mussoorie (…Truly a Queen):",
+		  "subtitle":"Mussoorie, the proverbial queen of Hill station, as professed by the British gentry who evaded hot, desultory summers of Delhi and Kolkata by Spending time here. Being at an average altitude of 2,000 meters Mussoorie, with its green hills and varied flora and fauna, is a fascinating hill resort. Commanding snow ranges to the north- east, and glittering views of the Doon Valley and Shivalik ranges in the south, the town was once said to present a ‘fairyland’ atmosphere to tourists."
+		},
+		{
+		  "title":"Kanatal (…Away from Downtown):",
+		  "subtitle":"Kanatal is said to be named after a lake that once existed there. Apart from peace, the place exhibits a charm in from majestic hill, fruit trees, apple orchards and lush green forests. This quaint hamlet sprinkled with plethora of wild flowers and small temples lien in the proximity to other major hill station of the state like Chamba (12 Km.) and Mussoorie (35 Km.). Perched at the height of 8500 ft above the sea level, the salubrious weather and the untouched beauty of this place is well connected via well maintained roads unlike its other counterparts."
+		},
+		{
+		  "title":"New Tehri (…The Novel Town):",
+		  "subtitle":"New Tehri is newly established township and headquarter of Their Garhwal. It is situated at an elevation between 1550 to 1950 mts. Above sea level. A modern and well-planned town, only 11 Km. from Chamba and 24 Km. from old Tehri, it overlooks a massive artificial lake and a Dam calles Tehri Lake and Tehri Dam respectively. It has become an important center of attraction on the completion of the dam."
+		},
+		{
+		  "title":"Haridwar (…Gateway to Heaven):",
+		  "subtitle":"Haridwar is one of the seven sacred cities of the Hindus and is a major pilgrimage center. It has been known by many names originally it was called Kapila’ for the sage who once lived there. Its present name means 'Door to Hari' Hari is one of the names of Lord Vishnu’ a principal deity of Hindusim."
+		}
+	  ],
+	  "temperature":[
+		{
+			
+
+		} 	
+	  ],
+	  "route": "Delhi - Chakrata - Mussoorie - Kanatal - New Tehri - Haridwar - Delhi",
+	  "duration": "8 Nights / 9 Days",
+	  "nightStay": "Chakrata (2 Nights), Mussoorie (2 Nights), Kanatal (1 Night), New Tehri (2 Nights), Haridwar (1 Night)",
+	  "heroImage": "",
+	  "price": "",
+	  "images": [
+	  ],
+	  "description": [
+		{
+		  "title": "Day 1 Pickup from Delhi Railway Station/Airport (325 Kms : 8-9Hrs. Travelling to Chakrata)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Delhi",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Chakrata",
+			  "subtitle": "325Kms : 8-9Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{
+				  "time" : "5:00 pm to 6:00 pm",
+				  "activities": "Arrival in Chakrata and enjoy a quick and hassle-free check-in at Hotel."
+			    },
+				{ 
+				  "time" : "6:00 pm to 8:00 pm",
+				  "activities": "Evening free to enjoy the beauty of Chakrata."
+				},
+				{ 
+				  "time" : "8:00 pm to 10:00 pm",
+				  "activities": "Dinner at Hotel."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 2  Chakrata Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Chakrata",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "9:00 am to 5:00 pm",
+				"activities": "Chakrata sightseeing such as Tiger Fall, Chilmiri Neck, Kimona Fall, Budher Caves, Chinta Haran Mahadev Temple. "
+			  },
+			  { 
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."
+			  }
+		  ]
+		},
+		{
+		  "title": "Day 3  Chakrata to Mussoorie (80 Kms : 2-3Hrs. Travelling to Mussoorie)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Chakrata",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Mussoorie",
+			  "subtitle": "80Kms : 2-3Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "4:00 pm to 7:00 pm",
+				"activities": "Free to visit mall Road."
+			  },
+			  { 
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."
+			  }
+		  ]
+		},
+		{
+		  "title": "Day 4 Mussoorie Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Mussoorie",
+			  "subtitle": ""
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 6:00 pm",
+				"activities": "visit Kampty Fall (15 kms from Mussoorie on the Yamunotri Road is the most fascinating and the biggest water fall, Kempty Fall is located in a beautiful valley of Mussoorie.) Company Garden, Mall Road, Rope Way (One can enjoy a thrilling ropeway ride to Gun Hill, the second highest peak of Mussoorie – 2122 mts; the peak offers a panoramic view of the Himalayan ranges)."
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }					  
+		  ]
+		},
+		{
+		"title": "Day 5 Mussoorie to Kanatal (48 Kms : 2Hrs. Travelling to Kanatal)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Mussoorie",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Kanatal",
+			  "subtitle": "48Kms : 2Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "11:00 am to 7:00 pm",
+				"activities": "On the way you can visit Dhanaulti, Kaudia forest, Surkanda Devi Temple."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 6 Kanatal to New Tehri (30 Kms : 1Hrs. Travelling to New Tehri)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Kanatal",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "New Tehri",
+			  "subtitle": "30Kms : 1Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "11:00 am to 7:00 pm",
+				"activities": "On the way you can visit Chamba, New Tehri sightseeing such as Sem Mukhem Nagraja Temple."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 7 New Tehri Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "New Tehri",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "11:00 am to 5:00 pm",
+				"activities": "Full day free to visit Tehri Lake and Tehri Dam, you can enjoy water sports in Tehri Lake."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 8 New Tehri to Haridwar  (100 Kms : 3-4Hrs. Travelling to Haridwar)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "New Tehri",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Haridwar",
+			  "subtitle": "100Kms : 3-4Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "9:00 am to 3:00 pm",
+				"activities": "Drive to Haridwar from New Tehri."				
+			  },
+			  {
+				"time" : "4:00 pm to 8:00 pm",
+				"activities": "Evening Arti at Har-Ki-Pauri. Visit local market Moti Bazar and Temples like Bhuma Niketan Mandir, Bharat Mata Mandir, Vaishno Devi Mandir and Pawan Dham."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 9 Check Out from Haridwar (240 Kms : 5-6Hrs. Travelling to Delhi)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Haridwar",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Delhi",
+			  "subtitle": "240Kms : 5-6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 4:00 pm",
+				"activities": "Reaching at Railway Station/Airport by having Sweet Memoires in mind and lots of love."				
+			  }			
+		  ]
+		}
+		
+	  ],
+	  "importantInfo": [
+		{
+		  "title": "Note",
+		  "subtitles": [
+			"Vehicles are not allowed on the Mall road of Nainital and Mussoorie so you have to travel by foot there.",
+			"AC and Music System in Vehicle will not be operated when we are on the Hilly Area.",
+			"All the rates are subject to change without prior notice.",			
+			"All disputes are subject to Haridwar Jurisdiction.",
+			"Govt. Taxes (GST)"
+		  ]
+		},
+		{
+		  "title": "Mode of Payment:",
+		  "subtitles": [
+		    "Kindly release 25% Payment for the Blocking.",
+			"Kindly release total 50% Payment before 30 days of arrival.",
+			"Kindly release total 100% Payment before 7 days of arrival."
+		  ]
+		}
+	  ],
+	  "cancellationPolicy":{
+		"title": "Cancellation Policy:",
+		  "subtitles": [
+			"10% of the Total Package Cost is Non-Refundable.",
+			"25% cancellation charge of the total package cost, if cancellation less than 30 days before arrival.",
+			"35% cancellation charge of the total package cost, if cancellation between 15 to 7 days before arrival.",
+			"50% cancellation charge of the total package cost if cancellation between 7 to 2 days before arrival.",
+			"100% cancellation charge of the total package cost if cancellation before 48 Hrs. before arrival.",
+			"Altering the confirmed plan Not possible."
+		  ]
+	  },
+	  "inclusionAndExclusion":[
+		{
+		  "title": "Experience Includes:",
+		  "subtitles": [
+			"Accommodation at all the places mention in the itinerary.",
+			"Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
+			"Transportation around the tour (As mentioned above).",
+			"All sightseeing and excursion as per the Itinerary.",
+			"All Toll Tax, Parking Includes."
+		  ]
+		},
+		{
+		  "title": "Tour Cost dose not Includes:",
+		  "subtitles": [
+			"Extra Meal, Boating Charges, Ropeway Charge, Entry Fee, Guide Fee etc.",
+			"Anything not specifically mentioned in “Experience Include”."
+		  ]
+		}
+	  ],
+	 "accomodationInfo":[
+		{
+			"accomodation": "Chakrata",
+			"standard": "Hotel Snow View or Similar",
+			"deluxe": "Himalayan Paradise/ Blue Canvas Resort or Similar",
+			"luxury": "Deodar Dream Resort or Similar"
+		},
+		{			
+			"accomodation": "Mussoorie",
+			"standard": "Savoy Residency or Similar",
+			"deluxe": "Milestone Inn / Kamakshi Grand or Similar",
+			"luxury": "Royal Orchid / Fortune Grace or Similar"
+		},
+		{			
+			"accomodation": "Kanatal",
+			"standard": "Camp Carnival or Similar",
+			"deluxe": "Pine Queen or Similar",
+			"luxury": "Club Mahindra or Similar"
+		},
+		{
+			"accomodation": "New Tehri",
+			"standard": "Gautam Residency or Similar",
+			"deluxe": "Tehri Club or Similar",
+			"luxury": "Himalayan Eco Lodge or Similar"
+		},
+		{			
+			"accomodation": "Haridwar",
+			"standard": "Holy Basil/ Paradise Inn or Similar",
+			"deluxe": "Lakashya/ Regenta Orko’s or Similar",
+			"luxury": "Godwin or Similar"
+		}		
+	  ],
+	 "perPersonCostInfo":[
+		{
+			"passengers": "2",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "3",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "4",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "5",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "6",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "7",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "8",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "9",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "10",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "11",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "12",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		}
+	  ]
+	}
+}

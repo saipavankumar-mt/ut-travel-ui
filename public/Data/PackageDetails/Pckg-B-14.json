@@ -1,20 +1,24 @@
 {
   "data":
 	{
-	  "id": "Pckg-B-10",
-	  "key": "WeekendUttaranchal",
-	  "title": "Weekend Uttaranchal",
-	  "qoute": "...Explore Nainital and Jim Corbett National Park",
+	  "id": "Pckg-B-14",
+	  "key": "MysticUttaranchal",
+	  "title": "MYSTIC UTTARANCHAL",
+	  "qoute": "...Explore Nainital and Jim Corbett National Park and Mussoorie",
 	  "subtitle": "",
-	  "overview":[
+	  "overview":[		
 		{
 		  "title":"Nainital (…Peachy and Decency, Sign A Peace Treaty):",
 		  "subtitle":"Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period."
-		},		
+		},
 		{
 		  "title":"Jim Corbett National Park (…Hear Nature’s Roar):",
 		  "subtitle":"Jim Corbett National Park can be befittingly called the paradise of Tigers for the fact that it holds a large population of Tigers in its breathtaking landscaped that consists of different varieties of flora and fauna. Named after the legendary tiger hunter turned naturalist Jim Corbett, the proud destinations ‘Jim Corbett National Park’ was the first national park of India, which was established in 1936 in the Uttarakhand."
-		}	
+		},		
+		{
+		  "title":"Mussoorie (…Truly a Queen):",
+		  "subtitle":"Mussoorie, the proverbial queen of Hill station, as professed by the British gentry who evaded hot, desultory summers of Delhi and Kolkata by Spending time here. Being at an average altitude of 2,000 meters Mussoorie, with its green hills and varied flora and fauna, is a fascinating hill resort. Commanding snow ranges to the north- east, and glittering views of the Doon Valley and Shivalik ranges in the south, the town was once said to present a ‘fairyland’ atmosphere to tourists."
+		}
 	  ],
 	  "temperature":[
 		{
@@ -22,11 +26,11 @@
 
 		} 	
 	  ],
-	  "route": "Delhi – Nainital - Jim Corbett National Park - Delhi",
-	  "duration": "3 Nights / 4 Days",
-	  "nightStay": "Nainital (2 Nights), Corbett National Park (1 Night)",
-	  "heroImage": "WeekendUttranchalTile.png",
-	  "price": "7500",
+	  "route": "Delhi - Nainital - Jim Corbett National Park - Mussoorie - Delhi",
+	  "duration": "7 Nights / 8 Days",
+	  "nightStay": "Nainital (2 Nights), Corbett National Park (2 Nights), Mussoorie (2 Nights)",
+	  "heroImage": "",
+	  "price": "",
 	  "images": [
 	  ],
 	  "description": [
@@ -44,17 +48,17 @@
 			}
 		  ],		  
 		  "subtitles": [
+				{
+				  "time" : "5:00 pm to 6:00 pm",
+				  "activities": "Arrival in Nainital and enjoy a quick and hassle-free check-in at Hotel."
+			    },
 				{ 
-					"time" : "5:00 pm to 6:00 pm",
-					"activities": "Arrival in Nainital and enjoy a quick and hassle-free check-in at Hotel."
+				  "time" : "6:00 pm to 8:00 pm",
+				  "activities": "Evening free to enjoy the boating at Naini Lake (At your own) & you can visit Mall Road for shopping."
 				},
 				{ 
-					"time" : "6:00 pm to 8:00 pm",
-					"activities": "Evening free to enjoy the boating at Naini Lake (At your own) & you can visit Mall Road for shopping."
-				},
-				{ 
-					"time" : "8:00 pm to 10:00 pm",
-					"activities": "Dinner at Hotel."
+				  "time" : "8:00 pm to 10:00 pm",
+				  "activities": "Dinner at Hotel."
 				}
 		  ]
 		},
@@ -74,11 +78,11 @@
 			  },
 			  {
 				"time" : "9:00 am to 2:00 pm",
-				"activities": "Lake Tour Bhimtal, Naukuchia Tal, Sat Tal, Hanuman Temple, Golu Devta Temple at Gorhakhal."
+				"activities": "Lake Tour Bhimtal, Naukuchia Tal, Sat Tal, Hanuman Temple, Golu Devta Temple at Gorhakhal."
 			  },
 			  { 
 				"time" : "4:00 pm to 7:00 pm",
-				"activities": "Evening Nainital Sightseeing such as Nainia Devi Temple, Naini Lake, Tibetan Market, Raj Bhawan, St.John's Church, Land's End, Zoo Gardens, Snow View Point, Cave Garden, as per your time & comfort."
+				"activities": "Evening Nainital Sightseeing such as Nainia Devi Temple, Naini Lake, Tibetan Market."
 			  },
 			  { 
 				"time" : "8:00 pm to 10:00 pm",
@@ -87,16 +91,12 @@
 		  ]
 		},
 		{
-		  "title": "Day 3  Nainital to Corbett (145 Kms : 5–6Hrs. Travelling to Corbett)",
-		  "isMileStone": true,
+		  "title": "Day 3  Nainital Sightseeing",
+		  "isMileStone": false,
 		  "place": [
 			{
 			  "title": "Nainital",
-			  "subtitle": "0Kms"
-			},
-			{
-			  "title": "Corbett",
-			  "subtitle": "120Kms : 5-6Hrs"
+			  "subtitle": ""
 			}
 		  ],
 		  
@@ -106,11 +106,36 @@
 				"activities": "Breakfast at Hotel."				
 			  },
 			  {
-				"time" : "10:00 am to 4:00 pm",
-				"activities": "Enroute visiting Ranikhet. Sightseeing of places in and around Ranikhet like Hairakhan Temple, Chaubatia and Bhaludam etc. later drive to Corbett National Park."				
+				"time" : "9:00 am to 6:00 pm",
+				"activities": "Sightseeing such as Nainia Devi Temple, Naina Peak, Kilbury, Raj Bhawan, St. John's Church, Land's End, Zoo Gardens, Snow View Point, Cave Garden, Tiffin Top as per your time & comfort."				
 			  },
 			  {
-				"time" : "4:00 pm to 6:00 pm",
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }				  
+		  ]
+		},
+		{
+		  "title": "Day 4  Nainital to Corbett (80 Kms : 2Hrs. Travelling to Corbett)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Nainital",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Corbett",
+			  "subtitle": "80Kms : 2Hrs"
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "3:00 pm to 6:00 pm",
 				"activities": "visit Corbett Museum and Garzia Devi Temple."				
 			  },
 			  {
@@ -120,7 +145,32 @@
 		  ]
 		},
 		{
-		"title": "Day 4  Check Out from Corbett (230 Kms : 6-7Hrs. Travelling to Delhi)",
+		  "title": "Day 5  Corbett Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Corbett",
+			  "subtitle": ""
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "9:00 am to 7:00 pm",
+				"activities": "Full day free to Explore Corbett National Park."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }				  
+		  ]
+		},
+		{
+		  "title": "Day 6  Corbett to Mussoorie (305 Kms : 7-8Hrs. Travelling to Mussoorie)",
 		  "isMileStone": true,
 		  "place": [
 			{
@@ -128,8 +178,66 @@
 			  "subtitle": "0Kms"
 			},
 			{
+			  "title": "Mussoorie",
+			  "subtitle": "305Kms : 7-8Hrs"
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 3:00 pm",
+				"activities": "Start Journey to Mussoorie by covering the Sightseeing of Dehradun include, Sai Baba Mandir, Prakasheshwar Mahadev Mandir and Malsi Deer Park."				
+			  },
+			  {
+				"time" : "4:00 pm to 7:00 pm",
+				"activities": "Free to visit mall Road."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }				  
+		  ]
+		},
+		{
+		  "title": "Day 7  Mussoorie Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Mussoorie",
+			  "subtitle": ""
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 6:00 pm",
+				"activities": "visit Kampty Fall (15 kms from Mussoorie on the Yamunotri Road is the most fascinating and the biggest water fall, Kempty Fall is located in a beautiful valley of Mussoorie.) Company Garden, Mall Road, Rope Way (One can enjoy a thrilling ropeway ride to Gun Hill, the second highest peak of Mussoorie - 2122 mts; the peak offers a panoramic view of the Himalayan ranges)."
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }				  
+		  ]
+		},
+		{
+		"title": "Day 8  Check Out from Mussoorie (265 Kms : 7Hrs. Travelling to Delhi)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Mussoorie",
+			  "subtitle": "0Kms"
+			},
+			{
 			  "title": "Delhi",
-			  "subtitle": "230Kms : 6-7Hrs"
+			  "subtitle": "265Kms : 7Hrs"
 			}
 		  ],		  
 		  "subtitles": [
@@ -139,7 +247,7 @@
 			  },
 			  {
 				"time" : "10:00 am to 5:00 pm",
-				"activities": "Reaching at home by having Sweet Memoires in mind and lots of love."				
+				"activities": "Reaching at Railway Station/Airport by having Sweet Memoires in mind and lots of love."				
 			  }			
 		  ]
 		}
@@ -207,86 +315,92 @@
 			"standard": "Ashoka Tiger Trail or Similar",
 			"deluxe": "Regenta Tarika / Wild Exotica or Similar",
 			"luxury": "Corbett The Grand or Similar"
-		}
+		},
+		{			
+			"accomodation": "Mussoorie",
+			"standard": "Savoy Residency or Similar",
+			"deluxe": "Milestone Inn / Kamakshi Grand or Similar",
+			"luxury": "Royal Orchid / Fortune Grace or Similar"
+		}		
 		
 	  ],
 	 "perPersonCostInfo":[
 		{
 			"passengers": "2",
 			"Vehicle": "Dzire/ Indigo",
-			"Standard": "Rs. 12,000/- + 5% GST",
-			"Deluxe": "Rs. 14,250/- + 5% GST",
-			"Luxury": "Rs. 17,500/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "3",
 			"Vehicle": "Dzire/ Indigo",
-			"Standard": "Rs. 9,000/- + 5% GST",
-			"Deluxe": "Rs. 11,000/- + 5% GST",
-			"Luxury": "Rs. 14,000/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "4",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 9,800/- + 5% GST",
-			"Deluxe": "Rs. 12,000/- + 5% GST",
-			"Luxury": "Rs. 15,300/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "5",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 8,450/- + 5% GST",
-			"Deluxe": "Rs. 10,650/- + 5% GST",
-			"Luxury": "Rs. 13,650/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "6",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 8,200/- + 5% GST",
-			"Deluxe": "Rs. 10,500/- + 5% GST",
-			"Luxury": "Rs. 13,700/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "7",
 			"Vehicle": "Innova",
-			"Standard": "Rs. 7,600/- + 5% GST",
-			"Deluxe": "Rs. 9,700/- + 5% GST",
-			"Luxury": "Rs. 12,850/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "8",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 8,750/- + 5% GST",
-			"Deluxe": "Rs. 11,000/- + 5% GST",
-			"Luxury": "Rs. 14,250/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "9",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 8,100/- + 5% GST",
-			"Deluxe": "Rs. 10,250/- + 5% GST",
-			"Luxury": "Rs. 13,400/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "10",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 8,000/- + 5% GST",
-			"Deluxe": "Rs. 10,250/- + 5% GST",
-			"Luxury": "Rs. 13,500/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "11",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 7,550/- + 5% GST",
-			"Deluxe": "Rs. 9,750/- + 5% GST",
-			"Luxury": "Rs. 12,950/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		},
 		{
 			"passengers": "12",
 			"Vehicle": "Tempo Traveller",
-			"Standard": "Rs. 7,550/- + 5% GST",
-			"Deluxe": "Rs. 9,750/- + 5% GST",
-			"Luxury": "Rs. 13,000/- + 5% GST"
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
 		}
 	  ]
 	}
