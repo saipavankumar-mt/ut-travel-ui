@@ -37,7 +37,7 @@ export default {
     // },
     getDestinations() {
       this.$http
-        .get(`${process.env.BASE_URL}data/destinations.json`)
+        .get(`${process.env.BASE_URL}Data/destinations.json`)
         .then((res) => {
           this.title = res.data.title;
           this.titleDesc = res.data.titleDesc;
@@ -61,7 +61,7 @@ export default {
 
 <style lang="scss">
 .destinations {
-  background-image: url("../../assets/images/DeoriyaTal.jpg");
+  background-image: url("../../assets/images/DeoriyaTal.png");
   background-size: cover;
   background-blend-mode: overlay;
   background-color: #363636;

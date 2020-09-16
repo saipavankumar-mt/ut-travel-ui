@@ -140,8 +140,7 @@
             </div>
           </b-tab-item>
           <b-tab-item label="GALLERY">
-            <div class="image-container">
-              <!-- <img class="image" src="../../assets/images/destinations/nainital.webp" alt="destination" /> -->
+            <div class="image-container">             
               <b-carousel
                 :autoplay="false"
                 with-carousel-list

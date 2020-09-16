@@ -31,7 +31,7 @@ export default {
   methods: {
     getPackages() {
       this.$http
-        .get(`${process.env.BASE_URL}data/packages.json`)
+        .get(`${process.env.BASE_URL}Data/packages.json`)
         .then((res) => {
           this.title = res.data.title;
           this.titleDesc = res.data.titleDesc;

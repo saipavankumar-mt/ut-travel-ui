@@ -160,7 +160,7 @@ export default {
     },
     getTourPackages() {
       this.$http
-        .get(`${process.env.BASE_URL}data/tour-destinations.json`)
+        .get(`${process.env.BASE_URL}Data/tour-destinations.json`)
         .then((res) => {
           res.data.destinations.map((res) => {
             if (res.key === "hillStationGetaways") {

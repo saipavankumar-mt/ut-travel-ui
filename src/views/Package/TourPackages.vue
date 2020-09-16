@@ -227,7 +227,7 @@ export default {
     },
     getTourPackages() {
       this.$http
-        .get(`${process.env.BASE_URL}data/tour-packages.json`)
+        .get(`${process.env.BASE_URL}Data/tour-packages.json`)
         .then((res) => {
           // this.tourPackages = res.data;
           res.data.packages.map((res) => {

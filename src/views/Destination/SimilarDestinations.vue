@@ -55,7 +55,7 @@ export default {
   methods: {
     getDestinations() {
       this.$http
-        .get(`${process.env.BASE_URL}data/destinations.json`)
+        .get(`${process.env.BASE_URL}Data/destinations.json`)
         .then((res) => {
           this.title = res.data.title;
           this.titleDesc = res.data.titleDesc;
