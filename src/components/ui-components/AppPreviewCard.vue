@@ -24,7 +24,7 @@
         <p class="title is-4" v-if="item.name">{{ item.name }}</p>
         <p class="subtitle is-7 is-italic" v-if="item.duration">Duration: {{ item.duration }}</p>
         <!-- <p class="subtitle is-5 is-italic" v-if="item.price">From: {{ item.price }}/-Per Person</p> -->
-        <p class="subtitle is-7 is-italic" v-if="item.subtitle">{{ item.subtitle }}</p>
+        <!-- <p class="subtitle is-7 is-italic" v-if="item.subtitle">{{ item.subtitle }}</p> -->
         <p class="subtitle control" v-if="item.rating">
           <b-rate :value="item.rating" disabled />
         </p>
@@ -38,19 +38,19 @@ export default {
   name: "AppPreviewCard",
   props: {
     item: { type: Object, required: true },
-    type: { type: String },
+    type: { type: String, default: 'Destination' },
     appPreviewSettings: {
       default: function () {
         return {
-          showHover: true,
-          cardContent: "",
+          showHover: false,
+          cardContent: "card-setting",
           cardImage: {
-            imageSize: !this.$isMobile() ? "is-4by3" : "is-4by2",
+            imageSize: !this.$isMobile() ? "is-5by3" : "is-5by3",
           },
-          imageBlurOnHover: false,
+          imageBlurOnHover: true,
           hoverAction: {
-            show: false,
-            text: "View Package",
+            show: true,
+            text: `View ${this.type}`,
             type: "BUTTON",
           },
         };
@@ -136,11 +136,12 @@ export default {
       line-height: 20px;
       text-transform: uppercase;
       color: rgb(96, 191, 243);
-      padding-bottom: 8px;
+      // padding-bottom: 8px;
+      margin: 0;
     }
 
     .subtitle {
-      // margin-top: 4px !important;
+      margin-top: 8px !important;
       font-style: unset !important;
       text-transform: capitalize;
       color: #64666b;

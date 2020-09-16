@@ -7,7 +7,7 @@
     :show-all="showAll"
     :scroll-class="scrollClass"
     toggle-btn-label="Destinations"
-    @changeview="() => showAll=!showAll"
+    @changeview="$router.push('./destinations')"
   ></app-preview>
 </template>
 

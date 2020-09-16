@@ -4,12 +4,12 @@
     is-mobile
     :title="title"
     :title-desc="titleDesc"
-    :preview-items-list="currentList"
+    :preview-items-list="packages"
     :is-model-two="true"
     :show-all="showAll"
     :scroll-class="scrollClass"
     toggle-btn-label="Packages"
-    @changeview="() => showAll=!showAll"
+    @changeview="$router.push('./tour-packages')"
   ></app-preview>
 </template>
 
