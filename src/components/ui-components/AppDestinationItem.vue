@@ -5,7 +5,7 @@
         <img
           class="image"
           :class="toggleClass"
-          src="../../assets/images/destinations/nainital.webp"
+          src="../../assets/images/destinations/NainitalTile.png"
           alt="destination"
         />
       </div>
@@ -30,7 +30,7 @@
         <img
           class="image"
           :class="toggleClass"
-          src="../../assets/images/destinations/nainital.webp"
+          src="../../assets/images/destinations/NainitalTile.png"
           alt="destination"
         />
       </div>

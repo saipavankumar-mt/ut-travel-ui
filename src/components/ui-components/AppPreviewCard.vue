@@ -71,8 +71,7 @@ export default {
       // const fileName = this.item.image.name.toLowerCase();
       // const ext = this.item.image.ext;
 
-      // return require(`../../assets/images/${type}/${fileName}.${ext}`);
-      //return require("../../assets/images/destinations/nainital.webp");
+      // return require(`../../assets/images/${type}/${fileName}.${ext}`);      
     },
   },
   methods: {

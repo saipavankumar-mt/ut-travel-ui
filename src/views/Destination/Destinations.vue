@@ -61,7 +61,7 @@ export default {
 
 <style lang="scss">
 .destinations {
-  background-image: url("../../assets/images/DeoriyaTal.jpg");
+  background-image: url("../../assets/images/DeoriyaTal.png");
   background-size: cover;
   background-blend-mode: overlay;
   background-color: #363636;
