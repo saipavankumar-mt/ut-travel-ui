@@ -11,8 +11,7 @@
       :key="idx"
       :item="item"
       :app-preview-settings="appPreviewSettings"
-      @viewMoreClick="
-      onViewPackageClicked"
+      @viewMoreClick="onViewPackageClicked"
     ></app-preview-card>
   </section>
 </template>

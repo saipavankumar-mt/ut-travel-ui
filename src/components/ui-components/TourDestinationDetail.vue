@@ -105,7 +105,7 @@
           <div>
             <app-preview-card
               :item="list"
-              @viewMoreClick="onViewMoreClicked"
+              @viewMoreClick="onViewClicked"
               :app-preview-settings="includedPackageSettings"
             ></app-preview-card>
           </div>
@@ -135,7 +135,7 @@
           </b-tab-item>
 
           <b-tab-item label="GALLERY">
-            <div class="image-container">              
+            <div class="image-container">
               <b-carousel
                 :autoplay="false"
                 with-carousel-list
@@ -264,7 +264,7 @@ export default {
           }
         });
     },
-    onViewMoreClicked(value) {
+    onViewClicked(value) {
       this.redirect(value);
     },
 

@@ -62,7 +62,7 @@
           >
             <div class="column is-one-quarter" v-for="(item, idx) in item.data" :key="idx">
               <app-preview-card
-                @viewMoreClick="onViewMoreClicked"
+                @viewMoreClick="onViewClicked"
                 :item="item"
                 :app-preview-settings="appPreviewSettings"
               ></app-preview-card>
@@ -148,7 +148,7 @@ export default {
         behavior: "smooth",
       });
     },
-    onViewMoreClicked(value) {
+    onViewClicked(value) {
       this.redirect(value);
     },
 

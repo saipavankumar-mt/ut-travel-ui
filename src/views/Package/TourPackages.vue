@@ -62,7 +62,7 @@
           >
             <div class="column is-one-quarter" v-for="(item, idx) in tourPackage.data" :key="idx">
               <app-preview-card
-                @viewMoreClick="onViewMoreClicked($event,tourPackage.key)"
+                @viewMoreClick="onViewClicked($event,tourPackage.key)"
                 @openCardModal="openCardModal"
                 :item="item"
                 :app-preview-settings="appPreviewSettings"
@@ -206,7 +206,7 @@ export default {
         behavior: "smooth",
       });
     },
-    onViewMoreClicked(value, key) {
+    onViewClicked(value, key) {
       this.redirect(value, key);
     },
     openCardModal() {

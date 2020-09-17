@@ -9,7 +9,7 @@
       >
         <div class="button-container" v-if="appPreviewSettings.hoverAction.type==='BUTTON'">
           <div class="preview-button">
-            <b-button @click="onViewMoreClick(item)">{{appPreviewSettings.hoverAction.text}}</b-button>
+            <b-button @click="onViewClick(item)">{{appPreviewSettings.hoverAction.text}}</b-button>
           </div>
         </div>
         <div class="description" v-if="appPreviewSettings.hoverAction.type==='TEXT'">
@@ -79,7 +79,7 @@ export default {
         params: { packageName: this.item.key, packageId: this.item.id },
       });
     },
-    onViewMoreClick(value) {
+    onViewClick(value) {
       this.$emit("viewMoreClick", value);
     },
     openCardModal() {
