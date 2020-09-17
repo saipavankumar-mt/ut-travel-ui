@@ -16,7 +16,8 @@
         </div>-->
       </div>
       <div class="icon-container">
-        <img class="icon-image" v-bind:src="require('../../assets/images/temple-icon.png')" alt />
+
+        <img class="icon-image" v-bind:src="require('../../assets/svg/' + availablePackagesInfo.image)" alt />
       </div>
 
       <!-- </div> -->
@@ -87,10 +88,10 @@ export default {
     cursor: pointer;
     box-shadow: 0 0 15px 2px;
     transform: scale(1.07);
-    background: rgb(96, 191, 243);
-    span {
-      color: white !important;
-    }
+    // background: rgb(96, 191, 243);
+    // span {
+    //   color: white !important;
+    // }
   }
   .available-packages-tile {
     width: 100%;
@@ -114,7 +115,9 @@ export default {
         font-weight: bold;
       }
       .packages-count {
-        font: 15px/18px 'Roboto Condensed', sans-serif;
+        font: 12px/18px "Lato", sans-serif;
+        font-weight: 600;
+        // font: 15px/18px 'Roboto Condensed', sans-serif;
         color: rgb(145, 143, 155);
       }
       .plus-sign {
