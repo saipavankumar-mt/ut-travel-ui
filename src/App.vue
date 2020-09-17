@@ -6,8 +6,8 @@
         <div class="app-router" id="app-main-container">
           <router-view />
         </div>
+        <the-footer></the-footer>
       </div>
-      <the-footer></the-footer>
     </div>
   </div>
 </template>

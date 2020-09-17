@@ -30,34 +30,6 @@
         </router-link>
       </div>
     </div>
-    <!-- <div class="sidebar-page" v-if="toggleNavbar">
-      <section class="sidebar-layout">
-        <b-sidebar position="static" :mobile="mobile"  type="is-light" open>
-          <div class="p-1">
-            <div class="block">
-              <img src="/img/logo.6f0ade75.png" alt="Uttaranchal holidays" />
-            </div>
-            <b-menu class="is-custom-mobile">
-              <b-menu-list label="Menu">
-                <router-link
-                  class="navbar-item"
-                  v-for="(navItem, idx) in navMenu"
-                  :to="navItem.path || '/'"
-                  exact
-                  :key="idx"
-                >
-                  <b-menu-item
-                    @click="toggleSideNavBar()"
-                    :icon="navItem.icon"
-                    :label="navItem.label"
-                  ></b-menu-item>
-                </router-link>
-              </b-menu-list>
-            </b-menu>
-          </div>
-        </b-sidebar>
-      </section>
-    </div>-->
     <div v-if="toggleNavbar" :class="{ overlay: toggleNavbar === true }">
       <div class="side-nav" :class="{ open: toggleNavbar === true }">
         <div class="top-bar">
@@ -165,7 +137,7 @@ export default {
     // font-family: 'Mogra';
     // font-family: "SFProDisplay-Bold";
     // text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 600;
     font-size: 1rem;
     align-self: flex-end;
