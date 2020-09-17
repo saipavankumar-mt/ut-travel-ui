@@ -62,7 +62,6 @@ export default {
       this.$http
         .get(`${process.env.BASE_URL}Data/tour-destinations.json`)
         .then((res) => {
-          debugger;
           console.log(this.packageKey);
           res.data.destinations.map((response) => {
             if (response.key === this.packageKey) {
