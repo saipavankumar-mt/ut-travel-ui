@@ -17,7 +17,11 @@
     >
       <template slot="item" slot-scope="list">
         <div>
-          <app-preview-card :item="list" :app-preview-settings="appPreviewSettings"></app-preview-card>
+          <app-preview-card
+            :item="list"
+            :app-preview-settings="appPreviewSettings"
+            @viewMoreClick="onViewPackageClicked"
+          ></app-preview-card>
         </div>
       </template>
     </b-carousel-list>
@@ -30,6 +34,7 @@ export default {
   components: {},
   props: {
     itineraryId: String,
+    packageKey: String,
   },
   data() {
     return {
@@ -55,14 +60,22 @@ export default {
   methods: {
     getDestinations() {
       this.$http
-        .get(`${process.env.BASE_URL}Data/destinations.json`)
+        .get(`${process.env.BASE_URL}Data/tour-destinations.json`)
         .then((res) => {
-          this.title = res.data.title;
-          this.titleDesc = res.data.titleDesc;
-          this.packages = res.data.items.filter(
-            (item) => item.id !== this.itineraryId
-          );
+          debugger;
+          console.log(this.packageKey);
+          res.data.destinations.map((response) => {
+            if (response.key === this.packageKey) {
+              this.packages = response.items.filter(
+                (item) => item.id !== this.itineraryId
+              );
+              this.packages = this.$randomElements(this.packages, 5);
+            }
+          });
         });
+    },
+    onViewPackageClicked(value) {
+      this.$emit("similarPackageRouteChange", value);
     },
   },
 };

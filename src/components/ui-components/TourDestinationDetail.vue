@@ -167,7 +167,11 @@
       </section>
     </div>
     <div class="similartours">
-      <similar-destinations :itineraryId="destinationPackages.id"></similar-destinations>
+      <similar-destinations
+        :itineraryId="destinationPackages.id"
+        :package-key="keyMethod"
+        @similarPackageRouteChange="redirect"
+      ></similar-destinations>
     </div>
   </div>
 </template>
@@ -272,6 +276,9 @@ export default {
       this.$router.push({
         name: "detail",
         params: { packageName: value.key, packageId: value.id },
+        query: {
+          key: this.$route.query.key,
+        },
       });
     },
   },
@@ -281,6 +288,9 @@ export default {
         this.destinationPackages.includedPackages.length > 0
         ? true
         : false;
+    },
+    keyMethod() {
+      return this.$route.query.key;
     },
   },
   created: function () {
@@ -305,7 +315,7 @@ export default {
   }
   .destination-carousel {
     box-shadow: none !important;
-    margin: 0 2rem !important;
+    // margin: 0 2rem !important;
     max-width: 100% !important;
     padding: 1rem 0 2rem 0;
     /deep/.carousel-slide {

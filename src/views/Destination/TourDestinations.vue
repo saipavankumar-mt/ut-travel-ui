@@ -54,15 +54,15 @@
       <section>
         <b-tabs v-model="activeIndex">
           <b-tab-item
-            v-for="(item, idx) in tourPackagesHeader"
+            v-for="(tourPackage, idx) in tourPackagesHeader"
             :key="idx"
             class="columns is-multiline"
-            :label="item.type"
+            :label="tourPackage.type"
             size="is-medium"
           >
-            <div class="column is-one-quarter" v-for="(item, idx) in item.data" :key="idx">
+            <div class="column is-one-quarter" v-for="(item, idx) in tourPackage.data" :key="idx">
               <app-preview-card
-                @viewMoreClick="onViewClicked"
+                @viewMoreClick="onViewClicked($event,tourPackage.key)"
                 :item="item"
                 :app-preview-settings="appPreviewSettings"
               ></app-preview-card>
@@ -103,12 +103,12 @@ export default {
       tourPackagesHeader: [
         {
           type: "HILL STATION",
-          key: "HILL",
+          key: "hillStationGetaways",
           data: [],
         },
         {
           type: "TREKKING",
-          key: "TREKKING",
+          key: "trekkingPackages",
           data: [],
         },
       ],
@@ -148,14 +148,16 @@ export default {
         behavior: "smooth",
       });
     },
-    onViewClicked(value) {
-      this.redirect(value);
+    onViewClicked(value, key) {
+      this.redirect(value, key);
     },
-
-    redirect: function (value) {
+    redirect: function (value, destinationKey) {
       this.$router.push({
         name: "destination-detail",
         params: { destinationName: value.key, destinationId: value.id },
+        query: {
+          key: destinationKey,
+        },
       });
     },
     getTourPackages() {
@@ -172,10 +174,10 @@ export default {
           });
 
           this.tourPackagesHeader.map((response) => {
-            if (response.key === "HILL") {
+            if (response.key === "hillStationGetaways") {
               response.data = this.tourPackages.hillStationGetaways;
             }
-            if (response.key === "TREKKING") {
+            if (response.key === "trekkingPackages") {
               response.data = this.tourPackages.trekkingPackages;
             }
           });
