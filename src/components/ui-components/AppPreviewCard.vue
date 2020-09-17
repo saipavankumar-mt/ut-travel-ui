@@ -1,6 +1,4 @@
 <template>
-  <!-- v-bind:class="{'preview-card-hover': appPreviewSettings.showHover}" -->
-  <!-- v-bind:style="{ padding: appPreviewSettings.padding +'!important' }" -->
   <div
     class="preview-card card"
     v-bind:class="{'preview-card-hover': appPreviewSettings.showHover}"
@@ -9,8 +7,10 @@
       <figure
         :class="['image', appPreviewSettings.cardImage.imageSize,{'thumbnail': appPreviewSettings.imageBlurOnHover}]"
       >
-        <div class="preview-button" v-if="appPreviewSettings.hoverAction.type==='BUTTON'">
-          <b-button @click="onViewMoreClick(item)">{{appPreviewSettings.hoverAction.text}}</b-button>
+        <div class="button-container" v-if="appPreviewSettings.hoverAction.type==='BUTTON'">
+          <div class="preview-button">
+            <b-button @click="onViewMoreClick(item)">{{appPreviewSettings.hoverAction.text}}</b-button>
+          </div>
         </div>
         <div class="description" v-if="appPreviewSettings.hoverAction.type==='TEXT'">
           <p>{{item.description}}</p>
@@ -23,8 +23,6 @@
         <p class="title is-4" v-if="item.title">{{ item.title }}</p>
         <p class="title is-4" v-if="item.name">{{ item.name }}</p>
         <p class="subtitle is-7 is-italic" v-if="item.duration">Duration: {{ item.duration }}</p>
-        <!-- <p class="subtitle is-5 is-italic" v-if="item.price">From: {{ item.price }}/-Per Person</p> -->
-        <!-- <p class="subtitle is-7 is-italic" v-if="item.subtitle">{{ item.subtitle }}</p> -->
         <p class="subtitle control" v-if="item.rating">
           <b-rate :value="item.rating" disabled />
         </p>
@@ -38,7 +36,7 @@ export default {
   name: "AppPreviewCard",
   props: {
     item: { type: Object, required: true },
-    type: { type: String, default: 'Destination' },
+    type: { type: String, default: "Destination" },
     appPreviewSettings: {
       default: function () {
         return {
@@ -71,7 +69,7 @@ export default {
       // const fileName = this.item.image.name.toLowerCase();
       // const ext = this.item.image.ext;
 
-      // return require(`../../assets/images/${type}/${fileName}.${ext}`);      
+      // return require(`../../assets/images/${type}/${fileName}.${ext}`);
     },
   },
   methods: {
@@ -196,8 +194,14 @@ export default {
   }
 }
 
-.thumbnail .preview-button {
-  padding-top: 70px;
+.preview-button {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnail .button-container {
   top: 0;
   position: absolute;
   background: rgba(1, 1, 1, 0.8);

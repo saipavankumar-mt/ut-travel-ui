@@ -27,6 +27,7 @@ const routes = [
     path: '/tour-package/:packageId/:packageName',
     name: 'detail',
     component: PackageDetail,
+    props: true,
     // beforeEnter: (to, from, next) => {
     //   /*
     //    todo check if to === from
@@ -37,8 +38,6 @@ const routes = [
     //     return next();
     //   }
     // },
-
-    props: true,
   },
 
   {

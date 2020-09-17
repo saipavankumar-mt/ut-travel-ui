@@ -11,7 +11,8 @@
       :key="idx"
       :item="item"
       :app-preview-settings="appPreviewSettings"
-      @viewMoreClick="onViewMoreClicked"
+      @viewMoreClick="
+      onViewPackageClicked"
     ></app-preview-card>
   </section>
 </template>
@@ -21,12 +22,21 @@ export default {
   name: "SimilarPackages",
   components: {},
   props: {
-    itineraryId: String,
+    itineraryId: {
+      type: String,
+      default: "",
+    },
+    packageKey: {
+      type: String,
+      default: "",
+    },
   },
 
   data() {
     return {
+      userInputValue: 5,
       packages: [],
+      tourPackages: [],
       appPreviewSettings: {
         showHover: false,
         cardContent: "card-setting",
@@ -45,20 +55,22 @@ export default {
     this.getPackages();
   },
   methods: {
-    onViewMoreClicked(value) {
-      // this.redirect(value);
+    onViewPackageClicked(value) {
       this.$emit("similarPackageRouteChange", value);
     },
 
     getPackages() {
       this.$http
-        .get(`${process.env.BASE_URL}Data/packages.json`)
+        .get(`${process.env.BASE_URL}Data/tour-packages.json`)
         .then((res) => {
-          this.title = res.data.title;
-          this.titleDesc = res.data.titleDesc;
-          this.packages = res.data.items.filter(
-            (item) => item.id !== this.itineraryId
-          );
+          res.data.packages.map((response) => {
+            if (response.key === this.packageKey) {
+              this.packages = response.items.filter(
+                (item) => item.id !== this.itineraryId
+              );
+              this.packages = this.$randomElements(this.packages, 5);
+            }
+          });
         });
     },
   },

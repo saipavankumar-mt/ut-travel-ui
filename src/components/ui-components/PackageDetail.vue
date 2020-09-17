@@ -140,7 +140,7 @@
             </div>
           </b-tab-item>
           <b-tab-item label="GALLERY">
-            <div class="image-container">             
+            <div class="image-container">
               <b-carousel
                 :autoplay="false"
                 with-carousel-list
@@ -170,7 +170,11 @@
         </b-tabs>
       </section>
       <div class="similartours">
-        <similar-packages :itineraryId="posts.id" @similarPackageRouteChange="redirect"></similar-packages>
+        <similar-packages
+          :package-key="keyMethod"
+          :itinerary-id="posts.id"
+          @similarPackageRouteChange="redirect"
+        ></similar-packages>
       </div>
     </div>
   </div>
@@ -179,6 +183,8 @@
 <script>
 import BookingFormVue from "../../views/BookingForm.vue";
 import SimilarPackages from "../../views/Package/SimilarPackages.vue";
+// import { store } from "../../store/index";
+// import { mapState } from "vuex";
 export default {
   name: "PackageDetail",
   components: {
@@ -220,6 +226,9 @@ export default {
       this.$router.push({
         name: "detail",
         params: { packageName: value.key, packageId: value.id },
+        query: {
+          key: this.$route.query.key,
+        },
       });
     },
     checkIfIndexIsOdd(index) {
@@ -271,8 +280,12 @@ export default {
       }
     },
   },
+  computed: {
+    keyMethod() {
+      return this.$route.query.key;
+    },
+  },
   created() {
-    window.scrollTo(0, 0);
     this.$http
       .get(`${process.env.BASE_URL}Data/PackageDetails/${this.packageId}.json`)
       .then((response) => {

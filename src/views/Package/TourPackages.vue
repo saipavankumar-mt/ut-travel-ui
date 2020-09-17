@@ -54,15 +54,15 @@
       <section>
         <b-tabs v-model="activeTab">
           <b-tab-item
-            v-for="(item, idx) in tourPackagesHeader"
+            v-for="(tourPackage, idx) in tourPackagesHeader"
             :key="idx"
             class="columns is-multiline"
-            :label="item.type"
+            :label="tourPackage.type"
             size="is-medium"
           >
-            <div class="column is-one-quarter" v-for="(item, idx) in item.data" :key="idx">
+            <div class="column is-one-quarter" v-for="(item, idx) in tourPackage.data" :key="idx">
               <app-preview-card
-                @viewMoreClick="onViewMoreClicked"
+                @viewMoreClick="onViewMoreClicked($event,tourPackage.key)"
                 @openCardModal="openCardModal"
                 :item="item"
                 :app-preview-settings="appPreviewSettings"
@@ -156,17 +156,17 @@ export default {
       tourPackagesHeader: [
         {
           type: "PILIGRIM YATRAS",
-          key: "DEVOTIONAL",
+          key: "piligrimDestination",
           data: [],
         },
         {
           type: "LEISURE PACKAGES",
-          key: "BEAUTIFUL",
+          key: "beautifulUttranchal",
           data: [],
         },
         {
           type: "ADVENTURES PACKAGES",
-          key: "ADVENTURE",
+          key: "adventurePackages",
           data: [],
         },
       ],
@@ -206,8 +206,8 @@ export default {
         behavior: "smooth",
       });
     },
-    onViewMoreClicked(value) {
-      this.redirect(value);
+    onViewMoreClicked(value, key) {
+      this.redirect(value, key);
     },
     openCardModal() {
       this.$buefy.modal.open({
@@ -219,10 +219,16 @@ export default {
       });
     },
 
-    redirect: function (value) {
+    redirect: function (value, packageKey) {
       this.$router.push({
         name: "detail",
-        params: { packageName: value.key, packageId: value.id },
+        params: {
+          packageName: value.key,
+          packageId: value.id,
+        },
+        query: {
+          key: packageKey,
+        },
       });
     },
     getTourPackages() {
@@ -243,13 +249,13 @@ export default {
           });
 
           this.tourPackagesHeader.map((response) => {
-            if (response.key === "DEVOTIONAL") {
+            if (response.key === "piligrimDestination") {
               response.data = this.tourPackages.piligrimDestination;
             }
-            if (response.key === "BEAUTIFUL") {
+            if (response.key === "beautifulUttranchal") {
               response.data = this.tourPackages.beautifulUttranchal;
             }
-            if (response.key === "ADVENTURE") {
+            if (response.key === "adventurePackages") {
               response.data = this.tourPackages.adventurePackages;
             }
           });
