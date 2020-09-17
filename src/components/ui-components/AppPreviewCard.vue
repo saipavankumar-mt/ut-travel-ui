@@ -49,7 +49,7 @@ export default {
           hoverAction: {
             show: true,
             text: `View ${this.type}`,
-            type: "BUTTON",
+            type: "",
           },
         };
       },
