@@ -101,6 +101,7 @@ $carousel-arrow-color: #47caf0;
     .carousel-arrow {
       .icon {
         top: 5%;
+        display: flex !important;
         -webkit-transform: translateY(-5%);
         -moz-transform: translateY(-5%);
         transform: translateY(-5%);
@@ -111,6 +112,47 @@ $carousel-arrow-color: #47caf0;
         &.has-icons-right {
           right: 2rem;
         }
+        &:after {
+          content: '';
+          width: 0;
+          height: 0;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          top: 0;
+          margin: auto;
+          z-index: -1;
+          border-radius: 50%;
+          background: #47caf0;
+          -webkit-transition: 0.2s;
+          -o-transition: 0.2s;
+          transition: 0.2s;
+        }
+        &:hover {
+          color: #fff;
+          &:after {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+    /deep/ .card-content {
+      padding: 0.5rem !important;
+      .content {
+        .title.is-4 {
+          font: 16px "Lato", sans-serif;
+          font-weight: 600;
+          color: rgb(62, 63, 84);
+          text-transform: capitalize;
+        }
+        .subtitle.is-7 {
+          font: 12px/18px "Lato", sans-serif;
+          font-weight: 600;
+          color: rgb(145, 143, 155);
+          margin-top: 0 !important;
+        } 
       }
     }
   }
@@ -119,12 +161,13 @@ $carousel-arrow-color: #47caf0;
     transform: translateY(30%);
     -webkit-transform: translateY(30%);
     -moz-transform: translateY(30%);
-    right: 10rem;
+    right: 8rem;
     border-radius: 2rem;
     height: 2.3rem;
     z-index: 1;
     transition: all .3s ease;
     overflow: hidden;
+    color: #47caf0;
     &:hover {
       background: #47caf0;
       color: #fff;

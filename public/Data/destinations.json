@@ -3,32 +3,32 @@
   "items": [
     {
       "id": "Dest-L-1",
-      "title": "NAINITAL",
-      "key": "Nainital",
+      "title": "Nainital",
+      "key": "NAINITAL",
       "image": "destinations/NainitalTile.png",
       "subtitle": "...Peachy and Decency, Sign A Peace Treaty",
       "type": "destinations"      
     },
     {
       "id": "Dest-L-2",
-      "title": "KAUSANI",
-      "key": "Kausani",
+      "title": "Kausani",
+      "key": "KAUSANI",
       "image": "destinations/KausaniTile.png",
       "subtitle": "...Abode of Heavenly Mist",
       "type": "destinations"
     },
     {
       "id": "Dest-L-3",
-      "title": "RANIKHET",
-      "key": "Ranikhet",
+      "title": "Ranikhet",
+      "key": "RANIKHET",
       "image": "destinations/RanikhetTile.png",
       "subtitle": "...Peachy and Decency, Sign A Peace Treaty",
       "type": "destinations"
     },
     {
       "id": "Dest-L-4",
-      "title": "ALMORA",
-      "key": "Almora",
+      "title": "Almora",
+      "key": "ALMORA",
       "image": "destinations/AlmoraTile.png",
       "subtitle": "...Peachy and Decency, Sign A Peace Treaty",
       "type": "destinations"
