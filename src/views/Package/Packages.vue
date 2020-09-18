@@ -55,9 +55,13 @@ export default {
 
 <style lang="scss">
 .packages {
-  background-image: url("../../assets/images/Ut-wallpaper.png");
-  background-color: rgba(38, 38, 38, 0.6) !important;
-  background-size: cover;
-  background-blend-mode: overlay;
+  background-color: inherit;
+  // background-image: url("../../assets/images/Ut-wallpaper.png");
+  // background-color: rgba(38, 38, 38, 0.6) !important;
+  // background-size: cover;
+  // background-blend-mode: overlay;
+  // background-repeat: no-repeat;
+  // background-position: center center;
+  // background-attachment: fixed;
 }
 </style>

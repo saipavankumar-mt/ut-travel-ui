@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <the-carousel></the-carousel>
-    <packages class="destination-container"></packages>
+    <packages></packages>
     <destinations></destinations>
     <!-- <destinations-old></destinations-old> -->
     <!-- <about-us></about-us> -->

@@ -9,14 +9,14 @@
       <span v-if="!showAll">View All {{toggleBtnLabel}}</span>
       <span v-else>View Less</span>
     </button>
-    <section v-show="showAll" class="preview-all columns is-multiline">
+    <!-- <section v-show="showAll" class="preview-all columns is-multiline">
       <template v-for="(item, idx) in previewItemsList">
         <div class="column" :class="$isMobile()? '': isModelTwo ? 'is-6' : 'is-3' " :key="idx">
-          <!-- <app-preview-card-model2 v-if="isModelTwo" :item="item"></app-preview-card-model2> -->
+          <app-preview-card-model2 v-if="isModelTwo" :item="item"></app-preview-card-model2>
           <app-preview-card :item="item"></app-preview-card>
         </div>
       </template>
-    </section>
+    </section> -->
 
     <b-carousel-list
       v-show="!showAll"
@@ -80,6 +80,9 @@ $carousel-arrow-color: #47caf0;
     background: none !important;
     .title {
       margin-bottom: 0.3rem;
+      font-family: "Lato", sans-serif;
+      font-weight: 600;
+      color: rgb(62, 63, 84);
     }
     .is-italic {
       color: #efbb20;
@@ -100,11 +103,12 @@ $carousel-arrow-color: #47caf0;
     }
     .carousel-arrow {
       .icon {
-        top: 5%;
         display: flex !important;
+        border-color: #dbdbdb;
+        top: 5%;
+        transform: translateY(-5%);
         -webkit-transform: translateY(-5%);
         -moz-transform: translateY(-5%);
-        transform: translateY(-5%);
         &.has-icons-left {
           right: 5rem;
           left: unset;
@@ -155,6 +159,9 @@ $carousel-arrow-color: #47caf0;
         } 
       }
     }
+    /deep/ .preview-card .button {
+      background: transparent;
+    }
   }
   .toggle-view-btn {
     position: absolute;
@@ -201,14 +208,14 @@ $carousel-arrow-color: #47caf0;
       /deep/.carousel-slide {
         padding: 10px 10px 10px 0 !important;
       }
-      .carousel-arrow {
-        .icon {
-          top: 3%;
-        }
-        .icon.has-icons-right {
-          right: 0;
-        }
-      }
+      // .carousel-arrow {
+      //   .icon {
+      //     top: 3%;
+      //   }
+      //   .icon.has-icons-right {
+      //     right: 0;
+      //   }
+      // }
     }
   }
 }

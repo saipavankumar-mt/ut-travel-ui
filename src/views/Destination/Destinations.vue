@@ -61,12 +61,13 @@ export default {
 
 <style lang="scss">
 .destinations {
-  background-image: url("../../assets/images/DeoriyaTal.png");
-  background-size: cover;
-  background-blend-mode: overlay;
-  background-color: #363636;
-  /deep/ .preview-all {
-    transition: all 0.3s ease-in-out;
-  }
+  // background-image: url("../../assets/images/DeoriyaTal.png");
+  // background-size: cover;
+  // background-blend-mode: overlay;
+  // background-color: #363636;
+  // /deep/ .preview-all {
+  //   transition: all 0.3s ease-in-out;
+  // }
+  background: inherit;
 }
 </style>
