@@ -74,8 +74,7 @@ export default {
 <style lang="scss">
 $carousel-arrow-color: #47caf0;
 .preview {
-  padding-bottom: 1.5rem;
-  padding-left: 30px;
+  padding: 0 30px 15px;
   .preview-header {
     background: none !important;
     .title {
@@ -95,7 +94,7 @@ $carousel-arrow-color: #47caf0;
     max-width: 100% !important;
     padding: 2rem 0 0;
     /deep/.carousel-slide {
-      padding: 30px 30px 30px 0;
+      padding: 30px 15px;
     }
     .column {
       padding: 30px !important;
@@ -168,7 +167,7 @@ $carousel-arrow-color: #47caf0;
     transform: translateY(30%);
     -webkit-transform: translateY(30%);
     -moz-transform: translateY(30%);
-    right: 8rem;
+    right: 10rem;
     border-radius: 2rem;
     height: 2.3rem;
     z-index: 1;
