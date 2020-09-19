@@ -48,6 +48,12 @@
           "image": "destinations/AlmoraTile.png"
         },
         {
+          "id": "Dest-L-6",
+          "title": "Auli",
+          "key": "AULI",
+          "image": "destinations/auli/auliRopeway.png"
+        },
+        {
           "id": "Dest-L-15",
           "title": "Kausani",
           "key": "KAUSANI",
