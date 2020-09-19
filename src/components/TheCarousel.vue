@@ -5,9 +5,9 @@
       animated="slide"
       :has-drag="true"
       :autoplay="true"
-      :interval="2000"
+      :interval="5000"
       :repeat="true"
-      :pause-hover="false"
+      :pause-hover="true"
       :pause-info="false"
       icon-size="is-medium"
     >
