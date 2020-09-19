@@ -21,7 +21,7 @@
       class="preview-carousel container"
       v-model="itemIndex"
       :data="previewItemsList"
-      :items-to-show="$isMobile()?1.5 :itemsToShow"
+      :items-to-show="$isMobile()?2 :itemsToShow"
       :items-to-list="$isMobile()?1 :itemsToShow"
       :arrow-hover="false"
       icon-size="is-medium"
@@ -205,20 +205,54 @@ $carousel-arrow-color: #47caf0;
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .preview {
+    position: relative;
+    padding: 15px 7.5px 0;
+    .preview-header {
+      padding: 7.5px;
+      margin-bottom: unset;
+      .title {
+        font-size: 1.3rem;
+      }
+    }
+    .toggle-view-btn {
+      bottom: 1.2rem;
+      right: 7rem;
+      height: 2rem;
+      font-size: 14px;
+      transform: unset;
+      -webkit-transform: unset;
+      -moz-transform: unset;
+    }
     .preview-all,
     .preview-carousel {
-      padding: 4rem 0 0 !important;
+      padding: 0 0 3rem;
       /deep/.carousel-slide {
-        padding: 10px 10px 10px 0 !important;
+        padding: 15px 7.5px;
+        border: none;
+        .card-content .content {
+          .title.is-4 {
+            font-size: 14px;
+            margin-bottom: .25rem;
+          }
+          .subtitle.is-7 {
+            font-size: 11px;
+          }
+        }
       }
-      // .carousel-arrow {
-      //   .icon {
-      //     top: 3%;
-      //   }
-      //   .icon.has-icons-right {
-      //     right: 0;
-      //   }
-      // }
+      .carousel-arrow {
+        .icon {
+          transform: translateY(-92%);
+          -webkit-transform: translateY(-92%);
+          -moz-transform: translateY(-92%);
+          top: 92%;
+          &.has-icons-right {
+            right: .75rem;
+          }
+          &.has-icons-left {
+            right: 3.5rem;
+          }
+        }
+      }
     }
   }
 }

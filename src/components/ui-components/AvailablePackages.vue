@@ -156,6 +156,12 @@ export default {
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .available-packages {
+    border: 1px solid rgba(145, 143, 155, 0.25);
+    .package-title {
+      .no-of-packages {
+        font-size: 14px !important;
+      }
+    }
     .name {
       padding: 70px;
     }

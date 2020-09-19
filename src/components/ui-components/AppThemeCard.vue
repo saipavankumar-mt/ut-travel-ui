@@ -63,7 +63,19 @@ export default {
 
 @media only screen and (max-width: 640px) and (min-width: 360px) {
   .theme-card.column {
-    padding: .5rem 0 !important;
+    padding: 7.5px !important;
+    width: 50%;
+    display: inline-block;
+    .card-content {
+      height: 9rem;
+      .image img {
+        width: 30%;
+        margin-bottom: 15%;
+      }
+      .title {
+        font-size: 15px;
+      }
+    }
   }
 }
 </style>

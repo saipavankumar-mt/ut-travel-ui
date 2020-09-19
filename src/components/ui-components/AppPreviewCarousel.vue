@@ -1,27 +1,26 @@
 <template>
-  <div class="preview-carousel">
-    <b-carousel
-      v-model="slideIndex"
-      animated="fade"
-      :has-drag="true"
-      :autoplay="true"
-      :interval="3000"
-      :repeat="true"
-      :pause-hover="true"
-      :pause-info="false"
-      :indicator="false"
-      :arrow-hover="false"
-      icon-size="is-large"
-    >
-      <b-carousel-item v-for="item in carouselItems" :key="item.id">
-        <div class="preview-carousel-content">
-          <div class="title">{{item.title}}</div>
-          <img v-bind:src="require('../../assets/images/' + item.image)" v-bind:alt="item.image" />
-          <button class="button is-primary">Explore Now</button>
-        </div>
-      </b-carousel-item>
-    </b-carousel>
-  </div>
+  <b-carousel
+    class="preview-carousel"
+    v-model="slideIndex"
+    animated="slide"
+    :has-drag="true"
+    :autoplay="true"
+    :interval="3000"
+    :repeat="true"
+    :pause-hover="true"
+    :pause-info="false"
+    :indicator="false"
+    :arrow-hover="$isMobile ? true : false"
+    icon-size="is-large"
+  >
+    <b-carousel-item v-for="item in carouselItems" :key="item.id">
+      <div class="preview-carousel-content">
+        <div class="title">{{item.title}}</div>
+        <img v-bind:src="require('../../assets/images/' + item.image)" v-bind:alt="item.image" />
+        <button class="button is-primary">Explore Now</button>
+      </div>
+    </b-carousel-item>
+  </b-carousel>
 </template>
 
 <script>
@@ -61,6 +60,7 @@ export default {
         font-size: 2rem;
         background: linear-gradient(360deg, #272424, transparent);
         width: 100%;
+        border-radius: 4px;
       }
       img {
         height: 330px;
@@ -106,6 +106,33 @@ export default {
             width: 100%;
             height: 100%;
           }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .preview-carousel {
+    padding: 15px;
+    min-height: 96px;
+    .carousel-items {
+      overflow: initial !important;
+      height: 96px;
+      .preview-carousel-content {
+        height: 96px;
+        border-radius: 4px;
+        .title {
+          letter-spacing: 1px;
+          font-size: 1rem;
+        }
+        img {
+          height: 96px;
+        }
+        .button {
+          right: 1.2%;
+          height: 15%;
+          width: 20%;
+          font-size: 10px;
         }
       }
     }
