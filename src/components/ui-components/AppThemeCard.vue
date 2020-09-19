@@ -26,25 +26,28 @@ export default {
 
 <style lang="scss">
 .theme-card {
-  padding: 0 15px 30px;
+  padding: 0 15px;
   .card-content {
     background-color: white;
-    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
-      0 0px 0 1px rgba(10, 10, 10, 0.02);
+    // box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    //   0 0px 0 1px rgba(10, 10, 10, 0.02);
     max-width: 100%;
     position: relative;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid rgba(145, 143, 155, 0.25);
     .title {
-      font: 18px 'Lato', sans-serif;
+      font: 16px 'Lato', sans-serif;
       font-weight: 600;
       color: #3e3f54;
     }
     .subtitle {
-      font: 14px/18px 'Lato', sans-serif;
+      font: 12px/18px 'Lato', sans-serif;
       font-weight: 600;
       color: #918f9b;
     }
     .image img {
-      width: 25%;
+      width: 20%;
       margin: auto;
       margin-bottom: 5%;
       transition: transform .3s ease-in-out;

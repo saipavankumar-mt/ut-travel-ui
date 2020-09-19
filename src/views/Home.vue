@@ -2,6 +2,7 @@
   <div class="home">
     <the-carousel></the-carousel>
     <packages></packages>
+    <adventure-packages></adventure-packages>
     <destinations></destinations>
     <package-themes></package-themes>
     <!-- <destinations-old></destinations-old> -->
@@ -14,6 +15,7 @@ import TheCarousel from "../components/TheCarousel.vue";
 import Packages from "./Package/Packages.vue";
 import Destinations from "./Destination/Destinations.vue";
 import PackageThemes from "./Package/PackageThemes.vue";
+import AdventurePackages from "./Package/AdventurePackages.vue";
 
 export default {
   name: "Home",
@@ -22,6 +24,7 @@ export default {
     Packages,
     Destinations,
     PackageThemes,
+    AdventurePackages,
   },
   created() {
     window.scrollTo(0, 0);

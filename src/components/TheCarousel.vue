@@ -5,9 +5,9 @@
       animated="slide"
       :has-drag="true"
       :autoplay="true"
-      :interval="2000"
+      :interval="3000"
       :repeat="true"
-      :pause-hover="false"
+      :pause-hover="true"
       :pause-info="false"
       icon-size="is-medium"
     >
@@ -310,6 +310,13 @@ export default {
     position: unset;
     top: unset;
     z-index: unset;
+  }
+
+  .carousel .carousel-items {
+    height: 14rem;
+    .carousel-img {
+      height: 14rem;
+    }
   }
 }
 </style>

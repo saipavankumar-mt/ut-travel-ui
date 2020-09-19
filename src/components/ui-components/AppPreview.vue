@@ -1,9 +1,7 @@
 <template>
   <div class="preview">
-    <header class="preview-header hero is-dark is-bold" :class="'scroll-preview-'+scrollClass">
-      <div class="hero-body">
-        <h1 class="title">{{title}}</h1>
-      </div>
+    <header class="preview-header">
+      <h1 class="title">{{title}}</h1>
     </header>
     <button class="toggle-view-btn button" @click="$emit('changeview')">
       <span v-if="!showAll">View All {{toggleBtnLabel}}</span>
@@ -74,14 +72,16 @@ export default {
 <style lang="scss">
 $carousel-arrow-color: #47caf0;
 .preview {
-  padding: 0 30px 15px;
+  padding: 0 30px;
   .preview-header {
     background: none !important;
+    padding: 3rem 15px 0;
+    margin-bottom: -2.45rem;
     .title {
-      margin-bottom: 0.3rem;
-      font-family: "Lato", sans-serif;
+      font: 1.5rem/18px "Lato", sans-serif;
       font-weight: 600;
-      color: rgb(62, 63, 84);
+      color: #3e3f54;
+      text-align: left;
     }
     .is-italic {
       color: #efbb20;
@@ -160,6 +160,10 @@ $carousel-arrow-color: #47caf0;
     }
     /deep/ .preview-card .button {
       background: transparent;
+      border-radius: 2rem;
+      &:hover {
+        background: #47caf0;
+      }
     }
   }
   .toggle-view-btn {

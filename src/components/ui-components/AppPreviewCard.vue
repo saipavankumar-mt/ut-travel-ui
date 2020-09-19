@@ -22,6 +22,7 @@
       <div class="content">
         <p class="title is-4" v-if="item.title">{{ item.title }}</p>
         <p class="title is-4" v-if="item.name">{{ item.name }}</p>
+        <p class="subtitle is-7" v-if="item.subtitle">{{ item.subtitle }}</p>
         <p class="subtitle is-7 is-italic" v-if="item.duration">Duration: {{ item.duration }}</p>
         <p class="subtitle control" v-if="item.rating">
           <b-rate :value="item.rating" disabled />

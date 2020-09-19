@@ -1,9 +1,7 @@
 <template>
   <div class="package-theme">
-    <header class="theme-header hero is-bold">
-      <div class="hero-body">
-        <h1 class="title">{{title}}</h1>
-      </div>
+    <header class="theme-header">
+      <h1 class="title">{{title}}</h1>
     </header>
     <section class="theme-content columns is-multiline">
       <app-theme-card class="column is-3" v-for="item in themes" :key="item.id" :item="item" @clickaction="redirect(item.id)"></app-theme-card>
@@ -41,18 +39,19 @@ export default {
 
 <style lang="scss">
 .package-theme {
-  padding: 0 30px 15px;
+  padding: 0 30px;
   .theme-header {
     background: none !important;
+    padding: 3rem 15px 0;
     .title {
-      margin-bottom: 0.3rem;
-      font-family: 'Lato', sans-serif;
+      font: 1.5rem/18px "Lato", sans-serif;
       font-weight: 600;
-      color: rgb(62, 63, 84);
+      color: #3e3f54;
+      text-align: left;
     }
   }
   .theme-content {
-    padding: 0;
+    padding: 30px 0;
   }
 }
 </style>
