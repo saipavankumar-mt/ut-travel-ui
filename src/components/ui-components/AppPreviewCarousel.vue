@@ -10,7 +10,7 @@
     :pause-hover="true"
     :pause-info="false"
     :indicator="false"
-    :arrow-hover="$isMobile ? true : false"
+    :arrow-hover="false"
     icon-size="is-large"
   >
     <b-carousel-item v-for="item in carouselItems" :key="item.id">
@@ -42,7 +42,7 @@ export default {
 
 <style lang="scss">
 .preview-carousel {
-  padding: 30px 45px;
+  padding: 3rem 45px 30px;
   border-radius: 4px;
   .carousel-items {
     overflow: initial !important;
@@ -134,6 +134,9 @@ export default {
           width: 20%;
           font-size: 10px;
         }
+      }
+      .carousel-arrow {
+        opacity: 0;
       }
     }
   }
