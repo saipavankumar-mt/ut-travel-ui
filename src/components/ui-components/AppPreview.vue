@@ -1,26 +1,15 @@
 <template>
   <div class="preview">
     <header class="preview-header">
-      <h1 class="title">{{title}}</h1>
+      <h1 class="title">{{categoryInfo.title}}</h1>
     </header>
-    <button class="toggle-view-btn button" @click="$emit('changeview')">
-      <span v-if="!showAll">View All {{toggleBtnLabel}}</span>
-      <span v-else>View Less</span>
+    <button class="toggle-view-btn button" @click="goToCategory(categoryInfo.key)">
+      <span>View All {{toggleBtnLabel}}</span>
     </button>
-    <!-- <section v-show="showAll" class="preview-all columns is-multiline">
-      <template v-for="(item, idx) in previewItemsList">
-        <div class="column" :class="$isMobile()? '': isModelTwo ? 'is-6' : 'is-3' " :key="idx">
-          <app-preview-card-model2 v-if="isModelTwo" :item="item"></app-preview-card-model2>
-          <app-preview-card :item="item"></app-preview-card>
-        </div>
-      </template>
-    </section> -->
-
     <b-carousel-list
-      v-show="!showAll"
       class="preview-carousel container"
       v-model="itemIndex"
-      :data="previewItemsList"
+      :data="categoryInfo.items"
       :items-to-show="$isMobile()?2 :itemsToShow"
       :items-to-list="$isMobile()?1 :itemsToShow"
       :arrow-hover="false"
@@ -28,14 +17,15 @@
       :refresh="true"
     >
       <template slot="item" slot-scope="list">
-        <!-- <app-preview-card-model2 v-if="isModelTwo" :item="list"></app-preview-card-model2> -->
-        <app-preview-card :item="list" :type="toggleBtnLabel.slice(0, -1)"></app-preview-card>
+        <app-preview-card :item="list" @viewMoreClick="goToDetail($event,categoryInfo.key)"></app-preview-card>
       </template>
     </b-carousel-list>
   </div>
 </template>
 
 <script>
+import { homePageViewAll as viewAllMapping } from '../../utils/path-mappings';
+
 export default {
   name: 'AppPreview',
   components: {},
@@ -45,24 +35,32 @@ export default {
     };
   },
   props: {
-    title: { type: String, required: true },
-    titleDesc: { type: String },
-    previewItemsList: { type: Array, required: true },
-    isModelTwo: { type: Boolean, default: false },
-    showAll: { type: Boolean, default: false },
-    scrollClass: { type: String },
+    categoryInfo: { type: Object, required: true },
+    routeCategory: { type: String },
     toggleBtnLabel: { type: String },
-  },
-  computed: {
-    itemsToShow() {
-      return this.isModelTwo ? 5 : 5;
-    },
+    itemsToShow: { type: Number, default: 5 },
   },
   methods: {
-    changeView(className) {
-      this.$emit("changeview");
-      document.querySelector("." + className).scrollIntoView({
-        behavior: "smooth",
+    goToDetail(value, categoryKey) {
+      const paramsObj =
+        this.routeCategory === 'detail'
+          ? { packageName: value.key, packageId: value.id }
+          : { destinationName: value.key, destinationId: value.id };
+      this.$router.push({
+        name: this.routeCategory,
+        params: paramsObj,
+        query: {
+          key: categoryKey,
+        },
+      });
+    },
+    goToCategory(categoryKey) {
+      this.$router.push({
+        name: viewAllMapping[categoryKey].routeName,
+        params: {
+          currentTabIndex: viewAllMapping[categoryKey].tabIndex,
+          scroll: true,
+        },
       });
     },
   },
@@ -78,7 +76,7 @@ $carousel-arrow-color: #47caf0;
     padding: 3rem 10px 0;
     margin-bottom: -2.45rem;
     .title {
-      font: 1.5rem/18px "Lato", sans-serif;
+      font: 1.5rem/18px 'Lato', sans-serif;
       font-weight: 600;
       color: #3e3f54;
       text-align: left;
@@ -145,17 +143,17 @@ $carousel-arrow-color: #47caf0;
       padding: 0.5rem !important;
       .content {
         .title.is-4 {
-          font: 16px "Lato", sans-serif;
+          font: 16px 'Lato', sans-serif;
           font-weight: 600;
           color: rgb(62, 63, 84);
           text-transform: capitalize;
         }
         .subtitle.is-7 {
-          font: 12px/18px "Lato", sans-serif;
+          font: 12px/18px 'Lato', sans-serif;
           font-weight: 600;
           color: rgb(145, 143, 155);
           margin-top: 0 !important;
-        } 
+        }
       }
     }
     /deep/ .preview-card .button {
@@ -175,7 +173,7 @@ $carousel-arrow-color: #47caf0;
     border-radius: 2rem;
     height: 2.3rem;
     z-index: 1;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     overflow: hidden;
     color: #47caf0;
     &:hover {
@@ -232,11 +230,15 @@ $carousel-arrow-color: #47caf0;
         .card-content .content {
           .title.is-4 {
             font-size: 14px;
-            margin-bottom: .25rem;
+            margin-bottom: 0.25rem;
           }
           .subtitle.is-7 {
             font-size: 11px;
           }
+        }
+        .preview-card .button {
+          height: 2rem;
+          font-size: 14px;
         }
       }
       .carousel-arrow {
@@ -246,7 +248,7 @@ $carousel-arrow-color: #47caf0;
           -moz-transform: translateY(-92%);
           top: 92%;
           &.has-icons-right {
-            right: .75rem;
+            right: 0.75rem;
           }
           &.has-icons-left {
             right: 3.5rem;

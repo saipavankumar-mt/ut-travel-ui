@@ -1,13 +1,9 @@
 <template>
   <app-preview
     class="destinations"
-    :title="title"
-    :title-desc="titleDesc"
-    :preview-items-list="currentList"
-    :show-all="showAll"
-    :scroll-class="scrollClass"
+    :category-info="destinationsData"
+    route-category="destination-detail"
     toggle-btn-label="Destinations"
-    @changeview="$router.push('./destinations')"
   ></app-preview>
 </template>
 
@@ -21,6 +17,7 @@ export default {
       titleDesc: "",
       destinations: [],
       showAll: false,
+      destinationsData: {},
     };
   },
   created() {
@@ -39,21 +36,8 @@ export default {
       this.$http
         .get(`${process.env.BASE_URL}Data/destinations-preview.json`)
         .then((res) => {
-          this.title = res.data.title;
-          this.titleDesc = res.data.titleDesc;
-          this.destinations = res.data.items;
+          this.destinationsData = res.data;
         });
-    },
-  },
-  computed: {
-    scrollClass() {
-      return this.title
-        .split(" ")
-        .map((s) => s.toLowerCase())
-        .join("-");
-    },
-    currentList() {
-      return this.showAll ? this.destinations : this.destinations.slice(0, 8);
     },
   },
 };
@@ -61,13 +45,6 @@ export default {
 
 <style lang="scss">
 .destinations {
-  // background-image: url("../../assets/images/DeoriyaTal.png");
-  // background-size: cover;
-  // background-blend-mode: overlay;
-  // background-color: #363636;
-  // /deep/ .preview-all {
-  //   transition: all 0.3s ease-in-out;
-  // }
   background: inherit;
 }
 </style>
