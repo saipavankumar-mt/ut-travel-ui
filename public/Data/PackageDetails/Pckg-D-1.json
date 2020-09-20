@@ -15,7 +15,7 @@
     "route": "Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi",
     "duration": "11 Nights / 12 Days",
     "nightStay": "Haridwar (2N), Barkot (2N), Uttarkashi (2N), Guptkashi (2N), Kedarnath (1N), Badrinath (1N), Rudraprayag (1N)",
-    "heroImage": "ChardhamTile.png",
+    "heroImage": "chardhamheroimage.png",
     "price": "41000",
     "images": [
       "ChardhamYatra.png",
@@ -429,98 +429,7 @@
         ]
       }
     ],
-    "accomodationInfo": [
-      {
-        "accomodation": "Haridwar",
-        "standard": "Holy Basil/ Paradise Inn or Similar",
-        "deluxe": "Lakashya/ Regenta Orko’s or Similar",
-        "luxury": "Godwin or Similar"
-      },
-      {
-        "accomodation": "Rishikesh",
-        "standard": "Kamakshi Residency or Similar",
-        "deluxe": "Regenta Inn or Similar",
-        "luxury": "Lemon Tree / Aloha or Similar"
-      }
-    ],
-    "perPersonCostInfo": [
-      {
-        "passengers": "2",
-        "vehicle": "Dzire/ Indigo",
-        "standard": "Rs. 14,750/- +5%GST",
-        "deluxe": "Rs. 18,000/- + 5%GST",
-        "luxury": "Rs. 25,250/- + 5%GST"
-      },
-      {
-        "passengers": "3",
-        "vehicle": "Dzire/ Indigo",
-        "standard": "Rs. 11,300/- + 5%GST",
-        "deluxe": "Rs. 14,000/- + 5%GST",
-        "luxury": "Rs. 19,600/- + 5%GST"
-      },
-      {
-        "passengers": "4",
-        "vehicle": "Innova",
-        "standard": "Rs. 12,000/- + 5%GST",
-        "deluxe": "Rs. 15,250/- + 5%GST",
-        "luxury": "Rs. 22,500/- + 5%GST"
-      },
-      {
-        "passengers": "5",
-        "vehicle": "Innova",
-        "standard": "Rs. 10,400/- + 5%GST",
-        "deluxe": "Rs. 13,400/- + 5%GST",
-        "luxury": "Rs. 19,200/- + 5%GST"
-      },
-      {
-        "passengers": "6",
-        "vehicle": "Innova",
-        "standard": "Rs. 10,000/- + 5%GST",
-        "deluxe": "Rs. 13,250/- + 5%GST",
-        "luxury": "Rs. 20,500/- + 5%GST"
-      },
-      {
-        "passengers": "7",
-        "vehicle": "Innova",
-        "standard": "Rs. 9,300/- + 5%GST",
-        "deluxe": "Rs. 12,400/- + 5%GST",
-        "luxury": "Rs. 18,350/- + 5%GST"
-      },
-      {
-        "passengers": "8",
-        "vehicle": "Tempo Traveller",
-        "standard": "Rs. 10,375/- + 5%GST",
-        "deluxe": "Rs. 13,650/- + 5%GST",
-        "luxury": "Rs. 20,875/- + 5%GST"
-      },
-      {
-        "passengers": "9",
-        "vehicle": "Tempo Traveller",
-        "standard": "Rs. 9,700/- + 5%GST",
-        "deluxe": "Rs. 12,800/- + 5%GST",
-        "luxury": "Rs. 18,800/- + 5%GST"
-      },
-      {
-        "passengers": "10",
-        "vehicle": "Tempo Traveller",
-        "standard": "Rs. 9,500/- + 5%GST",
-        "deluxe": "Rs. 12,750/- + 5%GST",
-        "luxury": "Rs. 20,000/- + 5%GST"
-      },
-      {
-        "passengers": "11",
-        "vehicle": "Tempo Traveller",
-        "standard": "Rs. 9,050/- + 5%GST",
-        "deluxe": "Rs. 12,150/- + 5%GST",
-        "luxury": "Rs. 18,200/- + 5%GST"
-      },
-      {
-        "passengers": "12",
-        "vehicle": "Tempo Traveller",
-        "standard": "Rs. 9,000/- + 5%GST",
-        "deluxe": "Rs. 12,250/- + 5%GST",
-        "luxury": "Rs. 19,500/- + 5%GST"
-      }
-    ]
+    "accomodationInfo": [],
+    "perPersonCostInfo": []
   }
 }

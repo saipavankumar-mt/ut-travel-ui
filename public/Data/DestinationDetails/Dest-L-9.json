@@ -1,0 +1,68 @@
+ {
+	"data": {
+		  "id": "Dest-L-9",
+		  "key": "Ramgarh",
+		  "title": "RAMGARH",
+		  "qoute": "…Fruit Bowl Of Kumaon",
+		  "subtitle": "Ramgarh is a small hill station and tourist destination on the way to Mukteshwar in Nainital district of Uttarakhand, located at a height of 1789 mt away from hustle bustle of the city offering pleasent environment and gigantic view of the Himalayas.",
+		  "overview":[
+			{
+			  "title":"Why Ramgarh:",
+			  "subtitle":"Ramgarh is also known as the 'Fruit Bowl of Kumaon' owing to its verdant orchards of peach, apricots, pears, and apples. Located on a high elevation Ramgarh offers an unobstructed view of the snow-capped ranges of the Himalayas."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"With rich vegetation and splendid environment attracts lot op people during summer and monsoon, But for those who love the cold weather winter is ldeal to visit Ramgarh."
+			}
+		  ],
+		  "temperature":[
+			{
+				"season":"Summer",
+				"months":"(April to Mid-June)",
+				"temp":"15°C to 30°C"
+			},
+			{
+				"season":"Monsoon",
+				"months":"(Mid-June to September)",
+				"temp":"15°C to 23°C"
+			},
+			{
+				"season":"Winter",
+				"months":"(October to March)",
+				"temp":"0°C to 10°C"
+			}
+		  ],
+		  "heroImage": "destinations/RamgarhTile.png",
+		  "images": [
+		    "destinations/ramgarh/nathuakhanVillage.png"
+		  ],
+		  "attractions":[
+			{
+				"title": "Nathuakhan Village",
+				"image": "destinations/ramgarh/nathuakhanVillage.png",
+				"description":"Nathuakhan Village is a enclosed village located at an elevation of 1940 mt covered with pine and oak trees is a home to wide range of home and migrated birds. One can trek through some of the remarkable forest trails and mountain walks to reach Devi Mandir, where one can view the 360 ° panorama of the majestic Himalayan ranges."
+			}
+		  ],
+		  "hotels":[
+			
+		  ],
+		  "includedPackages":[
+				
+		  ],
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "The nearest airport that you will find while coming to Ramgarh is about 76 km away, which is Pantnagar airport. One has to get down here and take a cab to Ramgarh."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "About 45 kms from Ramgarh is the nearest railway station which is at Kathgodam. This station is well connected to the major cities of India like Lucknow, Delhi, Kolkata and many more. There are many trains that run up and down on a regular interval between these terminals."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Ramgarh is a remote destination but still, it is well connected by motorable roads with major destinations of Kumaon including Mukteshwar, Nainital, Almora, Haldwani. State buses run to Haldwani, which is the nearest bus junction, and from there one can take a cab to Mukteshwar."			
+			}
+		]
+	}
+	
+}

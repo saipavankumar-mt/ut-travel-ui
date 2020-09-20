@@ -1,0 +1,160 @@
+ {
+	"data": {
+		  "id": "Dest-L-7",
+		  "key": "Kausani",
+		  "title": "KAUSANI",
+		  "qoute": "…The Himalayan Courtyard",
+		  "subtitle": "Kausani is a beautiful hill station, located 53 km. north of Almora. The altitude of this place is about 1890 meters above the sea level. This place offers a 350 Km. view of the Himalayan peaks loke Tirsul, Nanda Devi and Panchachuli. Kausani is famous fir its Tea Garden and wide panoramic view of mighty Himalayas. There are many other attractions near Kausani such as Rudradhari waterfall.",
+		  "overview":[
+			{
+			  "title":"Why Kausani:",
+			  "subtitle":"Kausani truly is a beautiful destination with mesmerising views that would make visitors spellbound and inspired Gandhi to make the comparison to Switzerland. Kausani boasts spectacular and splendour view of Himalayan ranges like Trisul, Nanda Devi and Panchachuli. Furthermore, travellers can go for short treks and hikes from Kausani."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"The immense scenic beauty with bubbling creeks and the snowy Himalayas, winter is the ideal time to visit Kausani. Summer with melodious chirpings of the birds with pleasent weather that extends from morning untill night is an ideal destination to escape scorching sun."
+			}
+		  ],
+		  "temperature":[
+			{
+				"season":"Summer",
+				"months":"(April to Mid-June)",
+				"temp":"14°C to 27°C"
+			},
+			{
+				"season":"Monsoon",
+				"months":"(Mid-June to September)",
+				"temp":"10°C to 25°C"
+			},
+			{
+				"season":"Winter",
+				"months":"(October to March)",
+				"temp":"-4°C to 23°C"
+			}
+		  ],
+		  "heroImage": "destinations/KausaniTile.png",
+		  "images": [
+		    "destinations/kausani/rudradhariFallsAndCaves.png",
+			"destinations/kausani/kausaniTeaEstate.png",
+			"destinations/kausani/baijnathTemple.png",
+			"destinations/kausani/sumitranandanPantGallery.png",
+			"destinations/kausani/anasaktiandLakshmiAshram.png",
+			"destinations/kausani/pinnath.png"
+		  ],
+		  "attractions":[
+			{
+				"title": "Rudradhari Falls And Caves",
+				"image": "destinations/kausani/rudradhariFallsAndCaves.png",
+				"description":"Rudradhari Falls And Caves is a natural attraction that draws attention with its evelasting beauty of the landscape, located around 12 kms away from Kausani is also a popular place for trekking. Near to the falls lies the sacred Someshwar temple dedicated to Lord Shiva along with many ancient caves waiting to be explored."
+			},
+			{
+				"title": "Kausani Tea Estate",
+				"image": "destinations/kausani/kausaniTeaEstate.png",
+				"description":"Preached at an altitude of 1800 mt above the sea level and spread over an area of 208 hectares in almost 21 divisions is a paradise for tea and nature lovers. The Kausani Tea Estate exports its exceptional quality tea to other countries like Australia, Germany and Korea."
+			},
+			{
+				"title": "Baijnath Temple",
+				"image": "destinations/kausani/baijnathTemple.png",
+				"description":"Baijnath Temple is a cluster of 18 stone temples situated on the left bank of Gomati river, dedicated to Lord Shiva located at an altitude of 1126 mt above the sea level. The main shrine in the complex is dedicated to Vaidyanath Shiva in the form of a lingam. The depiction of Parvati, made of grey chloride schist, is a marvel of art."
+			},
+			{
+				"title": "Sumitranandan Pant Gallery",
+				"image": "destinations/kausani/sumitranandanPantGallery.png",
+				"description":"Sumitranandan Pant Gallery is dedicated to famous literary figure of Hindi literature, Sumitranandan Pant who was born in Kausani itself. The museum display the holographs of his poems and a library containing the text copies of his entire literary works is a place with an artistic taste."
+			},
+			{
+				"title": "Anasakti and Lakshmi Ashram",
+				"image": "destinations/kausani/anasaktiandLakshmiAshram.png",
+				"description":"Anasakti Ashram ia a peaceful and picturesque place also known as Gandhi Ashram famous for Mahatma Gandhi stay for two weeks in 1929, where he used to practice Anasakti Yoga. Near by Anasakti Ashram lies the Lakshmi Ashram also knownas Sarla Ashram which is an educational institute for girls founded by Catherine Hailman a disciple of Gandhi, educating and empowering the rural women."
+			},
+			{
+				"title": "Pinnath",
+				"image": "destinations/kausani/pinnath.png",
+				"description":"Taking you through cocooned remote valleys overlooking the Kosi valley Pinnath trek is one of the most cherishable trek in Uttarakhand. Situated at an elavation of 2750 mt Pinnath offers a trek of 5 km from Kausani to Pinnath temple sitting at the peak of the hill dedicated to Lord Bhairon. During the month of october a grand fair is held in Pinnath village will get you in the festive spirit."
+			}
+		  ],
+		  "hotels":[
+			
+		  ],
+		  "includedPackages":[
+			{
+              "id": "Pckg-B-4",
+              "title": "Kumaon Heritage",
+              "key": "KumaonHeritage",
+              "image": "KumaonHeritageTile.png",
+              "duration": "9 Nights / 10 Days"
+            },
+            {
+              "id": "Pckg-B-5",
+              "title": "Beautiful Kumaon",
+              "key": "BeautifulKumaon",
+              "image": "BeautifulKumaonTile.png",
+              "duration": "9 Nights / 10 Days"
+            },
+            {
+              "id": "Pckg-B-9",
+              "title": "Uttaranchal Preview",
+              "key": "UttaranchalPreview",
+              "image": "UttaranchalPreviewTile.png",
+              "duration": "7 Nights / 8 Days"
+            },
+            {
+              "id": "Pckg-B-11",
+              "title": "Aesthetic Kumaon",
+              "key": "AestheticKumaon",
+              "image": "AestheticKumaonTile.png",
+              "duration": "7 Nights / 8 Days"
+            },
+            {
+              "id": "Pckg-B-12",
+              "title": "Alluring Uttarakhand",
+              "key": "AlluringUttarakhand",
+              "image": "AlluringUttarakhandTile.png",
+              "duration": "8 Nights / 9 Days"
+            },
+            {
+              "id": "Pckg-B-13",
+              "title": "Charming Kumaon",
+              "key": "CharmingKumaon",
+              "image": "CharmingKumaonTile.png",
+              "duration": "7 Nights / 8 Days"
+            },
+            {
+              "id": "Pckg-B-16",
+              "title": "Ravishing Uttarakhand",
+              "key": "RavishingUttarakhand",
+              "image": "RavishingUttarakhandTile.png",
+              "duration": "9 Nights / 10 Days"
+            },
+            {
+              "id": "Pckg-B-18",
+              "title": "Spellbinding Kumaon",
+              "key": "SpellbindingKumaon",
+              "image": "SpellbindingKumaonTile.png",
+              "duration": "7 Nights / 8 Days"
+            },
+            {
+              "id": "Pckg-B-20",
+              "title": "Enchanting Uttarakhand",
+              "key": "EnchantingUttarakhand",
+              "image": "EnchantingUttarakhandTile.png",
+              "duration": "9 Nights / 10 Days"
+            }		
+		  ],
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "The nearest airport to Kausani is in Pantnagar, which is around 168 km away. There are flights available that ply between Delhi and Pantnagar daily. While, upon reaching the airport, one can opt for a public bus or can hire a private taxi to reach Kausani."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "To reach by train, one has to get down at the Kathgodam railway station which is the nearest railway station that is around 134 km away from Kausani. Prompt public transport and private taxis available at the station finally reach you to Kausani."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "If you wish to travel by bus then board the state-run buses from Delhi that travel through Hapur, Moradabad, Ramnagar, Ranikhet to finally reach Kausani. Longer route buses are also available that take more time by switching to Rampur route. The option of private taxis is also available if you love to travel with comfort at your own demand."			
+			}
+		]
+	}
+	
+}

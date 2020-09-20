@@ -34,6 +34,13 @@
           "duration": "15 Nights / 16 Days"
         },
         {
+          "id": "Pckg-D-3",
+          "title": "Chardham By Helicopter",
+          "key": "ChardhamByHeli",
+          "image": "ChardhamTile.png",
+          "duration": "4 Nights / 5 Days"
+        },
+        {
           "id": "",
           "title": "Teendham",
           "key": "Teendham",
