@@ -16,8 +16,11 @@
         </div>-->
       </div>
       <div class="icon-container">
-
-        <img class="icon-image" v-bind:src="require('../../assets/svg/' + availablePackagesInfo.image)" alt />
+        <img
+          class="icon-image"
+          v-bind:src="require('../../assets/svg/' + availablePackagesInfo.image)"
+          alt
+        />
       </div>
 
       <!-- </div> -->
@@ -27,29 +30,29 @@
 
 <script>
 export default {
-  name: 'AvailablePackages',
+  name: "AppAvailablePackages",
   components: {},
   data() {
     return {
       pathMapping: {
         PILIGRIM: {
-          path: '/tour-packages',
+          path: "/tour-packages",
           activeTab: 0,
         },
         LIESURE: {
-          path: '/tour-packages',
+          path: "/tour-packages",
           activeTab: 1,
         },
         DESTINATIONS: {
-          path: '/destinations',
+          path: "/destinations",
           activeTab: 0,
         },
         HOTELS: {
-          path: '',
+          path: "",
           activeTab: 1,
         },
         REVIEWS: {
-          path: '',
+          path: "",
           activeTab: 0,
         },
       },
@@ -65,7 +68,7 @@ export default {
         path: this.pathMapping[this.availablePackagesInfo.key].path,
         name: this.pathMapping[this.availablePackagesInfo.key].path.replace(
           /^\//,
-          ''
+          ""
         ),
         params: {
           currentTabIndex: this.pathMapping[this.availablePackagesInfo.key]
@@ -111,7 +114,7 @@ export default {
       .no-of-packages {
         // font-size: 16px;
         color: rgb(62, 63, 84);
-        font: 17px/21px 'Roboto Condensed', sans-serif;
+        font: 17px/21px "Roboto Condensed", sans-serif;
         font-weight: bold;
       }
       .packages-count {

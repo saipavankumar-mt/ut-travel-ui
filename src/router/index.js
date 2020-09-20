@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
-import PackageDetail from '../components/ui-components/PackageDetail.vue';
-import TourDestinationDetail from '../components/ui-components/TourDestinationDetail.vue';
+import AppPackageDetail from '../components/ui-components/AppPackageDetail.vue';
+import AppTourDestinationDetail from '../components/ui-components/AppTourDestinationDetail.vue';
 import TourPackages from '../views/Package/TourPackages.vue';
 import TourDestinations from '../views/Destination/TourDestinations.vue';
 import AboutUs from '../views/AboutUs.vue';
@@ -26,7 +26,7 @@ const routes = [
   {
     path: '/tour-package/:packageId/:packageName',
     name: 'detail',
-    component: PackageDetail,
+    component: AppPackageDetail,
     props: true,
     // beforeEnter: (to, from, next) => {
     //   /*
@@ -56,7 +56,7 @@ const routes = [
   {
     path: '/destination/:destinationId/:destinationName',
     name: 'destination-detail',
-    component: TourDestinationDetail,
+    component: AppTourDestinationDetail,
     props: true,
   },
   {

@@ -179,7 +179,7 @@
 <script>
 import SimilarDestinations from "../../views/Destination/SimilarDestinations.vue";
 export default {
-  name: "TourDestinationDetail",
+  name: "AppTourDestinationDetail",
   components: {
     SimilarDestinations,
   },

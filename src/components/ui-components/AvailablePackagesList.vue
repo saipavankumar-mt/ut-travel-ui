@@ -1,30 +1,27 @@
 <template>
   <div class="available-packages-list">
     <div class="available-packages-list-container">
-      <div class="available-packages-title" v-for="item in AvailablePackagesList" :key="item.id">
-        <available-packages :available-packages-info="item"></available-packages>
+      <div class="available-packages-title" v-for="item in availablePackagesList" :key="item.id">
+        <app-available-packages :available-packages-info="item"></app-available-packages>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import AvailablePackages from './AvailablePackages.vue';
 export default {
-  name: 'AvailablePackagesList',
-  components: {
-    AvailablePackages,
-  },
+  name: "AvailablePackagesList",
+  components: {},
   data() {
     return {
-      AvailablePackagesList: [],
+      availablePackagesList: [],
     };
   },
   created() {
     this.$http
       .get(`${process.env.BASE_URL}Data/available-packages.json`)
       .then((response) => {
-        this.AvailablePackagesList = response.data;
+        this.availablePackagesList = response.data;
       });
   },
 };

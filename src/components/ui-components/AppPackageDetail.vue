@@ -186,7 +186,7 @@ import SimilarPackages from "../../views/Package/SimilarPackages.vue";
 // import { store } from "../../store/index";
 // import { mapState } from "vuex";
 export default {
-  name: "PackageDetail",
+  name: "AppPackageDetail",
   components: {
     SimilarPackages,
   },

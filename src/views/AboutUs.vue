@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class>
         <h1 class="title">About Us</h1>
-        <article class="media profile">
+        <!-- <article class="media profile">
           <div class="media-left">
             <figure class="image is-128x128">
               <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image" />
@@ -42,44 +42,62 @@
               </div>
             </nav>
           </div>
-        </article>
+        </article>-->
         <section class="columns is-multiline" size="is-medium">
-          <div class="column is-one-quarter" v-for="index in 10" :key="index">
-            <div class="profile">
-              <div class="team-image">
-                <figure class="image is-256x256">
-                  <img class="is-rounded" src="../assets/images/aboutUs/picture1.jpeg" alt="Image" />
-                </figure>
-                <!-- <div class="overlay team-overlay"></div> -->
-              </div>
-              <div class="media-content">
-                <div class="content">
-                  <p>
-                    <strong>John Smith</strong>
-                    <small>@johnsmith</small>
-                    <small>31m</small>
-                    <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                  </p>
-                </div>
-                <nav class="level is-mobile">
-                  <div class="level-left">
-                    <a class="level-item" aria-label="reply">
-                      <span class="icon is-small">
-                        <i class="fas fa-reply" aria-hidden="true"></i>
-                      </span>
-                    </a>
-                    <a class="level-item" aria-label="retweet">
-                      <span class="icon is-small">
-                        <i class="fas fa-retweet" aria-hidden="true"></i>
-                      </span>
-                    </a>
-                    <a class="level-item" aria-label="like">
-                      <span class="icon is-small">
-                        <i class="fas fa-heart" aria-hidden="true"></i>
-                      </span>
-                    </a>
+          <div class="column is-one-third" v-for="index in 10" :key="index">
+            <div class="profile-container">
+              <div class="profile">
+                <div class="team-image">
+                  <figure class="image is-256x256">
+                    <img src="../assets/images/aboutUs/picture1.jpeg" alt="Image" />
+                  </figure>
+                  <div class="member-skils">
+                    <div class="overlay team-overlay"></div>
+                    <!-- <div class="member-social-list"> -->
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>John Smith</strong>
+                          <small>@johnsmith</small>
+                          <small>31m</small>
+                          <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                        </p>
+                      </div>
+                      <nav class="level is-mobile">
+                        <div class="level-left">
+                          <a class="level-item" aria-label="reply">
+                            <span class="icon is-small">
+                              <i class="fas fa-reply" aria-hidden="true"></i>
+                            </span>
+                          </a>
+                          <a class="level-item" aria-label="retweet">
+                            <span class="icon is-small">
+                              <i class="fas fa-retweet" aria-hidden="true"></i>
+                            </span>
+                          </a>
+                          <a class="level-item" aria-label="like">
+                            <span class="icon is-small">
+                              <i class="fas fa-heart" aria-hidden="true"></i>
+                            </span>
+                          </a>
+                        </div>
+                      </nav>
+                    </div>
+                    <!-- <ul>
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/in/piyush-baheti-b858a355/"
+                            target="_blank"
+                            class="transition"
+                          >
+                            <i class="fa fa-linkedin fa-1x"></i>
+                          </a>
+                        </li>
+                    </ul>-->
                   </div>
-                </nav>
+                </div>
+                <!-- <div class="overlay team-overlay"></div> -->
+                <!-- </div> -->
               </div>
             </div>
           </div>
@@ -96,10 +114,54 @@ export default {
 </script>
 
 <style lang="scss">
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .team-image {
-  padding: 30px;
-  background: transparent linear-gradient(to top, #4481eb 0, #04befe 100%) 0 0
-    no-repeat padding-box;
+  overflow: hidden;
+  display: block;
+
+  img {
+    border-radius: 10px;
+  }
+
+  .is-rounded {
+    border: 2px solid white;
+  }
+
+  // padding: 30px;
+  // background: transparent linear-gradient(to top, #4481eb 0, #04befe 100%) 0 0
+  //   no-repeat padding-box;
+  position: relative;
+  .member-skils {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+  }
+
+  &:hover {
+    .team-overlay {
+      z-index: -1;
+      background: #fff;
+      // opacity: 0.8;
+    }
+    .overlay {
+      // opacity: 0.8;
+    }
+    .member-skils {
+      top: 0;
+      opacity: 0.8;
+      transition: all 0.5s;
+    }
+  }
 }
 
 .about-us {
@@ -108,7 +170,7 @@ export default {
     margin: unset;
     padding: 1.5rem;
   }
-  background: cadetblue;
+  // background: cadetblue;
   box-shadow: inset 0px 10px 10px -10px #7a7a7a,
     inset 0px -10px 10px -10px #b5b5b5;
   .client-about-us {
@@ -133,8 +195,15 @@ export default {
   .image {
     margin: auto;
   }
+  .profile-container {
+    border-radius: 10px;
+    margin: 16px;
+  }
   .profile {
     height: 100%;
+    // border: 1px solid #eee;
+    background: #fff;
+    // border-radius: 10px;
   }
 
   .level {
