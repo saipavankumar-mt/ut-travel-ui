@@ -83,21 +83,8 @@
                         </div>
                       </nav>
                     </div>
-                    <!-- <ul>
-                        <li>
-                          <a
-                            href="https://www.linkedin.com/in/piyush-baheti-b858a355/"
-                            target="_blank"
-                            class="transition"
-                          >
-                            <i class="fa fa-linkedin fa-1x"></i>
-                          </a>
-                        </li>
-                    </ul>-->
                   </div>
                 </div>
-                <!-- <div class="overlay team-overlay"></div> -->
-                <!-- </div> -->
               </div>
             </div>
           </div>
@@ -153,9 +140,9 @@ export default {
       background: #fff;
       // opacity: 0.8;
     }
-    .overlay {
-      // opacity: 0.8;
-    }
+    // .overlay {
+    //   // opacity: 0.8;
+    // }
     .member-skils {
       top: 0;
       opacity: 0.8;
