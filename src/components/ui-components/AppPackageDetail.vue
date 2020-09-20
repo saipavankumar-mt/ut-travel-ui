@@ -10,15 +10,15 @@
             <span>{{posts.duration}}</span>
           </div>
         </div>-->
-        <p>{{posts.subtitle}}</p>
+        <p>{{ posts.subtitle }}</p>
         <div v-for="(item, i) in posts.overview" :key="i">
-          <div v-if="(i<=2  || i % 2 == 0) && !$isMobile()">
-            <h5>{{item.title}}</h5>
-            <p>{{item.subtitle}}</p>
+          <div v-if="(i <= 2 || i % 2 == 0) && !$isMobile()">
+            <h5>{{ item.title }}</h5>
+            <p>{{ item.subtitle }}</p>
           </div>
           <div v-if="$isMobile()">
-            <h5>{{item.title}}</h5>
-            <p>{{item.subtitle}}</p>
+            <h5>{{ item.title }}</h5>
+            <p>{{ item.subtitle }}</p>
           </div>
         </div>
         <!-- <h5>Temperature</h5>
@@ -52,9 +52,9 @@
           <img :src="posts.heroImage" alt="posts.heroImage" />
         </div>
         <div v-for="(item, i) in posts.overview" :key="i">
-          <div v-if="(i>2 && Math.abs(i % 2) == 1) && !$isMobile()">
-            <h5>{{item.title}}</h5>
-            <p>{{item.subtitle}}</p>
+          <div v-if="i > 2 && Math.abs(i % 2) == 1 && !$isMobile()">
+            <h5>{{ item.title }}</h5>
+            <p>{{ item.subtitle }}</p>
           </div>
         </div>
       </div>
@@ -87,8 +87,9 @@
                         >
                           <i class="fas fa-angle-double-right"></i>
                           <div class="day-subtitle">
-                            <span class="time">{{ title.time }}</span>&nbsp;
-                            <span>{{title.activities}}</span>
+                            <span class="time">{{ title.time }}</span
+                            >&nbsp;
+                            <span>{{ title.activities }}</span>
                           </div>
                         </div>
                       </div>
@@ -105,9 +106,13 @@
                 v-for="(item, i) in posts.inclusionAndExclusion"
                 :key="i"
               >
-                <span class="imp-title">{{item.title}}:&nbsp;</span>
+                <span class="imp-title">{{ item.title }}:&nbsp;</span>
                 <div class="imp-sub-container">
-                  <div class="imp-subtitle" v-for="(title, index) in item.subtitles" :key="index">
+                  <div
+                    class="imp-subtitle"
+                    v-for="(title, index) in item.subtitles"
+                    :key="index"
+                  >
                     <div class="icon-text">
                       <i class="fas fa-angle-double-right"></i>
                       <p>{{ title }}</p>
@@ -118,8 +123,14 @@
             </div>
           </b-tab-item>
           <b-tab-item label="ACCOMODATION & PRICE">
-            <b-table :bordered="true" :data="posts.accomodationInfo" :columns="accomodationColumns"></b-table>
-            <div class="per-person-heading">Per Person Cost for the Package</div>
+            <b-table
+              :bordered="true"
+              :data="posts.accomodationInfo"
+              :columns="accomodationColumns"
+            ></b-table>
+            <div class="per-person-heading">
+              Per Person Cost for the Package
+            </div>
             <b-table
               :bordered="true"
               :data="posts.perPersonCostInfo"
@@ -128,10 +139,18 @@
           </b-tab-item>
           <b-tab-item label="TERMS">
             <div class="imp-info-container">
-              <div class="imp-description" v-for="(item, i) in posts['importantInfo']" :key="i">
-                <span class="imp-title">{{item.title}}:&nbsp;</span>
+              <div
+                class="imp-description"
+                v-for="(item, i) in posts['importantInfo']"
+                :key="i"
+              >
+                <span class="imp-title">{{ item.title }}:&nbsp;</span>
                 <div class="imp-sub-container">
-                  <div class="imp-subtitle" v-for="(title, index) in item.subtitles" :key="index">
+                  <div
+                    class="imp-subtitle"
+                    v-for="(title, index) in item.subtitles"
+                    :key="index"
+                  >
                     <i class="fas fa-angle-double-right"></i>
                     {{ title }}
                   </div>
@@ -181,16 +200,16 @@
 </template>
 
 <script>
-import BookingFormVue from "../../views/BookingForm.vue";
-import SimilarPackages from "../../views/Package/SimilarPackages.vue";
+import BookingFormVue from '../../views/BookingForm.vue';
+import SimilarPackages from '../../views/Package/SimilarPackages.vue';
 // import { store } from "../../store/index";
 // import { mapState } from "vuex";
 export default {
-  name: "AppPackageDetail",
+  name: 'AppPackageDetail',
   components: {
     SimilarPackages,
   },
-  props: ["packageId"],
+  props: ['packageId'],
   watch: {
     $route() {
       window.location.reload();
@@ -222,10 +241,13 @@ export default {
     };
   },
   methods: {
-    redirect: function (value) {
+    redirect: function(value) {
       this.$router.push({
-        name: "detail",
-        params: { packageName: value.key, packageId: value.id },
+        name: 'detail',
+        params: {
+          //  packageName: value.key,
+          packageId: value.id,
+        },
         query: {
           key: this.$route.query.key,
         },
@@ -239,7 +261,7 @@ export default {
         // parent: this,
         component: BookingFormVue,
         hasModalCard: true,
-        customClass: "custom-class custom-class-2",
+        customClass: 'custom-class custom-class-2',
         trapFocus: true,
         props: {
           title: this.posts.title,
@@ -269,8 +291,8 @@ export default {
             (header = {
               field: property,
               label:
-                property === "passengers"
-                  ? "NO. OF PAX"
+                property === 'passengers'
+                  ? 'NO. OF PAX'
                   : property.toUpperCase(),
               centered: true,
             }),
@@ -292,11 +314,11 @@ export default {
         this.posts = response.data.data;
         this.getAccomodationInfo();
         this.getPerPersonCostInfo();
-        this.posts.heroImage = require("../../assets/images/" +
+        this.posts.heroImage = require('../../assets/images/' +
           this.posts.heroImage);
         for (let i = 0; i < this.posts.images.length; i++) {
           this.items.push({
-            image: require("../../assets/images/" + this.posts.images[i]),
+            image: require('../../assets/images/' + this.posts.images[i]),
           });
         }
       });
@@ -377,11 +399,11 @@ export default {
           margin: 1px 7px;
           font-weight: bold;
           font-size: 19px;
-          content: "\00D7";
+          content: '\00D7';
         }
         .pricetag:before {
           position: absolute;
-          content: "\25CF";
+          content: '\25CF';
           color: white;
           text-shadow: 0 0 1px #333;
           font-size: 11px;
@@ -418,7 +440,7 @@ export default {
       justify-content: space-between;
       li {
         h4 {
-          font: 20px/30px "open_sansbold";
+          font: 20px/30px 'open_sansbold';
           color: #4a5258;
           font-weight: 700;
         }
@@ -426,18 +448,18 @@ export default {
     }
 
     p {
-      font: 16px/26px "open_sansregular";
+      font: 16px/26px 'open_sansregular';
       text-align: justify;
       color: #4a5258;
       padding-bottom: 21px;
 
       span {
-        font-family: "OpenSans-Semibold";
+        font-family: 'OpenSans-Semibold';
       }
     }
 
     h5 {
-      font: 16px "open_sansbold";
+      font: 16px 'open_sansbold';
       color: #394048;
       text-transform: uppercase;
       font-weight: 700;
@@ -482,7 +504,7 @@ export default {
         padding-left: 24px;
       }
       .imp-title {
-        font-family: "Mogra";
+        font-family: 'Mogra';
         color: #4a5258;
         text-transform: uppercase;
       }
@@ -490,7 +512,7 @@ export default {
         .icon-text {
           display: flex;
           p {
-            font-family: "Roboto", sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: #4a5258;
             padding-bottom: 5px;
           }
@@ -530,7 +552,7 @@ export default {
 .day-title {
   font-size: 1rem !important;
   h4 {
-    font-family: "Mogra";
+    font-family: 'Mogra';
     color: #4a5258;
     text-transform: uppercase;
   }
@@ -538,7 +560,7 @@ export default {
 
 .day-subtitle {
   span {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #4a5258;
     padding-bottom: 5px;
   }
@@ -571,7 +593,7 @@ export default {
         color: #fff;
         position: absolute;
         bottom: 22px;
-        font: 50px/45px "SFProDisplay-Bold";
+        font: 50px/45px 'SFProDisplay-Bold';
         padding-bottom: 15px;
       }
     }

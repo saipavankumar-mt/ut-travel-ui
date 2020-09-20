@@ -24,7 +24,7 @@ const routes = [
     ],
   },
   {
-    path: '/tour-package/:packageId/:packageName',
+    path: '/tour-package/:packageId',
     name: 'detail',
     component: AppPackageDetail,
     props: true,
@@ -54,7 +54,7 @@ const routes = [
     props: true,
   },
   {
-    path: '/destination/:destinationId/:destinationName',
+    path: '/destination/:destinationId',
     name: 'destination-detail',
     component: AppTourDestinationDetail,
     props: true,

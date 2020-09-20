@@ -2,9 +2,7 @@
   <div class="tour-package">
     <div class="banner">
       <div class="intro">
-        <h1>
-          <span>Uttranchal Tour</span> Packages
-        </h1>
+        <h1><span>Uttranchal Tour</span> Packages</h1>
         <h5>Best Time to Visit Uttarakhand:</h5>
         <p>
           Uttarakhand is a destination to be visited all through the year as
@@ -60,9 +58,13 @@
             :label="tourPackage.type"
             size="is-medium"
           >
-            <div class="column is-one-quarter" v-for="(item, idx) in tourPackage.data" :key="idx">
+            <div
+              class="column is-one-quarter"
+              v-for="(item, idx) in tourPackage.data"
+              :key="idx"
+            >
               <app-preview-card
-                @viewMoreClick="onViewClicked($event,tourPackage.key)"
+                @viewMoreClick="onViewClicked($event, tourPackage.key)"
                 @openCardModal="openCardModal"
                 :item="item"
                 :app-preview-settings="appPreviewSettings"
@@ -130,10 +132,10 @@
 </template>
 
 <script>
-import AppPreviewCard from "../../components/ui-components/AppPreviewCard";
-import BookingFormVue from "../BookingForm.vue";
+import AppPreviewCard from '../../components/ui-components/AppPreviewCard';
+import BookingFormVue from '../BookingForm.vue';
 export default {
-  name: "TourPackages",
+  name: 'TourPackages',
   components: {
     AppPreviewCard,
     // BookingFormVue,
@@ -155,31 +157,31 @@ export default {
       activeTab: this.currentTabIndex,
       tourPackagesHeader: [
         {
-          type: "PILIGRIM YATRAS",
-          key: "piligrimDestination",
+          type: 'PILIGRIM YATRAS',
+          key: 'piligrimDestination',
           data: [],
         },
         {
-          type: "LEISURE PACKAGES",
-          key: "beautifulUttranchal",
+          type: 'LEISURE PACKAGES',
+          key: 'beautifulUttranchal',
           data: [],
         },
         {
-          type: "ADVENTURES PACKAGES",
-          key: "adventurePackages",
+          type: 'ADVENTURES PACKAGES',
+          key: 'adventurePackages',
           data: [],
         },
       ],
       appPreviewSettings: {
         showHover: false,
-        cardContent: "card-setting",
+        cardContent: 'card-setting',
         cardImage: {
-          imageSize: "is-5by3",
+          imageSize: 'is-5by3',
         },
         hoverAction: {
           show: true,
-          text: "View Package",
-          type: "BUTTON",
+          text: 'View Package',
+          type: 'BUTTON',
         },
         imageBlurOnHover: true,
       },
@@ -188,7 +190,7 @@ export default {
   created() {
     window.scrollTo(0, 0);
     this.getTourPackages();
-    console.log("in created");
+    console.log('in created');
   },
   mounted() {
     if (this.scroll) {
@@ -197,13 +199,13 @@ export default {
   },
   methods: {
     onIndexChange() {
-      var element = document.getElementById("scroll");
+      var element = document.getElementById('scroll');
       var headerOffset = 80;
       var elementPosition = element.getBoundingClientRect().top;
       var offsetPosition = elementPosition - headerOffset;
       window.scrollTo({
         top: offsetPosition,
-        behavior: "smooth",
+        behavior: 'smooth',
       });
     },
     onViewClicked(value, key) {
@@ -214,16 +216,16 @@ export default {
         parent: this,
         component: BookingFormVue,
         hasModalCard: true,
-        customClass: "custom-class custom-class-2",
+        customClass: 'custom-class custom-class-2',
         trapFocus: true,
       });
     },
 
-    redirect: function (value, packageKey) {
+    redirect: function(value, packageKey) {
       this.$router.push({
-        name: "detail",
+        name: 'detail',
         params: {
-          packageName: value.key,
+          // packageName: value.key,
           packageId: value.id,
         },
         query: {
@@ -237,25 +239,25 @@ export default {
         .then((res) => {
           // this.tourPackages = res.data;
           res.data.packages.map((res) => {
-            if (res.key === "piligrimDestination") {
+            if (res.key === 'piligrimDestination') {
               this.tourPackages.piligrimDestination = res.items;
             }
-            if (res.key === "beautifulUttranchal") {
+            if (res.key === 'beautifulUttranchal') {
               this.tourPackages.beautifulUttranchal = res.items;
             }
-            if (res.key === "adventurePackages") {
+            if (res.key === 'adventurePackages') {
               this.tourPackages.adventurePackages = res.items;
             }
           });
 
           this.tourPackagesHeader.map((response) => {
-            if (response.key === "piligrimDestination") {
+            if (response.key === 'piligrimDestination') {
               response.data = this.tourPackages.piligrimDestination;
             }
-            if (response.key === "beautifulUttranchal") {
+            if (response.key === 'beautifulUttranchal') {
               response.data = this.tourPackages.beautifulUttranchal;
             }
-            if (response.key === "adventurePackages") {
+            if (response.key === 'adventurePackages') {
               response.data = this.tourPackages.adventurePackages;
             }
           });
@@ -304,7 +306,7 @@ export default {
       justify-content: space-between;
       li {
         h4 {
-          font: 20px/30px "open_sansbold";
+          font: 20px/30px 'open_sansbold';
           color: #4a5258;
           font-weight: 700;
         }
@@ -312,18 +314,18 @@ export default {
     }
 
     p {
-      font: 16px/26px "open_sansregular";
+      font: 16px/26px 'open_sansregular';
       text-align: justify;
       color: #4a5258;
       padding-bottom: 21px;
 
       span {
-        font-family: "OpenSans-Semibold";
+        font-family: 'OpenSans-Semibold';
       }
     }
 
     h5 {
-      font: 16px "open_sansbold";
+      font: 16px 'open_sansbold';
       color: #394048;
       text-transform: uppercase;
       font-weight: 700;
@@ -341,7 +343,7 @@ export default {
       flex-direction: column;
       justify-content: center;
       h2 {
-        font: 25px/32px "clanotmedium";
+        font: 25px/32px 'clanotmedium';
         color: #394048;
         text-align: center;
         font-weight: 700;
@@ -351,7 +353,7 @@ export default {
     p {
       color: #585c66;
       font-size: 18px;
-      font-family: "SFProDisplay-Regular";
+      font-family: 'SFProDisplay-Regular';
       line-height: 23px;
       padding-bottom: 16px;
     }
