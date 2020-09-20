@@ -54,25 +54,25 @@
           "image": "destinations/auli/auliRopeway.png"
         },
         {
-          "id": "Dest-L-15",
-          "title": "Kausani",
-          "key": "KAUSANI",
-          "image": "destinations/KausaniTile.png"
-        },
-        {
-          "id": "Dest-L-16",
+          "id": "Dest-L-8",
           "title": "Mukteshwar",
           "key": "MUKTESHWAR",
           "image": "destinations/MukteshwarTile.png"
         },
         {
-          "id": "Dest-L-6",
+          "id": "Dest-L-7",
+          "title": "Kausani",
+          "key": "KAUSANI",
+          "image": "destinations/KausaniTile.png"
+        },        
+        {
+          "id": "Dest-L-9",
           "title": "Ramgarh",
           "key": "RAMGARH",
           "image": "destinations/RamgarhTile.png"
         },
         {
-          "id": "Dest-L-7",
+          "id": "Dest-L-10",
           "title": "Binsar",
           "key": "BINSAR",
           "image": "destinations/BinsarTile.png"
