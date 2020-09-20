@@ -134,8 +134,6 @@ export default {
     margin: auto;
   }
   .profile {
-    // background: white;
-    // margin: 10px;
     height: 100%;
   }
 
