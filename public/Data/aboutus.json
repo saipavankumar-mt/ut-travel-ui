@@ -1,69 +1,69 @@
 [
-    {
-        "type":"Founder",
-        "key":"Founder",
-        "members":[
-            {    
-                "name": "Raj Kumar",
-                "designation": "Founder and Director Sales",
-                "image":"aboutus/rajkumar.png",
-                "location":"Ahmedabad",
-                "subtitle":""
-            }
-        ]
-    },
-    {
-        "type":"Marketing",
-        "key":"Marketing",
-        "members":[
-            {    
-                "name": "Sagar Bhadreshwara",
-                "designation": "Marketing",
-                "image":"aboutus/sagar.png",
-                "location":"Mumbai",
-                "subtitle":"Specialist in Ladakh, Himachal Pradesh(SPITI VALLEY) & all indian Terrains. Speciality - Bike tours, Holiday packages, Tracking, trekking, Camping etc.,"
-            },
-            {    
-                "name": "Jitin Patel",
-                "designation": "Marketing",
-                "image":"aboutus/jitinpatel.png",
-                "location":"Ahmedabad",
-                "subtitle":"Experienced and Specialization in Kailash Mansarovar, CharDham Yatra and all outbound tours"
-            }
-        ]
-    },
-    {
-        "type":"Operations",
-        "key":"Operations",
-        "members":[
-            {    
-                "name": "Ankit Saini",
-                "designation": "Operations",
-                "image":"aboutus/ankitsaini.png",
-                "location":"Haridwar",
-                "subtitle":""
-            },
-            {    
-                "name": "Divya Verma",
-                "designation": "Operations",
-                "image":"aboutus/divyaverma.png",
-                "location":"Haridwar",
-                "subtitle":""
-            },
-            {    
-                "name": "Khusbu",
-                "designation": "Operations",
-                "image":"aboutus/khusbu.png",
-                "location":"Haridwar",
-                "subtitle":""
-            },
-            {    
-                "name": "Anjali Sharma",
-                "designation": "Operations",
-                "image":"aboutus/anjalisharma.png",
-                "location":"Haridwar",
-                "subtitle":""
-            }
-        ]
-    }
+  {
+    "type": "Founder",
+    "key": "Founder",
+    "members": [
+      {
+        "name": "Raj Kumar",
+        "designation": "Founder and Director Sales",
+        "image": "aboutUs/rajkumar.png",
+        "location": "Ahmedabad",
+        "subtitle": ""
+      }
+    ]
+  },
+  {
+    "type": "Marketing",
+    "key": "Marketing",
+    "members": [
+      {
+        "name": "Sagar Bhadreshwara",
+        "designation": "Marketing",
+        "image": "aboutUs/sagar.png",
+        "location": "Mumbai",
+        "subtitle": "Specialist in Ladakh, Himachal Pradesh(SPITI VALLEY) & all indian Terrains. Speciality - Bike tours, Holiday packages, Tracking, trekking, Camping etc.,"
+      },
+      {
+        "name": "Jitin Patel",
+        "designation": "Marketing",
+        "image": "aboutUs/jitinpatel.png",
+        "location": "Ahmedabad",
+        "subtitle": "Experienced and Specialization in Kailash Mansarovar, CharDham Yatra and all outbound tours"
+      }
+    ]
+  },
+  {
+    "type": "Operations",
+    "key": "Operations",
+    "members": [
+      {
+        "name": "Ankit Saini",
+        "designation": "Operations",
+        "image": "aboutUs/ankitsaini.png",
+        "location": "Haridwar",
+        "subtitle": ""
+      },
+      {
+        "name": "Divya Verma",
+        "designation": "Operations",
+        "image": "aboutUs/divyaverma.png",
+        "location": "Haridwar",
+        "subtitle": ""
+      },
+      {
+        "name": "Khusbu",
+        "designation": "Operations",
+        "image": "aboutUs/khusbu.png",
+        "location": "Haridwar",
+        "subtitle": ""
+      },
+      {
+        "name": "Anjali Sharma",
+        "designation": "Operations",
+        "image": "aboutUs/anjalisharma.png",
+        "location": "Haridwar",
+        "subtitle": ""
+      }
+    ]
+  }
 ]

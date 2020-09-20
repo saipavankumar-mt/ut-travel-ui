@@ -10,12 +10,16 @@
           efficitur sit amet massa fringilla egestas. Nullam condimentum luctus
           turpis.
         </h5>
-        <article class="media profile">
+        <article
+          class="media profile"
+          v-for="(item, idx) in founder"
+          :key="idx"
+        >
           <div class="media-left">
-            <figure class="image is-256x256 ">
+            <figure class="image is-128x128 ">
               <img
                 class="is-rounded"
-                src="../assets/images/aboutUs/picture1.jpeg"
+                v-bind:src="require('../assets/images/' + item.image)"
                 alt="Image"
               />
             </figure>
@@ -23,8 +27,12 @@
           <div class="media-content">
             <div class="content">
               <p style="text-align:left">
-                <strong>Raj Kumar</strong>
-                <small>@UttaranchalHolidays</small>
+                <strong>{{ item.name }}</strong
+                ><br />
+                <small>{{ item.designation }}</small
+                ><br />
+                <small>{{ item.location }}</small
+                ><br />
                 <small>
                   <br />M. Rajkumar is a travel ethusiast who has an absolute
                   passion for exploring places around him. He is the one to
@@ -64,123 +72,70 @@
                 <h1 class="title">Marketing Team</h1>
               </header>
             </div>
-
             <div class="columns is-multiline" size="is-medium">
-              <div class="column is-one-third" v-for="index in 5" :key="index">
-                <app-team></app-team>
+              <div
+                class="column is-one-third"
+                v-for="(item, idx) in marketing"
+                :key="idx"
+              >
+                <app-team :member="item"></app-team>
               </div>
             </div>
           </div>
         </section>
-
-        <!-- <section class="columns is-multiline" size="is-medium">
-          <div class="column is-one-third" v-for="index in 10" :key="index">
-            <div class="profile-container">
-              <div class="profile">
-                <div class="team-image">
-                  <figure class="image is-256x256">
-                    <img
-                      src="../assets/images/aboutUs/picture1.jpeg"
-                      alt="Image"
-                    />
-                  </figure>
-                  <div class="member-skils">
-                    <div class="overlay team-overlay"></div>
-                    <div class="media-content">
-                      <div class="content">
-                        <p>
-                          <strong>John Smith</strong>
-                          <small>@johnsmith</small>
-                          <small>31m</small>
-                          <br />Lorem ipsum dolor sit amet, consectetur
-                          adipiscing elit. Aenean efficitur sit amet massa
-                          fringilla egestas. Nullam condimentum luctus turpis.
-                        </p>
-                      </div>
-                      <nav class="level is-mobile">
-                        <div class="level-left">
-                          <a class="level-item" aria-label="reply">
-                            <span class="icon is-small">
-                              <i class="fas fa-reply" aria-hidden="true"></i>
-                            </span>
-                          </a>
-                          <a class="level-item" aria-label="retweet">
-                            <span class="icon is-small">
-                              <i class="fas fa-retweet" aria-hidden="true"></i>
-                            </span>
-                          </a>
-                          <a class="level-item" aria-label="like">
-                            <span class="icon is-small">
-                              <i class="fas fa-heart" aria-hidden="true"></i>
-                            </span>
-                          </a>
-                        </div>
-                      </nav>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <section>
+          <header class="team-heading">
+            <h1 class="title">Operation Team</h1>
+          </header>
+          <div class="columns is-multiline" size="is-medium">
+            <div
+              class="column is-one-third"
+              v-for="(item, idx) in operations"
+              :key="idx"
+            >
+              <app-team :member="item"></app-team>
             </div>
           </div>
-        </section> -->
+        </section>
       </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
+import AppTeam from '../components/ui-components/AppTeam.vue';
 export default {
   name: 'AboutUs',
+  components: {
+    AppTeam,
+  },
+  data() {
+    return {
+      marketing: [],
+      founder: [],
+      operations: [],
+    };
+  },
+  created() {
+    this.$http.get(`${process.env.BASE_URL}Data/aboutus.json`).then((res) => {
+      console.log(res.data);
+      res.data.map((response) => {
+        if (response.key === 'Founder') {
+          this.founder = response.members;
+        }
+        if (response.key === 'Marketing') {
+          this.marketing = response.members;
+        }
+        if (response.key === 'Operations') {
+          this.operations = response.members;
+        }
+      });
+    });
+  },
 };
 </script>
 
 <style lang="scss">
-// .overlay {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-// }
-// .team-image {
-//   overflow: hidden;
-//   display: block;
-
-//   img {
-//     border-radius: 10px;
-//   }
-
-//   // padding: 30px;
-//   // background: transparent linear-gradient(to top, #4481eb 0, #04befe 100%) 0 0
-//   //   no-repeat padding-box;
-//   position: relative;
-//   .member-skils {
-//     position: absolute;
-//     top: 100%;
-//     left: 0;
-//     width: 100%;
-//     height: 100%;
-//     z-index: 2;
-//     opacity: 0;
-//   }
-
-//   &:hover {
-//     .team-overlay {
-//       z-index: -1;
-//       background: #fff;
-//       // opacity: 0.8;
-//     }
-//     // .overlay {
-//     //   // opacity: 0.8;
-//     // }
-//     .member-skils {
-//       top: 0;
-//       opacity: 0.8;
-//       transition: all 0.5s;
-//     }
-//   }
-// }
-
 .about-us {
   .column {
     padding-bottom: 60px;
@@ -261,7 +216,10 @@ export default {
     }
   }
   .image {
-    // margin: auto;
+    .is-128x128 {
+      height: 168px;
+      width: 168px;
+    }
   }
 
   .profile {
@@ -285,6 +243,9 @@ export default {
     border-radius: 6px;
     box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
       0 0 0 1px rgba(10, 10, 10, 0.02);
+
+    min-height: 210px;
+
     // color: #4a4a4a;
   }
 }
