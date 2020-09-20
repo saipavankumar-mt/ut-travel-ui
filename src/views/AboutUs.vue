@@ -71,11 +71,7 @@
             <div class="profile-container">
               <div class="profile">
                 <div class="team-image">
-                  <figure class="image is-256x256">
-                    <img
-                      src="../assets/images/aboutUs/picture1.jpeg"
-                      alt="Image"
-                    />
+                  <figure class="image is-256x256">                    
                   </figure>
                   <div class="member-skils">
                     <div class="overlay team-overlay"></div>

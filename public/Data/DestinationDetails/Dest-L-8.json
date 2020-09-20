@@ -1,0 +1,80 @@
+ {
+	"data": {
+		  "id": "Dest-L-8",
+		  "key": "Mukteshwar",
+		  "title": "MUKTESHWAR",
+		  "qoute": "",
+		  "subtitle": "Mukteshwar is a village and tourist destination in the Nainital district of Uttarakhand, India, sits high in the Kumaon Hills at an altitude of 2171 mt above the sea level lies close to the overhanging cliffs used for rock climbing and rappelling, with an excellent view of the valleys below. Fruit orchards, coniferous forests, lush green trails and narrow lanes make Mukteshwar a special destination for trekking.",
+		  "overview":[
+			{
+			  "title":"Why Mukteshwar:",
+			  "subtitle":"Mukteshwar is rich in scenic beauty, with magnificent views of the Greater Himalayas is a special destination for trekking. Apart from trekking, camping, paragliding, Mukteshwar is also known for rock climbing and rappelling."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"Summers are warm with moderate rainfall, while the Winter can be quite cool, with snowfall occurs occasionally in December and January, it is ideal to visit Mukteshwar during summer and witer."
+			}
+		  ],
+		  "temperature":[
+			{
+				"season":"Summer",
+				"months":"(April to Mid-June)",
+				"temp":"14°C to 27°C"
+			},
+			{
+				"season":"Monsoon",
+				"months":"(Mid-June to September)",
+				"temp":"13°C to 20°C"
+			},
+			{
+				"season":"Winter",
+				"months":"(October to March)",
+				"temp":"3°C to 17°C"
+			}
+		  ],
+		  "heroImage": "destinations/MukteshwarTile.png",
+		  "images": [
+		    "destinations/mukteshwar/mukteshwarTemple.png",
+			"destinations/mukteshwar/methodistChurch.png",
+			"destinations/mukteshwar/chauliKiJali.png"
+		  ],
+		  "attractions":[
+			{
+				"title": "Mukteshwar Temple",
+				"image": "destinations/mukteshwar/mukteshwarTemple.png",
+				"description":"Mukteshwar Temple is an ancient Hindu temple dedicated to Lord Shiva built around 350 years ago is a popular piligrim destination and offers an enchanting and an excellent view of the surreal landscape."
+			},
+			{
+				"title": "Methodist Church",
+				"image": "destinations/mukteshwar/methodistChurch.png",
+				"description":"Carving through dense green deodar forests one need to trek the rock cut stairs to reach the Methodist Church. Built in early 1900s Methodist Church is one of the ancient buildings with rock built and stained windows attracts tourists all aroubd the World."
+			},
+			{
+				"title": "Chauli Ki Jali",
+				"image": "destinations/mukteshwar/chauliKiJali.png",
+				"description":"Chauli Ki Jali is another tourist attraction located in close premises to Mukteshwar Temple. It is also well known for its hiking spot & scenic overlook, high atop of a cliff with a sheer drop."
+			}
+		  ],
+		  "hotels":[
+			
+		  ],
+		  "includedPackages":[
+				
+		  ],
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "Pantnagar Airport situated 98 km away, is the nearest airport to Mukteshwar. Taxis are available from the airport to Mukteshwar."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "Kathgodam is the nearest railhead to Mukteshwar, situated 64 km away. One can hire a cab from the railway station to reach Mukteshwar."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Mukteshwar is well connected with major travel destinations of Uttarakhand. Buses are available from Delhi to Kathgodam/Haldwani and Mussoorie and taxis are easily accessible from Garhwal and Kumaon region."			
+			}
+		]
+	}
+	
+}
