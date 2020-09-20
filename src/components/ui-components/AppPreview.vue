@@ -75,7 +75,7 @@ $carousel-arrow-color: #47caf0;
   padding: 0 30px;
   .preview-header {
     background: none !important;
-    padding: 3rem 15px 0;
+    padding: 3rem 10px 0;
     margin-bottom: -2.45rem;
     .title {
       font: 1.5rem/18px "Lato", sans-serif;
@@ -94,7 +94,7 @@ $carousel-arrow-color: #47caf0;
     max-width: 100% !important;
     padding: 2rem 0 0;
     /deep/.carousel-slide {
-      padding: 30px 15px;
+      padding: 30px 10px;
     }
     .column {
       padding: 30px !important;

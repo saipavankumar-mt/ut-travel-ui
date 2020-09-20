@@ -48,7 +48,7 @@ export default {
   padding: 0 30px;
   .theme-header {
     background: none !important;
-    padding: 3rem 15px 0;
+    padding: 3rem 10px 0;
     .title {
       font: 1.5rem/18px 'Lato', sans-serif;
       font-weight: 600;

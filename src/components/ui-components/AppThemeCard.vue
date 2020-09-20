@@ -26,7 +26,7 @@ export default {
 
 <style lang="scss">
 .theme-card {
-  padding: 0 15px;
+  padding: 0 10px;
   .card-content {
     background-color: white;
     // box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
