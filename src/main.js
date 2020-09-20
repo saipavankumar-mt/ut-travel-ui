@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import App from './App.vue';
-import VueCarousel from 'vue-carousel';
 import Buefy from 'buefy';
 import router from './router';
 import store from './store';
@@ -14,7 +13,6 @@ import randomElements from './plugins/random-elements';
 Vue.use(mobileCheck);
 Vue.use(randomElements);
 Vue.use(VueAxios, axios);
-Vue.use(VueCarousel);
 Vue.use(Buefy);
 
 Vue.config.productionTip = false;

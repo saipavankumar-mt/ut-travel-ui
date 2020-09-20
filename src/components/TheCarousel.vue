@@ -77,7 +77,6 @@
 </template>
 
 <script>
-// import { Carousel, Slide } from 'vue-carousel';
 import AvailablePackagesList from './ui-components/AvailablePackagesList.vue';
 export default {
   name: 'TheCarousel',
@@ -86,7 +85,7 @@ export default {
     // Slide,
     AvailablePackagesList,
   },
-  data: function () {
+  data: function() {
     return {
       slideIndex: 0,
       carouselItem: [],
@@ -111,25 +110,7 @@ export default {
   z-index: 10;
   width: 100%;
 }
-.VueCarousel-navigation-prev {
-  left: 40px !important;
-  font-size: 42px;
-  outline: none !important;
-  color: white !important;
-  &:hover {
-    font-weight: 800;
-  }
-}
 
-.VueCarousel-navigation-next {
-  right: 40px !important;
-  font-size: 42px;
-  outline: none !important;
-  color: white !important;
-  &:hover {
-    font-weight: 800;
-  }
-}
 .carousel-container {
   position: relative;
   width: 100%;
@@ -191,7 +172,7 @@ export default {
 .carousel-title {
   display: flex;
   justify-content: flex-start;
-  font-family: "SFProDisplay-Bold";
+  font-family: 'SFProDisplay-Bold';
 }
 
 .carousel-title p {
@@ -246,7 +227,7 @@ export default {
   align-self: center;
   p {
     font-size: 2.1rem;
-    font-family: "Brush Script MT";
+    font-family: 'Brush Script MT';
   }
 }
 
@@ -258,7 +239,7 @@ export default {
     border-radius: 30px/10px;
     background: rgb(229, 78, 43);
     font-size: 2.1rem;
-    font-family: "Brush Script MT";
+    font-family: 'Brush Script MT';
   }
 }
 
