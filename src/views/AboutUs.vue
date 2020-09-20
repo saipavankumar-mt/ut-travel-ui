@@ -1,13 +1,21 @@
 <template>
   <div class="about-us">
     <div class="hero-body">
-      <div class>
-        <h1 class="title">About Us</h1>
+      <div>
+        <div class="heading">
+          <h1><span>About</span> Us</h1>
+        </div>
+        <h5>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+          efficitur sit amet massa fringilla egestas. Nullam condimentum luctus
+          turpis.
+        </h5>
         <article class="media profile">
           <div class="media-left">
-            <figure class="image is-128x128">
+            <figure class="image is-256x256 ">
               <img
-                src="https://bulma.io/images/placeholders/128x128.png"
+                class="is-rounded"
+                src="../assets/images/aboutUs/picture1.jpeg"
                 alt="Image"
               />
             </figure>
@@ -44,29 +52,28 @@
                 </small>
               </p>
             </div>
-            <nav class="level is-mobile">
-              <div class="level-left">
-                <a class="level-item" aria-label="reply">
-                  <span class="icon is-small">
-                    <i class="fas fa-reply" aria-hidden="true"></i>
-                  </span>
-                </a>
-                <a class="level-item" aria-label="retweet">
-                  <span class="icon is-small">
-                    <i class="fas fa-retweet" aria-hidden="true"></i>
-                  </span>
-                </a>
-                <a class="level-item" aria-label="like">
-                  <span class="icon is-small">
-                    <i class="fas fa-heart" aria-hidden="true"></i>
-                  </span>
-                </a>
-              </div>
-            </nav>
           </div>
         </article>
-        -->
-        <section class="columns is-multiline" size="is-medium">
+        <section>
+          <div>
+            <div class="heading">
+              <h1><span>Our</span> Team</h1>
+            </div>
+            <div>
+              <header class="team-heading">
+                <h1 class="title">Marketing Team</h1>
+              </header>
+            </div>
+
+            <div class="columns is-multiline" size="is-medium">
+              <div class="column is-one-third" v-for="index in 5" :key="index">
+                <app-team></app-team>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- <section class="columns is-multiline" size="is-medium">
           <div class="column is-one-third" v-for="index in 10" :key="index">
             <div class="profile-container">
               <div class="profile">
@@ -79,7 +86,6 @@
                   </figure>
                   <div class="member-skils">
                     <div class="overlay team-overlay"></div>
-                    <!-- <div class="member-social-list"> -->
                     <div class="media-content">
                       <div class="content">
                         <p>
@@ -116,7 +122,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
       </div>
     </div>
   </div>
@@ -129,61 +135,108 @@ export default {
 </script>
 
 <style lang="scss">
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.team-image {
-  overflow: hidden;
-  display: block;
+// .overlay {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+// }
+// .team-image {
+//   overflow: hidden;
+//   display: block;
 
-  img {
-    border-radius: 10px;
-  }
+//   img {
+//     border-radius: 10px;
+//   }
 
-  .is-rounded {
-    border: 2px solid white;
-  }
+//   // padding: 30px;
+//   // background: transparent linear-gradient(to top, #4481eb 0, #04befe 100%) 0 0
+//   //   no-repeat padding-box;
+//   position: relative;
+//   .member-skils {
+//     position: absolute;
+//     top: 100%;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     z-index: 2;
+//     opacity: 0;
+//   }
 
-  // padding: 30px;
-  // background: transparent linear-gradient(to top, #4481eb 0, #04befe 100%) 0 0
-  //   no-repeat padding-box;
-  position: relative;
-  .member-skils {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    opacity: 0;
-  }
-
-  &:hover {
-    .team-overlay {
-      z-index: -1;
-      background: #fff;
-      // opacity: 0.8;
-    }
-    // .overlay {
-    //   // opacity: 0.8;
-    // }
-    .member-skils {
-      top: 0;
-      opacity: 0.8;
-      transition: all 0.5s;
-    }
-  }
-}
+//   &:hover {
+//     .team-overlay {
+//       z-index: -1;
+//       background: #fff;
+//       // opacity: 0.8;
+//     }
+//     // .overlay {
+//     //   // opacity: 0.8;
+//     // }
+//     .member-skils {
+//       top: 0;
+//       opacity: 0.8;
+//       transition: all 0.5s;
+//     }
+//   }
+// }
 
 .about-us {
+  .column {
+    padding-bottom: 60px;
+    .is-rounded {
+      filter: brightness(130%);
+    }
+  }
+  font: 16px/18px 'Lato', sans-serif;
+  font-weight: 600;
+  color: #918f9b;
+
+  .image-contianer {
+    position: absolute;
+    right: -57px;
+    bottom: 48px;
+    top: -53px;
+  }
+  h5 {
+    font: 16px;
+    color: #394048;
+    padding: 0 20px 20px 20px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .team-heading {
+    background: none !important;
+    padding: 3rem 4rem;
+
+    .title {
+      font: 1.5rem/18px 'Lato', sans-serif;
+      font-weight: 600;
+      color: #60bff3;
+      text-align: left;
+    }
+  }
+
+  .heading {
+    h1 {
+      color: #3b404b;
+      font-family: SFProDisplay-Bold;
+      font-size: 50px;
+      line-height: 60px;
+      padding-top: 40px;
+      text-transform: capitalize;
+      padding-bottom: 16px;
+
+      span {
+        color: rgb(96, 191, 243);
+      }
+    }
+  }
   .media-content {
     background: white;
     margin: unset;
-    padding: 1.5rem;
+    // padding: 1.5rem;
   }
   // background: cadetblue;
   box-shadow: inset 0px 10px 10px -10px #7a7a7a,
@@ -208,15 +261,14 @@ export default {
     }
   }
   .image {
-    margin: auto;
+    // margin: auto;
   }
-  .profile-container {
-    border-radius: 10px;
-    margin: 16px;
-  }
+
   .profile {
     height: 100%;
-    // border: 1px solid #eee;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
     background: #fff;
     // border-radius: 10px;
   }
@@ -228,6 +280,12 @@ export default {
   .media {
     padding: 20px;
     margin: 0 26px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+      0 0 0 1px rgba(10, 10, 10, 0.02);
+    // color: #4a4a4a;
   }
 }
 
