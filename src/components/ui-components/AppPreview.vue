@@ -1,29 +1,27 @@
 <template>
   <div class="preview">
-    <header class="preview-header hero is-dark is-bold" :class="'scroll-preview-'+scrollClass">
-      <div class="hero-body">
-        <h1 class="title">{{title}}</h1>
-      </div>
+    <header class="preview-header">
+      <h1 class="title">{{title}}</h1>
     </header>
     <button class="toggle-view-btn button" @click="$emit('changeview')">
       <span v-if="!showAll">View All {{toggleBtnLabel}}</span>
       <span v-else>View Less</span>
     </button>
-    <section v-show="showAll" class="preview-all columns is-multiline">
+    <!-- <section v-show="showAll" class="preview-all columns is-multiline">
       <template v-for="(item, idx) in previewItemsList">
         <div class="column" :class="$isMobile()? '': isModelTwo ? 'is-6' : 'is-3' " :key="idx">
-          <!-- <app-preview-card-model2 v-if="isModelTwo" :item="item"></app-preview-card-model2> -->
+          <app-preview-card-model2 v-if="isModelTwo" :item="item"></app-preview-card-model2>
           <app-preview-card :item="item"></app-preview-card>
         </div>
       </template>
-    </section>
+    </section> -->
 
     <b-carousel-list
       v-show="!showAll"
       class="preview-carousel container"
       v-model="itemIndex"
       :data="previewItemsList"
-      :items-to-show="$isMobile()?1.5 :itemsToShow"
+      :items-to-show="$isMobile()?2 :itemsToShow"
       :items-to-list="$isMobile()?1 :itemsToShow"
       :arrow-hover="false"
       icon-size="is-medium"
@@ -74,12 +72,16 @@ export default {
 <style lang="scss">
 $carousel-arrow-color: #47caf0;
 .preview {
-  padding-bottom: 1.5rem;
-  padding-left: 30px;
+  padding: 0 30px;
   .preview-header {
     background: none !important;
+    padding: 3rem 15px 0;
+    margin-bottom: -2.45rem;
     .title {
-      margin-bottom: 0.3rem;
+      font: 1.5rem/18px "Lato", sans-serif;
+      font-weight: 600;
+      color: #3e3f54;
+      text-align: left;
     }
     .is-italic {
       color: #efbb20;
@@ -92,7 +94,7 @@ $carousel-arrow-color: #47caf0;
     max-width: 100% !important;
     padding: 2rem 0 0;
     /deep/.carousel-slide {
-      padding: 30px 30px 30px 0;
+      padding: 30px 15px;
     }
     .column {
       padding: 30px !important;
@@ -100,11 +102,12 @@ $carousel-arrow-color: #47caf0;
     }
     .carousel-arrow {
       .icon {
-        top: 5%;
         display: flex !important;
+        border-color: #dbdbdb;
+        top: 5%;
+        transform: translateY(-5%);
         -webkit-transform: translateY(-5%);
         -moz-transform: translateY(-5%);
-        transform: translateY(-5%);
         &.has-icons-left {
           right: 5rem;
           left: unset;
@@ -155,13 +158,20 @@ $carousel-arrow-color: #47caf0;
         } 
       }
     }
+    /deep/ .preview-card .button {
+      background: transparent;
+      border-radius: 2rem;
+      &:hover {
+        background: #47caf0;
+      }
+    }
   }
   .toggle-view-btn {
     position: absolute;
     transform: translateY(30%);
     -webkit-transform: translateY(30%);
     -moz-transform: translateY(30%);
-    right: 8rem;
+    right: 10rem;
     border-radius: 2rem;
     height: 2.3rem;
     z-index: 1;
@@ -195,18 +205,52 @@ $carousel-arrow-color: #47caf0;
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .preview {
+    position: relative;
+    padding: 15px 7.5px 0;
+    .preview-header {
+      padding: 7.5px;
+      margin-bottom: unset;
+      .title {
+        font-size: 1.3rem;
+      }
+    }
+    .toggle-view-btn {
+      bottom: 1.2rem;
+      right: 7rem;
+      height: 2rem;
+      font-size: 14px;
+      transform: unset;
+      -webkit-transform: unset;
+      -moz-transform: unset;
+    }
     .preview-all,
     .preview-carousel {
-      padding: 4rem 0 0 !important;
+      padding: 0 0 3rem;
       /deep/.carousel-slide {
-        padding: 10px 10px 10px 0 !important;
+        padding: 15px 7.5px;
+        border: none;
+        .card-content .content {
+          .title.is-4 {
+            font-size: 14px;
+            margin-bottom: .25rem;
+          }
+          .subtitle.is-7 {
+            font-size: 11px;
+          }
+        }
       }
       .carousel-arrow {
         .icon {
-          top: 3%;
-        }
-        .icon.has-icons-right {
-          right: 0;
+          transform: translateY(-92%);
+          -webkit-transform: translateY(-92%);
+          -moz-transform: translateY(-92%);
+          top: 92%;
+          &.has-icons-right {
+            right: .75rem;
+          }
+          &.has-icons-left {
+            right: 3.5rem;
+          }
         }
       }
     }

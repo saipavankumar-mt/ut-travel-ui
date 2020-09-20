@@ -1,6 +1,27 @@
 <template>
   <div class="carousel">
-    <carousel
+    <b-carousel
+      v-model="slideIndex"
+      animated="slide"
+      :has-drag="true"
+      :autoplay="true"
+      :interval="3000"
+      :repeat="true"
+      :pause-hover="true"
+      :pause-info="false"
+      icon-size="is-medium"
+    >
+      <b-carousel-item v-for="item in carouselItem" :key="item.id">
+        <div class="carousel-container">
+          <img
+            class="carousel-img"
+            v-bind:src="require('../assets/' + item.image)"
+            v-bind:alt="item.image"
+          />
+        </div>
+      </b-carousel-item>
+    </b-carousel>
+    <!-- <carousel
       :per-page="1"
       :mouse-drag="true"
       :loop="true"
@@ -9,15 +30,15 @@
       :navigationNextLabel="'>'"
       :navigationPrevLabel="'<'"
       :paginationPosition="'bottom-overlay'"
-    >
-      <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
+    >-->
+    <!-- <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
         <div class="carousel-container">
           <img
             class="carousel-img"
             v-bind:src="require('../assets/' + item.image)"
             v-bind:alt="item.image"
-          />
-          <!-- <div class="carousel-content">
+    />-->
+    <!-- <div class="carousel-content">
             <div class="carousel-left-content">
               <div class="carousel-title">
                 <p>{{ item.title }}</p>
@@ -47,26 +68,27 @@
                 <p>PER PERSON</p>
               </div>
             </div>
-          </div> -->
-        </div>
+    </div>-->
+    <!-- </div>
       </slide>
-    </carousel>
+    </carousel>-->
     <available-packages-list class="available"></available-packages-list>
   </div>
 </template>
 
 <script>
-import { Carousel, Slide } from "vue-carousel";
-import AvailablePackagesList from "./ui-components/AvailablePackagesList.vue";
+// import { Carousel, Slide } from 'vue-carousel';
+import AvailablePackagesList from './ui-components/AvailablePackagesList.vue';
 export default {
-  name: "TheCarousel",
+  name: 'TheCarousel',
   components: {
-    Carousel,
-    Slide,
+    // Carousel,
+    // Slide,
     AvailablePackagesList,
   },
   data: function () {
     return {
+      slideIndex: 0,
       carouselItem: [],
     };
   },
@@ -85,7 +107,7 @@ export default {
 <style lang="scss">
 .available {
   position: absolute;
-  top: 84%;
+  top: 82%;
   z-index: 10;
   width: 100%;
 }
@@ -288,6 +310,13 @@ export default {
     position: unset;
     top: unset;
     z-index: unset;
+  }
+
+  .carousel .carousel-items {
+    height: 14rem;
+    .carousel-img {
+      height: 14rem;
+    }
   }
 }
 </style>

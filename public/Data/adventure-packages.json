@@ -1,0 +1,16 @@
+[
+  {
+    "id": "Pckg-A-1",
+    "title": "Real Adventure With Corbett",
+    "key": "Real-Adventure-With-Corbett",
+    "image": "RealAdventureWithCorbettTile.png",
+    "duration": "5 Nights / 6 Days"
+  },
+  {
+    "id": "Pckg-A-2",
+    "title": "Real Adventure",
+    "key": "Real-Adventure",
+    "image": "riverrafting.png",
+    "duration": "6 Nights / 7 Days"
+  }
+]

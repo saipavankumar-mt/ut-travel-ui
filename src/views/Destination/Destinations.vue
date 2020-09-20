@@ -37,7 +37,7 @@ export default {
     // },
     getDestinations() {
       this.$http
-        .get(`${process.env.BASE_URL}Data/destinations.json`)
+        .get(`${process.env.BASE_URL}Data/destinations-preview.json`)
         .then((res) => {
           this.title = res.data.title;
           this.titleDesc = res.data.titleDesc;
@@ -61,12 +61,13 @@ export default {
 
 <style lang="scss">
 .destinations {
-  background-image: url("../../assets/images/DeoriyaTal.png");
-  background-size: cover;
-  background-blend-mode: overlay;
-  background-color: #363636;
-  /deep/ .preview-all {
-    transition: all 0.3s ease-in-out;
-  }
+  // background-image: url("../../assets/images/DeoriyaTal.png");
+  // background-size: cover;
+  // background-blend-mode: overlay;
+  // background-color: #363636;
+  // /deep/ .preview-all {
+  //   transition: all 0.3s ease-in-out;
+  // }
+  background: inherit;
 }
 </style>

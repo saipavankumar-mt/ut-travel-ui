@@ -1,0 +1,29 @@
+{
+  "title": "Explore Packages by Theme",
+  "items": [
+    {
+      "id": "theme_1",
+      "title": "Pilgrimage",
+      "packageCount": "6",
+      "image": "pilgrimage.svg"
+    },
+    {
+      "id": "theme_2",
+      "title": "Hill Station",
+      "packageCount": "20",
+      "image": "hillstation.svg"
+    },
+    {
+      "id": "theme_3",
+      "title": "Adventure",
+      "packageCount": "2",
+      "image": "adventure.svg"
+    },
+    {
+      "id": "theme_4",
+      "title": "Trekking",
+      "packageCount": "11",
+      "image": "trekking.svg"
+    }
+  ]
+}

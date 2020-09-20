@@ -32,7 +32,7 @@
         "temp": "0°C to 4°C"
       }
     ],
-    "heroImage": "destinations/MussoorieTile.png",
+    "heroImage": "destinations/mussoorieheroimage.png",
     "images": [
       "destinations/mussoorie/companyGarden.png",
       "destinations/mussoorie/mussoorieChristChurch.png",

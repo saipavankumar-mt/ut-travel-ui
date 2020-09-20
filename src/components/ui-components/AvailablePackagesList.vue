@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import AvailablePackages from "./AvailablePackages.vue";
+import AvailablePackages from './AvailablePackages.vue';
 export default {
-  name: "AvailablePackagesList",
+  name: 'AvailablePackagesList',
   components: {
     AvailablePackages,
   },
@@ -68,7 +68,15 @@ export default {
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .available-packages-list-container {
-    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px 7.5px;
+    .available-packages-title {
+      width: 50%;
+      padding: 7.5px;
+      &:last-of-type {
+        width: 100%;
+      }
+    }
   }
 }
 </style>
