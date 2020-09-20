@@ -137,6 +137,10 @@ export default {
 
 <style lang="scss">
 .about-us {
+  .image.is-128x128 {
+    height: 168px;
+    width: 168px;
+  }
   .column {
     padding-bottom: 60px;
     .is-rounded {
@@ -213,12 +217,6 @@ export default {
       border-radius: 5rem;
       margin: auto;
       background: #e8e8e8;
-    }
-  }
-  .image {
-    .is-128x128 {
-      height: 168px;
-      width: 168px;
     }
   }
 
