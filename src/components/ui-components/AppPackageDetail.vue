@@ -245,7 +245,7 @@ export default {
       this.$router.push({
         name: 'detail',
         params: {
-          //  packageName: value.key,
+          packageName: value.key,
           packageId: value.id,
         },
         query: {

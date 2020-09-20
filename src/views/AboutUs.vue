@@ -3,10 +3,13 @@
     <div class="hero-body">
       <div class>
         <h1 class="title">About Us</h1>
-        <!-- <article class="media profile">
+        <article class="media profile">
           <div class="media-left">
             <figure class="image is-128x128">
-              <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image" />
+              <img
+                src="https://bulma.io/images/placeholders/128x128.png"
+                alt="Image"
+              />
             </figure>
           </div>
           <div class="media-content">
@@ -15,9 +18,28 @@
                 <strong>Raj Kumar</strong>
                 <small>@UttaranchalHolidays</small>
                 <small>
-                  <br />M. Rajkumar is a travel ethusiast who has an absolute passion for exploring places around him. He is the one to consult if you are stuck at place X in Uttaranchal and wanna reach place Y via place z.
-                  If ever an 'Uttaranchal Awareness quiz is held on the planet, he will be the undisputed winner of the competition for he has immense knowledge about the state. He holds an MBA degree from Gurukul Kangri University and worked with Uttaranchal Government for sometime. However, the desire to start a venture of his own sent him to pack bags and jump into the battlefield of travel agents.
-                  <br />M. Rajkumar has an extensive knowledge about Uttaranchal. He has personally visited almost all the properties and places where Uttaranchal Holidays accommodates its clients. This fact, together with his hobby of exploring places makes him more capable of handling issues guests are likely to face while travelling. So, Uttaranchal Holidays isn't money-creating machine for its operators but a vehicle to help people know Uttaranchal more This competitive advantage gets reflected in the services Uttaranchal Holidays provides I hope I have told you enough about Uttaranchal Holidays Now is the time for you to give us a chance to serve you. So, come and experience the difference we claim to offer shd get a trip booked with
+                  <br />M. Rajkumar is a travel ethusiast who has an absolute
+                  passion for exploring places around him. He is the one to
+                  consult if you are stuck at place X in Uttaranchal and wanna
+                  reach place Y via place z. If ever an 'Uttaranchal Awareness
+                  quiz is held on the planet, he will be the undisputed winner
+                  of the competition for he has immense knowledge about the
+                  state. He holds an MBA degree from Gurukul Kangri University
+                  and worked with Uttaranchal Government for sometime. However,
+                  the desire to start a venture of his own sent him to pack bags
+                  and jump into the battlefield of travel agents. <br />M.
+                  Rajkumar has an extensive knowledge about Uttaranchal. He has
+                  personally visited almost all the properties and places where
+                  Uttaranchal Holidays accommodates its clients. This fact,
+                  together with his hobby of exploring places makes him more
+                  capable of handling issues guests are likely to face while
+                  travelling. So, Uttaranchal Holidays isn't money-creating
+                  machine for its operators but a vehicle to help people know
+                  Uttaranchal more This competitive advantage gets reflected in
+                  the services Uttaranchal Holidays provides I hope I have told
+                  you enough about Uttaranchal Holidays Now is the time for you
+                  to give us a chance to serve you. So, come and experience the
+                  difference we claim to offer shd get a trip booked with
                   Uttaranchal Holidays.NOW
                 </small>
               </p>
@@ -42,14 +64,18 @@
               </div>
             </nav>
           </div>
-        </article>-->
+        </article>
+        -->
         <section class="columns is-multiline" size="is-medium">
           <div class="column is-one-third" v-for="index in 10" :key="index">
             <div class="profile-container">
               <div class="profile">
                 <div class="team-image">
                   <figure class="image is-256x256">
-                    <img src="../assets/images/aboutUs/picture1.jpeg" alt="Image" />
+                    <img
+                      src="../assets/images/aboutUs/picture1.jpeg"
+                      alt="Image"
+                    />
                   </figure>
                   <div class="member-skils">
                     <div class="overlay team-overlay"></div>
@@ -60,7 +86,9 @@
                           <strong>John Smith</strong>
                           <small>@johnsmith</small>
                           <small>31m</small>
-                          <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                          <br />Lorem ipsum dolor sit amet, consectetur
+                          adipiscing elit. Aenean efficitur sit amet massa
+                          fringilla egestas. Nullam condimentum luctus turpis.
                         </p>
                       </div>
                       <nav class="level is-mobile">
@@ -96,7 +124,7 @@
 
 <script lang="ts">
 export default {
-  name: "AboutUs",
+  name: 'AboutUs',
 };
 </script>
 
