@@ -181,9 +181,9 @@ export default {
     padding: 4rem;
 
     .title {
-      // font: 1.5rem/18px "Lato", sans-serif;
+      font: 1.5rem/18px "Lato", sans-serif;
       font-weight: 600;
-      // color: #60bff3;
+      color: #3e3f54;
       text-align: left;
     }
   }
