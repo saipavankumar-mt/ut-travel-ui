@@ -2,7 +2,9 @@
   <div class="tour-destination">
     <div class="banner">
       <div class="intro">
-        <h1><span>Uttranchal</span> Destinations</h1>
+        <h1>
+          <span>Uttranchal</span> Destinations
+        </h1>
         <h5>Best Time to Visit Uttarakhand:</h5>
         <p>
           Uttarakhand is a destination to be visited all through the year as
@@ -58,11 +60,7 @@
             :label="tourPackage.type"
             size="is-medium"
           >
-            <div
-              class="column is-one-quarter"
-              v-for="(item, idx) in tourPackage.data"
-              :key="idx"
-            >
+            <div class="column is-one-quarter" v-for="(item, idx) in tourPackage.data" :key="idx">
               <app-preview-card
                 @viewMoreClick="onViewClicked($event, tourPackage.key)"
                 :item="item"
@@ -79,9 +77,9 @@
 
 <script>
 // import OfferList from './OfferList.vue';
-import AppPreviewCard from '../../components/ui-components/AppPreviewCard';
+import AppPreviewCard from "../../components/ui-components/AppPreviewCard";
 export default {
-  name: 'TourDestinations',
+  name: "TourDestinations",
   components: {
     // OfferList,
     AppPreviewCard,
@@ -104,26 +102,26 @@ export default {
       activeIndex: this.currentTabIndex,
       tourPackagesHeader: [
         {
-          type: 'HILL STATION',
-          key: 'hillStationGetaways',
+          type: "HILL STATION",
+          key: "hillStationGetaways",
           data: [],
         },
         {
-          type: 'TREKKING',
-          key: 'trekkingPackages',
+          type: "TREKKING",
+          key: "trekkingPackages",
           data: [],
         },
       ],
       appPreviewSettings: {
         showHover: false,
-        cardContent: 'card-setting',
+        cardContent: "card-setting",
         cardImage: {
-          imageSize: 'is-5by3',
+          imageSize: "is-5by3",
         },
         hoverAction: {
           show: true,
-          text: 'View Destination',
-          type: 'BUTTON',
+          text: "View Destination",
+          type: "BUTTON",
         },
         imageBlurOnHover: true,
       },
@@ -141,23 +139,23 @@ export default {
   },
   methods: {
     onIndexChange() {
-      var element = document.getElementById('scroll');
+      var element = document.getElementById("scroll");
       var headerOffset = 80;
       var elementPosition = element.getBoundingClientRect().top;
       var offsetPosition = elementPosition - headerOffset;
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
     },
     onViewClicked(value, key) {
       this.redirect(value, key);
     },
-    redirect: function(value, destinationKey) {
+    redirect: function (value, destinationKey) {
       this.$router.push({
-        name: 'destination-detail',
+        name: "destination-detail",
         params: {
-          // destinationName: value.key,
+          destinationName: value.key,
           destinationId: value.id,
         },
         query: {
@@ -170,19 +168,19 @@ export default {
         .get(`${process.env.BASE_URL}Data/tour-destinations.json`)
         .then((res) => {
           res.data.destinations.map((res) => {
-            if (res.key === 'hillStationGetaways') {
+            if (res.key === "hillStationGetaways") {
               this.tourPackages.hillStationGetaways = res.items;
             }
-            if (res.key === 'trekkingPackages') {
+            if (res.key === "trekkingPackages") {
               this.tourPackages.trekkingPackages = res.items;
             }
           });
 
           this.tourPackagesHeader.map((response) => {
-            if (response.key === 'hillStationGetaways') {
+            if (response.key === "hillStationGetaways") {
               response.data = this.tourPackages.hillStationGetaways;
             }
-            if (response.key === 'trekkingPackages') {
+            if (response.key === "trekkingPackages") {
               response.data = this.tourPackages.trekkingPackages;
             }
           });
@@ -231,7 +229,7 @@ export default {
       justify-content: space-between;
       li {
         h4 {
-          font: 20px/30px 'open_sansbold' !important;
+          font: 20px/30px "open_sansbold" !important;
           color: #4a5258;
           font-weight: 700;
         }
@@ -239,18 +237,18 @@ export default {
     }
 
     p {
-      font: 16px/26px 'open_sansregular';
+      font: 16px/26px "open_sansregular";
       text-align: justify;
       color: #4a5258;
       padding-bottom: 21px;
 
       span {
-        font-family: 'OpenSans-Semibold';
+        font-family: "OpenSans-Semibold";
       }
     }
 
     h5 {
-      font: 16px 'open_sansbold';
+      font: 16px "open_sansbold";
       color: #394048;
       text-transform: uppercase;
       font-weight: 700;
@@ -267,7 +265,7 @@ export default {
       flex-direction: column;
       justify-content: center;
       h2 {
-        font: 25px/32px 'clanotmedium';
+        font: 25px/32px "clanotmedium";
         color: #394048;
         text-align: center;
         font-weight: 700;
@@ -277,7 +275,7 @@ export default {
     p {
       color: #585c66;
       font-size: 18px;
-      font-family: 'SFProDisplay-Regular';
+      font-family: "SFProDisplay-Regular";
       line-height: 23px;
       padding-bottom: 16px;
     }
@@ -297,13 +295,13 @@ export default {
       flex-direction: column-reverse;
       padding: 0 1rem;
       p {
-        font: 14px/26px 'open_sansregular';
+        font: 14px/26px "open_sansregular";
       }
       ul {
         // display: unset;
         li {
           h4 {
-            font: 16px/30px 'open_sansbold' !important;
+            font: 16px/30px "open_sansbold" !important;
           }
         }
       }
