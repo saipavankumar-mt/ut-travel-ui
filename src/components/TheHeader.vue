@@ -21,7 +21,7 @@
         <router-link
           class="navbar-item"
           v-for="(navItem, idx) in navMenu"
-          :to="{path:navItem.path,name:navItem.label==='Trekking'?pathName(navItem):'', params:navItem.label==='Trekking'?{  scroll:true,currentTabIndex:1}:''} || '/'"
+          :to="navItem.path || '/'"
           exact
           :key="idx"
         >
@@ -70,7 +70,7 @@ export default {
         { label: "Home", icon: "home", path: "/home" },
         { label: "Tour Packages", icon: "bag-checked", path: "/tour-packages" },
         { label: "Destinations", icon: "map-marker", path: "/destinations" },
-        { label: "Trekking", icon: "walk", path: "/destinations" },
+        { label: "Trekking", icon: "walk", path: "/trekking" },
         // { label: 'Hotel', icon: 'bed' },
         // { label: 'Car Rental', icon: 'car' },
         // { label: 'Helipad', icon: 'helicopter' },

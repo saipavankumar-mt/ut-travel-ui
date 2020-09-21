@@ -5,6 +5,7 @@ import AppPackageDetail from '../components/ui-components/AppPackageDetail.vue';
 import AppTourDestinationDetail from '../components/ui-components/AppTourDestinationDetail.vue';
 import TourPackages from '../views/Package/TourPackages.vue';
 import TourDestinations from '../views/Destination/TourDestinations.vue';
+import TourTrekking from '../views/Trekking/TourTrekking.vue';
 import AboutUs from '../views/AboutUs.vue';
 
 Vue.use(VueRouter);
@@ -51,6 +52,12 @@ const routes = [
     path: '/destinations',
     name: 'destinations',
     component: TourDestinations,
+    props: true,
+  },
+  {
+    path: '/trekking',
+    name: 'trekking',
+    component: TourTrekking,
     props: true,
   },
   {
