@@ -187,10 +187,12 @@ export default {
   font-size: 12px;
   z-index: 2;
   p {
-    color: #60bff3 !important;
-
+    color: #60bff3 white;
+    padding: 12px;
     &:hover {
       border-color: #60bff3;
+
+      color: white !important;
     }
   }
 }

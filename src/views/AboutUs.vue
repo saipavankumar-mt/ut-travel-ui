@@ -2,7 +2,9 @@
   <div class="about-us">
     <div>
       <div class="heading">
-        <h1><span>About</span> Us</h1>
+        <h1>
+          <span>About</span> Us
+        </h1>
       </div>
       <h5>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
@@ -11,7 +13,7 @@
       </h5>
       <article class="media profile" v-for="(item, idx) in founder" :key="idx">
         <div class="media-left">
-          <figure class="image is-128x128 ">
+          <figure class="image is-128x128">
             <img
               class="is-rounded"
               v-bind:src="require('../assets/images/' + item.image)"
@@ -22,12 +24,12 @@
         <div class="media-content">
           <div class="content">
             <p style="text-align:left">
-              <strong>{{ item.name }}</strong
-              ><br />
-              <small>{{ item.designation }}</small
-              ><br />
-              <small>{{ item.location }}</small
-              ><br />
+              <strong>{{ item.name }}</strong>
+              <br />
+              <small>{{ item.designation }}</small>
+              <br />
+              <small>{{ item.location }}</small>
+              <br />
               <small>
                 <br />M. Rajkumar is a travel ethusiast who has an absolute
                 passion for exploring places around him. He is the one to
@@ -38,7 +40,8 @@
                 holds an MBA degree from Gurukul Kangri University and worked
                 with Uttaranchal Government for sometime. However, the desire to
                 start a venture of his own sent him to pack bags and jump into
-                the battlefield of travel agents. <br />M. Rajkumar has an
+                the battlefield of travel agents.
+                <br />M. Rajkumar has an
                 extensive knowledge about Uttaranchal. He has personally visited
                 almost all the properties and places where Uttaranchal Holidays
                 accommodates its clients. This fact, together with his hobby of
@@ -59,7 +62,9 @@
       <section>
         <div>
           <div class="heading">
-            <h1><span>Our</span> Team</h1>
+            <h1>
+              <span>Our</span> Team
+            </h1>
           </div>
           <div>
             <header class="team-heading">
@@ -67,11 +72,7 @@
             </header>
           </div>
           <div class="columns is-multiline" size="is-medium">
-            <div
-              class="column is-one-third"
-              v-for="(item, idx) in marketing"
-              :key="idx"
-            >
+            <div class="column is-one-third" v-for="(item, idx) in marketing" :key="idx">
               <app-team :member="item"></app-team>
             </div>
           </div>
@@ -82,11 +83,7 @@
           <h1 class="title">Operation Team</h1>
         </header>
         <div class="columns is-multiline" size="is-medium">
-          <div
-            class="column is-one-third"
-            v-for="(item, idx) in operations"
-            :key="idx"
-          >
+          <div class="column is-one-third" v-for="(item, idx) in operations" :key="idx">
             <app-team :member="item"></app-team>
           </div>
         </div>
@@ -96,9 +93,9 @@
 </template>
 
 <script lang="ts">
-import AppTeam from '../components/ui-components/AppTeam.vue';
+import AppTeam from "../components/ui-components/AppTeam.vue";
 export default {
-  name: 'AboutUs',
+  name: "AboutUs",
   components: {
     AppTeam,
   },
@@ -113,13 +110,13 @@ export default {
     this.$http.get(`${process.env.BASE_URL}Data/aboutus.json`).then((res) => {
       console.log(res.data);
       res.data.map((response) => {
-        if (response.key === 'Founder') {
+        if (response.key === "Founder") {
           this.founder = response.members;
         }
-        if (response.key === 'Marketing') {
+        if (response.key === "Marketing") {
           this.marketing = response.members;
         }
-        if (response.key === 'Operations') {
+        if (response.key === "Operations") {
           this.operations = response.members;
         }
       });
@@ -131,20 +128,29 @@ export default {
 <style lang="scss">
 .about-us {
   padding: 0 2rem;
+  font: 16px/18px "Lato", sans-serif;
+  font-weight: 600;
+  color: #918f9b;
+  box-shadow: inset 0px 10px 10px -10px #7a7a7a,
+    inset 0px -10px 10px -10px #b5b5b5;
+
+  strong {
+    color: #60bff3;
+  }
+  .columns {
+    padding: unset !important;
+    .column {
+      padding-bottom: 60px;
+      .is-rounded {
+        filter: brightness(130%);
+      }
+    }
+  }
+
   .image.is-128x128 {
     height: 168px;
     width: 168px;
   }
-  .column {
-    padding-bottom: 60px;
-    .is-rounded {
-      filter: brightness(130%);
-    }
-  }
-  font: 16px/18px 'Lato', sans-serif;
-  font-weight: 600;
-  color: #918f9b;
-
   .image-contianer {
     position: absolute;
     right: -57px;
@@ -153,7 +159,6 @@ export default {
   }
   h5 {
     font: 16px;
-    color: #394048;
     padding: 0 180px 20px 180px;
     font-weight: 700;
     line-height: 1.2;
@@ -165,7 +170,7 @@ export default {
     padding: 3rem 4rem;
 
     .title {
-      font: 1.5rem/18px 'Lato', sans-serif;
+      font: 1.5rem/18px "Lato", sans-serif;
       font-weight: 600;
       color: #60bff3;
       text-align: left;
@@ -193,16 +198,15 @@ export default {
     // padding: 1.5rem;
   }
   // background: cadetblue;
-  box-shadow: inset 0px 10px 10px -10px #7a7a7a,
-    inset 0px -10px 10px -10px #b5b5b5;
+
   .client-about-us {
     display: flex;
   }
-  .description {
-    width: 100%;
-    margin: 10px;
-    background: white;
-  }
+  // .description {
+  //   width: 100%;
+  //   margin: 10px;
+  //   background: white;
+  // }
   .client-about-us,
   .content {
     background: white;
@@ -224,10 +228,6 @@ export default {
     // border-radius: 10px;
   }
 
-  .level {
-    justify-content: center;
-  }
-
   .media {
     padding: 20px;
     margin: 0 26px;
@@ -245,6 +245,10 @@ export default {
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .about-us {
+    h5 {
+      padding: unset;
+      padding-bottom: 30px;
+    }
     .media {
       display: flex;
       flex-direction: column;
@@ -266,7 +270,7 @@ export default {
   .columns {
     padding: 1rem 0 !important;
     .column {
-      padding: unset !important;
+      // padding: unset !important;
     }
   }
 }

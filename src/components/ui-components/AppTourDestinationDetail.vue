@@ -39,10 +39,7 @@
         <div>
           <!-- <img :src="destinationPackages.heroImage" alt="destinationPackages.heroImage" /> -->
 
-          <img
-            :src="destinationPackages.heroImage"
-            alt="destinationPackages.heroImage"
-          />
+          <img :src="destinationPackages.heroImage" alt="destinationPackages.heroImage" />
         </div>
         <div v-if="!$isMobile()">
           <h5>TEMPERATURE</h5>
@@ -58,7 +55,7 @@
         </div>
       </div>
     </div>
-    <h5>TOP ATTRACTION IN NAINITAL</h5>
+    <h5>TOP ATTRACTION IN {{destinationPackages.title}}</h5>
     <b-carousel-list
       class="destination-carousel container"
       v-model="index"
@@ -71,34 +68,30 @@
     >
       <template slot="item" slot-scope="list">
         <div>
-          <app-preview-card
-            :item="list"
-            :app-preview-settings="appPreviewSettings"
-          ></app-preview-card>
+          <app-preview-card :item="list" :app-preview-settings="appPreviewSettings"></app-preview-card>
         </div>
       </template>
     </b-carousel-list>
-    <h5>HOTELS</h5>
-    <b-carousel-list
-      class="destination-carousel container"
-      v-model="itemIndex"
-      :data="destinationPackages.hotels"
-      :items-to-show="$isMobile() ? 1.5 : 4"
-      :arrow-hover="false"
-      icon-prev="arrow-left"
-      icon-next="arrow-right"
-      icon-size="is-medium"
-    >
-      <template slot="item" slot-scope="list">
-        <div>
-          <app-preview-card
-            :item="list"
-            :app-preview-settings="appPreviewSettings"
-          ></app-preview-card>
-        </div>
-      </template>
-    </b-carousel-list>
-    <div v-if="checkIfIncludedPackgesAvailabe">
+    <div v-if="checkIfHotelsAvailable">
+      <h5>HOTELS</h5>
+      <b-carousel-list
+        class="destination-carousel container"
+        v-model="itemIndex"
+        :data="destinationPackages.hotels"
+        :items-to-show="$isMobile() ? 1.5 : 4"
+        :arrow-hover="false"
+        icon-prev="arrow-left"
+        icon-next="arrow-right"
+        icon-size="is-medium"
+      >
+        <template slot="item" slot-scope="list">
+          <div>
+            <app-preview-card :item="list" :app-preview-settings="appPreviewSettings"></app-preview-card>
+          </div>
+        </template>
+      </b-carousel-list>
+    </div>
+    <div v-if="checkIfIncludedPackgesAvailable">
       <h5>Included Packages</h5>
       <b-carousel-list
         class="destination-carousel container"
@@ -131,18 +124,9 @@
                   <div class="transit-title">
                     <figure class="image is-128x128">
                       <!-- <img src="../../assets/train.png" alt="Image" /> -->
-                      <i
-                        v-if="item.title === 'BY AIR'"
-                        class="fas fa-train"
-                      ></i>
-                      <i
-                        v-if="item.title === 'BY RAIL'"
-                        class="fas fa-plane"
-                      ></i>
-                      <i
-                        v-if="item.title === 'BY ROAD'"
-                        class="fas fa-road"
-                      ></i>
+                      <i v-if="item.title === 'BY AIR'" class="fas fa-train"></i>
+                      <i v-if="item.title === 'BY RAIL'" class="fas fa-plane"></i>
+                      <i v-if="item.title === 'BY ROAD'" class="fas fa-road"></i>
                     </figure>
                     {{ item.title }}
                   </div>
@@ -195,9 +179,9 @@
 </template>
 
 <script>
-import SimilarDestinations from '../../views/Destination/SimilarDestinations.vue';
+import SimilarDestinations from "../../views/Destination/SimilarDestinations.vue";
 export default {
-  name: 'AppTourDestinationDetail',
+  name: "AppTourDestinationDetail",
   components: {
     SimilarDestinations,
   },
@@ -214,7 +198,7 @@ export default {
   //   },
   // },
 
-  props: ['destinationId'],
+  props: ["destinationId"],
   data() {
     return {
       gallery: false,
@@ -235,31 +219,31 @@ export default {
       },
       expanded: false,
       atRight: false,
-      size: 'is-medium',
-      type: 'is-toggle',
+      size: "is-medium",
+      type: "is-toggle",
       destinationPackages: [],
       appPreviewSettings: {
         showHover: false,
-        cardContent: 'card-setting',
+        cardContent: "card-setting",
         cardImage: {
-          imageSize: 'is-5by3',
+          imageSize: "is-5by3",
         },
         imageBlurOnHover: true,
         hoverAction: {
-          text: '',
-          type: 'TEXT',
+          text: "",
+          type: "TEXT",
         },
       },
       includedPackageSettings: {
         showHover: false,
-        cardContent: 'card-setting',
+        cardContent: "card-setting",
         cardImage: {
-          imageSize: 'is-5by3',
+          imageSize: "is-5by3",
         },
         imageBlurOnHover: true,
         hoverAction: {
-          text: 'View Package',
-          type: 'BUTTON',
+          text: "View Package",
+          type: "BUTTON",
         },
       },
       itemIndex: 0,
@@ -276,11 +260,11 @@ export default {
         .then((res) => {
           this.destinationPackages = res.data.data;
           // console.log(this.destinationPackages);
-          this.destinationPackages.heroImage = require('../../assets/images/' +
+          this.destinationPackages.heroImage = require("../../assets/images/" +
             this.destinationPackages.heroImage);
           for (let i = 0; i < this.destinationPackages.images.length; i++) {
             this.items.push({
-              image: require('../../assets/images/' +
+              image: require("../../assets/images/" +
                 this.destinationPackages.images[i]),
             });
           }
@@ -290,9 +274,9 @@ export default {
       this.redirect(value);
     },
 
-    redirect: function(value) {
+    redirect: function (value) {
       this.$router.push({
-        name: 'detail',
+        name: "detail",
         params: {
           packageName: value.key,
           packageId: value.id,
@@ -304,9 +288,16 @@ export default {
     },
   },
   computed: {
-    checkIfIncludedPackgesAvailabe() {
+    checkIfIncludedPackgesAvailable() {
       return this.destinationPackages.includedPackages &&
         this.destinationPackages.includedPackages.length > 0
+        ? true
+        : false;
+    },
+
+    checkIfHotelsAvailable() {
+      return this.destinationPackages.hotels &&
+        this.destinationPackages.hotels.length > 0
         ? true
         : false;
     },
@@ -314,7 +305,7 @@ export default {
       return this.$route.query.key;
     },
   },
-  created: function() {
+  created: function () {
     window.scrollTo(0, 0);
     this.getDestinationPackages();
   },
@@ -382,7 +373,7 @@ export default {
       justify-content: space-between;
       li {
         h4 {
-          font: 20px/30px 'open_sansbold';
+          font: 20px/30px "open_sansbold";
           color: #4a5258;
           font-weight: 700;
         }
@@ -390,18 +381,18 @@ export default {
     }
 
     p {
-      font: 16px/26px 'open_sansregular';
+      font: 16px/26px "open_sansregular";
       text-align: justify;
       color: #4a5258;
       padding-bottom: 21px;
 
       span {
-        font-family: 'OpenSans-Semibold';
+        font-family: "OpenSans-Semibold";
       }
     }
   }
   h5 {
-    font: 16px 'open_sansbold';
+    font: 16px "open_sansbold";
     color: #394048;
     text-transform: uppercase;
     font-weight: 700;
@@ -423,17 +414,17 @@ export default {
     padding-right: 20px;
     text-align: left;
     .temp {
-      font: 20px/30px 'open_sansbold';
+      font: 20px/30px "open_sansbold";
       color: #4a5258;
       font-weight: 700;
     }
     .month {
-      font: 15px/20px 'open_sansbold';
+      font: 15px/20px "open_sansbold";
       color: #4a5258;
       font-weight: 200;
     }
     .season {
-      font: 15px/20px 'open_sansbold';
+      font: 15px/20px "open_sansbold";
       color: #4a5258;
       font-weight: 200;
     }
@@ -447,7 +438,7 @@ export default {
       flex-direction: column;
       justify-content: center;
       h2 {
-        font: 25px/32px 'clanotmedium';
+        font: 25px/32px "clanotmedium";
         color: #394048;
         text-align: center;
         font-weight: 700;
@@ -457,7 +448,7 @@ export default {
     p {
       color: #585c66;
       font-size: 18px;
-      font-family: 'SFProDisplay-Regular';
+      font-family: "SFProDisplay-Regular";
       line-height: 23px;
       padding-bottom: 16px;
     }
@@ -468,7 +459,7 @@ export default {
       text-align: center;
     }
     .transit-title {
-      font-family: 'Mogra';
+      font-family: "Mogra";
       color: #4a5258;
       text-transform: uppercase;
       .image {
@@ -480,7 +471,7 @@ export default {
       }
     }
     .transit-subtitle {
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       color: #4a5258;
       padding-bottom: 5px;
     }
