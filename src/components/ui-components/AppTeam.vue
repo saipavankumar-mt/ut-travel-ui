@@ -4,11 +4,20 @@
       <div class="media-content">
         <div class="content" style="margin-right:20%">
           <p style="text-align:left">
-            <strong>{{ member.name }}</strong>
+            <strong>
+              <i class="fas fa-user"></i>
+              {{ member.name }}
+            </strong>
             <br />
-            <small>{{ member.location }}</small>
+            <small>
+              <i class="fas fa-map-marker-alt"></i>
+              {{ member.location }}
+            </small>
             <br />
-            <small>{{ member.designation }}</small>
+            <small>
+              <i class="fas fa-suitcase"></i>
+              {{ member.designation }}
+            </small>
             <br />
             <br />
             <small>{{ member.subtitle }}</small>

@@ -24,13 +24,24 @@
         <div class="media-content">
           <div class="content">
             <p style="text-align:left">
-              <strong>{{ item.name }}</strong>
+              <strong>
+                <i class="fas fa-user"></i>
+                {{ item.name }}
+              </strong>
               <br />
-              <small>{{ item.designation }}</small>
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+                {{ item.location }}
+              </span>
               <br />
-              <small>{{ item.location }}</small>
+
+              <span>
+                <i class="fas fa-suitcase"></i>
+                {{ item.designation }}
+              </span>
               <br />
-              <small>
+
+              <span>
                 <br />M. Rajkumar is a travel ethusiast who has an absolute
                 passion for exploring places around him. He is the one to
                 consult if you are stuck at place X in Uttaranchal and wanna
@@ -54,7 +65,7 @@
                 Holidays Now is the time for you to give us a chance to serve
                 you. So, come and experience the difference we claim to offer
                 shd get a trip booked with Uttaranchal Holidays.NOW
-              </small>
+              </span>
             </p>
           </div>
         </div>
@@ -167,12 +178,12 @@ export default {
 
   .team-heading {
     background: none !important;
-    padding: 3rem 4rem;
+    padding: 4rem;
 
     .title {
-      font: 1.5rem/18px "Lato", sans-serif;
+      // font: 1.5rem/18px "Lato", sans-serif;
       font-weight: 600;
-      color: #60bff3;
+      // color: #60bff3;
       text-align: left;
     }
   }
