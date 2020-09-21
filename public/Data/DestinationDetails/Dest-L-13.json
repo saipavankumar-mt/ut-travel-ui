@@ -1,0 +1,92 @@
+ {
+	"data": {
+		  "id": "Dest-L-13",
+		  "key": "Pithoragarh",
+		  "title": "PITHORAGARH",
+		  "qoute": "…The Little Kashmir",
+		  "subtitle": "Pithoragarh is in the inner Himalayas at a height of 1,851 meters in a spectacular valley, called 'Little Kashmir' in the northern state of Uttaranchal. Some parts of the district are at a height of 3,000 feet while the others are at 4,724 meters.",
+		  "overview":[
+			{
+			  "title":"Why Pithoragarh:",
+			  "subtitle":"Located at an average elevation of 1,514 meters above sea level, with its picturesque beauty of the valleys and hills that are an allure to travellers and trekkers all around the world and is famous for its old forts and temples."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"During summer season the weather is pleasant with neither very hot nor very cold making the view pleasing for sightseeing while winters are chilly. The best time to visit Pithoragarh would be from April to November excluding the monsoon season."
+			}
+		  ],
+		  "temperature":[
+			{
+				"season":"Summer",
+				"months":"(April to Mid-June)",
+				"temp":"7°C to 20°C"
+			},
+			{
+				"season":"Monsoon",
+				"months":"(Mid-June to September)",
+				"temp":"15°C to 30°C"
+			},
+			{
+				"season":"Winter",
+				"months":"(October to March)",
+				"temp":"4°C to 17°C"
+			}
+		  ],
+		  "heroImage": "destinations/PithoragarhTile.png",
+		  "images": [
+		    "destinations/pithoragarh/pithoragarhFort.png",
+			"destinations/pithoragarh/nagMandir.png",
+			"destinations/pithoragarh/gangolihat.png",
+			"destinations/pithoragarh/kapileshwarTemple.png"
+		  ],
+		  "attractions":[
+			{
+				"title": "Pithoragarh Fort",
+				"image": "destinations/pithoragarh/pithoragarhFort.png",
+				"description":"Pithoragarh Fort is situated on a hill on the outskirts of the town of Pithoragarh built by Ghorkas back in the year 1789. The fort holds great historical importance and is a tourist attraction where people trek to enjoy the scenic view of Kali Kumaon."
+			},
+			{
+				"title": "Nag Mandir",
+				"image": "destinations/pithoragarh/nagMandir.png",
+				"description":"Nag Mandir situated at the top of Berinag Hill dedicated to Lord Shiva and is sculpted in the form of a snake. Throughout the year visitors come here to get absorbed in the various festivals like Maha Shivaratri, Nag Panchami. In additional to the temples one can view a panoramic view of the Greater Himalayas from the hill top."
+			},
+			{
+				"title": "Gangolihat",
+				"image": "destinations/pithoragarh/gangolihat.png",
+				"description":"Gangolihat is a small Himalayan hill town in the Pithoragarh surrounded by two rivers Saryu and Ramganga and  is the site of a number of ancient temples and caves. Gangolihat is known for its Shakti Peethas of Hat Kalika of goddess Kali and the view of greenery rich valleys of Kumaun Himalayas from this hilltop is memorable and heavenly, it has always been a great trekking site."
+			},
+			{
+				"title": "Kapileshwar Temple",
+				"image": "destinations/pithoragarh/kapileshwarTemple.png",
+				"description":"Kapileshwar Temple is a unique Hindu temple located deep inside a 10 mt gaping cave dedicated to Lord Shiva lies about 3 km from Pithoragarh. Visit the Temple during Mahashivratri and spot the endless charm of snowy mountains as you chant mantras with other devotees."
+			}
+		  ],
+		  "hotels":[
+			
+		  ],
+		  "includedPackages":[
+			{
+              "id": "Pckg-B-4",
+              "title": "Kumaon Heritage",
+              "key": "KumaonHeritage",
+              "image": "KumaonHeritageTile.png",
+              "duration": "9 Nights / 10 Days"
+            }	
+		  ],
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "Take a flight to Pantnagar airport to reach Pithoragarh. The airport is 210 kms away from the town where taxis and cabs are easily available. Besides this, the airport in Pithoragarh will be soon functional making it easier for visitors to reach there."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "At a distance of 148 kms from Pithoragarh is the Tanakpur railway station. After reaching there you can hire a taxi or cab without a headache."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Pithoragarh is well connected to all major cities in Uttarakhand and with Delhi by buses operated either by the state or private companies."			
+			}
+		]
+	}
+	
+}

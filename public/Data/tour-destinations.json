@@ -78,34 +78,40 @@
           "image": "destinations/BinsarTile.png"
         },
         {
-          "id": "Dest-L-8",
-          "title": "Jageshwar",
-          "key": "JAGESHWAR",
-          "image": "destinations/JageshwarTile.png"
-        },
-        {
-          "id": "Dest-L-9",
-          "title": "Jim Corbett Nation Park",
-          "key": "JIM-CORBETT-NATIONAL-PARK",
-          "image": "destinations/JimCorbettNationParkTile.png"
-        },
-        {
-          "id": "Dest-L-10",
+          "id": "Dest-L-11",
           "title": "Chakouri",
           "key": "CHAKOURI",
           "image": "destinations/ChakouriTile.png"
         },
         {
-          "id": "Dest-L-11",
+          "id": "Dest-L-12",
           "title": "Munsyari",
           "key": "MUNSYARI",
           "image": "destinations/MunsyariTile.png"
         },
         {
-          "id": "Dest-L-12",
+          "id": "Dest-L-13",
           "title": "Pithoragarh",
           "key": "PITHORAGARH",
           "image": "destinations/PithoragarhTile.png"
+        },
+        {
+          "id": "Dest-L-14",
+          "title": "Harshil",
+          "key": "HARSHIL",
+          "image": "destinations/HarshilTile.png"
+        },
+        {
+          "id": "Dest-L-",
+          "title": "Jageshwar",
+          "key": "JAGESHWAR",
+          "image": "destinations/JageshwarTile.png"
+        },
+        {
+          "id": "Dest-L-",
+          "title": "Jim Corbett Nation Park",
+          "key": "JIM-CORBETT-NATIONAL-PARK",
+          "image": "destinations/JimCorbettNationParkTile.png"
         },
         {
           "id": "Dest-L-13",
@@ -118,13 +124,7 @@
           "title": "Rishikesh",
           "key": "RISHIKESH",
           "image": "destinations/RishikeshTile.png"
-        },        
-        {
-          "id": "Dest-L-17",
-          "title": "Harshil",
-          "key": "HARSHIL",
-          "image": "destinations/HarshilTile.png"
-        },
+        }, 
         {
           "id": "Dest-L-18",
           "title": "Auli",
