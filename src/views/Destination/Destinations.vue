@@ -3,7 +3,6 @@
     class="destinations"
     :category-info="destinationsData"
     route-category="destination-detail"
-    toggle-btn-label="Destinations"
   ></app-preview>
 </template>
 
@@ -13,10 +12,6 @@ export default {
   components: {},
   data() {
     return {
-      title: "",
-      titleDesc: "",
-      destinations: [],
-      showAll: false,
       destinationsData: {},
     };
   },

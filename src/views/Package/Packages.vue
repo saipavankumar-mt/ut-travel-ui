@@ -6,7 +6,6 @@
       :class="curPackage.key"
       :category-info="curPackage"
       route-category="detail"
-      toggle-btn-label="Packages"
     ></app-preview>
   </div>
 </template>
@@ -17,10 +16,7 @@ export default {
   components: {},
   data() {
     return {
-      title: '',
-      titleDesc: '',
       packages: [],
-      showAll: false,
     };
   },
   created() {

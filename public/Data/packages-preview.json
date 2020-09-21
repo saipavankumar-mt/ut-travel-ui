@@ -1,6 +1,7 @@
 [
   {
     "title": "Top Pilgrim Yatras",
+    "type": "Package",
     "key": "piligrimDestination",
     "items": [
       {
@@ -49,6 +50,7 @@
   },
   {
     "title": "Top Holiday Packages",
+    "type": "Package",
     "key": "beautifulUttranchal",
     "items": [
       {
@@ -97,6 +99,7 @@
   },
   {
     "title": "Top Trekking Tour Packages",
+    "type": "Package",
     "key": "trekkingPackages",
     "items": [
       {

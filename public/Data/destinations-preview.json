@@ -1,5 +1,6 @@
 {
   "title": "Top Destinations",
+  "type": "Destination",
   "key": "hillStationGetaways",  
   "items": [
     {

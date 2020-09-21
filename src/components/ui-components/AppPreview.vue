@@ -4,7 +4,7 @@
       <h1 class="title">{{categoryInfo.title}}</h1>
     </header>
     <button class="toggle-view-btn button" @click="goToCategory(categoryInfo.key)">
-      <span>View All {{toggleBtnLabel}}</span>
+      <span>View All {{categoryInfo.type}}s</span>
     </button>
     <b-carousel-list
       class="preview-carousel container"
@@ -17,7 +17,7 @@
       :refresh="true"
     >
       <template slot="item" slot-scope="list">
-        <app-preview-card :item="list" @viewMoreClick="goToDetail($event,categoryInfo.key)"></app-preview-card>
+        <app-preview-card :item="list" :type="categoryInfo.type" @viewMoreClick="goToDetail($event,categoryInfo.key)"></app-preview-card>
       </template>
     </b-carousel-list>
   </div>
@@ -37,7 +37,6 @@ export default {
   props: {
     categoryInfo: { type: Object, required: true },
     routeCategory: { type: String },
-    toggleBtnLabel: { type: String },
     itemsToShow: { type: Number, default: 5 },
   },
   methods: {
