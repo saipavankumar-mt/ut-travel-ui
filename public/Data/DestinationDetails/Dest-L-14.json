@@ -1,0 +1,110 @@
+ {
+	"data": {
+		  "id": "Dest-L-14",
+		  "key": "Harsil",
+		  "title": "HARSIL",
+		  "qoute": "",
+		  "subtitle": "Harsil is a beautiful village, located on the banks of the Bhagirathi River, situated at an altitude of 2745 mt above the sea level. Harsil is a nature lover's paradise and is ideal for those seeking some adventure in the mighty Garhwal Himalayas.",
+		  "overview":[
+			{
+			  "title":"Why Harsil:",
+			  "subtitle":"Harsil popularly known as the camper’s bay of Uttarakhand, tourists seeking serenity and peace in the lap of Himalayas should visit this place once. Due to its picturesque location and serene nature this untouched village become popular in the recent years."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"During summer the weather remains moderate and pleasant favorable for trekking and sightseeing. Winters in Harsil experience nail biting cold, trekking becomes difficult during the time but offers a beautiful sight."
+			}
+		  ],
+		  "temperature":[
+			{
+				"season":"Summer",
+				"months":"(April to Mid-June)",
+				"temp":"9°C to 24°C"
+			},
+			{
+				"season":"Monsoon",
+				"months":"(Mid-June to September)",
+				"temp":"8°C to 21°C"
+			},
+			{
+				"season":"Winter",
+				"months":"(October to March)",
+				"temp":"-2°C to 12°C"
+			}
+		  ],
+		  "heroImage": "destinations/HarshilTile.png",
+		  "images": [
+		    "destinations/harsil/dharali.png",
+			"destinations/harsil/mukhwasVillage.png",
+			"destinations/harsil/kedarTal.png",
+			"destinations/harsil/doditalLake.png",
+			"destinations/harsil/dayaraBugyal.png",
+			"destinations/harsil/gangotriGlacier.png",
+			"destinations/harsil/gangotri.png",
+			"destinations/harsil/trekking.png"
+		  ],
+		  "attractions":[
+			{
+				"title": "Dharali",
+				"image": "destinations/harsil/dharali.png",
+				"description":"Dharali Known for its apple orchards, is situated just a few kilometres away from Harsil. The Shiva temple in this village is a cheif tourist attraction and the picturesque views of this place have the ability to push anyone to go on arduous treks."
+			},
+			{
+				"title": "Mukhwas Village",
+				"image": "destinations/harsil/mukhwasVillage.png",
+				"description":"Mukhwas is a small village situated 1 km away from Harsil on the banks of Bhagirathi river. Mukhwas is known as the home of Goddess of Gangotri, when Gangotri is closed due to heavy rainfall pilgrims worship the village as the gate of Gangotri."
+			},
+			{
+				"title": "Kedar Tal",
+				"image": "destinations/harsil/kedarTal.png",
+				"description":"Kedar Tal is a glacial lake situated at an altitude of 4750 mt in the Garhwal region surrounded by Thalay Sagar, Bhrigupanth, Jogin 1, Jogin 2, and other Himalayan peaks. Kedar Tal is a popular trekking destination known for its challenging trek route and breathtaking views."
+			},
+			{
+				"title": "Dodital Lake",
+				"image": "destinations/harsil/doditalLake.png",
+				"description":"Dodital Lake is one of the beautiful lakes located at an altitude of 3024 mt above the sea level. This place is situated at a distance of 26 km from Harsil, is extremely popular among trek lover and nature enthusiasts and imposing wide range of Himalayan ranges. It is believed that it is the birthplace of Lord Ganesha, one of the Hindu deities."
+			},
+			{
+				"title": "Dayara Bugyal",
+				"image": "destinations/harsil/dayaraBugyal.png",
+				"description":"Dayara Bugyal is a high-altitude meadow for treks with natural scenery, campgrounds & historic mountain villages. Dayara Bugyal is located around 52 km from Harsil, spreading over 28 square km at an average altitude of 3340 mt above the sea level an ideal trek for long weekends."
+			},
+			{
+				"title": "Gangotri Glacier",
+				"image": "destinations/harsil/gangotriGlacier.png",
+				"description":"Gangotri Glacier is located at a distabce of 47.8 km from Harsil is one of the largest glaciers in the Himalayas with an estimated volume of over 27 cubic kilometers and is the primary source of Ganges, the largest river in India. This glacier is a renowned tourist hotspot and a paradise for trekkers and adventure enthusiasts."
+			},
+			{
+				"title": "Gangotri",
+				"image": "destinations/harsil/gangotri.png",
+				"description":"Gangotri situated at a distance of 25 km from Harsil, is one of the holiest Hindu pilgrimage sites and birth place of river Ganges, perched at a height of 3100 mt. It is one of the four sacred sites of Chota Char Dham Yatra, which makes it even more popular both among the tourists and pilgrims."
+			},
+			{
+				"title": "Trekking",
+				"image": "destinations/harsil/trekking.png",
+				"description":"Harsil makes for a great base point for many exhilarating treks in Uttarakhand. Amongst the best treks are Khatling Glacier and Dayara Bugyal along with rock climbing in Gangotri."
+			}
+		  ],
+		  "hotels":[
+			
+		  ],
+		  "includedPackages":[
+				
+		  ],
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "The nearest airport from Harsil is Jolly Grant Airport which is situated in Dehradun at a distance of 232 km. The airport offers daily flights to and fro important cities like; Mumbai, Chennai, Kolkata. From the airport, there are cab services available by which one can reach Harsil without any hassle. The airport is also well-connected to Indira Gandhi International Airport, Delhi, which is at a distance of 461 km from Harsil."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "Rishikesh and Haridwar Railway Station are the nearest railway stations from Harsil. Though trains to both the stations are available, Haridwar seems to have better connectivity and is at a distance of 262 km. One can take a taxi from here to reach Harsil."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Harsil is well linked with other cities and towns of the state of Uttarakhand through roads. The nearest bus station from Harsil is Uttarkashi which is well connected with major cities. There are state-run buses to Uttarkashi, and cab service from there for Harsil."			
+			}
+		]
+	}
+	
+}

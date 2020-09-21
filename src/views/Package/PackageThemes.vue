@@ -9,13 +9,15 @@
         v-for="item in themes"
         :key="item.id"
         :item="item"
-        @clickaction="redirect(item.id)"
+        @clickaction="goToCategory(item.key)"
       ></app-theme-card>
     </section>
   </div>
 </template>
 
 <script>
+import { homePageViewAll as themes } from '../../utils/path-mappings';
+
 export default {
   name: 'PackageThemes',
   data() {
@@ -36,8 +38,14 @@ export default {
           this.themes = res.data.items;
         });
     },
-    redirect(id) {
-      alert(id + ' clicked');
+    goToCategory(categoryKey) {
+      this.$router.push({
+        name: themes[categoryKey].routeName,
+        params: {
+          currentTabIndex: themes[categoryKey].tabIndex,
+          scroll: true,
+        },
+      });
     },
   },
 };

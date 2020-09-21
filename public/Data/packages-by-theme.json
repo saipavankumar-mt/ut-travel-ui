@@ -4,24 +4,28 @@
     {
       "id": "theme_1",
       "title": "Pilgrimage",
+      "key": "piligrimDestination",
       "packageCount": "6",
       "image": "pilgrimage.svg"
     },
     {
       "id": "theme_2",
       "title": "Hill Station",
+      "key": "hillStationGetaways",
       "packageCount": "20",
       "image": "hillstation.svg"
     },
     {
       "id": "theme_3",
       "title": "Adventure",
+      "key": "adventurePackages",
       "packageCount": "2",
       "image": "adventure.svg"
     },
     {
       "id": "theme_4",
       "title": "Trekking",
+      "key": "trekkingPackages",
       "packageCount": "11",
       "image": "trekking.svg"
     }

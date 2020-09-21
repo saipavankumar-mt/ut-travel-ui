@@ -16,8 +16,8 @@
     <b-carousel-item v-for="item in carouselItems" :key="item.id">
       <div class="preview-carousel-content">
         <div class="title">{{item.title}}</div>
-        <img v-bind:src="require('../../assets/images/' + item.image)" v-bind:alt="item.image" />
-        <button class="button is-primary">Explore Now</button>
+        <img v-bind:src="require('../../assets/images/' + item.image)" :alt="item.image" />
+        <button class="button is-primary" @click="goToDetail(item)">Explore Now</button>
       </div>
     </b-carousel-item>
   </b-carousel>
@@ -36,6 +36,17 @@ export default {
     return {
       slideIndex: 0,
     };
+  },
+  methods: {
+    goToDetail(item) {
+      this.$router.push({
+        name: 'detail',
+        params: { packageName: item.key, packageId: item.id },
+        query: {
+          key: 'adventurePackages',
+        },
+      });
+    },
   },
 };
 </script>
@@ -70,6 +81,7 @@ export default {
       }
       .button {
         position: absolute;
+        border-radius: unset;
         top: 80%;
         right: 3%;
       }

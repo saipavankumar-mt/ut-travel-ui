@@ -160,6 +160,10 @@ export default {
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .available-packages {
     border: 1px solid rgba(145, 143, 155, 0.25);
+    &:hover {
+      box-shadow: unset;
+      transform: unset;
+    }
     .package-title {
       .no-of-packages {
         font-size: 14px !important;
