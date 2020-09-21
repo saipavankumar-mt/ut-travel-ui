@@ -77,7 +77,6 @@ export default {
         height: 330px;
         border-radius: 4px;
         width: 100%;
-        object-fit: cover;
       }
       .button {
         position: absolute;
