@@ -1,5 +1,12 @@
 [
   {
+    "id": "Pckg-D-3",
+    "title": "",
+    "key": "chardham-by-heli-offer",
+    "image": "chardhambyheli-offer-banner.png",
+    "duration": ""
+  },
+  {
     "id": "Pckg-A-1",
     "title": "Real Adventure With Corbett",
     "key": "Real-Adventure-With-Corbett",
@@ -12,5 +19,5 @@
     "key": "Real-Adventure",
     "image": "riverrafting.png",
     "duration": "6 Nights / 7 Days"
-  }
+  }  
 ]
