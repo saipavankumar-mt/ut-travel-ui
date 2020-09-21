@@ -153,7 +153,7 @@ export default {
     .column {
       padding-bottom: 60px;
       .is-rounded {
-        filter: brightness(130%);
+        filter: brightness(100%);
       }
     }
   }
