@@ -6,9 +6,9 @@
       {
         "name": "Raj Kumar",
         "designation": "Founder and Director Sales",
-        "image": "aboutUs/rajkumar.png",
+        "image": "rajkumar.png",
         "location": "Ahmedabad",
-        "subtitle": ""
+        "description": ""
       }
     ]
   },
@@ -19,16 +19,16 @@
       {
         "name": "Sagar Bhadreshwara",
         "designation": "Marketing",
-        "image": "aboutUs/sagar.png",
+        "image": "sagar.png",
         "location": "Mumbai",
-        "subtitle": "Specialist in Ladakh, Himachal Pradesh(SPITI VALLEY) & all indian Terrains. Speciality - Bike tours, Holiday packages, Tracking, trekking, Camping etc.,"
+        "description": "Specialist in Ladakh, Himachal Pradesh(SPITI VALLEY) & all indian Terrains. Speciality - Bike tours, Holiday packages, Tracking, trekking, Camping etc.,"
       },
       {
         "name": "Jitin Patel",
         "designation": "Marketing",
-        "image": "aboutUs/jitinpatel.png",
+        "image": "jitinpatel.png",
         "location": "Ahmedabad",
-        "subtitle": "Experienced and Specialization in Kailash Mansarovar, CharDham Yatra and all outbound tours"
+        "description": "Experienced and Specialization in Kailash Mansarovar, CharDham Yatra and all outbound tours"
       }
     ]
   },
@@ -39,30 +39,30 @@
       {
         "name": "Ankit Saini",
         "designation": "Operations",
-        "image": "aboutUs/ankitsaini.png",
+        "image": "ankitsaini.png",
         "location": "Haridwar",
-        "subtitle": ""
+        "description": "Helps in your trip planning"
       },
       {
         "name": "Divya Verma",
         "designation": "Operations",
-        "image": "aboutUs/divyaverma.png",
+        "image": "divyaverma.png",
         "location": "Haridwar",
-        "subtitle": ""
+        "description": "Helps in your trip planning"
       },
       {
         "name": "Khusbu",
         "designation": "Operations",
-        "image": "aboutUs/khusbu.png",
+        "image": "khusbu.png",
         "location": "Haridwar",
-        "subtitle": ""
+        "description": "Helps in your trip planning"
       },
       {
         "name": "Anjali Sharma",
         "designation": "Operations",
-        "image": "aboutUs/anjalisharma.png",
+        "image": "anjalisharma.png",
         "location": "Haridwar",
-        "subtitle": ""
+        "description": "Helps in your trip planning"
       }
     ]
   }
