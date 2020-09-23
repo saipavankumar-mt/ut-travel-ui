@@ -325,7 +325,8 @@ export default {
 
 .package-destination-detail {
   .card-setting .content .title.is-4 {
-    min-height: 50px;
+    min-height: 40px;
+    font-weight: 600;
   }
   .destination-carousel {
     box-shadow: none !important;

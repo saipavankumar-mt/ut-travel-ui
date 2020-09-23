@@ -127,11 +127,11 @@ export default {
   // }
   .content {
     font-family: Bahnschrift SemiBold;
-    padding: 6px;
+    padding: 4px;
     text-align: left;
 
     .title.is-4 {
-      font: 16px "open_sansbold";
+      font: 14px "open_sansbold";
       line-height: 20px;
       text-transform: uppercase;
       color: rgb(96, 191, 243);
