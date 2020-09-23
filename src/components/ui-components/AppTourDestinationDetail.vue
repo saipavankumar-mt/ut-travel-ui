@@ -198,7 +198,7 @@ export default {
   //   },
   // },
 
-  props: ["destinationId"],
+  props: ["destinationId", "trekkingId"],
   data() {
     return {
       gallery: false,
@@ -253,10 +253,12 @@ export default {
   },
   methods: {
     getDestinationPackages() {
+      const tourId =
+        this.$route.query.key === "destination"
+          ? this.destinationId
+          : this.trekkingId;
       this.$http
-        .get(
-          `${process.env.BASE_URL}Data/DestinationDetails/${this.destinationId}.json`
-        )
+        .get(`${process.env.BASE_URL}Data/DestinationDetails/${tourId}.json`)
         .then((res) => {
           this.destinationPackages = res.data.data;
           // console.log(this.destinationPackages);

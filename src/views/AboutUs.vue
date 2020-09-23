@@ -99,7 +99,6 @@ export default {
   },
   created() {
     this.$http.get(`${process.env.BASE_URL}Data/aboutus.json`).then((res) => {
-      console.log(res.data);
       res.data.map((response) => {
         if (response.key === 'Founder') {
           this.founder = response.members;

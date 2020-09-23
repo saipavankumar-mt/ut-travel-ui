@@ -1,47 +1,18 @@
 <template>
-  <div class="tour-destination">
+  <div class="tour-trekking">
     <div class="banner">
       <div class="intro">
         <h1>
-          <span>Uttranchal</span> Trekking
+          <span>Uttranchal</span>
+          {{trekkingInfo.title}}
         </h1>
-        <h5>Best Time to Visit Uttarakhand:</h5>
-        <p>
-          Uttarakhand is a destination to be visited all through the year as
-          each season has something special to offer.
-        </p>
-        <h5>Why Visit Uttarakhand?:</h5>
-        <p>
-          For Hindu and Sikh pilgrimage journeys, skiing experience, wildlife
-          tours, whitewater river rafting, yoga, honeymoon, enthralling trekking
-          and peak climbing ventures, birdwatching, rural tourism, culture and
-          heritage, photography tour and for organizing memorable destination
-          weddings.
-        </p>
-        <h5>Temperature</h5>
-        <ul>
-          <li>
-            <h4>17°C to 35°C</h4>
-            <p>
-              Summer
-              <br />(April to Mid-June)
-            </p>
-          </li>
-          <li>
-            <h4>15°C to 30°C</h4>
-            <p>
-              Monsoon
-              <br />(Mid-June to September)
-            </p>
-          </li>
-          <li>
-            <h4>12°C to 0°C</h4>
-            <p>
-              Winter
-              <br />(October to March)
-            </p>
-          </li>
-        </ul>
+        <p>{{ trekkingInfo.subtitle }}</p>
+        <div v-for="(item, i) in trekkingInfo.overview" :key="i">
+          <div>
+            <h5>{{ item.title }}</h5>
+            <p>{{ item.subtitle }}</p>
+          </div>
+        </div>
       </div>
 
       <img
@@ -51,16 +22,8 @@
       />
     </div>
     <div class="package-container" id="scroll">
-      <section class="columns is-multiline">
-        <!-- <b-tabs v-model="activeIndex">
-          <b-tab-item
-            v-for="(tourPackage, idx) in tourPackagesHeader"
-            :key="idx"
-            class="columns is-multiline"
-            :label="tourPackage.type"
-            size="is-medium"
-        >-->
-        <div class="column is-one-quarter" v-for="(item, idx) in trekkingInfo" :key="idx">
+      <section class="columns is-multiline" v-if="trekkingInfo && trekkingInfo.items">
+        <div class="column is-one-quarter" v-for="(item, idx) in trekkingInfo.items" :key="idx">
           <app-preview-card
             @viewMoreClick="onViewClicked($event, trekkingInfo.key)"
             :item="item"
@@ -68,20 +31,16 @@
           ></app-preview-card>
           <router-view></router-view>
         </div>
-        <!-- </b-tab-item>
-        </b-tabs>-->
       </section>
     </div>
   </div>
 </template>
 
 <script>
-// import OfferList from './OfferList.vue';
 import AppPreviewCard from "../../components/ui-components/AppPreviewCard";
 export default {
   name: "TourTrekking",
   components: {
-    // OfferList,
     AppPreviewCard,
   },
 
@@ -98,20 +57,8 @@ export default {
 
   data() {
     return {
-      trekkingInfo: [],
+      trekkingInfo: {},
       activeIndex: this.currentTabIndex,
-      //   tourPackagesHeader: [
-      //     {
-      //       type: "HILL STATION",
-      //       key: "hillStationGetaways",
-      //       data: [],
-      //     },
-      //     {
-      //       type: "TREKKING",
-      //       key: "trekkingPackages",
-      //       data: [],
-      //     },
-      //   ],
       appPreviewSettings: {
         showHover: false,
         cardContent: "card-setting",
@@ -120,7 +67,7 @@ export default {
         },
         hoverAction: {
           show: true,
-          text: "View Destination",
+          text: "View Trekking",
           type: "BUTTON",
         },
         imageBlurOnHover: true,
@@ -132,7 +79,6 @@ export default {
     this.getTourPackages();
   },
   mounted() {
-    console.log(this.scroll);
     if (this.scroll) {
       this.onIndexChange();
     }
@@ -151,36 +97,23 @@ export default {
     onViewClicked(value, key) {
       this.redirect(value, key);
     },
-    redirect: function (value, destinationKey) {
+    redirect: function (value, trekkingKey) {
       this.$router.push({
-        name: "destination-detail",
+        name: "trekking-detail",
         params: {
-          destinationName: value.key,
-          destinationId: value.id,
+          trekkingName: value.key,
+          trekkingId: value.id,
         },
         query: {
-          key: destinationKey,
+          key: trekkingKey,
         },
       });
     },
     getTourPackages() {
       this.$http
-        .get(`${process.env.BASE_URL}Data/tour-destinations.json`)
+        .get(`${process.env.BASE_URL}Data/tour-trekking.json`)
         .then((res) => {
-          res.data.destinations.map((res) => {
-            if (res.key === "trekkingPackages") {
-              this.trekkingInfo = res.items;
-            }
-          });
-
-          //   this.tourPackagesHeader.map((response) => {
-          //     if (response.key === "hillStationGetaways") {
-          //       response.data = this.tourPackages.hillStationGetaways;
-          //     }
-          //     if (response.key === "trekkingPackages") {
-          //       response.data = this.tourPackages.trekkingPackages;
-          //     }
-          //   });
+          this.trekkingInfo = res.data;
         });
     },
   },
@@ -193,7 +126,7 @@ export default {
   padding: unset !important;
 }
 
-.tour-destination {
+.tour-trekking {
   .banner {
     display: flex;
     padding-bottom: 36px;
@@ -253,7 +186,7 @@ export default {
     }
   }
 
-  .tour-destination-info {
+  .tour-trekking-info {
     text-align: left;
     padding-bottom: 10px;
 
@@ -287,7 +220,7 @@ export default {
 }
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {
-  .tour-destination {
+  .tour-trekking {
     .banner {
       flex-direction: column-reverse;
       padding: 0 1rem;

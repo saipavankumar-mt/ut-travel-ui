@@ -40,10 +40,7 @@ export default {
   props: {
     member: { type: Object, required: true },
   },
-  mounted() {
-    // console.log("hih");
-    // console.log("valu", this.member);
-  },
+  mounted() {},
 };
 </script>
 
