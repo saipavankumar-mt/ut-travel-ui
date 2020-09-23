@@ -102,7 +102,6 @@ export default {
     this.getTourDestinations();
   },
   mounted() {
-    console.log(this.scroll);
     if (this.scroll) {
       this.onIndexChange();
     }

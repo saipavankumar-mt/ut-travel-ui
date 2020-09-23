@@ -66,7 +66,6 @@ export default {
       this.$http
         .get(`${process.env.BASE_URL}Data/${tourType}.json`)
         .then((res) => {
-          console.log(this.packageKey);
           this.packages = res.data.items.filter(
             (item) => item.id !== this.itineraryId
           );

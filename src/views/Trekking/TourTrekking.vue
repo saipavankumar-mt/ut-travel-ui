@@ -79,7 +79,6 @@ export default {
     this.getTourPackages();
   },
   mounted() {
-    console.log(this.scroll);
     if (this.scroll) {
       this.onIndexChange();
     }
