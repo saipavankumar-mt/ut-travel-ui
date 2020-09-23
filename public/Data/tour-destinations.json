@@ -124,12 +124,6 @@
           "title": "Rishikesh",
           "key": "RISHIKESH",
           "image": "destinations/RishikeshTile.png"
-        }, 
-        {
-          "id": "Dest-L-",
-          "title": "Auli",
-          "key": "AULI",
-          "image": "destinations/AuliTile.png"
         },
         {
           "id": "Dest-L-",
