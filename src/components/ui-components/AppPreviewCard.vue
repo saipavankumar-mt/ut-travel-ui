@@ -127,7 +127,7 @@ export default {
   // }
   .content {
     font-family: Bahnschrift SemiBold;
-    padding: 4px;
+    padding-top: 4px;
     text-align: left;
 
     .title.is-4 {
