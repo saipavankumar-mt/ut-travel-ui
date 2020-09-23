@@ -1,0 +1,265 @@
+ {
+	"data": {
+		  "id": "Dest-L-15",
+		  "key": "Haridwar",
+		  "title": "HARIDWAR",
+		  "qoute": "…Gateway to Heaven",
+		  "subtitle": "Haridwar is one of the seven sacred cities of the Hindus and is a major pilgrimage center. It has been known by many names originally it was called Kapila’ for the sage who once lived there. Its present name means 'Door to Hari' Hari is one of the names of Lord Vishnu’ a principal deity of Hindusim.",
+		  "overview":[
+			{
+			  "title":"Why Haridwar:",
+			  "subtitle":"Haridwar is regarded as a holy place for Hindus, hosting important religious events and serving as a gateway to several prominent places of worship and is a famous pilgrimage destination. Brahma Kund, the spot where the Amrit fell, is located at Har ki Pauri and is considered to be the most sacred ghat of Haridwar."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"The city experiences great weather for many months of the year as it is located in the foothills of Himalayas. The ldeal time to visit Haridwar is between the months of October to May during these months the city hosts many religious festivals and events."
+			}
+		  ],
+		  "temperature":[
+			{
+				"season":"Summer",
+				"months":"(April to Mid-June)",
+				"temp":"18°C to 40°C"
+			},
+			{
+				"season":"Monsoon",
+				"months":"(Mid-June to September)",
+				"temp":"21°C to 34°C"
+			},
+			{
+				"season":"Winter",
+				"months":"(October to March)",
+				"temp":"6°C to 20°C"
+			}
+		  ],
+		  "heroImage": "destinations/HaridwarTile.png",
+		  "images": [
+		    "destinations/haridwar/bharatMataMandir.png",
+			"destinations/haridwar/chandiDeviTemple.png",
+			"destinations/haridwar/daksheswaraMahadevTemple.png",
+			"destinations/haridwar/doodhadhariBarfaniTemple.png",
+			"destinations/haridwar/harKiPauri.png",
+			"destinations/haridwar/mansaDeviTemple.png",
+			"destinations/haridwar/mayaDeviTemple.png",
+			"destinations/haridwar/saptaRishiAshram.png",
+			"destinations/haridwar/shantikunjAshram.png",
+			"destinations/haridwar/sureshwariDevi.png",
+			"destinations/haridwar/neelDharaPakshiVihar.png",
+			"destinations/haridwar/pawanDham.png"
+		  ],
+		  "attractions":[
+			{
+				"title": "Bharat Mata Mandir",
+				"image": "destinations/haridwar/bharatMataMandir.png",
+				"description":"Bharat Mata Mandir is a unique temple dedicated to Mother India established by Swami Satyamitranand Giri inaugurated by the late Indian prime minister Smt. Indira Gandhi on 15 may 1983. Located on the bank of Ganga, temple has eight storeys and each floor is dedicated to different Hindu deities and freedom fighters."
+			},
+			{
+				"title": "Chandi Devi Temple",
+				"image": "destinations/haridwar/chandiDeviTemple.png",
+				"description":"Chandi Devi Temple is a Hindu temple dedicated to Goddess Chandi Devi in the holy city of Haridwar, the temple is situated atop the Neel Parvat and the main deity of the temple is said to established by Adi Shankaracharya in the 8th century. To reach the temple one need to trek uphill or take a rope-way(cable car) service."
+			},
+			{
+				"title": "Daksheswara Mahadev Temple",
+				"image": "destinations/haridwar/daksheswaraMahadevTemple.png",
+				"description":"Daksha Mahadev temple is one of the oldest Hindu temple dedicated to Lord Shiva, located in the town of Kankhal, about 4 km from Haridwar whose origin lies in one of the stories of Shiva Purana. It is named after King Daksha Prajapati, the father of Sati and it is a place of pilgrimage for Shaivaite devotees on Maha Shivaratri."
+			},
+			{
+				"title": "Doodhadhari Barfani Temple",
+				"image": "destinations/haridwar/doodhadhariBarfaniTemple.png",
+				"description":"Doodhadhari Barfani Temple is a famous temple known for its stunning architectural marvel made of marble. Located at a fovourable distance of 4 km from Hari ki Pauri the temple is dedicated to many God and Goddess of Hindus among all of them Ram-Sita temple and Hanuman temple is very famous."
+			},
+			{
+				"title": "Har Ki Pauri",
+				"image": "destinations/haridwar/harKiPauri.png",
+				"description":"Har Ki Pauri is the one of the most sacred Ghats in Haridwar and is reckoned to be built in 1st century BC, by King Vikramaditya. It is believed that it is precise spot where the Ganges leaves the mountains and enters the plains. Har Ki Pauri is also the area where thousands of pilgrims converge and the festivities commence during the Kumbha Mela, which takes place every twelve year."
+			},
+			{
+				"title": "Mansa Devi Temple",
+				"image": "destinations/haridwar/mansaDeviTemple.png",
+				"description":"Mansa Devi Temple is one of the most sacred temple of Goddess Mansa Devi located at Bilwa Parvat and is one of the Siddh Peeth located in Haridwar. The temple is known for being the holy abode of Mansa Devi, a form of Shakti and is said to have emerged from the mind of the Lord Shiva."
+			},
+			{
+				"title": "Maya Devi Temple",
+				"image": "destinations/haridwar/mayaDeviTemple.png",
+				"description":"Maya Devi Temple is one of three Siddh Peethas dedicated to Goddess Maya, who is believed to be an incarnation of Shakti. It is believed that the heart and navel of goddess Sati fell in the region where the temple stands today and thus it is sometimes referred to as a Shakti Peetha."
+			},
+			{
+				"title": "Sapta Rishi Ashram",
+				"image": "destinations/haridwar/saptaRishiAshram.png",
+				"description":"Sapta Rishi Ashram is an ancient ashram where seven sages, namely Kashyapa, Vashisht, Atri, Vishwamitra, Jamadagi, Bharadwaja and Gautam, meditated. As per the mythological records, they get disturbed by the gushing sound of river Ganges while they are meditation later on Ganga splited into seven water streams to make less noise. Those seven river streams are now known as Sapt Sarovar, and the point where the seven sages meditated is called as Saptrishi Ashram."
+			},
+			{
+				"title": "Shantikunj Ashram",
+				"image": "destinations/haridwar/shantikunjAshram.png",
+				"description":"Located on the bank of river Ganga, Shantikunj is the headquarters of the All World Gayatri Parivar in India established by Pt. Shriram Sharma Acharya  in 1971. It is also a place of attraction for tourists and seekers of spiritual guidance, visited by several saints, leaders and scholars, including H.H.Dalai Lama, Murari Bapu etc.."
+			},
+			{
+				"title": "Sureshwari Devi",
+				"image": "destinations/haridwar/sureshwariDevi.png",
+				"description":"Sureshwari Devi is a beautiful temple located admist the deep jungles of Rajaji National Park dedicated to Goddess Durga. After the Darshan of the divine temple, tourist can further visit the Rajaji National Park and explore the wilderness by going for a jeep or elephant ride."
+			},
+			{
+				"title": "Neel Dhara Pakshi Vihar",
+				"image": "destinations/haridwar/neelDharaPakshiVihar.png",
+				"description":"Neel Dhara Pakshi Vihar located on the banks of river Ganga, situated at a distance of 3.5 km from Haridwar is a paradise for bird watchers and trekkers. Winter is the best season to visit when the area is flooded with beautiful migratory birds including Siberian Crane making it a facinating tourist destination and also offers magnificent views of beautiful Shivalik Mountains."
+			},
+			{
+				"title": "Pawan Dham",
+				"image": "destinations/haridwar/pawanDham.png",
+				"description":"Pawan Dham is a non-profitable social organization found by Swami Vedantanandji Mahara. Pawan Dham Temple is situated just two km from Haridwar, the temple is famed for it's fantastic glass and mirrorwork and it's elaborately decorated idols in the temple are worth visiting."
+			}
+		  ],
+		  "hotels":[
+			{	
+				"id":"Dest-L-15-H-1",
+				"key":"AaliaResort",
+				"name":"Aalia Resort",				
+				"image":"hotels/haridwar/aaliaResort.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-15-H-2",
+				"key":"RadissonBluHotel",
+				"name":"Radisson Blu Hotel",				
+				"image":"hotels/haridwar/radissonBluHotel.png",
+				"rating":5				
+			},
+			{	
+				"id":"Dest-L-15-H-3",
+				"key":"HotelDriveInn",
+				"name":"Hotel Drive Inn",				
+				"image":"hotels/haridwar/hotelDriveInn.png",
+				"rating":3				
+			},
+			{	
+				"id":"Dest-L-15-H-4",
+				"key":"HotelLandmark",
+				"name":"Hotel Landmark",				
+				"image":"hotels/haridwar/hotelLandmark.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-15-H-5",
+				"key":"HotelKhannaPalace",
+				"name":"Hotel Khanna Palace",				
+				"image":"hotels/haridwar/hotelKhannaPalace.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-15-H-6",
+				"key":"HotelLakshya’s",
+				"name":"Hotel Lakshya’s",				
+				"image":"hotels/haridwar/hotelLakshya’s.png",
+				"rating":4			
+			},
+			{	
+				"id":"Dest-L-15-H-7",
+				"key":"HotelGodwin",
+				"name":"Hotel Godwin",				
+				"image":"hotels/haridwar/hotelGodwin.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-15-H-8",
+				"key":"HotelCityPark",
+				"name":"Hotel City Park",				
+				"image":"hotels/haridwar/hotelCityPark.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-15-H-9",
+				"key":"HotelClassicResidency",
+				"name":"Hotel Classic Residency",				
+				"image":"hotels/haridwar/hotelClassicResidency.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-15-H-10",
+				"key":"HotelRegentaOrkos",
+				"name":"Hotel Regenta Orkos",				
+				"image":"hotels/haridwar/hotelRegentaOrkos.png",
+				"rating":3				
+			},
+			{	
+				"id":"Dest-L-15-H-11",
+				"key":"HotelHyphenGrand",
+				"name":"Hotel Hyphen Grand",				
+				"image":"hotels/haridwar/hotelHyphenGrand.png",
+				"rating":3				
+			}
+		  ],
+		  "includedPackages":[
+			{
+			  "id": "Pckg-B-1",
+			  "title": "Garhwal Glimpse",
+			  "image": "GarhwalGlimpseTile.png",
+			  "key": "GarhwalGlimpse",
+			  "duration": "4 Nights / 5 Days"
+			},
+			{
+			  "id": "Pckg-B-3",
+			  "title": "Complete Uttaranchal",
+			  "image": "CompleteUttaranchalTile.png",
+			  "key": "CompleteUttaranchal",
+			  "duration": "10 Nights / 11 Days"
+			},
+			{
+			  "id": "Pckg-B-6",
+			  "title": "Tiny Uttaranchal",
+			  "image": "TinyUttaranchalTile.png",
+			  "key": "TinyUttaranchal",
+			  "duration": "6 Nights / 7 Days"
+			},
+			{
+			  "id": "Pckg-B-7",
+			  "title": "Scenic Uttaranchal",
+			  "image": "ScenicUttranchalTile.png",
+			  "key": "ScenicUttaranchal",
+			  "duration": "9 Nights / 10 Days"
+			},
+			{
+			  "id": "Pckg-B-9",
+			  "title": "Uttaranchal Preview",
+			  "image": "UttaranchalPreviewTile.png",
+			  "key": "UttaranchalPreview",
+			  "duration": "7 Nights / 8 Days"
+			},
+			{
+			  "id": "Pckg-B-19",
+			  "title": "Fascinating Garhwal",
+			  "image": "FascinatingGarhwalTile.png",
+			  "key": "FascinatingGarhwal",
+			  "duration": "8 Nights / 9 Days"
+			},
+			{
+			  "id": "Pckg-B-20",
+			  "title": "Enchanting Uttarakhand",
+			  "image": "EnchantingUttarakhandTile.png",
+			  "key": "EnchantingUttarakhand",
+			  "duration": "9 Nights / 10 Days"
+			},
+			{
+			  "id": "Pckg-D-2",
+			  "title": "Panch Kedar",
+			  "image": "PanchKedarTile.png",
+			  "key": "PanchKedar",
+			  "duration": "15 Nights / 16 Days"
+			}
+			],
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "The nearest airport from Haridwar is Jolly Grant Airport which is in Dehradun. The airport is located at a distance of 38.1 km. Tourist can reach here quite comfortably. One can take a taxi from the airport to reach Haridwar."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "Haridwar is well-connected through rail with other major cities like; Delhi Mumbai, Kolkata, Dehradun, Ahmedabad, and Patna. The city owns its railway station, named as, Haridwar Junction."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "One can also reach Haridwar through road. The city is well-connected with other major North India destinations like Delhi, UP, Haryana, Punjab along with the other parts of the state Uttrakhand. Bus services are frequent and are economical. One can also come here by his own car or can also hire a taxi."			
+			}
+		]
+	}
+	
+}

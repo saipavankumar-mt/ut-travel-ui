@@ -54,17 +54,17 @@
           "image": "destinations/auli/auliRopeway.png"
         },
         {
-          "id": "Dest-L-8",
-          "title": "Mukteshwar",
-          "key": "MUKTESHWAR",
-          "image": "destinations/MukteshwarTile.png"
-        },
-        {
           "id": "Dest-L-7",
           "title": "Kausani",
           "key": "KAUSANI",
           "image": "destinations/KausaniTile.png"
-        },        
+        }, 
+        {
+          "id": "Dest-L-8",
+          "title": "Mukteshwar",
+          "key": "MUKTESHWAR",
+          "image": "destinations/MukteshwarTile.png"
+        },               
         {
           "id": "Dest-L-9",
           "title": "Ramgarh",
@@ -102,7 +102,13 @@
           "image": "destinations/HarshilTile.png"
         },
         {
-          "id": "Dest-L-",
+          "id": "Dest-L-15",
+          "title": "Haridwar",
+          "key": "HARIDWAR",
+          "image": "destinations/HaridwarTile.png"
+        },
+        {
+          "id": "Dest-L-16",
           "title": "Jageshwar",
           "key": "JAGESHWAR",
           "image": "destinations/JageshwarTile.png"
@@ -112,27 +118,21 @@
           "title": "Jim Corbett Nation Park",
           "key": "JIM-CORBETT-NATIONAL-PARK",
           "image": "destinations/JimCorbettNationParkTile.png"
-        },
+        },       
         {
-          "id": "Dest-L-13",
-          "title": "Haridwar",
-          "key": "HARIDWAR",
-          "image": "destinations/HaridwarTile.png"
-        },
-        {
-          "id": "Dest-L-14",
+          "id": "",
           "title": "Rishikesh",
           "key": "RISHIKESH",
           "image": "destinations/RishikeshTile.png"
         }, 
         {
-          "id": "Dest-L-18",
+          "id": "Dest-L-",
           "title": "Auli",
           "key": "AULI",
           "image": "destinations/AuliTile.png"
         },
         {
-          "id": "Dest-L-19",
+          "id": "Dest-L-",
           "title": "Khirshu",
           "key": "KHIRSHU",
           "image": "destinations/KhirshuTile.png"
