@@ -57,7 +57,9 @@ export default {
       type: Object,
     },
   },
-  created() {},
+  created() {
+    console.log(this.item);
+  },
   computed: {
     getImageUrl() {
       try {

@@ -59,18 +59,18 @@ export default {
   },
   methods: {
     getDestinations() {
+      const tourType =
+        this.packageKey === "destination"
+          ? "tour-destinations"
+          : "tour-trekking";
       this.$http
-        .get(`${process.env.BASE_URL}Data/tour-destinations.json`)
+        .get(`${process.env.BASE_URL}Data/${tourType}.json`)
         .then((res) => {
           console.log(this.packageKey);
-          res.data.destinations.map((response) => {
-            if (response.key === this.packageKey) {
-              this.packages = response.items.filter(
-                (item) => item.id !== this.itineraryId
-              );
-              this.packages = this.$randomElements(this.packages, 5);
-            }
-          });
+          this.packages = res.data.items.filter(
+            (item) => item.id !== this.itineraryId
+          );
+          this.packages = this.$randomElements(this.packages, 5);
         });
     },
     onViewPackageClicked(value) {

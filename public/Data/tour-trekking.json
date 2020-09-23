@@ -1,0 +1,84 @@
+{
+  "title": "Trekking",
+  "subtitle": "",
+  "overview": [
+    {
+      "title": "Best Time to Visit Uttarakhand:",
+      "subtitle": "Uttarakhand is a destination to be visited all through the year as each season has something special to offer."
+    },
+    {
+      "title": "Why Visit Uttarakhand?:",
+      "subtitle": " For Hindu and Sikh pilgrimage journeys, skiing experience, wildlife tours, whitewater river rafting, yoga, honeymoon, enthralling trekking and peak climbing ventures, birdwatching, rural tourism, culture and heritage, photography tour and for organizing memorable destination weddings."
+    }
+  ],
+  "type": "Trekking Packages",
+  "key": "trekking",
+  "items": [
+    {
+      "id": "Trek-M-1",
+      "title": "Hemkund Sahib",
+      "key": "HEMKUND-SAHIB",
+      "image": "destinations/HemkundSahibTile.png"
+    },
+    {
+      "id": "Trek-M-2",
+      "title": "Valley Of Flower",
+      "key": "VALLEY-OF-FLOWER",
+      "image": "destinations/ValleyOfFlowerTile.png"
+    },
+    {
+      "id": "Trek-M-3",
+      "title": "Satopanth",
+      "key": "SATOPANTH",
+      "image": "destinations/SatopanthTile.png"
+    },
+    {
+      "id": "Trek-M-4",
+      "title": "Deoria Tal",
+      "key": "DEORIA-TAL",
+      "image": "destinations/DeoriaTalTile.png"
+    },
+    {
+      "id": "Trek-M-5",
+      "title": "Kakabhushandi Tal",
+      "key": "KAKABHUSHANDI-TAL",
+      "image": "destinations/KakabhushandiTalTile.png"
+    },
+    {
+      "id": "Trek-M-6",
+      "title": "Kedar Tal",
+      "key": "KEDAR-TAL",
+      "image": "destinations/KedarTalTile.png"
+    },
+    {
+      "id": "Trek-M-7",
+      "title": "Kedarkantha",
+      "key": "KEDARKANTHA",
+      "image": "destinations/KedarkanthaTile.png"
+    },
+    {
+      "id": "Trek-M-8",
+      "title": "Bali Pass",
+      "key": "BALI-PASS",
+      "image": "destinations/BaliPassTile.png"
+    },
+    {
+      "id": "Trek-M-9",
+      "title": "Har Ki Dun",
+      "key": "HAR-KI-DUN",
+      "image": "destinations/HarKiDunTile.png"
+    },
+    {
+      "id": "Trek-M-10",
+      "title": "Brahmatal",
+      "key": "BRAHMATAL",
+      "image": "destinations/BrahmatalTile.png"
+    },
+    {
+      "id": "Trek-M-11",
+      "title": "Kalandi Khal",
+      "key": "KALANDI-KHAL",
+      "image": "destinations/KalandiKhalTile.png"
+    }
+  ]
+}
