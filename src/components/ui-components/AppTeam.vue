@@ -5,22 +5,19 @@
         <div class="content" style="margin-right:20%">
           <p style="text-align:left">
             <strong>
-              <i class="fas fa-user"></i>
               {{ member.name }}
             </strong>
             <br />
             <small>
-              <i class="fas fa-map-marker-alt"></i>
               {{ member.location }}
             </small>
             <br />
             <small>
-              <i class="fas fa-suitcase"></i>
               {{ member.designation }}
             </small>
             <br />
             <br />
-            <small>{{ member.subtitle }}</small>
+            <small>{{ member.description }}</small>
           </p>
         </div>
       </div>
@@ -28,7 +25,7 @@
         <figure class="image is-128x128">
           <img
             class="is-rounded"
-            v-bind:src="require('../../assets/images/' + member.image)"
+            v-bind:src="require('../../assets/images/aboutus/' + member.image)"
             alt="Image"
           />
         </figure>
@@ -43,10 +40,7 @@ export default {
   props: {
     member: { type: Object, required: true },
   },
-  mounted() {
-    console.log("hih");
-    console.log("valu", this.member);
-  },
+  mounted() {},
 };
 </script>
 

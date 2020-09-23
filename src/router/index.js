@@ -29,16 +29,6 @@ const routes = [
     name: 'detail',
     component: AppPackageDetail,
     props: true,
-    // beforeEnter: (to, from, next) => {
-    //   /*
-    //    todo check if to === from
-    //    Warning!: location.reload()  completely destroy all vuejs stored states
-    //    */
-    //   if (to === from) {
-    //     window.location.reload();
-    //     return next();
-    //   }
-    // },
   },
 
   {
@@ -47,13 +37,13 @@ const routes = [
     component: TourPackages,
     props: true,
   },
-
   {
     path: '/destinations',
     name: 'destinations',
     component: TourDestinations,
     props: true,
   },
+
   {
     path: '/trekking',
     name: 'trekking',
@@ -63,6 +53,12 @@ const routes = [
   {
     path: '/destination/:destinationId/:destinationName',
     name: 'destination-detail',
+    component: AppTourDestinationDetail,
+    props: true,
+  },
+  {
+    path: '/trekking/:trekkingId/:trekkingName',
+    name: 'trekking-detail',
     component: AppTourDestinationDetail,
     props: true,
   },
