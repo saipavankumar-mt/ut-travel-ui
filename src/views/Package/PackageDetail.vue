@@ -647,28 +647,30 @@ export default {
 }
 
 @media only screen and (max-width: 1366px) {
-  .banner-inner {
-    width: 45% !important;
-    // height: 500px !important;
-    right: 0px !important;
-    img {
-      width: -webkit-fill-available !important;
-      // height: -webkit-fill-available !important;
-      padding-bottom: 10px;
-      // border-bottom-left-radius: 35% 45%;
-    }
-    .nightStay {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      .title {
-        padding: 5px 10px 5px 10px;
-        border-radius: 10%;
-        background: #47caf0;
-        width: fit-content;
+  .travel-detail {
+    .banner-inner {
+      width: 45% !important;
+      // height: 500px !important;
+      right: 0px !important;
+      img {
+        width: -webkit-fill-available !important;
+        // height: -webkit-fill-available !important;
+        padding-bottom: 10px;
+        // border-bottom-left-radius: 35% 45%;
       }
-      .subtitle {
-        padding: 7px 40px 15px 40px;
+      .nightStay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title {
+          padding: 5px 10px 5px 10px;
+          border-radius: 10%;
+          background: #47caf0;
+          width: fit-content;
+        }
+        .subtitle {
+          padding: 7px 40px 15px 40px;
+        }
       }
     }
   }

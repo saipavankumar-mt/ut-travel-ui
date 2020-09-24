@@ -18,54 +18,51 @@
         </div>
       </div>
       <div class="banner-inner">
-        <div>
+        <div class="hero-image">
           <img
             :src="trekkingPackages.heroImage"
             alt="trekkingPackages.heroImage"
           />
+        </div>
+        <div
+          class="overview-container"
+          v-if="trekkingPackages && trekkingPackages.overview"
+        >
+          <div class="overview-title">
+            <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
+            <span> Area</span>:{{ trekkingPackages.overview.area }}
+          </div>
+          <div class="overview-title">
+            <!-- <img src="../../assets/images/trekking/duration.png" alt="" /> -->
+            <span> Duration</span>:{{ trekkingPackages.overview.duration }}
+          </div>
+          <div class="overview-title">
+            <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
+            <span>Best Season</span>:{{ trekkingPackages.overview.bestSeason }}
+          </div>
+          <div class="overview-title">
+            <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
+            <span> Grade</span>:{{ trekkingPackages.overview.difficultyRating }}
+          </div>
+          <div class="overview-title">
+            <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
+            <span> Altitude</span>:{{ trekkingPackages.overview.Altitude }}
+          </div>
+          <div class="overview-title">
+            <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
+            <span>Total Trekking</span>:{{
+              trekkingPackages.overview.TotalTreking
+            }}
+          </div>
         </div>
       </div>
     </div>
     <div class="itinerary-container">
       <section>
         <b-tabs>
-          <b-tab-item label="OVERVIEW">
-            <div
-              class="overview-container"
-              v-if="trekkingPackages && trekkingPackages.overview"
-            >
-              <div class="overview-title">
-                <img src="../../assets/images/trekking/area.png" alt="" />
-                <span> Area</span>:{{ trekkingPackages.overview.area }}
-              </div>
-              <div class="overview-title">
-                <img src="../../assets/images/trekking/duration.png" alt="" />
-                <span> Duration</span>:{{ trekkingPackages.overview.duration }}
-              </div>
-              <div class="overview-title">
-                <img src="../../assets/images/trekking/area.png" alt="" />
-                <span>Best Season</span>:{{
-                  trekkingPackages.overview.bestSeason
-                }}
-              </div>
-              <div class="overview-title">
-                <img src="../../assets/images/trekking/area.png" alt="" />
-                <span> Grade</span>:{{
-                  trekkingPackages.overview.difficultyRating
-                }}
-              </div>
-              <div class="overview-title">
-                <img src="../../assets/images/trekking/area.png" alt="" />
-                <span> Altitude</span>:{{ trekkingPackages.overview.Altitude }}
-              </div>
-              <div class="overview-title">
-                <img src="../../assets/images/trekking/area.png" alt="" />
-                <span>Total Trekking</span>:{{
-                  trekkingPackages.overview.TotalTreking
-                }}
-              </div>
-            </div>
-          </b-tab-item>
+          <!-- <b-tab-item label="OVERVIEW">
+           
+          </b-tab-item> -->
           <b-tab-item label="ITINERARY">
             <ul class="events">
               <li v-for="(item, i) in trekkingPackages.itinerary" :key="i">
@@ -242,6 +239,28 @@ export default {
 }
 
 .tour-trekking-detail {
+  .overview-container {
+    text-align: left;
+    padding: 60px;
+    .overview-title {
+      padding-bottom: 2px;
+      span {
+        display: inline-block;
+        width: 160px;
+        font: 16px "open_sansbold";
+        color: #394048;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+      img {
+        height: 28px;
+        width: 31px;
+
+        margin-right: 8px;
+      }
+    }
+  }
   .banner {
     display: flex;
     padding-bottom: 20px;
@@ -308,34 +327,17 @@ export default {
   }
 
   .banner-inner {
-    img {
-      height: 350px !important;
-      padding-bottom: unset;
-      border-bottom-left-radius: unset !important;
+    .hero-image {
+      img {
+        height: 350px !important;
+        padding-bottom: unset;
+        width: -webkit-fill-available !important;
+        border-bottom-left-radius: unset !important;
+      }
     }
   }
 
   .itinerary-container {
-    .overview-container {
-      .overview-title {
-        padding-bottom: 2px;
-        span {
-          display: inline-block;
-          width: 160px;
-          font: 16px "open_sansbold";
-          color: #394048;
-          text-transform: uppercase;
-          font-weight: 700;
-          line-height: 1.2;
-        }
-        img {
-          height: 28px;
-          width: 31px;
-
-          margin-right: 8px;
-        }
-      }
-    }
     .imp-info-container {
       padding: 20px 0 20px 20%;
       text-align: left;
