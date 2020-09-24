@@ -1,12 +1,16 @@
 <template>
   <article
     class="profile-card"
-    :class="{ 'founder': isFounder, 'marketing': isMarketing, 'operations': isOperations }"
+    :class="{
+      founder: isFounder,
+      marketing: isMarketing,
+      operations: isOperations,
+    }"
   >
     <figure class="media-left image member-image">
       <img
         class="is-rounded"
-        :src="require('../../assets/images/aboutus/' + member.image)"
+        :src="require('../../assets/images/aboutUs/' + member.image)"
         :alt="member.image"
       />
     </figure>
@@ -15,8 +19,8 @@
       <div class="member-designation">{{ member.designation }}</div>
       <div class="member-location">{{ member.location }}</div>
       <div class="member-desc">
-        <p>{{member.description}}</p>
-        <p v-if="member.description_extra">{{member.description_extra}}</p>
+        <p>{{ member.description }}</p>
+        <p v-if="member.description_extra">{{ member.description_extra }}</p>
       </div>
     </aside>
   </article>
@@ -24,7 +28,7 @@
 
 <script>
 export default {
-  name: 'AppProfileCard',
+  name: "AppProfileCard",
   props: {
     member: { type: Object, required: true },
     isFounder: { type: Boolean },

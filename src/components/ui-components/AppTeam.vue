@@ -2,8 +2,8 @@
   <div class="app-team">
     <article class="media profile">
       <div class="media-content">
-        <div class="content" style="margin-right:20%">
-          <p style="text-align:left">
+        <div class="content" style="margin-right: 20%">
+          <p style="text-align: left">
             <strong>
               {{ member.name }}
             </strong>
@@ -25,7 +25,7 @@
         <figure class="image is-128x128">
           <img
             class="is-rounded"
-            v-bind:src="require('../../assets/images/aboutus/' + member.image)"
+            v-bind:src="require('../../assets/images/aboutUs/' + member.image)"
             alt="Image"
           />
         </figure>

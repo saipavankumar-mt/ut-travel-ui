@@ -1,8 +1,9 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
-import AppPackageDetail from '../components/ui-components/AppPackageDetail.vue';
-import AppTourDestinationDetail from '../components/ui-components/AppTourDestinationDetail.vue';
+import PackageDetail from '../views/Package/PackageDetail.vue';
+import TourDestinationDetail from '../views/Destination/TourDestinationDetail.vue';
+import TourTrekkingDetail from '../views/Trekking/TourTrekkingDetail.vue';
 import TourPackages from '../views/Package/TourPackages.vue';
 import TourDestinations from '../views/Destination/TourDestinations.vue';
 import TourTrekking from '../views/Trekking/TourTrekking.vue';
@@ -27,7 +28,7 @@ const routes = [
   {
     path: '/tour-package/:packageId/:packageName',
     name: 'detail',
-    component: AppPackageDetail,
+    component: PackageDetail,
     props: true,
   },
 
@@ -53,13 +54,13 @@ const routes = [
   {
     path: '/destination/:destinationId/:destinationName',
     name: 'destination-detail',
-    component: AppTourDestinationDetail,
+    component: TourDestinationDetail,
     props: true,
   },
   {
     path: '/trekking/:trekkingId/:trekkingName',
     name: 'trekking-detail',
-    component: AppTourDestinationDetail,
+    component: TourTrekkingDetail,
     props: true,
   },
   {
