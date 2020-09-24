@@ -17,22 +17,137 @@
           </div>
         </div>
       </div>
-
-      <!-- <img
-        class="banner-inner"
-        src="../../assets/images/tour-package-banner.png"
-        alt="kashmir-banner"
-      />-->
       <div class="banner-inner">
         <div>
-          <!-- <img :src="trekkingPackages.heroImage" alt="trekkingPackages.heroImage" /> -->
-
           <img
             :src="trekkingPackages.heroImage"
             alt="trekkingPackages.heroImage"
           />
         </div>
       </div>
+    </div>
+    <div class="itinerary-container">
+      <section>
+        <b-tabs>
+          <b-tab-item label="OVERVIEW">
+            <div
+              class="overview-container"
+              v-if="trekkingPackages && trekkingPackages.overview"
+            >
+              <div class="overview-title">
+                <img src="../../assets/images/trekking/area.png" alt="" />
+                <span> Area</span>:{{ trekkingPackages.overview.area }}
+              </div>
+              <div class="overview-title">
+                <img src="../../assets/images/trekking/duration.png" alt="" />
+                <span> Duration</span>:{{ trekkingPackages.overview.duration }}
+              </div>
+              <div class="overview-title">
+                <img src="../../assets/images/trekking/area.png" alt="" />
+                <span>Best Season</span>:{{
+                  trekkingPackages.overview.bestSeason
+                }}
+              </div>
+              <div class="overview-title">
+                <img src="../../assets/images/trekking/area.png" alt="" />
+                <span> Grade</span>:{{
+                  trekkingPackages.overview.difficultyRating
+                }}
+              </div>
+              <div class="overview-title">
+                <img src="../../assets/images/trekking/area.png" alt="" />
+                <span> Altitude</span>:{{ trekkingPackages.overview.Altitude }}
+              </div>
+              <div class="overview-title">
+                <img src="../../assets/images/trekking/area.png" alt="" />
+                <span>Total Trekking</span>:{{
+                  trekkingPackages.overview.TotalTreking
+                }}
+              </div>
+            </div>
+          </b-tab-item>
+          <b-tab-item label="ITINERARY">
+            <ul class="events">
+              <li v-for="(item, i) in trekkingPackages.itinerary" :key="i">
+                <time>Day {{ item.day }}</time>
+                <span
+                  ><strong>{{ item.title }} </strong>
+                  <p v-for="(title, index) in item.activities" :key="index">
+                    {{ title }}
+                  </p>
+                </span>
+              </li>
+            </ul>
+          </b-tab-item>
+          <b-tab-item label="THINGS TO CARRY">
+            <div class="things-to-carry-container">
+              <div
+                class="things-to-carry"
+                v-for="(title, index) in trekkingPackages.thingsToCarry"
+                :key="index"
+              >
+                <i class="fas fa-angle-double-right"></i>
+                {{ title }}
+              </div>
+            </div>
+          </b-tab-item>
+          <b-tab-item label="INFORMATION">
+            <div class="imp-info-container">
+              <div
+                class="imp-description"
+                v-for="(item, i) in trekkingPackages.importantInfo"
+                :key="i"
+              >
+                <span class="imp-title">{{ item.title }}:&nbsp;</span>
+                <div class="imp-sub-container">
+                  <div
+                    class="imp-subtitle"
+                    v-for="(title, index) in item.subtitles"
+                    :key="index"
+                  >
+                    <i class="fas fa-angle-double-right"></i>
+                    {{ title }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </b-tab-item>
+          <b-tab-item label="TRANSIT">
+            <div class="columns">
+              <template v-for="(item, index) in trekkingPackages.transit">
+                <div :key="index" class="column">
+                  <div class="transit-title">
+                    <figure class="image is-128x128">
+                      <!-- <img src="../../assets/train.png" alt="Image" /> -->
+                      <i
+                        v-if="item.title === 'BY AIR'"
+                        class="fas fa-train"
+                      ></i>
+                      <i
+                        v-if="item.title === 'BY RAIL'"
+                        class="fas fa-plane"
+                      ></i>
+                      <i
+                        v-if="item.title === 'BY ROAD'"
+                        class="fas fa-road"
+                      ></i>
+                    </figure>
+                    {{ item.title }}
+                  </div>
+                  <div class="transit-subtitle">{{ item.subtitle }}</div>
+                </div>
+              </template>
+            </div>
+          </b-tab-item>
+        </b-tabs>
+      </section>
+      <!-- <div class="similartours">
+        <similar-packages
+          :package-key="keyMethod"
+          :itinerary-id="posts.id"
+          @similarPackageRouteChange="redirect"
+        ></similar-packages>
+      </div> -->
     </div>
   </div>
 </template>
@@ -75,6 +190,57 @@ export default {
 </script>
 
 <style lang="scss">
+.events {
+  padding: 30px;
+  li {
+    display: flex;
+  }
+  time {
+    position: relative;
+    font-weight: 400;
+    color: #b2b2b2;
+    padding: 0 1.5em;
+    font-size: 15px;
+    line-height: 15px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      right: 0;
+      top: 0;
+      transform: translateX(50%);
+      border-radius: 50%;
+      background: rgb(96, 191, 243);
+      border: 1px #ccc solid;
+      width: 0.8em;
+      height: 0.8em;
+    }
+  }
+  span {
+    padding: 0 1.5em 1.5em 1.5em;
+    position: relative;
+    p {
+      color: #918f9b;
+      font-size: 15px;
+      line-height: 21px;
+    }
+  }
+  span::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    height: 100%;
+    border-left: 1px #ccc solid;
+  }
+  strong {
+    display: block;
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
 .tour-trekking-detail {
   .banner {
     display: flex;
@@ -146,6 +312,86 @@ export default {
       height: 350px !important;
       padding-bottom: unset;
       border-bottom-left-radius: unset !important;
+    }
+  }
+
+  .itinerary-container {
+    .overview-container {
+      .overview-title {
+        padding-bottom: 2px;
+        span {
+          display: inline-block;
+          width: 160px;
+          font: 16px "open_sansbold";
+          color: #394048;
+          text-transform: uppercase;
+          font-weight: 700;
+          line-height: 1.2;
+        }
+        img {
+          height: 28px;
+          width: 31px;
+
+          margin-right: 8px;
+        }
+      }
+    }
+    .imp-info-container {
+      padding: 20px 0 20px 20%;
+      text-align: left;
+      .imp-heading {
+        font-size: 24px;
+      }
+      .imp-description {
+        padding-bottom: 6px;
+        .imp-sub-container {
+          padding-left: 24px;
+        }
+        .imp-title {
+          font-family: "Mogra";
+          color: #4a5258;
+          text-transform: uppercase;
+        }
+        .imp-subtitle {
+          .icon-text {
+            display: flex;
+            p {
+              font-family: "Roboto", sans-serif;
+              color: #4a5258;
+              padding-bottom: 5px;
+            }
+          }
+          svg {
+            font-weight: 700;
+            margin-top: 3px;
+            margin-right: 4px;
+          }
+        }
+      }
+    }
+    .transit-title {
+      font-family: "Mogra";
+      color: #4a5258;
+      text-transform: uppercase;
+      .image {
+        margin: auto;
+        svg {
+          font-size: 100px;
+          color: #47caf0;
+        }
+      }
+    }
+    .transit-subtitle {
+      font-family: "Roboto", sans-serif;
+      color: #4a5258;
+      padding-bottom: 5px;
+    }
+    .things-to-carry-container {
+      padding: 20px 0 20px 40px;
+      text-align: left;
+      .things-to-carry {
+        display: flex;
+      }
     }
   }
 }
