@@ -389,10 +389,14 @@ export default {
       padding-bottom: 5px;
     }
     .things-to-carry-container {
-      padding: 20px 0 20px 40px;
+      padding: 20px 0 20px 10%;
       text-align: left;
       .things-to-carry {
         display: flex;
+        svg {
+          margin-top: 3px;
+          margin-right: 4px;
+        }
       }
     }
   }

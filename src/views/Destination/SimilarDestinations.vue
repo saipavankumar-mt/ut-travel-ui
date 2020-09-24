@@ -9,7 +9,7 @@
       class="destination-carousel container"
       v-model="itemIndex"
       :data="packages"
-      :items-to-show=" $isMobile()?1:4"
+      :items-to-show="$isMobile() ? 1 : 4"
       :arrow-hover="false"
       icon-prev="arrow-left"
       icon-next="arrow-right"
@@ -59,12 +59,8 @@ export default {
   },
   methods: {
     getDestinations() {
-      const tourType =
-        this.packageKey === "destination"
-          ? "tour-destinations"
-          : "tour-trekking";
       this.$http
-        .get(`${process.env.BASE_URL}Data/${tourType}.json`)
+        .get(`${process.env.BASE_URL}Data/tour-destinations.json`)
         .then((res) => {
           this.packages = res.data.items.filter(
             (item) => item.id !== this.itineraryId
