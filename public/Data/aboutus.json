@@ -6,9 +6,10 @@
       {
         "name": "Raj Kumar",
         "designation": "Founder and Director Sales",
-        "image": "aboutUs/rajkumar.png",
+        "image": "rajkumar.png",
         "location": "Ahmedabad",
-        "subtitle": ""
+        "description": "M. Rajkumar is a travel ethusiast who has an absolute passion for exploring places around him. He is the one to consult if you are stuck at place X in Uttaranchal and wanna reach place Y via place z. If ever an 'Uttaranchal Awareness quiz is held on the planet, he will be the undisputed winner of the competition for he has immense knowledge about the state. He holds an MBA degree from Gurukul Kangri University and worked with Uttaranchal Government for sometime. However, the desire to start a venture of his own sent him to pack bags and jump into the battlefield of travel agents.",
+        "description_extra": "M. Rajkumar has an extensive knowledge about Uttaranchal. He has personally visited almost all the properties and places where Uttaranchal Holidays accommodates its clients. This fact, together with his hobby of exploring places makes him more capable of handling issues guests are likely to face while travelling. So, Uttaranchal Holidays isn't money-creating machine for its operators but a vehicle to help people know Uttaranchal more This competitive advantage gets reflected in the services Uttaranchal Holidays provides I hope I have told you enough about Uttaranchal Holidays Now is the time for you to give us a chance to serve you. So, come and experience the difference we claim to offer should get a trip booked with Uttaranchal Holidays NOW"
       }
     ]
   },
@@ -19,16 +20,16 @@
       {
         "name": "Sagar Bhadreshwara",
         "designation": "Marketing",
-        "image": "aboutUs/sagar.png",
+        "image": "sagar.png",
         "location": "Mumbai",
-        "subtitle": "Specialist in Ladakh, Himachal Pradesh(SPITI VALLEY) & all indian Terrains. Speciality - Bike tours, Holiday packages, Tracking, trekking, Camping etc.,"
+        "description": "Specialist in Ladakh, Himachal Pradesh(SPITI VALLEY) & all indian Terrains. Speciality - Bike tours, Holiday packages, Tracking, trekking, Camping etc.,"
       },
       {
         "name": "Jitin Patel",
         "designation": "Marketing",
-        "image": "aboutUs/jitinpatel.png",
+        "image": "jitinpatel.png",
         "location": "Ahmedabad",
-        "subtitle": "Experienced and Specialization in Kailash Mansarovar, CharDham Yatra and all outbound tours"
+        "description": "Experienced and Specialization in Kailash Mansarovar, CharDham Yatra and all outbound tours"
       }
     ]
   },
@@ -39,30 +40,30 @@
       {
         "name": "Ankit Saini",
         "designation": "Operations",
-        "image": "aboutUs/ankitsaini.png",
+        "image": "ankitsaini.png",
         "location": "Haridwar",
-        "subtitle": ""
+        "description": "Helps in your trip planning"
       },
       {
         "name": "Divya Verma",
         "designation": "Operations",
-        "image": "aboutUs/divyaverma.png",
+        "image": "divyaverma.png",
         "location": "Haridwar",
-        "subtitle": ""
+        "description": "Helps in your trip planning"
       },
       {
         "name": "Khusbu",
         "designation": "Operations",
-        "image": "aboutUs/khusbu.png",
+        "image": "khusbu.png",
         "location": "Haridwar",
-        "subtitle": ""
+        "description": "Helps in your trip planning"
       },
       {
         "name": "Anjali Sharma",
         "designation": "Operations",
-        "image": "aboutUs/anjalisharma.png",
+        "image": "anjalisharma.png",
         "location": "Haridwar",
-        "subtitle": ""
+        "description": "Helps in your trip planning"
       }
     ]
   }
