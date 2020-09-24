@@ -1,0 +1,157 @@
+ {
+	"data": {
+		  "id": "Pckg-T-1",
+		  "key": "Hemkund",
+		  "title": "Hemkund Sahib Trek",
+		  "qoute": "",
+		  "subtitle": "Hemkund Sahib is a important pilgrimage site and highest Gurudwara for Sikhs, located on the shore of the pristine Hemkund. Hemkund rewards trekkers with abundant natural beauty in the form of numerous waterfalls, dense forest, enchanting view of the Himalayas and crystal clear lakes. Despite being a long journey this place gives you thousands of reasons to keep yourself energized and enriched.",
+		  "description":[
+			{
+			  "title":"WHERE Hemkund:",
+			  "subtitle":"Hemkund Sahib is a Sikh place of worship in the Chamoli district of Uttarakhand. Located an elevation of 4632 mt above the sea level, the take of point for Hemkund Sahib is the town of Govindghat about 275 km from Rishikesh on the Rishikesh-Badrinath highway."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"Best time to visit Hemkund Sahib is in between May and October. During summers(May - June) the weather remains salubrious and pleasing with cool breeze from Himalayas adding charm to the vacation. Post monsoon(September - October) this region is blessed with snowfall and you will be greeted with a blooming valley."
+			},
+			{
+				"title": "TREKKING HIGHLIGHTS:",
+				"subtitle":"View spectacular confluences of Rivers at Devprayag, Karnprayag and Rudraprayag along with spellbinding views of snow claded mountains like Saptashringa peaks. Enjoy trekking on a beautiful trial from Ghangria to Hemkund withnessing the high altitude Sikh Shrine, Hemkund Sahib and alluring remote villages."
+			}
+		  ],
+		  "heroImage": "trekking/hemkund/HemkundSahibTrekTile.png",
+		  "images": [
+		    "trekking/hemkund/hemkundSahibTrek1.png",
+			"trekking/hemkund/hemkundSahibTrek2.png",
+			"trekking/hemkund/hemkundSahibTrek3.png",
+			"trekking/hemkund/hemkundSahibTrek4.png",
+			"trekking/hemkund/hemkundSahibTrek5.png"			
+		  ],
+		  "overview":{
+			"area":"Garhwal Himalayas",
+			"duration":"7 Days(3 day travel/4 day trekking)",
+			"bestSeason":"May - October",
+			"difficultyRating":"Easy to Moderate",
+			"Altitude":"4632 mt/14195 ft",
+			"TotalTreking":"50 Km"
+		  },
+		  "itinerary":[
+			{
+				"day": "1",
+				"title": "Delhi – Haridwar - Rishikesh",
+				"activities":[
+					"In the morning take an AC train for Haridwar at 06:50 hrs from New Delhi train station.",
+					"Arrival at Haridwar by 1:25 hrs, here meet our guide and transfer to Rishikesh, check into your hotel.",
+					"Evening free to explore Rishikesh and overnight stay at the hotel."
+				]				
+			},
+			{
+				"day": "2",
+				"title": "Rishikesh - Karnprayag - Joshimath (Driving Distance 245 Kms)",
+				"activities":[
+					"After having breakfast, we will drive towards Joshimath via Devprayag, Rudraprayag, Karnprayag and Chamoli.",
+					"We will have lunch on the way.",
+                    "Arrival in Joshimath and enjoy hassle-free check-in at Hotel.",
+					"Enjoy hearty dinner and stay for the night."
+				]				
+			},
+			{
+				"day": "3",
+				"title": "Joshimath - Govindghat (18 Kms by road) - Ghangaria (Trek 13 Kms/5 hrs)",
+				"activities":[
+					"After having breakfast, we will head towards Govindghat from where there we start our trek to Ghangaria through Bhiyundar valley and Pulna village.",
+					"This destination is going to be the base camp for that head towards visiting Hemkund Sahib and Valley of Flowers."
+				]				
+			},
+			{
+				"day": "4",
+				"title": "Ghangaria - Hemkund - Ghangaria Trek 6 KM",
+				"activities":[
+					"We will start the trail in the morning and hike for 6 Km to visit the Hemkund Sahib, it is a famous Sikh pilgrimage destination.",
+					"In the noon we will trek down to reach Ghangaria and stay there for the night.",
+                    "Evening time is free, you can utilize this time to explore the mesmerising surroundings or get some rest."
+				]				
+			},
+			{
+				"day": "5",
+				"title": "Ghangaria",
+				"activities":[
+					"Explore and enjoy the destination.",
+					"An Optional Trip :",
+                    "You can visit to explore Valley of Flowers, a picturesque valley speckled with various flora and fauna.",
+					"After spending some time in the picturesque valley we will return back to Ghangaria for night stay."
+				]				
+			},
+			{
+				"day": "6",
+				"title": "Ghangaria - Govindghat (Trek 14 Kms) - Rudraprayag (Drive 148 kms)",
+				"activities":[
+					"After having wholesome breakfast, we will begin our trail to Govindghat. From here, we will drive towards Rudraprayag through Karnprayag and Joshimath.",
+					"Once you arrive at this place, you will check into the hotel.",
+					"Dinner and overnight stay at the hotel."
+				]				
+			},
+			{
+				"day": "7",
+				"title": "Rudraprayag - Rishikesh - Delhi",
+				"activities":[
+					"It is our last day in the tour.",
+					"After early breakfast we will drive back to Haridwar and from here catch evening Shatabdi train for Delhi at 18:05 hrs.",
+                    "Arrival at Delhi by 22:45 hrs.",
+					"Tour & Services End."
+				]				
+			}
+		  ],
+		  "thingsToCarry":[
+			"Windproof jacket",
+			"Comfortable Trekking/Hiking shoes",
+			"Walking stick/Trekking pole",
+			"Woolen sweater, Woolen cap and gloves",
+			"Thermal inner wear (upper & lower)",
+			"Rain coat/Poncho",
+			"Small light weight towel",
+			"Sturdy water bottle",
+			"Cap/Hat, Sun glasses",
+			"Sun screen lotion, Lip balm",
+			"Torch/Flashlight (with extra batteries)",
+			"Personal medication",
+			"Personal toiletries"
+		  ],
+		  "importantInfo":[
+			{
+			  "title": "At a Glance",
+			  "subtitles": [
+				"Group size: Min 02 and Max 18",
+				"7 Days(3 day travel/4 day trekking)",
+				"Max altitude - 4632 mt/14195 ft",
+				"Trek start point: Delhi/Rishikesh",
+				"Fixed depatures: Not Available",
+				"06 Nights Hotel"
+			  ]
+			},
+			{
+			  "title": "Mode of Payment:",
+			  "subtitles": [
+				"Kindly release 25% Payment for the Blocking.",
+				"Kindly release total 50% Payment before 30 days of arrival.",
+				"Kindly release total 100% Payment before 7 days of arrival."
+			  ]
+			}
+		  ],		  
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "The nearest airport for Hemkund Sahib is Jolly Grant in Dehradun, which is situated about 295 kms away."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "The nearest railway station from Hemkund Sahib is in Haridwar, which is situated 276 kms away. Haridwar connects major cities of India with Uttarakhand."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "The nearest road head to Hemkund Sahib is Govind Ghat. This requires around 12-13 hour drive from Haridwar. From Govindghat, Hemkund Sahib is about 14 kms trek to base camp at Ghangaria. It takes about 4-6 hours to reach Ghangaria, from where another 6 kms trek leads to Hemkund Sahib."			
+			}
+		]
+	}
+	
+}

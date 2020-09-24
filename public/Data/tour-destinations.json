@@ -94,22 +94,22 @@
     },
     {
       "id": "Dest-L-14",
-      "title": "Harshil",
-      "key": "HARSHIL",
+      "title": "Harsil",
+      "key": "HARSIL",
       "image": "destinations/HarshilTile.png"
     },
     {
       "id": "Dest-L-15",
-      "title": "Jageshwar",
-      "key": "JAGESHWAR",
-      "image": "destinations/JageshwarTile.png"
-    },
-    {
-      "id": "Dest-L-16",
       "title": "Haridwar",
       "key": "HARIDWAR",
       "image": "destinations/HaridwarTile.png"
     },
+    {
+      "id": "Dest-L-16",
+      "title": "Jageshwar",
+      "key": "JAGESHWAR",
+      "image": "destinations/JageshwarTile.png"
+    },    
     {
       "id": "Dest-L-",
       "title": "Jim Corbett Nation Park",
