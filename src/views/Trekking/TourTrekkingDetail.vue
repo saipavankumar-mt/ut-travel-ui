@@ -185,7 +185,7 @@
     <div class="similartours">
       <similar-trekking
         :itineraryId="trekkingPackages.id"
-        @similarPackageRouteChange="redirect"
+        @routeChange="redirect"
       ></similar-trekking>
     </div>
   </div>

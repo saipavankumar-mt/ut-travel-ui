@@ -220,7 +220,7 @@
       <similar-destinations
         :itineraryId="destinationPackages.id"
         :package-key="keyMethod"
-        @similarPackageRouteChange="redirect"
+        @similarPackageRouteChange="redirectDestination"
       ></similar-destinations>
     </div>
   </div>
@@ -247,6 +247,12 @@ export default {
   // },
 
   props: ['destinationId'],
+  watch: {
+    $route() {
+      window.location.reload();
+      window.scrollTo(0, 0);
+    },
+  },
   data() {
     return {
       gallery: false,
@@ -307,7 +313,6 @@ export default {
         )
         .then((res) => {
           this.destinationPackages = res.data.data;
-          // console.log(this.destinationPackages);
           this.destinationPackages.heroImage = require('../../assets/images/' +
             this.destinationPackages.heroImage);
           for (let i = 0; i < this.destinationPackages.images.length; i++) {
@@ -322,6 +327,15 @@ export default {
       this.redirect(value);
     },
 
+    redirectDestination(value) {
+      this.$router.push({
+        name: 'destination-detail',
+        params: {
+          destinationName: value.key,
+          destinationId: value.id,
+        },
+      });
+    },
     redirect: function (value) {
       this.$router.push({
         name: 'detail',
