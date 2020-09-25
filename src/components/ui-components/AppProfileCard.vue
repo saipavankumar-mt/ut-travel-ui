@@ -10,7 +10,7 @@
     <figure class="media-left image member-image">
       <img
         class="is-rounded"
-        :src="require('../../assets/images/aboutUs/' + member.image)"
+        :src="require('../../assets/images/aboutus/' + member.image)"
         :alt="member.image"
       />
     </figure>
