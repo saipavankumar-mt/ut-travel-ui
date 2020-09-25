@@ -38,7 +38,7 @@
           :key="idx"
         >
           <app-preview-card
-            @viewMoreClick="onViewClicked($event, trekkingInfo.key)"
+            @viewMoreClick="onViewClicked($event)"
             :item="item"
             :app-preview-settings="appPreviewSettings"
           ></app-preview-card>
@@ -107,10 +107,10 @@ export default {
         behavior: 'smooth',
       });
     },
-    onViewClicked(value, key) {
-      this.redirect(value, key);
+    onViewClicked(value) {
+      this.redirect(value);
     },
-    redirect: function (value, trekkingKey) {
+    redirect: function (value) {
       this.$router.push({
         name: 'trekking-detail',
         params: {
