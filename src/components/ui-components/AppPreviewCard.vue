@@ -4,28 +4,53 @@
     v-bind:class="{'preview-card-hover': appPreviewSettings.showHover}"
   >
     <div class="card-image">
-      <figure
-        :class="['image', appPreviewSettings.cardImage.imageSize,{'thumbnail': appPreviewSettings.imageBlurOnHover}]"
-      >
-        <div class="button-container" v-if="appPreviewSettings.hoverAction.type==='BUTTON'">
+      <figure :class="['image', appPreviewSettings.cardImage.imageSize,{'thumbnail': appPreviewSettings.imageBlurOnHover}]">
+        <div
+          class="button-container"
+          v-if="appPreviewSettings.hoverAction.type==='BUTTON'"
+        >
           <div class="preview-button">
             <b-button @click="onViewClick(item)">{{appPreviewSettings.hoverAction.text}}</b-button>
           </div>
         </div>
-        <div class="description" v-if="appPreviewSettings.hoverAction.type==='TEXT'">
+        <div
+          class="description"
+          v-if="appPreviewSettings.hoverAction.type==='TEXT'"
+        >
           <p>{{item.description}}</p>
         </div>
-        <img :src="getImageUrl" :alt="getImageUrl" />
+        <img
+          :src="getImageUrl"
+          :alt="getImageUrl"
+        />
       </figure>
     </div>
     <div :class="['card-content', appPreviewSettings.cardContent]">
       <div class="content">
-        <p class="title is-4" v-if="item.title">{{ item.title }}</p>
-        <p class="title is-4" v-if="item.name">{{ item.name }}</p>
-        <p class="subtitle is-7" v-if="item.subtitle">{{ item.subtitle }}</p>
-        <p class="subtitle is-7 is-italic" v-if="item.duration">Duration: {{ item.duration }}</p>
-        <p class="subtitle control" v-if="item.rating">
-          <b-rate :value="item.rating" disabled />
+        <p
+          class="title is-4"
+          v-if="item.title"
+        >{{ item.title }}</p>
+        <p
+          class="title is-4"
+          v-if="item.name"
+        >{{ item.name }}</p>
+        <p
+          class="subtitle is-7"
+          v-if="item.subtitle"
+        >{{ item.subtitle }}</p>
+        <p
+          class="subtitle is-7 is-italic"
+          v-if="item.duration"
+        >Duration: {{ item.duration }}</p>
+        <p
+          class="subtitle control"
+          v-if="item.rating"
+        >
+          <b-rate
+            :value="item.rating"
+            disabled
+          />
         </p>
       </div>
     </div>
@@ -34,23 +59,23 @@
 
 <script>
 export default {
-  name: "AppPreviewCard",
+  name: 'AppPreviewCard',
   props: {
     item: { type: Object, required: true },
-    type: { type: String, default: "Destination" },
+    type: { type: String, default: 'Destination' },
     appPreviewSettings: {
       default: function () {
         return {
           showHover: false,
-          cardContent: "card-setting",
+          cardContent: 'card-setting',
           cardImage: {
-            imageSize: !this.$isMobile() ? "is-5by3" : "is-5by3",
+            imageSize: !this.$isMobile() ? 'is-5by3' : 'is-5by3',
           },
           imageBlurOnHover: true,
           hoverAction: {
             show: true,
             text: `View ${this.type}`,
-            type: "BUTTON",
+            type: 'BUTTON',
           },
         };
       },
@@ -61,9 +86,9 @@ export default {
   computed: {
     getImageUrl() {
       try {
-        return require("../../assets/images/" + this.item.image);
+        return require('../../assets/images/' + this.item.image);
       } catch (err) {
-        return require("../../assets/images/KumaonHeritageTile.png");
+        return require('../../assets/images/KumaonHeritageTile.png');
       }
       // TODO: create folders for each type eg: destinations/[name].png , packages/[name].png
       // const type = this.item.type;
@@ -76,15 +101,15 @@ export default {
   methods: {
     redirect: function () {
       this.$router.push({
-        name: "detail",
+        name: 'detail',
         params: { packageName: this.item.key, packageId: this.item.id },
       });
     },
     onViewClick(value) {
-      this.$emit("viewMoreClick", value);
+      this.$emit('viewMoreClick', value);
     },
     openCardModal() {
-      this.$emit("openCardModal");
+      this.$emit('openCardModal');
     },
   },
 };
@@ -131,7 +156,7 @@ export default {
     text-align: left;
 
     .title.is-4 {
-      font: 14px "open_sansbold";
+      font-size: 14px;
       line-height: 20px;
       text-transform: uppercase;
       color: rgb(96, 191, 243);

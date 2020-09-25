@@ -10,7 +10,10 @@
         </div>
 
         <p>{{ destinationPackages.subtitle }}</p>
-        <div v-for="(item, i) in destinationPackages.overview" :key="i">
+        <div
+          v-for="(item, i) in destinationPackages.overview"
+          :key="i"
+        >
           <div>
             <h5>{{ item.title }}</h5>
             <p>{{ item.subtitle }}</p>
@@ -19,7 +22,10 @@
         <div v-if="$isMobile()">
           <h5>TEMPERATURE</h5>
           <div class="temperature">
-            <div v-for="(item, i) in destinationPackages.temperature" :key="i">
+            <div
+              v-for="(item, i) in destinationPackages.temperature"
+              :key="i"
+            >
               <div>
                 <div class="temp">{{ item.temp }}</div>
                 <div class="month">{{ item.months }}</div>
@@ -47,7 +53,10 @@
         <div v-if="!$isMobile()">
           <h5>TEMPERATURE</h5>
           <div class="temperature">
-            <div v-for="(item, i) in destinationPackages.temperature" :key="i">
+            <div
+              v-for="(item, i) in destinationPackages.temperature"
+              :key="i"
+            >
               <div>
                 <div class="temp">{{ item.temp }}</div>
                 <div class="month">{{ item.months }}</div>
@@ -69,7 +78,10 @@
       icon-next="arrow-right"
       icon-size="is-medium"
     >
-      <template slot="item" slot-scope="list">
+      <template
+        slot="item"
+        slot-scope="list"
+      >
         <div>
           <app-preview-card
             :item="list"
@@ -90,7 +102,10 @@
         icon-next="arrow-right"
         icon-size="is-medium"
       >
-        <template slot="item" slot-scope="list">
+        <template
+          slot="item"
+          slot-scope="list"
+        >
           <div>
             <app-preview-card
               :item="list"
@@ -112,7 +127,10 @@
         icon-next="arrow-right"
         icon-size="is-medium"
       >
-        <template slot="item" slot-scope="list">
+        <template
+          slot="item"
+          slot-scope="list"
+        >
           <div>
             <app-preview-card
               :item="list"
@@ -129,7 +147,10 @@
           <b-tab-item label="TRANSIT">
             <div class="columns">
               <template v-for="(item, index) in destinationPackages.transit">
-                <div :key="index" class="column">
+                <div
+                  :key="index"
+                  class="column"
+                >
                   <div class="transit-title">
                     <figure class="image is-128x128">
                       <!-- <img src="../../assets/train.png" alt="Image" /> -->
@@ -162,13 +183,22 @@
                 :indicator="false"
                 :overlay="gallery"
               >
-                <b-carousel-item v-for="(item, i) in items" :key="i">
+                <b-carousel-item
+                  v-for="(item, i) in items"
+                  :key="i"
+                >
                   <figure class="image">
                     <img :src="item.image" />
                   </figure>
                 </b-carousel-item>
-                <span v-if="gallery" class="modal-close is-small" />
-                <template slot="list" slot-scope="props">
+                <span
+                  v-if="gallery"
+                  class="modal-close is-small"
+                />
+                <template
+                  slot="list"
+                  slot-scope="props"
+                >
                   <b-carousel-list
                     class="carousel-gallery"
                     v-model="props.active"
@@ -197,9 +227,9 @@
 </template>
 
 <script>
-import SimilarDestinations from "../../views/Destination/SimilarDestinations.vue";
+import SimilarDestinations from './SimilarDestinations.vue';
 export default {
-  name: "TourDestinationDetail",
+  name: 'TourDestinationDetail',
   components: {
     SimilarDestinations,
   },
@@ -216,7 +246,7 @@ export default {
   //   },
   // },
 
-  props: ["destinationId"],
+  props: ['destinationId'],
   data() {
     return {
       gallery: false,
@@ -237,31 +267,31 @@ export default {
       },
       expanded: false,
       atRight: false,
-      size: "is-medium",
-      type: "is-toggle",
+      size: 'is-medium',
+      type: 'is-toggle',
       destinationPackages: [],
       appPreviewSettings: {
         showHover: false,
-        cardContent: "card-setting",
+        cardContent: 'card-setting',
         cardImage: {
-          imageSize: "is-5by3",
+          imageSize: 'is-5by3',
         },
         imageBlurOnHover: true,
         hoverAction: {
-          text: "",
-          type: "TEXT",
+          text: '',
+          type: 'TEXT',
         },
       },
       includedPackageSettings: {
         showHover: false,
-        cardContent: "card-setting",
+        cardContent: 'card-setting',
         cardImage: {
-          imageSize: "is-5by3",
+          imageSize: 'is-5by3',
         },
         imageBlurOnHover: true,
         hoverAction: {
-          text: "View Package",
-          type: "BUTTON",
+          text: 'View Package',
+          type: 'BUTTON',
         },
       },
       itemIndex: 0,
@@ -278,11 +308,11 @@ export default {
         .then((res) => {
           this.destinationPackages = res.data.data;
           // console.log(this.destinationPackages);
-          this.destinationPackages.heroImage = require("../../assets/images/" +
+          this.destinationPackages.heroImage = require('../../assets/images/' +
             this.destinationPackages.heroImage);
           for (let i = 0; i < this.destinationPackages.images.length; i++) {
             this.items.push({
-              image: require("../../assets/images/" +
+              image: require('../../assets/images/' +
                 this.destinationPackages.images[i]),
             });
           }
@@ -294,7 +324,7 @@ export default {
 
     redirect: function (value) {
       this.$router.push({
-        name: "detail",
+        name: 'detail',
         params: {
           packageName: value.key,
           packageId: value.id,
@@ -341,7 +371,6 @@ export default {
 
 .package-destination-detail {
   .card-setting .content .title.is-4 {
-    min-height: 40px;
     font-weight: 600;
   }
   .destination-carousel {
@@ -392,7 +421,7 @@ export default {
       justify-content: space-between;
       li {
         h4 {
-          font: 20px/30px "open_sansbold";
+          font: 20px/30px 'Bahnschrift SemiBold;';
           color: #4a5258;
           font-weight: 700;
         }
@@ -400,18 +429,18 @@ export default {
     }
 
     p {
-      font: 16px/26px "open_sansregular";
+      font: 16px/26px 'open_sansregular';
       text-align: justify;
       color: #4a5258;
       padding-bottom: 21px;
 
       span {
-        font-family: "OpenSans-Semibold";
+        font-family: 'OpenSans-Semibold';
       }
     }
   }
   h5 {
-    font: 16px "open_sansbold";
+    font: 16px 'Bahnschrift SemiBold;';
     color: #394048;
     text-transform: uppercase;
     font-weight: 700;
@@ -433,17 +462,17 @@ export default {
     padding-right: 20px;
     text-align: left;
     .temp {
-      font: 20px/30px "open_sansbold";
+      font: 20px/30px 'Bahnschrift SemiBold;';
       color: #4a5258;
       font-weight: 700;
     }
     .month {
-      font: 15px/20px "open_sansbold";
+      font: 15px/20px 'Bahnschrift SemiBold;';
       color: #4a5258;
       font-weight: 200;
     }
     .season {
-      font: 15px/20px "open_sansbold";
+      font: 15px/20px 'Bahnschrift SemiBold;';
       color: #4a5258;
       font-weight: 200;
     }
@@ -457,7 +486,7 @@ export default {
       flex-direction: column;
       justify-content: center;
       h2 {
-        font: 25px/32px "clanotmedium";
+        font: 25px/32px 'clanotmedium';
         color: #394048;
         text-align: center;
         font-weight: 700;
@@ -467,7 +496,7 @@ export default {
     p {
       color: #585c66;
       font-size: 18px;
-      font-family: "SFProDisplay-Regular";
+      font-family: 'SFProDisplay-Regular';
       line-height: 23px;
       padding-bottom: 16px;
     }
@@ -478,7 +507,7 @@ export default {
       text-align: center;
     }
     .transit-title {
-      font-family: "Mogra";
+      font-family: 'Mogra';
       color: #4a5258;
       text-transform: uppercase;
       .image {
@@ -490,7 +519,7 @@ export default {
       }
     }
     .transit-subtitle {
-      font-family: "Roboto", sans-serif;
+      font-family: 'Roboto', sans-serif;
       color: #4a5258;
       padding-bottom: 5px;
     }

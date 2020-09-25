@@ -10,7 +10,10 @@
         </div>
 
         <p>{{ trekkingPackages.subtitle }}</p>
-        <div v-for="(item, i) in trekkingPackages.description" :key="i">
+        <div
+          v-for="(item, i) in trekkingPackages.description"
+          :key="i"
+        >
           <div>
             <h5>{{ item.title }}</h5>
             <p>{{ item.subtitle }}</p>
@@ -65,11 +68,16 @@
           </b-tab-item> -->
           <b-tab-item label="ITINERARY">
             <ul class="events">
-              <li v-for="(item, i) in trekkingPackages.itinerary" :key="i">
+              <li
+                v-for="(item, i) in trekkingPackages.itinerary"
+                :key="i"
+              >
                 <time>Day {{ item.day }}</time>
-                <span
-                  ><strong>{{ item.title }} </strong>
-                  <p v-for="(title, index) in item.activities" :key="index">
+                <span><strong>{{ item.title }} </strong>
+                  <p
+                    v-for="(title, index) in item.activities"
+                    :key="index"
+                  >
                     {{ title }}
                   </p>
                 </span>
@@ -112,7 +120,10 @@
           <b-tab-item label="TRANSIT">
             <div class="columns">
               <template v-for="(item, index) in trekkingPackages.transit">
-                <div :key="index" class="column">
+                <div
+                  :key="index"
+                  class="column"
+                >
                   <div class="transit-title">
                     <figure class="image is-128x128">
                       <!-- <img src="../../assets/train.png" alt="Image" /> -->
@@ -138,32 +149,43 @@
           </b-tab-item>
         </b-tabs>
       </section>
-      <!-- <div class="similartours">
-        <similar-packages
-          :package-key="keyMethod"
-          :itinerary-id="posts.id"
-          @similarPackageRouteChange="redirect"
-        ></similar-packages>
-      </div> -->
+    </div>
+    <div class="similartours">
+      <similar-trekking
+        :itineraryId="trekkingPackages.id"
+        @similarPackageRouteChange="redirect"
+      ></similar-trekking>
     </div>
   </div>
 </template>
 
 <script>
+import SimilarTrekking from './SimilarTrekking.vue';
 export default {
-  name: "TourTrekkingDetail",
-  components: {},
+  name: 'TourTrekkingDetail',
+  components: {
+    SimilarTrekking,
+  },
   data() {
     return {
       trekkingPackages: {},
       items: [],
     };
   },
-  props: ["trekkingId"],
+  props: ['trekkingId'],
   created() {
     this.getTrekkingPPackages();
   },
   methods: {
+    redirect: function (value) {
+      this.$router.push({
+        name: 'trekking-detail',
+        params: {
+          trekkingName: value.key,
+          trekkingId: value.id,
+        },
+      });
+    },
     getTrekkingPPackages() {
       this.$http
         .get(
@@ -172,11 +194,11 @@ export default {
         .then((res) => {
           this.trekkingPackages = res.data.data;
           // console.log(this.trekkingPackages);
-          this.trekkingPackages.heroImage = require("../../assets/images/" +
+          this.trekkingPackages.heroImage = require('../../assets/images/' +
             this.trekkingPackages.heroImage);
           for (let i = 0; i < this.trekkingPackages.images.length; i++) {
             this.items.push({
-              image: require("../../assets/images/" +
+              image: require('../../assets/images/' +
                 this.trekkingPackages.images[i]),
             });
           }
@@ -201,7 +223,7 @@ export default {
     line-height: 15px;
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       z-index: 2;
       right: 0;
@@ -224,7 +246,7 @@ export default {
     }
   }
   span::before {
-    content: "";
+    content: '';
     position: absolute;
     z-index: 1;
     left: 0;
@@ -247,7 +269,7 @@ export default {
       span {
         display: inline-block;
         width: 160px;
-        font: 16px "open_sansbold";
+        font: 16px 'open_sansbold';
         color: #394048;
         text-transform: uppercase;
         font-weight: 700;
@@ -300,7 +322,7 @@ export default {
       justify-content: space-between;
       li {
         h4 {
-          font: 20px/30px "open_sansbold";
+          font: 20px/30px 'open_sansbold';
           color: #4a5258;
           font-weight: 700;
         }
@@ -308,18 +330,18 @@ export default {
     }
 
     p {
-      font: 16px/26px "open_sansregular";
+      font: 16px/26px 'open_sansregular';
       text-align: justify;
       color: #4a5258;
       padding-bottom: 21px;
 
       span {
-        font-family: "OpenSans-Semibold";
+        font-family: 'OpenSans-Semibold';
       }
     }
   }
   h5 {
-    font: 16px "open_sansbold";
+    font: 16px 'open_sansbold';
     color: #394048;
     text-transform: uppercase;
     font-weight: 700;
@@ -350,7 +372,7 @@ export default {
           padding-left: 24px;
         }
         .imp-title {
-          font-family: "Mogra";
+          font-family: 'Mogra';
           color: #4a5258;
           text-transform: uppercase;
         }
@@ -358,7 +380,7 @@ export default {
           .icon-text {
             display: flex;
             p {
-              font-family: "Roboto", sans-serif;
+              font-family: 'Roboto', sans-serif;
               color: #4a5258;
               padding-bottom: 5px;
             }
@@ -372,7 +394,7 @@ export default {
       }
     }
     .transit-title {
-      font-family: "Mogra";
+      font-family: 'Mogra';
       color: #4a5258;
       text-transform: uppercase;
       .image {
@@ -384,7 +406,7 @@ export default {
       }
     }
     .transit-subtitle {
-      font-family: "Roboto", sans-serif;
+      font-family: 'Roboto', sans-serif;
       color: #4a5258;
       padding-bottom: 5px;
     }
@@ -398,6 +420,12 @@ export default {
           margin-right: 4px;
         }
       }
+    }
+  }
+  .similartours {
+    padding: 0 34px;
+    /deep/.carousel-slide {
+      padding: 14px;
     }
   }
 }
