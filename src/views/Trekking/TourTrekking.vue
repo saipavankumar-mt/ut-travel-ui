@@ -17,7 +17,7 @@
 
       <img
         class="banner-inner"
-        src="../../assets/images/tour-destination-banner.png"
+        src="../../assets/images/TrekkingTile.png"
         alt="kashmir-banner"
       />
     </div>

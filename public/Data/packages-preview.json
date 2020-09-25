@@ -12,6 +12,20 @@
         "duration": "11 Nights / 12 Days"
       },
       {
+        "id": "Pckg-D-2",
+        "title": "Panchkedar",
+        "key": "Panchkedar",
+        "image": "panchkedarTile.png",
+        "duration": "15 Nights / 16 Days"
+      },
+      {
+        "id": "Pckg-D-3",
+        "title": "Chardham By Helicopter",
+        "key": "Chardham",
+        "image": "ChardhamTile.png",
+        "duration": "4 Nights / 5 Days"
+      },
+      {
         "id": "Pckg2-0",
         "title": "Dodham",
         "key": "Dodham",
@@ -24,14 +38,7 @@
         "key": "Teendham",
         "image": "teendhamTile.png",
         "duration": "7 Nights / 8 Days"
-      },
-      {
-        "id": "Pckg5-0",
-        "title": "Panchkedar",
-        "key": "Panchkedar",
-        "image": "panchkedarTile.png",
-        "duration": "14 Nights / 15 Days"
-      },
+      },      
       {
         "id": "Pckg5-1",
         "title": "Panchbadri",
@@ -99,18 +106,18 @@
   },
   {
     "title": "Top Trekking Tour Packages",
-    "type": "Package",
+    "type": "trekking",
     "key": "trekkingPackages",
     "items": [
       {
-        "id": "Trek-M-1",
+        "id": "Pckg-T-1",
         "title": "Hemkund Sahib",
         "key": "HEMKUND-SAHIB",
         "image": "destinations/HemkundSahibTile.png",
         "duration": "2 Nights / 3 Days"
       },
       {
-        "id": "Trek-M-2",
+        "id": "Pckg-T-2",
         "title": "Valley Of Flower",
         "key": "VALLEY-OF-FLOWER",
         "image": "destinations/ValleyOfFlowerTile.png",
