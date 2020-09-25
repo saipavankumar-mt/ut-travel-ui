@@ -147,6 +147,38 @@
               </template>
             </div>
           </b-tab-item>
+          <b-tab-item label="GALLERY">
+            <div class="image-container">
+              <b-carousel
+                :autoplay="false"
+                with-carousel-list
+                :indicator="false"
+              >
+                <b-carousel-item
+                  v-for="(item, i) in items"
+                  :key="i"
+                >
+                  <figure class="image">
+                    <img :src="item.image" />
+                  </figure>
+                </b-carousel-item>
+                <span class="modal-close is-small" />
+                <template
+                  slot="list"
+                  slot-scope="props"
+                >
+                  <b-carousel-list
+                    class="carousel-gallery"
+                    v-model="props.active"
+                    :data="items"
+                    v-bind="al"
+                    @switch="props.switch($event, false)"
+                    as-indicator
+                  />
+                </template>
+              </b-carousel>
+            </div>
+          </b-tab-item>
         </b-tabs>
       </section>
     </div>
@@ -170,6 +202,24 @@ export default {
     return {
       trekkingPackages: {},
       items: [],
+      al: {
+        hasGrayscale: false,
+        itemsToShow: 2,
+        breakpoints: {
+          768: {
+            hasGrayscale: false,
+            itemsToShow: 4,
+          },
+          960: {
+            hasGrayscale: false,
+            itemsToShow: 6,
+          },
+        },
+      },
+      expanded: false,
+      atRight: false,
+      size: 'is-medium',
+      type: 'is-toggle',
     };
   },
   props: ['trekkingId'],
