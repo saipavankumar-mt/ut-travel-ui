@@ -132,17 +132,15 @@ export default {
   }
   a.navbar-item {
     color: #585858;
-    //color: rgb(97,192,243);
-    // font-weight: bold;
-    // font-family: 'Mogra';
-    // font-family: "SFProDisplay-Bold";
-    // text-transform: uppercase;
     font-family: "Lato", sans-serif;
     font-weight: 600;
     font-size: 1rem;
     align-self: flex-end;
     transition: all 0.2s ease-in;
     background: inherit !important;
+    &.router-link-active {
+      color: #47caf0;
+    }
     .icon {
       padding-right: 5px;
     }
