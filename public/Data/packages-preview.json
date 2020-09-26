@@ -106,7 +106,7 @@
   },
   {
     "title": "Top Trekking Tour Packages",
-    "type": "trekking",
+    "type": "Package",
     "key": "trekkingPackages",
     "items": [
       {
@@ -114,42 +114,42 @@
         "title": "Hemkund Sahib",
         "key": "HEMKUND-SAHIB",
         "image": "destinations/HemkundSahibTile.png",
-        "duration": "2 Nights / 3 Days"
+        "duration": "7 Days"
       },
       {
         "id": "Pckg-T-2",
         "title": "Valley Of Flower",
         "key": "VALLEY-OF-FLOWER",
         "image": "destinations/ValleyOfFlowerTile.png",
-        "duration": "2 Nights / 3 Days"
+        "duration": "7 Days"
       },
       {
-        "id": "Trek-M-3",
+        "id": "Pckg-T-3",
         "title": "Satopanth",
         "key": "SATOPANTH",
         "image": "destinations/SatopanthTile.png",
-        "duration": "2 Nights / 3 Days"
+        "duration": "8 Days"
       },
       {
-        "id": "Trek-M-4",
+        "id": "Pckg-T-4",
         "title": "Deoria Tal",
         "key": "DEORIA-TAL",
         "image": "destinations/DeoriaTalTile.png",
-        "duration": "2 Nights / 3 Days"
+        "duration": "7 Days"
       },
       {
-        "id": "Trek-M-5",
+        "id": "Pckg-T-5",
         "title": "Kakabhushandi Tal",
         "key": "KAKABHUSHANDI-TAL",
         "image": "destinations/KakabhushandiTalTile.png",
-        "duration": "2 Nights / 3 Days"
+        "duration": "8 Days"
       },
       {
-        "id": "Trek-M-6",
+        "id": "Pckg-T-6",
         "title": "Kedar Tal",
         "key": "KEDAR-TAL",
         "image": "destinations/KedarTalTile.png",
-        "duration": "2 Nights / 3 Days"
+        "duration": "7 Days"
       }
     ]
   }

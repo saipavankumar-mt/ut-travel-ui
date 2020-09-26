@@ -1,30 +1,40 @@
 <template>
   <div class="preview">
     <header class="preview-header">
-      <h1 class="title">{{categoryInfo.title}}</h1>
+      <h1 class="title">{{ categoryInfo.title }}</h1>
     </header>
-    <button class="toggle-view-btn button" @click="goToCategory(categoryInfo.key)">
-      <span>View All {{categoryInfo.type}}s</span>
+    <button
+      class="toggle-view-btn button"
+      @click="goToCategory(categoryInfo.key)"
+    >
+      <span>View All {{ categoryInfo.type }}s</span>
     </button>
     <b-carousel-list
       class="preview-carousel container"
       v-model="itemIndex"
       :data="categoryInfo.items"
-      :items-to-show="$isMobile()?2 :itemsToShow"
-      :items-to-list="$isMobile()?1 :itemsToShow"
+      :items-to-show="$isMobile() ? 2 : itemsToShow"
+      :items-to-list="$isMobile() ? 1 : itemsToShow"
       :arrow-hover="false"
       icon-size="is-medium"
       :refresh="true"
     >
       <template slot="item" slot-scope="list">
-        <app-preview-card :item="list" :type="categoryInfo.type" @viewMoreClick="goToDetail($event,categoryInfo.key)"></app-preview-card>
+        <app-preview-card
+          :item="list"
+          :type="categoryInfo.type"
+          @viewMoreClick="goToDetail($event, categoryInfo.key)"
+        ></app-preview-card>
       </template>
     </b-carousel-list>
   </div>
 </template>
 
 <script>
-import { homePageViewAll as viewAllMapping } from '../../utils/path-mappings';
+import {
+  homePageViewAll as viewAllMapping,
+  homePageViewTile as detailRouteMapping,
+} from '../../utils/path-mappings';
 
 export default {
   name: 'AppPreview',
@@ -41,13 +51,10 @@ export default {
   },
   methods: {
     goToDetail(value, categoryKey) {
-      const paramsObj =
-        this.routeCategory === 'detail'
-          ? { packageName: value.key, packageId: value.id }
-          : { destinationName: value.key, destinationId: value.id };
+      const routeObj = detailRouteMapping(value, categoryKey);
       this.$router.push({
-        name: this.routeCategory,
-        params: paramsObj,
+        name: routeObj.routeName,
+        params: routeObj.routeParams,
         query: {
           key: categoryKey,
         },

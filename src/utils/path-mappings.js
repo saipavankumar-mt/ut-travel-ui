@@ -12,11 +12,31 @@ export const homePageViewAll = {
     tabIndex: 2,
   },
   trekkingPackages: {
-    routeName: 'destinations',
+    routeName: 'trekking',
     tabIndex: 1,
   },
   hillStationGetaways: {
     routeName: 'destinations',
     tabIndex: 0,
+  }
+}
+
+export const homePageViewTile = (value, categoryKey) => {
+  switch (categoryKey) {
+    case 'hillStationGetaways':
+      return {
+        routeName: 'destination-detail',
+        routeParams: { destinationName: value.key, destinationId: value.id },
+      };
+    case 'trekkingPackages':
+      return {
+        routeName: 'trekking-detail',
+        routeParams: { trekkingName: value.key, trekkingId: value.id },
+      };
+    default:
+      return {
+        routeName: 'detail',
+        routeParams: { packageName: value.key, packageId: value.id },
+      };
   }
 }
