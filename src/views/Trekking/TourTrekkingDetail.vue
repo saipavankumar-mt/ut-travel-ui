@@ -33,29 +33,47 @@
         >
           <div class="overview-title">
             <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
-            <span> Area</span>:{{ trekkingPackages.overview.area }}
+            <div class="name"> Area</div>
+            <div>
+              :{{ trekkingPackages.overview.area }}
+            </div>
           </div>
           <div class="overview-title">
             <!-- <img src="../../assets/images/trekking/duration.png" alt="" /> -->
-            <span> Duration</span>:{{ trekkingPackages.overview.duration }}
+            <div class="name"> Duration</div>
+            <div>
+              :{{ trekkingPackages.overview.duration }}
+            </div>
           </div>
           <div class="overview-title">
             <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
-            <span>Best Season</span>:{{ trekkingPackages.overview.bestSeason }}
+            <div class="name">Best Season</div>
+            <div>
+              :{{ trekkingPackages.overview.bestSeason }}
+            </div>
           </div>
           <div class="overview-title">
             <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
-            <span> Grade</span>:{{ trekkingPackages.overview.difficultyRating }}
+            <div class="name"> Grade</div>
+            <div>
+              :{{ trekkingPackages.overview.difficultyRating }}
+            </div>
           </div>
           <div class="overview-title">
             <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
-            <span> Altitude</span>:{{ trekkingPackages.overview.Altitude }}
+            <div class="name"> Altitude</div>
+            <div>
+              :{{ trekkingPackages.overview.Altitude }}
+            </div>
           </div>
           <div class="overview-title">
             <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
-            <span>Total Trekking</span>:{{
+            <div class="name"> Total Trekking</div>
+            <div>
+              :{{
               trekkingPackages.overview.TotalTreking
             }}
+            </div>
           </div>
         </div>
       </div>
@@ -271,6 +289,7 @@ export default {
     padding: 0 1.5em;
     font-size: 15px;
     line-height: 15px;
+    white-space: nowrap;
 
     &::after {
       content: '';
@@ -316,9 +335,11 @@ export default {
     padding: 60px;
     .overview-title {
       padding-bottom: 2px;
-      span {
+      display: flex;
+      .name {
         display: inline-block;
-        width: 160px;
+        width: 50%;
+
         font: 16px 'open_sansbold';
         color: #394048;
         text-transform: uppercase;
@@ -476,6 +497,36 @@ export default {
     padding: 0 34px;
     /deep/.carousel-slide {
       padding: 14px;
+    }
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .tour-trekking-detail {
+    .overview-container {
+      padding: 24px;
+    }
+    .itinerary-container {
+      .imp-info-container {
+        padding: 20px 0 20px 10%;
+      }
+    }
+    .banner {
+      flex-direction: column-reverse;
+      padding: 0 1rem;
+      ul {
+        display: unset;
+      }
+      .intro {
+        width: 100%;
+        padding-left: 0;
+      }
+    }
+  }
+
+  .events {
+    padding: 0;
+    time {
+      padding: 0 1em;
     }
   }
 }
