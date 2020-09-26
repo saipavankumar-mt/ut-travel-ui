@@ -1,0 +1,173 @@
+ {
+	"data": {
+		  "id": "Pckg-T-3",
+		  "key": "Satopanth Lake",
+		  "title": "Satopanth Lake Trek",
+		  "qoute": "",
+		  "subtitle": "Satopanth Tal is an untouched glacier lake hidden in the majestic Garhwal region. Satopanth has a rich history, it is beleived that the trimurtis Brahma, Vishnu and Maheswara medidated on the corners of the triangular lake. Though the trek can be a bit difficult at times, one get unparlled scenic views of glacial Himalayan peaks like Neelkanth, Swargarohini, Balakun and witness 400 ft Vasudhara falls, pass through India's last village 'Mana'.",
+		  "description":[
+			{
+			  "title":"WHERE Satopanth Lake:",
+			  "subtitle":"Satopanth Lake is a crystal clear traingular lake situated in the midst of snow capped peaks at an altitude of 4600 mt above sea level. The lake is located 22 km away from the sacred town of Badrinath. Travelers can relish the stunning views of Balakun peaks, Kuber top, Mt. Neelkanth and Mt. Swargarohini which are visible enroute to Satopanth."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"Best time to visit Satopanth Lake is from June to September. The weather of Satopanth remains pleasant with clear sky, one has the opportunity to view the Himalayas distinctly. Post monsoon is an ideal time to trek Satopanth Lake as it blossoms with flowers and vegatation making it look heaven on earth."
+			},
+			{
+				"title": "TREKKING HIGHLIGHTS:",
+				"subtitle":"Walking over a natural rock bridge Bheem Pul and get enchanted by the spectacular views of some of the Himalayan peaks like Chaukhamba, Neelkanth and Swargarohini. Passing through the last village of India, 'Mana', enjoying the beautifully cascading waterfall of Vasudhara and get an opportunity to hike to one of the majestic glaciers, Dhano Glacier. Camping by the lake, under the open sky that is studded with stars during the night withness the surreal green lake Satopanth."
+			}
+		  ],
+		  "heroImage": "trekking/satopanthLake/SatopanthLakeTrekTile.png",
+		  "images": [
+		    "trekking/satopanthLake/satopanthLakeTrek1.png",
+			"trekking/satopanthLake/satopanthLakeTrek2.png",
+			"trekking/satopanthLake/satopanthLakeTrek3.png",
+			"trekking/satopanthLake/satopanthLakeTrek4.png",
+			"trekking/satopanthLake/satopanthLakeTrek5.png",
+			"trekking/satopanthLake/satopanthLakeTrek6.png",
+            "trekking/satopanthLake/satopanthLakeTrek7.png"				
+		  ],
+		  "overview":{
+			"area":"Garhwal Himalayas",
+			"duration":"8 Days(4 days travelling and 4 days trekking)",
+			"bestSeason":"May - October(Except July and August)",
+			"difficultyRating":"Moderate",
+			"Altitude":"4600 mt",
+			"TotalTreking":"50 Km"
+		  },
+		  "itinerary":[
+			{
+				"day": "1",
+				"title": "Delhi – Haridwar - Rishikesh",
+				"activities":[
+					"In the morning take an AC train for Haridwar at 06:50 hrs from New Delhi train station.",
+					"After arriving in Haridwar, you will be met by our guide who will help you transfer to Rishikesh and in checking into your hotel.",
+					"Evening free to explore Rishikesh and overnight stay at the hotel."
+				]				
+			},
+			{
+				"day": "2",
+				"title": "Rishikesh - Joshimath (250 Kms / 8-9 hrs)",
+				"activities":[
+					"After an early breakfast we will drive to Joshimath via Devprayag.",
+					"Enroute, visit Devprayag where the pious Bhagirathi and Alaknanda rivers meet.",
+                    "Arrival at Joshimath by evening and enjoy hassle-free check-in at Hotel.",
+					"Enjoy hearty dinner and stay for the night."
+				]				
+			},
+			{
+				"day": "3",
+				"title": "Joshimath - Badrinath (45 Kms / 4-5 hrs)",
+				"activities":[
+					"Post breakfast, we shall drive to Badrinath from Joshimath.",
+					"Sightseeing and overnight stay at hotel."
+				]				
+			},
+			{
+				"day": "4",
+				"title": "Badrinath - Laxmi van (8 Kms / 4-5 hrs)",
+				"activities":[
+					"Today after the breakfast, we shall drive to the village of Mana.From here the trek starts towards Laxmi van along the falls of Vasudhara.",
+					"Laxmi van is a beautiful campsite with an impressive Alkapuri glacier on the opposite side.",
+                    "Overnight stay in the tents."
+				]				
+			},
+			{
+				"day": "5",
+				"title": "Laxmi van - Chakrateerth (10 Kms / 7 hrs)",
+				"activities":[
+					"Our trek today will be towards Chakrateerth, we will ascend and continue along the beautiful waterfalls called Sahasradhara meaning 'Thousand Waterfalls'.",
+                    "We shall also be required to walk over the boulders.",
+					"Overnight stay in the tents."
+				]				
+			},
+			{
+				"day": "6",
+				"title": "Chakrateerth - Satopanth Lake - Chakrateerth (12 Kms /  8 hrs)",
+				"activities":[
+					"Today early in the morning, we shall ascend to the top of the ridge and from here walk along the glacier to reach Satopanth Lake",
+					"After spending sometime near the lake, we shall trek back to Chakrateerth. Further trek down to Laxmi van, which is comparatively easy to descend with cautious approach.",
+					"Overnight stay in the tents."
+				]				
+			},
+			{
+				"day": "7",
+				"title": "Laxmi van - Badrinath - Rudraprayag",
+				"activities":[
+					"Today we will descend back to Mana village in approximately 3 hrs.",
+                    "At Mana, we will take the vehicle and start driving towards Rudraprayag",
+					"Arrival at Rudraprayag and check in the hotel.",
+					"Dinner and overnight stay in the hotel."
+				]				
+			},
+			{
+				"day": "8",
+				"title": "Rudraprayag - Haridwar - Delhi",
+				"activities":[
+					"In the morning after breakfast, drive to Haridwar via Devprayag and Rishikesh.",
+					"On arrival at Haridwar transfer to railway station and from here catch an AC train for Delhi.",
+					"Tour & Services End."
+				]				
+			}
+		  ],
+		  "thingsToCarry":[
+			"Light wind jacket",
+			"Camp shoes/sneakers",
+			"Walking stick/Trekking pole",
+			"Duffle bag",
+			"Thermal tops and bottoms",
+			"Trekking boots",
+			"Small light weight towel",
+			"Flash light/Head lamp",
+			"Sturdy water bottle",
+			"Cap/gloves",
+			"Sun glasses",
+			"Swiss Army Knives(Classic pocket tool)",
+			"Sleeping bag",
+			"Extra passport photos",
+			"Trousers/T-shirts",
+			"Energy bars",
+			"Personal medication",
+			"Personal toiletries"
+		  ],
+		  "importantInfo":[
+			{
+			  "title": "At a Glance",
+			  "subtitles": [
+				"Group size : Min 02 ans Max 12",
+				"08 days (4 days travelling and 4 days trekking)",
+				"Max altitude - 4600 mt",
+				"Trek start point: Delhi/Rishikesh",
+				"Fixed depatures: Available",
+				"04 Nights Hotel",
+				"03 Night Tents"
+			  ]
+			},
+			{
+			  "title": "Mode of Payment:",
+			  "subtitles": [
+				"Kindly release 25% Payment for the Blocking.",
+				"Kindly release total 50% Payment before 30 days of arrival.",
+				"Kindly release total 100% Payment before 7 days of arrival."
+			  ]
+			}
+		  ],		  
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "Jolly Grant of Dehradun is the nearset airport to Badrinath. The airport is well connected to Delhi with regular flights, whereas Badrinath is well connected by motorable roads with Jolly Grant Airport."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "The nearest railway station to Badrinath is Haridwar/Rishikesh. The Rishikesh railway station is situated 276 kms before Badrinath on NH58 and is well connected by with major cities of India. Taxis and buses are available from Rishikesh/Haridwar to Badrinath."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Badrinath is well connected by motorable roads with major destinations of Uttarakhand state. Buses to Haridwar, Rishikesh and Srinagar are available from ISBT Kashmiri Gate, Delhi. Buses and taxis to Badrinath are easily available from major cities of Uttarakhand state like Dehradun, Haridwar, Rishikesh, Pauri, Rudraprayag, Karnprayag, Srinagar and Chamol"			
+			}
+		]
+	}
+	
+}
