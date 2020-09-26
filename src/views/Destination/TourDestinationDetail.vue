@@ -375,15 +375,15 @@ export default {
 </script>
 
 <style lang="scss">
-.image-container {
-  width: 50%;
-  margin: auto;
-}
 .tab-content {
   text-align: left;
 }
 
 .package-destination-detail {
+  .image-container {
+    width: 50%;
+    margin: auto;
+  }
   .card-setting .content .title.is-4 {
     font-weight: 600;
   }
