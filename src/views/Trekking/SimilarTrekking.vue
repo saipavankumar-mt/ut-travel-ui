@@ -35,6 +35,12 @@
 export default {
   name: 'SimilarTrekking',
   components: {},
+  watch: {
+    $route() {
+      window.location.reload();
+      window.scrollTo(0, 0);
+    },
+  },
   props: {
     itineraryId: String,
   },
@@ -71,7 +77,7 @@ export default {
         });
     },
     onViewPackageClicked(value) {
-      this.$emit('similarPackageRouteChange', value);
+      this.$emit('routeChange', value);
     },
   },
 };

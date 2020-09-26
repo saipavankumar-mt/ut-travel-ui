@@ -7,7 +7,10 @@
           {{trekkingInfo.title}}
         </h1>
         <p>{{ trekkingInfo.subtitle }}</p>
-        <div v-for="(item, i) in trekkingInfo.overview" :key="i">
+        <div
+          v-for="(item, i) in trekkingInfo.overview"
+          :key="i"
+        >
           <div>
             <h5>{{ item.title }}</h5>
             <p>{{ item.subtitle }}</p>
@@ -21,11 +24,21 @@
         alt="kashmir-banner"
       />
     </div>
-    <div class="package-container" id="scroll">
-      <section class="columns is-multiline" v-if="trekkingInfo && trekkingInfo.items">
-        <div class="column is-one-quarter" v-for="(item, idx) in trekkingInfo.items" :key="idx">
+    <div
+      class="package-container"
+      id="scroll"
+    >
+      <section
+        class="columns is-multiline"
+        v-if="trekkingInfo && trekkingInfo.items"
+      >
+        <div
+          class="column is-one-quarter"
+          v-for="(item, idx) in trekkingInfo.items"
+          :key="idx"
+        >
           <app-preview-card
-            @viewMoreClick="onViewClicked($event, trekkingInfo.key)"
+            @viewMoreClick="onViewClicked($event)"
             :item="item"
             :app-preview-settings="appPreviewSettings"
           ></app-preview-card>
@@ -37,9 +50,9 @@
 </template>
 
 <script>
-import AppPreviewCard from "../../components/ui-components/AppPreviewCard";
+import AppPreviewCard from '../../components/ui-components/AppPreviewCard';
 export default {
-  name: "TourTrekking",
+  name: 'TourTrekking',
   components: {
     AppPreviewCard,
   },
@@ -61,14 +74,14 @@ export default {
       activeIndex: this.currentTabIndex,
       appPreviewSettings: {
         showHover: false,
-        cardContent: "card-setting",
+        cardContent: 'card-setting',
         cardImage: {
-          imageSize: "is-5by3",
+          imageSize: 'is-5by3',
         },
         hoverAction: {
           show: true,
-          text: "View Trekking",
-          type: "BUTTON",
+          text: 'View Trekking',
+          type: 'BUTTON',
         },
         imageBlurOnHover: true,
       },
@@ -85,27 +98,24 @@ export default {
   },
   methods: {
     onIndexChange() {
-      var element = document.getElementById("scroll");
+      var element = document.getElementById('scroll');
       var headerOffset = 80;
       var elementPosition = element.getBoundingClientRect().top;
       var offsetPosition = elementPosition - headerOffset;
       window.scrollTo({
         top: offsetPosition,
-        behavior: "smooth",
+        behavior: 'smooth',
       });
     },
-    onViewClicked(value, key) {
-      this.redirect(value, key);
+    onViewClicked(value) {
+      this.redirect(value);
     },
-    redirect: function (value, trekkingKey) {
+    redirect: function (value) {
       this.$router.push({
-        name: "trekking-detail",
+        name: 'trekking-detail',
         params: {
           trekkingName: value.key,
           trekkingId: value.id,
-        },
-        query: {
-          key: trekkingKey,
         },
       });
     },
@@ -159,7 +169,7 @@ export default {
       justify-content: space-between;
       li {
         h4 {
-          font: 20px/30px "open_sansbold" !important;
+          font: 20px/30px 'open_sansbold' !important;
           color: #4a5258;
           font-weight: 700;
         }
@@ -167,18 +177,18 @@ export default {
     }
 
     p {
-      font: 16px/26px "open_sansregular";
+      font: 16px/26px 'open_sansregular';
       text-align: justify;
       color: #4a5258;
       padding-bottom: 21px;
 
       span {
-        font-family: "OpenSans-Semibold";
+        font-family: 'OpenSans-Semibold';
       }
     }
 
     h5 {
-      font: 16px "open_sansbold";
+      font: 16px 'open_sansbold';
       color: #394048;
       text-transform: uppercase;
       font-weight: 700;
@@ -195,7 +205,7 @@ export default {
       flex-direction: column;
       justify-content: center;
       h2 {
-        font: 25px/32px "clanotmedium";
+        font: 25px/32px 'clanotmedium';
         color: #394048;
         text-align: center;
         font-weight: 700;
@@ -205,7 +215,7 @@ export default {
     p {
       color: #585c66;
       font-size: 18px;
-      font-family: "SFProDisplay-Regular";
+      font-family: 'SFProDisplay-Regular';
       line-height: 23px;
       padding-bottom: 16px;
     }
@@ -225,13 +235,13 @@ export default {
       flex-direction: column-reverse;
       padding: 0 1rem;
       p {
-        font: 14px/26px "open_sansregular";
+        font: 14px/26px 'open_sansregular';
       }
       ul {
         // display: unset;
         li {
           h4 {
-            font: 16px/30px "open_sansbold" !important;
+            font: 16px/30px 'open_sansbold' !important;
           }
         }
       }
