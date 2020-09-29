@@ -27,53 +27,49 @@
             alt="trekkingPackages.heroImage"
           />
         </div>
-        <div
-          class="overview-container"
-          v-if="trekkingPackages && trekkingPackages.overview"
-        >
-          <div class="overview-title">
-            <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
-            <div class="name"> Area</div>
-            <div>
-              :{{ trekkingPackages.overview.area }}
+        <div class="overview-container">
+
+          <div class="overview">
+            <div class="sub-overview">
+              <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
+              <div class="name"><span class="title is-6">Area
+                </span>
+                :{{ trekkingPackages.overview.area }}
+              </div>
+            </div>
+            <div class="sub-overview">
+              <div class="name"><span class="title is-6">Duration
+                </span>
+                :{{ trekkingPackages.overview.duration }}
+              </div>
             </div>
           </div>
-          <div class="overview-title">
-            <!-- <img src="../../assets/images/trekking/duration.png" alt="" /> -->
-            <div class="name"> Duration</div>
-            <div>
-              :{{ trekkingPackages.overview.duration }}
+          <div class="overview">
+            <div class="sub-overview">
+              <div class="name"><span class="title is-6">Best Season
+                </span>
+                :{{ trekkingPackages.overview.bestSeason }}
+              </div>
+            </div>
+            <div class="sub-overview">
+              <div class="name"> <span class="title is-6">Grade</span>
+                :{{ trekkingPackages.overview.difficultyRating }}
+              </div>
             </div>
           </div>
-          <div class="overview-title">
-            <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
-            <div class="name">Best Season</div>
-            <div>
-              :{{ trekkingPackages.overview.bestSeason }}
+          <div class="overview">
+            <div class="sub-overview">
+              <div class="name"><span class="title is-6"> Altitude</span>
+                :{{ trekkingPackages.overview.Altitude }}
+              </div>
             </div>
-          </div>
-          <div class="overview-title">
-            <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
-            <div class="name"> Grade</div>
-            <div>
-              :{{ trekkingPackages.overview.difficultyRating }}
-            </div>
-          </div>
-          <div class="overview-title">
-            <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
-            <div class="name"> Altitude</div>
-            <div>
-              :{{ trekkingPackages.overview.Altitude }}
-            </div>
-          </div>
-          <div class="overview-title">
-            <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
-            <div class="name"> Total Trekking</div>
-            <div>
-              :{{
-              trekkingPackages.overview.TotalTreking
+            <div class="sub-overview">
+              <div class="name"> <span class="title is-6">Total Trekking</span>:{{trekkingPackages.overview.TotalTreking
             }}
+              </div>
             </div>
+            <!-- </div> -->
+
           </div>
         </div>
       </div>
@@ -331,26 +327,23 @@ export default {
 
 .tour-trekking-detail {
   .overview-container {
-    text-align: left;
-    padding: 60px;
-    .overview-title {
-      padding-bottom: 2px;
+    padding: 75px 50px;
+    .overview {
       display: flex;
-      .name {
-        display: inline-block;
-        width: 50%;
-
-        font: 16px 'open_sansbold';
-        color: #394048;
-        text-transform: uppercase;
-        font-weight: 700;
-        line-height: 1.2;
-      }
-      img {
-        height: 28px;
-        width: 31px;
-
-        margin-right: 8px;
+      .sub-overview {
+        .name {
+          &:hover {
+            // background-color: gray;
+            box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+              0 0px 0 1px rgba(10, 10, 10, 0.02);
+          }
+        }
+        display: flex;
+        border-radius: 100px;
+        margin-right: 23px;
+        margin-bottom: 10px;
+        box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+          0 0px 0 1px rgba(10, 10, 10, 0.02);
       }
     }
   }
