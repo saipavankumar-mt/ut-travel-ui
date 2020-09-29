@@ -1,0 +1,152 @@
+ {
+	"data": {
+		  "id": "Pckg-T-5",
+		  "key": "Kedar Kantha",
+		  "title": "Kedar Kantha Trek",
+		  "qoute": "",
+		  "subtitle": "Kedar Kantha trek is one of the easiest treks in Uttarakhand and just perfect for novices. This wonderful trek offers a great experience to the trekkers with a trail though rich forests, snowy patchs, meadows, lovely lakes, mountains and tranquil rivers. Kedar Kantha has some of the scenic campsites like Juda Ka Talab, Hargaon and Kedarkantha base. Covered with thick blanket of snow its white powder making it a wondeful ski destination as well.",
+		  "description":[
+			{
+			  "title":"WHERE Kedar Kantha:",
+			  "subtitle":"Kedar Kantha is a mountain summit, standing at an height of 3850 mt in the Garhwal Himalayan ranges. Located within the Govind National Park the climb to the peak starts from a village called Sankri, which is 225 km away from Dehradun. The experience of the climb is very special and gives you the magnificent views of beautiful peaks like Swargarohini, Bandarpunch, Black or Kalanag and Ranglana."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"Best time to visit Kedar Kantha trek is in between the months of April to June and October to March. Mild weather prevails throughout the summer, the trek offers a beautiful lush green landscape with variety of blooming flowers. During winter entire trek route covered by thick layer of fresh white is very dreamy and surreal making it one of the best winter trek in the Himalayas."
+			},
+			{
+				"title": "TREKKING HIGHLIGHTS:",
+				"subtitle":"Experience huge snow blankets around you in every direction after crossing the mark of 10,000 ft from Mid December to Mid April. This less travelled remote route is one of the most exquisite drives in Indian Himalayas. The campsites of the trek are a delight for first time travellers as not all treks have such beautiful campsites like Juda-Ka-Talab, Hargaon and base camp, etc."
+			}
+		  ],
+		  "heroImage": "trekking/kedarkantha/KedarKanthaTrekTile.png",
+		  "images": [
+		    "trekking/kedarkantha/kedarKanthaTrek1.png",
+			"trekking/kedarkantha/kedarKanthaTrek2.png",
+			"trekking/kedarkantha/kedarKanthaTrek3.png",
+			"trekking/kedarkantha/kedarKanthaTrek4.png",
+			"trekking/kedarkantha/kedarKanthaTrek5.png",
+			"trekking/kedarkantha/kedarKanthaTrek6.png",
+            "trekking/kedarkantha/kedarKanthaTrek7.png"				
+		  ],
+		  "overview":{
+			"area":"Garhwal Himalayas",
+			"duration":"06 Days(3 days travelling and 3 days trekking)",
+			"bestSeason":"Round the year except July and August",
+			"difficultyRating":"Easy",
+			"Altitude":"3850 mt/ 12630 ft",
+			"TotalTreking":"32 Km"
+		  },
+		  "itinerary":[
+			{
+				"day": "1",
+				"title": "Delhi – Dehradun - Mussoorie",
+				"activities":[
+					"In the morning take an AC train for Dehradun at 06:55 hrs from New Delhi train station.",
+					"On arriving at Dehradun by 12:40 hrs, meet our representative and transfer to Mussoorie by road.",
+					"Arrival at Mussoorie check in to hotel. In the evening visit the Mussoorie market and roam near Mall Road.",
+					"Dinner and overnight stay at the hotel."
+				]				
+			},
+			{
+				"day": "2",
+				"title": "Mussoorie - Sankri (200 Kms drive)",
+				"activities":[
+					"Post breakfast we shall drive to Sankri, which will take about 6-7 hrs to reach Sankri.",
+                    "The drive is through Mussoorie, Kempty Fall, Nainbagh, Purola and Mori.",
+					"On arrival at Sankri, we will set out our camp for an overnight stay."
+				]				
+			},
+			{
+				"day": "3",
+				"title": "Sankri - Juda Ka Talab (4 Kms trek/ 2850 mt)",
+				"activities":[
+					"Today we will start our trek upto Juda Ka Talab from Sankri.",
+					"The trekking trail has several small ponds on the way to Kedar Kantha, one can witness the majestic snow capped Himalayan peaks.",
+					"We will pitch our tent here for an overnight stay."
+				]				
+			},
+			{
+				"day": "4",
+				"title": "Juda Ka Talab - Kedar Khanta (7 Kms trek)",
+				"activities":[
+					"After the breakfast we shall trek to Kedar Khanta.",
+					"The trekking trail is adorned with flowers, lush green meadows and waterfalls.",
+					"Dinner and overnight stay in tents."
+				]				
+			},
+			{
+				"day": "5",
+				"title": "Kedar Kantha (3850 mt)",
+				"activities":[
+					"The day is for exploration of Kedar Kantha, one can attempt summit.",
+                    "Dinner and overnight stay in tents."
+				]				
+			},
+			{
+				"day": "6",
+				"title": "Kedar Khanta - Sankri (11 Kms trek) - Dehradun - Delhi",
+				"activities":[
+					"In the morning we will trek back to Sankri. From here we shall drive to Dehradun.",
+					"On arrival at Dehradun, we will board the Mussoorie Express at 9:15 PM for overnight journey to Delhi.",
+					"Tour & Services End."
+				]				
+			}
+		  ],
+		  "thingsToCarry":[
+			"Camp shoes/sneakers",
+			"Walking stick/Trekking pole",
+			"Duffle bag",
+			"Day pack",
+			"Thermal tops and bottoms",
+			"Windproof jacket",
+			"Trekking boots",
+			"Small light weight towel",
+			"Flash light/Head lamp",
+			"Sturdy water bottle",
+			"Cap/gloves",
+			"Sun glasses",
+			"Raincoat/Poncho",
+			"Trousers/T-shirts",
+			"Personal medication",
+			"Personal toiletries"
+		  ],
+		  "importantInfo":[
+			{
+			  "title": "At a Glance",
+			  "subtitles": [
+				"Group size : Min 02 ans Max 18",
+				"06 days (3 days travelling and 3 days trekking)",
+				"Max altitude - 3850 mt",
+				"Trek start point: Delhi/Rishikesh",
+				"Fixed depatures: Not Available",
+				"02 Nights Hotel",
+				"03 Night Tents"
+			  ]
+			},
+			{
+			  "title": "Mode of Payment:",
+			  "subtitles": [
+				"Kindly release 25% Payment for the Blocking.",
+				"Kindly release total 50% Payment before 30 days of arrival.",
+				"Kindly release total 100% Payment before 7 days of arrival."
+			  ]
+			}
+		  ],		  
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "Jolly Grant Airport in Dehradun offers daily connectivity with Delhi and other major Indian cities as well."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "The Dehradun railway station is well connected by railway network with major cities of India. The frequency of trains to Dehradun is quite high as it is the Garhwal region of Uttarakhand."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Dehradun is well connected by motorable roads with major destinations of Uttarakhand state. Buses to Dehradun are available from ISBT Kashmiri Gate, Delhi. Roadways buses takes 10 hrs to reach Sankri from Dehradun."			
+			}
+		]
+	}
+	
+}

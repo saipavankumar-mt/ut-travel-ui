@@ -1,0 +1,224 @@
+ {
+	"data": {
+		  "id": "Pckg-T-7",
+		  "key": "Bali Pass",
+		  "title": "Bali Pass Trek",
+		  "qoute": "",
+		  "subtitle": "Bali Pass trek starts from the Rons River Valley and ends in Yamuna River. The actual trekking starts from Sankri to passes through Govind National Park, Taluka, Seema, Ruinsara Lake, Upper Dhamini via Bali Pass,Yamunotri and Hanuman Chatti. Walking along the river banks, crossing apple orchads and pine forests Bali Pass trek is a mountaineer's delight, offers some of the stunning views of Himalayan peaks namely Swargarohini, Kalanag, Bandarpoonch along with the splendid views Supine Valley.",
+		  "description":[
+			{
+			  "title":"WHERE Bali Pass:",
+			  "subtitle":"At an elevation of 4950 mt, Bali is a high altitude pass meant for trekkers who want to upgrade to expeditions. Trek to Bala is not easy to walk, trekkers will require the assistance of technical gears like crampons and rope. Bala Pass is famous among tourists as Trekking, Camping, Expedition and High Altitude Pass."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"Like all high aititude treks in Uttarakhand, Summers and Post Monsoons are the ideal seasons for Bali Pass trek. Summer season starts as early as Mid May, the weather remains salubrious and pleasant with cool breeze from distinctly visible Himalayas adding charm to the vacation. Post Monsoon begins in September and continues till later half of October during this time the region is exposed to heaps of snow."
+			},
+			{
+				"title": "TREKKING HIGHLIGHTS:",
+				"subtitle":"Explore the Jaunsari village, a tiny hamlet known for its wooden houses, meet and greet the people of Gangad and Osla villages, know about thier local culture and folklores. Osla is known for intresting Himachali architecture that keeps you absorbed for a long time. Spend some time observing the lush green high altitude Dev Thach meadows and relax on the lake side of Ruinsara Lake one of the glacial lake. Seek the blessings of Lord Shiva at the Yamunotri, a part of Chota Char Dham route."
+			}
+		  ],
+		  "heroImage": "trekking/balipass/BaliPassTrekTile.png",
+		  "images": [
+		    "trekking/balipass/baliPassTrek1.png",
+			"trekking/balipass/baliPassTrek2.png",
+			"trekking/balipass/baliPassTrek3.png",
+			"trekking/balipass/baliPassTrek4.png",
+			"trekking/balipass/baliPassTrek5.png",
+			"trekking/balipass/baliPassTrek6.png",
+            "trekking/balipass/baliPassTrek7.png"				
+		  ],
+		  "overview":{
+			"area":"Garhwal Himalayas",
+			"duration":"13 Days(3 days travelling and 10 days trekking)",
+			"bestSeason":"Mid May to Mid October",
+			"difficultyRating":"Tough",
+			"Altitude":"4800 mt/ 15750 ft",
+			"TotalTreking":"105 Km"
+		  },
+		  "itinerary":[
+			{
+				"day": "1",
+				"title": "Delhi – Dehradun - Mussoorie(34 Kms / 1-2 hrs)",
+				"activities":[
+					"In the morning catch an AC train to Dehradun and reach Dehradun by 12:30 hrs.",
+					"Meet our representative who will assist you to reach Mussoorie, which is a popular hill station in Uttarakhand.",
+					"On arrival check into the hotel, evening is free to explore the nearby places.",
+					"Dinner and overnight stay in the hotel."
+				]				
+			},
+			{
+				"day": "2",
+				"title": "Mussoorie - Sankri (160 Kms/ 5-6 hrs)",
+				"activities":[
+					"Today we shall drive from Mussoorie to Sankri, which will be our starting point of the trek.",
+                    "The route from Mussoorie passes through Yamuna bridge and Naitwar at Tons valley.",
+					"Drining continue to Naitwar which is an entrance of Govind Wildlife Sanctuary which is a home to large number of mammals and few endangered birds.",
+					"Overnight stay in Sankri."
+				]				
+			},
+			{
+				"day": "3",
+				"title": "Sankri - Taluka (1900 mt/ 12 Kms/ 4-5 hrs)",
+				"activities":[
+					"Our day will start with a trek to Taluka village along the Supin River crossing through remote villages that has two storied houses that overlook the streams.",
+					"There are about 42 fairly populated villages in the area of sanctuary, some are situated at a height of 2900 mt.",
+					"The villagers worship the Kauravas and Duryodhana of the epic Mahabharath and lives a primitive life are dependent on forests for basic needs.",
+					"Overnight stay in Taluka."
+				]				
+			},
+			{
+				"day": "4",
+				"title": "Taluka - Osla (2559 mt/ 13 Kms/ 4-5 hrs)",
+				"activities":[
+					"After the breakfast we will be crossing Sain Gad by a bridge, further we will climb to Dhatmir village.",
+					"From Dhatmir, we shall cross the river towards right side of the Ton river, the entire route is dotted with tea shops and Dhabas.",
+					"Our destination Osla has a dense forest of Walnut, Chestnut, Willow and Chinar.",
+					"Overnight stay in a camp in Osla."
+				]				
+			},
+			{
+				"day": "5",
+				"title": "Osla - Har Ki Dun (3506 mt/ 14 kms/ 5-6 hrs)",
+				"activities":[
+					"Today we will trek to Har Ki Dun, which has a backdrop of snowy mountain peaks and it is said to be one of the best places to see in Uttarakhand.",
+                    "As the trekking trail ascends the lush green mountain fields can be spotted with wild flowers.",
+					"Enroute we will have a lovely views of Kalanag Peak (6387 mt), Bandarpoonch (6316 mt), Swargarohini (6252 mt), Juandhar glacier and litte streams shall also cross our path.",
+					"Overnight stay in a camp in Har Ki Dun."
+				]				
+			},
+			{
+				"day": "6",
+				"title": "Har Ki Dun - Borasu Pass (4725 mt) - Har Ki Dun (5 Kms)",
+				"activities":[
+					"In the morning after the breakfast we shall ascend towards Borasu Pass, which divides Har Ki Dun and Sangla Valley in Himachal Pradesh.",
+					"We shall trek above the pass to enjoy the beautiful surroundings, later in the afternoon we will descend to the campsite.",
+					"Overnight stay in the Har Ki Dun Valley."
+				]				
+			},
+			{
+				"day": "7",
+				"title": "Har Ki Dun - Debshu Bugyal",
+				"activities":[
+					"Today we will trek 14 kms to reach Debshu Bugyal.",
+					"It shall take 4-5 hrs to reach as most of the trek requires walking downhill.",
+					"Overnight stay in tents."
+				]				
+			},
+			{
+				"day": "8",
+				"title": "Debshu Bugyal - Ruinsara Tal",
+				"activities":[
+					"Early in the morning we will trek towards Ruinsara Tal through terraced fields, lush grasslands and conifer forest.",
+					"The climbing required on moderate slopes thus it will take about 5-6 hrs to finally reach the lake.",
+					"On arrival at Ruinsara Tal we shall set our camp for an overnight stay."
+				]				
+			},
+			{
+				"day": "9",
+				"title": "Ruinsara Tal",
+				"activities":[
+					"The day will be free for acclimatization and exploration of the surrounding area, this place is a photographer's delight.",
+					"Dinner and overnight stay in tents."
+				]				
+			},
+			{
+				"day": "10",
+				"title": "Ruinsara Tal - Foot of Bali Pass (6 Kms)",
+				"activities":[
+					"",
+					"Post breakfast we will climb to the base of Bali Pass, an imposing trio of Kalanag, Bandarpoonch and Swargarohini peaks stands in front of the base camp.",
+					"Overnight stay in the camp."
+				]				
+			},
+			{
+				"day": "11",
+				"title": "Foot of Bali Pass - Bali Pass (4800 mt) - Yamunotri (3165 mt/ 9 Kms)",
+				"activities":[
+					"Early in the morning we shall start our exciting trek to Bali Pass, which is about 4800 mt and it is not one of the glaciated passes but a rocky and scree-filled pass.",
+					"The pass divides the Tons Valley and the Yamunotri Valleys and offers magnificent views of Swargarohini peak and Ruinsara Gad.",
+					"After spending some time at the pass we shall trek through an open meadow and a forest to reach Yamunotri.",
+					"The place is said to be the source of the river Yamuna and it is one of the four Dhams for Hindu pilgrimage.",
+					"Overnight camping in Yamunotri."
+				]				
+			},
+			{
+				"day": "12",
+				"title": "Yamunotri - Janakichatti - Hanuman Chatti (2400 mt/ 14 Kms/ 4-5 hrs)",
+				"activities":[
+					"After breakfast we shall trek 14 kms with packed lunch along the River Yamuna to reach Janakichatti (2575 mt).",
+					"From here we will trek to Hanuman Chatti it is here that two holy rivers Yamuna and Hanuman Ganaga confluence.",
+					"Dinner and overnight stay in camp/hotel."
+				]				
+			},
+			{
+				"day": "13",
+				"title": "Hanuman Chatti - Dehradun - Delhi",
+				"activities":[
+					"Post breakfast we will drive to Dehradun. Lunch will be provided on the way.",
+					"Arrive in Dehradun by evening and then go to the railway station to catch AC train for Delhi at 17:00 hrs and arrival at Delhi by 22:45 hrs.",
+					"Tour & Services End."
+				]				
+			}
+		  ],
+		  "thingsToCarry":[
+			"Walking stick/Trekking pole",
+			"Trousers/T-shirts",			
+			"Cap/gloves",
+			"Sun glasses",			
+			"Windproof jacket",
+			"Sleeping bag",
+			"Duffle bag",
+			"Thermal tops and bottoms",
+			"Wind and rain gear",
+			"Swiss Army Knives(Classic pocket tool)",
+			"Energy bars",
+			"Sturdy water bottle",
+			"Raincoat/Poncho",
+			"Trekking boots",
+			"Small light weight towel",
+			"Flash light/Head lamp",
+			"Extra passport photos",
+			"Personal medication",
+			"Personal toiletries"
+		  ],
+		  "importantInfo":[
+			{
+			  "title": "At a Glance",
+			  "subtitles": [
+				"Group size : Min 04 ans Max 12",
+				"13 Days (3 days travel/ 10 days trekking)",
+				"Max altitude - 4800 mt/ 15750 ft",
+				"Trek start point: Delhi/Rishikesh",
+				"Fixed depatures: Not Available",
+				"06 Nights Hotel",
+				"09 Nights Camping"
+			  ]
+			},
+			{
+			  "title": "Mode of Payment:",
+			  "subtitles": [
+				"Kindly release 25% Payment for the Blocking.",
+				"Kindly release total 50% Payment before 30 days of arrival.",
+				"Kindly release total 100% Payment before 7 days of arrival."
+			  ]
+			}
+		  ],		  
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "Jolly Grant Airport in Dehradun is the nearest airport to Bali Pass. Taxis and buses are available from Jolly Grant Airport to Sankri village."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "The nearest railway station to Bali Pass is in Dehradun and is well connected with major cities of India. Local buses and taxis are easily available from the Dehradun railway station."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Sankri is well connected with major destinations of Garhwal like Dehradun, Mussoorie and Uttarkashi. You can also book a cab or take a direct bus to Sankri from Dehradun."			
+			}
+		]
+	}
+	
+}

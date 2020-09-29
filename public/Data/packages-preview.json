@@ -132,24 +132,24 @@
       },
       {
         "id": "Pckg-T-4",
-        "title": "Deoria Tal",
-        "key": "DEORIA-TAL",
-        "image": "destinations/DeoriaTalTile.png",
-        "duration": "7 Days"
-      },
-      {
-        "id": "Pckg-T-5",
-        "title": "Kakabhushandi Tal",
-        "key": "KAKABHUSHANDI-TAL",
-        "image": "destinations/KakabhushandiTalTile.png",
-        "duration": "8 Days"
-      },
-      {
-        "id": "Pckg-T-6",
         "title": "Kedar Tal",
         "key": "KEDAR-TAL",
         "image": "destinations/KedarTalTile.png",
-        "duration": "7 Days"
+        "duration": "9 Days"
+      },
+      {
+        "id": "Pckg-T-5",
+        "title": "Kedarkantha",
+        "key": "KEDARKANTHA",
+        "image": "destinations/KedarkanthaTile.png",
+        "duration": "6 Days"
+      },
+      {
+        "id": "Pckg-T-6",
+        "title": "Har Ki Dun",
+        "key": "HAR-KI-DUN",
+        "image": "destinations/HarKiDunTile.png",
+        "duration": "9 Days"
       }
     ]
   }
