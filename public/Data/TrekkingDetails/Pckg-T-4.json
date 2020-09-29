@@ -1,0 +1,187 @@
+ {
+	"data": {
+		  "id": "Pckg-T-4",
+		  "key": "Kedar Tal",
+		  "title": "Kedar Tal Trek",
+		  "qoute": "",
+		  "subtitle": "Kedar Tal is a crystal clear lake formed by the melting of Kedar glacier. The lake is surrounded by Thalay Sagar, Meru and Bhrigupanth, which are also source of Kedar Ganga. The trekking trail goes along with the Kedar Ganga, sliding zones, rugged and rock terrains. The proximity with magnificent peaks and the views this trek offers making it one of the most rewarding treks in Uttarakhand.",
+		  "description":[
+			{
+			  "title":"WHERE Kedar Tal:",
+			  "subtitle":"Kedra Tal also known as Shiva's lake is a glacial lake in the Garhwal Himalayan region perched at an elevation of 4750 mt above the sea level. Kedar Tal is at a distance of 17 km from Gangotri and is known for its challenging trek route as well as breathtaking views of snow claded peaks."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"Best time to visit Kedar Tal is in summers(May - June) and post monsoon(September - mid october). During summers the weather remains salubrious and pleasing with cool breeze from Himalayas adding charm to the vacation. The region is blessed with snowfall during winter making the trek challenging and adds extra dose of adventure to the trek. When it sonws the camp site turns completely white as it looks like Heaven on earth."
+			},
+			{
+				"title": "TREKKING HIGHLIGHTS:",
+				"subtitle":"Seek blessings of Goddess Ganga in Gangotri Temple, one of the sites in the Chota Char Dham pilgrimage circuit. Enjoy camping in the lakeside of the pristine Kedar Tal with magnificent views of Thalay Sagar and Bhrigupanth peaks."
+			}
+		  ],
+		  "heroImage": "trekking/kedartal/KedarTalTrekTile.png",
+		  "images": [
+		    "trekking/kedartal/kedarTalTrek1.png",
+			"trekking/kedartal/kedarTalTrek2.png",
+			"trekking/kedartal/kedarTalTrek3.png",
+			"trekking/kedartal/kedarTalTrek4.png",
+			"trekking/kedartal/kedarTalTrek5.png",
+			"trekking/kedartal/kedarTalTrek6.png",
+            "trekking/kedartal/kedarTalTrek7.png"				
+		  ],
+		  "overview":{
+			"area":"Garhwal Himalayas",
+			"duration":"09 Days(4 days travelling and 5 days trekking)",
+			"bestSeason":"Mid May - Mid October",
+			"difficultyRating":"Moderate",
+			"Altitude":"4750 mt",
+			"TotalTreking":"60 Km"
+		  },
+		  "itinerary":[
+			{
+				"day": "1",
+				"title": "Delhi – Haridwar - Rishikesh",
+				"activities":[
+					"In the morning take an AC train for Haridwar at 06:50 hrs from New Delhi train station.",
+					"After arriving in Haridwar, meet our guide and drive to Rishikesh which will take 45 minute, check into your hotel.",
+					"Evening free to explore Rishikesh and overnight stay at the hotel."
+				]				
+			},
+			{
+				"day": "2",
+				"title": "Rishikesh - Uttarkashi (165 Kms / 6-7 hrs)",
+				"activities":[
+					"Undertake a drive towards Uttarkashi along the narrow valley of Bhagirathi passing through some of the beautiful hill town like Chamba, Tehri and Chiniyalisaur.",
+                    "Arrival at Uttarkashi by afternoon and check-in to a hotel for night stay.",
+					"One can visit the famous Kashi Vishwanaath temple in Uttarkashi."
+				]				
+			},
+			{
+				"day": "3",
+				"title": "Uttarkashi - Gangotri (95 Kms / 10,000 ft)",
+				"activities":[
+					"Today we shall drive to Gangotri on of the Chota Char Dhams of Uttarakhand which holds a great place in the Hindu religion.",
+					"It is the place which marks the birth of Ganga on earth. There is a temple where Goddess Ganga is worshipped.",
+					"The river orginates from Gangotri glacier at Gaumukh,which is about 18 km from the Gangotri town, at this stage it is known as Bhagirathi.",
+					"A day trek can take on to Gomukh and overnight stay at hotel."
+				]				
+			},
+			{
+				"day": "4",
+				"title": "Gangotri - Bhoj Kharak (3989 mt / 4-5 hrs trek)",
+				"activities":[
+					"Post breakfast begin the trek towards Bhoj Kharak.",
+					"The 8 km long trail goes by the banks of Kedar Ganga river and consists of a dense cover of Cedar and Birch(Bhoj Patra) forests.",
+                    "It is a little hard trek but respite keeps coming in the form of scenic waterfalls and beautiful views of nature.",
+					"Reach Bhoj Kharak(named after Bhoj Patra trees), set up camp."
+				]				
+			},
+			{
+				"day": "5",
+				"title": "Bhoj Kharak - Kedar Kharak (4270 mt)",
+				"activities":[
+					"Embark on a steep ascent which takes us through a pleasant forests of brich trees to reach a beautiful meadow, which will be the site for our camps.",
+                    "As you come closer to Kedar Kharak, the stunning views of Bhrigupanth Peak will aslo catch up as the whole landscape becomes more alive.",
+					"Camp will be pitched near the banks of a lovely stream",
+					"Total distance covered today is just about 4-5 km, but the trek is strenuous because of its various steep climbs."
+				]				
+			},
+			{
+				"day": "6",
+				"title": "Kedar Kharak - Kedar Tal (4750 mt /  4-5 hrs trek)",
+				"activities":[
+					"Trek leading to Kedar Tal is difficult and goes through a trail which is strewn with loose rocks and boulders.",
+					"It will take good amount of determination to carry on the trekking but what awaits you at the end of the trek is one of the most marvelous works of nature.",
+					"Kedar Tal is a glacial lake with majestic Thalay Sagar Peak behind it to form a perfect look.",
+					"At the time of sunset this place looks heavenly and enjoy a blessed night in the tents near the lake."
+				]				
+			},
+			{
+				"day": "7",
+				"title": "Kedar Kharak - Bhoj Kharak(3-4 hrs trek)",
+				"activities":[
+					"Getting up early today one can witness the mirror reflection of the towering Thalay Sagar peak on the still waters of the lake with changing shades of the rays over the peak as the sun rises.",
+                    "Till lunch explore the area, one might get to see the Himalayan Ibexes and black bear over here.",
+					"Have lunch and start on the previous route to go back to Bhoj Kharak.",
+					"Night stay in tents at Bhoj Kharak."
+				]				
+			},
+			{
+				"day": "8",
+				"title": "Bhoj Kharak - Gangotri(3-4 trek) - Uttarkashi",
+				"activities":[
+					"After having an early breakfast we will trek down to Gangotri town and from here drive to Uttarkashi via Harsil.",
+					"On arrival check in to hotel, Dinner and overnight stay at the hotel in Uttarkashi."
+				]				
+			},
+			{
+				"day": "9",
+				"title": "Uttarkashi - Haridwar - Delhi",
+				"activities":[
+					"In the morning after breakfast, drive to Haridwar and from here catch an AC train for Delhi at 18:05 hrs.",
+					"Arrival at Delhi by 22:45 hrs.",
+					"Tour & Services End."
+				]				
+			}
+		  ],
+		  "thingsToCarry":[
+			"Light wind jacket",
+			"Camp shoes/sneakers",
+			"Walking stick/Trekking pole",
+			"Duffle bag",
+			"Day pack",
+			"Thermal tops and bottoms",
+			"Trekking boots",
+			"Small light weight towel",
+			"Flash light/Head lamp",
+			"Sturdy water bottle",
+			"Cap/gloves",
+			"Sun glasses",
+			"Swiss Army Knives(Classic pocket tool)",
+			"Wind and rain gear with hood",
+			"Sleeping bag",
+			"Extra passport photos",
+			"Trousers/T-shirts",
+			"Energy bars",
+			"Personal medication",
+			"Personal toiletries"
+		  ],
+		  "importantInfo":[
+			{
+			  "title": "At a Glance",
+			  "subtitles": [
+				"Group size : Min 04 ans Max 12",
+				"09 days (4 days travelling and 5 days trekking)",
+				"Max altitude - 4750 mt",
+				"Trek start point: Delhi/Rishikesh",
+				"Fixed depatures: Not Available",
+				"04 Nights Hotel",
+				"03 Night Tents"
+			  ]
+			},
+			{
+			  "title": "Mode of Payment:",
+			  "subtitles": [
+				"Kindly release 25% Payment for the Blocking.",
+				"Kindly release total 50% Payment before 30 days of arrival.",
+				"Kindly release total 100% Payment before 7 days of arrival."
+			  ]
+			}
+		  ],		  
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "Jolly Grant of Dehradun is the nearset airport to Gangotri. The airport is well connected to Delhi with regular flights, whereas Badrinath is well connected by motorable roads with Jolly Grant Airport."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "The nearest railway station is Haridwar, which is 325 kms away from Gangotri. Taxis and buses are available from Haridwar to Gangotri."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Gangotri is well connected by motorable roads with major destinations of Uttarakhand state. Buses and taxis to Gangotri are easily available from major cities of Uttarakhand state like Dehradun, Haridwar and Rishikesh."			
+			}
+		]
+	}
+	
+}

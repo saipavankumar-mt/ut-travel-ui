@@ -33,6 +33,30 @@
       "image": "destinations/SatopanthTile.png"
     },
     {
+      "id": "Pckg-T-4",
+      "title": "Kedar Tal",
+      "key": "KEDAR-TAL",
+      "image": "destinations/KedarTalTile.png"
+    },
+    {
+      "id": "Pckg-T-5",
+      "title": "Kedarkantha",
+      "key": "KEDARKANTHA",
+      "image": "destinations/KedarkanthaTile.png"
+    },
+    {
+      "id": "Pckg-T-6",
+      "title": "Har Ki Dun",
+      "key": "HAR-KI-DUN",
+      "image": "destinations/HarKiDunTile.png"
+    },
+    {
+      "id": "Pckg-T-7",
+      "title": "Bali Pass",
+      "key": "BALI-PASS",
+      "image": "destinations/BaliPassTile.png"
+    },  
+    {
       "id": "Trek-M-4",
       "title": "Deoria Tal",
       "key": "DEORIA-TAL",
@@ -43,31 +67,7 @@
       "title": "Kakabhushandi Tal",
       "key": "KAKABHUSHANDI-TAL",
       "image": "destinations/KakabhushandiTalTile.png"
-    },
-    {
-      "id": "Trek-M-6",
-      "title": "Kedar Tal",
-      "key": "KEDAR-TAL",
-      "image": "destinations/KedarTalTile.png"
-    },
-    {
-      "id": "Trek-M-7",
-      "title": "Kedarkantha",
-      "key": "KEDARKANTHA",
-      "image": "destinations/KedarkanthaTile.png"
-    },
-    {
-      "id": "Trek-M-8",
-      "title": "Bali Pass",
-      "key": "BALI-PASS",
-      "image": "destinations/BaliPassTile.png"
-    },
-    {
-      "id": "Trek-M-9",
-      "title": "Har Ki Dun",
-      "key": "HAR-KI-DUN",
-      "image": "destinations/HarKiDunTile.png"
-    },
+    },       
     {
       "id": "Trek-M-10",
       "title": "Brahmatal",

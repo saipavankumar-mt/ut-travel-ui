@@ -1,0 +1,179 @@
+ {
+	"data": {
+		  "id": "Pckg-T-6",
+		  "key": "Har Ki Dun",
+		  "title": "Har Ki Dun Trek",
+		  "qoute": "",
+		  "subtitle": "With gradual descends and easy ascends, Har Ki Dun is a stairway to heaven and a trekkers delight. The trek goes through a dense forests of chestnut, walnut and some of the most isolated villages in India, offering jaw dropping views of mighty Himalayan peaks like Kalang, Bandarpoonch and many more. The pristine beauty of the Har Ki Dun valley captures the imagination of every tourist.",
+		  "description":[
+			{
+			  "title":"WHERE Har Ki Dun:",
+			  "subtitle":"Har Ka Dun is a craddle shaped hanging valley in the Garhwal Himalayas of Uttarakhand, India. At an elavation of 3356 mt, Har Ki Dun is surrounded by snow covered peaks and alpine vegetation the trek through the valley is one of the most scenic treks in Uttarakhand."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"Summers and Post Monsoon is an ideal time to do this trek. Usually there is no fog and sky remains clear most of the time during summer. This region is blessed with snowfall during winters if you are interested in snow trekking then the best time to visit is winters. Altough weather remains pleasant most of the times but the temperatures can drop drastically here so it is adviced to always carry woollen clothes."
+			},
+			{
+				"title": "TREKKING HIGHLIGHTS:",
+				"subtitle":"Trek through some of the remote villages of Sankri, Taluka, Osla and Seema and witness the local and village culture. Explore the beautiful Jaundar Glacier and Morinda lake and enjoy the night with your loved ones under the stars in a bubble tent."
+			}
+		  ],
+		  "heroImage": "trekking/harikidun/HariKiDunTrekTile.png",
+		  "images": [
+		    "trekking/harikidun/hariKiDunTrek1.png",
+			"trekking/harikidun/hariKiDunTrek2.png",
+			"trekking/harikidun/hariKiDunTrek3.png",
+			"trekking/harikidun/hariKiDunTrek4.png",
+			"trekking/harikidun/hariKiDunTrek5.png",
+			"trekking/harikidun/hariKiDunTrek6.png",
+            "trekking/harikidun/hariKiDunTrek7.png"				
+		  ],
+		  "overview":{
+			"area":"Garhwal Himalayas",
+			"duration":"09 Days(2 days travelling and 7 days trekking)",
+			"bestSeason":"March to November (Except July & August)",
+			"difficultyRating":"Easy",
+			"Altitude":"3600 mt",
+			"TotalTreking":"64 Km"
+		  },
+		  "itinerary":[
+			{
+				"day": "1",
+				"title": "Delhi – Dehradun - Mussoorie",
+				"activities":[
+					"Take an AC train from Delhi railway station will arrive at Dehradun by the noon.",
+					"On arrival you will meet your travel guide who will transfer you to the hotel in  Mussoorie for an overnight stay.",
+					"During the drive, you can enjoy the majestic beauty of Dehradun and Mussoorie."
+				]				
+			},
+			{
+				"day": "2",
+				"title": "Mussoorie - Sankri (166 Kms/ 5-6 hrs)",
+				"activities":[
+					"After breakfast you will drive to Sankri, which is starting point of our trek.",
+                    "On our journey to Sankri, you will pass through attractions like Kempty Fall, Purola and Mori.",
+					"After your arrival in the vicinity, you will check in a hotel or tourist rest house."
+				]				
+			},
+			{
+				"day": "3",
+				"title": "Sankri - Taluka (1900 mt/ 6232 ft)",
+				"activities":[
+					"Today we will start with healthy breakfast and then go for a drive to Taluka, which is 14 km and 4-5 hours away from Sankri.",
+					"During the drive one can witness the magical beauty of the surroundings and also enjoy the stunning views of the towering mountains and dense forests.",
+					"You will be transferred to a hotel and overnight stay in the tourist rest house/tent."
+				]				
+			},
+			{
+				"day": "4",
+				"title": "Taluka - Osla (2560 mt/ 13 Kms/ 6-7 hrs)",
+				"activities":[
+					"Wake up in the morning, enjoy the breakfast and start trekking expedition to the Osla village, a tiny hamlet on one side of the Rupin River.",
+					"After trekking for few kilometers, tourists will see the dense forest of Chestnut, Walnut and Willows trees.",
+					"Further, the trail will take you to the Gangar village and after crossing streams and climbing you will reach a point from where one can enjoy the panoramic view of Osla village.",
+					"Next stopover point will be Seema village, a small town on the opposite side of Osla, seperated by the swift river.",
+					"Overnight stay in tourist rest house/tent."
+				]				
+			},
+			{
+				"day": "5",
+				"title": "Osla - Har Ki Dun (3566 mt/ 12 kms/ 6-7 hrs)",
+				"activities":[
+					"The trekking trail to Har Ki Dun start from the left side of the valley and further passes through the fields, followed by a bridge that crosses the Rupin River.",
+                    "Next stopover point is Kalkatti Dhar, from where one can enjoy the view of Har Ki Dun valley.",
+					"Look out for Kalang (black peak) and Bandarpoonch ranges when you are close to Kalkatti Dhar and from Kalkatti Dhar, there is an uphill climb to Har Ki Dun valley.",
+					"After about 6 to 7 hours, finally arrive at Har Ki Dun valley, overnight stay in Har Ki Dun valley."
+				]				
+			},
+			{
+				"day": "6",
+				"title": "Har Ki Dun",
+				"activities":[
+					"After the healthy breakfast you can explore the valley, capture some magnificent views on the camera or just chill at the campsite.",
+					"Also, you can see the rarely found Brahma Kamal flower around Morinda lake, a beautiful alpine lake that can be discovered with a short trek from the campsite.",
+					"If you are still up for exercise and stiff climbing you head northeast up the valley 4 km to the Jaundar glacier.",
+					"Overnight stay in the Har Ki Dun campsite."
+				]				
+			},
+			{
+				"day": "7",
+				"title": "Har Ki Dun - Osla",
+				"activities":[
+					"Return the same way to civilization. Overnight stay in the Osla village tourist rest house/tent."
+				]				
+			},
+			{
+				"day": "8",
+				"title": "Osla - Taluka (13 Kms/ 3-4 hrs)",
+				"activities":[
+					"The eight day is the second last day of the trek, covering a distance of 13 km through steeper terrains and stunning environs with sights of migratory birds disappearing in the snow peaked mountains.",
+					"Overnight stay at the guest house or hotel in Taluka."
+				]				
+			},
+			{
+				"day": "9",
+				"title": "Taluka(13 kms/ 3-4 hrs) - Sankri - Dehradun(215 kms/ 6 hrs) - Delhi",
+				"activities":[
+					"The trek for the last day is relaxing and fun walk through the forest and on man made roads. This day is highlighted by a back drive to Dehradun.",
+					"Following your arrival in Dehradun at about 05 pm, the adventure of the Hak Ki Dun trekking comes to an end.",
+					"Tour & Services End."
+				]				
+			}
+		  ],
+		  "thingsToCarry":[
+			"Walking stick/Trekking pole",
+			"Duffle bag",
+			"Thermal tops and bottoms",
+			"Energy bars",
+			"Sturdy water bottle",
+			"Cap/gloves",
+			"Sun glasses",			
+			"Windproof jacket",
+			"Trekking boots",
+			"Small light weight towel",
+			"Flash light/Head lamp",
+			"Raincoat/Poncho",
+			"Trousers/T-shirts",
+			"Personal medication",
+			"Personal toiletries"
+		  ],
+		  "importantInfo":[
+			{
+			  "title": "At a Glance",
+			  "subtitles": [
+				"Group size : Min 04 ans Max 18",
+				"05 days of trekking",
+				"Max altitude - 3600 mt",
+				"Trek start point: Delhi/Rishikesh",
+				"Fixed depatures: Available",
+				"0 Nights Hotel",
+				"0 Night Tents"
+			  ]
+			},
+			{
+			  "title": "Mode of Payment:",
+			  "subtitles": [
+				"Kindly release 25% Payment for the Blocking.",
+				"Kindly release total 50% Payment before 30 days of arrival.",
+				"Kindly release total 100% Payment before 7 days of arrival."
+			  ]
+			}
+		  ],		  
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "Jolly Grant Airport is the nearest airport to Sankri which is situated at a distance of 230 km. Taxis are available from Jolly Grant Airport to Purola and Mori."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "The nearest railway station to Sankri is at Dehradun, which is situated 215 Km away. Sankri is well connected with major destinations of Garhwal like Dehradun, Mussoorie, Purola and Mori."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Sankri is well connected with major destinations of Garhwal like Dehradun, Mussoorie, Purola and Mori. You can also book a cab to Sankri from Dehradun which will takes 7-8 hrs of journey."			
+			}
+		]
+	}
+	
+}
