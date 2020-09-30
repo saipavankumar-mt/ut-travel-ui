@@ -27,7 +27,10 @@
             alt="trekkingPackages.heroImage"
           />
         </div>
-        <div class="overview-container">
+        <div
+          class="overview-container"
+          v-if="trekkingPackages && trekkingPackages.overview"
+        >
 
           <div class="overview">
             <div class="sub-overview">
