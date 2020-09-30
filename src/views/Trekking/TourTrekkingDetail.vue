@@ -34,14 +34,20 @@
 
           <div class="overview">
             <div class="sub-overview">
-              <!-- <img src="../../assets/images/trekking/area.png" alt="" /> -->
-              <div class="name"><span class="title is-6">Area
+
+              <div class="name"><img
+                  src="../../assets/images/trekking/area.png"
+                  alt=""
+                /><span class="title is-6">Area
                 </span>
                 :{{ trekkingPackages.overview.area }}
               </div>
             </div>
             <div class="sub-overview">
-              <div class="name"><span class="title is-6">Duration
+              <div class="name"><img
+                  src="../../assets/images/trekking/duration.png"
+                  alt=""
+                /><span class="title is-6">Duration
                 </span>
                 :{{ trekkingPackages.overview.duration }}
               </div>
@@ -49,25 +55,38 @@
           </div>
           <div class="overview">
             <div class="sub-overview">
-              <div class="name"><span class="title is-6">Best Season
+              <div class="name"><img
+                  src="../../assets/images/trekking/bestseason.png"
+                  alt=""
+                /><span class="title is-6">Best Season
                 </span>
                 :{{ trekkingPackages.overview.bestSeason }}
               </div>
             </div>
             <div class="sub-overview">
-              <div class="name"> <span class="title is-6">Grade</span>
+              <div class="name"><img
+                  src="../../assets/images/trekking/grade.png"
+                  alt=""
+                /> <span class="title is-6">Grade</span>
                 :{{ trekkingPackages.overview.difficultyRating }}
               </div>
             </div>
           </div>
           <div class="overview">
             <div class="sub-overview">
-              <div class="name"><span class="title is-6"> Altitude</span>
+              <div class="name"><img
+                  src="../../assets/images/trekking/altitude.png"
+                  alt=""
+                /><span class="title is-6"> Altitude</span>
                 :{{ trekkingPackages.overview.Altitude }}
               </div>
             </div>
             <div class="sub-overview">
-              <div class="name"> <span class="title is-6">Total Trekking</span>:{{trekkingPackages.overview.TotalTreking
+
+              <div class="name"><img
+                  src="../../assets/images/trekking/totaltrekking.png"
+                  alt=""
+                /> <span class="title is-6">Total Trekking</span>:{{trekkingPackages.overview.TotalTreking
             }}
               </div>
             </div>
@@ -333,14 +352,20 @@ export default {
     padding: 35px 15px;
     .overview {
       display: flex;
-      .sub-overview {        
+
+      .sub-overview {
+        img {
+          width: 20px;
+          vertical-align: middle;
+          margin-right: 5px;
+        }
         display: flex;
         border-radius: 100px;
         margin-right: 23px;
         margin-bottom: 10px;
         box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
           0 0px 0 1px rgba(10, 10, 10, 0.02);
-        padding: 5px 12px;
+        padding: 5px;
       }
     }
   }
