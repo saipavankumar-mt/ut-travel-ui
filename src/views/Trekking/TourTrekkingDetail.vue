@@ -330,23 +330,17 @@ export default {
 
 .tour-trekking-detail {
   .overview-container {
-    padding: 75px 50px;
+    padding: 35px 15px;
     .overview {
       display: flex;
-      .sub-overview {
-        .name {
-          &:hover {
-            // background-color: gray;
-            box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
-              0 0px 0 1px rgba(10, 10, 10, 0.02);
-          }
-        }
+      .sub-overview {        
         display: flex;
         border-radius: 100px;
         margin-right: 23px;
         margin-bottom: 10px;
         box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
           0 0px 0 1px rgba(10, 10, 10, 0.02);
+        padding: 5px 12px;
       }
     }
   }
