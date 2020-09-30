@@ -1,161 +1,160 @@
- {
-	"data": {
-		  "id": "Pckg-T-2",
-		  "key": "ValleyofFlowers",
-		  "title": "Valley of Flowers Trek",
-		  "qoute": "",
-		  "subtitle": "Valley of Flowers is known for its meadows of endemic alpine flowers and variety of flora. The trek of valley of Flowers goes through dense forests, along with Pushpawati river and can be reached by crossing many bridges, glaciers and waterfalls on the way. Diverse in colors that forms like a carpet on the floor during its full blossoming season, the Valley of Flowers is just like a plot plucked from one of the childhood fairy tale.",
-		  "description":[
-			{
-			  "title":"WHERE Valley of Flowers:",
-			  "subtitle":"Valley of Flowers is an Indian national park located in Uttarakhand, is a home to rare and endangered animals, birds including the Asiatic black bear, snow leapord, musk dear, brown bear, red fox, Himalayan monal pheasant and other high altitude birds. Tucked at 3658 mt above the sea level, stretched over an expanse of 87.5 squre km the Valley of Flowers along with Nanda Devi national park encompassed in the Nanda Devi Biosphere Reserve a UNESCO World Heritage Site."
-			},
-			{
-			  "title":"BEST TIME TO VISIT:",
-			  "subtitle":"The best time to visit this valley is in between September and June. During June and July one can enjoy watching huge and beautiful glaciers and waterfalls in the valley, there will be very less rain during this time and flowers almost start blooming. In August and September snow starts melting and new plants starts germinating and one can see a lot of flowers blooming till mid August. Slowly at the end of the September the valley become inaccessible and the plants strat drying up and put there seeds on the earth for the next season."
-			},
-			{
-				"title": "TREKKING HIGHLIGHTS:",
-				"subtitle":"Low altitude trek with cavernous gorges, spacious views, vibrant colors of snow clapped peaks, murmuring waterfalls, lush green meadows and numerous wild flowers. Enjoy the rare glimpse of an ancient culture of local people along with famous temples at Haridwar, Rishikesh, Joshimath & Gurudwara of Hemkund Sahib, crystal clear lakes and many more."
-			}
-		  ],
-		  "heroImage": "trekking/valleyofflowers/valleyofFlowersTrek4.png",
-		  "images": [
-		    "trekking/valleyofflowers/valleyofFlowersTrek1.png",
-			"trekking/valleyofflowers/valleyofFlowersTrek2.png",
-			"trekking/valleyofflowers/valleyofFlowersTrek3.png",
-			"trekking/valleyofflowers/valleyofFlowersTrek4.png",
-			"trekking/valleyofflowers/valleyofFlowersTrek5.png",
-			"trekking/valleyofflowers/valleyofFlowersTrek6.png",
-            "trekking/valleyofflowers/valleyofFlowersTrek7.png"				
-		  ],
-		  "overview":{
-			"area":"Garhwal Himalayas",
-			"duration":"7 Days",
-			"bestSeason":"July - Mid September",
-			"difficultyRating":"Moderate",
-			"Altitude":"4328 mt",
-			"TotalTreking":"50 Km"
-		  },
-		  "itinerary":[
-			{
-				"day": "1",
-				"title": "Delhi – Haridwar - Rishikesh",
-				"activities":[
-					"In the morning take an AC train for Haridwar at 06:50 hrs from New Delhi train station.",
-					"Arrival at Haridwar by 1:25 hrs, here meet our guide and transfer to Rishikesh, check into your hotel.",
-					"Evening free to explore Rishikesh and overnight stay at the hotel."
-				]				
-			},
-			{
-				"day": "2",
-				"title": "Rishikesh - Joshimath (245 Kms / 8-9 hrs) Altitude: 1890 mt",
-				"activities":[
-					"Get ready for a drive to Joshimath via Devprayag, after an early breakfast.",
-					"Enroute, visit Devprayag where the pious Bhagirathi and Alaknanda rivers meet.",
-                    "Enjoy hassle-free check-in at Hotel in Joshimath.",
-					"Enjoy hearty dinner and stay for the night."
-				]				
-			},
-			{
-				"day": "3",
-				"title": "Joshimath - Govindghat (22 Kms / 1 hr) Altitude: 1828 mt - Ghangaria (14 Kms / 3-4 hrs) 3048 mt",
-				"activities":[
-					"Post breakfast, drive to Govindghat, starting point of our trek lies about 22 Km away from Joshimath.",
-					"From here, there is a gradual trail to Ghangaria. After arriving at Ghangaria check into your hotel.",
-					"Dinner and overnight stay at hotel."
-				]				
-			},
-			{
-				"day": "4",
-				"title": "Ghangaria - Valley Of Flowers - Ghangaria (5 Kms one side / 4-5 hrs) Altitude: 3352 mt – 3658 mt",
-				"activities":[
-					"After breakfast trek to Valley of Flowers(3858 mt) from Ghangaria.",
-					"After exploring beauty of the valley trek back to Ghangaria.",
-                    "Dinner and overnight stay at the hotel."
-				]				
-			},
-			{
-				"day": "5",
-				"title": "Ghangaria -Hemkund - Ghangaria (5 Kms/ 2-3 hrs) Altitude: 4329 mt",
-				"activities":[
-					"In the morning we will start trekking to reach Hemkund Sahib, one of the most prominent Sikh pilgrimage site.",
-                    "In the afternoon trek down to reach Ghangaria for overnight stay.",
-					"Evening is free for rest and relaxation."
-				]				
-			},
-			{
-				"day": "6",
-				"title": "Ghangaria - Govind Ghat - Joshimath - Rudraprayag (130 Kms/  5-6 hrs)",
-				"activities":[
-					"In the morning trek down to Govind Ghat and from here drive to Rudraprayag via Joshimath and Chamoli.",
-					"Once you arrive at this place, you will check into the hotel.",
-					"Dinner and overnight stay at the hotel."
-				]				
-			},
-			{
-				"day": "7",
-				"title": "Rudraprayag - Haridwar - Delhi",
-				"activities":[
-					"In the morning after breakfast we will drive back to Haridwar.",
-                    "On the way visit Devprayag(Confluence of river Bhagirathi and Alaknanda, from here the holy Ganga starts).",
-					"On arrival at Haridwar transfer to railway station and board train for Delhi at 18:15 hrs. Arrival at Delhi by 22:45 hrs.",
-					"Tour & Services End."
-				]				
-			}
-		  ],
-		  "thingsToCarry":[
-			"Windproof jacket",
-			"Trekking/Hiking shoes",
-			"Walking stick/Trekking pole",
-			"Duffle bag",
-			"Thermal inner wear (upper & lower)",
-			"Rain coat/Light weight umbrella",
-			"Small light weight towel",
-			"Sturdy water bottle",
-			"Cap/Hat",
-			"Sun glasses",
-			"Sun screen lotion, Lip balm",
-			"Energy bars",
-			"Personal medication",
-			"Personal toiletries"
-		  ],
-		  "importantInfo":[
-			{
-			  "title": "At a Glance",
-			  "subtitles": [
-				"Max group size 15",
-				"7 days trekking and climbing)",
-				"Max altitude - 4328 mt",
-				"Trek start point: Delhi/Rishikesh/Dehradun",
-				"Fixed depatures: Available",
-				"0 Nights Hotel",
-				"0 Night Tents"
-			  ]
-			},
-			{
-			  "title": "Mode of Payment:",
-			  "subtitles": [
-				"Kindly release 25% Payment for the Blocking.",
-				"Kindly release total 50% Payment before 30 days of arrival.",
-				"Kindly release total 100% Payment before 7 days of arrival."
-			  ]
-			}
-		  ],		  
-		  "transit":[
-			{
-				"title":"BY AIR",
-				"subtitle": "The nearest airport is Jolly Grant, Dehradun, which is situated about 295 kms away and is well connected to Delhi with daily flights."				
-			},
-			{
-				"title":"BY RAIL",
-				"subtitle": "The nearest railway station is in Rishikesh, 276 kms away. Rishikesh is well connected by railway network with major cities of India."			
-			},
-			{
-				"title":"BY ROAD",
-				"subtitle": "The closest you can get to the Valley of Flowers is Govind Ghat. This requires around 10-12 hrs drive to Joshimath from Dehradun, then around 1 hr to Govindghat. From Govindghat it is a 13 km trek for 4-6 hrs along steep and narrow mountain trails to the base camp at Ghangaria. From Ghangaria another 3.5 km trek leads to the valley."			
-			}
-		]
-	}
-	
+{
+  "data": {
+    "id": "Pckg-T-2",
+    "key": "ValleyofFlowers",
+    "title": "Valley of Flowers Trek",
+    "qoute": "",
+    "subtitle": "Valley of Flowers is known for its meadows of endemic alpine flowers and variety of flora. The trek of valley of Flowers goes through dense forests, along with Pushpawati river and can be reached by crossing many bridges, glaciers and waterfalls on the way. Diverse in colors that forms like a carpet on the floor during its full blossoming season, the Valley of Flowers is just like a plot plucked from one of the childhood fairy tale.",
+    "description": [
+      {
+        "title": "WHERE Valley of Flowers:",
+        "subtitle": "Valley of Flowers is an Indian national park located in Uttarakhand, is a home to rare and endangered animals, birds including the Asiatic black bear, snow leapord, musk dear, brown bear, red fox, Himalayan monal pheasant and other high altitude birds. Tucked at 3658 mt above the sea level, stretched over an expanse of 87.5 squre km the Valley of Flowers along with Nanda Devi national park encompassed in the Nanda Devi Biosphere Reserve a UNESCO World Heritage Site."
+      },
+      {
+        "title": "BEST TIME TO VISIT:",
+        "subtitle": "The best time to visit this valley is in between September and June. During June and July one can enjoy watching huge and beautiful glaciers and waterfalls in the valley, there will be very less rain during this time and flowers almost start blooming. In August and September snow starts melting and new plants starts germinating and one can see a lot of flowers blooming till mid August. Slowly at the end of the September the valley become inaccessible and the plants strat drying up and put there seeds on the earth for the next season."
+      },
+      {
+        "title": "TREKKING HIGHLIGHTS:",
+        "subtitle": "Low altitude trek with cavernous gorges, spacious views, vibrant colors of snow clapped peaks, murmuring waterfalls, lush green meadows and numerous wild flowers. Enjoy the rare glimpse of an ancient culture of local people along with famous temples at Haridwar, Rishikesh, Joshimath & Gurudwara of Hemkund Sahib, crystal clear lakes and many more."
+      }
+    ],
+    "heroImage": "trekking/valleyofflowers/valleyofFlowersTrek4.png",
+    "images": [
+      "trekking/valleyofflowers/valleyofFlowersTrek1.png",
+      "trekking/valleyofflowers/valleyofFlowersTrek2.png",
+      "trekking/valleyofflowers/valleyofFlowersTrek3.png",
+      "trekking/valleyofflowers/valleyofFlowersTrek4.png",
+      "trekking/valleyofflowers/valleyofFlowersTrek5.png",
+      "trekking/valleyofflowers/valleyofFlowersTrek6.png",
+      "trekking/valleyofflowers/valleyofFlowersTrek7.png"
+    ],
+    "overview": {
+      "area": "Garhwal Himalayas",
+      "duration": "7 Days",
+      "bestSeason": "July - Mid September",
+      "grade": "Moderate",
+      "altitude": "4328 mt",
+      "totalTreking": "50 Km"
+    },
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Delhi – Haridwar - Rishikesh",
+        "activities": [
+          "In the morning take an AC train for Haridwar at 06:50 hrs from New Delhi train station.",
+          "Arrival at Haridwar by 1:25 hrs, here meet our guide and transfer to Rishikesh, check into your hotel.",
+          "Evening free to explore Rishikesh and overnight stay at the hotel."
+        ]
+      },
+      {
+        "day": "2",
+        "title": "Rishikesh - Joshimath (245 Kms / 8-9 hrs) Altitude: 1890 mt",
+        "activities": [
+          "Get ready for a drive to Joshimath via Devprayag, after an early breakfast.",
+          "Enroute, visit Devprayag where the pious Bhagirathi and Alaknanda rivers meet.",
+          "Enjoy hassle-free check-in at Hotel in Joshimath.",
+          "Enjoy hearty dinner and stay for the night."
+        ]
+      },
+      {
+        "day": "3",
+        "title": "Joshimath - Govindghat (22 Kms / 1 hr) Altitude: 1828 mt - Ghangaria (14 Kms / 3-4 hrs) 3048 mt",
+        "activities": [
+          "Post breakfast, drive to Govindghat, starting point of our trek lies about 22 Km away from Joshimath.",
+          "From here, there is a gradual trail to Ghangaria. After arriving at Ghangaria check into your hotel.",
+          "Dinner and overnight stay at hotel."
+        ]
+      },
+      {
+        "day": "4",
+        "title": "Ghangaria - Valley Of Flowers - Ghangaria (5 Kms one side / 4-5 hrs) Altitude: 3352 mt – 3658 mt",
+        "activities": [
+          "After breakfast trek to Valley of Flowers(3858 mt) from Ghangaria.",
+          "After exploring beauty of the valley trek back to Ghangaria.",
+          "Dinner and overnight stay at the hotel."
+        ]
+      },
+      {
+        "day": "5",
+        "title": "Ghangaria -Hemkund - Ghangaria (5 Kms/ 2-3 hrs) Altitude: 4329 mt",
+        "activities": [
+          "In the morning we will start trekking to reach Hemkund Sahib, one of the most prominent Sikh pilgrimage site.",
+          "In the afternoon trek down to reach Ghangaria for overnight stay.",
+          "Evening is free for rest and relaxation."
+        ]
+      },
+      {
+        "day": "6",
+        "title": "Ghangaria - Govind Ghat - Joshimath - Rudraprayag (130 Kms/  5-6 hrs)",
+        "activities": [
+          "In the morning trek down to Govind Ghat and from here drive to Rudraprayag via Joshimath and Chamoli.",
+          "Once you arrive at this place, you will check into the hotel.",
+          "Dinner and overnight stay at the hotel."
+        ]
+      },
+      {
+        "day": "7",
+        "title": "Rudraprayag - Haridwar - Delhi",
+        "activities": [
+          "In the morning after breakfast we will drive back to Haridwar.",
+          "On the way visit Devprayag(Confluence of river Bhagirathi and Alaknanda, from here the holy Ganga starts).",
+          "On arrival at Haridwar transfer to railway station and board train for Delhi at 18:15 hrs. Arrival at Delhi by 22:45 hrs.",
+          "Tour & Services End."
+        ]
+      }
+    ],
+    "thingsToCarry": [
+      "Windproof jacket",
+      "Trekking/Hiking shoes",
+      "Walking stick/Trekking pole",
+      "Duffle bag",
+      "Thermal inner wear (upper & lower)",
+      "Rain coat/Light weight umbrella",
+      "Small light weight towel",
+      "Sturdy water bottle",
+      "Cap/Hat",
+      "Sun glasses",
+      "Sun screen lotion, Lip balm",
+      "Energy bars",
+      "Personal medication",
+      "Personal toiletries"
+    ],
+    "importantInfo": [
+      {
+        "title": "At a Glance",
+        "subtitles": [
+          "Max group size 15",
+          "7 days trekking and climbing)",
+          "Max altitude - 4328 mt",
+          "Trek start point: Delhi/Rishikesh/Dehradun",
+          "Fixed depatures: Available",
+          "0 Nights Hotel",
+          "0 Night Tents"
+        ]
+      },
+      {
+        "title": "Mode of Payment:",
+        "subtitles": [
+          "Kindly release 25% Payment for the Blocking.",
+          "Kindly release total 50% Payment before 30 days of arrival.",
+          "Kindly release total 100% Payment before 7 days of arrival."
+        ]
+      }
+    ],
+    "transit": [
+      {
+        "title": "BY AIR",
+        "subtitle": "The nearest airport is Jolly Grant, Dehradun, which is situated about 295 kms away and is well connected to Delhi with daily flights."
+      },
+      {
+        "title": "BY RAIL",
+        "subtitle": "The nearest railway station is in Rishikesh, 276 kms away. Rishikesh is well connected by railway network with major cities of India."
+      },
+      {
+        "title": "BY ROAD",
+        "subtitle": "The closest you can get to the Valley of Flowers is Govind Ghat. This requires around 10-12 hrs drive to Joshimath from Dehradun, then around 1 hr to Govindghat. From Govindghat it is a 13 km trek for 4-6 hrs along steep and narrow mountain trails to the base camp at Ghangaria. From Ghangaria another 3.5 km trek leads to the valley."
+      }
+    ]
+  }
 }

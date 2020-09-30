@@ -32,18 +32,41 @@
           v-if="trekkingPackages && trekkingPackages.overview"
         >
 
-          <div class="overview">
-            <div class="sub-overview">
+          <div
+            class="overview"
+            v-for="(subItem, i) in overview"
+            :key="i"
+          >
+            <div
+              class="sub-overview"
+              v-if='i % 2 === 0'
+            >
 
-              <div class="name"><img
-                  src="../../assets/images/trekking/area.png"
-                  alt=""
-                /><span class="title is-6">Area
+              <div class="name">
+                <img
+                  v-bind:src="require('../../assets/images/trekking/' + overview[i].icon)"
+                  :alt="overview[i].icon"
+                /><span class="title is-6">{{overview[i].name}}
                 </span>
-                :{{ trekkingPackages.overview.area }}
+                :{{overview[i].info }}
               </div>
             </div>
-            <div class="sub-overview">
+            <div
+              class="sub-overview"
+              v-if='i % 2 === 0'
+            >
+
+              <div class="name">
+                <img
+                  v-bind:src="require('../../assets/images/trekking/' + overview[i+1].icon)"
+                  :alt="overview[i+1].icon"
+                /><span class="title is-6">{{overview[i+1].name}}
+                </span>
+                :{{overview[i+1].info }}
+              </div>
+            </div>
+          </div>
+          <!-- <div class="sub-overview">
               <div class="name"><img
                   src="../../assets/images/trekking/duration.png"
                   alt=""
@@ -51,48 +74,8 @@
                 </span>
                 :{{ trekkingPackages.overview.duration }}
               </div>
-            </div>
-          </div>
-          <div class="overview">
-            <div class="sub-overview">
-              <div class="name"><img
-                  src="../../assets/images/trekking/bestseason.png"
-                  alt=""
-                /><span class="title is-6">Best Season
-                </span>
-                :{{ trekkingPackages.overview.bestSeason }}
-              </div>
-            </div>
-            <div class="sub-overview">
-              <div class="name"><img
-                  src="../../assets/images/trekking/grade.png"
-                  alt=""
-                /> <span class="title is-6">Grade</span>
-                :{{ trekkingPackages.overview.difficultyRating }}
-              </div>
-            </div>
-          </div>
-          <div class="overview">
-            <div class="sub-overview">
-              <div class="name"><img
-                  src="../../assets/images/trekking/altitude.png"
-                  alt=""
-                /><span class="title is-6"> Altitude</span>
-                :{{ trekkingPackages.overview.Altitude }}
-              </div>
-            </div>
-            <div class="sub-overview">
-
-              <div class="name"><img
-                  src="../../assets/images/trekking/totaltrekking.png"
-                  alt=""
-                /> <span class="title is-6">Total Trekking</span>:{{trekkingPackages.overview.TotalTreking
-            }}
-              </div>
-            </div>
-            <!-- </div> -->
-
-          </div>
+            </div> -->
+          <!-- </div> -->
         </div>
       </div>
     </div>
@@ -236,6 +219,7 @@ export default {
   },
   data() {
     return {
+      overview: [],
       trekkingPackages: {},
       items: [],
       al: {
@@ -279,6 +263,39 @@ export default {
         )
         .then((res) => {
           this.trekkingPackages = res.data.data;
+          this.overview = [
+            {
+              name: 'Area',
+              icon: 'area.png',
+              info: this.trekkingPackages.overview.area,
+            },
+            {
+              name: 'Duration',
+              icon: 'duration.png',
+              info: this.trekkingPackages.overview.duration,
+            },
+            {
+              name: 'Best Season',
+              icon: 'bestseason.png',
+              info: this.trekkingPackages.overview.bestSeason,
+            },
+            {
+              name: 'Grade',
+              icon: 'grade.png',
+              info: this.trekkingPackages.overview.grade,
+            },
+            {
+              name: 'Altitude',
+              icon: 'altitude.png',
+              info: this.trekkingPackages.overview.altitude,
+            },
+            {
+              name: 'Total Trekking',
+              icon: 'totaltrekking.png',
+              info: this.trekkingPackages.overview.totalTreking,
+            },
+          ];
+
           // console.log(this.trekkingPackages);
           this.trekkingPackages.heroImage = require('../../assets/images/' +
             this.trekkingPackages.heroImage);
@@ -349,7 +366,7 @@ export default {
 
 .tour-trekking-detail {
   .overview-container {
-    padding: 35px 15px;
+    padding-top: 56px;
     .overview {
       display: flex;
 
@@ -365,7 +382,7 @@ export default {
         margin-bottom: 10px;
         box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
           0 0px 0 1px rgba(10, 10, 10, 0.02);
-        padding: 5px;
+        padding: 6px 12px;
       }
     }
   }
@@ -518,7 +535,7 @@ export default {
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .tour-trekking-detail {
     .overview-container {
-      padding: 24px;
+      padding: 8px;
     }
     .itinerary-container {
       .imp-info-container {
