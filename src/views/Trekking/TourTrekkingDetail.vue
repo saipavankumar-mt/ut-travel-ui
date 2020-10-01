@@ -46,9 +46,9 @@
                 <img
                   v-bind:src="require('../../assets/images/trekking/' + overview[i].icon)"
                   :alt="overview[i].icon"
-                /><span class="title is-6">{{overview[i].name}}
+                /><span class="overview-name">{{overview[i].name}}:
                 </span>
-                :{{overview[i].info }}
+                <span class="overview-info">{{overview[i].info }}</span>
               </div>
             </div>
             <div
@@ -60,9 +60,9 @@
                 <img
                   v-bind:src="require('../../assets/images/trekking/' + overview[i+1].icon)"
                   :alt="overview[i+1].icon"
-                /><span class="title is-6">{{overview[i+1].name}}
+                /><span class="overview-name">{{overview[i+1].name}}:
                 </span>
-                :{{overview[i+1].info }}
+                <span class="overview-info">{{overview[i+1].info }}</span>
               </div>
             </div>
           </div>
@@ -265,32 +265,32 @@ export default {
           this.trekkingPackages = res.data.data;
           this.overview = [
             {
-              name: 'Area',
+              name: 'AREA',
               icon: 'area.png',
               info: this.trekkingPackages.overview.area,
             },
             {
-              name: 'Duration',
+              name: 'DURATION',
               icon: 'duration.png',
               info: this.trekkingPackages.overview.duration,
             },
             {
-              name: 'Best Season',
+              name: 'BEST SEASON',
               icon: 'bestseason.png',
               info: this.trekkingPackages.overview.bestSeason,
             },
             {
-              name: 'Grade',
+              name: 'GRADE',
               icon: 'grade.png',
               info: this.trekkingPackages.overview.grade,
             },
             {
-              name: 'Altitude',
+              name: 'ALTITUDE',
               icon: 'altitude.png',
               info: this.trekkingPackages.overview.altitude,
             },
             {
-              name: 'Total Trekking',
+              name: 'TOTAL TREKKING',
               icon: 'totaltrekking.png',
               info: this.trekkingPackages.overview.totalTreking,
             },
@@ -366,7 +366,7 @@ export default {
 
 .tour-trekking-detail {
   .overview-container {
-    padding-top: 56px;
+    padding-top: 20px;
     .overview {
       display: flex;
 
@@ -383,6 +383,17 @@ export default {
         box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
           0 0px 0 1px rgba(10, 10, 10, 0.02);
         padding: 6px 12px;
+        .overview-name{
+          font: 16px 'open_sansbold';
+          color: #394048;
+          text-transform: uppercase;
+          font-weight: 700;
+          line-height: 1.2;          
+        }
+        .overview-info{
+            font: 16px/26px 'open_sansregular';
+            color: #4a5258;
+        }
       }
     }
   }
@@ -532,6 +543,8 @@ export default {
     }
   }
 }
+
+
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .tour-trekking-detail {
     .overview-container {
