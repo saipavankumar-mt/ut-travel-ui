@@ -562,4 +562,20 @@ export default {
     }
   }
 }
+@media only screen and (max-width: 1366px) {
+  .tour-trekking-detail {
+    .banner {
+      .intro {
+        padding-right: 2rem;
+      }
+    }
+    .overview-container {
+      .overview {
+        .sub-overview {
+          padding: 6px;
+        }
+      }
+    }
+  }
+}
 </style>
