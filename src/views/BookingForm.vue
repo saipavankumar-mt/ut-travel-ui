@@ -89,6 +89,8 @@
 </template>
 
 <script>
+import { functions } from '../firebase/firebase';
+
 export default {
   name: 'BookingForm',
   components: {},
@@ -108,11 +110,13 @@ export default {
       this.$emit('close');
     },
     submit() {
-      console.log({
-        subject: `Quotation request for ${this.formData.selectedTour}`,
-        data: this.formData
-      });
-      this.$emit('close');
+      const callable = functions.httpsCallable('genericEmail');
+
+      return callable({
+        subject: `Quotation required for ${this.formData.selectedTour}`,
+        user: this.formData
+      }).then(()=>{console.log("Mail sent!!!");
+      this.$emit('close');});
     }
   },
   data() {
