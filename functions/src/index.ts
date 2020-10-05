@@ -14,7 +14,7 @@ export const genericEmail = functions.https.onCall(async (data, context) => {
         templateId: TEMPLATE_ID,
         dynamic_template_data: {
             subject: data.subject,
-            data: data.data,
+            user: data.user,
         },
     };
 
