@@ -130,10 +130,10 @@ export default {
     },
 
     // Your Dark Sky / OpenWeatherMap secret key
-    apiKey: {
-      type: String,
-      required: true,
-    },
+    // apiKey: {
+    //   type: String,
+    //   required: true,
+    // },
 
     // Address to lookup location.
     address: {
@@ -212,7 +212,7 @@ export default {
   },
 
   watch: {
-    apiKey: 'hydrate',
+    // apiKey: 'hydrate',
     address: 'hydrate',
     latitude: 'hydrate',
     longitude: 'hydrate',
@@ -294,7 +294,7 @@ export default {
     loadWeather() {
       const fetchWeatherMethod = Utils.fetchOWMWeather;
       return fetchWeatherMethod({
-        apiKey: this.apiKey,
+        apiKey: '141973eab82fd1074988ffa8397b09bf',
         lat: this.location.lat,
         lng: this.location.lng,
         units: this.units,
@@ -387,8 +387,8 @@ export default {
 }
 
 .vww__content {
-  /* min-height: 150px;
-  height: 180px; */
+  min-height: 150px;
+  height: 180px;
   display: flex;
   align-items: center;
   padding: 8px;
@@ -457,9 +457,9 @@ export default {
 }
 
 @media screen and (min-width: 600px) {
-  /* .vww__currently {
+  .vww__currently {
     width: 300px;
-  } */
+  }
   .vww__daily {
     display: block;
     height: 100%;

@@ -23,7 +23,6 @@
           <app-weather-forcast
             v-for="(forcast, id) in item.weather.location"
             :key="id"
-            api-key="141973eab82fd1074988ffa8397b09bf"
             units="uk"
             :latitude="forcast.lat"
             :longitude="forcast.long"
@@ -49,7 +48,7 @@ export default {
   data: function() {
     return {
       slideIndex: 0,
-      apiKey: '141973eab82fd1074988ffa8397b09bf',
+      // apiKey: '141973eab82fd1074988ffa8397b09bf',
       carouselItem: [],
       lat: '29.94791',
       long: '78.16025',
