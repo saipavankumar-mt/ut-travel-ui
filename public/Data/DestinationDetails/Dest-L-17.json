@@ -1,0 +1,293 @@
+ {
+	"data": {
+		  "id": "Dest-L-17",
+		  "key": "Rishikesh",
+		  "title": "RISHIKESH",
+		  "qoute": "…The City of Nirvana",
+		  "subtitle": "Located in the foothills of Himalayas along the convergence of Ganga and Chanderbhaga river, Rishikesh is known for its adventure activities, ancient temples, popular cafes and as the 'Yoga Capital of the World'. With whitewater rafting industry growing and varied camping and café sports springing up, Rishikesh has grown immensely as a favourite, catering to people with different needs.",
+		  "overview":[
+			{
+			  "title":"Why Rishikesh:",
+			  "subtitle":"Rishikesh is famous, not only in India but around the world, as the yoga capital of the world, with its numerous ancient ashrams and yoga studios has put not only yoga but ancient Indian Vedic studies, Ayurveda, astrology, etc. on the world map. It is also known for the range of adventure activities that it offers like rafting, kayaking, cliff jumping, etc."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"Tourists visit Rishikesh round the year however winter and summer are more pleasant. May to October will be the ideal for Chardham visitors as Rishikesh is the gateway of Chardham."
+			}
+		  ],
+		  "temperature":[
+			{
+				"season":"Summer",
+				"months":"(April to Mid-June)",
+				"temp":"15°C to 40°C"
+			},
+			{
+				"season":"Monsoon",
+				"months":"(Mid-June to September)",
+				"temp":"23°C to 36°C"
+			},
+			{
+				"season":"Winter",
+				"months":"(October to March)",
+				"temp":"6°C to 30°C"
+			}
+		  ],
+		  "heroImage": "destinations/RishikeshTile.png",
+		  "images": [
+		    "destinations/rishikesh/bharatMandir.png",
+			"destinations/rishikesh/geetaBhawan.png",
+			"destinations/rishikesh/kunjapuriTemple.png",
+			"destinations/rishikesh/neelkanthMahadev.png",
+			"destinations/rishikesh/parmarthNiketan.png",
+			"destinations/rishikesh/kaudiyala.png",
+			"destinations/rishikesh/lakshmanJhula.png",
+			"destinations/rishikesh/trimbakeshwarTemple.png",
+			"destinations/rishikesh/triveniGhat.png",
+			"destinations/rishikesh/lakshmanTemple.png",
+			"destinations/rishikesh/omkaranandaAshram.png",
+			"destinations/rishikesh/ramJhula.png"
+			],
+		  "attractions":[
+			{
+				"title": "Bharat Mandir",
+				"image": "destinations/rishikesh/bharatMandir.png",
+				"description":"Bharat Mandir is an ancient temple sacred to Lord Hrishikesh Narayan, located in the heart of the city. The temple sanctum houses a well-crafted idol of Lord Vishnu, which is carved out of a single black stone, known as Saligram. Bharat Mandir also finds its name in many mythological epics like Shrimadbhagwat, Vishnu Puran, Mahabharat, Vaman Puran and Narsingh Puran."
+			},
+			{
+				"title": "Geeta Bhawan",
+				"image": "destinations/rishikesh/geetaBhawan.png",
+				"description":"Geeta Bhawan is a vast and spacious complex located at the banks of holy Ganges in Swargashram, Rishikesh. The Bhawan at once can accommodate more than 1000 devotees and provides them free stay. The Ashram is renowned as an important institute that preserves Hindu literature since it houses the Gita which symbolizes the Hindu Vedas. Geeta Ashram also has two ghats where devotees are often seen taking a holy dip in the Ganges."
+			},
+			{
+				"title": "Kunjapuri Temple",
+				"image": "destinations/rishikesh/kunjapuriTemple.png",
+				"description":"Kunjapuri Temple is sacred temple of immense importance in Hindu religion, perched at an elevation of 1676 mt at Kunjapuri Hill is one of the 52 Shaktipeeth in Uttarakhand. According to the mythology, here at Kunjapuri Temple the chest of burned Sati had fallen, from the temple one can see the panoramic view of neighbouring hills like Swargarohini, Gangotri, Banderpooch and Chaukhamba. To reach the main shrine, tourists will have to climb a flight of 3000 stairs."
+			},
+			{
+				"title": "Neelkanth Mahadev",
+				"image": "destinations/rishikesh/neelkanthMahadev.png",
+				"description":"Neelkanth Mahadev is the place where Lord Shiva consumed the poison originated from the ocean (Samudra Manthan) and placed in his throat. Perched at a height of 1330 mt the sacred shrine is located between the highly impressive Manikoot, Brahmakoot and Vishnukoot Valley, at the confluence of two rivers Madhumati and Pankaja."
+			},
+			{
+				"title": "Parmarth Niketan",
+				"image": "destinations/rishikesh/parmarthNiketan.png",
+				"description":"Parmarth Niketan is a true spiritual haven situated on the banks of holy Ganga, is one the top yoga centers in India and the largest ashram in Rishikesh. Parmarth Niketan is famous for its International Yoga Festival every year in March first week and Ganga Aarti everyday in the evening attracting huge gathering of people throughout the year."
+			},
+			{
+				"title": "Kaudiyala",
+				"image": "destinations/rishikesh/kaudiyala.png",
+				"description":"Kaudiyala is a tiny village located at 40 kms from Rishikesh on Badrinath road known for offering best white river rafting experience in India. Magnificent landscapes of Kaudiyala often remains sprinkled with beautiful camping sites, along with trekking, rock climbing, rappelling, beach volleyball and many more. Here one can enjoy a romantic campfire with the gushing sound of the river which is an amazing experience." 
+			},
+			{
+				"title": "Lakshman Jhula",
+				"image": "destinations/rishikesh/lakshmanJhula.png",
+				"description":"Lakshman Jhula is a famous landmark place in Rishikesh, is a 450 feet long iron suspension bridge connecting Pauri district with Theri district. The bridge got its name from the facts that Lakshman, the younger brother of Lord Ram crossed the Ganga using two jute ropes. Lakshman Jhula offers a panoramic views of river Ganga and Rishikesh city."
+			},
+			{
+				"title": "Trimbakeshwar Temple",
+				"image": "destinations/rishikesh/trimbakeshwarTemple.png",
+				"description":"Trimbakeshwar Temple also known as Tera Manzil, is a famous thirteen storey temple located on the banks of river Ganga in Rishikesh. Unlike other temple which is sacred to a single deity, the Trimbakeshwar Temple enshrines idol of all Hindu God and Goddesses. From the top floor of the temple, one can see the emerald water of Ganges along with panoramic view of sunset."
+			},
+			{
+				"title": "Triveni Ghat",
+				"image": "destinations/rishikesh/triveniGhat.png",
+				"description":"Located at the confluence of three holy rivers Ganga, Yamuna and Saraswati, Triveni Ghat is a sacred ghat in Rishikesh. The ghat is famed for the Ganga Aarti performed to the vedic chants. The ghat remains overcrowded with devotees to take a holy dip in the sacred river Ganga to get cleansed from their sins."
+			},
+			{
+				"title": "Lakshman Temple",
+				"image": "destinations/rishikesh/lakshmanTemple.png",
+				"description":"Lakshman Temple is one of the ancient temple located on the banks of river Ganga in Rishikesh, famous for its stunning sculptures and impressive interiors. As per the legends, Lakshman temple was the place where Lakshman meditated to attain enlightenment. Many beleive that the jute bridge now known as Lakshman Jhula was constructed by Lord Ram."
+			},
+			{
+				"title": "Omkarananda Ashram",
+				"image": "destinations/rishikesh/omkaranandaAshram.png",
+				"description":"Omkarananda Ashram is just the place to be for yoga nomads and people looking for spirtual solace. Located on the banks of the river Ganga, the ashram was founded by Saint Paramahamsa Omkarananda Saraswati in 1967. Omkarananda Ashram is famous for Iyengar yoga which is the most widely taught tradition practiced here."
+			},
+			{
+				"title": "Ram Jhula",
+				"image": "destinations/rishikesh/ramJhula.png",
+				"description":"Ram Jhula is a famous landmark place at Muni-Ki-Reti which is two kilometres away from Rishikesh. It is an iron suspension bridge over holy river Ganga connecting Shivananda Ashram with Swargashram built by PWD, previously it was a hanging jute ropeway bridge without any pillars. Ram Jhula is also famed for attractions like Parmarth Niketan, Geeta Bhawan, Swargashram, Beatles Ashram etc."
+			}
+		  ],
+		  "hotels":[
+			{	
+				"id":"Dest-L-17-H-1",
+				"key":"AlohaontheGangesResort",
+				"name":"Aloha on the Ganges Resort",				
+				"image":"hotels/rishikesh/alohaontheGangesResort.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-17-H-2",
+				"key":"AtaliGangaResort",
+				"name":"Atali Ganga Resort",				
+				"image":"hotels/rishikesh/ataliGangaResort.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-17-H-3",
+				"key":"RagaontheGanges",
+				"name":"Raga on the Ganges",				
+				"image":"hotels/rishikesh/ragaontheGanges.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-17-H-4",
+				"key":"SanskritiVedicRetreat",
+				"name":"Sanskriti Vedic Retreat",				
+				"image":"hotels/rishikesh/sanskritiVedicRetreat.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-17-H-5",
+				"key":"HolidayHill",
+				"name":"Holiday Hill",				
+				"image":"hotels/rishikesh/holidayHill.png",
+				"rating":5				
+			},
+			{	
+				"id":"Dest-L-17-H-6",
+				"key":"DivineResort",
+				"name":"Divine Resort",				
+				"image":"hotels/rishikesh/divineResort.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-17-H-7",
+				"key":"HotelNatraj",
+				"name":"Hotel Natraj",				
+				"image":"hotels/rishikesh/hotelNatraj.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-17-H-8",
+				"key":"NarayanPalaceResort",
+				"name":"Narayan Palace Resort",				
+				"image":"hotels/rishikesh/narayanPalaceResort.png",
+				"rating":3				
+			},
+			{	
+				"id":"Dest-L-17-H-9",
+				"key":"RiverValleyResort",
+				"name":"River Valley Resort",				
+				"image":"hotels/rishikesh/riverValleyResort.png",
+				"rating":3				
+			},
+			{	
+				"id":"Dest-L-17-H-10",
+				"key":"GangaKinareRishikesh",
+				"name":"Ganga Kinare Rishikesh",				
+				"image":"hotels/rishikesh/gangaKinareRishikesh.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-17-H-11",
+				"key":"VasundharaPalace",
+				"name":"Vasundhara Palace",				
+				"image":"hotels/rishikesh/vasundharaPalace.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-17-H-12",
+				"key":"HotelTheGreatGanga",
+				"name":"Hotel The Great Ganga",				
+				"image":"hotels/rishikesh/hotelTheGreatGanga.png",
+				"rating":4				
+			},
+			{	
+				"id":"Dest-L-17-H-13",
+				"key":"HotelShivanshInn",
+				"name":"Hotel Shivansh Inn",				
+				"image":"hotels/rishikesh/hotelShivanshInn.png",
+				"rating":3				
+			}
+		  ],
+		  "includedPackages":[
+			{
+			  "id": "Pckg-B-1",
+			  "title": "Garhwal Glimpse",
+			  "image": "GarhwalGlimpseTile.png",
+			  "key": "GarhwalGlimpse",
+			  "duration": "4 Nights / 5 Days"
+			},
+            {
+              "id": "Pckg-B-2",
+              "title": "Magnificent Gharwal",
+              "key": "MagnificentGharwal",
+              "image": "MagnificientGarhwalTile.png",
+              "duration": "7 Nights / 8 Days"
+            },
+			{
+			  "id": "Pckg-B-3",
+			  "title": "Complete Uttaranchal",
+			  "image": "CompleteUttaranchalTile.png",
+			  "key": "CompleteUttaranchal",
+			  "duration": "10 Nights / 11 Days"
+			},
+			{
+			  "id": "Pckg-B-6",
+			  "title": "Tiny Uttaranchal",
+			  "image": "TinyUttaranchalTile.png",
+			  "key": "TinyUttaranchal",
+			  "duration": "6 Nights / 7 Days"
+			},
+			{
+			  "id": "Pckg-B-9",
+			  "title": "Uttaranchal Preview",
+			  "image": "UttaranchalPreviewTile.png",
+			  "key": "UttaranchalPreview",
+			  "duration": "7 Nights / 8 Days"
+			},
+			{
+              "id": "Pckg-B-10",
+              "title": "Weekend Uttranchal",
+              "key": "WeekendUttranchal",
+              "image": "WeekendUttranchalTile.png",
+              "duration": "3 Nights / 4 Days"
+            },
+			{
+			  "id": "Pckg-B-12",
+			  "title": "Alluring Uttarakhand",
+			  "image": "AlluringUttarakhandTile.png",
+			  "key": "AlluringUttarakhand",
+			  "duration": "8 Nights / 9 Days"
+			},
+			{
+			  "id": "Pckg-B-15",
+			  "title": "Pleasing Garhwal",
+			  "image": "PleasingGarhwalTile.png",
+			  "key": "PleasingGarhwal",
+			  "duration": "6 Nights / 7 Days"
+			},
+			{
+			  "id": "Pckg-B-16",
+			  "title": "Ravishing Uttarakhand",
+			  "image": "RavishingUttarakhandTile.png",
+			  "key": "RavishingUttarakhand",
+			  "duration": "9 Nights / 10 Days"
+			},
+			{
+			  "id": "Pckg-D-2",
+			  "title": "Panch Kedar",
+			  "image": "PanchKedarTile.png",
+			  "key": "PanchKedar",
+			  "duration": "15 Nights / 16 Days"
+			}
+			],
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "The nearest airport from Rishikesh is Jolly Grant Airport in Dehradun, which is at a distance of 45 km from the place. One can hire a taxi after reaching the airport to reach the city. Moreover, the flights operate on a regular basis from major cities like; Delhi, Mumbai, and Kolkata to Dehradun."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "Rishikesh houses its own railway station, where few trains halt. The major railway station, however, remains Haridwar which is connected to major cities like; Delhi, Chandigarh, Gwalior, and more. The Haridwar railway station is just 20 km away from the city. There are taxis and buses services available from Haridwar railway station to reach Rishikesh."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Rishikesh is well connected through road with the major cities like; Delhi, Chandigarh, and other cities and towns of Uttarakhand. One can avail a bus or taxi services from these places to reach Rishikesh."			
+			}
+		]
+	}
+	
+}

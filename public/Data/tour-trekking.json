@@ -55,7 +55,13 @@
       "title": "Bali Pass",
       "key": "BALI-PASS",
       "image": "destinations/BaliPassTile.png"
-    },  
+    }, 
+    {
+      "id": "Pckg-T-8",
+      "title": "Kalandi Khal",
+      "key": "KALANDI-KHAL",
+      "image": "destinations/KalandiKhalTile.png"
+    }, 
     {
       "id": "Trek-M-4",
       "title": "Deoria Tal",
@@ -73,12 +79,6 @@
       "title": "Brahmatal",
       "key": "BRAHMATAL",
       "image": "destinations/BrahmatalTile.png"
-    },
-    {
-      "id": "Trek-M-11",
-      "title": "Kalandi Khal",
-      "key": "KALANDI-KHAL",
-      "image": "destinations/KalandiKhalTile.png"
     }
   ]
 }
