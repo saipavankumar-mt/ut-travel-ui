@@ -19,78 +19,31 @@
             v-bind:alt="item.image"
           />
         </div>
-        <vue-weather
-          api-key="141973eab82fd1074988ffa8397b09bf"
-          units="uk"
-          :latitude="lat"
-          :longitude="long"
-          language="en"
-        />
-        <h3>{{ currentTemp - 273.15 }}</h3>
+        <div class="weather-forcast">
+          <app-weather-forcast
+            api-key="141973eab82fd1074988ffa8397b09bf"
+            units="uk"
+            :latitude="lat"
+            :longitude="long"
+            language="en"
+            :hide-header="hideHeader"
+            :hide-week="hideWeek"
+            :text-color="textColor"
+          />
+        </div>
       </b-carousel-item>
     </b-carousel>
-    <!-- <carousel
-      :per-page="1"
-      :mouse-drag="true"
-      :loop="true"
-      :autoplay="true"
-      :navigationEnabled="true"
-      :navigationNextLabel="'>'"
-      :navigationPrevLabel="'<'"
-      :paginationPosition="'bottom-overlay'"
-    >-->
-    <!-- <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
-        <div class="carousel-container">
-          <img
-            class="carousel-img"
-            v-bind:src="require('../assets/' + item.image)"
-            v-bind:alt="item.image"
-    />-->
-    <!-- <div class="carousel-content">
-            <div class="carousel-left-content">
-              <div class="carousel-title">
-                <p>{{ item.title }}</p>
-              </div>
-              <div class="carousel-subtitle">
-                <p>{{ item.subtitle }}</p>
-              </div>
-              <div class="carousel-route">
-                <p>{{ item.route }}</p>
-              </div>
-              <div class="carousel-desc">
-                <p>{{ item.description }}</p>
-              </div>
-            </div>
-            <div class="carousel-right-content" v-if="item.price.showPrice">
-              <div class="carousel-duration">
-                <p>
-                  <b>{{ item.nights }}</b> Nights /
-                  <b>{{ item.days }}</b> Days
-                </p>
-              </div>
-              <p>@</p>
-              <div class="carousel-price">
-                <p>&#8377; {{ item.price.value }}/-</p>
-              </div>
-              <div class="carousel-perperson">
-                <p>PER PERSON</p>
-              </div>
-            </div>
-    </div>-->
-    <!-- </div>
-      </slide>
-    </carousel>-->
-    <!-- <available-packages-list class="available"></available-packages-list> -->
   </div>
 </template>
 
 <script>
-import VueWeather from 'vue-weather-widget';
+import AppWeatherForcast from '../components/ui-components/AppWeatherForcast';
 export default {
   name: 'TheCarousel',
   components: {
-    VueWeather,
+    AppWeatherForcast,
   },
+
   data: function() {
     return {
       slideIndex: 0,
@@ -98,69 +51,30 @@ export default {
       carouselItem: [],
       lat: '29.94791',
       long: '78.16025',
-      currentTemp: '',
-      minTemp: '',
-      maxTemp: '',
-      pressure: '',
-      humidity: '',
-      wind: '',
-      overcast: '',
-      icon: '',
-      sunrise: '',
-      sunset: '',
+      textColor: '#fff',
+      disableAnimation: false,
+      hideHeader: true,
+      hideWeek: true,
     };
   },
-  beforeMount() {
-    this.getWeather();
-  },
-
-  methods: {
-    getWeather() {
-      let url =
-        `https://api.openweathermap.org/data/2.5/weather?APPID=${this.apiKey}` +
-        `&lat=${this.lat}` +
-        `&lon=${this.long}` +
-        `&units=uk` +
-        `&lang=en`;
-      debugger;
-      this.$http
-        .get(url)
-        .then((response) => {
-          this.currentTemp = response.data.main.temp;
-          this.minTemp = response.data.main.temp_min;
-          this.maxTemp = response.data.main.temp_max;
-          this.pressure = response.data.main.pressure;
-          this.humidity = response.data.main.humidity + '%';
-          this.wind = response.data.wind.speed + 'm/s';
-          this.overcast = response.data.weather[0].description;
-          this.icon =
-            'images/' + response.data.weather[0].icon.slice(0, 2) + '.svg';
-          this.sunrise = new Date(response.data.sys.sunrise * 1000)
-            .toLocaleTimeString('en-GB')
-            .slice(0, 4);
-          this.sunset = new Date(response.data.sys.sunset * 1000)
-            .toLocaleTimeString('en-GB')
-            .slice(0, 4);
-          debugger;
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-    },
-  },
-
   created() {
     this.$http
       .get(`${process.env.BASE_URL}Data/carousel.json`)
       .then((response) => {
         this.carouselItem = response.data.items;
       });
+    // this.getWeather();
   },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
+.weather-forcast {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .available {
   position: absolute;
   top: 82%;
