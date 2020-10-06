@@ -111,7 +111,7 @@ export default {
       this.$emit('close');
     },
     submit() {
-      const callable = functions.httpsCallable('genericEmail');
+      const callable = functions.httpsCallable('sendNodeMailerEmail');
 
       return callable({
         subject: `Quotation required for ${this.formData.selectedTour}`,

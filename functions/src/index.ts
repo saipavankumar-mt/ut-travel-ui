@@ -25,7 +25,7 @@ export const genericEmail = functions.https.onCall(async (data, context) => {
     return { success: true };
 });
 
-let transporter = nodemailer.createTransport({
+const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: functions.config().nodemailer.user,
@@ -35,30 +35,30 @@ let transporter = nodemailer.createTransport({
 
 let template = handlebars.compile(`<p style="font-size: 16px;">Hello Sales Team,</p>
 <br />
-<p>Below user requested quotation for {{data.user.selectedTour}}</p>
+<p>Below user requested quotation for {{selectedTour}}</p>
 <br />
-<div><p>Name : {{data.user.name}}</p></div>
-<div><p>Email : {{data.user.email}}</p></div>
-<div><p>Phone Number : {{data.user.phoneNumber}}</p></div>
-<div><p>Passengers : {{data.user.adult}} Adults & {{data.user.children}} Childrens</p></div>
-<div><p>Planned Dates : {{data.user.date}}</p></div>
-<div><p>Requirements : {{data.user.requirement}}</p></div>
+<div><p>Name : {{name}}</p></div>
+<div><p>Email : {{email}}</p></div>
+<div><p>Phone Number : {{phoneNumber}}</p></div>
+<div><p>Passengers : {{adult}} Adults & {{children}} Childrens</p></div>
+<div><p>Planned Dates : {{date}}</p></div>
+<div><p>Requirements : {{requirement}}</p></div>
 <br />
 <p>Thanks,</p>
 <p>Technical Team</p>`);
 
-export const sendNodeMailerEmail = functions.https.onCall((data, context) => {        
-    var htmlToSend = template(data);
+export const sendNodeMailerEmail = functions.https.onCall(async (data, context) => {        
+    var htmlToSend = template(data.user);
 
     const mailOptions: Mail.Options = {
-        from: 'Technical Team <saipavankumar99@gmail.com>',            
+        from: 'saipavankumar99@gmail.com',            
         subject: data.subject,
-        to: 'saipavankuamr99@gmail.com',
+        to: 'saipavankumar99@gmail.com',
         html: htmlToSend
     };
 
     // returning result
-    transporter.sendMail(mailOptions, (error) => {
+    await transporter.sendMail(mailOptions, (error) => {
         if (error) {
             return { error: error.toString() };
         }
