@@ -1,0 +1,365 @@
+{
+  "data":
+	{
+	  "id": "Pckg-A-2",
+	  "key": "RealAdventurewithCorbett",
+	  "title": "Real Adventure with Corbett",
+	  "qoute": "...Explore Rishikesh and Jim Corbett National Park",
+	  "subtitle": "",
+	  "overview":[
+		{
+		  "title":"Rishikesh (…The City of Nirvana):",
+		  "subtitle":"Located in the foothills of Himalayas along the convergence of Ganga and Chanderbhaga river, Rishikesh is known for its adventure activities, ancient temples, popular cafes and as the 'Yoga Capital of the World'. With whitewater rafting industry growing and varied camping and café sports springing up, Rishikesh has grown immensely as a favourite, catering to people with different needs."
+		},
+		{
+		  "title":"Jim Corbett National Park (…Hear Nature’s Roar):",
+		  "subtitle":"Jim Corbett National Park can be befittingly called the paradise of Tigers for the fact that it holds a large population of Tigers in its breathtaking landscaped that consists of different varieties of flora and fauna. Named after the legendary tiger hunter turned naturalist Jim Corbett, the proud destinations ‘Jim Corbett National Park’ was the first national park of India, which was established in 1936 in the Uttarakhand."
+		}	
+	  ],
+	  "temperature":[
+		{
+			
+
+		} 	
+	  ],
+	  "route": "Delhi – Rishikesh - Corbett – Delhi",
+	  "duration": "5 Nights / 6 Days",
+	  "nightStay": "Rishikesh (3 Nights), Corbett (2 Nights)",
+	  "heroImage": "riverrafting.png",
+	  "price": "22500",
+	  "images": [
+	  ],
+	  "description": [
+		{
+		  "title": "Day 1  Delhi to Rishikesh (240 Kms : 7Hrs. Rock Climbing, Rappelling Adventure)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Delhi",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Rishikesh",
+			  "subtitle": "240Kms : 7Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{ 
+					"time" : "3:00 pm to 4:00 pm",
+					"activities": "Arrival in Rishikesh and enjoy a quick and hassle-free check-in at Hotel."
+				},
+				{ 
+					"time" : "4:00 pm to 7:00 pm",
+					"activities": "Rock Climbing, Rappelling, Valley Crossing, other beach & Camp Activates."
+				},
+				{ 
+					"time" : "8:00 pm to 10:00 pm",
+					"activities": "Dinner at Camp."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 2  Jumping Adventure",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Rishikesh",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Camp."
+			  },
+			  {
+				"time" : "9:00 am to 1:00 pm",
+				"activities": "Bungee Jumping, Giant Swing, Flying Fox."
+			  },
+			  { 
+				"time" : "1:00 pm to 3:0 pm",
+				"activities": "Lunch at Camp."
+			  },
+			  { 
+				"time" : "4:00 pm to 7:00 pm",
+				"activities": "Camp Activates like Cricket, Bet Benton etc."
+			  },
+			  { 
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Camp."
+			  }
+		  ]
+		},
+		{
+		  "title": "Day 3  Rafting Adventure with Cliff Jumping",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Rishikesh",
+			  "subtitle": ""
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Camp."				
+			  },
+			  {
+				"time" : "9:00 am to 1:00 pm",
+				"activities": "Go for White water Rafting and Cliff Jumping."				
+			  },
+			  {
+				"time" : "1:00 pm to 3:00 pm",
+				"activities": "Lunch at Camp."				
+			  },
+			  {
+				"time" : "4:00 pm to 7:00 pm",
+				"activities": "Volleyball and other Camp Activity."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Camp."				
+			  }					  
+		  ]
+		},
+		{
+		"title": "Day 4  Trekking & Move to Corbett (230 Kms : 5Hrs. Travelling to Corbett)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Rishikesh",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Corbett",
+			  "subtitle": "230Kms : 5Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 8:00 am",
+				"activities": "Breakfast at Camp."				
+			  },
+			  {
+				"time" : "9:00 am to 10:00 am",
+				"activities": "Go for Trekking."				
+			  },
+			  {
+				"time" : "10:00 am to 3:00 pm",
+				"activities": "Drive to Corbett from Rishikesh."				
+			  },
+			  {
+				"time" : "3:00 pm to 3:30 pm",
+				"activities": "Lunch at Hotel."				
+			  },
+			  {
+				"time" : "8:00 am to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 5  Jungle Safari Adventure",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Corbett",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 8:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "9:00 am to 1:00 pm",
+				"activities": "Corbett Museum and Corbett Fall."				
+			  },
+			  {
+				"time" : "1:00 pm to 2:30 pm",
+				"activities": "Lunch at Hotel."				
+			  },
+			  {
+				"time" : "3:00 pm to 6:00 pm",
+				"activities": "Jungle Safari."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Camp."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 6  Corbett  to Deihi (245 Kms : 7Hrs. Travelling to Delhi)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Corbett",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Deihi",
+			  "subtitle": "245Kms : 7Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 5:00 pm",
+				"activities": "Unforgettable Experience, A lot of sweet & sour Memories in the mind."				
+			  }			
+		  ]
+		}
+		
+	  ],
+	  "importantInfo": [
+		{
+		  "title": "Note",
+		  "subtitles": [
+			"Vehicles are not allowed on the Mall road of Nainital and Mussoorie so you have to travel by foot there.",
+			"AC and Music System in Vehicle will not be operated when we are on the Hilly Area.",
+			"All the rates are subject to change without prior notice.",
+			"All disputes are subject to Haridwar Jurisdiction.",
+			"Govt. Taxes (GST)"
+		  ]
+		},
+		{
+		  "title": "Mode of Payment:",
+		  "subtitles": [
+		    "Kindly release 25% Payment for the Blocking.",
+			"Kindly release total 50% Payment before 30 days of arrival.",
+			"Kindly release total 100% Payment before 7 days of arrival."
+		  ]
+		}
+	  ],
+	  "cancellationPolicy":{
+		"title": "Cancellation Policy:",
+		  "subtitles": [
+			"10% of the Total Package Cost is Non-Refundable.",
+			"25% cancellation charge of the total package cost, if cancellation less than 30 days before arrival.",
+			"35% cancellation charge of the total package cost, if cancellation between 15 to 7 days before arrival.",
+			"50% cancellation charge of the total package cost if cancellation between 7 to 2 days before arrival.",
+			"100% cancellation charge of the total package cost if cancellation before 48 Hrs. before arrival.",
+			"Altering the confirmed plan Not possible."
+		  ]
+	  },
+	  "inclusionAndExclusion":[
+		{
+		  "title": "Experience Includes:",
+		  "subtitles": [
+			"Accommodation at all the places mention in the itinerary.",
+			"Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
+			"Transportation around the tour (As mentioned above).",
+			"All sightseeing and excursion as per the Itinerary.",
+			"All Toll Tax, Parking Includes."
+		  ]
+		},
+		{
+		  "title": "Tour Cost dose not Includes:",
+		  "subtitles": [
+			"Extra Meal, Boating Charges, Ropeway Charge, Entry Fee, Guide Fee etc.",
+			"Anything not specifically mentioned in “Experience Include”."
+		  ]
+		}
+	  ],
+	 "accomodationInfo":[
+		{
+			"accomodation": "Rishikesh",
+			"standard": "Camp Hideaway or Similar",
+			"deluxe": "Camp Nirvana or Similar",
+			"luxury": "Howa Resort/ Camp Aqua Forest or Similar"
+		},
+		{			
+			"accomodation": "Corbett",
+			"standard": "Ashoka Tiger Trail/ Corbett View or Similar",
+			"deluxe": "Regenta Tarika / Wild Exotica or Similar",
+			"luxury": "Corbett The Grand or Similar"
+		}
+		
+	  ],
+	 "perPersonCostInfo":[
+		{
+			"passengers": "2",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "Rs. 30,100/- + 5% GST",
+			"Deluxe": "Rs. 33,850/- + 5% GST",
+			"Luxury": "Rs. 42,850/- + 5% GST"
+		},
+		{
+			"passengers": "3",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "Rs. 26,150/- + 5% GST",
+			"Deluxe": "Rs. 29,900/- + 5% GST",
+			"Luxury": "Rs. 38,900/- + 5% GST"
+		},
+		{
+			"passengers": "4",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 26,650/- + 5% GST",
+			"Deluxe": "Rs. 30,300/- + 5% GST",
+			"Luxury": "Rs. 39,300/- + 5% GST"
+		},
+		{
+			"passengers": "5",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 24,900/- + 5% GST",
+			"Deluxe": "Rs.28,650/- + 5% GST",
+			"Luxury": "Rs. 37,650/- + 5% GST"
+		},
+		{
+			"passengers": "6",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 23,800/- + 5% GST",
+			"Deluxe": "Rs. 17,550/- + 5% GST",
+			"Luxury": "Rs. 26,550/- + 5% GST"
+		},
+		{
+			"passengers": "7",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 23,800/- + 5% GST",
+			"Deluxe": "Rs. 17,550/- + 5% GST",
+			"Luxury": "Rs. 26,550/- + 5% GST"
+		},
+		{
+			"passengers": "8",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 24,600/- + 5% GST",
+			"Deluxe": "Rs. 28,375/- + 5% GST",
+			"Luxury": "Rs. 37,375/- + 5% GST"
+		},
+		{
+			"passengers": "9",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 23,950/- + 5% GST",
+			"Deluxe": "Rs. 27,700/- + 5% GST",
+			"Luxury": "Rs. 36,700/- + 5% GST"
+		},
+		{
+			"passengers": "10",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 23,350/- + 5% GST",
+			"Deluxe": "Rs. 27,100/- + 5% GST",
+			"Luxury": "Rs. 36,100/- + 5% GST"
+		},
+		{
+			"passengers": "11",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 22,900/- + 5% GST",
+			"Deluxe": "Rs. 26,750/- + 5% GST",
+			"Luxury": "Rs. 35,650/- + 5% GST"
+		},
+		{
+			"passengers": "12",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 22,500/- + 5% GST",
+			"Deluxe": "Rs. 26,350/- + 5% GST",
+			"Luxury": "Rs. 35,250/- + 5% GST"
+		}
+	  ]
+	}
+}

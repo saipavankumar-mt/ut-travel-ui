@@ -1,36 +1,45 @@
 {
   "items": [
     {
-      "image": "images/ChardhamYatra.png",
-      "title": "Chardham Yatra",
-      "subtitle": "...Voice of Conscience",
-      "route": "Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi",
-      "description": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
+      "image": "images/khumbmela2021.png",
+      "title": "Haridwar Kumbh Mela 2021",
+      "subtitle": "...Now in Haridwar",
+      "route": "January 14 to April 27, 2021",
+      "description": "(Kumbh Mela, the largest religious gathering in the world, is held every 12 years in rotation at the four holy places of Haridwar, Allahabad, Ujjain and Nasik. The 2021 Maha Kumbh Mela will be held at Haridwar. It will witness the coming together of millions of pilgrims, accompanied by sadhus and different akharas, to take a dip in the holy River Ganges.)",
       "nights": "12",
       "days": "12",
-      "price": "41000",
+      "price": {
+        "showPrice": false,
+        "value": ""
+      },
       "id": "1"
     },
     {
-      "image": "images/Haridwar.png",
+      "image": "images/chardham-by-heli.png",
       "title": "Chardham Yatra",
       "subtitle": "...Voice of Conscience",
       "route": "Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi",
       "description": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
       "nights": "12",
       "days": "12",
-      "price": "41000",
+      "price": {
+        "showPrice": true,
+        "value": "41000"
+      },
       "id": "2"
     },
     {
       "image": "images/Tiger.png",
-      "title": "Chardham Yatra",
+      "title": "Cobrett park",
       "subtitle": "...Voice of Conscience",
       "route": "Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi",
       "description": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
       "nights": "12",
       "days": "12",
-      "price": "41000",
+      "price": {
+        "showPrice": true,
+        "value": "41000"
+      },
       "id": 3
     },
     {
@@ -41,30 +50,11 @@
       "description": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
       "nights": "12",
       "days": "12",
-      "price": "41000",
+      "price": {
+        "showPrice": false,
+        "value": "41000"
+      },
       "id": 4
-    },
-    {
-      "image": "images/LakshmanJhula.png",
-      "title": "Chardham Yatra",
-      "subtitle": "...Voice of Conscience",
-      "route": "Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi",
-      "description": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
-      "nights": "12",
-      "days": "12",
-      "price": "41000",
-      "id": 5
-    },
-    {
-      "image": "images/trekking.png",
-      "title": "Chardham Yatra",
-      "subtitle": "...Voice of Conscience",
-      "route": "Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi",
-      "description": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
-      "nights": "12",
-      "days": "12",
-      "price": "41000",
-      "id": 6
     }
   ]
 }

@@ -1,9 +1,15 @@
 <template>
   <div class="milestone-container">
-    <img src="../../assets/images/milestone.png" />
-    <div class="milestone-text">
-        <p class="milestone-title">{{item.title}}</p>
-        <p class="milestone-kms">{{item.subtitle}}</p>
+    <div class="milestone-img">
+      <img src="../../assets/images/roadmap.png" />
+    </div>
+    <div class="milestone-text-from">
+      <p class="milestone-title">{{item[0].title}}</p>
+      <p class="milestone-kms">{{item[0].subtitle}}</p>
+    </div>
+    <div class="milestone-text-to">
+      <p class="milestone-title">{{item[1].title}}</p>
+      <p class="milestone-kms">{{item[1].subtitle}}</p>
     </div>
   </div>
 </template>
@@ -11,37 +17,67 @@
 <script>
 export default {
   name: "AppMileStone",
-  components: {
-  },  
+  components: {},
   props: {
-      item: { type: Object, required: true }
-  }
+    item: { type: Array, required: true },
+  },
 };
 </script>
 
 <style lang="scss">
-.milestone-container{
-    position: relative;
-    text-align: center;
+.milestone-container {
+  position: relative;
+  text-align: center;
+  width: 400px;
+  height: 200px;
 }
 
-.milestone-text{
+.milestone-img {
+  margin-top: -55px;
+  margin-left: -160px;
+}
+
+.milestone-text-from {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 56%;
+  left: 11%;
   transform: translate(-50%, -50%) rotate(-1deg);
-  width: 40%;
+  width: 10%;
 }
 
-.milestone-title{
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-align: center;
+.milestone-text-to {
+  position: absolute;
+  top: 72%;
+  left: 33%;
+  transform: translate(-50%, -50%) rotate(-1deg);
+  width: 10%;
 }
 
-.milestone-kms{
-    font-weight: bold;
-    font-size:0.8rem;
-    text-align: center;
+.milestone-title {
+  font-weight: bold;
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.milestone-kms {
+  font-weight: bold;
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .milestone-text-to {
+    top: 72%;
+    left: 53%;
+  }
+
+  .milestone-text-from {
+    top: 56%;
+    left: 30%;
+  }
+
+  .milestone-img {
+    margin-left: 0;
+  }
 }
 </style>

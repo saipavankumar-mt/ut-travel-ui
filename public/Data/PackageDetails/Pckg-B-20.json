@@ -1,0 +1,500 @@
+{
+  "data":
+	{
+	  "id": "Pckg-B-20",
+	  "key": "EnchantingUttarakhand",
+	  "title": "Enchanting Uttarakhand",
+	  "qoute": "...Explore Corbett and Nainital and Kausani and Auli and Chopta and Haridwar",
+	  "subtitle": "",
+	  "overview":[		
+		{
+		  "title":"Jim Corbett National Park (…Hear Nature’s Roar):",
+		  "subtitle":"Jim Corbett National Park can be befittingly called the paradise of Tigers for the fact that it holds a large population of Tigers in its breathtaking landscaped that consists of different varieties of flora and fauna. Named after the legendary tiger hunter turned naturalist Jim Corbett, the proud destinations ‘Jim Corbett National Park’ was the first national park of India, which was established in 1936 in the Uttarakhand."
+		},		
+		{
+		  "title":"Nainital (…Peachy and Decency, Sign A Peace Treaty):",
+		  "subtitle":"Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period."
+		},
+		{
+		  "title":"Kausani (…The Himalayan Courtyard):",
+		  "subtitle":"Kausani is a beautiful hill station, located 53 kms north of Almora. The altitude of this place is about 1890 meters above the sea level. This place offers a 350 Km. view of the Himalayan peaks loke Tirsul, Nanda Devi and Panchachuli. Kausani is famous fir its Tea Garden and wide panoramic view of mighty Himalayas. There are many other attractions near Kausani such as Rudradhari waterfall."
+		},
+		{
+		  "title":"Auli (…The Magnificent Miracle):",
+		  "subtitle":"Auli is a beautiful tourist spot which is famous for skiing all across the globe. This scenic place is parched at an elevation 2800 meters above sea level. It is known for its oak-edged slopes and verdant coniferous forests. The history of Auli can be traced back to the 8th century. According to certain beliefs, Guru Adi Shankaracharya visited this sacred place. This place is also known as 'Bugyal', which means ’Meadows’ in the regional language. "
+		},
+		{
+		  "title":"Chopta (…The Switzerland of India):",
+		  "subtitle":"Chopta is a peaceful and lush hill station in Uttarakhand. There’s much to explore here. It is the nexus point of the Panch Kedars (Kedarnath, Madmaheshwar, Tungnath, Rudranath and Kalpeshwar). It is called the ‘Mini Switzerland’ of India, positioned at a height of 2680 meters. Chopta is surrounded by lush green forests. It is an amazing offbeat weekend destination. It provides surreal views of peaks Nanda Devi, Trishul and Chaukhamba."
+		},
+		{
+		  "title":"Haridwar (…Gateway to Heaven):",
+		  "subtitle":"Haridwar is one of the seven sacred cities of the Hindus and is a major pilgrimage center. It has been known by many names originally it was called Kapila’ for the sage who once lived there. Its present name means 'Door to Hari' Hari is one of the names of Lord Vishnu’ a principal deity of Hindusim."
+		}
+	  ],
+	  "temperature":[
+		{
+			
+
+		} 	
+	  ],
+	  "route": "Delhi - Corbett - Nainital - Kausani - Auli - Chopta - Haridwar - Delhi",
+	  "duration": "9 Nights / 10 Days",
+	  "nightStay": "Corbett (1 Night), Nainital (2 Nights), Kausani (1 Night), Auli (2 Nights), Chopta (2 Nights),Haridwar (1 Night)",
+	  "heroImage": "",
+	  "price": "",
+	  "images": [
+	  ],
+	  "description": [
+		{
+		  "title": "Day 1 Pickup from Delhi Railway Station/Airport (230 Kms : 6-7Hrs. Travelling to Corbett)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Delhi",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Corbett",
+			  "subtitle": "230Kms : 6-7Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{
+				  "time" : "4:00 pm to 5:00 pm",
+				  "activities": "Arrival in Corbett and enjoy a quick and hassle-free check-in at Hotel."
+			    },
+				{ 
+				  "time" : "6:00 pm to 8:00 pm",
+				  "activities": "Visit Garzia Devi Temple."
+				},
+				{ 
+				  "time" : "8:00 pm to 10:00 pm",
+				  "activities": "Dinner at Hotel."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 2  Corbett to Nainital (80 Kms : 2Hrs. Travelling to Nainital)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Corbett",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Nainital",
+			  "subtitle": "80Kms : 2Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "4:00 pm to 7:00 pm",
+				"activities": "At evening you are free to take enjoy of boating in Nainilake (At your own) &amp; you can visit Mall Road."
+			  },
+			  { 
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."
+			  }
+		  ]
+		},
+		{
+		  "title": "Day 3 Nainital Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Nainital",
+			  "subtitle": ""
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "9:00 am to 2:00 pm",
+				"activities": "Lake Tour Bhimtal, Naukuchia Tal, Sat Tal, Hanuman Temple, Golu Devta Temple at Gorhakhal."				
+			  },
+			  {
+				"time" : "4:00 pm to 7:00 pm",
+				"activities": "Evening Nainital sightseeing such as Nainia Devi Temple, Naini Lake, Tibetan Market, Raj Bhawan, St. John's Church, Land's End, Zoo Gardens, Snow View Point, Cave Garden, as per your time & comfort."				
+			  }	,
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }					  
+		  ]
+		},
+		{
+		"title": "Day 4 Nainital to Kausani (125 Kms : 5Hrs. Travelling to Kausani)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Nainital",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Kausani",
+			  "subtitle": "125Kms : 5Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "9:00 am to 12:00 pm",
+				"activities": "OStart journey to Chaukori covering sightseeing of Birthi Fall."				
+			  },
+			  {
+				"time" : "2:00 pm to 7:00 pm",
+				"activities": "Visit Gandhi Ji Ashram, Anashakti Ashram, Kausani Tea Estate, Lukshmi Ashram, Sumitrananadan Pant Gallery and visit Sun set at View Point as per your time & comfort."				
+			  }	,
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 5 Kausani to Auli(200 Kms : 8Hrs. Travelling to Auli)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Kausani",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Auli",
+			  "subtitle": "200Kms : 8Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "5:00 pm to 7:00 pm",
+				"activities": "Explore the Beauty of Auli."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		  "title": "Day 6 Auli Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Auli",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "11:00 am to 5:00 pm",
+				"activities": "sightseeing such as Gurson Meadows etc."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 7 Auli to Chopta (145 Kms : 5-6Hrs. Travelling to Chopta)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Auli",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Chopta",
+			  "subtitle": "145Kms : 5-6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "5:00 pm to 7:00 pm",
+				"activities": "Evening free to enjoy the beauty of Chopta."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 8 Chopta to Tungnath to Chopta (2.5 Kms : 1-2Hrs. Trekking to Tangnath one way)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Chopta",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Tangnath",
+			  "subtitle": "2.5Kms : 1-2Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 7:00 pm",
+				"activities": "Start trekking for Tungnath."				
+			  },
+              {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 9 Chopta to Haridwar (240 Kms : 5-6Hrs. Travelling to Haridwar)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Chopta",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Haridwar",
+			  "subtitle": "240Kms : 5-6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "9:00 am to 3:00 pm",
+				"activities": "Drive to Haridwar from Chopta."				
+			  },
+              {
+				"time" : "4:00 pm to 8:00 pm",
+				"activities": "Evening Arti at Har-Ki-Pauri. Visit local market Moti Bazar and Temples like Bhuma Niketan Mandir, Bharat Mata Mandir, Vaishno Devi Mandir and Pawan Dham."				
+			  },
+              {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 10  Check Out from Haridwar (240 Kms : 5-6Hrs. Travelling to Delhi)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Haridwar",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Delhi",
+			  "subtitle": "240Kms : 5-6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 4:00 pm",
+				"activities": "Reaching at Railway Station/Airport by having Sweet Memoires in mind and lots of love."				
+			  }			
+		  ]
+		}
+		
+	  ],
+	  "importantInfo": [
+		{
+		  "title": "Note",
+		  "subtitles": [
+			"Vehicles are not allowed on the Mall road of Nainital and Mussoorie so you have to travel by foot there.",
+			"AC and Music System in Vehicle will not be operated when we are on the Hilly Area.",
+			"All the rates are subject to change without prior notice.",
+			"All disputes are subject to Haridwar Jurisdiction.",
+			"Govt. Taxes (GST)"
+		  ]
+		},
+		{
+		  "title": "Mode of Payment:",
+		  "subtitles": [
+		    "Kindly release 25% Payment for the Blocking.",
+			"Kindly release total 50% Payment before 30 days of arrival.",
+			"Kindly release total 100% Payment before 7 days of arrival."
+		  ]
+		}
+	  ],
+	  "cancellationPolicy":{
+		"title": "Cancellation Policy:",
+		  "subtitles": [
+			"10% of the Total Package Cost is Non-Refundable.",
+			"25% cancellation charge of the total package cost, if cancellation less than 30 days before arrival.",
+			"35% cancellation charge of the total package cost, if cancellation between 15 to 7 days before arrival.",
+			"50% cancellation charge of the total package cost if cancellation between 7 to 2 days before arrival.",
+			"100% cancellation charge of the total package cost if cancellation before 48 Hrs. before arrival.",
+			"Altering the confirmed plan Not possible."
+		  ]
+	  },
+	  "inclusionAndExclusion":[
+		{
+		  "title": "Experience Includes:",
+		  "subtitles": [
+			"Accommodation at all the places mention in the itinerary.",
+			"Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
+			"Transportation around the tour (As mentioned above).",
+			"All sightseeing and excursion as per the Itinerary.",
+			"All Toll Tax, Parking Includes."
+		  ]
+		},
+		{
+		  "title": "Tour Cost dose not Includes:",
+		  "subtitles": [
+			"Extra Meal, Boating Charges, Ropeway Charge, Entry Fee, Guide Fee etc.",
+			"Anything not specifically mentioned in “Experience Include”."
+		  ]
+		}
+	  ],
+	 "accomodationInfo":[
+		{			
+			"accomodation": "Corbett",
+			"standard": "Ashoka Tiger Trail or Similar",
+			"deluxe": "Regenta Tarika / Wild Exotica or Similar",
+			"luxury": "Corbett The Grand or Similar"
+		},
+		{
+			"accomodation": "Nainital",
+			"standard": "Hotel Aroma/ Mount n Mist or Similar",
+			"deluxe": "Rio Grand/ Dynasty Resort or Similar",
+			"luxury": "NV Nature View or Similar"
+		},
+		{			
+			"accomodation": "Kausani",
+			"standard": "Hill Palace or Similar",
+			"deluxe": "Pratiksha/ Nature Valley Resort or Similar",
+			"luxury": "Burans or Similar"
+		},
+		{			
+			"accomodation": "Auli",
+			"standard": "Manik Resort or Similar",
+			"deluxe": "Nandan Kanan/ Auli Nature Resort or Similar",
+			"luxury": "Cliff Top Club or Similar"
+		},
+		{			
+			"accomodation": "Chopta",
+			"standard": "Chopta Retreat/ Camp Eden or Similar",
+			"deluxe": "Mayadeep or Similar",
+			"luxury": "Snow Pod or Similar"
+		},
+		{			
+			"accomodation": "Haridwar",
+			"standard": "Holy Basil/ Paradise Inn or Similar",
+			"deluxe": "Lakashya/ Regenta Orko’s or Similar",
+			"luxury": "Godwin or Similar"
+		}		
+	  ],
+	 "perPersonCostInfo":[
+		{
+			"passengers": "2",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "3",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "4",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "5",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "6",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "7",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "8",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "9",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "10",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "11",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "12",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		}
+	  ]
+	}
+}

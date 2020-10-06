@@ -1,0 +1,214 @@
+{
+  "data": {
+    "id": "Dest-L-4",
+    "key": "Dehradun",
+    "title": "DEHRADUN",
+    "qoute": "…The winter capital",
+    "subtitle": "Dehradun is located in the Doon Valley on the foothills of the Himalayas nestled between the river Ganges on the east and the river Yamuna on the west. The city is noted for its picturesque landscape and slightly milder climate and provides a gateway to the surrounding region.",
+    "overview": [
+      {
+        "title": "Why Dehradun:",
+        "subtitle": "Dehradun is the winter capital of India and is one of the oldest cities nested in the mountain ranges of Himalayas. It is well known for their scenic natural hill stations, popular tourist sites and famous temples, which attrat numerous tourists everyyear."
+      },
+      {
+        "title": "BEST TIME TO VISIT:",
+        "subtitle": "As the weather is pleasant and clear with moderate temperature summer is the best time to explore the city. Winter is perfect to visit Dehradun with loved ones as one can witness it turning into a wonderland."
+      }
+    ],
+    "temperature": [
+      {
+        "season": "Summer",
+        "months": "(April to Mid-June)",
+        "temp": "17°C to 35°C"
+      },
+      {
+        "season": "Monsoon",
+        "months": "(Mid-June to September)",
+        "temp": "22°C to 29°C"
+      },
+      {
+        "season": "Winter",
+        "months": "(October to March)",
+        "temp": "5°C to 22°C"
+      }
+    ],
+    "heroImage": "destinations/DehradunHeroImage.png",
+    "images": [
+      "destinations/dehradun/forestResearchInstitute.png",
+      "destinations/dehradun/lachhiwala.png",
+      "destinations/dehradun/mindrollingMonastery.png",
+      "destinations/dehradun/robbersCave.png",
+      "destinations/dehradun/tapkeshwarMahadevTemple.png",
+      "destinations/dehradun/theKalingaWarMemorial.png",
+      "destinations/dehradun/tigerFalls.png",
+      "destinations/dehradun/malsiDeerPark.png",
+      "destinations/dehradun/santalaDeviTemple.png",
+      "destinations/dehradun/sahastradhara.png",
+      "destinations/dehradun/laxmanSidhTemple.png",
+      "Shri Guru Ram Rai Darbar Sahib"
+    ],
+    "attractions": [
+      {
+        "title": "Forest Research Institute",
+        "image": "destinations/dehradun/forestResearchInstitute.png",
+        "description": "Forest Research Institute is among the oldest institutions of its kind built in 1906. Built over 450 hectares with the outer Himalayan forming its back drop, the institute main building combines Greco-Roman and Colonial styles of architecture with the plinth area of 2.5 hectares. The Forest Research Institute comprises of laboratories, libraries, herbariums and museum - Pathology Museum, Social Forestry Museum, Silviculture Museum, Timbra Museum, Non-Wood Forest Products Museum and the Entomology Museum. Tourists who wish to explore the campus can take a guided tour."
+      },
+      {
+        "title": "Lachhiwala",
+        "image": "destinations/dehradun/lachhiwala.png",
+        "description": "Lachhiwala is one of the popular park which contains man-made water pools among the forest with fresh water from the stream of Suswa River is the primary source of water for these ponds. Apart from indulging in sightseeing, here tourists can enjoy bathing in the man-made pools, trekking, and bird-watching."
+      },
+      {
+        "title": "Mindrolling Monastery",
+        "image": "destinations/dehradun/mindrollingMonastery.png",
+        "description": "Mindrolling Monastery, is one of the 'Six Mother Monasteries' of the Nyingma school in Tibet founded in 1676. It also contains a display of relics, murals and Tibetan art along with an impressive 35 m high gold Sakyamuni Buddha Statue, dedicated to Dalai Lama, is presiding over the monastery."
+      },
+      {
+        "title": "Robbers Cave",
+        "image": "destinations/dehradun/robbersCave.png",
+        "description": "Robbers Cave is a river cave formation where a subterranean river which is orginated in Himalayas flows through the cave making it one of the best tourist spot. Robbers used this as thier hideout place during the British rule, hence named as Robbers Cave."
+      },
+      {
+        "title": "Tapkeshwar Mahadev Temple",
+        "image": "destinations/dehradun/tapkeshwarMahadevTemple.png",
+        "description": "Tapkeshwar Mahadev Temple is one of the most famous temples dedicated to Shiva. Situated by the forest side, the main shivalinga at the temple is inside a natural cave. Water drops from the ceiling of the cave trickle down over the shivalinga in a continuous downpour, making for an interesting spectacle."
+      },
+      {
+        "title": "The Kalinga War Memorial",
+        "image": "destinations/dehradun/theKalingaWarMemorial.png",
+        "description": "In October 1814, three British Infantry division lead by Major General Robert Rolle Gillespie, comprising 3500 soldiers, tried to capture the Kangra fort, formerly known as Nalapani fort. During the siege, the fort was defended by Balbhadra Singh Thapa along with 600 Gorkha soldiers and their families, including women and children. But battling all the odds Balbhadra and his army defended the fort for over a month, Impressed by the courage of Gorkha army, Britons decided to put up a memorial which is the world's first memorial erected by an army for their opponents."
+      },
+      {
+        "title": "Tiger Falls",
+        "image": "destinations/dehradun/tigerFalls.png",
+        "description": "The Tiger Falls are hidden in the hilly terrains of Chakrata in Uttarakhand, one can be reach the falls by a 5 km trek with rhododendron and oak trees surroundings. Plunging 312 ft down the boulders and rocks, it is considered the highest direct waterfall in India."
+      },
+      {
+        "title": "Malsi Deer Park",
+        "image": "destinations/dehradun/malsiDeerPark.png",
+        "description": "Malsi Deer Park is a miniature zoological park, in the foot hill of Shivalik range. Its rocky and forested environment shelters various species such as deer, monkeys, peacocks, two-horned deer, and Neelgai. The park also attracts migratory birds thus making it must visit for bird watchers."
+      },
+      {
+        "title": "Santala Devi Temple",
+        "image": "destinations/dehradun/santalaDeviTemple.png",
+        "description": "Santala Devi Temple is a holy shrine located on the hilltop of Santur mountain with scenic view and picnic area. According to the legend, Sanatala Devi and her brother realized the fact that they will no longer be able to fight against the Mughals. One day, when it was Saturday, they decided to abandon all their weapons and started praying. All of a sudden, light started flickering and within a fraction of second, Sanatala Devi and her brother were converted into stone. To reach the temple, tourist can take bus service till Jaitunwala, and from there, 2 km drive to Punjabiwala. From Punjabiwala, one will have to trek for 2 km till the main temple."
+      },
+      {
+        "title": "Sahastradhara",
+        "image": "destinations/dehradun/sahastradhara.png",
+        "description": "Sahastradhara means 'thousand-fold spring' is a small stream of cold clean water flowing through the hills. The spring is popular for its medicinal properties and can cure skin ailments. it also contains a ropeway to mountain top which provides panoramic view of Sahastradhara."
+      },
+      {
+        "title": "Laxman Sidh Temple",
+        "image": "destinations/dehradun/laxmanSidhTemple.png",
+        "description": "Located at 12 km from Dehradun Laxman Sidh Temple is a famous as the cremation site of holy Saint Swamy Laxman Siddh. It is beleived to be the same place where Laxman, brother of Lord Ram underwent repentance after killing the demon king Ravana. Every Sunday a fair is held where thousands of disciples gather to pay their respects at the shrine in the temple."
+      },
+      {
+        "title": "Shri Guru Ram Rai Darbar Sahib",
+        "image": "destinations/dehradun/shriGuruRamRaiDarbarSahib.png",
+        "description": "Shri Guru Ram Rai Darbar Sahib is a most famous place of worship for Sikh community in Dehradun. Established in the 17th century the building is historically and architecturally significant, as it derives many of its architectural motifs, like minarets, domes and gardens, from Indo-Islamic architecture.Gurudwara association also runs many prestigious educational institutions including Medical College, hospital, and charitable trust."
+      }
+    ],
+    "hotels": [
+      {
+        "id": "Dest-L-4-H-1",
+        "key": "AjantaContinental",
+        "title": "AJANTA CONTINENTAL",
+        "image": "destinations/dehradun/ajantaContinental.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-4-H-2",
+        "key": "BlessingBells",
+        "title": "BLESSING BELLS",
+        "image": "destinations/dehradun/blessingBells.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-4-H-3",
+        "key": "HotelCityStar",
+        "title": "HOTEL CITY STAR",
+        "image": "destinations/dehradun/hotelCityStar.png",
+        "rating": 3
+      },
+      {
+        "id": "Dest-L-4-H-4",
+        "key": "DoonCastle",
+        "title": "DOON CASTLE",
+        "image": "destinations/dehradun/doonCastle.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-4-H-5",
+        "key": "HotelAketa",
+        "title": "HOTEL AKETA",
+        "image": "destinations/dehradun/hotelAketa.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-4-H-6",
+        "key": "HotelCrownRoyale",
+        "title": "HOTEL CROWN ROYALE",
+        "image": "destinations/dehradun/hotelCrownRoyale.png",
+        "rating": 3
+      },
+      {
+        "id": "Dest-L-4-H-7",
+        "key": "HotelForestAvenue",
+        "title": "HOTEL FOREST AVENUE",
+        "image": "destinations/dehradun/HotelForestAvenue.png",
+        "rating": 3
+      },
+      {
+        "id": "Dest-L-4-H-8",
+        "key": "HotelPacific",
+        "title": "HOTEL PACIFIC",
+        "image": "destinations/dehradun/hotelPacific.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-4-H-9",
+        "key": "Hotel PadminiPalace",
+        "title": "Hotel PADMINI PALACE",
+        "image": "destinations/dehradun/hotelPadminiPalace.png",
+        "rating": 3
+      },
+      {
+        "id": "Dest-L-4-H-10",
+        "key": "HotelRajpurHeights",
+        "title": "HOTEL RAJPUR HEGHTS",
+        "image": "destinations/dehradun/hotelRajpurHeights.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-4-H-11",
+        "key": "HotelViceroyInn",
+        "title": "HOTEL VICEROY INN",
+        "image": "destinations/dehradun/hotelViceroyInn.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-4-H-12",
+        "key": "HotelMadhuban",
+        "title": "HOTEL MADHUBAN",
+        "image": "destinations/dehradun/hotelMadhuban.png",
+        "rating": 4
+      }
+    ],
+    "includedPackages": [],
+    "transit": [
+      {
+        "title": "BY AIR",
+        "subtitle": "Take a flight to Jolly Grant Airport to reach Dehradun city as the airport is 31 km away. From there, you can easily find a cab for yourself."
+      },
+      {
+        "title": "BY RAIL",
+        "subtitle": "The Dehradun railway station is located 1-2 km away from the city which is well connected to all the major cities of the country like Delhi, Mumbai, Kolkata, Allahabad, Lucknow and many more."
+      },
+      {
+        "title": "BY ROAD",
+        "subtitle": "Dehradun is easily accessible from major cities of the country as it has an excellent road connectivity with other major cities and towns of North India. There are state-run and private buses that offer a regular service. Cab facility is also available from major towns and cities of Uttarakhand and from Delhi as well."
+      }
+    ]
+  }
+}

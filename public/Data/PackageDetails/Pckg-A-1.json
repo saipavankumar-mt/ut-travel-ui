@@ -1,0 +1,393 @@
+{
+  "data":
+	{
+	  "id": "Pckg-A-1",
+	  "key": "RealAdventure",
+	  "title": "Real Adventure",
+	  "qoute": "...Explore Haridwar and Rishikesh",
+	  "subtitle": "",
+	  "overview":[
+		{
+		  "title":"Haridwar (…Gateway to Heaven):",
+		  "subtitle":"Haridwar is one of the seven sacred cities of the Hindus and is a major pilgrimage center. It has been known by many names originally it was called Kapila’ for the sage who once lived there. Its present name means 'Door to Hari' Hari is one of the names of Lord Vishnu’ a principal deity of Hindusim."
+		},
+		{
+		  "title":"Rishikesh (…The City of Nirvana):",
+		  "subtitle":"Located in the foothills of Himalayas along the convergence of Ganga and Chanderbhaga river, Rishikesh is known for its adventure activities, ancient temples, popular cafes and as the 'Yoga Capital of the World'. With whitewater rafting industry growing and varied camping and café sports springing up, Rishikesh has grown immensely as a favourite, catering to people with different needs."
+		}	
+	  ],
+	  "temperature":[
+		{
+			
+
+		} 	
+	  ],
+	  "route": "Delhi – Haridwar – Rishikesh – Delhi",
+	  "duration": "6 Nights / 7 Days",
+	  "nightStay": "Haridwar (2 Nights), Rishikesh (4 Nights)",
+	  "heroImage": "RealAdventureWithCorbettTile.png",
+	  "price": "24800",
+	  "images": [
+	  ],
+	  "description": [
+		{
+		  "title": "Day 1 Pickup from Delhi Railway Station / Airport (210 Kms : 6Hrs. Travelling to Haridwar)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Delhi",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Haridwar",
+			  "subtitle": "210Kms : 6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{ 
+					"time" : "3:00 pm to 4:00 pm",
+					"activities": "Arrival in Haridwar and enjoy a quick and hassle-free check-in at Hotel."
+				},
+				{ 
+					"time" : "5:00 pm to 7:30 pm",
+					"activities": "Take Holy Bath & Evening Arti at Har ki Pauri."
+				},
+				{ 
+					"time" : "8:00 pm to 10:00 pm",
+					"activities": "Dinner at Hotel."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 2  Jungle Safari Adventure (at Raja ji National Park)",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Haridwar",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "9:00 am to 1:00 pm",
+				"activities": "Trekking for Chandi Devi Temple."
+			  },
+			  { 
+				"time" : "1:30 pm to 2:30 pm",
+				"activities": "Lunch at Hotel."
+			  },
+			  { 
+				"time" : "3:00 pm to 6:00 pm",
+				"activities": "Jungle Safari at Raja Ji National Park."
+			  },
+			  { 
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."
+			  }
+		  ]
+		},
+		{
+		  "title": "Day 3  Jumping Adventure",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Rishikesh",
+			  "subtitle": ""
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Camp."				
+			  },
+			  {
+				"time" : "9:00 am to 1:00 pm",
+				"activities": "Bungee Jumping, Giant Swing, Flying Fox."				
+			  },
+			  {
+				"time" : "1:00 pm to 3:00 pm",
+				"activities": "Lunch at Camp."				
+			  },
+			  {
+				"time" : "4:00 pm to 7:00 pm",
+				"activities": "Camp Activates like Cricket, Bet Benton etc."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Camp."				
+			  }					  
+		  ]
+		},
+		{
+		"title": "Day 4  Rafting Adventure with Cliff Jumping",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Rishikesh",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Camp."				
+			  },
+			  {
+				"time" : "9:00 am to 1:00 pm",
+				"activities": "Go for White water Rafting and Cliff Jumping."				
+			  },
+			  {
+				"time" : "1:00 pm to 3:00 pm",
+				"activities": "Lunch at Camp."				
+			  },
+			  {
+				"time" : "4:00 pm to 7:00 pm",
+				"activities": "Volleyball and other Camp Activity."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Camp."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 5th  Climbing, Rappelling Adventure",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Rishikesh",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Camp."				
+			  },
+			  {
+				"time" : "9:00 am to 1:00 pm",
+				"activities": "Go for Rock Climbing, Rappelling, Valley Crossing."				
+			  },
+			  {
+				"time" : "1:00 pm to 3:00 pm",
+				"activities": "Lunch at Camp."				
+			  },
+			  {
+				"time" : "4:00 pm to 7:00 pm",
+				"activities": "Volleyball and other Camp Activity."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Camp."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 6th  Trekking & Cycling Adventure",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Rishikesh",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Camp."				
+			  },
+			  {
+				"time" : "9:00 am to 11:00 am",
+				"activities": "Go for Trekking."				
+			  },
+			  {
+				"time" : "1:00 pm to 3:00 pm",
+				"activities": "Lunch at Camp."				
+			  },
+			  {
+				"time" : "4:00 pm to 6:00 pm",
+				"activities": "Go for Cycling."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Camp."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 7  Rishikesh to Deihi (245 Kms / 7Hrs. Travelling to Delhi)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Rishikesh",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Deihi",
+			  "subtitle": "245Kms : 7Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 5:00 pm",
+				"activities": "Reaching at home by having Sweet Memoires in mind and lots of love."				
+			  }			
+		  ]
+		}
+		
+	  ],
+	  "importantInfo": [
+		{
+		  "title": "Note",
+		  "subtitles": [
+			"Vehicles are not allowed on the Mall road of Nainital and Mussoorie so you have to travel by foot there.",
+			"AC and Music System in Vehicle will not be operated when we are on the Hilly Area.",
+			"All the rates are subject to change without prior notice.",
+			"All disputes are subject to Haridwar Jurisdiction.",
+			"Govt. Taxes (GST)"
+		  ]
+		},
+		{
+		  "title": "Mode of Payment:",
+		  "subtitles": [
+		    "Kindly release 25% Payment for the Blocking.",
+			"Kindly release total 50% Payment before 30 days of arrival.",
+			"Kindly release total 100% Payment before 7 days of arrival."
+		  ]
+		}
+	  ],
+	  "cancellationPolicy":{
+		"title": "Cancellation Policy:",
+		  "subtitles": [
+			"10% of the Total Package Cost is Non-Refundable.",
+			"25% cancellation charge of the total package cost, if cancellation less than 30 days before arrival.",
+			"35% cancellation charge of the total package cost, if cancellation between 15 to 7 days before arrival.",
+			"50% cancellation charge of the total package cost if cancellation between 7 to 2 days before arrival.",
+			"100% cancellation charge of the total package cost if cancellation before 48 Hrs. before arrival.",
+			"Altering the confirmed plan Not possible."
+		  ]
+	  },
+	  "inclusionAndExclusion":[
+		{
+		  "title": "Experience Includes:",
+		  "subtitles": [
+			"Accommodation at all the places mention in the itinerary.",
+			"Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
+			"Transportation around the tour (As mentioned above).",
+			"All sightseeing and excursion as per the Itinerary.",
+			"All Toll Tax, Parking Includes."
+		  ]
+		},
+		{
+		  "title": "Tour Cost dose not Includes:",
+		  "subtitles": [
+			"Extra Meal, Boating Charges, Ropeway Charge, Entry Fee, Guide Fee etc.",
+			"Anything not specifically mentioned in “Experience Include”."
+		  ]
+		}
+	  ],
+	 "accomodationInfo":[
+		{
+			"accomodation": "Haridwar",
+			"standard": "Holy Basil/ Paradise Inn or Similar",
+			"deluxe": "Lakashya/ Regenta Orko’s or Similar",
+			"luxury": "Godwin or Similar"
+		},
+		{
+			"accomodation": "Rishikesh",
+			"standard": "Camp Hideaway or Similar",
+			"deluxe": "Camp Nirvana or Similar",
+			"luxury": "Howa Resort/ Camp Aqua Forest or Similar"
+		}
+		
+	  ],
+	 "perPersonCostInfo":[
+		{
+			"passengers": "2",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "Rs. 33,450/- + 5% GST",
+			"Deluxe": "Rs. 38,450/- + 5% GST",
+			"Luxury": "Rs. 48,000/- + 5% GST"
+		},
+		{
+			"passengers": "3",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "Rs. 29,000/- + 5% GST",
+			"Deluxe": "Rs. 34,000/- + 5% GST",
+			"Luxury": "Rs. 43,500/- + 5% GST"
+		},
+		{
+			"passengers": "4",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 29,525/- + 5% GST",
+			"Deluxe": "Rs. 34,525/- + 5% GST",
+			"Luxury": "Rs. 44,000/- + 5% GST"
+		},
+		{
+			"passengers": "5",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 27,600/- + 5% GST",
+			"Deluxe": "Rs. 32,600/- + 5% GST",
+			"Luxury": "Rs. 42,100/- + 5% GST"
+		},
+		{
+			"passengers": "6",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 25,550/- + 5% GST",
+			"Deluxe": "Rs. 32,500/- + 5% GST",
+			"Luxury": "Rs. 40,050/- + 5% GST"
+		},
+		{
+			"passengers": "7",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 26,250/- + 5% GST",
+			"Deluxe": "Rs. 33,200/- + 5% GST",
+			"Luxury": "Rs. 40,750/- + 5% GST"
+		},
+		{
+			"passengers": "8",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 27,250/- + 5% GST",
+			"Deluxe": "Rs. 32,250/- + 5% GST",
+			"Luxury": "Rs. 41,750/- + 5% GST"
+		},
+		{
+			"passengers": "9",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 26,450/- + 5% GST",
+			"Deluxe": "Rs. 31,450/- + 5% GST",
+			"Luxury": "Rs. 40,950/- + 5% GST"
+		},
+		{
+			"passengers": "10",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 25,800/- + 5% GST",
+			"Deluxe": "Rs. 30,800/- + 5% GST",
+			"Luxury": "Rs. 40,300/- + 5% GST"
+		},
+		{
+			"passengers": "11",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 25,300/- + 5% GST",
+			"Deluxe": "Rs. 30,300/- + 5% GST",
+			"Luxury": "Rs. 39,800/- + 5% GST"
+		},
+		{
+			"passengers": "12",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 24,800/- + 5% GST",
+			"Deluxe": "Rs. 29,800/- + 5% GST",
+			"Luxury": "Rs. 39,300/- + 5% GST"
+		}
+	  ]
+	}
+}

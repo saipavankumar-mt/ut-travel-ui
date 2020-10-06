@@ -1,0 +1,311 @@
+{
+  "data":
+	{
+	  "id": "Pckg-B-1",
+	  "key": "GarhwalGlimpse",
+	  "title": "Garhwal Glimpse",
+	  "qoute": "...Explore Haridwar and Rishikesh",
+	  "subtitle": "",
+	  "overview":[
+		{
+		  "title":"Haridwar (…Gateway to Heaven):",
+		  "subtitle":"Haridwar is one of the seven sacred cities of the Hindus and is a major pilgrimage center. It has been known by many names originally it was called Kapila’ for the sage who once lived there. Its present name means 'Door to Hari' Hari is one of the names of Lord Vishnu’ a principal deity of Hindusim."
+		},
+		{
+		  "title":"Rishikesh (…The City of Nirvana):",
+		  "subtitle":"Located in the foothills of Himalayas along the convergence of Ganga and Chanderbhaga river, Rishikesh is known for its adventure activities, ancient temples, popular cafes and as the 'Yoga Capital of the World'. With whitewater rafting industry growing and varied camping and café sports springing up, Rishikesh has grown immensely as a favourite, catering to people with different needs."
+		}		
+	  ],
+	  "temperature":[
+		{
+			
+
+		} 	
+	  ],
+	  "route": "Delhi – Haridwar – Rishikesh – Delhi",
+	  "duration": "4 Nights / 5 Days",
+	  "nightStay": "Haridwar (2 Nights), Rishikesh (2 Nights)",
+	  "heroImage": "GarhwalGlimpseTile.png",
+	  "price": "9000",
+	  "images": [
+	  ],
+	  "description": [
+		{
+		  "title": "Day 1 Pickup from Delhi Railway Station / Airport (210 Kms : 6Hrs. Travelling to Haridwar)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Delhi",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Haridwar",
+			  "subtitle": "210Kms : 6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{ 
+					"time" : "3:00 pm to 4:00 pm",
+					"activities": "Arrival in Haridwar and enjoy a quick and hassle-free check-in at Hotel."
+				},
+				{ 
+					"time" : "4:00 pm to 8:00 pm",
+					"activities": "Haridwar local Sightseeing such as Chandi Devi, Mansa Devi, Moti Bazar, Holy bath at Ganga and evening Aarti at Har-ki-Puri."
+				},
+				{ 
+					"time" : "8:00 pm to 10:00 pm",
+					"activities": "Dinner at Hotel."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 2 nd : Haridwar Local Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Haridwar",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "10:00 am to 6:00 pm",
+				"activities": "Haridwar local Sightseeing such as Daksha Parjapati, Jai Ram Ashram, Anand Mai Maa, Bharata Mata Temple, Bharat Darshan, Pawan Dham, Bhuma Niketan, Shanti Kunj, Ram Temple etc."
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."
+			  }
+		  ]
+		},
+		{
+		"title": "Day 3 Haridwar to Rishikesh (24 Kms : 1Hr. Travelling to Rishikesh)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Haridwar",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Rishikesh",
+			  "subtitle": "24Kms : 1Hr"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "11:00 am to 1:00 pm",
+				"activities": "Drive to Rishikesh from Haridwar."				
+			  },
+			  {
+				"time" : "4:00 pm to 7:00 pm",
+				"activities": "Rishikesh local Sightseeing Bharat Mandir, Omkaranand Ashram, Tirvani Ghat along with the evening Aarti."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }
+		  ]
+		},
+		{
+		  "title": "Day 4 Rishikesh local Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Rishikesh",
+			  "subtitle": ""
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "11:00 am to 6:00 pm",
+				"activities": "Rishikesh local Sightseeing such as Ram Jhula, Laxman Jhula, Geeta Mandir, Parmarth Niktan along with the evening Aarti."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel"				
+			  }			  
+		  ]
+		},
+		{
+		"title": "Day 5 Rishikesh to Delhi (240 Kms : 7Hrs. Travelling to Delhi)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Rishikesh",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Delhi",
+			  "subtitle": "240Kms : 7Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel"				
+			  },
+			  {
+				"time" : "10:00am to 5:00pm",
+				"activities": "Reaching at Airport by having Sweet Memoires in mind and lots of love."				
+			  }			
+		  ]
+		}
+	  ],
+	  "importantInfo": [
+		{
+		  "title": "Note",
+		  "subtitles": [
+			"Vehicles are not allowed on the Mall road of Nainital and Mussoorie so you have to travel by foot there.",
+			"AC and Music System in Vehicle will not be operated when we are on the Hilly Area.",
+			"All the rates are subject to change without prior notice.",
+			"All disputes are subject to Haridwar Jurisdiction.",
+			"Govt. Taxes (GST)"
+		  ]
+		},
+		{
+		  "title": "Mode of Payment:",
+		  "subtitles": [
+		    "Kindly release 25% Payment for the Blocking.",
+			"Kindly release total 50% Payment before 30 days of arrival.",
+			"Kindly release total 100% Payment before 7 days of arrival."
+		  ]
+		}
+	  ],
+	  "cancellationPolicy":{
+		"title": "Cancellation Policy:",
+		  "subtitles": [
+			"10% of the Total Package Cost is Non-Refundable.",
+			"25% cancellation charge of the total package cost, if cancellation less than 30 days before arrival.",
+			"35% cancellation charge of the total package cost, if cancellation between 15 to 7 days before arrival.",
+			"50% cancellation charge of the total package cost if cancellation between 7 to 2 days before arrival.",
+			"100% cancellation charge of the total package cost if cancellation before 48 Hrs. before arrival.",
+			"Altering the confirmed plan Not possible."
+		  ]
+	  },
+	  "inclusionAndExclusion":[
+		{
+		  "title": "Experience Includes:",
+		  "subtitles": [
+			"Accommodation at all the places mention in the itinerary.",
+			"Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
+			"Transportation around the tour (As mentioned above).",
+			"All sightseeing and excursion as per the Itinerary.",
+			"All Toll Tax, Parking Includes."
+		  ]
+		},
+		{
+		  "title": "Tour Cost dose not Includes:",
+		  "subtitles": [
+			"Extra Meal, Boating Charges, Ropeway Charge, Entry Fee, Guide Fee etc.",
+			"Anything not specifically mentioned in “Experience Include”."
+		  ]
+		}
+	  ],
+	 "accomodationInfo":[
+		{
+			"accomodation": "Haridwar",
+			"standard": "Holy Basil/ Paradise Inn or Similar",
+			"deluxe": "Lakashya/ Regenta Orko’s or Similar",
+			"luxury": "Godwin or Similar"
+		},
+		{
+			"accomodation": "Rishikesh",
+			"standard": "Kamakshi Residency or Similar",
+			"deluxe": "Regenta Inn or Similar",
+			"luxury": "Lemon Tree / Aloha or Similar"
+		}
+	  ],
+	 "perPersonCostInfo":[
+		{
+			"passengers": "2",
+			"vehicle": "Dzire/ Indigo",
+			"standard": "Rs. 14,750/- +5%GST",
+			"deluxe": "Rs. 18,000/- + 5%GST",
+			"luxury": "Rs. 25,250/- + 5%GST"
+		},
+		{
+			"passengers": "3",
+			"vehicle": "Dzire/ Indigo",
+			"standard": "Rs. 11,300/- + 5%GST",
+			"deluxe": "Rs. 14,000/- + 5%GST",
+			"luxury": "Rs. 19,600/- + 5%GST"
+		},
+		{
+			"passengers": "4",
+			"vehicle": "Innova",
+			"standard": "Rs. 12,000/- + 5%GST",
+			"deluxe": "Rs. 15,250/- + 5%GST",
+			"luxury": "Rs. 22,500/- + 5%GST"
+		},
+		{
+			"passengers": "5",
+			"vehicle": "Innova",
+			"standard": "Rs. 10,400/- + 5%GST",
+			"deluxe": "Rs. 13,400/- + 5%GST",
+			"luxury": "Rs. 19,200/- + 5%GST"
+		},
+		{
+			"passengers": "6",
+			"vehicle": "Innova",
+			"standard": "Rs. 10,000/- + 5%GST",
+			"deluxe": "Rs. 13,250/- + 5%GST",
+			"luxury": "Rs. 20,500/- + 5%GST"
+		},
+		{
+			"passengers": "7",
+			"vehicle": "Innova",
+			"standard": "Rs. 9,300/- + 5%GST",
+			"deluxe": "Rs. 12,400/- + 5%GST",
+			"luxury": "Rs. 18,350/- + 5%GST"
+		},
+		{
+			"passengers": "8",
+			"vehicle": "Tempo Traveller",
+			"standard": "Rs. 10,375/- + 5%GST",
+			"deluxe": "Rs. 13,650/- + 5%GST",
+			"luxury": "Rs. 20,875/- + 5%GST"
+		},
+		{
+			"passengers": "9",
+			"vehicle": "Tempo Traveller",
+			"standard": "Rs. 9,700/- + 5%GST",
+			"deluxe": "Rs. 12,800/- + 5%GST",
+			"luxury": "Rs. 18,800/- + 5%GST"
+		},
+		{
+			"passengers": "10",
+			"vehicle": "Tempo Traveller",
+			"standard": "Rs. 9,500/- + 5%GST",
+			"deluxe": "Rs. 12,750/- + 5%GST",
+			"luxury": "Rs. 20,000/- + 5%GST"
+		},
+		{
+			"passengers": "11",
+			"vehicle": "Tempo Traveller",
+			"standard": "Rs. 9,050/- + 5%GST",
+			"deluxe": "Rs. 12,150/- + 5%GST",
+			"luxury": "Rs. 18,200/- + 5%GST"
+		},
+		{
+			"passengers": "12",
+			"vehicle": "Tempo Traveller",
+			"standard": "Rs. 9,000/- + 5%GST",
+			"deluxe": "Rs. 12,250/- + 5%GST",
+			"luxury": "Rs. 19,500/- + 5%GST"
+		}
+	  ]
+	}
+}

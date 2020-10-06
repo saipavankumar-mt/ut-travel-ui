@@ -1,0 +1,271 @@
+{
+  "data": {
+    "id": "Dest-L-3",
+    "key": "Mussoorie",
+    "title": "MUSSOORIE",
+    "qoute": "…Truly a Queen",
+    "subtitle": "Mussoorie, the proverbial queen of Hill station, as professed by the British gentry who evaded hot, desultory summers of Delhi and Kolkata by Spending time here. Being at an average altitude of 2,000 meters Mussoorie, with its green hills and varied flora and fauna, is a fascinating hill resort. Commanding snow ranges to the north- east, and glittering views of the Doon Valley and Shivalik ranges in the south, the town was once said to present a ‘fairyland’ atmosphere to tourists.",
+    "overview": [
+      {
+        "title": "Why Mussoorie:",
+        "subtitle": "Mussoorie is one of those hill station that is ideal for unwinding oneself, the very air and atmosphere of Mussoorie has that chill and serenity about it that grasps the minds of its visitor."
+      },
+      {
+        "title": "BEST TIME TO VISIT:",
+        "subtitle": "The refreshing breeze and ideal temperature during summer makes it the best time to visit Mussoorie. With icy cold breeze ans snow covered hills rejoice winter with your loved ones."
+      }
+    ],
+    "temperature": [
+      {
+        "season": "Summer",
+        "months": "(April to Mid-June)",
+        "temp": "7°C to 37°C"
+      },
+      {
+        "season": "Monsoon",
+        "months": "(Mid-June to September)",
+        "temp": "7°C to 10°C"
+      },
+      {
+        "season": "Winter",
+        "months": "(October to March)",
+        "temp": "0°C to 4°C"
+      }
+    ],
+    "heroImage": "destinations/mussoorieheroimage.png",
+    "images": [
+      "destinations/mussoorie/companyGarden.png",
+      "destinations/mussoorie/mussoorieChristChurch.png",
+      "destinations/mussoorie/camel’sBackRoad.png",
+      "destinations/mussoorie/bhattaFalls.png",
+      "destinations/mussoorie/chamundaPeethTemple.png",
+      "destinations/mussoorie/cloudEnd.png",
+      "destinations/mussoorie/georgeEverestHouse.png",
+      "destinations/mussoorie/gunHill.png",
+      "destinations/mussoorie/libraryBazaar.png",
+      "destinations/mussoorie/jwalajiTemple.png",
+      "destinations/mussoorie/lalTibba.png",
+      "destinations/mussoorie/sohamHeritage&ArtCentre.png"
+    ],
+    "attractions": [
+      {
+        "title": "Company Garden",
+        "image": "destinations/mussoorie/companyGarden.png",
+        "description": "Company Garden is a famous picnic spot in Mussoorie, which attracts numerous tourists with its well maintained garden enveloped within the mountains. It offers a paddled boating facility and also has an amusement park for childern."
+      },
+      {
+        "title": "Mussoorie Christ Church",
+        "image": "destinations/mussoorie/mussoorieChristChurch.png",
+        "description": "Built in 1836 featuring Gothic architecture and strained-glass window depicting the life story of the Christ it is believed to be the oldest church in entire Himalayan region. Situated near the busy Mall road it offers wonderful views to the Don valley and the encircling hills."
+      },
+      {
+        "title": "Camel’s Back Road",
+        "image": "destinations/mussoorie/camel’sBackRoad.png",
+        "description": "Camel’s Back Road named after a natural cluster of rocks that are shaped like a camel's hump. It is famous for its 4 km long stretch offering a peaceful and calm walk in the lap of nature which is frequented by people for morning and evening walk."
+      },
+      {
+        "title": "Bhatta Falls",
+        "image": "destinations/mussoorie/bhattaFalls.png",
+        "description": "Bhatta Falls is one of the famous waterfalls near Dehradun, situated in Bhatta village close to Mussoorie. The rustling sound and view surrounding the fall are quite stunning, as the altitude of the fall is around 30 ft swimming in the pool is quiet safe."
+      },
+      {
+        "title": "Chamunda Peeth Temple",
+        "image": "destinations/mussoorie/chamundaPeethTemple.png",
+        "description": "Chamunda Peeth Temple is one of shakti peethas and counted among seven matrikas dedicated to Chamundeshwari Devi built in 1998. Radiating divinity and power, it is an ideal venue for yoga, meditation rituals and religious practices."
+      },
+      {
+        "title": "Cloud End",
+        "image": "destinations/mussoorie/cloudEnd.png",
+        "description": "Nested in the foothills of Himalayas, Cloud End is a famous hill point with marvelous scenic views of the hills with pleasant climate. Heritage building is an another attraction standing here since 1838 built by the British."
+      },
+      {
+        "title": "George Everest House",
+        "image": "destinations/mussoorie/georgeEverestHouse.png",
+        "description": "With whitewashed walls and sweeping valley views George Everest House is one of the major tourist attractions in Mussoorie. Built in 1832, this popular house and observatory was from where Sir George Everest surveyed the Trigonometry of India discovering the world's highest peak Mount Everest and it was named after him in 1865."
+      },
+      {
+        "title": "Gun Hill",
+        "image": "destinations/mussoorie/gunHill.png",
+        "description": "Gun Hill is the second highest peak of Mussoorie, situated at a height of 2024 mt can be easily accessed by cable car from the Mall road. The Gun Hill offers a 360 ° view of long Himalayan ranges one can reach via a short trek or by taking the ropeway."
+      },
+      {
+        "title": "Library Bazaar",
+        "image": "destinations/mussoorie/libraryBazaar.png",
+        "description": "Library Bazaar located on the Mall road is the most famous hangout point for every tourist. It is best place to shop with a wide range of restaurants, the Mall road is packed with tourists throughout the day."
+      },
+      {
+        "title": "Jwalaji Temple",
+        "image": "destinations/mussoorie/jwalajiTemple.png",
+        "description": "Jwalaji Temple is probably the most ancient temple along with Vaishno Devi, dedicated to the Goddess Jwala Devi situated on the top of Benog hill, at an altitude of 2104 mt. The temple offers panoramic view of Shivalik Range, Yamuna River, Doon valley and Mussoorie."
+      },
+      {
+        "title": "Lal Tibba",
+        "image": "destinations/mussoorie/lalTibba.png",
+        "description": "Lal Tibba is the highest hill point in Mussoorie with an altitude of 8000 mt above the sea level. Observation deck with a telescope on the roof of modest cafe known for its surreal views of Himalayan peaks such as Kedarnath, Banderpuchh and Badrinath."
+      },
+      {
+        "title": "Soham Heritage & Art Centre",
+        "image": "destinations/mussoorie/sohamHeritage&ArtCentre.png",
+        "description": "Soham Heritage & Art Centre museum showcases Himalayan culture and art with a variety of paintings, artifacts, photos and more, managed by Dr. Kavita Shukla and Mr. Sameer Shukla. The organization works towards preservation of art and heritage of Uttarakhand and empowerment of poor and underprivileged children."
+      }
+    ],
+    "hotels": [
+      {
+        "id": "Dest-L-3-H-1",
+        "key": "CountryInnAndSuitesByCarlson",
+        "title": "COUNTRY INN AND SUITES BY CARLSON",
+        "image": "destinations/mussoorie/countryInnAndSuitesByCarlson.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-2",
+        "key": "WelcomHotelTheSavoy",
+        "title": "WELCOMHOTEL THE SAVOY",
+        "image": "destinations/mussoorie/welcomHotelTheSavoy.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-3",
+        "key": "JWMarriott",
+        "title": "JWMARRIOTT",
+        "image": "destinations/mussoorie/jWMarriott.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-4",
+        "key": "RoyalOrchidFortResort",
+        "title": "ROYAL ORCHID FORT RESORT",
+        "image": "destinations/mussoorie/royalOrchidFortResort.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-5",
+        "key": "TheAmberVermontEstate",
+        "title": "THE AMBER VERMONT ESTATE",
+        "image": "destinations/mussoorie/theAmberVermontEstate.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-6",
+        "key": "HotelMonarch",
+        "title": "HOTEL MONARCH",
+        "image": "destinations/mussoorie/hotelMonarch.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-7",
+        "key": "HotelThePearl",
+        "title": "HOTEL THE PEARL",
+        "image": "destinations/mussoorie/hotelThePearl.png",
+        "rating": 3
+      },
+      {
+        "id": "Dest-L-3-H-8",
+        "key": "ShivaContinental",
+        "title": "SHIVA CONTINENTAL",
+        "image": "destinations/mussoorie/shivaContinental.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-9",
+        "key": "HotelNewBharat",
+        "title": "HOTEL NEW BHARAT",
+        "image": "destinations/mussoorie/hotelNewBharat.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-10",
+        "key": "HotelMosaic",
+        "title": "HOTEL MOSAIC",
+        "image": "destinations/mussoorie/hotelMosaic.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-11",
+        "key": "HoneymoonInn",
+        "title": "HONEYMOON INN",
+        "image": "destinations/mussoorie/honeymoonInn.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-12",
+        "key": "NandResidency",
+        "title": "NAND RESIDENCY",
+        "image": "destinations/mussoorie/nandResidency.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-13",
+        "key": "HotelAbhinandan",
+        "title": "HOTEL ABHINANDAN",
+        "image": "destinations/mussoorie/hotelAbhinandan.png",
+        "rating": 3
+      },
+      {
+        "id": "Dest-L-3-H-14",
+        "key": "FortuneResortGrace",
+        "title": "FORTUNE RESORT GRACE",
+        "image": "destinations/mussoorie/fortuneResortGrace.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-15",
+        "key": "PadminiNivas",
+        "title": "PADMINI NIVAS",
+        "image": "destinations/mussoorie/padminiNivas.png",
+        "rating": 4
+      },
+      {
+        "id": "Dest-L-3-H-16",
+        "key": "VishnuPalace",
+        "title": "VISHNU PALACE",
+        "image": "destinations/mussoorie/vishnuPalace.png",
+        "rating": 4
+      }
+    ],
+    "includedPackages": [
+      {
+        "id": "Pckg-B-3",
+        "title": "Complete Uttranchal",
+        "image": "CompleteUttranchalTile.png",
+        "key": "CompleteUttranchal",
+        "duration": "10 Nights / 11 Days"
+      },
+      {
+        "id": "Pckg-B-6",
+        "title": "Tiny Uttaranchal",
+        "image": "TinyUttranchalTile.png",
+        "key": "TinyUttaranchal",
+        "duration": "6 Nights / 7 Days"
+      },
+      {
+        "id": "Pckg-B-7",
+        "title": "Scenic Uttaranchal",
+        "image": "ScenicUttranchalTile.png",
+        "key": "ScenicUttaranchal",
+        "duration": "9 Nights / 10 Days"
+      },
+      {
+        "id": "Pckg-B-9",
+        "title": "Uttaranchal Preview",
+        "image": "UttranchalPreviewTile.png",
+        "key": "UttaranchalPreview",
+        "duration": "7 Nights / 8 Days"
+      }
+    ],
+    "transit": [
+      {
+        "title": "BY AIR",
+        "subtitle": "Fly to Jolly Grant Airport in Dehradun, as it is the nearest airport to Mussoorie. Located 60 km away, you can easily hire a cab from there to the hill station."
+      },
+      {
+        "title": "BY RAIL",
+        "subtitle": "Book a train ticket to Dehradun if you plan to visit Mussoorie. The railway station is 34 km away from the hill station, from where you have good access to cabs and taxis."
+      },
+      {
+        "title": "BY ROAD",
+        "subtitle": "It's easy to reach Mussoorie by road, as there are plenty of buses run by UTC , UPSRTC and private buses from Delhi, other parts of Uttarakhand and other major cities of the country to Dehradun, which is situated a short distance away."
+      }
+    ]
+  }
+}

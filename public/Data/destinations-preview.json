@@ -1,0 +1,77 @@
+{
+  "title": "Top Destinations",
+  "type": "Destination",
+  "key": "hillStationGetaways",  
+  "items": [
+    {
+      "id": "Dest-L-1",
+      "title": "Nainital",
+      "key": "NAINITAL",
+      "image": "destinations/NainitalTile.png",
+      "subtitle": "5 Tourist Attractions",
+      "type": "destinations"      
+    },
+    {
+      "id": "Dest-L-2",
+      "title": "Kausani",
+      "key": "KAUSANI",
+      "image": "destinations/KausaniTile.png",
+      "subtitle": "5 Tourist Attractions",
+      "type": "destinations"
+    },
+    {
+      "id": "Dest-L-3",
+      "title": "Ranikhet",
+      "key": "RANIKHET",
+      "image": "destinations/RanikhetTile.png",
+      "subtitle": "5 Tourist Attractions",
+      "type": "destinations"
+    },
+    {
+      "id": "Dest-L-4",
+      "title": "Almora",
+      "key": "ALMORA",
+      "image": "destinations/AlmoraTile.png",
+      "subtitle": "5 Tourist Attractions",
+      "type": "destinations"
+    },
+    {
+      "id": "Dest-L-14",
+      "title": "Rishikesh",
+      "key": "RISHIKESH",
+      "image": "destinations/RishikeshTile.png",
+      "subtitle": "5 Tourist Attractions",
+      "type": "destinations"
+    },
+    {
+      "title": "Mussoorie",
+      "subtitle": "5 Tourist Attractions",
+      "type": "destinations",
+      "image": "mussoorie.png"
+    },
+    {
+      "title": "Mukteshwar",
+      "subtitle": "5 Tourist Attractions",
+      "type": "destinations",
+      "image": "mukteshwar.png"
+    },
+    {
+      "title": "Ramgarh",
+      "subtitle": "5 Tourist Attractions",
+      "type": "destinations",
+      "image": "ramgarh.png"
+    },
+    {
+      "title": "Binsar",
+      "subtitle": "5 Tourist Attractions",
+      "type": "destinations",
+      "image": "binsar.png"
+    },
+    {
+      "title": "Jageshwar",
+      "subtitle": "5 Tourist Attractions",
+      "type": "destinations",
+      "image": "jageshwar.png"
+    }
+  ]
+}

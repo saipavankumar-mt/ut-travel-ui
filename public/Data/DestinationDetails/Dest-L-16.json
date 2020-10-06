@@ -1,0 +1,116 @@
+ {
+	"data": {
+		  "id": "Dest-L-16",
+		  "key": "Jageshwar",
+		  "title": "JAGESHWAR",
+		  "qoute": "",
+		  "subtitle": "Jageshwar is a Hindu pilgrimage town and one of the Dhams located 36 km northeast of Almora, in the Kumaun region. Jageshwar is situated at an elevation of 1,870 mts above sea level, amidst dense Deodar forest with a stream flowing at its backyard and an important tourist destination of Kumaon.",
+		  "overview":[
+			{
+			  "title":"Why Jageshwar:",
+			  "subtitle":"Jageshwar is an ancient land of temples and the valley has a number of temple clusters such as the Dandeshwar and Jageshwar some of them dated between 7th and 12th century. Apart from the temples, the beautiful surroundings ornated with deodar forest makes it a popular tourist destination which attracts thousands of visitors every year."
+			},
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"During summer the climate is cool and pleasant and it is really chilly in winters here. This town experiences a lot of rain in monsoon season so the best time to visit this town is during summer."
+			}
+		  ],
+		  "temperature":[
+			{
+				"season":"Summer",
+				"months":"(April to Mid-June)",
+				"temp":"15°C to 30°C"
+			},
+			{
+				"season":"Monsoon",
+				"months":"(Mid-June to September)",
+				"temp":"17°C to 26°C"
+			},
+			{
+				"season":"Winter",
+				"months":"(October to March)",
+				"temp":"4°C to 20°C"
+			}
+		  ],
+		  "heroImage": "destinations/JageshwarTile.png",
+		  "images": [
+		    "destinations/jageshwar/jageshwarMahadev.png",
+			"destinations/jageshwar/jageshwarTempleComplex.png",
+			"destinations/jageshwar/vinayakKshetra.png",
+			"destinations/jageshwar/kuberTemple.png",
+			"destinations/jageshwar/sriMahamritunjayaMahadev.png",
+			"destinations/jageshwar/sriBriddhaOrBudhaJageshwar.png",
+			"destinations/jageshwar/pushtiDeviOrPushtiBhagawatiMaa.png",
+			"destinations/jageshwar/airavatGufa.png",
+			"destinations/jageshwar/festivalCelebration.png"
+		  ],
+		  "attractions":[
+			{
+				"title": "Jageshwar Mahadev",
+				"image": "destinations/jageshwar/jageshwarMahadev.png",
+				"description":"Jageshwar Mahadev is one of the priciple temple located in the premises. Inside the temple, you will see two Dwarpals (door Guardians) in the form of Nandi and Skandi. In the sanctum the Shivalinga is divided into two parts one depicts Shiva and the other i Goddess Parvati."
+			},
+			{
+				"title": "Jageshwar Temple Complex",
+				"image": "destinations/jageshwar/jageshwarTempleComplex.png",
+				"description":"Jageshwar Temple are a group of over 100 Hindu temples dated between 7th and 12th century dedicated to Lord Shiva. You will witness an exquisite architecture of the temple, they predominantly illustrate North Indian Nagara style of architecture with a few exceptions that show South and Central Indian style designs."
+			},
+			{
+				"title": "Vinayak Kshetra",
+				"image": "destinations/jageshwar/vinayakKshetra.png",
+				"description":"vinayak Kshetra is an ancient temple dedicated to Lord Ganesh which is 200 metres from the Artola village from here the temples of the complex starts. This temple is known for its architecture with fine carvings and is revered immensely by the Hindu devotees."
+			},
+			{
+				"title": "Kuber Temple",
+				"image": "destinations/jageshwar/kuberTemple.png",
+				"description":"Kuber Temple is a famous tourist attraction in Jageshwar. From here one can view of cluster of temple of the town."
+			},
+			{
+				"title": "Sri Mahamritunjaya Mahadev",
+				"image": "destinations/jageshwar/sriMahamritunjayaMahadev.png",
+				"description":"This is the largest and oldest temple in Jageshwar temple complex. The linga of Lord Mahadev in the temple is unique for its eye shaped opening and is known to be the saviour of death and is worshipped for the same."
+			},
+			{
+				"title": "Sri Briddha Or Budha Jageshwar",
+				"image": "destinations/jageshwar/sriBriddhaOrBudhaJageshwar.png",
+				"description":"This temple located 3 km from Jageshwar, sits on a hilltop one can reach by 3 km trek uphill. Its a great place for a view in the mornings, when you can see the snow-capped Himalayan view."
+			},
+			{
+				"title": "Pushti Devi Or Pushti Bhagawati Maa",
+				"image": "destinations/jageshwar/pushtiDeviOrPushtiBhagawatiMaa.png",
+				"description":"Pushti Devi is a temple of Goddess Devi located in the main premises of the Jageshwar. This is a temple which has a full murti of Goddesses."
+			},
+			{
+				"title": "Airavat Gufa",
+				"image": "destinations/jageshwar/airavatGufa.png",
+				"description":"Airavat Gufa is a cave named after a white elephant, that is located nearby and this is also a good place to visit while staying at the town of Jageshwar. This cave closes the temples of Jageshwar."
+			},
+			{
+				"title": "Festival Celebration",
+				"image": "destinations/jageshwar/festivalCelebration.png",
+				"description":"Two main festivals are celebrated in the town of Jageshwar and these are the Jageshwar Monsoon Festival which is held during the month of August and the Shivarathri Mela which is held in the spring season."
+			}
+		  ],
+		  "hotels":[
+			
+		  ],
+		  "includedPackages":[
+			
+			],
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "The nearest airport for Jageshwar is Pantnagar which is 155 km away. Taxis are available from the airport that will take you to Jageshwar."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "Kathgodam is the nearest railway station to Jageshwar situated at a distance of 121 km. Trains from Lucknow, Delhi, and Kolkata come in very frequently. Buses and taxis are your companions from the railway station to the town."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Jageshwar is well connected by motorable roads with major cities of northern India. Buses to Haldwani and Almora can be taken from ISBT Anand Vihar, Delhi. Jageshwar is situated 37 km from Almora."			
+			}
+		]
+	}
+	
+}

@@ -1,0 +1,419 @@
+{
+  "data":
+	{
+	  "id": "Pckg-B-2",
+	  "key": "MagnificentGarhwal",
+	  "title": "Magnificent Garhwal",
+	  "qoute": "...Explore Rishikesh and Chopta and Auli",
+	  "subtitle": "",
+	  "overview":[
+		{
+		  "title":"Rishikesh (…The City of Nirvana):",
+		  "subtitle":"Located in the foothills of Himalayas along the convergence of Ganga and Chanderbhaga river, Rishikesh is known for its adventure activities, ancient temples, popular cafes and as the 'Yoga Capital of the World'. With whitewater rafting industry growing and varied camping and café sports springing up, Rishikesh has grown immensely as a favorite, catering to people with different needs."
+		},
+		{
+		  "title":"Chopta (…The Switzerland of India):",
+		  "subtitle":"Chopta is a peaceful and lush hill station in Uttarakhand. There’s much to explore here. It is the nexus point of the Panch Kedars (Kedarnath, Madmaheshwar, Tungnath, Rudranath and Kalpeshwar). It is called the ‘Mini Switzerland’ of India, positioned at a height of 2680 meters. Chopta is surrounded by lush green forests. It is an amazing offbeat weekend destination. It provides surreal views of peaks Nanda Devi, Trishul and Chaukhamba."
+		},
+		{
+		  "title":"Auli (…The Magnificent Miracle):",
+		  "subtitle":"Auli is a beautiful tourist spot which is famous for skiing all across the globe. This scenic place is parched at an elevation 2800 meters above sea level. It is known for its oak-edged slopes and verdant coniferous forests. The history of Auli can be traced back to the 8th century. According to certain beliefs, Guru Adi Shankaracharya visited this sacred place. This place is also known as 'Bugyal', which means ’Meadows’ in the regional language. "
+		}		
+	  ],
+	  "temperature":[
+		{
+			
+
+		} 	
+	  ],
+	  "route": "Delhi – Rishikesh – Chopta - Deoriyatal - Auli - Rishikesh - Delhi",
+	  "duration": "7 Nights / 8 Days",
+	  "nightStay": "Rishikesh (2 Nights), Chopta (2 Nights), Deoriyatal (1 Night), Auli (2 Nights)",
+	  "heroImage": "MagnificientGarhwalTile.png",
+	  "price": "16450",
+	  "images": [
+	  ],
+	  "description": [
+		{
+		  "title": "Day 1  Delhi to Rishikesh (240 Kms : 6-7Hrs. Travelling to Rishikesh)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Delhi",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Rishikesh",
+			  "subtitle": "240Kms : 6-7Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{ 
+					"time" : "3:00 pm to 4:00 pm",
+					"activities": "Arrival in Rishikesh and enjoy a quick and hassle-free check-in at Hotel."
+				},
+				{ 
+					"time" : "4:00 pm to 7:00 pm",
+					"activities": "Evening Free to explore the Rishikesh (Ram Jhula, Laxman Jhula, Geeta Mandir, Parmarth Niktan along with the evening Aarti)."
+				},
+				{ 
+					"time" : "8:00 pm to 10:00 pm",
+					"activities": "Dinner at Hotel."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 2  Rishikesh to Chopta (220 Kms : 7-8Hrs. Travelling to Chopta)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Rishikesh",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Chopta",
+			  "subtitle": "220Kms : 7-8Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "5:00 pm to 7:00 pm",
+				"activities": "Evening free to enjoy the beauty of Chopta."
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."
+			  }
+		  ]
+		},
+		{
+		"title": "Day 3  Chopta to Tungnath to Chopta (2.5 Kms : trekking 1-2Hrs. one way",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Chopta",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Tungnath",
+			  "subtitle": "2.5Kms : 1-2Hr"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "5:00 pm to 7:00 pm",
+				"activities": "Start trekking for Tungnath."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }
+		  ]
+		},
+		{
+		  "title": "Day 4  Chopta to Deoriatal (2.5 Kms : trekking 1-2Hrs. one way",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Chopta",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Deoriatal",
+			  "subtitle": "2.5Kms : 1-2Hr"
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "9:00 am to 11:00 am",
+				"activities": "Start trekking for Deoriatal."				
+			  },
+			  {
+				"time" : "11:00 am to 7:00 pm",
+				"activities": "Full day free to enjoy the Beauty of Deoriatal."				
+			  }	,
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			  
+		  ]
+		},
+		{
+		"title": "Day 5  Deoriatal to Auli (140 Kms : 6Hrs. Travelling to Auli)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Deoriatal",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Auli",
+			  "subtitle": "140Kms : 6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "5:00 pm to 7:00 pm",
+				"activities": "Explore the Beauty of Auli."				
+			  }	,
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }		
+		  ]
+		},
+		{
+		"title": "Day 6  Auli Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Auli",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "11:00 am to 5:00 pm",
+				"activities": "sightseeing such as Gurson Meadows etc."				
+			  }	,
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }		
+		  ]
+		},
+		{
+		"title": "Day 7  Auli to Rishikesh (260 Kms : 9Hrs. Travelling to reach Rishikesh)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Auli",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Rishikesh",
+			  "subtitle": "260Kms : 9Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "9:00 am to 5:00 pm",
+				"activities": "Full day travelling."				
+			  },
+			  {
+				"time" : "5:00 pm to 8:00 pm",
+				"activities": "Rishikesh Sightseeing such as Bharat Mandir, Omkaranand Ashram, Tirvani Ghat along with the evening Aarti."				
+			  }	,
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }		
+		  ]
+		},
+		{
+		"title": "Day 8  Check Out from Rishikesh (240 Kms : 6-7Hrs. Travelling to Delhi)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Rishikesh",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Delhi",
+			  "subtitle": "240Kms : 6-7Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 5:00 pm",
+				"activities": "Reaching at Airport by having Sweet Memoires in mind and lots of love."				
+			  }			
+		  ]
+		}
+	  ],
+	  "importantInfo": [
+		{
+		  "title": "Note",
+		  "subtitles": [
+			"Vehicles are not allowed on the Mall road of Nainital and Mussoorie so you have to travel by foot there.",
+			"AC and Music System in Vehicle will not be operated when we are on the Hilly Area.",
+			"All the rates are subject to change without prior notice.",
+			"All disputes are subject to Haridwar Jurisdiction.",
+			"Govt. Taxes (GST)"
+		  ]
+		},
+		{
+		  "title": "Mode of Payment:",
+		  "subtitles": [
+		    "Kindly release 25% Payment for the Blocking.",
+			"Kindly release total 50% Payment before 30 days of arrival.",
+			"Kindly release total 100% Payment before 7 days of arrival."
+		  ]
+		}
+	  ],
+	  "cancellationPolicy":{
+		"title": "Cancellation Policy:",
+		  "subtitles": [
+			"10% of the Total Package Cost is Non-Refundable.",
+			"25% cancellation charge of the total package cost, if cancellation less than 30 days before arrival.",
+			"35% cancellation charge of the total package cost, if cancellation between 15 to 7 days before arrival.",
+			"50% cancellation charge of the total package cost if cancellation between 7 to 2 days before arrival.",
+			"100% cancellation charge of the total package cost if cancellation before 48 Hrs. before arrival.",
+			"Altering the confirmed plan Not possible."
+		  ]
+	  },
+	  "inclusionAndExclusion":[
+		{
+		  "title": "Experience Includes:",
+		  "subtitles": [
+			"Accommodation at all the places mention in the itinerary.",
+			"Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
+			"Transportation around the tour (As mentioned above).",
+			"All sightseeing and excursion as per the Itinerary.",
+			"All Toll Tax, Parking Includes."
+		  ]
+		},
+		{
+		  "title": "Tour Cost dose not Includes:",
+		  "subtitles": [
+			"Extra Meal, Boating Charges, Ropeway Charge, Entry Fee, Guide Fee etc.",
+			"Anything not specifically mentioned in “Experience Include”."
+		  ]
+		}
+	  ],
+	 "accomodationInfo":[
+		{
+			"accomodation": "Rishikesh",
+			"standard": "Kamakshi Residency or Similar",
+			"deluxe": "Regenta Inn or Similar",
+			"luxury": "Lemon Tree / Aloha or Similar"
+		},
+		{			
+			"accomodation": "Chopta",
+			"standard": "Chopta Retreat/ Camp Eden or Similar",
+			"deluxe": "Mayadeep or Similar",
+			"luxury": "Snow Pod or Similar"
+		},
+		{			
+			"accomodation": "Deoriyatal",
+			"standard": "Alpine Camp or Similar",
+			"deluxe": "Alpine Camp or Similar",
+			"luxury": "Alpine Camp or Similar"
+		},
+		{			
+			"accomodation": "Auli",
+			"standard": "Manik Resort or Similar",
+			"deluxe": "Nandan Kanan/ Auli Nature Resort or Similar",
+			"luxury": "Cliff Top Club or Similar"
+		}
+	  ],
+	 "perPersonCostInfo":[
+		{
+			"passengers": "2",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "Rs. 24,550/- + 5% GST",
+			"Deluxe": "Rs. 29,300/- + 5% GST",
+			"Luxury": "Rs. 45,300/- + 5% GST"
+		},
+		{
+			"passengers": "3",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "Rs. 19,200/- + 5% GST",
+			"Deluxe": "Rs. 23,350/- + 5% GST",
+			"Luxury": "Rs. 37,450/- + 5% GST"
+		},
+		{
+			"passengers": "4",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 21,350/- + 5% GST",
+			"Deluxe": "Rs. 26,100/- + 5% GST",
+			"Luxury": "Rs. 42,100/- + 5% GST"
+		},
+		{
+			"passengers": "5",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 18,750/- + 5% GST",
+			"Deluxe": "Rs. 23,150/- + 5% GST",
+			"Luxury": "Rs. 38,000/- + 5% GST"
+		},
+		{
+			"passengers": "6",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 18,150/- + 5% GST",
+			"Deluxe": "Rs. 22,900/- + 5% GST",
+			"Luxury": "Rs. 38,900/- + 5% GST"
+		},
+		{
+			"passengers": "7",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 17,500/- + 5% GST",
+			"Deluxe": "Rs. 22,250/- + 5% GST",
+			"Luxury": "Rs. 38,250/- + 5% GST"
+		},
+		{
+			"passengers": "8",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 18,750/- + 5% GST",
+			"Deluxe": "Rs. 23,500/- + 5% GST",
+			"Luxury": "Rs. 39,500/- + 5% GST"
+		},
+		{
+			"passengers": "9",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 17,650/- + 5% GST",
+			"Deluxe": "Rs. 22,200/- + 5% GST",
+			"Luxury": "Rs. 38,500/- + 5% GST"
+		},
+		{
+			"passengers": "10",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 17,350/- + 5% GST",
+			"Deluxe": "Rs. 22,100/- + 5% GST",
+			"Luxury": "Rs. 38,100/- + 5% GST"
+		},
+		{
+			"passengers": "11",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 16,550/- + 5% GST",
+			"Deluxe": "Rs. 21,100/- + 5% GST",
+			"Luxury": "Rs. 36,600/- + 5% GST"
+		},
+		{
+			"passengers": "12",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 16,450/- + 5% GST",
+			"Deluxe": "Rs. 21,200/- + 5% GST",
+			"Luxury": "Rs. 37,200/- + 5% GST"
+		}
+	  ]
+	}
+}

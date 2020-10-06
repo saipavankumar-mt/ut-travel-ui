@@ -2,31 +2,47 @@
   <div class="home">
     <the-carousel></the-carousel>
     <packages></packages>
+    <adventure-packages></adventure-packages>
     <destinations></destinations>
-    <destinations-old></destinations-old>
-    <about-us></about-us>
+    <package-themes></package-themes>
+    <!-- <destinations-old></destinations-old> -->
+    <!-- <about-us></about-us> -->
   </div>
 </template>
 
 <script>
-import TheCarousel from '../components/TheCarousel.vue';
-// import OfferList from './OfferList.vue';
-import Packages from './Packages.vue';
-import Destinations from './Destinations.vue';
-import DestinationsOld from './DestinationsOld.vue';
-import AboutUs from './AboutUs.vue';
+import TheCarousel from "../components/TheCarousel.vue";
+import Packages from "./Package/Packages.vue";
+import Destinations from "./Destination/Destinations.vue";
+import PackageThemes from "./Package/PackageThemes.vue";
+import AdventurePackages from "./Package/AdventurePackages.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     TheCarousel,
-    // OfferList,
     Packages,
     Destinations,
-    DestinationsOld,
-    AboutUs,
+    PackageThemes,
+    AdventurePackages,
+  },
+  created() {
+    window.scrollTo(0, 0);
   },
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+// .home::-webkit-scrollbar {
+//   display: none;
+// }
+.destination-container {
+  padding-top: 15rem;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .destination-container {
+    margin-top: unset;
+  }
+}
+</style>

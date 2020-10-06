@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Piligrim yatras",
+    "key": "PILIGRIM",
+    "noOfPackages": "7",
+    "image": "ganges.svg",
+    "icon":""
+  },
+  {
+    "id": 2,
+    "title": "Liesure packages",
+    "key": "LIESURE",
+    "noOfPackages": "25",
+    "image": "liesure.svg"
+  },
+  {
+    "id": 3,
+    "title": "Destinations",
+    "key": "DESTINATIONS",
+    "noOfPackages": "36",
+    "image": "destination.svg"
+  },
+  {
+    "id": 4,
+    "title": "Hotels",
+    "key": "HOTELS",
+    "noOfPackages": "720+ Hotels",
+    "image": "hotel.svg"
+  },
+  {
+    "id": 5,
+    "title": "Happy Customers",
+    "key": "REVIEWS",
+    "noOfPackages": "745+ Reviews",
+    "image": "review.svg"
+  }
+]

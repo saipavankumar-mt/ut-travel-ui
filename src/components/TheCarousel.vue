@@ -1,15 +1,27 @@
 <template>
   <div class="carousel">
-    <carousel
-      :per-page="1"
-      :mouse-drag="true"
-      :loop="true"
-      :navigationEnabled="true"
-      :navigationNextLabel="'>'"
-      :navigationPrevLabel="'<'"
-      :paginationPosition="'bottom-overlay'"
+    <b-carousel
+      v-model="slideIndex"
+      animated="slide"
+      :has-drag="true"
+      :autoplay="true"
+      :interval="3000"
+      :repeat="true"
+      :pause-hover="true"
+      :pause-info="false"
+      icon-size="is-medium"
     >
-      <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
+      <b-carousel-item
+        v-for="item in carouselItem"
+        :key="item.id"
+      >
+        <div class="carousel-container">
+          <img
+            class="carousel-img"
+            v-bind:src="require('../assets/' + item.image)"
+            v-bind:alt="item.image"
+          />
+        </div>
         <vue-weather
           api-key="141973eab82fd1074988ffa8397b09bf"
           units="uk"
@@ -17,13 +29,27 @@
           :longitude="long"
           language="en"
         />
+        <h3>{{currentTemp - 273.15 | number:'1.0-0'}}</h3>
+      </b-carousel-item>
+    </b-carousel>
+    <!-- <carousel
+      :per-page="1"
+      :mouse-drag="true"
+      :loop="true"
+      :autoplay="true"
+      :navigationEnabled="true"
+      :navigationNextLabel="'>'"
+      :navigationPrevLabel="'<'"
+      :paginationPosition="'bottom-overlay'"
+    >-->
+    <!-- <slide v-for="item in carouselItem" :key="item.id" :tabindex="item.id">
         <div class="carousel-container">
           <img
             class="carousel-img"
             v-bind:src="require('../assets/' + item.image)"
             v-bind:alt="item.image"
-          />
-          <div class="carousel-content">
+    />-->
+    <!-- <div class="carousel-content">
             <div class="carousel-left-content">
               <div class="carousel-title">
                 <p>{{ item.title }}</p>
@@ -38,45 +64,94 @@
                 <p>{{ item.description }}</p>
               </div>
             </div>
-            <div class="carousel-right-content">
+            <div class="carousel-right-content" v-if="item.price.showPrice">
               <div class="carousel-duration">
                 <p>
-                  <b>{{ item.nights }}</b> Nights / <b>{{ item.days }}</b> Days
+                  <b>{{ item.nights }}</b> Nights /
+                  <b>{{ item.days }}</b> Days
                 </p>
               </div>
               <p>@</p>
               <div class="carousel-price">
-                <p>&#8377; {{ item.price }}/-</p>
+                <p>&#8377; {{ item.price.value }}/-</p>
               </div>
               <div class="carousel-perperson">
                 <p>PER PERSON</p>
               </div>
             </div>
-          </div>
-        </div>
+    </div>-->
+    <!-- </div>
       </slide>
-    </carousel>
+    </carousel>-->
+    <available-packages-list class="available"></available-packages-list>
   </div>
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel';
 import VueWeather from 'vue-weather-widget';
 export default {
   name: 'TheCarousel',
   components: {
-    Carousel,
-    Slide,
     VueWeather,
   },
-  data: function() {
+  data: function () {
     return {
+      slideIndex: 0,
+      apiKey: '141973eab82fd1074988ffa8397b09bf',
       carouselItem: [],
       lat: '29.94791',
       long: '78.16025',
+      currentTemp: '',
+      minTemp: '',
+      maxTemp: '',
+      pressure: '',
+      humidity: '',
+      wind: '',
+      overcast: '',
+      icon: '',
+      sunrise: '',
+      sunset: '',
     };
   },
-  methods: {},
+  beforeMount() {
+    this.getWeather();
+  },
+
+  methods: {
+    getWeather() {
+      let url =
+        `https://api.openweathermap.org/data/2.5/weather?APPID=${this.apiKey}` +
+        `&lat=${this.lat}` +
+        `&lon=${this.long}` +
+        `&units=uk` +
+        `&lang=en`;
+      debugger;
+      this.$http
+        .get(url)
+        .then((response) => {
+          this.currentTemp = response.data.main.temp;
+          this.minTemp = response.data.main.temp_min;
+          this.maxTemp = response.data.main.temp_max;
+          this.pressure = response.data.main.pressure;
+          this.humidity = response.data.main.humidity + '%';
+          this.wind = response.data.wind.speed + 'm/s';
+          this.overcast = response.data.weather[0].description;
+          this.icon =
+            'images/' + response.data.weather[0].icon.slice(0, 2) + '.svg';
+          this.sunrise = new Date(response.data.sys.sunrise * 1000)
+            .toLocaleTimeString('en-GB')
+            .slice(0, 4);
+          this.sunset = new Date(response.data.sys.sunset * 1000)
+            .toLocaleTimeString('en-GB')
+            .slice(0, 4);
+          debugger;
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    },
+  },
+
   created() {
     this.$http
       .get(`${process.env.BASE_URL}Data/carousel.json`)
@@ -89,25 +164,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-.VueCarousel-navigation-prev {
-  left: 40px !important;
-  font-size: 42px;
-  outline: none !important;
-  color: white !important;
-  &:hover {
-    font-weight: 800;
-  }
+.available {
+  position: absolute;
+  top: 82%;
+  z-index: 10;
+  width: 100%;
 }
 
-.VueCarousel-navigation-next {
-  right: 40px !important;
-  font-size: 42px;
-  outline: none !important;
-  color: white !important;
-  &:hover {
-    font-weight: 800;
-  }
-}
 .carousel-container {
   position: relative;
   width: 100%;
@@ -150,30 +213,31 @@ export default {
   position: absolute;
   top: 0%;
   left: 0%;
-  background-color: rgba(38, 38, 38, 0.6) !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
   justify-content: space-between;
 }
 
 .carousel-left-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-  height: 80%;
-  margin-left: 2.5%;
-  justify-content: center;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // width: 50%;
+  // height: 120%;
+  // margin-left: 2.5%;
+  // justify-content: center;
+  padding-top: 15%;
+  padding-left: 5%;
 }
 
 .carousel-title {
   display: flex;
   justify-content: flex-start;
-  font-family: 'Lucida Handwriting';
+  font-family: 'SFProDisplay-Bold';
 }
 
 .carousel-title p {
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
-  width: max-content;
 }
 
 .carousel-subtitle {
@@ -194,7 +258,8 @@ export default {
 }
 
 .carousel-desc {
-  align-self: center;
+  text-align: left;
+  padding: 10px 40% 0 0;
   p {
     color: #efbb20;
     font-size: 0.8rem;
@@ -208,13 +273,13 @@ export default {
   flex-direction: column;
   width: 12.5%;
   height: fit-content;
-  background: rgb(233, 88, 36);
+  background: rgba(229, 78, 43, 0.2);
   margin-right: 15%;
   border: white;
   border-left-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
-  border-radius: 0px 0px 0.5rem 5rem;
+  border-radius: 0px 0px 1rem 1rem;
 }
 
 .carousel-duration {
@@ -232,7 +297,7 @@ export default {
     border: none;
     //border-radius: 40px 10px;
     border-radius: 30px/10px;
-    background: #690404;
+    background: rgb(229, 78, 43);
     font-size: 2.1rem;
     font-family: 'Brush Script MT';
   }
@@ -240,5 +305,59 @@ export default {
 
 .carousel-perperson {
   padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .carousel-slide {
+  }
+
+  .carousel-right-content {
+    width: 25%;
+    font-size: 18px;
+  }
+
+  .carousel-left-content {
+    padding-left: 8%;
+    padding-top: 45%;
+  }
+
+  .carousel-title {
+    p {
+      font-size: 2rem;
+    }
+  }
+
+  .carousel-perperson {
+    padding: unset;
+    font-size: 18px;
+  }
+
+  .carousel-price {
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .carousel-desc {
+    padding: 10px 0 0 0;
+  }
+  .carousel-duration {
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .available {
+    position: unset;
+    top: unset;
+    z-index: unset;
+  }
+
+  .carousel .carousel-items {
+    height: 14rem;
+    .carousel-img {
+      height: 14rem;
+    }
+  }
 }
 </style>

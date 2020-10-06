@@ -1,0 +1,326 @@
+{
+  "data":
+	{
+	  "id": "Pckg-B-8",
+	  "key": "UntouchedGarhwal",
+	  "title": "Untouched Garhwal",
+	  "qoute": "...Explore Lansdowne and Khirsu and Pauri",
+	  "subtitle": "",
+	  "overview":[
+		{
+		  "title":"Lansdowne (…The Fairytale Hills):",
+		  "subtitle":"Thick oak forests, mesmerizing hills and spellbinding views, there are numerous places to visit in Lansdowne which will take you a step closer to nature. A quaint hill station which is perched at an elevation of 1700 meters, Lansdowne brings to you a potpourri of attractions and memorable experiences. Trekking the treacherous trails of Lover’s Lane and exploring the vibrant streets of Lansdowne main Market."
+		},
+		{
+		  "title":"Khirsu (…Beauty Unexplored):",
+		  "subtitle":"Khirsu, a hill station in pauri Garhwal district of Uttarakhand is situated at an altitude of 1700 meters. It lies at a distance of 11 km. towards north from Pauri. Khirsu is famous for its scenic background from this hill station one can see spectacular 300 Km-wide panoramic view of the Himalayas, including snow-crested Trishul, Nanda Devi, Nandakot and Panchuhuli peaks."
+		},
+		{
+		  "title":"Pauri (…A City Where Time Stands Still):",
+		  "subtitle":"The Garhwal Himalayas have always been considered a place where nature seems to have endowed all her innate loveliness. The land of Pauri Garhwal is blessed with splendid view of snow-bound peaks of Himalayas, scenic valleys, surroundings, meandering rivers, dense forest."
+		}	
+	  ],
+	  "temperature":[
+		{
+			
+
+		} 	
+	  ],
+	  "route": "Delhi – Lansdowne - Khirsu - Pauri - Delhi",
+	  "duration": "4 Nights / 5 Days",
+	  "nightStay": "Lansdowne (2 Nights), Khirshu (1 Night), Pauri (1 Night)",
+	  "heroImage": "UntouchedGarhwalTile.png",
+	  "price": "9000",
+	  "images": [
+	  ],
+	  "description": [
+		{
+		  "title": "Day 1  Pickup from Delhi Railway Station / Airport (250 Kms : 7Hrs. Travelling to Lansdowne)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Delhi",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Lansdowne",
+			  "subtitle": "250Kms : 7Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{ 
+					"time" : "10:00 am to 5:00 pm",
+					"activities": "Start Journey for Lansdowne on the way You can visit Siddhbali Temple at Koatdwar."
+				},
+				{ 
+					"time" : "5:00 pm to 6:00 pm",
+					"activities": "Arrival in Lansdowne and enjoy a quick and hassle-free check-in at Hotel."
+				},
+				{ 
+					"time" : "6:00 pm to 8:00 pm",
+					"activities": "Evening free to enjoy the Local Market."
+				},
+				{ 
+					"time" : "8:00 pm to 10:00 pm",
+					"activities": "Dinner at Hotel."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 2  Lansdowne Local Sightseeing",
+		  "isMileStone": false,
+		  "place": [
+			{
+			  "title": "Lansdowne",
+			  "subtitle": ""
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."
+			  },
+			  {
+				"time" : "10:00 am to 4:00 pm",
+				"activities": "Local sightseeing of Lansdowne like Tiffin-Top and Snow View Point, St Mary’s and St John’s, Darwan Singh Sangrahalaya, Officers’ Mess Museum, Bhim Pakora, etc."
+			  },
+			  { 
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."
+			  }
+		  ]
+		},
+		{
+		  "title": "Day 3  Lansdowne to Khirshu (95 Kms : 3Hrs. Travelling to Khirshu)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Lansdowne",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Khirshu",
+			  "subtitle": "95Kms : 3Hrs"
+			}
+		  ],
+		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "1:00 pm to 6:00 pm",
+				"activities": "Local Sightseeing of Khirshu like, Ghandiyal Devta, Eco park, etc."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }				  
+		  ]
+		},
+		{
+		"title": "Day 4   Khirshu to Pauri (22 Kms : 1Hr. Travelling to Pauri)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Khirshu",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Pauri",
+			  "subtitle": "22Kms : 1Hr"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "1:00 pm to 6:00 pm",
+				"activities": "Local Sightseeing of Pauri like, Kandoliya, Chaukhamba Viewpoint, Kyunkaleshwar Mahadev, etc."				
+			  },
+			  {
+				"time" : "8:00 pm to 10:00 pm",
+				"activities": "Dinner at Hotel."				
+			  }			
+		  ]
+		},
+		{
+		"title": "Day 5  Pauri to Delhi  (300 Kms : 8Hrs. Travelling to Delhi)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Pauri",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Delhi",
+			  "subtitle": "300Kms : 8Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"time" : "7:00 am to 9:00 am",
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"time" : "10:00 am to 6:00 pm",
+				"activities": "Reaching at home by having Sweet Memoires in mind and lots of love."				
+			  }					
+		  ]
+		}
+	  ],
+	  "importantInfo": [
+		{
+		  "title": "Note",
+		  "subtitles": [
+			"Vehicles are not allowed on the Mall road of Nainital and Mussoorie so you have to travel by foot there.",
+			"AC and Music System in Vehicle will not be operated when we are on the Hilly Area.",
+			"All the rates are subject to change without prior notice.",
+			"All disputes are subject to Haridwar Jurisdiction.",
+			"Govt. Taxes (GST)"
+		  ]
+		},
+		{
+		  "title": "Mode of Payment:",
+		  "subtitles": [
+		    "Kindly release 25% Payment for the Blocking.",
+			"Kindly release total 50% Payment before 30 days of arrival.",
+			"Kindly release total 100% Payment before 7 days of arrival."
+		  ]
+		}
+	  ],
+	  "cancellationPolicy":{
+		"title": "Cancellation Policy:",
+		  "subtitles": [
+			"10% of the Total Package Cost is Non-Refundable.",
+			"25% cancellation charge of the total package cost, if cancellation less than 30 days before arrival.",
+			"35% cancellation charge of the total package cost, if cancellation between 15 to 7 days before arrival.",
+			"50% cancellation charge of the total package cost if cancellation between 7 to 2 days before arrival.",
+			"100% cancellation charge of the total package cost if cancellation before 48 Hrs. before arrival.",
+			"Altering the confirmed plan Not possible."
+		  ]
+	  },
+	  "inclusionAndExclusion":[
+		{
+		  "title": "Experience Includes:",
+		  "subtitles": [
+			"Accommodation at all the places mention in the itinerary.",
+			"Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
+			"Transportation around the tour (As mentioned above).",
+			"All sightseeing and excursion as per the Itinerary.",
+			"All Toll Tax, Parking Includes."
+		  ]
+		},
+		{
+		  "title": "Tour Cost dose not Includes:",
+		  "subtitles": [
+			"Extra Meal, Boating Charges, Ropeway Charge, Entry Fee, Guide Fee etc.",
+			"Anything not specifically mentioned in “Experience Include”."
+		  ]
+		}
+	  ],
+	 "accomodationInfo":[
+		{
+			"accomodation": "Lansdowne",
+			"standard": "Hotel Hill Top Forest Palace or Similar",
+			"deluxe": "Lans Castle (Standard Room) or Similar",
+			"luxury": "Lans Castle (Valley View Room) or Similar"
+		},
+		{
+			"accomodation": "Khirsu",
+			"standard": "Hotel Taj Himalaya or Similar",
+			"deluxe": "GMVN or Similar",
+			"luxury": "GMVN or Similar"
+		},
+		{			
+			"accomodation": "Pauri",
+			"standard": "Hotel Sun n Snow or Similar",
+			"deluxe": "BSR Farms Homestay or Similar",
+			"luxury": "Mumukshu Resort or Similar"
+		}
+		
+	  ],
+	 "perPersonCostInfo":[
+		{
+			"passengers": "2",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "Rs. 14,500/- + 5% GST",
+			"Deluxe": "Rs. 18,000/- + 5% GST",
+			"Luxury": "Rs. 20,500/- + 5% GST"
+		},
+		{
+			"passengers": "3",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "Rs. 11,000/- + 5% GST",
+			"Deluxe": "Rs. 14,200/- + 5% GST",
+			"Luxury": "Rs. 16,350/- + 5% GST"
+		},
+		{
+			"passengers": "4",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 12,000/- + 5% GST",
+			"Deluxe": "Rs. 15,500/- + 5% GST",
+			"Luxury": "Rs. 18,000/- + 5% GST"
+		},
+		{
+			"passengers": "5",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 10,400/- + 5% GST",
+			"Deluxe": "Rs. 13,700/- + 5% GST",
+			"Luxury": "Rs. 16,000/- + 5% GST"
+		},
+		{
+			"passengers": "6",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 10,000/- + 5% GST",
+			"Deluxe": "Rs. 13,500/- + 5% GST",
+			"Luxury": "Rs. 16,000/- + 5% GST"
+		},
+		{
+			"passengers": "7",
+			"Vehicle": "Innova",
+			"Standard": "Rs. 9,300/- + 5% GST",
+			"Deluxe": "Rs. 12,700/- + 5% GST",
+			"Luxury": "Rs. 15,000/- + 5% GST"
+		},
+		{
+			"passengers": "8",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 10,400/- + 5% GST",
+			"Deluxe": "Rs. 13,900/- + 5% GST",
+			"Luxury": "Rs. 16,400/- + 5% GST"
+		},
+		{
+			"passengers": "9",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 9,700/- + 5% GST",
+			"Deluxe": "Rs. 13,100/- + 5% GST",
+			"Luxury": "Rs. 15,450/- + 5% GST"
+		},
+		{
+			"passengers": "10",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 9,500/- + 5% GST",
+			"Deluxe": "Rs. 13,000/- + 5% GST",
+			"Luxury": "Rs. 15,500/- + 5% GST"
+		},
+		{
+			"passengers": "11",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 9,050/- + 5% GST",
+			"Deluxe": "Rs. 12,450/- + 5% GST",
+			"Luxury": "Rs. 14,850/- + 5% GST"
+		},
+		{
+			"passengers": "12",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "Rs. 9,000/- + 5% GST",
+			"Deluxe": "Rs. 12,500/- + 5% GST",
+			"Luxury": "Rs. 15,000/- + 5% GST"
+		}
+	  ]
+	}
+}

@@ -5,20 +5,15 @@
         <img
           class="image"
           :class="toggleClass"
-          src="../../assets/images/destinations/nainital.webp"
+          src="../../assets/images/destinations/NainitalTile.png"
           alt="destination"
         />
       </div>
       <div class="column">
         <div class="card-content has-text-left">
-          <div
-            class="media-content"
-            :class="toggleClass === 'is-odd' && 'has-text-right'"
-          >
+          <div class="media-content" :class="toggleClass === 'is-odd' && 'has-text-right'">
             <p class="title is-4">Nainital</p>
-            <p class="subtitle is-7 is-italic">
-              ...Peachy and Decency, Sign A Peace Treaty
-            </p>
+            <p class="subtitle is-7 is-italic">...Peachy and Decency, Sign A Peace Treaty</p>
           </div>
           <div class="content has-text-dark-grey">
             Beautiful mountain, crystal-clear lakes, famous temples and greenery
@@ -35,7 +30,7 @@
         <img
           class="image"
           :class="toggleClass"
-          src="../../assets/images/destinations/nainital.webp"
+          src="../../assets/images/destinations/NainitalTile.png"
           alt="destination"
         />
       </div>
@@ -46,22 +41,22 @@
 <script>
 // import TravelDetailVue from './TravelDetail.vue';
 export default {
-  name: 'AppDestinationItem',
+  name: "AppDestinationItem",
   components: {
     // 'travel-detail': TravelDetailVue,
   },
   props: {
     toggleClass: {
       type: String,
-      default: 'is-even',
+      default: "is-even",
     },
   },
 
   methods: {
-    redirect: function() {
+    redirect: function () {
       this.$router.push({
-        name: 'detail',
-        params: { packageName: 'chardham' },
+        name: "detail",
+        params: { packageName: "chardham", packageId: "Pckg4-0" },
       });
     },
   },
