@@ -109,19 +109,19 @@
       "title": "Jageshwar",
       "key": "JAGESHWAR",
       "image": "destinations/JageshwarTile.png"
-    },    
+    }, 
     {
-      "id": "Dest-L-",
-      "title": "Jim Corbett Nation Park",
-      "key": "JIM-CORBETT-NATIONAL-PARK",
-      "image": "destinations/JimCorbettNationParkTile.png"
-    },    
-    {
-      "id": "Dest-L-14",
+      "id": "Dest-L-17",
       "title": "Rishikesh",
       "key": "RISHIKESH",
       "image": "destinations/RishikeshTile.png"
-    },    
+    },   
+    {
+      "id": "Dest-L-18",
+      "title": "Jim Corbett Nation Park",
+      "key": "JIM-CORBETT-NATIONAL-PARK",
+      "image": "destinations/JimCorbettNationParkTile.png"
+    },  
     {
       "id": "Dest-L-19",
       "title": "Khirshu",

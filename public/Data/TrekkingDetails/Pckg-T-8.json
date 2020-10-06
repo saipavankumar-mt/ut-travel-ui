@@ -1,0 +1,260 @@
+ {
+	"data": {
+		  "id": "Pckg-T-8",
+		  "key": "Kalindikhal Pass",
+		  "title": "Kalindikhal Pass Trek",
+		  "qoute": "",
+		  "subtitle": "Kalindikhal Pass is a high altitude pass nestled in the lap of the majestic Himalayas, at an altitude of 5947 mt at the base of Kalindi Peak. Ther journey enrote unfolds some the majestic peaks of the Indian Himalayan ranges and passes through captivating meadows, high altitude natural lakes, rugged glaciers, snow fields and rocky terrain. The Kalindikhal Pass trek is one of the toughest treks in the Garhwal Himalayan, requires acclimatization and prior high altitude trekking experience.",
+		  "description":[
+			{
+			  "title":"BEST TIME TO VISIT:",
+			  "subtitle":"Best time to for Kalindikhal Pass trek is in between summer (mid June) and monsoon (early September). The weather of Kalindikhal trek remains pleasant during summer with clear skies and soothing cool breeze from distintly visible Himalayas adding charm to the ambiance. The entire region comes alive during monsoons and the forests, meadows and entire trek route look surreal and magical."
+			},
+			{
+				"title": "TREKKING HIGHLIGHTS:",
+			    "subtitle":"Add to your record the scaling of 6000 mt Himalayan Pass. Climb up along the hulking high Chaturangi Glacier, witness the gorgeous meadows of Tapovan and the origin point of River Ganga, Gaumukh. Get an opportunity to visit prime Hindu pilgrimage sites like Gangotri and Badrinath. Savour sights of lofty Himalayan Mountain Peaks like Bhagirathi, Shivling, Bhrigu Parbat and witness the beauty of alpine lakes and lose yourself in its serenity."
+			}	
+		  ],
+		   "importantNote":[
+		   "The Inner line permit is a must for touring in this region.",
+		   "Permit will be issued from District Forest Officer (DFO) Uttarkashi and District Magistrate (DM) Uttarkashi.",
+		   "The copy of the permit, list of the trekkers and guide, cook & porters and the photos should be verified by District Administartion of Chamoli ( DM of the district and SDM of Joshimath) as well as In Charge of the ITBP camp at Ghastoli as after Gangotri that is the only human settlement.",
+		    "All Trekkers, Guide, Porters, Cook and Helper must be insured.",
+			"All Trekkers, Guide, Porters, Cook and Helper also go through medical tests.",
+			"All Trekkers, Guide, Porters, Cook and Helper must be well equipped with the adventure gear like tents, sleeping bag, snow shoes, gloves, rain proof jacket etc.",
+			"Carrying of Identity card is mandatory.",
+			"Book the trek with registered organizations only."
+		  ],
+		  "heroImage": "trekking/kalindikhal/KalindikhalPassTrekTile.png",
+		  "images": [
+		    "trekking/kalindikhal/kalindikhalPassTrek1.png",
+			"trekking/kalindikhal/kalindikhalPassTrek2.png",
+			"trekking/kalindikhal/kalindikhalPassTrek3.png",
+			"trekking/kalindikhal/kalindikhalPassTrek4.png",
+			"trekking/kalindikhal/kalindikhalPassTrek5.png",
+			"trekking/kalindikhal/kalindikhalPassTrek6.png",
+            "trekking/kalindikhal/kalindikhalPassTrek7.png"				
+		  ],
+		  "overview":{
+			"area":"Garhwal Himalayas",
+			"duration":"18 Days(12 days trekking)",
+			"bestSeason":"Mid June - Early September",
+			"grade":"Tough",
+			"altitude":"5946 mt/ 19500 ft",
+			"totalTreking":"100 Km"
+		  },
+		  "itinerary":[
+			{
+				"day": "1",
+				"title": "Delhi – Haridwar - Rishikesh",
+				"activities":[
+					"In the morning take an AC train for Haridwar at 06:50 hrs.",
+					"After arriving in Haridwar, meet our representative who will help you transfer to Rishikesh and check into your hotel.",
+					"Evening is free for leisure activities.",
+					"Dinner and overnight stay in the hotel."
+				]				
+			},
+			{
+				"day": "2",
+				"title": "Rishikesh - Uttarkashi (170 Kms/ 5-6 hrs)",
+				"activities":[
+					"After the breakfast we will proceed for Uttarkashi (1150 mt), which takes about 5-6 hrs.",
+                    "Upon arrival at the Uttarkashi check into the hotel.",
+					"Post lunch we wll visit NIM (Nehru Institute of Mountaineering) Institute & Museum.",
+					"Later come back to hotel for an overnight stay."
+				]				
+			},
+			{
+				"day": "3",
+				"title": "Uttarkashi",
+				"activities":[
+					"Today we shall spare a day for medical test, permit verification and visit Nehru Institute of Mountaineering (NIM) etc.",
+					"Overnight stay at hotel."
+				]				
+			},
+			{
+				"day": "4",
+				"title": "Uttarkashi - Gangotri (3048 mt/ 100 Kms/ 4-5 hrs drive)",
+				"activities":[
+					"Post breakfast we will drive to Gangotri via Harsil (approx 25 km before Gangotri (3048 mt) in 4-5 hrs.",
+					"On arrival, check into Hotel/ Guest house.",
+					"Overnight stay in the hotel."
+				]				
+			},
+			{
+				"day": "5",
+				"title": "Gangotri - Bhojwassa (3792 mt/ 14 kms/ 5-6 hrs trekking)",
+				"activities":[
+					"In the morning we will make you meet our trekking crew.",
+					"Later after the breakfast, we shall begin our first day trek, which will be to Bhojwassa.",
+					"The trail is along the river Bhagirathi, upon arrival at Bhojwassa, we shall set our camp for overnight stay."
+				]				
+			},
+			{
+				"day": "6",
+				"title": "Bhojwassa - Gomukh (3890 mt/ 12760 ft) - Tapovan (4463 mt/ 14640 ft)",
+				"activities":[
+					"Early in the morning you will get an opportunity to enjoy the panoramic view of Bhagirathi group of peaks.",
+					"Post breakfast we shall trek to Gomukh, the source of the Ganges. From Gomukh we will trek to Tapovan, from where a steep ascent begins.",
+					"Arrive at Tapovan and pitch tents. Dinner and overnight stay in camp."
+				]				
+			},
+			{
+				"day": "7",
+				"title": "Tapovan - Nandanvan(4-5 hrs trek)",
+				"activities":[
+					"We will trek to Nandanvan today. Dinner and overnight stay in tents."
+				]				
+			},
+			{
+				"day": "8",
+				"title": "Nandanvan - Vasuki Tal(4880 mt/16000 ft, 6 Kms/ 4-5 hrs trek)",
+				"activities":[
+					"We shall trek along with Chaturangi Glacier to reach Vasuki Tal today.",
+					"Vasuki Tal is an alpine lake and is a base for Mt Satopanth and Mt Vasuki Parbat.",
+					"The trek is steady and upwards, it will take around 5-6 hrs to reach Vasuki Tal.",
+					"Overnight stay in tents."
+				]				
+			},
+			{
+				"day": "9",
+				"title": "Vasuki Tal - Khara Pathar(5480 mt/ 17975 ft, 6 Kms/ 3-4 hrs trekking)",
+				"activities":[
+					"Post breakfast start trekking to Suraiaya Bamak (Khara Pathar) with packed lunch.",
+					"Dinner and overnight stay in camp on Moraine."
+				]				
+			},
+			{
+				"day": "10",
+				"title": "Khara Pathar - Sweta Glacier (10 Kms/ 4-5 hrs)",
+				"activities":[
+					"After the breakfast today we shall trek 10 km to reach Sweta Glacier (5500 mt).",
+					"Dinner and overnight stay in the camp."
+				]				
+			},
+			{
+				"day": "11",
+				"title": "Sweta Glacier - Kalindikhal Base",
+				"activities":[
+					"After having the breakfast we will set out for Kalindikhal camp and overnight stay in tent."
+				]				
+			},
+			{
+				"day": "12",
+				"title": "Kalindikhal Base - Kalindi Peak",
+				"activities":[
+					"In the morning we shall set out for Kalindi peak summit. Overnight stay in tent."
+				]				
+			},
+			{
+				"day": "13",
+				"title": "Kalindikhal - Raja Parav (4910 mt/ 16105 ft, 12 Kms/ 6-7 hrs trekking)",
+				"activities":[
+					"After the breakfast we will proceed to Kalindi Pass(5947 mt).",
+					"Spend some time at the spot and then trek down to Raj Parav for dinner and overnight stay in the camp."
+				]				
+			},
+			{
+				"day": "14",
+				"title": "Raja Parav - Arwa Tal",
+				"activities":[
+					"Today we shall proceed towards Arwa Tal(3910 mt), which is 13 km from Raj Parav. Overnight stay in the camp."
+				]				
+			},
+			{
+				"day": "15",
+				"title": "Arwa Tal - Ghastoli(3796 mt/ 12450 ft, 16 Kms/ 5-6 hrs trekking)",
+				"activities":[
+					"Our trekking will be towards Ghastoli (3796 mt) today, which is 16 km from Arwa Tal. Dinner and overnight stay in camp."
+				]				
+			},
+			{
+				"day": "16",
+				"title": "Ghastoli - Mana - Badrinath(3096 mt/ 10155 ft, 18 Kms/ 5-6 hrs trekking)",
+				"activities":[
+					"Today we will trek to Badrinath, which is situated on the bank of Alaknanda River.",
+					"A seven hour walk brings you to Mana village, the last village of India.",
+					"After having lunch here, we will drive to the town of Badrinath, on arrival check into the hotel.",
+					"In the evening visit the temple of Badrinath and return to hotel for dinner and overnight stay."
+				]				
+			},
+			{
+				"day": "17",
+				"title": "Badrinath - Rishikesh(290 Kms)",
+				"activities":[
+					"After the breakfast, drive down to Rishikesh, on arrival check into the hotel.",
+					"In evening visit Laxman Jhula, Thirteen storied temple, Geeta Ashram, Parmarth Niketan and later join the Aarti ceremony at Triveni Ghat.",
+					"Return to the hotel for overnight stay."
+				]				
+			},
+			{
+				"day": "18",
+				"title": "Rishikesh - Delhi(225 Kms)",
+				"activities":[
+					"In the morning transfer to Haridwar railway station and from here catch AC train for Delhi at 06:30 hrs.",
+					"Arrival at Delhi by 11:45 hrs.",
+					"Tour & Services End."
+				]				
+			}
+		  ],
+		  "thingsToCarry":[
+			"Crampon",
+			"Trekking trousers, shorts",			
+			"Cap/gloves",
+			"Sun glasses",			
+			"Windproof jacket",
+			"Sleeping bag/ liner",
+			"Lip balm/ Sunscreen",
+			"Walking pole",
+			"T-shirts, Socks, Underwear",
+			"Boots / gaiters, spare laces",
+			"Compass",
+			"Energy bars",
+			"Sturdy water bottle",
+			"Raincoat/Poncho",
+			"Trekking boots",
+			"Small light weight towel",
+			"Flash light/Head lamp with spare batteries",
+			"Extra passport photos",
+			"Personal medication",
+			"Personal toiletries"
+		  ],
+		  "importantInfo":[
+			{
+			  "title": "At a Glance",
+			  "subtitles": [
+				"Group size : Min 04 ans Max 12",
+				"18 Days (6 days travel/ 12 days trekking)",
+				"Max altitude - 5946 mt/ 19500 ft",
+				"Trek start point: Delhi/Rishikesh/Dehradun",
+				"Fixed depatures: Available",
+				"07 Nights Hotel",
+				"10 Nights In Tent"
+			  ]
+			},
+			{
+			  "title": "Mode of Payment:",
+			  "subtitles": [
+				"Kindly release 25% Payment for the Blocking.",
+				"Kindly release total 50% Payment before 30 days of arrival.",
+				"Kindly release total 100% Payment before 7 days of arrival."
+			  ]
+			}
+		  ],		  
+		  "transit":[
+			{
+				"title":"BY AIR",
+				"subtitle": "The nearest airport for Kalindi Khal airport is Jolly Grant Airport in Dehradun. The airport is 215 km away from Uttarkashi."				
+			},
+			{
+				"title":"BY RAIL",
+				"subtitle": "Haridwar and Rishikesh are the nearest railway stations for Kalindi Khal trek. From here taxis and cabs are available for Uttarkashi and further destination."			
+			},
+			{
+				"title":"BY ROAD",
+				"subtitle": "Uttarkashi can be reached from Haridwar/ Rishikesh by direct busses or shared jeeps. It takes about 6-7 hrs to reach. Buses are available from early morning and it is adviced you leave early to reach early or to give yourself contingency time on mountain roads."			
+			}
+		]
+	}
+	
+}
