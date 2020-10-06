@@ -59,7 +59,7 @@
           <b-field>
             <div class="date-picker1" v-on:click="scrollToView('date-picker1')">
               <b-datepicker
-                v-model="formData.date"
+                v-model="selectedDate"
                 :show-week-number="showWeekNumber"
                 :locale="'en-GB'"
                 placeholder="Click to select..."
@@ -90,6 +90,7 @@
 
 <script>
 import { functions } from '../firebase/firebase';
+import moment from 'moment';
 
 export default {
   name: 'BookingForm',
@@ -119,6 +120,16 @@ export default {
       this.$emit('close');});
     }
   },
+  computed: {
+    selectedDate: {
+      get() {
+        return this.formData.date ? new Date(this.formData.date) : null;
+      },
+      set(value) {
+        this.formData.date = value ? moment(value).format() : null;
+      }
+    }
+  },
   data() {
     return {
       name: '',
@@ -126,7 +137,7 @@ export default {
       emailId: '',
       query: '',
       adults: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-      children: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      children: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
       selected: null,
       showWeekNumber: false,
       formData: {
