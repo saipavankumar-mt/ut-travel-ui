@@ -11,7 +11,7 @@
       :pause-info="false"
       icon-size="is-medium"
     >
-      <b-carousel-item v-for="item in carouselItem" :key="item.id">
+      <b-carousel-item v-for="(item, id) in carouselItem" :key="id">
         <div class="carousel-container">
           <img
             class="carousel-img"
@@ -19,12 +19,14 @@
             v-bind:alt="item.image"
           />
         </div>
-        <div class="weather-forcast">
+        <div class="weather-forcast" v-if="item.weather.showWeatherForcast">
           <app-weather-forcast
+            v-for="(forcast, id) in item.weather.location"
+            :key="id"
             api-key="141973eab82fd1074988ffa8397b09bf"
             units="uk"
-            :latitude="lat"
-            :longitude="long"
+            :latitude="forcast.lat"
+            :longitude="forcast.long"
             language="en"
             :hide-header="hideHeader"
             :hide-week="hideWeek"
@@ -54,7 +56,7 @@ export default {
       textColor: '#fff',
       disableAnimation: false,
       hideHeader: true,
-      hideWeek: true,
+      hideWeek: false,
     };
   },
   created() {

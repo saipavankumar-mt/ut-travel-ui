@@ -387,8 +387,8 @@ export default {
 }
 
 .vww__content {
-  min-height: 150px;
-  height: 180px;
+  /* min-height: 150px;
+  height: 180px; */
   display: flex;
   align-items: center;
   padding: 8px;
@@ -457,9 +457,9 @@ export default {
 }
 
 @media screen and (min-width: 600px) {
-  .vww__currently {
+  /* .vww__currently {
     width: 300px;
-  }
+  } */
   .vww__daily {
     display: block;
     height: 100%;
