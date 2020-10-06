@@ -11,10 +11,7 @@
       :pause-info="false"
       icon-size="is-medium"
     >
-      <b-carousel-item
-        v-for="item in carouselItem"
-        :key="item.id"
-      >
+      <b-carousel-item v-for="item in carouselItem" :key="item.id">
         <div class="carousel-container">
           <img
             class="carousel-img"
@@ -29,7 +26,7 @@
           :longitude="long"
           language="en"
         />
-        <h3>{{currentTemp - 273.15 | number:'1.0-0'}}</h3>
+        <h3>{{ currentTemp - 273.15 }}</h3>
       </b-carousel-item>
     </b-carousel>
     <!-- <carousel
@@ -83,7 +80,7 @@
     <!-- </div>
       </slide>
     </carousel>-->
-    <available-packages-list class="available"></available-packages-list>
+    <!-- <available-packages-list class="available"></available-packages-list> -->
   </div>
 </template>
 
@@ -94,7 +91,7 @@ export default {
   components: {
     VueWeather,
   },
-  data: function () {
+  data: function() {
     return {
       slideIndex: 0,
       apiKey: '141973eab82fd1074988ffa8397b09bf',
