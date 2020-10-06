@@ -56,7 +56,7 @@ export default {
       textColor: '#fff',
       disableAnimation: false,
       hideHeader: true,
-      hideWeek: false,
+      hideWeek: true,
     };
   },
   created() {
