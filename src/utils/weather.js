@@ -1,5 +1,5 @@
 const IP_CACHE = 'vww__cache_ip';
-const IP_LOCATION_CACHE = 'vww__cache_ip_location';
+// const IP_LOCATION_CACHE = 'vww__cache_ip_location';
 const GEOCODE_CACHE = 'vww__cache_geocode';
 
 const ICON_MAPPINGS = {
@@ -45,30 +45,6 @@ const utils = {
         localStorage[IP_CACHE] = JSON.stringify(data);
         return data;
       });
-  },
-
-  fetchLocationByIP(ip) {
-    if (!ip) {
-      return utils.lookupIP().then((data) => {
-        return utils.fetchLocationByIP(data['ip']);
-      });
-    }
-
-    let cache = localStorage[IP_LOCATION_CACHE] || '{}';
-    cache = JSON.parse(cache);
-    if (cache[ip]) {
-      return cache[ip];
-    }
-
-    const apiKey = 'f8n4kqe8pv4kii';
-    return fetch(`https://api.ipregistry.co/${ip}?key=${apiKey}`)
-      .then((resp) => resp.json())
-      .then((result) => {
-        cache[ip] = result.location || {};
-        localStorage[IP_LOCATION_CACHE] = JSON.stringify(cache);
-        return cache[ip];
-      });
-    // latitude, longitude, city, country.name
   },
 
   geocode(query, reversed = false) {
