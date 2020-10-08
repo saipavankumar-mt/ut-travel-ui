@@ -5,6 +5,15 @@
     "title": "Complete Uttaranchal",
     "qoute": "...Explore Nainital and Binsar and Jim Corbett National Park and Haridwar and Rishikesh and Mussoorie",
     "subtitle": "",
+    "weather": {
+      "showWeatherForcast": true,
+      "location": [
+        {
+          "lat": "29.94791",
+          "long": "78.16025"
+        }
+      ]
+    },
     "overview": [
       {
         "title": "Nainital (…Peachy and Decency, Sign A Peace Treaty):",

@@ -6,6 +6,15 @@
 	  "title": "Chardham  By Helicopter",
 	  "qoute": "...Explore Dehradun and Yamunotri and Gangotri and Kedarnath and Badrinath",
 	  "subtitle": "",
+	  "weather": {
+        "showWeatherForcast": true,
+        "location": [
+          {
+            "lat": "29.94791",
+            "long": "78.16025"
+          }
+        ]
+      },
 	  "overview":[		
 		{
 		  "title":"Chardham By Helicopter",

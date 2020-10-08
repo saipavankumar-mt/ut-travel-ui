@@ -11,10 +11,7 @@
           </div>
         </div>-->
         <p>{{ posts.subtitle }}</p>
-        <div
-          v-for="(item, i) in posts.overview"
-          :key="i"
-        >
+        <div v-for="(item, i) in posts.overview" :key="i">
           <div v-if="(i <= 2 || i % 2 == 0) && !$isMobile()">
             <h5>{{ item.title }}</h5>
             <p>{{ item.subtitle }}</p>
@@ -48,22 +45,13 @@
             </p>
           </li>
         </ul>-->
-        <b-button
-          class="is-blue"
-          @click="cardModal()"
-        >Book Now</b-button>
+        <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
       </div>
       <div class="banner-inner">
         <div>
-          <img
-            :src="posts.heroImage"
-            alt="posts.heroImage"
-          />
+          <img :src="posts.heroImage" alt="posts.heroImage" />
         </div>
-        <div
-          v-for="(item, i) in posts.overview"
-          :key="i"
-        >
+        <div v-for="(item, i) in posts.overview" :key="i">
           <div v-if="i > 2 && Math.abs(i % 2) == 1 && !$isMobile()">
             <h5>{{ item.title }}</h5>
             <p>{{ item.subtitle }}</p>
@@ -77,21 +65,12 @@
         <b-tabs>
           <b-tab-item label="ITINERARY">
             <div class="days-container">
-              <div
-                v-for="(item, i) in posts['description']"
-                :key="i"
-              >
+              <div v-for="(item, i) in posts['description']" :key="i">
                 <div class="columns">
-                  <div
-                    class="column is-one-quarter"
-                    v-if="item.isMileStone"
-                  >
+                  <div class="column is-one-quarter" v-if="item.isMileStone">
                     <app-mile-stone :item="item.place"></app-mile-stone>
                   </div>
-                  <div
-                    class="column is-one-quarter"
-                    v-if="!item.isMileStone"
-                  >
+                  <div class="column is-one-quarter" v-if="!item.isMileStone">
                     <app-mile-stone-art :item="item.place"></app-mile-stone-art>
                   </div>
 
@@ -108,7 +87,8 @@
                         >
                           <i class="fas fa-angle-double-right"></i>
                           <div class="day-subtitle">
-                            <span class="time">{{ title.time }}</span>&nbsp;
+                            <span class="time">{{ title.time }}</span
+                            >&nbsp;
                             <span>{{ title.activities }}</span>
                           </div>
                         </div>
@@ -119,10 +99,7 @@
               </div>
             </div>
           </b-tab-item>
-          <b-tab-item
-            label="INCLUSIONS & EXCLUSIONS"
-            icon="library-music"
-          >
+          <b-tab-item label="INCLUSIONS & EXCLUSIONS" icon="library-music">
             <div class="imp-info-container">
               <div
                 class="imp-description"
@@ -189,25 +166,13 @@
                 :indicator="false"
                 :overlay="gallery"
               >
-                <b-carousel-item
-                  v-for="(item, i) in items"
-                  :key="i"
-                >
+                <b-carousel-item v-for="(item, i) in items" :key="i">
                   <figure class="image">
-                    <img
-                      class="image-ht"
-                      :src="item.image"
-                    />
+                    <img class="image-ht" :src="item.image" />
                   </figure>
                 </b-carousel-item>
-                <span
-                  v-if="gallery"
-                  class="modal-close is-medium"
-                />
-                <template
-                  slot="list"
-                  slot-scope="props"
-                >
+                <span v-if="gallery" class="modal-close is-medium" />
+                <template slot="list" slot-scope="props">
                   <b-carousel-list
                     class="carousel-gallery"
                     v-model="props.active"
@@ -220,8 +185,10 @@
               </b-carousel>
             </div>
           </b-tab-item>
-          <b-tab-item label="WEATHER">
+          <b-tab-item label="WEATHER" v-if="posts.weather.showWeatherForcast">
             <app-weather-forcast
+              v-for="(forcast, id) in posts.weather.location"
+              :key="id"
               units="uk"
               :latitude="'29.94791'"
               :longitude="'78.16025'"
@@ -289,7 +256,7 @@ export default {
     };
   },
   methods: {
-    redirect: function (value) {
+    redirect: function(value) {
       this.$router.push({
         name: 'detail',
         params: {
