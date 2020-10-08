@@ -74,7 +74,7 @@
           <div class="vww__wind">
             Last Updated:
             {{ currently.dateTime | moment }}
-            <span @click="hydrate()" style="padding-left:6px">
+            <span @click="hydrate()" class="refresh">
               <i class="fas fa-sync-alt"></i>
             </span>
           </div>
@@ -448,6 +448,11 @@ export default {
 
 .vww__wind {
   font-size: 14px;
+}
+
+.refresh {
+  padding-left: 6px;
+  cursor: pointer;
 }
 
 .vww__daily {

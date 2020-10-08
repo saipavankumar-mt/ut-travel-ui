@@ -11,10 +11,7 @@
       :pause-info="false"
       icon-size="is-medium"
     >
-      <b-carousel-item
-        v-for="(item, id) in carouselItem"
-        :key="id"
-      >
+      <b-carousel-item v-for="(item, id) in carouselItem" :key="id">
         <div class="carousel-container">
           <img
             class="carousel-img"
@@ -22,10 +19,7 @@
             v-bind:alt="item.image"
           />
         </div>
-        <div
-          class="weather-forcast"
-          v-if="item.weather.showWeatherForcast"
-        >
+        <div class="weather-forcast" v-if="item.weather.showWeatherForcast">
           <app-weather-forcast
             v-for="(forcast, id) in item.weather.location"
             :key="id"
@@ -51,7 +45,7 @@ export default {
     AppWeatherForcast,
   },
 
-  data: function () {
+  data: function() {
     return {
       slideIndex: 0,
       // apiKey: '141973eab82fd1074988ffa8397b09bf',
