@@ -1,5 +1,4 @@
 const IP_CACHE = 'vww__cache_ip';
-// const IP_LOCATION_CACHE = 'vww__cache_ip_location';
 const GEOCODE_CACHE = 'vww__cache_geocode';
 
 const ICON_MAPPINGS = {
@@ -106,6 +105,7 @@ const utils = {
         summary: description,
         windSpeed: current.wind_speed,
         windBearing: current.wind_deg,
+        dateTime: new Date(),
       }),
       daily: {
         data: data.daily.map((day) => {

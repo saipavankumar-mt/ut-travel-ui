@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="vww__widget"
-    :style="{ color: textColor }"
-  >
+  <div class="vww__widget" :style="{ color: textColor }">
     <slot name="header">
       <div
         class="vww__header"
@@ -17,11 +14,8 @@
       </div>
     </slot>
 
-    <div class="vww__content">
-      <div
-        class="vww__loading"
-        v-if="loading"
-      >
+    <div class="vww__content" :style="{ backgroundColor: backgroundColor }">
+      <div class="vww__loading" v-if="loading">
         <slot name="loading">
           <skycon
             condition="partly-cloudy-day"
@@ -57,12 +51,9 @@
             />
             <div class="vww__temp">
               {{ Math.round(currently.temperature) }}&deg;
+
               <div v-if="isDownward">
-                <svg
-                  viewBox="0 0 306 306"
-                  width="24"
-                  height="24"
-                >
+                <svg viewBox="0 0 306 306" width="24" height="24">
                   <polygon
                     points="270.3,58.65 153,175.95 35.7,58.65 0,94.35 153,247.35 306,94.35"
                     :style="{ fill: textColor }"
@@ -70,11 +61,7 @@
                 </svg>
               </div>
               <div v-else>
-                <svg
-                  viewBox="0 0 306 306"
-                  width="24"
-                  height="24"
-                >
+                <svg viewBox="0 0 306 306" width="24" height="24">
                   <polygon
                     points="35.7,247.35 153,130.05 270.3,247.35 306,211.65 153,58.65 0,211.65"
                     :style="{ fill: textColor }"
@@ -85,19 +72,16 @@
           </div>
           <div class="vww__title">{{ currently.summary }}</div>
           <div class="vww__wind">
-            Wind: {{ Math.round(currently.windSpeed) }} mph ({{ windBearing }})
+            Last Updated:
+            {{ currently.dateTime | moment }}
+            <span @click="hydrate()" style="padding-left:6px">
+              <i class="fas fa-sync-alt"></i>
+            </span>
           </div>
         </div>
 
-        <div
-          class="vww__daily"
-          v-if="!hideWeek"
-        >
-          <div
-            class="vww__day"
-            :key="day.time"
-            v-for="day in daily"
-          >
+        <div class="vww__daily" v-if="!hideWeek">
+          <div class="vww__day" :key="day.time" v-for="day in daily">
             <span>{{ day.weekName }}</span>
             <span>
               <skycon
@@ -112,11 +96,13 @@
               <div :style="{ height: `${day.top}%` }">
                 <span>{{ Math.round(day.temperatureMax) }}&deg;</span>
               </div>
-              <div :style="{
+              <div
+                :style="{
                   borderRadius: '10px',
                   background: barColor,
                   height: `${day.height}%`,
-                }">
+                }"
+              >
                 &nbsp;
               </div>
               <div :style="{ height: `${day.bottom}%` }">
@@ -133,6 +119,7 @@
 <script>
 import Utils from './../../utils/weather';
 import Skycon from 'vue-skycons';
+import moment from 'moment';
 
 export default {
   name: 'AppWeatherForcast',
@@ -141,6 +128,11 @@ export default {
     Skycon,
   },
 
+  filters: {
+    moment: function(date) {
+      return moment(date).format('MMMM Do YYYY, h:mm a');
+    },
+  },
   props: {
     // Pass true to use DarkSky API, otherwise it will use OpenWeatherMap API
     useDarkSkyApi: {
@@ -213,6 +205,10 @@ export default {
       default: '#444',
     },
 
+    backgroundColor: {
+      type: String,
+      default: '',
+    },
     // Color of the text. Default: '#333'
     textColor: {
       type: String,
@@ -310,6 +306,9 @@ export default {
   },
 
   methods: {
+    moment: function() {
+      return moment();
+    },
     loadWeather() {
       const fetchWeatherMethod = Utils.fetchOWMWeather;
       return fetchWeatherMethod({
@@ -392,7 +391,7 @@ export default {
   align-items: center;
   padding: 8px;
   overflow: hidden;
-  background: rgba(1, 1, 1, 0.8);
+  /* background: ; */
 }
 
 .vww__loading {
@@ -427,6 +426,7 @@ export default {
 .vww__currently > div {
   display: flex;
   align-items: center;
+  font-weight: 700;
 }
 
 .vww__currently .vww__title {
