@@ -40,12 +40,12 @@
         "showPrice": true,
         "value": "41000"
       },
-      "id": 3
+      "id": "3"
     },
     {
       "image": "images/rishikeshcarousel.png",
       "title": "Rishikesh",      
-      "id": 3
+      "id": "4"
     }
   ]
 }
