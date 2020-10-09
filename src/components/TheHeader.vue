@@ -67,7 +67,7 @@ export default {
       toggleNavbar: false,
       mobile: "reduce",
       navMenu: [
-        { label: "Home", icon: "home", path: "/home" },
+        { label: "Home", icon: "home", path: "/" },
         { label: "Tour Packages", icon: "bag-checked", path: "/tour-packages" },
         { label: "Destinations", icon: "map-marker", path: "/destinations" },
         { label: "Trekking", icon: "walk", path: "/trekking" },
@@ -75,7 +75,7 @@ export default {
         // { label: 'Car Rental', icon: 'car' },
         // { label: 'Helipad', icon: 'helicopter' },
         { label: "About Us", icon: "head-question", path: "/about-us" },
-        { label: "Contact Us", icon: "card-account-phone" },
+        { label: "Contact Us", icon: "card-account-phone", path: "/contact-us" },
       ],
     };
   },
@@ -106,7 +106,7 @@ export default {
   content: "\e97b";
 }
 .navbar {
-  box-shadow: 0 1px 5px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   padding-top: 0;
   padding-bottom: 0;
   .navbar-contact {

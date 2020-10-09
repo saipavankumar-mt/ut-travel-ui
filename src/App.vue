@@ -3,6 +3,7 @@
     <div class="app-container">
       <div :class="{ 'side-navbar-open': disableScroll }">
         <the-header @onToggle="onToggle"></the-header>
+        <the-bread-crumb v-if="showBreadCrumb"></the-bread-crumb>
         <div class="app-router" id="app-main-container">
           <router-view />
         </div>
@@ -16,6 +17,7 @@
 // import Home from './views/Home.vue';
 import TheHeader from "./components/TheHeader.vue";
 import TheFooter from "./components/TheFooter.vue";
+import TheBreadCrumb from './components/TheBreadCrumb.vue';
 
 export default {
   name: "App",
@@ -23,6 +25,11 @@ export default {
     return {
       disableScroll: false,
     };
+  },
+  computed: {
+    showBreadCrumb() {
+      return (this.$route.path !== '/') && !this.$isMobile();
+    }
   },
   methods: {
     onToggle(value) {
@@ -55,6 +62,7 @@ export default {
     // Home,
     TheHeader,
     TheFooter,
+    TheBreadCrumb,
   },
 };
 </script>
