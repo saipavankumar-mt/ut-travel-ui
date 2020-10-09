@@ -15,7 +15,7 @@
       "id": "1"
     },
     {
-      "image": "images/chardham-by-heli.png",
+      "image": "images/chardhamcarousel.png",
       "title": "Chardham Yatra",
       "subtitle": "...Voice of Conscience",
       "route": "Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi",
@@ -29,7 +29,7 @@
       "id": "2"
     },
     {
-      "image": "images/Tiger.png",
+      "image": "images/corbettcarousel.png",
       "title": "Cobrett park",
       "subtitle": "...Voice of Conscience",
       "route": "Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi",
@@ -43,18 +43,9 @@
       "id": 3
     },
     {
-      "image": "images/parmarth.png",
-      "title": "Chardham Yatra",
-      "subtitle": "...Voice of Conscience",
-      "route": "Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi",
-      "description": "(Holy confluence, scenic surroundings and an aura of spiritual serenity make an ideal abode for the Gods and are a refreshing reward for the pilgrims who visit Chardham)",
-      "nights": "12",
-      "days": "12",
-      "price": {
-        "showPrice": false,
-        "value": "41000"
-      },
-      "id": 4
+      "image": "images/rishikeshcarousel.png",
+      "title": "Rishikesh",      
+      "id": 3
     }
   ]
 }
