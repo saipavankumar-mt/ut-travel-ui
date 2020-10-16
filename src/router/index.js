@@ -8,65 +8,118 @@ import TourPackages from '../views/Package/TourPackages.vue';
 import TourDestinations from '../views/Destination/TourDestinations.vue';
 import TourTrekking from '../views/Trekking/TourTrekking.vue';
 import AboutUs from '../views/AboutUs.vue';
+import AppRouterView from '../components/ui-components/AppRouterView.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
-    redirect: '/home',
     name: 'home',
     component: Home,
-    children: [
-      {
-        path: 'home',
-        name: 'home',
-        component: Home,
-      },
-    ],
-  },
-  {
-    path: '/tour-package/:packageId/:packageName',
-    name: 'detail',
-    component: PackageDetail,
-    props: true,
+    // children: [
+    //   {
+    //     path: 'home',
+    //     name: 'home',
+    //     component: Home,
+    //     meta: { breadCrumb: 'Home' }
+    //   },
+    // ],
   },
 
   {
     path: '/tour-packages',
-    name: 'tour-packages',
-    component: TourPackages,
-    props: true,
+    component: AppRouterView,
+    meta: { breadCrumb: 'Tour Packages' },
+    children: [
+      {
+        path: '',
+        name: 'tour-packages',
+        component: TourPackages,
+        props: true,
+      },
+      {
+        path: ':packageName',
+        name: 'detail',
+        component: PackageDetail,
+        props: true,    
+      }
+    ],
   },
+
+  // {
+  //   path: '/tour-packages/:packageName',
+  //   name: 'detail',
+  //   component: PackageDetail,
+  //   props: true,
+  // },
+
   {
     path: '/destinations',
-    name: 'destinations',
-    component: TourDestinations,
-    props: true,
+    component: AppRouterView,
+    meta: { breadCrumb: 'Tour Destinations' },
+    children: [
+      {
+        path: '',
+        name: 'destinations',
+        component: TourDestinations,
+        props: true,
+
+      },
+      {
+          path: ':destinationName',
+          name: 'destination-detail',
+          component: TourDestinationDetail,
+          props: true,
+      },
+    ],
   },
+
+  // {
+  //   path: '/destinations/:destinationName',
+  //   name: 'destination-detail',
+  //   component: TourDestinationDetail,
+  //   props: true,
+  // },
 
   {
     path: '/trekking',
-    name: 'trekking',
-    component: TourTrekking,
-    props: true,
+    component: AppRouterView,
+    meta: { breadCrumb: 'Trekking' },
+    children: [
+      {
+        path: '',
+        name: 'trekking',
+        component: TourTrekking,
+        props: true,
+      },
+      {
+          path: ':trekkingName',
+          name: 'trekking-detail',
+          component: TourTrekkingDetail,
+          props: true,
+      },
+    ],
   },
-  {
-    path: '/destination/:destinationId/:destinationName',
-    name: 'destination-detail',
-    component: TourDestinationDetail,
-    props: true,
-  },
-  {
-    path: '/trekking/:trekkingId/:trekkingName',
-    name: 'trekking-detail',
-    component: TourTrekkingDetail,
-    props: true,
-  },
+
+  // {
+  //   path: '/trekking/:trekkingName',
+  //   name: 'trekking-detail',
+  //   component: TourTrekkingDetail,
+  //   props: true,
+  // },
+
   {
     path: '/about-us',
     name: 'about-us',
     component: AboutUs,
+    meta: { breadCrumb: 'About Us' },
+  },
+
+  {
+    path: '/contact-us',
+    name: 'Contact-us',
+    meta: { breadCrumb: 'Contact Us' },
   },
 ];
 
