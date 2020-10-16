@@ -57,6 +57,7 @@ export default {
         params: routeObj.routeParams,
         query: {
           key: categoryKey,
+          id: value.id,
         },
       });
     },

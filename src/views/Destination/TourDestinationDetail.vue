@@ -309,7 +309,7 @@ export default {
     getDestinationPackages() {
       this.$http
         .get(
-          `${process.env.BASE_URL}Data/DestinationDetails/${this.destinationId}.json`
+          `${process.env.BASE_URL}Data/DestinationDetails/${this.$route.query.id}.json`
         )
         .then((res) => {
           this.destinationPackages = res.data.data;
@@ -334,6 +334,9 @@ export default {
           destinationName: value.key,
           destinationId: value.id,
         },
+        query: {
+          id: value.id,
+        },
       });
     },
     redirect: function (value) {
@@ -345,6 +348,7 @@ export default {
         },
         query: {
           key: this.$route.query.key,
+          id: value.id,
         },
       });
     },

@@ -44,6 +44,7 @@ export default {
         params: { packageName: item.key, packageId: item.id },
         query: {
           key: 'adventurePackages',
+          id: item.id,
         },
       });
     },

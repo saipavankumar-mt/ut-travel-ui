@@ -117,6 +117,9 @@ export default {
           trekkingName: value.key,
           trekkingId: value.id,
         },
+        query: {
+          id: value.id,
+        },
       });
     },
     getTourPackages() {

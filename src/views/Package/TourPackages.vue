@@ -227,6 +227,7 @@ export default {
         },
         query: {
           key: packageKey,
+          id: value.id,
         },
       });
     },

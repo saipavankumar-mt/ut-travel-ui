@@ -140,6 +140,9 @@ export default {
           destinationName: value.key,
           destinationId: value.id,
         },
+        query: {
+          id: value.id
+        }
       });
     },
     getTourDestinations() {

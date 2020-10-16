@@ -254,12 +254,15 @@ export default {
           trekkingName: value.key,
           trekkingId: value.id,
         },
+        query: {
+          id: value.id,
+        },
       });
     },
     getTrekkingPPackages() {
       this.$http
         .get(
-          `${process.env.BASE_URL}Data/TrekkingDetails/${this.trekkingId}.json`
+          `${process.env.BASE_URL}Data/TrekkingDetails/${this.$route.query.id}.json`
         )
         .then((res) => {
           this.trekkingPackages = res.data.data;

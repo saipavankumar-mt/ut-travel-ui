@@ -265,6 +265,7 @@ export default {
         },
         query: {
           key: this.$route.query.key,
+          id: value.id,
         },
       });
     },
@@ -324,7 +325,7 @@ export default {
   },
   created() {
     this.$http
-      .get(`${process.env.BASE_URL}Data/PackageDetails/${this.packageId}.json`)
+      .get(`${process.env.BASE_URL}Data/PackageDetails/${this.$route.query.id}.json`)
       .then((response) => {
         this.posts = response.data.data;
         this.getAccomodationInfo();
