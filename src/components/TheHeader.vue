@@ -1,13 +1,13 @@
 <template>
   <nav class="navbar is-fixed-top" @click="initTab($event)">
-    <div class="navbar-contact">
+    <div class="navbar-contact" v-show="!$isMobile()">
       <div class="navbar-item">
         <b-icon icon="email" size="is-small" />
-        <p>sales@uttranchalholidays.com</p>
+        <p>{{contactDetails.email}}</p>
       </div>
       <div class="navbar-item">
         <b-icon icon="phone" size="is-small" />
-        <p>+91-9359079393, +91-9368079393, +91-7830030003</p>
+        <p>{{contactDetails.mobileString(contactDetails.mobileArr)}}</p>
       </div>
     </div>
     <div class="navbar-brand">
@@ -53,6 +53,16 @@
             <span>{{ navItem.label }}</span>
           </div>
         </router-link>
+        <div class="navbar-contact">
+          <div class="navbar-item">
+            <b-icon icon="email" size="is-small" />
+            <p> {{contactDetails.email}}</p>
+          </div>
+          <div class="navbar-item">
+            <b-icon icon="phone" size="is-small" />
+            <p> {{contactDetails.mobileString(contactDetails.mobileArr)}}</p>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -77,6 +87,11 @@ export default {
         { label: "About Us", icon: "head-question", path: "/about-us" },
         { label: "Contact Us", icon: "card-account-phone", path: "/contact-us" },
       ],
+      contactDetails: {
+        email: 'sales@uttranchalholidays.com',
+        mobileArr: ['+91-9359079393', '+91-9368079393', '+91-7830030003'],
+        mobileString(nums) { return nums.join(', ')},
+      },
     };
   },
   methods: {
@@ -195,9 +210,12 @@ export default {
   a {
     text-decoration: none;
   }
-  .router-link-active {
-    color: red !important;
-    font-weight: bold;
+  // .router-link-active {
+  //   color: red !important;
+  //   font-weight: bold;
+  // }
+  a.navbar-item {
+    text-align: left;
   }
   .nav-item {
     cursor: pointer;
@@ -218,7 +236,7 @@ export default {
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .navbar {
     display: flex;
-    flex-direction: row-reverse;
+    // flex-direction: row-reverse;
     .navbar-brand {
       img {
         max-height: 3rem;
@@ -227,17 +245,14 @@ export default {
     .navbar-contact {
       flex-direction: column;
       position: unset;
+      box-shadow: unset;
+      margin-top: 1rem;
+      border-top: 1px solid #bdbdbd;
+      padding-top: .5rem;
       .navbar-item {
-        font-size: 10px;
-      }
-      .navbar-item {
-        padding: 0 0;
-        line-height: 2.3;
+        font-size: 12px;
+        padding: .25rem .5rem;
         display: flex;
-        justify-content: center;
-        .icon {
-          padding-right: unset;
-        }
       }
     }
   }
