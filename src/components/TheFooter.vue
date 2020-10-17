@@ -11,12 +11,18 @@
           </div>
           <div class="footer-section social column is-full">
             <h3 class="footer-section-title column is-full">CONNECT WITH US</h3>
-            <div class="footer-section-item">
-              <a href="https://www.facebook.com/uttranchal.holidaysuh">
-                <b-icon icon="facebook" size="is-small" />&nbsp;
+            <div class="footer-section-item column is-full">
+              <a href="https://www.facebook.com/uttranchal.holidaysuh" target="_blank">
+                <img class="social-icon" src="../assets/icons/facebook.png" alt="facebook">
               </a>
-              <a href="https://www.youtube.com/channel/UCvguCwKOlVobZ3cpLr0J-jw">
-                <b-icon icon="youtube" size="is-small" />&nbsp;
+              <a href="https://www.youtube.com/channel/UCvguCwKOlVobZ3cpLr0J-jw" target="_blank">
+                <img class="social-icon" src="../assets/icons/youtube.png" alt="youtube">
+              </a>
+              <a href="">
+                <img class="social-icon" src="../assets/icons/twitter.png" alt="twitter">
+              </a>
+              <a href="">
+                <img class="social-icon" src="../assets/icons/instagram.png" alt="instagram">
               </a>
             </div>
           </div>
@@ -184,14 +190,13 @@ export default {
           opacity: 0.7;
           .icon {
             color: #f8f8f9;
+
             text-decoration: none;
           }
         }
-      }
-      &.social {
-        .icon {
-          font-size: 2rem;
-          padding: 0 1.2rem 0 1.5rem;
+        .social-icon {
+          color: #fff;
+          padding-right: 5px;
         }
       }
     }
