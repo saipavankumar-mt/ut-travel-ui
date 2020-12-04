@@ -13,14 +13,6 @@
     },
     {
       "id": "Dest-L-2",
-      "title": "Kausani",
-      "key": "KAUSANI",
-      "image": "destinations/KausaniTile.png",
-      "subtitle": "5 Tourist Attractions",
-      "type": "destinations"
-    },
-    {
-      "id": "Dest-L-3",
       "title": "Ranikhet",
       "key": "RANIKHET",
       "image": "destinations/RanikhetTile.png",
@@ -28,7 +20,23 @@
       "type": "destinations"
     },
     {
+      "id": "Dest-L-3",
+      "title": "Mussoorie",
+      "key": "MUSSOORIE",
+      "image": "destinations/MussoorieTile.png",      
+      "subtitle": "5 Tourist Attractions",
+      "type": "destinations"
+    },
+    {
       "id": "Dest-L-4",
+      "title": "Dehradun",
+      "key": "DEHRADUN",
+      "image": "destinations/DehradunTile.png",
+      "subtitle": "5 Tourist Attractions",
+      "type": "destinations"
+    },
+    {
+      "id": "Dest-L-5",
       "title": "Almora",
       "key": "ALMORA",
       "image": "destinations/AlmoraTile.png",
@@ -36,42 +44,12 @@
       "type": "destinations"
     },
     {
-      "id": "Dest-L-14",
-      "title": "Rishikesh",
-      "key": "RISHIKESH",
-      "image": "destinations/RishikeshTile.png",
+      "id": "Dest-L-6",
+      "title": "Auli",
+      "key": "AULI",
+      "image": "destinations/auli/auliRopeway.png",
       "subtitle": "5 Tourist Attractions",
       "type": "destinations"
-    },
-    {
-      "title": "Mussoorie",
-      "subtitle": "5 Tourist Attractions",
-      "type": "destinations",
-      "image": "mussoorie.png"
-    },
-    {
-      "title": "Mukteshwar",
-      "subtitle": "5 Tourist Attractions",
-      "type": "destinations",
-      "image": "mukteshwar.png"
-    },
-    {
-      "title": "Ramgarh",
-      "subtitle": "5 Tourist Attractions",
-      "type": "destinations",
-      "image": "ramgarh.png"
-    },
-    {
-      "title": "Binsar",
-      "subtitle": "5 Tourist Attractions",
-      "type": "destinations",
-      "image": "binsar.png"
-    },
-    {
-      "title": "Jageshwar",
-      "subtitle": "5 Tourist Attractions",
-      "type": "destinations",
-      "image": "jageshwar.png"
-    }
+    }    
   ]
 }
