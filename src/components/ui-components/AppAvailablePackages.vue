@@ -89,12 +89,8 @@ export default {
   transition: all 0.3s ease;
   &:hover {
     cursor: pointer;
-    box-shadow: 0 0 15px 2px;
-    transform: scale(1.07);
-    // background: rgb(96, 191, 243);
-    // span {
-    //   color: white !important;
-    // }
+    // box-shadow: 0 0 15px 2px;
+    transform: scale(1.05);
   }
   .available-packages-tile {
     width: 100%;

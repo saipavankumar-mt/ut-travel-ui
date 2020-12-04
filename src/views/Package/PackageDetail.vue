@@ -342,7 +342,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .image-ht {
   height: 300px !important;
 }
