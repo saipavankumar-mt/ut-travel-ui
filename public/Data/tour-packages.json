@@ -209,7 +209,7 @@
           "duration": "8 Nights / 9 Days"
         },
         {
-          "id": "Pckg-B-19",
+          "id": "Pckg-B-20",
           "title": "ENCHANTNG UTTARAKHAND",
           "key": "EnchantingUttarakhand",
           "image": "",
@@ -220,20 +220,20 @@
     {
       "type": "Adventure Packages",
       "key": "adventurePackages",
-      "items": [
+      "items": [        
         {
           "id": "Pckg-A-1",
-          "title": "Real Adventure With Corbett",
-          "key": "Real-Adventure-With-Corbett",
-          "image": "RealAdventureWithCorbettTile.png",
-          "duration": "5 Nights / 6 Days"
-        },
-        {
-          "id": "Pckg-A-2",
           "title": "Real Adventure",
           "key": "Real-Adventure",
           "image": "riverrafting.png",
           "duration": "6 Nights / 7 Days"
+        },
+        {
+          "id": "Pckg-A-2",
+          "title": "Real Adventure With Corbett",
+          "key": "Real-Adventure-With-Corbett",
+          "image": "RealAdventureWithCorbettTile.png",
+          "duration": "5 Nights / 6 Days"
         }
       ]
     }

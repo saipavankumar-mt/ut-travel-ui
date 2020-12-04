@@ -61,24 +61,6 @@
       "title": "Kalandi Khal",
       "key": "KALANDI-KHAL",
       "image": "destinations/KalandiKhalTile.png"
-    }, 
-    {
-      "id": "Trek-M-4",
-      "title": "Deoria Tal",
-      "key": "DEORIA-TAL",
-      "image": "destinations/DeoriaTalTile.png"
-    },
-    {
-      "id": "Trek-M-5",
-      "title": "Kakabhushandi Tal",
-      "key": "KAKABHUSHANDI-TAL",
-      "image": "destinations/KakabhushandiTalTile.png"
-    },       
-    {
-      "id": "Trek-M-10",
-      "title": "Brahmatal",
-      "key": "BRAHMATAL",
-      "image": "destinations/BrahmatalTile.png"
     }
   ]
 }
