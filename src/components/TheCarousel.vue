@@ -26,6 +26,7 @@
             units="uk"
             :latitude="forcast.lat"
             :longitude="forcast.long"
+            :locationName="forcast.name"
             language="en"
             :hide-header="hideHeader"
             :hide-week="hideWeek"

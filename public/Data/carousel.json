@@ -13,7 +13,8 @@
         "location": [
           {
             "lat": "29.94791",
-            "long": "78.16025"
+            "long": "78.16025",
+            "name": "Haridwar"
           }
         ]
       },
@@ -36,7 +37,8 @@
         "location": [
           {
             "lat": "31.0243",
-            "long": "78.1707"
+            "long": "78.1707",
+            "name": "Kedarnath"
           }
         ]
       },
@@ -59,7 +61,8 @@
         "location": [
           {
             "lat": "29.94791",
-            "long": "78.16025"
+            "long": "78.16025",
+            "name": "Haridwar"
           }
         ]
       },
@@ -80,7 +83,8 @@
         "location": [
           {
             "lat": "29.94791",
-            "long": "78.16025"
+            "long": "78.16025",
+            "name": "Haridwar"
           }
         ]
       },

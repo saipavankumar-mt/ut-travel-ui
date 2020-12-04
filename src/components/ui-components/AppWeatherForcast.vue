@@ -70,9 +70,9 @@
               </div>
             </div>
           </div>
-          <div class="vww__title">{{ currently.summary }}</div>
+          <div class="vww__title">{{ locationName }}</div>
           <div class="vww__wind">
-            Last Updated:
+            Updated:
             {{ currently.dateTime | moment }}
             <span @click="hydrate()" class="refresh">
               <i class="fas fa-sync-alt"></i>
@@ -130,7 +130,7 @@ export default {
 
   filters: {
     moment: function(date) {
-      return moment(date).format('MMMM Do YYYY, h:mm a');
+      return moment(date).format('DD/M, LT');
     },
   },
   props: {
@@ -160,6 +160,10 @@ export default {
     // The longitude of a location (in decimal degrees).
     // Positive is east, negative is west.
     longitude: {
+      type: String,
+    },
+
+    locationName: {
       type: String,
     },
 
