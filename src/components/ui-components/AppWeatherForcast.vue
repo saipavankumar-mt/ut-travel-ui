@@ -371,7 +371,7 @@ export default {
 <style>
 .vww__widget {
   width: 100%;
-  min-width: 250px;
+  min-width: 200px;
   max-width: 800px;
 }
 
@@ -433,10 +433,6 @@ export default {
   font-weight: 700;
 }
 
-.vww__currently .vww__title {
-  margin-top: 10px;
-}
-
 .vww__temp {
   padding: 0 10px;
   font-size: 50px;
@@ -466,12 +462,12 @@ export default {
 
 @media screen and (min-width: 600px) {
   .vww__currently {
-    width: 300px;
+    width: 200px;
   }
   .vww__daily {
     display: block;
     height: 100%;
-    width: calc(100% - 300px);
+    width: calc(100% - 200px);
     display: flex;
     align-items: center;
     justify-content: space-between;
