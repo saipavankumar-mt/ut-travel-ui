@@ -317,8 +317,8 @@ export default {
       const fetchWeatherMethod = Utils.fetchOWMWeather;
       return fetchWeatherMethod({
         apiKey: '141973eab82fd1074988ffa8397b09bf',
-        lat: this.location.lat,
-        lng: this.location.lng,
+        lat: this.latitude,
+        lng: this.longitude,
         units: this.units,
         language: this.language,
       }).then((data) => {
@@ -338,7 +338,6 @@ export default {
     hydrate(setLoading = true) {
       this.$set(this, 'loading', setLoading);
       return this.$nextTick()
-        .then(this.processLocation)
         .then(this.loadWeather)
         .then(() => {
           this.$set(this, 'error', null);
@@ -353,17 +352,17 @@ export default {
         });
     },
 
-    processLocation() {
-      return Utils.reverseGeocode(this.latitude, this.longitude).then(
-        (data) => {
-          this.$set(this, 'location', {
-            lat: this.latitude,
-            lng: this.longitude,
-            name: `${data.region}, ${data.country}`,
-          });
-        }
-      );
-    },
+    // processLocation() {
+    //   return Utils.reverseGeocode(this.latitude, this.longitude).then(
+    //     (data) => {
+    //       this.$set(this, 'location', {
+    //         lat: this.latitude,
+    //         lng: this.longitude,
+    //         name: `${data.region}, ${data.country}`,
+    //       });
+    //     }
+    //   );
+    // },
   },
 };
 </script>

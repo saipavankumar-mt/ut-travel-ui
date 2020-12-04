@@ -1,5 +1,4 @@
 const IP_CACHE = 'vww__cache_ip';
-const GEOCODE_CACHE = 'vww__cache_geocode';
 
 const ICON_MAPPINGS = {
   'clear-day': ['01d'],
@@ -45,32 +44,7 @@ const utils = {
         return data;
       });
   },
-
-  geocode(query, reversed = false) {
-    let cache = localStorage[GEOCODE_CACHE] || '{}';
-    cache = JSON.parse(cache);
-    if (cache[query]) {
-      return Promise.resolve(cache[query]);
-    }
-
-    const apiKey = 'c3bb8aa0a56b21122dea6a2a8ada70c8';
-    const apiType = reversed ? 'reverse' : 'forward';
-    return fetch(
-      `http://api.positionstack.com/v1/${apiType}?access_key=${apiKey}&query=${query}`
-    )
-      .then((resp) => resp.json())
-      .then((result) => {
-        cache[query] = result.data[0];
-        localStorage[GEOCODE_CACHE] = JSON.stringify(cache);
-        return cache[query];
-      });
-    // latitude, longitude, region, country
-  },
-
-  reverseGeocode(lat, lng) {
-    return utils.geocode(`${lat},${lng}`, true);
-  },
-
+  
   fetchOWMWeather(opts = {}) {
     opts.units = opts.units || 'auto';
     opts.language = opts.language || 'en';
@@ -95,14 +69,14 @@ const utils = {
     const { current } = data;
     const { weather } = current;
     const [currentWeather] = weather;
-    const { description, icon } = currentWeather;
+    const { icon } = currentWeather;
     const iconName = utils.mapIcon(icon);
-
-    return {
+    
+    return {      
       currently: Object.assign({}, current, {
         icon: iconName,
         temperature: current.temp,
-        summary: description,
+        summary: current.name,
         windSpeed: current.wind_speed,
         windBearing: current.wind_deg,
         dateTime: new Date(),
