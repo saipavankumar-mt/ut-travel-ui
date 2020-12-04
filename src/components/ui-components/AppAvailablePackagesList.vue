@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "AvailablePackagesList",
+  name: "AppAvailablePackagesList",
   components: {},
   data() {
     return {

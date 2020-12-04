@@ -35,6 +35,7 @@
         </div>
       </b-carousel-item>
     </b-carousel>
+    <app-available-packages-list class="available"></app-available-packages-list>
   </div>
 </template>
 
