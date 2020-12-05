@@ -5,7 +5,7 @@
         <the-header @onToggle="onToggle"></the-header>
         <the-bread-crumb v-if="showBreadCrumb"></the-bread-crumb>
         <div class="app-router" id="app-main-container">
-          <router-view />
+          <app-router-view />
         </div>
         <the-footer></the-footer>
       </div>

@@ -65,7 +65,6 @@
             :item="item"
             :app-preview-settings="appPreviewSettings"
           ></app-preview-card>
-          <router-view></router-view>
         </div>
       </section>
     </div>
