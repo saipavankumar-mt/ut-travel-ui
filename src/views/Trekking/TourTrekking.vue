@@ -24,6 +24,7 @@
         alt="kashmir-banner"
       />
     </div>
+    <div class="divider"></div>
     <div
       class="package-container"
       id="scroll"
@@ -137,6 +138,9 @@ export default {
   // margin: 8px;
   padding: unset !important;
 }
+.package-container {
+  padding: 2rem;
+}
 
 .tour-trekking {
   .banner {
@@ -223,12 +227,6 @@ export default {
     }
   }
 
-  .divider {
-    height: 1px;
-    background: #bfa4a4;
-    margin-top: 24px;
-    width: 100%;
-  }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {

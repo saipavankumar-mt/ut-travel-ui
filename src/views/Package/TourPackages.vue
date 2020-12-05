@@ -50,6 +50,7 @@
         alt="kashmir-banner"
       />
     </div>
+    <div class="divider"></div>
     <div class="package-container" id="scroll">
       <section>
         <b-tabs v-model="activeTab">
@@ -270,7 +271,12 @@ export default {
   // margin: 8px;
   padding: unset !important;
 }
-
+.package-container {
+  padding: 2rem;
+}
+.b-tabs .tab-content {
+  padding: 1rem 0 0;
+}
 .tour-package {
   .banner {
     display: flex;
@@ -333,8 +339,7 @@ export default {
 
   .tour-package-info {
     text-align: left;
-    padding-bottom: 10px;
-    padding: 0 24px;
+    padding: 2rem;
 
     .package-title {
       display: flex;
@@ -357,12 +362,6 @@ export default {
     }
   }
 
-  .divider {
-    height: 1px;
-    background: #bfa4a4;
-    margin-top: 24px;
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 1366px) {

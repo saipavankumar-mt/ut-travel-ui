@@ -5,3 +5,15 @@
   color: #47caf0 !important;
   font-weight: 700;
 }
+
+.divider::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 50%;
+  width: 6.5rem;
+  height: 2px;
+  margin: 0 auto;
+  transform: translateX(-50%);
+  background: #47caf0;
+}
