@@ -56,21 +56,21 @@ export default {
     AppPreviewCard,
   },
 
-  props: {
-    currentTabIndex: {
-      type: Number,
-      default: 0,
-    },
-    scroll: {
-      type: Boolean,
-      default: false,
-    },
-  },
+  // props: {
+  //   currentTabIndex: {
+  //     type: Number,
+  //     default: 0,
+  //   },
+  //   scroll: {
+  //     type: Boolean,
+  //     default: false,
+  //   },
+  // },
 
   data() {
     return {
       trekkingInfo: {},
-      activeIndex: this.currentTabIndex,
+      // activeIndex: this.currentTabIndex,
       appPreviewSettings: {
         showHover: false,
         cardContent: 'card-setting',
@@ -90,22 +90,22 @@ export default {
     window.scrollTo(0, 0);
     this.getTourPackages();
   },
-  mounted() {
-    if (this.scroll) {
-      this.onIndexChange();
-    }
-  },
+  // mounted() {
+  //   if (this.scroll) {
+  //     this.onIndexChange();
+  //   }
+  // },
   methods: {
-    onIndexChange() {
-      var element = document.getElementById('scroll');
-      var headerOffset = 80;
-      var elementPosition = element.getBoundingClientRect().top;
-      var offsetPosition = elementPosition - headerOffset;
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth',
-      });
-    },
+    // onIndexChange() {
+    //   var element = document.getElementById('scroll');
+    //   var headerOffset = 80;
+    //   var elementPosition = element.getBoundingClientRect().top;
+    //   var offsetPosition = elementPosition - headerOffset;
+    //   window.scrollTo({
+    //     top: offsetPosition,
+    //     behavior: 'smooth',
+    //   });
+    // },
     onViewClicked(value) {
       this.redirect(value);
     },

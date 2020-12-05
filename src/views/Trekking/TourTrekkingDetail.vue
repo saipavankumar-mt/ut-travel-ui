@@ -244,6 +244,7 @@ export default {
   },
   props: ['trekkingId'],
   created() {
+    window.scrollTo(0, 0);
     this.getTrekkingPPackages();
   },
   methods: {
