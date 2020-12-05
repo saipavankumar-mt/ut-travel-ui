@@ -1,13 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
-import PackageDetail from '../views/Package/PackageDetail.vue';
-import TourDestinationDetail from '../views/Destination/TourDestinationDetail.vue';
-import TourTrekkingDetail from '../views/Trekking/TourTrekkingDetail.vue';
-import TourPackages from '../views/Package/TourPackages.vue';
-import TourDestinations from '../views/Destination/TourDestinations.vue';
-import TourTrekking from '../views/Trekking/TourTrekking.vue';
-import AboutUs from '../views/AboutUs.vue';
 import AppRouterView from '../components/ui-components/AppRouterView.vue';
 
 Vue.use(VueRouter);
@@ -17,14 +10,6 @@ const routes = [
     path: '/',
     name: 'home',
     component: Home,
-    // children: [
-    //   {
-    //     path: 'home',
-    //     name: 'home',
-    //     component: Home,
-    //     meta: { breadCrumb: 'Home' }
-    //   },
-    // ],
   },
 
   {
@@ -35,24 +20,17 @@ const routes = [
       {
         path: '',
         name: 'tour-packages',
-        component: TourPackages,
+        component: () => import('../views/Package/TourPackages.vue'),
         props: true,
       },
       {
         path: ':packageName',
         name: 'detail',
-        component: PackageDetail,
-        props: true,    
+        component: () => import('../views/Package/PackageDetail.vue'),
+        props: true,
       }
     ],
   },
-
-  // {
-  //   path: '/tour-packages/:packageName',
-  //   name: 'detail',
-  //   component: PackageDetail,
-  //   props: true,
-  // },
 
   {
     path: '/destinations',
@@ -62,25 +40,18 @@ const routes = [
       {
         path: '',
         name: 'destinations',
-        component: TourDestinations,
+        component: () => import('../views/Destination/TourDestinations.vue'),
         props: true,
 
       },
       {
-          path: ':destinationName',
-          name: 'destination-detail',
-          component: TourDestinationDetail,
-          props: true,
+        path: ':destinationName',
+        name: 'destination-detail',
+        component: () => import('../views/Destination/TourDestinationDetail.vue'),
+        props: true,
       },
     ],
   },
-
-  // {
-  //   path: '/destinations/:destinationName',
-  //   name: 'destination-detail',
-  //   component: TourDestinationDetail,
-  //   props: true,
-  // },
 
   {
     path: '/trekking',
@@ -90,29 +61,22 @@ const routes = [
       {
         path: '',
         name: 'trekking',
-        component: TourTrekking,
+        component: () => import('../views/Trekking/TourTrekking.vue'),
         props: true,
       },
       {
-          path: ':trekkingName',
-          name: 'trekking-detail',
-          component: TourTrekkingDetail,
-          props: true,
+        path: ':trekkingName',
+        name: 'trekking-detail',
+        component: () => import('../views/Trekking/TourTrekkingDetail.vue'),
+        props: true,
       },
     ],
   },
 
-  // {
-  //   path: '/trekking/:trekkingName',
-  //   name: 'trekking-detail',
-  //   component: TourTrekkingDetail,
-  //   props: true,
-  // },
-
   {
     path: '/about-us',
     name: 'about-us',
-    component: AboutUs,
+    component: () => import('../views/AboutUs.vue'),
     meta: { breadCrumb: 'About Us' },
   },
 
