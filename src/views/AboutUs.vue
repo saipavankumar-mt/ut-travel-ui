@@ -9,7 +9,7 @@
     </header>
     <section class="about-us-content">
       <app-profile-card
-        v-for="(member, idx) in founder"
+        v-for="(member, idx) in members.FOUNDER"
         :key="idx"
         :member="member"
         :is-founder="true"
@@ -19,12 +19,17 @@
       <h1 class="main-title">Our Team</h1>
     </header>
     <section class="marketing-team columns is-multiline">
-      <div class="column is-half" v-for="(member, idx) in marketing" :key="idx">
+      <div class="column is-half" v-for="(member, idx) in members.MARKETING" :key="idx">
         <app-profile-card :member="member" :is-marketing="true"></app-profile-card>
       </div>
     </section>
     <section class="operations-team columns is-multiline">
-      <div class="column is-one-third" v-for="(member, idx) in operations" :key="idx">
+      <div class="column is-one-third" v-for="(member, idx) in members.OPERATIONS" :key="idx">
+        <app-profile-card :member="member" :is-operations="true"></app-profile-card>
+      </div>
+    </section>
+    <section class="operations-team columns is-multiline">
+      <div class="column is-one-third" v-for="(member, idx) in members.TECHNICAL" :key="idx">
         <app-profile-card :member="member" :is-operations="true"></app-profile-card>
       </div>
     </section>
@@ -36,23 +41,18 @@ export default {
   name: 'AboutUs',
   data() {
     return {
-      marketing: [],
-      founder: [],
-      operations: [],
+      members: {
+        FOUNDER: [],
+        MARKETING: [],
+        OPERATIONS: [],
+        TECHNICAL: []
+      }
     };
   },
   created() {
     this.$http.get(`${process.env.BASE_URL}Data/aboutus.json`).then((res) => {
       res.data.map((response) => {
-        if (response.key === 'Founder') {
-          this.founder = response.members;
-        }
-        if (response.key === 'Marketing') {
-          this.marketing = response.members;
-        }
-        if (response.key === 'Operations') {
-          this.operations = response.members;
-        }
+        this.members[response.key.toUpperCase()] = response.members;
       });
     });
   },

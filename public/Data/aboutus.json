@@ -66,5 +66,25 @@
         "description": "Helps in your trip planning"
       }
     ]
+  },
+  {
+    "type": "Technical",
+    "key": "Technical",
+    "members": [
+      {
+        "name": "Saipavan Kumar",
+        "designation": "Architect",
+        "image": "saipavan.png",
+        "location": "Hyderabad",
+        "description": "Specialization in design and development of websites."
+      },
+      {
+        "name": "Praveen Kumar",
+        "designation": "Developer",
+        "image": "praveen.png",
+        "location": "Pune",
+        "description": "Specialization in design and development of websites."
+      }
+    ]
   }
 ]
