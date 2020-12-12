@@ -64,6 +64,20 @@
         "image": "anjalisharma.png",
         "location": "Haridwar",
         "description": "Helps in your trip planning"
+      },
+      {
+        "name": "Nancy Sharma",
+        "designation": "Operations",
+        "image": "nancysharma.png",
+        "location": "Haridwar",
+        "description": "Helps in your trip planning"
+      },
+      {
+        "name": "Divya Chauhan",
+        "designation": "Operations",
+        "image": "divyachauhan.png",
+        "location": "Haridwar",
+        "description": "Helps in your trip planning"
       }
     ]
   },
