@@ -66,6 +66,7 @@ export default {
   }
   .theme-content {
     padding: 30px 0;
+    margin: 0;
   }
 }
 

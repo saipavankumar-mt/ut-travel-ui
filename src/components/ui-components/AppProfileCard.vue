@@ -124,4 +124,47 @@ export default {
     }
   }
 }
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .profile-card {
+    &.founder {
+      margin: 0;
+      display: block;
+      .member-image {
+        margin: auto;
+        margin-bottom: 1rem;
+      }
+      .member-info {
+        border: none;
+        margin: 0;
+        padding: 0;
+      }
+    }
+    &.marketing .member-image{
+      width: 150px;
+      height: 150px;
+    }
+    &.marketing,
+    &.operations {
+      padding: .75rem;
+      .member-image {
+        margin-right: .75rem;
+      }
+      .member-info {
+        padding-left: 1rem;
+        margin-left: 0.25rem;
+        .member-designation {
+          display: block;
+          margin-bottom: 0;
+          margin-left: 0;
+          padding-bottom: .25rem;
+        }
+        .member-location {
+          margin-bottom: 1rem;
+          padding-left: 0.5rem;
+          border-left: 2px solid rgba(71, 202, 240, 0.5);
+        }
+      }
+    }
+  }
+}
 </style>

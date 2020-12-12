@@ -6,25 +6,23 @@
           <div class="footer-logo column is-full">
             <img src="../assets/footer-logo.png" alt="Footer Logo" />
           </div>
-          <div class="footer-logo column is-full">
+          <div class="footer-stamp column is-full">
             <img src="../assets/footer-stamp.png" alt="Footer Stamp" />
           </div>
-          <div class="footer-section social column is-full">
-            <h3 class="footer-section-title column is-full">CONNECT WITH US</h3>
-            <div class="footer-section-item column is-full">
-              <a href="https://www.facebook.com/uttranchal.holidaysuh" target="_blank">
-                <img class="social-icon" src="../assets/icons/facebook.png" alt="facebook">
-              </a>
-              <a href="https://www.youtube.com/channel/UCvguCwKOlVobZ3cpLr0J-jw" target="_blank">
-                <img class="social-icon" src="../assets/icons/youtube.png" alt="youtube">
-              </a>
-              <a href="">
-                <img class="social-icon" src="../assets/icons/twitter.png" alt="twitter">
-              </a>
-              <a href="">
-                <img class="social-icon" src="../assets/icons/instagram.png" alt="instagram">
-              </a>
-            </div>
+          <h3 class="footer-section-title column is-full">CONNECT WITH US</h3>
+          <div class="footer-section-item column is-full">
+            <a href="https://www.facebook.com/uttranchal.holidaysuh" target="_blank">
+              <img class="social-icon" src="../assets/icons/facebook.png" alt="facebook">
+            </a>
+            <a href="https://www.youtube.com/channel/UCvguCwKOlVobZ3cpLr0J-jw" target="_blank">
+              <img class="social-icon" src="../assets/icons/youtube.png" alt="youtube">
+            </a>
+            <a href="">
+              <img class="social-icon" src="../assets/icons/twitter.png" alt="twitter">
+            </a>
+            <a href="">
+              <img class="social-icon" src="../assets/icons/instagram.png" alt="instagram">
+            </a>
           </div>
         </div>
       </div>
@@ -69,7 +67,11 @@
         </div>
       </div>
     </div>
-    <div class="footer-bottom columns"></div>
+    <div class="footer-bottom columns">
+      <div class="footer-section-item column has-text-centered has-text-white is-size-7">
+        Copyright © <router-link to="/">Uttranchal Holidays 2021</router-link>. All Rights Reserved.
+      </div>
+    </div>
   </footer>
 </template>
 
@@ -161,10 +163,11 @@ export default {
     margin: 0 1.5rem !important;
     padding: 1.5rem 0;
     border-bottom: 1px solid rgba(248, 248, 249, 0.2);
-    .footer-logo {
-      img {
-        width: 60%;
-      }
+    .footer-logo img {
+      width: 60%;
+    }
+    .footer-stamp img {
+      width: 50%;
     }
     .footer-section {
       h3.footer-section-title {
@@ -203,7 +206,21 @@ export default {
   }
   .footer-bottom {
     margin: 0 1.5rem !important;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
+    .footer-section-item {
+      padding: 0;
+    }
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 360px) {
+  .footer-stamp {
+    display: none;
+  }
+  .footer-section {
+    text-align: center !important;
+  }
+  .footer-bottom {
+    margin: 0 .75rem !important;
   }
 }
 </style>

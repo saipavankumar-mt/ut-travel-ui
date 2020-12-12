@@ -117,36 +117,14 @@ export default {
       width: 6.5rem;
     }
   }
-
-  // @media only screen and (min-width: 360px) and (max-width: 640px) {
-  //   .about-us {
-  //     h5 {
-  //       padding: unset;
-  //       padding-bottom: 30px;
-  //     }
-  //     .media {
-  //       display: flex;
-  //       flex-direction: column;
-  //       margin: auto;
-
-  //       .media-left {
-  //         margin: auto;
-  //       }
-  //     }
-  //   }
-
-  //   .media-content {
-  //     .content {
-  //       text-align: center;
-  //       background: white;
-  //     }
-  //   }
-
-  //   .columns {
-  //     padding: 1rem 0 !important;
-  //     .column {
-  //       // padding: unset !important;
-  //     }
-  //   }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) { 
+  .about-us {
+    padding: 0 1.5rem;
+    .main-title-desc {
+      padding: 1.5rem !important;
+      padding-bottom: 0 !important;
+    }
+  }
 }
 </style>
