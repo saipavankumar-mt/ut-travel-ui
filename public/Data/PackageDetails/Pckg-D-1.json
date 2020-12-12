@@ -9,8 +9,9 @@
       "showWeatherForcast": true,
       "location": [
         {
-          "lat": "29.94791",
-          "long": "78.16025"
+          "lat": "31.0243",
+          "long": "78.1707",
+          "name": "Kedarnath"
         }
       ]
     },
