@@ -10,7 +10,7 @@
             <span>{{posts.duration}}</span>
           </div>
         </div>-->
-        <p>{{ posts.subtitle }}</p>
+        <p v-if="posts.subtitle">{{ posts.subtitle }}</p>
         <div v-for="(item, i) in posts.overview" :key="i">
           <div v-if="(i <= 2 || i % 2 == 0) && !$isMobile()">
             <h5>{{ item.title }}</h5>
@@ -403,7 +403,6 @@ export default {
 .travel-detail {
   .banner {
     display: flex;
-    padding-bottom: 36px;
     justify-content: space-between;
     .intro {
       width: 50%;
