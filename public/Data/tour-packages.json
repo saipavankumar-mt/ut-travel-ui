@@ -30,30 +30,37 @@
           "id": "Pckg-D-2",
           "title": "PanchKedar",
           "key": "PanchKedar",
-          "image": "panchkedarTile.png",
+          "image": "PanchKedarYatraTile.png",
           "duration": "15 Nights / 16 Days"
         },
         {
           "id": "Pckg-D-3",
           "title": "Chardham By Helicopter",
           "key": "ChardhamByHeli",
-          "image": "ChardhamTile.png",
+          "image": "ChardhamByHelicopterTile.png",
           "duration": "4 Nights / 5 Days"
         },
+        {
+          "id": "Pckg-D-4",
+          "title": "DoDham(Gangotri & Yamunotri)",
+          "key": "Dodham",
+          "image": "GangotriYamunotriTile.png",
+          "duration": "6 Nights / 7 Days"
+        },
+        {
+          "id": "Pckg-D-4",
+          "title": "Dodham",
+          "key": "Dodham",
+          "image": "DhodhamTile.png",
+          "duration": "6 Nights / 7 Days"
+        },   
         {
           "id": "",
           "title": "Teendham",
           "key": "Teendham",
           "image": "teendhamTile.png",
           "duration": "9 Nights / 10 Days"
-        },
-        {
-          "id": "",
-          "title": "Dodham",
-          "key": "Dodham",
-          "image": "DhodhamTile.png",
-          "duration": "4 Nights / 5 Days"
-        },        
+        },             
         {
           "id": "",
           "title": "Panchbadri",

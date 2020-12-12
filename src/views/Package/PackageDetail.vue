@@ -387,7 +387,6 @@ export default {
 .travel-detail {
   .banner {
     display: flex;
-    padding-bottom: 36px;
     justify-content: space-between;
     .intro {
       width: 50%;

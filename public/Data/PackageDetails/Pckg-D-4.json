@@ -1,0 +1,400 @@
+{
+  "data":
+	{
+	  "id": "Pckg-D-4",
+	  "key": "DoDham(Gangotri & Yamunotri)",
+	  "title": "Do Dham",
+	  "qoute": "...Explore Haridwar and Barkot and Yamunotri and Gangotri and Uttarkashi",
+	  "subtitle": "",
+	  "weather": {
+        "showWeatherForcast": true,
+        "location": [
+          {
+            "lat": "29.94791",
+			"long": "78.16025",
+			"name": "Gangotri"
+		  },
+		  {
+            "lat": "29.94791",
+			"long": "78.16025",
+			"name": "Yamunotri"
+          }
+        ]
+      },
+	  "overview":[		
+		{
+		  "title":"Do Dham (…A holy journey to reach Do Dham of Uttarakhand.):",
+		  "subtitle":"Our 6 Nights / 7 Days Do Dham Yatra package starts from Delhi and takes you to the holy shrines via Haridwar & Rishikesh another holy cities in India. In this Do Dham Yatra packages, we will cover Yamunotri and Gangotri Dhams of Uttarakhand."
+		}
+	  ],
+	  "temperature":[
+		{
+			
+
+		} 	
+	  ],
+	  "route": "Delhi – Haridwar – Barkot and Yamunotri and Gangotri and Uttarkashi – Haridwar – Delhi",
+	  "duration": "6 Nights / 7 Days",
+	  "nightStay": "Haridwar (2 Nights), Barkot (2 Nights), Uttarkashi (2 Nights)",
+	  "heroImage": "GangotriYamunotriTile.png",
+	  "price": "",
+	  "images": [
+		  "GangotriDham.png",
+		  "yamunotriDham.png"
+	  ],
+	  "description": [
+		{
+		  "title": "Day 1 Pickup from Delhi Railway Station/Airport (220 Kms : 6Hrs. Travelling to Haridwar)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Delhi",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Haridwar",
+			  "subtitle": "220Kms : 6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{ 
+				  "activities": "Enjoy a quick and hassle-free check-in at Hotel, with Welcome Drink(Non Alcoholic)."
+				},
+				{ 
+				  "activities": "After fresh up, go for Haridwar sightseeing. Take a Holy Bath & see Evening Aarti at Har-Ki-Pauri and visit local market Moti Bazar and Temples like Bhuma Niketan Mandir, Bharat Mata Mandir, Vaishno Devi Mandir and Paawan Dham."
+				},
+				{ 
+				  "activities": "Dinner & Overnight Stay at Haridwar."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 2 Haridwar to Barkot (170- Kms : 7Hrs. Travelling to Barkot)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Haridwar",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Barkot",
+			  "subtitle": "170Kms : 7Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{
+				  "activities": "Start Holy Yatra of Do Dham early morning at 7:00 AM from Haridwar via Mussoorie."
+			    },
+				{ 
+				  "activities": "In Mussoorie, you can visit Kampty Fall. Further move to Barkot."
+				},
+				{ 
+				  "activities": "Dinner & Overnight Stay at Barkot."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 3 Barkot to Yamunotri (46 Kms Drive and 5 Kms Trekking to Yamunotri)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Barkot",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Yamunotri",
+			  "subtitle": "46 Kms Drive and 5 Kms trekking"
+			}
+		  ],		  
+		  "subtitles": [
+				{
+				  "activities": "After breakfast, start Yatra to Yamunotri and after Jankichatti you have to go ahead by foot."
+			    },
+				{ 
+				  "activities": "Here, one can cook rice by packing it in a cloth and dipping it in the hot water of the Tapkund. Pilgrims take this cooked rice home as 'Prasad'. Near the temple 'Pooja' can be offered to Divya Shila, after taking bath in Jamunabai Kund's warm water and having 'Darshan' of pious 'Yamunaji'."
+				},
+				{ 
+				  "activities": "Return to Barkot, Dinner & Overnight Stay at Barkot."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 4 Barkot to Uttarkashi (79 Kms : 3-4Hrs. Travelling to Uttarkashi)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Barkot",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Uttarkashi",
+			  "subtitle": "79Kms : 3-4hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{
+				  "activities": "After taking breakfast visit local sightseeing Lakhamandal (Historical place related to Mahabharata Times) and after fresh up leave for Uttarkashi via Randi and Dharasu."
+			    },
+				{ 
+				  "activities": "On arrival check in at Uttarkashia and you are fully free for leisure & local attractions in evening."
+				},
+				{ 
+				  "activities": "Dinner & Overnight Stay at Uttarkashi."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 5 Uttarkashi to Gangotri (98 Kms : 4Hrs. Travelling to Gangotri)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Uttarkashi",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Gangotri",
+			  "subtitle": "98Kms : 4Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{
+				  "activities": "Post Tea/ Coffee, leave for Gangotri early in the morning with packed breakfast."
+			    },
+				{
+				  "activities": "Enroute stopover at Gangnani, a hot water spring. Post offering prayers & pooja darshan, stop enroute at place of your choice for lunch. Post lunch drive back to Uttarkashi, enroute visit Gangnani."
+				},
+				{ 
+				  "activities": "Dinner & Overnight Stay at Uttarkashi hotel."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 6 Uttarkashi to Haridwar / Rishikesh (190 Kms : 6Hrs. Travelling to Haridwar)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Uttarkashi",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Haridwar",
+			  "subtitle": "190Kms : 6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{
+				  "activities": "Morning after breakfast, check out from hotel and drive for Haridwar."
+			    },
+				{ 
+				  "activities": "Enroute visit local sightseeing of Rishikesh like Evening Aarti Pooja at Prabhat Niketan Ghat at Rishikesh."
+				},
+				{ 
+				  "activities": "Check in, Dinner & Overnight Stay at Haridwar / Rishikesh hotel."
+				}
+		  ]
+		},
+		{
+		"title": "Day 7 Check Out from Haridwar / Rishikesh (220 Kms : 6Hrs. Travelling to Delhi)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Haridwar / Rishikesh",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Delhi",
+			  "subtitle": "220Kms : 6-7Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"activities": "After breakfast, check out from hotel and move for Delhi."				
+			  },
+			  {
+				"activities": "Reaching at Railway Station/Airport by having Sweet Memoires in mind and lots of love."				
+			  }			
+		  ]
+		}
+		
+	  ],
+	  "importantInfo": [
+		{
+		  "title": "Note",
+		  "subtitles": [
+			"All extras (F & B and any other services) availed by the customer will be on direct payment basis.",
+			"AC and Music System in Vehicle will not be operated when we are on the Hilly Area.",
+			"In case of odd number groups, the extra person shall be accommodated in the same room with an extra bed /mattress.",
+			"The above rates are applicable to the Indian Nationals only.",
+			"Any Meals, services not utilized, partly utilized are non-refundable.",
+			"All the rates are subject to change without prior notice.",
+			"All rates are valid till 30th June, 2020.",
+			"All disputes are subject to Haridwar Jurisdiction.",
+			"Govt. Taxes (GST)"
+		  ]
+		},
+		{
+		  "title": "Mode of Payment:",
+		  "subtitles": [
+		    "Kindly release 25% Payment for the Blocking.",
+			"Kindly release total 50% Payment before 30 days of arrival.",
+			"Kindly release total 100% Payment before 7 days of arrival."
+		  ]
+		}
+	  ],
+	  "cancellationPolicy":{
+		"title": "Cancellation Policy:",
+		  "subtitles": [
+			"10% of the Total Package Cost is Non-Refundable.",
+			"25% cancellation charge of the total package cost, if cancellation less than 30 days before arrival.",
+			"35% cancellation charge of the total package cost, if cancellation between 15 to 7 days before arrival.",
+			"50% cancellation charge of the total package cost if cancellation between 7 to 2 days before arrival.",
+			"100% cancellation charge of the total package cost if cancellation before 48 Hrs. before arrival.",
+			"Altering the confirmed plan Not possible."
+		  ]
+	  },
+	  "inclusionAndExclusion":[
+		{
+		  "title": "Experience Includes:",
+		  "subtitles": [
+			"Accommodation at all the places mention in the itinerary.",
+			"Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
+			"Transportation around the tour (As mentioned above).",
+			"All sightseeing and excursion as per the Itinerary.",
+			"All Toll Tax, Parking Includes."
+		  ]
+		},
+		{
+		  "title": "Package Excludes:",
+		  "subtitles": [
+			"Air Fare / Train Fare.",
+			"Any meals other than those specified in ‘Experience Includes’.",
+			"Expenses of personal nature such as tips, telephone calls, laundry etc.",
+			"Entrance fees during sightseeing.",
+			"Destination Guide.",
+			"Any item of personal nature like Telephone, Tips, Donations at Temples, Extended Stay or Travelling due to any reason."
+			
+		  ]
+		},
+		{
+		  "title": "High lights:",
+		  "subtitles": [
+			"No Night Travel (After 7:00 pm as per Government Rules).",
+			"Sumptuous, Hygienic and pure vegetarian food as per regional taste and palate.",
+			"Neat & clean hotels and Camp with quality service"
+		  ]
+		},
+		{
+		  "title": "Weather Condition:",
+		  "subtitles": [
+			"Expenses incurred due to bad weather condition, Road Closes, Landslides are out of control will be charge extra as per actual."
+		  ]
+		}
+	  ],
+	 "accomodationInfo":[
+		{
+			"accomodation": "Haridwar",
+			"standard": "",
+			"deluxe": "",
+			"luxury": ""
+		},
+		{
+			"accomodation": "Barkot",
+			"standard": "",
+			"deluxe": "",
+			"luxury": ""
+		},
+		{
+			"accomodation": "Uttarkashi",
+			"standard": "",
+			"deluxe": "",
+			"luxury": ""
+		},
+		{
+			"accomodation": "Rishikesh / Haridwar",
+			"standard": "",
+			"deluxe": "",
+			"luxury": ""
+		}
+		
+	  ],
+	 "perPersonCostInfo":[
+		{
+			"passengers": "2",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "3",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "4",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "5",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "6",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "7",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "8",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "9",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "10",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "11",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "12",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		}
+	  ]
+	}
+}

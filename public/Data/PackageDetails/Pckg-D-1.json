@@ -28,7 +28,6 @@
     "heroImage": "chardhamheroimage.png",
     "price": "41000",
     "images": [
-      "ChardhamYatra.png",
       "BadrinathDham.png",
       "GangotriDham.png",
       "KedarnathDham.png",
@@ -439,7 +438,128 @@
         ]
       }
     ],
-    "accomodationInfo": [],
-    "perPersonCostInfo": []
+    "accomodationInfo": [
+      {
+        "accomodation": "Haridwar",
+        "standard": "",
+        "deluxe": "",
+        "luxury": ""
+      },
+      {
+        "accomodation": "Barkot",
+        "standard": "",
+        "deluxe": "",
+        "luxury": ""
+      },
+      {
+        "accomodation": "Uttarkashi",
+        "standard": "",
+        "deluxe": "",
+        "luxury": ""
+      },
+      {
+        "accomodation": "Guptakashi",
+        "standard": "",
+        "deluxe": "",
+        "luxury": ""
+      },
+      {
+        "accomodation": "Kedarnath",
+        "standard": "",
+        "deluxe": "",
+        "luxury": ""
+      },
+      {
+        "accomodation": "Badrinath",
+        "standard": "",
+        "deluxe": "",
+        "luxury": ""
+      },
+      {
+        "accomodation": "Rudrapryag",
+        "standard": "",
+        "deluxe": "",
+        "luxury": ""
+      }
+    ],
+    "perPersonCostInfo": [
+      {
+        "passengers": "2",
+        "Vehicle": "Dzire/ Indigo",
+        "Standard": "",
+        "Deluxe": "",
+        "Luxury": ""
+      },
+      {
+        "passengers": "3",
+        "Vehicle": "Dzire/ Indigo",
+        "Standard": "",
+        "Deluxe": "",
+        "Luxury": ""
+      },
+      {
+        "passengers": "4",
+        "Vehicle": "Innova",
+        "Standard": "",
+        "Deluxe": "",
+        "Luxury": ""
+      },
+      {
+        "passengers": "5",
+        "Vehicle": "Innova",
+        "Standard": "",
+        "Deluxe": "",
+        "Luxury": ""
+      },
+      {
+        "passengers": "6",
+        "Vehicle": "Innova",
+        "Standard": "",
+        "Deluxe": "",
+        "Luxury": ""
+      },
+      {
+        "passengers": "7",
+        "Vehicle": "Innova",
+        "Standard": "",
+        "Deluxe": "",
+        "Luxury": ""
+      },
+      {
+        "passengers": "8",
+        "Vehicle": "Tempo Traveller",
+        "Standard": "",
+        "Deluxe": "",
+        "Luxury": ""
+      },
+      {
+        "passengers": "9",
+        "Vehicle": "Tempo Traveller",
+        "Standard": "",
+        "Deluxe": "",
+        "Luxury": ""
+      },
+      {
+        "passengers": "10",
+        "Vehicle": "Tempo Traveller",
+        "Standard": "",
+        "Deluxe": "",
+        "Luxury": ""
+      },
+      {
+        "passengers": "11",
+        "Vehicle": "Tempo Traveller",
+        "Standard": "",
+        "Deluxe": "",
+        "Luxury": ""
+      },
+      {
+        "passengers": "12",
+        "Vehicle": "Tempo Traveller",
+        "Standard": "",
+        "Deluxe": "",
+        "Luxury": ""
+      }
+    ]
   }
 }
