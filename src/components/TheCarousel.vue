@@ -4,7 +4,7 @@
       v-model="slideIndex"
       animated="slide"
       :has-drag="true"
-      :autoplay="false"
+      :autoplay="true"
       :interval="3000"
       :repeat="true"
       :pause-hover="true"
@@ -275,7 +275,7 @@ export default {
     }
   }
   .weather-forcast {
-    transform: scale(0.45) translate(50%, -50%);
+    transform: scale(0.3) translate(120%, -115%);
   }
 }
 </style>

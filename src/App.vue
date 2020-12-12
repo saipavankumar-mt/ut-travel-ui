@@ -102,7 +102,7 @@ export default {
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .app-container {
-    top: 72px;
+    top: 64px;
   }
 }
 </style>
