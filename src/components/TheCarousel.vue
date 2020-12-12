@@ -223,8 +223,6 @@ export default {
 }
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {
-  .carousel-slide {
-  }
 
   .carousel-right-content {
     width: 25%;
