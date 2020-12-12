@@ -672,6 +672,28 @@ export default {
     .imp-info-container {
       padding: 10px;
     }
+    .itinerary-container {
+      .image-container {
+        /deep/.carousel-items {
+          height: 100%;
+          .image-ht {
+            height: 175px !important;
+          }
+        }
+        .carousel-gallery {
+          /deep/.carousel-slide {
+            height: 50%;
+            .image {
+              height: 50%;
+              img {
+                height: 70px;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+      }
+    }
   }
   .itinerary-container {
     display: unset;
@@ -707,28 +729,6 @@ export default {
         }
         .subtitle {
           padding: 7px 40px 15px 40px;
-        }
-      }
-    }
-    .itinerary-container {
-      .image-container {
-        /deep/.carousel-items {
-          height: 100%;
-          .image-ht {
-            height: 175px !important;
-          }
-        }
-        .carousel-gallery {
-          /deep/.carousel-slide {
-            height: 50%;
-            .image {
-              height: 50%;
-              img {
-                height: 70px;
-                object-fit: cover;
-              }
-            }
-          }
         }
       }
     }

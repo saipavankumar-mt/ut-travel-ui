@@ -371,6 +371,8 @@ export default {
   width: 100%;
   min-width: 200px;
   max-width: 800px;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .vww__header {
@@ -456,6 +458,9 @@ export default {
 .vww__daily {
   display: none;
   height: 100%;
+}
+.vww__currently, .vww__daily {
+  transform: scale(.9);
 }
 
 @media screen and (min-width: 600px) {
