@@ -12,8 +12,8 @@
         "showWeatherForcast": true,
         "location": [
           {
-            "lat": "29.94791",
-            "long": "78.16025",
+            "lat": "29.9457",
+            "long": "78.1642",
             "name": "Haridwar"
           }
         ]
@@ -49,6 +49,54 @@
       "id": "2"
     },
     {
+      "image": "images/KedarkanthaCarousel.png",
+      "title": "",
+      "subtitle": "",
+      "route": "",
+      "description": "",
+      "nights": "",
+      "days": "",
+      "weather": {
+        "showWeatherForcast": true,
+        "location": [
+          {
+            "lat": "31.0781",
+            "long": "78.1842",
+            "name": "Sankari"
+          }
+        ]
+      },
+      "price": {
+        "showPrice": false,
+        "value": ""
+      },
+      "id": "3"
+    },
+    {
+      "image": "images/NainitalCarousel.png",
+      "title": "",
+      "subtitle": "",
+      "route": "",
+      "description": "",
+      "nights": "",
+      "days": "",
+      "weather": {
+        "showWeatherForcast": true,
+        "location": [
+          {
+            "lat": "29.3919",
+            "long": "79.4542",
+            "name": "Nainital"
+          }
+        ]
+      },
+      "price": {
+        "showPrice": false,
+        "value": ""
+      },
+      "id": "4"
+    },
+    {
       "image": "images/corbettcarousel.png",
       "title": "Cobrett park",
       "subtitle": "...Voice of Conscience",
@@ -57,12 +105,12 @@
       "nights": "12",
       "days": "12",
       "weather": {
-        "showWeatherForcast": false,
+        "showWeatherForcast": true,
         "location": [
           {
-            "lat": "29.94791",
-            "long": "78.16025",
-            "name": "Haridwar"
+            "lat": "29.3948",
+            "long": "79.1265",
+            "name": "Ramnagar"
           }
         ]
       },
@@ -70,7 +118,7 @@
         "showPrice": true,
         "value": "41000"
       },
-      "id": "3"
+      "id": "5"
     },
     {
       "subtitle": "...Voice of Conscience",
@@ -79,12 +127,12 @@
       "nights": "12",
       "days": "12",
       "weather": {
-        "showWeatherForcast": false,
+        "showWeatherForcast": true,
         "location": [
           {
-            "lat": "29.94791",
-            "long": "78.16025",
-            "name": "Haridwar"
+            "lat": "30.0869",
+            "long": "78.2676",
+            "name": "Rishikesh"
           }
         ]
       },
@@ -94,7 +142,7 @@
       },
       "image": "images/rishikeshcarousel.png",
       "title": "Rishikesh",      
-      "id": "4"
+      "id": "6"
     }
   ]
 }
