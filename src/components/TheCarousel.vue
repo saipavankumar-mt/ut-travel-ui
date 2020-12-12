@@ -4,7 +4,7 @@
       v-model="slideIndex"
       animated="slide"
       :has-drag="true"
-      :autoplay="true"
+      :autoplay="false"
       :interval="3000"
       :repeat="true"
       :pause-hover="true"
@@ -77,6 +77,7 @@ export default {
   position: absolute;
   top: 0;
   right: 0;
+  transform: scale(0.8) translate(5%, -10%);
 }
 .available {
   position: absolute;
@@ -272,6 +273,9 @@ export default {
     .carousel-img {
       height: 14rem;
     }
+  }
+  .weather-forcast {
+    transform: scale(0.45) translate(50%, -50%);
   }
 }
 </style>
