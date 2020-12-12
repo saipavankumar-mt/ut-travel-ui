@@ -7,7 +7,7 @@
       </div>
       <div class="navbar-item">
         <b-icon icon="phone" size="is-small" />
-        <p>{{contactDetails.mobileString(contactDetails.mobileArr)}}</p>
+        <p>{{contactDetails.mobileString}}</p>
       </div>
     </div>
     <div class="navbar-brand">
@@ -60,7 +60,7 @@
           </div>
           <div class="navbar-item">
             <b-icon icon="phone" size="is-small" />
-            <p> {{contactDetails.mobileString(contactDetails.mobileArr)}}</p>
+            <p> {{contactDetails.mobileString}}</p>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@ export default {
       contactDetails: {
         email: 'sales@uttranchalholidays.com',
         mobileArr: ['+91-9359079393', '+91-9368079393', '+91-7830030003'],
-        mobileString(nums) { return nums.join(', ')},
+        get mobileString() { return this.mobileArr.join(', ')},
       },
     };
   },

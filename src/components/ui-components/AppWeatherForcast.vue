@@ -72,7 +72,6 @@
           </div>
           <div class="vww__title">{{ locationName }}</div>
           <div class="vww__wind">
-            Updated:
             {{ currently.dateTime | moment }}
             <span @click="hydrate()" class="refresh">
               <i class="fas fa-sync-alt"></i>
