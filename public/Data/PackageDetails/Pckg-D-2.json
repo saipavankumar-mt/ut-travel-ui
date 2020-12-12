@@ -9,8 +9,29 @@
       "showWeatherForcast": true,
       "location": [
         {
-          "lat": "29.94791",
-          "long": "78.16025"
+          "lat": "30.7346",
+          "long": "79.0669",
+          "name": "Kedarnath"
+        },
+        {
+          "lat": "30.6352",
+          "long": "79.2217",
+          "name": "Madmaheshwar"
+        },
+        {
+          "lat": "30.5497",
+          "long": "79.4491",
+          "name": "Kalpeshwar"
+        },
+        {
+          "lat": "30.5192",
+          "long": "79.3185",
+          "name": "Rudranath"
+        },
+        {
+          "lat": "30.4887",
+          "long": "79.2170",
+          "name": "Tungnath"
         }
       ]
     },
@@ -26,9 +47,15 @@
     "route": "Delhi – Haridwar – Kedarnath – Tungnath – Madhmaheshwar – Rudranath – Kalpeshwar – Rishikesh – Delhi",
     "duration": "15 Nights / 16 Days",
     "nightStay": "Haridwar (2 Nights), Guptkashi (2 Nights), Kedarnath (1 Night), Gaundhar (2 Nights), Madmaheshwar (1 Night), Chopta (2 Nights), Panargupha (1 Night), Rudranath (1 Night), Dumuk (1 Night), Kalpeshwar (1 Night), Rudraprayag (1 Night)",
-    "heroImage": "PanchKedarYatraTile.png",
+    "heroImage": "PanchKedarHeroImage.png",
     "price": "",
-    "images": [],
+    "images": [
+      "Madmaheshwar.png",
+      "KedarnathDham.png",
+      "Kalpeshwar.png",
+      "Rudranath.png",
+      "Tungnath.png"
+    ],
     "description": [
       {
         "title": "Day 1 Pickup from Delhi Railway Station/Airport (215 Kms : 6Hrs. Travelling to Haridwar)",
