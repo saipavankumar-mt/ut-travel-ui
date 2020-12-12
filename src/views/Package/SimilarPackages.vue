@@ -5,14 +5,38 @@
         <span>SIMILAR PACKAGES</span>
       </h2>
     </div>
-    <app-preview-card
-      class="column"
-      v-for="(item, idx) in packages"
-      :key="idx"
-      :item="item"
-      :app-preview-settings="appPreviewSettings"
-      @viewMoreClick="onViewPackageClicked"
-    ></app-preview-card>
+    <template v-if="!$isMobile()">
+      <app-preview-card
+        class="column"
+        v-for="(item, idx) in packages"
+        :key="idx"
+        :item="item"
+        :app-preview-settings="appPreviewSettings"
+        @viewMoreClick="onViewPackageClicked"
+      ></app-preview-card>
+    </template>
+    <b-carousel-list
+      v-else
+      class="package-detail-carousel"
+      v-model="itemIndex"
+      :data="packages"
+      :items-to-show="$isMobile() ? 2 : 4"
+      :arrow-hover="false"
+      icon-size="is-medium"
+    >
+      <template
+        slot="item"
+        slot-scope="list"
+      >
+        <div>
+          <app-preview-card
+            :item="list"
+            :app-preview-settings="appPreviewSettings"
+            @viewMoreClick="onViewPackageClicked"
+          ></app-preview-card>
+        </div>
+      </template>
+    </b-carousel-list>
   </section>
 </template>
 
@@ -48,6 +72,7 @@ export default {
           type: "BUTTON",
         },
       },
+      itemIndex: 0,
     };
   },
   created() {
@@ -55,6 +80,7 @@ export default {
   },
   methods: {
     onViewPackageClicked(value) {
+      if (!value.id) return;
       this.$emit("similarPackageRouteChange", value);
     },
 
@@ -78,6 +104,7 @@ export default {
 
 <style lang="scss">
 .similarpackage-section {
+  padding: 0 0.5rem !important;
   flex-direction: column !important;
   /deep/ .preview-card {
     &:hover {
@@ -98,6 +125,24 @@ export default {
     font: 20px/30px "open_sansbold";
     span {
       color: #4a5258;
+    }
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .similarpackage-section {
+    box-shadow: none;
+    padding: 0 !important;
+    .package-detail-carousel {
+      box-shadow: none;
+      /deep/.carousel-slide {
+        padding: 0 .5rem;
+      }
+      .carousel-arrow .icon.has-icons-left {
+        left: 0;
+      }
+      .carousel-arrow .icon.has-icons-right {
+        right: 0;
+      }
     }
   }
 }

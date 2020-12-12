@@ -205,8 +205,9 @@
       <div class="similartours">
         <similar-packages
           :package-key="keyMethod"
-          :itinerary-id="posts.id"
+          :itinerary-id="$route.query.id"
           @similarPackageRouteChange="redirect"
+          :key="similarPackageKey"
         ></similar-packages>
       </div>
     </div>
@@ -254,10 +255,11 @@ export default {
       },
       items: [],
       backgroundColor: 'rgba(1, 1, 1, 0.8)',
+      similarPackageKey: 0,
     };
   },
   methods: {
-    redirect: function(value) {
+    redirect(value) {
       this.$router.push({
         name: 'detail',
         params: {
@@ -269,6 +271,7 @@ export default {
           id: value.id,
         },
       });
+      this.getPackageDetail();
     },
     checkIfIndexIsOdd(index) {
       return index % 2;
@@ -318,14 +321,8 @@ export default {
         }
       }
     },
-  },
-  computed: {
-    keyMethod() {
-      return this.$route.query.key;
-    },
-  },
-  created() {
-    this.$http
+    getPackageDetail() {
+      this.$http
       .get(`${process.env.BASE_URL}Data/PackageDetails/${this.$route.query.id}.json`)
       .then((response) => {
         this.posts = response.data.data;
@@ -338,7 +335,17 @@ export default {
             image: require('../../assets/images/' + this.posts.images[i]),
           });
         }
+        this.similarPackageKey +=1;
       });
+    }
+  },
+  computed: {
+    keyMethod() {
+      return this.$route.query.key;
+    },
+  },
+  created() {
+    this.getPackageDetail();
   },
 };
 </script>
@@ -346,6 +353,15 @@ export default {
 <style lang="scss" scoped>
 .image-ht {
   height: 300px !important;
+  object-fit: contain;
+  background: #dbdbdb;
+}
+/deep/.carousel-slide .image {
+  height: 100%;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .columns {
@@ -563,6 +579,7 @@ export default {
   }
   .similartours {
     width: 30%;
+    margin-left: 1rem;
   }
 }
 
@@ -661,6 +678,8 @@ export default {
     display: unset;
     .similartours {
       width: 100%;
+      margin: 0;
+      padding: 0 .5rem;
     }
   }
 }
@@ -689,6 +708,28 @@ export default {
         }
         .subtitle {
           padding: 7px 40px 15px 40px;
+        }
+      }
+    }
+    .itinerary-container {
+      .image-container {
+        /deep/.carousel-items {
+          height: 100%;
+          .image-ht {
+            height: 175px !important;
+          }
+        }
+        .carousel-gallery {
+          /deep/.carousel-slide {
+            height: 50%;
+            .image {
+              height: 50%;
+              img {
+                height: 70px;
+                object-fit: cover;
+              }
+            }
+          }
         }
       }
     }
