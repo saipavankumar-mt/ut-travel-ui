@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Piligrim yatras",
     "key": "PILIGRIM",
-    "noOfPackages": "7",
+    "noOfPackages": "9",
     "image": "ganges.svg",
     "icon":""
   },
@@ -11,14 +11,14 @@
     "id": 2,
     "title": "Liesure packages",
     "key": "LIESURE",
-    "noOfPackages": "25",
+    "noOfPackages": "22",
     "image": "liesure.svg"
   },
   {
     "id": 3,
     "title": "Destinations",
     "key": "DESTINATIONS",
-    "noOfPackages": "36",
+    "noOfPackages": "18",
     "image": "destination.svg"
   },
   {

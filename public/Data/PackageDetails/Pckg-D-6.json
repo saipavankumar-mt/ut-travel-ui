@@ -1,0 +1,375 @@
+{
+  "data":
+	{
+	  "id": "Pckg-D-6",
+	  "key": "EkDham (Badrinath)",
+	  "title": "Ek Dham (Badrinath)",
+	  "qoute": "...Explore Haridwar and Rudraprayag and Badrinath",
+	  "subtitle": "",
+	  "overview":[		
+		{
+		  "title":"Ek Dham (…A holy journey to reach Ek Dham of Uttarakhand.):",
+		  "subtitle":"Badrinath yatra package of 5 Nights / 6 Days starts from & ends at Delhi. It takes you to the holy shrines via Haridwar & Rishikesh another holy cities in India. Badrinath Dham is a place sacred to Lord Vishnu, particularly in Vishnu's dual form of Nar-Narayana."
+		}
+	  ],
+	  "weather": {
+		"showWeatherForcast": true,
+		"location": [			
+			{
+				"lat": "30.7433",
+				"long": "79.4938",
+				"name": "Badrinath"
+			}
+		]
+	},
+	  "temperature":[
+		{
+			
+
+		} 	
+	  ],
+	  "route": "Delhi – Haridwar – Rudraprayag – Badrinath – Rudraprayag – Haridwar – Delhi",
+	  "duration": "5 Nights / 6 Days",
+	  "nightStay": "Haridwar (2 Nights), Rudraprayag (2 Nights), Badrinath (1 Night)",
+	  "heroImage": "BadrinathDham.png",
+	  "price": "",
+	  "images": [
+		"BadrinathDham.png"
+	  ],
+	  "description": [
+		{
+		  "title": "Day 1 Pickup from Delhi Railway Station/Airport (220 Kms : 6Hrs. Travelling to Haridwar)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Delhi",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Haridwar",
+			  "subtitle": "220Kms : 6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{ 
+				  "activities": "Enjoy a quick and hassle-free check-in at Haridwar Hotel, with Welcome Drink(Non Alcoholic)."
+				},
+				{ 
+				  "activities": "After fresh up, go for Haridwar sightseeing. Take a Holy Bath & see Evening Aarti at Har-Ki-Pauri and visit local market Moti Bazar and Temples like Bhuma Niketan Mandir, Bharat Mata Mandir, Vaishno Devi Mandir and Paawan Dham."
+				},
+				{ 
+				  "activities": "Dinner & Overnight Stay at Haridwar."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 2 Haridwar to Rudraprayag (163 Kms : 6Hrs. Travelling to Rudraprayag)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Haridwar",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Rudraprayag",
+			  "subtitle": "163Kms : 6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{
+				  "activities": "After breakfast, Check Out from Hotel, Depart for Rudraprayag."
+			    },
+				{ 
+				  "activities": "On arrival, check in at hotel, take welcome drink. Rest & Relax."
+				},
+				{ 
+				  "activities": "Dinner & Overnight Stay at Rudraprayag."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 3 Rudraprayag to Badrinath (157 Kms : 6Hrs. Travelling to Badrinath)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Rudraprayag",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Badrinath",
+			  "subtitle": "157Kms : 6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{
+				  "activities": "After breakfast, check out from hotel, drive for Badrinath."
+			    },
+				{ 
+				  "activities": "On arrival check in at hotel. After fresh go for darshan and pooja at Badrinath Temple."
+				},
+				{ 
+				  "activities": "Dinner & Overnight Stay at Badrinath Hotel."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 4 Badrinath to Rudraprayag (157 Kms : 6Hrs. Travelling to Rudraprayag)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Badrinath",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Rudraprayag",
+			  "subtitle": "157Kms : 6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{
+				  "activities": "Morning after breakfast, drive 3 Kms for the last village of India, Mana Village."
+			    },
+				{ 
+				  "activities": "Check out from hotel and depart for Rudraprayag. Enroute visit Vishnu Prayag where two rivers confluences Dhauli and Alaknanda River. Arrival at Joshimath and visit Adi Guru Sankarcharya Math."
+				},
+				{ 
+				  "activities": "Dinner & Overnight Stay at Rudraprayag Hotel."
+				}
+		  ]
+		},
+		{
+		  "title": "Day 5 Rudraprayag to Haridwar (163 Kms : 6Hrs. Travelling to Haridwar)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Rudraprayag",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Haridwar",
+			  "subtitle": "163Kms : 6Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+				{
+				  "activities": "After breakfast, check out from hotel and drive for Haridwar."
+			    },
+				{ 
+				  "activities": "Enroute cover the sightseeing of Karanprayag, Nandprayag & Deoprayag."
+				},
+				{ 
+				  "activities": "On arrival, check in at hotel. Dinner & Overnight Stay at Haridwar Hotel."
+				}
+		  ]
+		},
+		{
+		"title": "Day 6 Check Out from Haridwar (220 Kms : 6-7Hrs. Travelling to Delhi)",
+		  "isMileStone": true,
+		  "place": [
+			{
+			  "title": "Haridwar",
+			  "subtitle": "0Kms"
+			},
+			{
+			  "title": "Delhi",
+			  "subtitle": "220Kms : 6-7Hrs"
+			}
+		  ],		  
+		  "subtitles": [
+			  {
+				"activities": "Breakfast at Hotel."				
+			  },
+			  {
+				"activities": "Reaching at Railway Station/Airport by having Sweet Memoires in mind and lots of love."				
+			  }			
+		  ]
+		}
+		
+	  ],
+	  "importantInfo": [
+		{
+		  "title": "Note",
+		  "subtitles": [
+			"All extras (F & B and any other services) availed by the customer will be on direct payment basis.",
+			"AC and Music System in Vehicle will not be operated when we are on the Hilly Area.",
+			"In case of odd number groups, the extra person shall be accommodated in the same room with an extra bed /mattress.",
+			"The above rates are applicable to the Indian Nationals only.",
+			"Any Meals, services not utilized, partly utilized are non-refundable.",
+			"All the rates are subject to change without prior notice.",
+			"All rates are valid till 30th June, 2020.",
+			"All disputes are subject to Haridwar Jurisdiction.",
+			"Govt. Taxes (GST)"
+		  ]
+		},
+		{
+		  "title": "Mode of Payment:",
+		  "subtitles": [
+		    "Kindly release 25% Payment for the Blocking.",
+			"Kindly release total 50% Payment before 30 days of arrival.",
+			"Kindly release total 100% Payment before 7 days of arrival."
+		  ]
+		}
+	  ],
+	  "cancellationPolicy":{
+		"title": "Cancellation Policy:",
+		  "subtitles": [
+			"10% of the Total Package Cost is Non-Refundable.",
+			"25% cancellation charge of the total package cost, if cancellation less than 30 days before arrival.",
+			"35% cancellation charge of the total package cost, if cancellation between 15 to 7 days before arrival.",
+			"50% cancellation charge of the total package cost if cancellation between 7 to 2 days before arrival.",
+			"100% cancellation charge of the total package cost if cancellation before 48 Hrs. before arrival.",
+			"Altering the confirmed plan Not possible."
+		  ]
+	  },
+	  "inclusionAndExclusion":[
+		{
+		  "title": "Experience Includes:",
+		  "subtitles": [
+			"Accommodation at all the places mention in the itinerary.",
+			"Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
+			"Transportation around the tour (As mentioned above).",
+			"All sightseeing and excursion as per the Itinerary.",
+			"All Toll Tax, Parking Includes."
+		  ]
+		},
+		{
+		  "title": "Package Excludes:",
+		  "subtitles": [
+			"Air Fare / Train Fare.",
+			"Any meals other than those specified in ‘Experience Includes’.",
+			"Expenses of personal nature such as tips, telephone calls, laundry etc.",
+			"Entrance fees during sightseeing.",
+			"Destination Guide.",
+			"Any item of personal nature like Telephone, Tips, Donations at Temples, Extended Stay or Travelling due to any reason."
+			
+		  ]
+		},
+		{
+		  "title": "High lights:",
+		  "subtitles": [
+			"No Night Travel (After 7:00 pm as per Government Rules).",
+			"Sumptuous, Hygienic and pure vegetarian food as per regional taste and palate.",
+			"Neat & clean hotels and Camp with quality service"
+		  ]
+		},
+		{
+		  "title": "Weather Condition:",
+		  "subtitles": [
+			"Expenses incurred due to bad weather condition, Road Closes, Landslides are out of control will be charge extra as per actual."
+		  ]
+		}
+	  ],
+	 "accomodationInfo":[
+		{
+			"accomodation": "Haridwar",
+			"standard": "",
+			"deluxe": "",
+			"luxury": ""
+		},
+		{
+			"accomodation": "Rudraprayag / Guptkashi",
+			"standard": "",
+			"deluxe": "",
+			"luxury": ""
+		},
+		{
+			"accomodation": "Badrinath",
+			"standard": "",
+			"deluxe": "",
+			"luxury": ""
+		},
+		{
+			"accomodation": "Rudraprayag / Kirtinagar",
+			"standard": "",
+			"deluxe": "",
+			"luxury": ""
+		},
+		{
+			"accomodation": "Rishikesh / Haridwar",
+			"standard": "",
+			"deluxe": "",
+			"luxury": ""
+		}
+		
+	  ],
+	 "perPersonCostInfo":[
+		{
+			"passengers": "2",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "3",
+			"Vehicle": "Dzire/ Indigo",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "4",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "5",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "6",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "7",
+			"Vehicle": "Innova",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "8",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "9",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "10",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "11",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		},
+		{
+			"passengers": "12",
+			"Vehicle": "Tempo Traveller",
+			"Standard": "",
+			"Deluxe": "",
+			"Luxury": ""
+		}
+	  ]
+	}
+}
