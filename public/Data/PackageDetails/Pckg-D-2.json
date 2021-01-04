@@ -112,15 +112,11 @@
       },
       {
         "title": "Day 3 Guptkashi to Kedarnath (35 Kms Drive and 21 Kms by foot)",
-        "isMileStone": true,
-        "place": [
-          {
-            "title": "Guptkashi",
-            "subtitle": "0Kms"
-          },
+        "isMileStone": false,
+        "place": [          
           {
             "title": "Kedarnath",
-            "subtitle": "35 Kms Drive and 21 Kms by foot"
+            "subtitle": "35 Kms: 21 Kms by foot"
           }
         ],
         "subtitles": [
@@ -148,7 +144,7 @@
           },
           {
             "title": "Guptkashi",
-            "subtitle": "21 Kms by foot and 35 Kms Drive"
+            "subtitle": "21 Kms trekking : 35 Kms Drive"
           }
         ],
         "subtitles": [
@@ -187,12 +183,8 @@
       },
       {
         "title": "Day 6 Gaundhar to Madmaheshwar (17 Kms : 7-8Hrs. trekking)",
-        "isMileStone": true,
+        "isMileStone": false,
         "place": [
-          {
-            "title": "Gaundhar",
-            "subtitle": "0Kms"
-          },
           {
             "title": "Madmaheshwar",
             "subtitle": "17Kms : 7-8Hrs"
@@ -242,7 +234,7 @@
           },
           {
             "title": "Chopta",
-            "subtitle": "25 Kms Drive and 17 Kms trekking : 8-9Hrs"
+            "subtitle": "25Kms: 17Kms trekking"
           }
         ],
         "subtitles": [
@@ -256,12 +248,8 @@
       },
       {
         "title": "Day 9 Chopta to Tungnath to Chopta (3.5 Kms : 1-2Hrs. one way trekking)",
-        "isMileStone": true,
+        "isMileStone": false,
         "place": [
-          {
-            "title": "Chopta",
-            "subtitle": "0Kms"
-          },
           {
             "title": "Tungnath",
             "subtitle": "3.5Kms : 1-2Hrs"
@@ -289,7 +277,7 @@
           },
           {
             "title": "Panargupha",
-            "subtitle": "30 Kms Drive and 10 Kms trekking : 6-7Hrs"
+            "subtitle": "30 Kms : 10 Kms trekking"
           }
         ],
         "subtitles": [
@@ -303,12 +291,8 @@
       },
       {
         "title": "Day 11 Panargupha to Rudranath (12 Kms : 6-7Hrs. trekking)",
-        "isMileStone": true,
+        "isMileStone": false,
         "place": [
-          {
-            "title": "Panargupha",
-            "subtitle": "0Kms"
-          },
           {
             "title": "Rudranath",
             "subtitle": "12Kms : 6-7Hrs"
@@ -350,12 +334,8 @@
       },
       {
         "title": "Day 13 Dumuk to Kalpeshwar (14 Kms : 7-8Hrs. trekking)",
-        "isMileStone": true,
+        "isMileStone": false,
         "place": [
-          {
-            "title": "Dumuk",
-            "subtitle": "0Kms"
-          },
           {
             "title": "Kalpeshwar",
             "subtitle": "14Kms : 7-8Hrs"
@@ -383,7 +363,7 @@
           },
           {
             "title": "Rudraprayag",
-            "subtitle": "105Kms Drive and 9Kms trekking : 4-5Hrs"
+            "subtitle": "105Kms: 9Kms trekking"
           }
         ],
         "subtitles": [

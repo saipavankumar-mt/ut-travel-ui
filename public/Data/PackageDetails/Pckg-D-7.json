@@ -85,15 +85,11 @@
 			},
 			{
 				"title": "Day 3 Guptkashi to Kedarnath (35 Kms Travelling and 21 Kms Trekking to Kedarnath)",
-				"isMileStone": true,
+				"isMileStone": false,
 				"place": [
 					{
-						"title": "Guptkashi",
-						"subtitle": "0Kms"
-					},
-					{
 						"title": "Kedarnath",
-						"subtitle": "35 Kms travelling and 21 Kms trekking"
+						"subtitle": "35 Kms : 21 Kms trekking"
 					}
 				],
 				"subtitles": [
@@ -118,7 +114,7 @@
 					},
 					{
 						"title": "Guptkashi",
-						"subtitle": "21 Kms trekking and 35 Kms travelling"
+						"subtitle": "21 Kms trekking : 35 Kms Drive"
 					}
 				],
 				"subtitles": [

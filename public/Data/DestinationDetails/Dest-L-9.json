@@ -32,7 +32,7 @@
 				"temp":"0°C to 10°C"
 			}
 		  ],
-		  "heroImage": "destinations/RamgarhTile.png",
+		  "heroImage": "destinations/RamgarhHeroImage.png",
 		  "images": [
 		    "destinations/ramgarh/nathuakhanVillage.png"
 		  ],

@@ -32,7 +32,7 @@
 				"temp":"6°C to 20°C"
 			}
 		  ],
-		  "heroImage": "destinations/HaridwarTile.png",
+		  "heroImage": "destinations/HaridwarHeroImage.png",
 		  "images": [
 		    "destinations/haridwar/bharatMataMandir.png",
 			"destinations/haridwar/chandiDeviTemple.png",
@@ -197,19 +197,19 @@
 			  "duration": "4 Nights / 5 Days"
 			},
 			{
-			  "id": "Pckg-B-3",
-			  "title": "Complete Uttaranchal",
-			  "image": "CompleteUttaranchalTile.png",
-			  "key": "CompleteUttaranchal",
-			  "duration": "10 Nights / 11 Days"
-			},
-			{
-			  "id": "Pckg-B-6",
-			  "title": "Tiny Uttaranchal",
-			  "image": "TinyUttaranchalTile.png",
-			  "key": "TinyUttaranchal",
-			  "duration": "6 Nights / 7 Days"
-			},
+				"id": "Pckg-B-3",
+				"title": "Complete Uttranchal",
+				"image": "CompleteUttranchalTile.png",
+				"key": "Complete-Uttranchal",
+				"duration": "10 Nights / 11 Days"
+			  },
+			  {
+				"id": "Pckg-B-6",
+				"title": "Tiny Uttranchal",
+				"key": "Tiny-Uttranchal",
+				"image": "TinyUttranchalTile.png",
+				"duration": "6 Nights / 7 Days"
+			  },
 			{
 			  "id": "Pckg-B-7",
 			  "title": "Scenic Uttaranchal",
@@ -218,12 +218,12 @@
 			  "duration": "9 Nights / 10 Days"
 			},
 			{
-			  "id": "Pckg-B-9",
-			  "title": "Uttaranchal Preview",
-			  "image": "UttaranchalPreviewTile.png",
-			  "key": "UttaranchalPreview",
-			  "duration": "7 Nights / 8 Days"
-			},
+				"id": "Pckg-B-9",
+				"title": "Uttranchal Preview",
+				"key": "Uttranchal-Preview",
+				"image": "UttranchalPreviewTile.png",
+				"duration": "7 Nights / 8 Days"
+			  },
 			{
 			  "id": "Pckg-B-19",
 			  "title": "Fascinating Garhwal",
@@ -239,12 +239,12 @@
 			  "duration": "9 Nights / 10 Days"
 			},
 			{
-			  "id": "Pckg-D-2",
-			  "title": "Panch Kedar",
-			  "image": "PanchKedarTile.png",
-			  "key": "PanchKedar",
-			  "duration": "15 Nights / 16 Days"
-			}
+				"id": "Pckg-D-2",
+				"title": "PanchKedar",
+				"key": "PanchKedar",
+				"image": "PanchKedarYatraTile.png",
+				"duration": "15 Nights / 16 Days"
+			  }
 			],
 		  "transit":[
 			{

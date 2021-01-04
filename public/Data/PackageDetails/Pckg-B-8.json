@@ -17,11 +17,11 @@
     "overview": [
       {
         "title": "Lansdowne (…The Fairytale Hills):",
-        "subtitle": "Thick oak forests, mesmerizing hills and spellbinding views, there are numerous places to visit in Lansdowne which will take you a step closer to nature. A quaint hill station which is perched at an elevation of 1700 meters, Lansdowne brings to you a potpourri of attractions and memorable experiences. Trekking the treacherous trails of Lover’s Lane and exploring the vibrant streets of Lansdowne main Market."
+        "subtitle": "Thick oak forests, mesmerizing hills and spellbinding views, there are numerous places to visit in Lansdowne. A quaint hill station which is perched at an elevation of 1700 meters. Trekking the treacherous trails of Lover’s Lane and exploring the vibrant streets of Lansdowne main Market."
       },
       {
         "title": "Khirsu (…Beauty Unexplored):",
-        "subtitle": "Khirsu, a hill station in pauri Garhwal district of Uttarakhand is situated at an altitude of 1700 meters. It lies at a distance of 11 km. towards north from Pauri. Khirsu is famous for its scenic background from this hill station one can see spectacular 300 Km-wide panoramic view of the Himalayas, including snow-crested Trishul, Nanda Devi, Nandakot and Panchuhuli peaks."
+        "subtitle": "Khirsu, a hill station in pauri Garhwal district with an altitude of 1700 meters. Famous for its scenic background and spectacular 300 Km-wide panoramic view of the Himalayas, including snow-crested Trishul, Nanda Devi, Nandakot and Panchuhuli peaks."
       },
       {
         "title": "Pauri (…A City Where Time Stands Still):",
@@ -32,7 +32,7 @@
     "route": "Delhi – Lansdowne - Khirsu - Pauri - Delhi",
     "duration": "4 Nights / 5 Days",
     "nightStay": "Lansdowne (2 Nights), Khirshu (1 Night), Pauri (1 Night)",
-    "heroImage": "UntouchedGarhwalTile.png",
+    "heroImage": "UntouchedGarhwalHeroImage.png",
     "price": "9000",
     "images": [],
     "description": [
@@ -94,12 +94,8 @@
       },
       {
         "title": "Day 3  Lansdowne to Khirshu (95 Kms : 3Hrs. Travelling to Khirshu)",
-        "isMileStone": true,
+        "isMileStone": false,
         "place": [
-          {
-            "title": "Lansdowne",
-            "subtitle": "0Kms"
-          },
           {
             "title": "Khirshu",
             "subtitle": "95Kms : 3Hrs"
@@ -123,12 +119,8 @@
       },
       {
         "title": "Day 4   Khirshu to Pauri (22 Kms : 1Hr. Travelling to Pauri)",
-        "isMileStone": true,
+        "isMileStone": false,
         "place": [
-          {
-            "title": "Khirshu",
-            "subtitle": "0Kms"
-          },
           {
             "title": "Pauri",
             "subtitle": "22Kms : 1Hr"

@@ -44,7 +44,7 @@
     "route": "Delhi - Corbett - Nainital - Kausani - Auli - Chopta - Haridwar - Delhi",
     "duration": "9 Nights / 10 Days",
     "nightStay": "Corbett (1 Night), Nainital (2 Nights), Kausani (1 Night), Auli (2 Nights), Chopta (2 Nights),Haridwar (1 Night)",
-    "heroImage": "",
+    "heroImage": "EnchantingUttarakhandHeroImage.png",
     "price": "",
     "images": [],
     "description": [
@@ -153,7 +153,7 @@
           },
           {
             "time": "9:00 am to 12:00 pm",
-            "activities": "OStart journey to Chaukori covering sightseeing of Birthi Fall."
+            "activities": "Start journey to Chaukori covering sightseeing of Birthi Fall."
           },
           {
             "time": "2:00 pm to 7:00 pm",

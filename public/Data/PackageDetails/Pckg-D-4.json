@@ -22,7 +22,7 @@
 		},
 		"overview": [
 			{
-				"title": "Do Dham (…A holy journey to reach Do Dham of Uttarakhand.):",
+				"title": "Do Dham (…A holy journey to reach Do Dham of Uttarakhand):",
 				"subtitle": "Our 6 Nights / 7 Days Do Dham Yatra package starts from Delhi and takes you to the holy shrines via Haridwar & Rishikesh another holy cities in India. In this Do Dham Yatra packages, we will cover Yamunotri and Gangotri Dhams of Uttarakhand."
 			}
 		],
@@ -91,15 +91,11 @@
 			},
 			{
 				"title": "Day 3 Barkot to Yamunotri (46 Kms Drive and 5 Kms Trekking to Yamunotri)",
-				"isMileStone": true,
+				"isMileStone": false,
 				"place": [
 					{
-						"title": "Barkot",
-						"subtitle": "0Kms"
-					},
-					{
 						"title": "Yamunotri",
-						"subtitle": "46 Kms Drive and 5 Kms trekking"
+						"subtitle": "46 Kms: 5 Kms trekking"
 					}
 				],
 				"subtitles": [
@@ -141,12 +137,8 @@
 			},
 			{
 				"title": "Day 5 Uttarkashi to Gangotri (98 Kms : 4Hrs. Travelling to Gangotri)",
-				"isMileStone": true,
+				"isMileStone": false,
 				"place": [
-					{
-						"title": "Uttarkashi",
-						"subtitle": "0Kms"
-					},
 					{
 						"title": "Gangotri",
 						"subtitle": "98Kms : 4Hrs"
@@ -165,7 +157,7 @@
 				]
 			},
 			{
-				"title": "Day 6 Uttarkashi to Haridwar / Rishikesh (190 Kms : 6Hrs. Travelling to Haridwar)",
+				"title": "Day 6 Uttarkashi to Haridwar (190 Kms : 6Hrs. Travelling to Haridwar)",
 				"isMileStone": true,
 				"place": [
 					{
@@ -190,11 +182,11 @@
 				]
 			},
 			{
-				"title": "Day 7 Check Out from Haridwar / Rishikesh (220 Kms : 6Hrs. Travelling to Delhi)",
+				"title": "Day 7 Check Out from Haridwar (220 Kms : 6Hrs. Travelling to Delhi)",
 				"isMileStone": true,
 				"place": [
 					{
-						"title": "Haridwar / Rishikesh",
+						"title": "Haridwar",
 						"subtitle": "0Kms"
 					},
 					{

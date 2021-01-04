@@ -89,12 +89,8 @@
 		},
 		{
 		  "title": "Day 3 Uttarkashi to Gangotri (98 Kms : 4Hrs. Travelling to Gangotri)",
-		  "isMileStone": true,
+		  "isMileStone": false,
 		  "place": [
-			{
-			  "title": "Uttarkashi",
-			  "subtitle": "0Kms"
-			},
 			{
 			  "title": "Gangotri",
 			  "subtitle": "98Kms : 4Hrs"

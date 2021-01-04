@@ -32,7 +32,7 @@
 				"temp":"4°C to 17°C"
 			}
 		  ],
-		  "heroImage": "destinations/PithoragarhTile.png",
+		  "heroImage": "destinations/PithoragarhHeroImage.png",
 		  "images": [
 		    "destinations/pithoragarh/pithoragarhFort.png",
 			"destinations/pithoragarh/nagMandir.png",
@@ -66,12 +66,12 @@
 		  ],
 		  "includedPackages":[
 			{
-              "id": "Pckg-B-4",
-              "title": "Kumaon Heritage",
-              "key": "KumaonHeritage",
-              "image": "KumaonHeritageTile.png",
-              "duration": "9 Nights / 10 Days"
-            }	
+				"id": "Pckg-B-4",
+				"title": "Kumaon Heritage",
+				"key": "Kumaon-Heritage",
+				"image": "KumaonTile.png",
+				"duration": "9 Nights / 10 Days"
+			  }	
 		  ],
 		  "transit":[
 			{

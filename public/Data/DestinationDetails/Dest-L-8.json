@@ -32,7 +32,7 @@
 				"temp":"3°C to 17°C"
 			}
 		  ],
-		  "heroImage": "destinations/MukteshwarTile.png",
+		  "heroImage": "destinations/MukteshwarHeroImage.png",
 		  "images": [
 		    "destinations/mukteshwar/mukteshwarTemple.png",
 			"destinations/mukteshwar/methodistChurch.png",

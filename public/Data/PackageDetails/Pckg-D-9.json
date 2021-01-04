@@ -89,15 +89,11 @@
 		},
 		{
 		  "title": "Day 3 Barkot to Yamunotri (46 Kms Travelling and 5 Kms Trekking to Yamunotri)",
-		  "isMileStone": true,
+		  "isMileStone": false,
 		  "place": [
 			{
-			  "title": "Barkot",
-			  "subtitle": "0Kms"
-			},
-			{
 			  "title": "Yamunotri",
-			  "subtitle": "46 Kms travelling and 5 Kms trekking"
+			  "subtitle": "46 Kms : 5 Kms trekking"
 			}
 		  ],		  
 		  "subtitles": [

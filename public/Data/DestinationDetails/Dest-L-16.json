@@ -32,7 +32,7 @@
 				"temp":"4°C to 20°C"
 			}
 		  ],
-		  "heroImage": "destinations/JageshwarTile.png",
+		  "heroImage": "destinations/JageshwarHeroImage.png",
 		  "images": [
 		    "destinations/jageshwar/jageshwarMahadev.png",
 			"destinations/jageshwar/jageshwarTempleComplex.png",

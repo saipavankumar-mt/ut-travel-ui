@@ -32,7 +32,7 @@
         "temp": "0°C to 12°C"
       }
     ],
-    "heroImage": "destinations/NainitalTile.png",
+    "heroImage": "destinations/NainitalHeroImage.png",
     "images": [
       "destinations/nainital/nainilake.png",
       "destinations/nainital/ecoCaveGarden.png",
@@ -144,7 +144,7 @@
       {
         "id": "Pckg-B-4",
         "title": "Kumaon Heritage",
-        "image": "KumaonHeritageTile.png",
+        "image": "KumaonTile.png",
         "key": "KumaonHeritage",
         "duration": "9 Nights / 10 Days"
       },

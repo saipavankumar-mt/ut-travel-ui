@@ -40,7 +40,7 @@
     "route": "Delhi – Nainital - Kausani - Jim Corbett National Park - Haridwar - Mussoorie - Delhi",
     "duration": "7 Nights / 8 Days",
     "nightStay": "Nainital (2 Nights), Kausani (1 Night), Corbett (1 Night), Haridwar (1 Night), Mussoorie (2 Nights)",
-    "heroImage": "UttranchalPreviewTile.png",
+    "heroImage": "UttranchalPreviewHeroImage.png",
     "price": "16200",
     "images": [],
     "description": [
@@ -102,12 +102,8 @@
       },
       {
         "title": "Day 3  Nainital to Kausani (120 Kms : 5Hrs. Travelling to Kausani)",
-        "isMileStone": true,
+        "isMileStone": false,
         "place": [
-          {
-            "title": "Nainital",
-            "subtitle": "0Kms"
-          },
           {
             "title": "Kausani",
             "subtitle": "120Kms : 5Hrs"
@@ -135,12 +131,8 @@
       },
       {
         "title": "Day 4  Kausani to Corbett (145 Kms : 5–6Hrs Travelling to Corbett)",
-        "isMileStone": true,
+        "isMileStone": false,
         "place": [
-          {
-            "title": "Kausani",
-            "subtitle": "0Kms"
-          },
           {
             "title": "Corbett",
             "subtitle": "145Kms : 5-6Hr"
@@ -167,12 +159,8 @@
       },
       {
         "title": "Day 5  Corbett to Haridwar  (210 Kms : 4-5Hrs. Travelling to Haridwar)",
-        "isMileStone": true,
+        "isMileStone": false,
         "place": [
-          {
-            "title": "Corbett",
-            "subtitle": "0Kms"
-          },
           {
             "title": "Haridwar",
             "subtitle": "210Kms : 4-5Hrs"

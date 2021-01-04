@@ -89,12 +89,8 @@
 		},
 		{
 		  "title": "Day 3 Rudraprayag to Badrinath (157 Kms : 6Hrs. Travelling to Badrinath)",
-		  "isMileStone": true,
+		  "isMileStone": false,
 		  "place": [
-			{
-			  "title": "Rudraprayag",
-			  "subtitle": "0Kms"
-			},
 			{
 			  "title": "Badrinath",
 			  "subtitle": "157Kms : 6Hrs"

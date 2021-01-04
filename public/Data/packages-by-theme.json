@@ -12,7 +12,7 @@
       "id": "theme_2",
       "title": "Hill Station",
       "key": "hillStationGetaways",
-      "packageCount": "20",
+      "packageCount": "22",
       "image": "hillstation.svg"
     },
     {
@@ -26,7 +26,7 @@
       "id": "theme_4",
       "title": "Trekking",
       "key": "trekkingPackages",
-      "packageCount": "11",
+      "packageCount": "8",
       "image": "trekking.svg"
     }
   ]

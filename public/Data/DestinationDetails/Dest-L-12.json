@@ -32,7 +32,7 @@
 				"temp":"-3°C to 15°C"
 			}
 		  ],
-		  "heroImage": "destinations/MunsyariTile.png",
+		  "heroImage": "destinations/MunsyariHeroImage.png",
 		  "images": [
 		    "destinations/munsyari/madkot.png",
 			"destinations/munsyari/birthiFalls.png",
@@ -78,12 +78,12 @@
 		  ],
 		  "includedPackages":[
 			{
-              "id": "Pckg-B-4",
-              "title": "Kumaon Heritage",
-              "key": "KumaonHeritage",
-              "image": "KumaonHeritageTile.png",
-              "duration": "9 Nights / 10 Days"
-            }	
+				"id": "Pckg-B-4",
+				"title": "Kumaon Heritage",
+				"key": "Kumaon-Heritage",
+				"image": "KumaonTile.png",
+				"duration": "9 Nights / 10 Days"
+			  }	
 		  ],
 		  "transit":[
 			{

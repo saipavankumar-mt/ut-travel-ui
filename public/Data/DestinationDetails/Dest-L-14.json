@@ -32,7 +32,7 @@
 				"temp":"-2°C to 12°C"
 			}
 		  ],
-		  "heroImage": "destinations/HarshilTile.png",
+		  "heroImage": "destinations/HarshilHeroImage.png",
 		  "images": [
 		    "destinations/harsil/dharali.png",
 			"destinations/harsil/mukhwasVillage.png",

@@ -351,6 +351,7 @@ export default {
       color: #918f9b;
       font-size: 15px;
       line-height: 21px;
+      text-align: left;
     }
   }
   span::before {
@@ -365,6 +366,7 @@ export default {
     display: block;
     font-size: 15px;
     line-height: 15px;
+    text-align: left;
   }
 }
 

@@ -8,23 +8,23 @@
       "title": "Nainital",
       "key": "NAINITAL",
       "image": "destinations/NainitalTile.png",
-      "subtitle": "5 Tourist Attractions",
+      "subtitle": "11 Tourist Attractions",
       "type": "destinations"      
     },
     {
-      "id": "Dest-L-2",
-      "title": "Ranikhet",
-      "key": "RANIKHET",
-      "image": "destinations/RanikhetTile.png",
-      "subtitle": "5 Tourist Attractions",
+      "id": "Dest-L-6",
+      "title": "Auli",
+      "key": "AULI",
+      "image": "destinations/auli/auliRopeway.png",
+      "subtitle": "6 Tourist Attractions",
       "type": "destinations"
-    },
+    },    
     {
       "id": "Dest-L-3",
       "title": "Mussoorie",
       "key": "MUSSOORIE",
       "image": "destinations/MussoorieTile.png",      
-      "subtitle": "5 Tourist Attractions",
+      "subtitle": "12 Tourist Attractions",
       "type": "destinations"
     },
     {
@@ -32,7 +32,7 @@
       "title": "Dehradun",
       "key": "DEHRADUN",
       "image": "destinations/DehradunTile.png",
-      "subtitle": "5 Tourist Attractions",
+      "subtitle": "12 Tourist Attractions",
       "type": "destinations"
     },
     {
@@ -40,16 +40,16 @@
       "title": "Almora",
       "key": "ALMORA",
       "image": "destinations/AlmoraTile.png",
-      "subtitle": "5 Tourist Attractions",
+      "subtitle": "7 Tourist Attractions",
       "type": "destinations"
     },
     {
-      "id": "Dest-L-6",
-      "title": "Auli",
-      "key": "AULI",
-      "image": "destinations/auli/auliRopeway.png",
-      "subtitle": "5 Tourist Attractions",
+      "id": "Dest-L-2",
+      "title": "Ranikhet",
+      "key": "RANIKHET",
+      "image": "destinations/RanikhetTile.png",
+      "subtitle": "11 Tourist Attractions",
       "type": "destinations"
-    }    
+    }
   ]
 }

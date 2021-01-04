@@ -32,7 +32,7 @@
 				"temp":"-4°C to 14°C"
 			}
 		  ],
-		  "heroImage": "destinations/auli/auliRopeway.png",
+		  "heroImage": "destinations/AuliHeroImage.png",
 		  "images": [
 		    "destinations/auli/joshimath.png",
 			"destinations/auli/gorsonBugyal.png",
@@ -83,7 +83,28 @@
               "key": "Magnificent-Gharwal",
               "image": "MagnificientGarhwalTile.png",
                "duration": "7 Nights / 8 Days"
-           }		
+		   },
+		   {
+			"id": "Pckg-B-15",
+			"title": "PLEASING GARHWAL",
+			"key": "PleasingGarhwal",
+			"image": "PleasingGarhwalTile.png",
+			"duration": "6 Nights / 7 Days"
+		  },
+		  {
+			"id": "Pckg-B-16",
+			"title": "RAVISHING UTTARAKHAND",
+			"key": "RavishingUttarakhand",
+			"image": "RavishingUttarakhandTile.png",
+			"duration": "9 Nights / 10 Days"
+		  },
+		  {
+			"id": "Pckg-B-20",
+			"title": "ENCHANTNG UTTARAKHAND",
+			"key": "EnchantingUttarakhand",
+			"image": "EnchantingUttarakhandTile.png",
+			"duration": "9 Nights / 10 Days"
+		  }
 		  ],
 		  "transit":[
 			{

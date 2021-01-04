@@ -32,7 +32,7 @@
         "temp": "7°C to 13°C"
       }
     ],
-    "heroImage": "destinations/RanikhetTile.png",
+    "heroImage": "destinations/RanikhetHeroImage.png",
     "images": [
       "destinations/ranikhet/jhulaDeviTemple.png",
       "destinations/ranikhet/kumaonRegimentalCentreMuseum.png",
@@ -135,11 +135,67 @@
     ],
     "includedPackages": [
       {
+        "id": "Pckg-B-3",
+        "title": "Complete Uttranchal",
+        "image": "CompleteUttranchalTile.png",
+        "key": "Complete-Uttranchal",
+        "duration": "10 Nights / 11 Days"
+      },
+      {
+        "id": "Pckg-B-4",
+        "title": "Kumaon Heritage",
+        "key": "Kumaon-Heritage",
+        "image": "KumaonTile.png",
+        "duration": "9 Nights / 10 Days"
+      },
+      {
+        "id": "Pckg-B-5",
+        "title": "Beautiful Kumaon",
+        "key": "Beautiful-Kumaon",
+        "image": "BeautifulKumaonTile.png",
+        "duration": "9 Nights / 10 Days"
+      },
+      {
         "id": "Pckg-B-7",
         "title": "Scenic Uttaranchal",
         "image": "ScenicUttranchalTile.png",
         "key": "ScenicUttaranchal",
         "duration": "9 Nights / 10 Days"
+      },
+      {
+        "id": "Pckg-B-9",
+        "title": "Uttranchal Preview",
+        "key": "Uttranchal-Preview",
+        "image": "UttranchalPreviewTile.png",
+        "duration": "7 Nights / 8 Days"
+      },
+      {
+        "id": "Pckg-B-10",
+        "title": "Weekend Uttranchal",
+        "key": "Weekend-Uttranchal",
+        "image": "WeekendUttranchalTile.png",
+        "duration": "3 Nights / 4 Days"
+      },
+      {
+        "id": "Pckg-B-11",
+        "title": "AESTHETIC KUMAON",
+        "key": "AestheticKumaon",
+        "image": "AestheticKumaonTile.png",
+        "duration": "7 Nights / 8 Days"
+      },
+      {
+        "id": "Pckg-B-13",
+        "title": "CHARMING KUMAON",
+        "key": "CharmingKumaon",
+        "image": "CharmingKumaonTile.png",
+        "duration": "7 Nights / 8 Days"
+      },
+      {
+        "id": "Pckg-B-18",
+        "title": "SPELLBINDING KUMAON",
+        "key": "SpellbindingKumaon",
+        "image": "SpellbindingKumaonTile.png",
+        "duration": "7 Nights / 8 Days"
       }
     ],
     "transit": [

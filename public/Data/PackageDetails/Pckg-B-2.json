@@ -32,7 +32,7 @@
     "route": "Delhi – Rishikesh – Chopta - Deoriyatal - Auli - Rishikesh - Delhi",
     "duration": "7 Nights / 8 Days",
     "nightStay": "Rishikesh (2 Nights), Chopta (2 Nights), Deoriyatal (1 Night), Auli (2 Nights)",
-    "heroImage": "MagnificientGarhwalTile.png",
+    "heroImage": "MagnificientGarhwalHeroImage.png",
     "price": "16450",
     "images": [],
     "description": [
@@ -66,12 +66,8 @@
       },
       {
         "title": "Day 2  Rishikesh to Chopta (220 Kms : 7-8Hrs. Travelling to Chopta)",
-        "isMileStone": true,
+        "isMileStone": false,
         "place": [
-          {
-            "title": "Rishikesh",
-            "subtitle": "0Kms"
-          },
           {
             "title": "Chopta",
             "subtitle": "220Kms : 7-8Hrs"

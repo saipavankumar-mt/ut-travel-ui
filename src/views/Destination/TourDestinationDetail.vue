@@ -467,7 +467,7 @@ export default {
 
   .banner-inner {
     img {
-      height: 350px !important;
+      width: 100%;      
       padding-bottom: unset;
       border-bottom-left-radius: unset !important;
     }

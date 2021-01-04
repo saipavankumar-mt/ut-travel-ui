@@ -17,18 +17,18 @@
     "overview": [
       {
         "title": "Nainital (…Peachy and Decency, Sign A Peace Treaty):",
-        "subtitle": "Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period."
+        "subtitle": "Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period."
       },
       {
         "title": "Jim Corbett National Park (…Hear Nature’s Roar):",
-        "subtitle": "Jim Corbett National Park can be befittingly called the paradise of Tigers for the fact that it holds a large population of Tigers in its breathtaking landscaped that consists of different varieties of flora and fauna. Named after the legendary tiger hunter turned naturalist Jim Corbett, the proud destinations ‘Jim Corbett National Park’ was the first national park of India, which was established in 1936 in the Uttarakhand."
+        "subtitle": "Jim Corbett National Park can be befittingly called the paradise of Tigers with a large population of Tigers in its breathtaking landscaped. Named after the legendary tiger hunter turned naturalist Jim Corbett, the proud destinations ‘Jim Corbett National Park’ was the first national park of India, which was established in 1936 in the Uttarakhand."
       }
     ],
     "temperature": [{}],
     "route": "Delhi – Nainital - Jim Corbett National Park - Delhi",
     "duration": "3 Nights / 4 Days",
     "nightStay": "Nainital (2 Nights), Corbett National Park (1 Night)",
-    "heroImage": "WeekendUttranchalTile.png",
+    "heroImage": "WeekendUttranchalHeroImage.png",
     "price": "7500",
     "images": [],
     "description": [
@@ -90,12 +90,8 @@
       },
       {
         "title": "Day 3  Nainital to Corbett (145 Kms : 5–6Hrs. Travelling to Corbett)",
-        "isMileStone": true,
+        "isMileStone": false,
         "place": [
-          {
-            "title": "Nainital",
-            "subtitle": "0Kms"
-          },
           {
             "title": "Corbett",
             "subtitle": "120Kms : 5-6Hrs"

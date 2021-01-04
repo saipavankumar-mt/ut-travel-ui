@@ -32,7 +32,7 @@
 				"temp":"-2°C to 26°C"
 			}
 		  ],
-		  "heroImage": "destinations/JimCorbettNationParkTile.png",
+		  "heroImage": "destinations/JimCorbettNationParkHeroImage.png",
 		  "images": [
 		    "destinations/corbett/garjiaMataMandir.png",
 			"destinations/corbett/corbettMuseum.png",
@@ -141,19 +141,19 @@
 		  ],
 		  "includedPackages":[
 			{
-			  "id": "Pckg-B-3",
-			  "title": "Complete Uttaranchal",
-			  "image": "CompleteUttaranchalTile.png",
-			  "key": "CompleteUttaranchal",
-			  "duration": "10 Nights / 11 Days"
-			},
-			{
-              "id": "Pckg-B-4",
-              "title": "Kumaon Heritage",
-			  "image": "KumaonHeritageTile.png",
-              "key": "KumaonHeritage",              
-              "duration": "9 Nights / 10 Days"
-            },
+				"id": "Pckg-B-3",
+				"title": "Complete Uttranchal",
+				"image": "CompleteUttranchalTile.png",
+				"key": "Complete-Uttranchal",
+				"duration": "10 Nights / 11 Days"
+			  },
+			  {
+				"id": "Pckg-B-4",
+				"title": "Kumaon Heritage",
+				"key": "Kumaon-Heritage",
+				"image": "KumaonTile.png",
+				"duration": "9 Nights / 10 Days"
+			  },
 			{
 			  "id": "Pckg-B-5",
 			  "title": "Beautiful Kumaon",
@@ -191,9 +191,9 @@
 			},
 			{
 				"id": "Pckg-B-12",
-				"title": "Alluring Uttarakhand",
-				"image": "AlluringUttarakhandTile.png",
+				"title": "ALLURING UTTARAKHAND",
 				"key": "AlluringUttarakhand",
+				"image": "AlluringUttranchalTile.png",
 				"duration": "8 Nights / 9 Days"
 			  },
 			{
@@ -205,11 +205,11 @@
 			},
 			{
 				"id": "Pckg-B-14",
-				"title": "Mystic Uttaranchal",
-				"image": "MysticUttaranchalTile.png",
-				"key": "MysticUttaranchal",
+				"title": "MYSTIC UTTRANCHAL",
+				"key": "MysticUttranchal",
+				"image": "MysticUttranchalTile.png",
 				"duration": "7 Nights / 8 Days"
-			},
+			  },
 			{
 				"id": "Pckg-B-18",
 				"title": "Spellbinding Kumaon",
