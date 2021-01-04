@@ -20,7 +20,7 @@
             <a href="">
               <img class="social-icon" src="../assets/icons/twitter.png" alt="twitter">
             </a>
-            <a href="">
+            <a href="https://instagram.com/uttranchalholidays?igshid=1qzdghaej98oz">
               <img class="social-icon" src="../assets/icons/instagram.png" alt="instagram">
             </a>
           </div>
