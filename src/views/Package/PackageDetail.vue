@@ -122,7 +122,7 @@
               </div>
             </div>
           </b-tab-item>
-          <b-tab-item label="ACCOMODATION & PRICE">
+          <b-tab-item label="ACCOMODATION & PRICE" :visible="false">
             <b-table
               :bordered="true"
               :data="posts.accomodationInfo"
@@ -185,7 +185,7 @@
               </b-carousel>
             </div>
           </b-tab-item>
-          <b-tab-item label="WEATHER" v-if="posts.weather.showWeatherForcast">
+          <b-tab-item label="WEATHER" v-if="posts.weather && posts.weather.showWeatherForcast">
             <app-weather-forcast
               v-for="(forcast, id) in posts.weather.location"
               :key="id"
@@ -259,7 +259,7 @@ export default {
     };
   },
   methods: {
-    redirect(value) {
+    async redirect(value) {
       this.$router.push({
         name: 'detail',
         params: {
@@ -271,7 +271,8 @@ export default {
           id: value.id,
         },
       });
-      this.getPackageDetail();
+      await this.getPackageDetail();
+      window.location.reload();
     },
     checkIfIndexIsOdd(index) {
       return index % 2;

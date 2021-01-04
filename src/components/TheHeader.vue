@@ -18,16 +18,22 @@
     </div>
     <div class="navbar-menu">
       <div class="navbar-end">
-        <router-link
-          class="navbar-item"
-          v-for="(navItem, idx) in navMenu"
-          :to="navItem.path || '/'"
-          exact
-          :key="idx"
-        >
-          <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
-          <span>{{ navItem.label }}</span>
-        </router-link>
+        <template v-for="(navItem, idx) in navMenu">
+          <router-link
+            v-if="navItem.path"
+            class="navbar-item"
+            :to="navItem.path || '/'"
+            exact
+            :key="idx"
+          >
+            <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
+            <span>{{ navItem.label }}</span>
+          </router-link>
+          <a v-else :href="navItem.redirect" class="navbar-item" :key="idx+'re'">
+            <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
+            <span>{{ navItem.label }}</span>
+          </a>
+        </template>
       </div>
     </div>
     <div v-if="toggleNavbar" :class="{ overlay: toggleNavbar === true }">
@@ -81,6 +87,7 @@ export default {
         { label: "Tour Packages", icon: "bag-checked", path: "/tour-packages" },
         { label: "Destinations", icon: "map-marker", path: "/destinations" },
         { label: "Trekking", icon: "walk", path: "/trekking" },
+        { label: "Yatra E Pass", icon: "ticket", redirect: "https://badrinath-kedarnath.gov.in/registration" },
         // { label: 'Hotel', icon: 'bed' },
         // { label: 'Car Rental', icon: 'car' },
         // { label: 'Helipad', icon: 'helicopter' },

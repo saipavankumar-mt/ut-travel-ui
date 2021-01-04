@@ -19,7 +19,7 @@
             v-bind:alt="item.image"
           />
         </div>
-        <div class="weather-forcast" v-if="item && item.weather.showWeatherForcast">
+        <div class="weather-forcast" v-if="item && item.weather && item.weather.showWeatherForcast">
           <app-weather-forcast
             v-for="(forcast, id) in item.weather.location"
             :key="id"

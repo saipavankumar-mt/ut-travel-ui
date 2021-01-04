@@ -1,12 +1,9 @@
 <template>
   <div class="booking-form">
-    <form action @submit.prevent="submit()">
+    <form action @submit.prevent="submit()" v-if="!isSubmitted">
       <div class="modal-card">
         <header class="modal-card-head">
-          <!-- <div> -->
           <p class="modal-card-title">Uttranchal Holidays: Booking Form</p>
-          <!-- <p>Fill the booking form our travel expert will contact you within 24hrs</p> -->
-          <!-- </div> -->
           <button type="button" class="delete" @click="close()" />
         </header>
 
@@ -20,6 +17,7 @@
           <b-field>
             <b-input
               type="text"
+              name="name"
               v-model="formData.name"
               placeholder="Your Name"
               required
@@ -28,6 +26,7 @@
           <b-field>
             <b-input
               type="email"
+              name="email"
               v-model="formData.email"
               placeholder="Your Email"
               required
@@ -38,11 +37,18 @@
               placeholder="Phone Number"
               v-model="formData.phoneNumber"
               type="number"
+              name="phoneNumber"
+              required
             ></b-input>
           </b-field>
           <div class="adult-child">
             <b-field>
-              <b-select placeholder="Adult" v-model="formData.adult">
+              <b-select
+                placeholder="Adult"
+                v-model="formData.adult"
+                required
+                name="adult"
+              >
                 <option v-for="(item, i) in adults" :key="i" :value="item">
                   {{ item }}
                 </option>
@@ -65,6 +71,8 @@
                 placeholder="Click to select..."
                 icon="calendar-today"
                 trap-focus
+                name="selectedDate"
+                required
               ></b-datepicker>
             </div>
           </b-field>
@@ -74,6 +82,8 @@
               maxlength="200"
               type="textarea"
               placeholder="Requirement"
+              required
+              name="requirement"
             ></b-input>
           </b-field>
         </section>
@@ -81,10 +91,16 @@
           <button type="button" class="button" @click.prevent="close()">
             Close
           </button>
-          <button type="submit" class="button is-blue" @click.prevent="submit()">Submit</button>
+          <button type="submit" class="button is-blue">Submit</button>
         </footer>
       </div>
     </form>
+    <div class="modal-card" v-else>
+      <b-message type="is-success" auto-close has-icon>
+        <span>Thanks for choosing Uttranchalholidays.com, <br />
+        Our travel expert team will contact you within 24hrs</span>
+      </b-message>
+    </div>
   </div>
 </template>
 
@@ -115,10 +131,15 @@ export default {
 
       return callable({
         subject: `Quotation required for ${this.formData.selectedTour}`,
-        user: this.formData
-      }).then(()=>{console.log("Mail sent!!!");
-      this.$emit('close');});
-    }
+        user: this.formData,
+      }).then(() => {
+        console.log('Mail sent!!!');
+        this.isSubmitted = !this.isSubmitted;
+        // setTimeout(() => {
+        //   this.$emit('close');
+        // }, 3000);
+      });
+    },
   },
   computed: {
     selectedDate: {
@@ -127,8 +148,8 @@ export default {
       },
       set(value) {
         this.formData.date = value ? moment(value).format() : null;
-      }
-    }
+      },
+    },
   },
   data() {
     return {
@@ -150,6 +171,7 @@ export default {
         date: null,
         requirement: '',
       },
+      isSubmitted: false,
     };
   },
   created() {},
