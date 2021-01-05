@@ -1,10 +1,9 @@
 import firebase from 'firebase/app';
 import 'firebase/functions';
-import * as firebasefunctions from 'firebase-functions';
 
 const config = {
- apikey: firebasefunctions.config().project.key,
- projectId: firebasefunctions.config().project.id
+ apikey: "AIzaSyCwhmdqRWbK8MWTjQtrIzUOua9Da8YNzMc",
+ projectId: "uttranchalholidays-41e55"
 }
 
 firebase.initializeApp(config);
