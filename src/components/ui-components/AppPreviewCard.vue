@@ -135,7 +135,8 @@ export default {
     border-radius: 4px 4px 0 0;
   }
   .card-content {
-    padding: 0.75rem !important;
+    // padding: 0.75rem !important;
+    padding: 0.5rem 0 !important;
   }
 }
 
@@ -157,8 +158,8 @@ export default {
     text-align: left;
 
     .title.is-4 {
-      font-size: 14px;
-      line-height: 20px;
+      font-size: 13px;
+      line-height: 18px;
       text-transform: uppercase;
       // color: rgb(96, 191, 243);
       color: #3e3f54;

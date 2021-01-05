@@ -147,18 +147,18 @@ $carousel-arrow-color: #47caf0;
       }
     }
     /deep/ .card-content {
-      padding: 0.5rem !important;
+      // padding: 0.5rem 0 !important;
       .content {
         .title.is-4 {
           // font: 16px 'Lato', sans-serif;
-          font-size: 16px;
+          font-size: 13px;
           font-weight: 600;
           // color: rgb(62, 63, 84);
           // text-transform: capitalize;
         }
         .subtitle.is-7 {
           // font: 12px/18px 'Lato', sans-serif;
-          line-height: 18px;
+          // line-height: 18px;
           font-weight: 600;
           color: rgb(145, 143, 155);
           margin-top: 0 !important;
@@ -238,13 +238,14 @@ $carousel-arrow-color: #47caf0;
         border: none;
         .card-content .content {
           .title.is-4 {
-            font-size: 14px;
-            line-height: 16px;
+            // font-size: 14px;
+            font-size: 12px;
+            line-height: 14px;
             margin-bottom: 0.25rem;
           }
           .subtitle.is-7 {
             font-size: 11px;
-            line-height: 14px;
+            line-height: 12px;
           }
         }
         .preview-card .button {

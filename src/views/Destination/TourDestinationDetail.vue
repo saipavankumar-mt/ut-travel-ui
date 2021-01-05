@@ -188,7 +188,7 @@
                   :key="i"
                 >
                   <figure class="image">
-                    <img :src="item.image" />
+                    <img class="image-ht" :src="item.image" />
                   </figure>
                 </b-carousel-item>
                 <span
@@ -381,13 +381,25 @@ export default {
 </script>
 
 <style lang="scss">
+.image-ht {
+  height: 300px !important;
+  object-fit: contain;
+  background: #dbdbdb;
+}
+/deep/.carousel-slide .image {
+  height: 100%;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
 .tab-content {
   text-align: left;
 }
 
 .package-destination-detail {
   .image-container {
-    width: 50%;
+    width: 70%;
     margin: auto;
   }
   .card-setting .content .title.is-4 {
@@ -569,6 +581,26 @@ export default {
       padding-right: unset;
       padding-bottom: 16px;
     }
+    .image-container {
+        /deep/.carousel-items {
+          height: 100%;
+          .image-ht {
+            height: 175px !important;
+          }
+        }
+        .carousel-gallery {
+          /deep/.carousel-slide {
+            height: 50%;
+            .image {
+              height: 50%;
+              img {
+                height: 70px;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+      }
   }
 }
 </style>

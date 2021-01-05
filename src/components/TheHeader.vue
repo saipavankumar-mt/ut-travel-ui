@@ -277,6 +277,9 @@ export default {
     .navbar-brand {
       img {
         max-height: 3rem;
+        position: relative;
+        left: 50%;
+        transform: translateX(20%);
       }
     }
     .navbar-contact {
