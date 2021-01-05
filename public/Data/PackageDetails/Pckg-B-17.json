@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-17",
+    "type": "beautifulUttranchal",
     "key": "RendevouzInUttarakhand",
     "title": "Rendevouz In Uttarakhand",
     "qoute": "...Explore Nainital and Mussoorie",
@@ -24,7 +25,9 @@
         "subtitle": "Mussoorie, the proverbial queen of Hill station, as professed by the British gentry who evaded hot, desultory summers of Delhi and Kolkata by Spending time here. Being at an average altitude of 2,000 meters Mussoorie, with its green hills and varied flora and fauna, is a fascinating hill resort."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi - Nainital - Mussoorie - Delhi",
     "duration": "4 Nights / 5 Days",
     "nightStay": "Nainital (2 Nights), Mussoorie (2 Nights)",
@@ -129,7 +132,6 @@
             "subtitle": ""
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",

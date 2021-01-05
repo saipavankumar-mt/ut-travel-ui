@@ -6,6 +6,7 @@
     "items": [
       {
         "id": "Pckg-D-1",
+        "type": "piligrimDestination",
         "title": "Chardham",
         "key": "Chardham",
         "image": "ChardhamTile.png",
@@ -13,6 +14,7 @@
       },
       {
         "id": "Pckg-D-2",
+        "type": "piligrimDestination",
         "title": "Panchkedar",
         "key": "Panchkedar",
         "image": "PanchKedarYatraTile.png",
@@ -20,6 +22,7 @@
       },
       {
         "id": "Pckg-D-3",
+        "type": "piligrimDestination",
         "title": "Chardham By Helicopter",
         "key": "Chardham",
         "image": "ChardhamByHelicopterTile.png",
@@ -27,6 +30,7 @@
       },
       {
         "id": "Pckg-D-4",
+        "type": "piligrimDestination",
         "title": "DoDham (Gangotri & Yamunotri)",
         "key": "Dodham",
         "image": "GangotriYamunotriTile.png",
@@ -34,6 +38,7 @@
       },
       {
         "id": "Pckg-D-5",
+        "type": "piligrimDestination",
         "title": "Dodham (Badrinath & Kedarnath)",
         "key": "DoDham-Badrinath-Kedarnath",
         "image": "DhodhamTile.png",
@@ -41,6 +46,7 @@
       },
       {
         "id": "Pckg-D-6",
+        "type": "piligrimDestination",
         "title": "Badrinath",
         "key": "Badrinath",
         "image": "BadrinathDham.png",
@@ -48,6 +54,7 @@
       },
       {
         "id": "Pckg-D-7",
+        "type": "piligrimDestination",
         "title": "Kedarnath",
         "key": "Kedarnath",
         "image": "KedarnathDham.png",
@@ -55,6 +62,7 @@
       },
       {
         "id": "Pckg-D-8",
+        "type": "piligrimDestination",
         "title": "Gangotri",
         "key": "Gangotri",
         "image": "GangotriDham.png",
@@ -62,6 +70,7 @@
       },
       {
         "id": "Pckg-D-9",
+        "type": "piligrimDestination",
         "title": "Yamunotri",
         "key": "Yamunotri",
         "image": "yamunotriDham.png",
@@ -76,6 +85,7 @@
     "items": [
       {
         "id": "Pckg-B-1",
+        "type": "beautifulUttranchal",
         "title": "Garhwal Glimpse",
         "key": "Garhwal-Glimpse",
         "image": "GarhwalGlimpseTile.png",
@@ -83,6 +93,7 @@
       },
       {
         "id": "Pckg-B-2",
+        "type": "beautifulUttranchal",
         "title": "Magnificent Gharwal",
         "key": "Magnificent-Gharwal",
         "image": "MagnificientGarhwalTile.png",
@@ -90,6 +101,7 @@
       },
       {
         "id": "Pckg-B-3",
+        "type": "beautifulUttranchal",
         "title": "Complete Uttranchal",
         "image": "CompleteUttranchalTile.png",
         "key": "Complete-Uttranchal",
@@ -97,6 +109,7 @@
       },
       {
         "id": "Pckg-B-4",
+        "type": "beautifulUttranchal",
         "title": "Kumaon Heritage",
         "key": "Kumaon-Heritage",
         "image": "KumaonHeritageTile.png",
@@ -104,6 +117,7 @@
       },
       {
         "id": "Pckg-B-5",
+        "type": "beautifulUttranchal",
         "title": "Beautiful Kumaon",
         "key": "Beautiful-Kumaon",
         "image": "BeautifulKumaonTile.png",
@@ -111,6 +125,7 @@
       },
       {
         "id": "Pckg-B-6",
+        "type": "beautifulUttranchal",
         "title": "Tiny Uttranchal",
         "key": "Tiny-Uttranchal",
         "image": "TinyUttranchalTile.png",

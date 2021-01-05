@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-11",
+    "type": "beautifulUttranchal",
     "key": "AestheticKumaon",
     "title": "Aesthetic Kumaon",
     "qoute": "...Explore Nainital and Kausani and Jim Corbett National Park",
@@ -28,7 +29,9 @@
         "subtitle": "Jim Corbett National Park can be befittingly called the paradise of Tigers for the fact that it holds a large population of Tigers in its breathtaking landscaped that consists of different varieties of flora and fauna. Named after the legendary tiger hunter turned naturalist Jim Corbett, the proud destinations ‘Jim Corbett National Park’ was the first national park of India, which was established in 1936 in the Uttarakhand."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi – Nainital - Kausani - Jim Corbett National Park - Delhi",
     "duration": "7 Nights / 8 Days",
     "nightStay": "Nainital (3 Nights), Kausani (2 Nights), Corbett National Park (2 Nights)",
@@ -129,7 +132,6 @@
             "subtitle": "125Kms : 4-5Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -182,7 +184,6 @@
             "subtitle": "145Kms : 5-6Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",

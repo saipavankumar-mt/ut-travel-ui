@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-4",
+    "type": "beautifulUttranchal",
     "key": "KumaonHeritage",
     "title": "Kumaon Heritage",
     "weather": {
@@ -44,7 +45,9 @@
         "subtitle": "Jim Corbett National Park can be befittingly called the paradise of Tigers for the fact that it holds a large population of Tigers in its breathtaking landscaped that consists of different varieties of flora and fauna. Named after the legendary tiger hunter turned naturalist Jim Corbett, the proud destinations ‘Jim Corbett National Park’ was the first national park of India, which was established in 1936 in the Uttarakhand."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi – Nainital - Binsar - Pithoragarh - Munsyari - Chaukori - Kausani - Jim Corbett National Park - Delhi",
     "duration": "9 Nights / 10 Days",
     "nightStay": "Nainital (2 Nights), Binsar (1 Night), Pithoragarh (1 Night), Munsyari (1 Night), Chaukori (1 Night), Kausani (1 Night), Jim Corbett (2 Nights)",
@@ -157,7 +160,6 @@
             "subtitle": "210Kms : 8Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 8:00 am",

@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-19",
+    "type": "beautifulUttranchal",
     "key": "FascinatingGarhwal",
     "title": "Fascinating Garhwal",
     "qoute": "...Explore Chakrata and Mussoorie and Kanatal and New Tehri and Haridwar",
@@ -36,7 +37,9 @@
         "subtitle": "Haridwar is one of the seven sacred cities of the Hindus and is a major pilgrimage center. It has been known by many names originally it was called Kapila’ for the sage who once lived there. Its present name means 'Door to Hari' Hari is one of the names of Lord Vishnu’ a principal deity of Hindusim."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi - Chakrata - Mussoorie - Kanatal - New Tehri - Haridwar - Delhi",
     "duration": "8 Nights / 9 Days",
     "nightStay": "Chakrata (2 Nights), Mussoorie (2 Nights), Kanatal (1 Night), New Tehri (2 Nights), Haridwar (1 Night)",
@@ -133,7 +136,6 @@
             "subtitle": ""
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",

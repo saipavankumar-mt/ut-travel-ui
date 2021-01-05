@@ -15,19 +15,20 @@
     {
       "type": "Piligrime Destinations",
       "key": "piligrimDestination",
-
       "items": [
         {
           "id": "Pckg-D-1",
+          "type": "piligrimDestination",
           "title": "Chardham",
           "key": "Chardham",
           "route": "Yamunotri - Gangotri - Kedarnath - Badrinath",
           "image": "ChardhamTile.png",
           "price": "41000",
           "duration": "11 Nights / 12 Days"
-        },        
+        },
         {
           "id": "Pckg-D-3",
+          "type": "piligrimDestination",
           "title": "Chardham By Helicopter",
           "key": "ChardhamByHeli",
           "image": "ChardhamByHelicopterTile.png",
@@ -35,6 +36,7 @@
         },
         {
           "id": "Pckg-D-4",
+          "type": "piligrimDestination",
           "title": "DoDham (Gangotri & Yamunotri)",
           "key": "Dodham",
           "image": "GangotriYamunotriTile.png",
@@ -42,6 +44,7 @@
         },
         {
           "id": "Pckg-D-5",
+          "type": "piligrimDestination",
           "title": "Dodham (Badrinath & Kedarnath)",
           "key": "DoDham-Badrinath-Kedarnath",
           "image": "DhodhamTile.png",
@@ -49,6 +52,7 @@
         },
         {
           "id": "Pckg-D-2",
+          "type": "piligrimDestination",
           "title": "PanchKedar",
           "key": "PanchKedar",
           "image": "PanchKedarYatraTile.png",
@@ -56,6 +60,7 @@
         },
         {
           "id": "Pckg-D-6",
+          "type": "piligrimDestination",
           "title": "Badrinath",
           "key": "Badrinath",
           "image": "BadrinathDham.png",
@@ -63,6 +68,7 @@
         },
         {
           "id": "Pckg-D-7",
+          "type": "piligrimDestination",
           "title": "Kedarnath",
           "key": "Kedarnath",
           "image": "KedarnathDham.png",
@@ -70,6 +76,7 @@
         },
         {
           "id": "Pckg-D-8",
+          "type": "piligrimDestination",
           "title": "Gangotri",
           "key": "Gangotri",
           "image": "GangotriDham.png",
@@ -77,6 +84,7 @@
         },
         {
           "id": "Pckg-D-9",
+          "type": "piligrimDestination",
           "title": "Yamunotri",
           "key": "Yamunotri",
           "image": "yamunotriDham.png",
@@ -90,6 +98,7 @@
       "items": [
         {
           "id": "Pckg-B-9",
+          "type": "beautifulUttranchal",
           "title": "Uttranchal Preview",
           "key": "Uttranchal-Preview",
           "image": "UttranchalPreviewTile.png",
@@ -97,6 +106,7 @@
         },
         {
           "id": "Pckg-B-10",
+          "type": "beautifulUttranchal",
           "title": "Weekend Uttranchal",
           "key": "Weekend-Uttranchal",
           "image": "WeekendUttranchalTile.png",
@@ -104,6 +114,7 @@
         },
         {
           "id": "Pckg-B-11",
+          "type": "beautifulUttranchal",
           "title": "AESTHETIC KUMAON",
           "key": "AestheticKumaon",
           "image": "AestheticKumaonTile.png",
@@ -111,6 +122,7 @@
         },
         {
           "id": "Pckg-B-12",
+          "type": "beautifulUttranchal",
           "title": "ALLURING UTTARAKHAND",
           "key": "AlluringUttarakhand",
           "image": "AlluringUttranchalTile.png",
@@ -118,6 +130,7 @@
         },
         {
           "id": "Pckg-B-1",
+          "type": "beautifulUttranchal",
           "title": "Garhwal Glimpse",
           "key": "Garhwal-Glimpse",
           "image": "GarhwalGlimpseTile.png",
@@ -125,6 +138,7 @@
         },
         {
           "id": "Pckg-B-2",
+          "type": "beautifulUttranchal",
           "title": "Magnificent Gharwal",
           "key": "Magnificent-Gharwal",
           "image": "MagnificientGarhwalTile.png",
@@ -132,6 +146,7 @@
         },
         {
           "id": "Pckg-B-3",
+          "type": "beautifulUttranchal",
           "title": "Complete Uttranchal",
           "image": "CompleteUttranchalTile.png",
           "key": "Complete-Uttranchal",
@@ -139,6 +154,7 @@
         },
         {
           "id": "Pckg-B-4",
+          "type": "beautifulUttranchal",
           "title": "Kumaon Heritage",
           "key": "Kumaon-Heritage",
           "image": "KumaonTile.png",
@@ -146,6 +162,7 @@
         },
         {
           "id": "Pckg-B-5",
+          "type": "beautifulUttranchal",
           "title": "Beautiful Kumaon",
           "key": "Beautiful-Kumaon",
           "image": "BeautifulKumaonTile.png",
@@ -153,6 +170,7 @@
         },
         {
           "id": "Pckg-B-6",
+          "type": "beautifulUttranchal",
           "title": "Tiny Uttranchal",
           "key": "Tiny-Uttranchal",
           "image": "TinyUttranchalTile.png",
@@ -160,6 +178,7 @@
         },
         {
           "id": "Pckg-B-7",
+          "type": "beautifulUttranchal",
           "title": "Scenic Uttranchal",
           "key": "Scenic-Uttranchal",
           "image": "ScenicUttranchalTile.png",
@@ -167,13 +186,15 @@
         },
         {
           "id": "Pckg-B-8",
+          "type": "beautifulUttranchal",
           "title": "Untouched Garwhal",
           "key": "Untouched-Garwhal",
           "image": "UntouchedGarhwalTile.png",
           "duration": "4 Nights / 5 Days"
-        },        
+        },
         {
           "id": "Pckg-B-13",
+          "type": "beautifulUttranchal",
           "title": "CHARMING KUMAON",
           "key": "CharmingKumaon",
           "image": "CharmingKumaonTile.png",
@@ -181,6 +202,7 @@
         },
         {
           "id": "Pckg-B-14",
+          "type": "beautifulUttranchal",
           "title": "MYSTIC UTTRANCHAL",
           "key": "MysticUttranchal",
           "image": "MysticUttranchalTile.png",
@@ -188,6 +210,7 @@
         },
         {
           "id": "Pckg-B-15",
+          "type": "beautifulUttranchal",
           "title": "PLEASING GARHWAL",
           "key": "PleasingGarhwal",
           "image": "PleasingGarhwalTile.png",
@@ -195,6 +218,7 @@
         },
         {
           "id": "Pckg-B-16",
+          "type": "beautifulUttranchal",
           "title": "RAVISHING UTTARAKHAND",
           "key": "RavishingUttarakhand",
           "image": "RavishingUttarakhandTile.png",
@@ -202,6 +226,7 @@
         },
         {
           "id": "Pckg-B-17",
+          "type": "beautifulUttranchal",
           "title": "RENDEVOUZ IN UTTARAKHAND",
           "key": "RendevouzInUttarakhand",
           "image": "RendevouzInUttarakhandTile.png",
@@ -209,6 +234,7 @@
         },
         {
           "id": "Pckg-B-18",
+          "type": "beautifulUttranchal",
           "title": "SPELLBINDING KUMAON",
           "key": "SpellbindingKumaon",
           "image": "SpellbindingKumaonTile.png",
@@ -216,6 +242,7 @@
         },
         {
           "id": "Pckg-B-19",
+          "type": "beautifulUttranchal",
           "title": "FASCINATING GARHWAL",
           "key": "FascinatingGarhwal",
           "image": "FascinatingGarhwalTile.png",
@@ -223,6 +250,7 @@
         },
         {
           "id": "Pckg-B-20",
+          "type": "beautifulUttranchal",
           "title": "ENCHANTNG UTTARAKHAND",
           "key": "EnchantingUttarakhand",
           "image": "EnchantingUttarakhandTile.png",
@@ -233,9 +261,10 @@
     {
       "type": "Adventure Packages",
       "key": "adventurePackages",
-      "items": [        
+      "items": [
         {
           "id": "Pckg-A-1",
+          "type": "adventurePackages",
           "title": "Real Adventure",
           "key": "Real-Adventure",
           "image": "riverrafting.png",
@@ -243,6 +272,7 @@
         },
         {
           "id": "Pckg-A-2",
+          "type": "adventurePackages",
           "title": "Real Adventure With Corbett",
           "key": "Real-Adventure-With-Corbett",
           "image": "RealAdventureWithCorbettTile.png",

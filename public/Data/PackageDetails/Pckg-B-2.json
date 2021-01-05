@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-2",
+    "type": "beautifulUttranchal",
     "key": "MagnificentGarhwal",
     "title": "Magnificent Garhwal",
     "qoute": "...Explore Rishikesh and Chopta and Auli",
@@ -28,7 +29,9 @@
         "subtitle": "Auli is a beautiful tourist spot which is famous for skiing all across the globe. This scenic place is parched at an elevation 2800 meters above sea level. It is known for its oak-edged slopes and verdant coniferous forests. The history of Auli can be traced back to the 8th century. According to certain beliefs, Guru Adi Shankaracharya visited this sacred place. This place is also known as 'Bugyal', which means ’Meadows’ in the regional language. "
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi – Rishikesh – Chopta - Deoriyatal - Auli - Rishikesh - Delhi",
     "duration": "7 Nights / 8 Days",
     "nightStay": "Rishikesh (2 Nights), Chopta (2 Nights), Deoriyatal (1 Night), Auli (2 Nights)",
@@ -129,7 +132,6 @@
             "subtitle": "2.5Kms : 1-2Hr"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",

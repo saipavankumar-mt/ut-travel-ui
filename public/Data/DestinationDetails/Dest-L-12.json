@@ -1,104 +1,102 @@
- {
+{
 	"data": {
-		  "id": "Dest-L-12",
-		  "key": "Munsyari",
-		  "title": "MUNSYARI",
-		  "qoute": "…A Silent Beauty Screaming Her Story",
-		  "subtitle": "Surrounded by plunging terraced fields, where the 6,000 meters panchachuli peaks scrape the sky across the johar Valley, Munsyari (2290 m) is one of the most scenic village in Uttarakhand. Visited mostly by trekkers heading to the Milam Glacier, the surrounding landscape makes this a worthwhile destination even if you don’t plan on lacing up your boots and hitting the trail.",
-		  "overview":[
+		"id": "Dest-L-12",
+		"key": "Munsyari",
+		"title": "MUNSYARI",
+		"qoute": "…A Silent Beauty Screaming Her Story",
+		"subtitle": "Surrounded by plunging terraced fields, where the 6,000 meters panchachuli peaks scrape the sky across the johar Valley, Munsyari (2290 m) is one of the most scenic village in Uttarakhand. Visited mostly by trekkers heading to the Milam Glacier, the surrounding landscape makes this a worthwhile destination even if you don’t plan on lacing up your boots and hitting the trail.",
+		"overview": [
 			{
-			  "title":"Why Munsyari:",
-			  "subtitle":"Munsyari is a hill station and lies at the base of the great Himalayan mountain range, at an elevation of about 2200 mt and is a starting point of various treks into the interior of the range and also offers breathe taking views of the surrounding mountain ranges."
+				"title": "Why Munsyari:",
+				"subtitle": "Munsyari is a hill station and lies at the base of the great Himalayan mountain range, at an elevation of about 2200 mt and is a starting point of various treks into the interior of the range and also offers breathe taking views of the surrounding mountain ranges."
 			},
 			{
-			  "title":"BEST TIME TO VISIT:",
-			  "subtitle":"The best time to visit Munsyari is between march and June and then September and October. During these months days are pleasant with sunny temperatures with cooler nights, with whole area covered with sheets of snow October is ideal for trekking."
+				"title": "BEST TIME TO VISIT:",
+				"subtitle": "The best time to visit Munsyari is between march and June and then September and October. During these months days are pleasant with sunny temperatures with cooler nights, with whole area covered with sheets of snow October is ideal for trekking."
 			}
-		  ],
-		  "temperature":[
+		],
+		"temperature": [
 			{
-				"season":"Summer",
-				"months":"(April to Mid-June)",
-				"temp":"7°C to 27°C"
+				"season": "Summer",
+				"months": "(April to Mid-June)",
+				"temp": "7°C to 27°C"
 			},
 			{
-				"season":"Monsoon",
-				"months":"(Mid-June to September)",
-				"temp":"14°C to 25°C"
+				"season": "Monsoon",
+				"months": "(Mid-June to September)",
+				"temp": "14°C to 25°C"
 			},
 			{
-				"season":"Winter",
-				"months":"(October to March)",
-				"temp":"-3°C to 15°C"
+				"season": "Winter",
+				"months": "(October to March)",
+				"temp": "-3°C to 15°C"
 			}
-		  ],
-		  "heroImage": "destinations/MunsyariHeroImage.png",
-		  "images": [
-		    "destinations/munsyari/madkot.png",
+		],
+		"heroImage": "destinations/MunsyariHeroImage.png",
+		"images": [
+			"destinations/munsyari/madkot.png",
 			"destinations/munsyari/birthiFalls.png",
 			"destinations/munsyari/dharchula.png",
 			"destinations/munsyari/narayanAshram.png",
 			"destinations/munsyari/milamGlacier.png",
 			"destinations/munsyari/munsiyariSkiing.png"
-		  ],
-		  "attractions":[
+		],
+		"attractions": [
 			{
 				"title": "Madkot",
 				"image": "destinations/munsyari/madkot.png",
-				"description":"Madkot is a beautiful hamlet located 22 km from Munsyari blessed with scenic beauty and rich flora. Madkot is also known for its hot springs with medical values which can cure any muscle and joint pains, especially rheumatoid arthritis."
+				"description": "Madkot is a beautiful hamlet located 22 km from Munsyari blessed with scenic beauty and rich flora. Madkot is also known for its hot springs with medical values which can cure any muscle and joint pains, especially rheumatoid arthritis."
 			},
 			{
 				"title": "Birthi Falls",
 				"image": "destinations/munsyari/birthiFalls.png",
-				"description":"Covering a mere 14 km distance from Tejam near Munsyari one can experience the splendid Birthi Falls. Located at a height of 400 ft above the sea level and water rolling from a height of 126 mt splashes on the shore with an unparalleled gorgeous views, one can chose to trek this place and have an exciting outing."
+				"description": "Covering a mere 14 km distance from Tejam near Munsyari one can experience the splendid Birthi Falls. Located at a height of 400 ft above the sea level and water rolling from a height of 126 mt splashes on the shore with an unparalleled gorgeous views, one can chose to trek this place and have an exciting outing."
 			},
 			{
 				"title": "Dharchula",
 				"image": "destinations/munsyari/dharchula.png",
-				"description":"Dharchula located at an elevation of 915 m above sea level, situated on the bank of river Kali which separates and form border between India and Nepal. Dharchula is a major trading centre for the trans-Himalayan, surrounded by Himalayan Peaks offering stunning views of the snow clad Panchachuli peaks."
+				"description": "Dharchula located at an elevation of 915 m above sea level, situated on the bank of river Kali which separates and form border between India and Nepal. Dharchula is a major trading centre for the trans-Himalayan, surrounded by Himalayan Peaks offering stunning views of the snow clad Panchachuli peaks."
 			},
 			{
 				"title": "Narayan Ashram ",
 				"image": "destinations/munsyari/narayanAshram.png",
-				"description":"Narayan Ashram is a spritual and social educational centre in Dharchula established in the year of 1963 by Narayan Swami. Narayan Ashram is about 41 km from Munsyari set at an altitude of 2734 mt admist the scenic surroundings is also a school for local children imparting training to local youth."
+				"description": "Narayan Ashram is a spritual and social educational centre in Dharchula established in the year of 1963 by Narayan Swami. Narayan Ashram is about 41 km from Munsyari set at an altitude of 2734 mt admist the scenic surroundings is also a school for local children imparting training to local youth."
 			},
 			{
 				"title": "Milam Glacier",
 				"image": "destinations/munsyari/milamGlacier.png",
-				"description":"Milam Glacier is a major glacier of the Kumaon Himalaya covering around 37 square kilometres, is a popular destination among trekkers. Munsyari boasts 53.5 km trek to Milam glacier the trek through the Goriganga valley offering captivative views of streams, waterfalls, snow laden Himalayas and varied flora and fauna. The trek involves moderate walk across hills , along with Goriganga river and rugged terrain and thus graded at moderate level."
+				"description": "Milam Glacier is a major glacier of the Kumaon Himalaya covering around 37 square kilometres, is a popular destination among trekkers. Munsyari boasts 53.5 km trek to Milam glacier the trek through the Goriganga valley offering captivative views of streams, waterfalls, snow laden Himalayas and varied flora and fauna. The trek involves moderate walk across hills , along with Goriganga river and rugged terrain and thus graded at moderate level."
 			},
 			{
 				"title": "Munsyari Skiing",
 				"image": "destinations/munsyari/munsiyariSkiing.png",
-				"description":"Khaliya Top and Betuli Dhar are the two ldeal ski points in Munsyari. Khaliya Top set about 7 km from Munsyari is an ideal high altitude skiing spot with gradual slope pastures and Betuli Dhar is only 5-6 km away from Munsyari, with picturesque garden of Rhododendron skiing slopes."
+				"description": "Khaliya Top and Betuli Dhar are the two ldeal ski points in Munsyari. Khaliya Top set about 7 km from Munsyari is an ideal high altitude skiing spot with gradual slope pastures and Betuli Dhar is only 5-6 km away from Munsyari, with picturesque garden of Rhododendron skiing slopes."
 			}
-		  ],
-		  "hotels":[
-			
-		  ],
-		  "includedPackages":[
+		],
+		"hotels": [],
+		"includedPackages": [
 			{
 				"id": "Pckg-B-4",
+				"type": "beautifulUttranchal",
 				"title": "Kumaon Heritage",
 				"key": "Kumaon-Heritage",
 				"image": "KumaonTile.png",
 				"duration": "9 Nights / 10 Days"
-			  }	
-		  ],
-		  "transit":[
+			}
+		],
+		"transit": [
 			{
-				"title":"BY AIR",
-				"subtitle": "Pithoragarh has an airport, Naini Saini, which will be operational in some time. The other nearest airport to Munsiyari is at Pantnagar, which is almost 188 km from Munsiyari. One has to book a cab to reach Munsiyari from Pantnagar."				
+				"title": "BY AIR",
+				"subtitle": "Pithoragarh has an airport, Naini Saini, which will be operational in some time. The other nearest airport to Munsiyari is at Pantnagar, which is almost 188 km from Munsiyari. One has to book a cab to reach Munsiyari from Pantnagar."
 			},
 			{
-				"title":"BY RAIL",
-				"subtitle": "The nearest railhead is Tanakpur which is 286 km from Munsiyari. You will have to take a bus till Pithoragarh or book a direct taxi from here to reach Munsiyari."			
+				"title": "BY RAIL",
+				"subtitle": "The nearest railhead is Tanakpur which is 286 km from Munsiyari. You will have to take a bus till Pithoragarh or book a direct taxi from here to reach Munsiyari."
 			},
 			{
-				"title":"BY ROAD",
-				"subtitle": "The road connectivity is good enough and you can find state-run buses to Pithoragarh that go on a regular interval from Haldwani/Kathgodam and Delhi as well. Taxis are always the convenient option to reach Munsiyari."			
+				"title": "BY ROAD",
+				"subtitle": "The road connectivity is good enough and you can find state-run buses to Pithoragarh that go on a regular interval from Haldwani/Kathgodam and Delhi as well. Taxis are always the convenient option to reach Munsiyari."
 			}
 		]
 	}
-	
 }

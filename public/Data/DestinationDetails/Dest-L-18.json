@@ -1,217 +1,228 @@
- {
+{
 	"data": {
-		  "id": "Dest-L-18",
-		  "key": "Jim Corbett National Park",
-		  "title": "JIM CORBETT NATIONAL PARK",
-		  "qoute": "…Hear Nature’s Roar",
-		  "subtitle": "Jim Corbett National Park can be befittingly called the paradise of Tigers for the fact that it holds a large population of Tigers in its breathtaking landscaped that consists of different varieties of flora and fauna. Named after the legendary tiger hunter turned naturalist Jim Corbett, the proud destinations ‘Jim Corbett National Park’ was the first national park of India, which was established in 1936 in the Uttarakhand.",
-		  "overview":[
+		"id": "Dest-L-18",
+		"key": "Jim Corbett National Park",
+		"title": "JIM CORBETT NATIONAL PARK",
+		"qoute": "…Hear Nature’s Roar",
+		"subtitle": "Jim Corbett National Park can be befittingly called the paradise of Tigers for the fact that it holds a large population of Tigers in its breathtaking landscaped that consists of different varieties of flora and fauna. Named after the legendary tiger hunter turned naturalist Jim Corbett, the proud destinations ‘Jim Corbett National Park’ was the first national park of India, which was established in 1936 in the Uttarakhand.",
+		"overview": [
 			{
-			  "title":"Why Jim Corbett National Park:",
-			  "subtitle":"Jim Corbett National Park is one of the oldest national park in India, Corbett Tiger Reserve is a popular destination amongst wildlife and nature lovers. If you are an adventure freak, bird watcher or animal lover then Corbett National Park is the ideal place for you, besides wildlife safari you can enjoy partaking both enthralling and leisure activities along with a pilgrimage tour as well."
+				"title": "Why Jim Corbett National Park:",
+				"subtitle": "Jim Corbett National Park is one of the oldest national park in India, Corbett Tiger Reserve is a popular destination amongst wildlife and nature lovers. If you are an adventure freak, bird watcher or animal lover then Corbett National Park is the ideal place for you, besides wildlife safari you can enjoy partaking both enthralling and leisure activities along with a pilgrimage tour as well."
 			},
 			{
-			  "title":"BEST TIME TO VISIT:",
-			  "subtitle":"The best time to visit Jim Corbett National Park is during the months of October to March. During summer the temperature may be as high as 40°C, however for tiger sighting May is considered an ideal month. Corbett National Park during winters is quite pleasant giving a great sight of the birds and animals."
+				"title": "BEST TIME TO VISIT:",
+				"subtitle": "The best time to visit Jim Corbett National Park is during the months of October to March. During summer the temperature may be as high as 40°C, however for tiger sighting May is considered an ideal month. Corbett National Park during winters is quite pleasant giving a great sight of the birds and animals."
 			}
-		  ],
-		  "temperature":[
+		],
+		"temperature": [
 			{
-				"season":"Summer",
-				"months":"(April to Mid-June)",
-				"temp":"20°C to 42°C"
+				"season": "Summer",
+				"months": "(April to Mid-June)",
+				"temp": "20°C to 42°C"
 			},
 			{
-				"season":"Monsoon",
-				"months":"(Mid-June to September)",
-				"temp":"24°C to 34°C"
+				"season": "Monsoon",
+				"months": "(Mid-June to September)",
+				"temp": "24°C to 34°C"
 			},
 			{
-				"season":"Winter",
-				"months":"(October to March)",
-				"temp":"-2°C to 26°C"
+				"season": "Winter",
+				"months": "(October to March)",
+				"temp": "-2°C to 26°C"
 			}
-		  ],
-		  "heroImage": "destinations/JimCorbettNationParkHeroImage.png",
-		  "images": [
-		    "destinations/corbett/garjiaMataMandir.png",
+		],
+		"heroImage": "destinations/JimCorbettNationParkHeroImage.png",
+		"images": [
+			"destinations/corbett/garjiaMataMandir.png",
 			"destinations/corbett/corbettMuseum.png",
 			"destinations/corbett/corbettWaterfall.png",
 			"destinations/corbett/hanumanDham.png",
 			"destinations/corbett/wildlifeJungleSafarisThroughVariousGate.png"
-			],
-		  "attractions":[
+		],
+		"attractions": [
 			{
 				"title": "Garjia Mata Mandir",
 				"image": "destinations/corbett/garjiaMataMandir.png",
-				"description":"Garjia Mata Mandir is a famous Hindu pilgrimage site that is dedicated to Goddess Parvati, located on the outskirts of Corbett National Park in Garjia village near Ramnagar. This must visit temple is built on a rock in the middle of Kosi River and one has to climb a steep staircase in order to get to the top of the temple."
+				"description": "Garjia Mata Mandir is a famous Hindu pilgrimage site that is dedicated to Goddess Parvati, located on the outskirts of Corbett National Park in Garjia village near Ramnagar. This must visit temple is built on a rock in the middle of Kosi River and one has to climb a steep staircase in order to get to the top of the temple."
 			},
 			{
 				"title": "Corbett Museum",
 				"image": "destinations/corbett/corbettMuseum.png",
-				"description":"Located in the Kaladhungi, Corbett Museum is the heritage property of the renowned hunter turned environmentalist Jim Corbett. The museum is built to commemorate his achievements and contribution in the making on the national park, at the museum one can see the personal belongings, paintings, sketches and manuscripts of the Jim Corbett."
+				"description": "Located in the Kaladhungi, Corbett Museum is the heritage property of the renowned hunter turned environmentalist Jim Corbett. The museum is built to commemorate his achievements and contribution in the making on the national park, at the museum one can see the personal belongings, paintings, sketches and manuscripts of the Jim Corbett."
 			},
 			{
 				"title": "Corbett Waterfall",
 				"image": "destinations/corbett/corbettWaterfall.png",
-				"description":"Located 25 kms away from Ramnagar, Corbett Waterfall surrounded by dense teak wood forest which extends its natural beauty. Waterfalls dropping down from a height of 60 feet and a melodious chriping of the birds in this region offers a refreshing break from tiring safari session. The area around the waterfall is just the perfect place to enjoy a picnic."
+				"description": "Located 25 kms away from Ramnagar, Corbett Waterfall surrounded by dense teak wood forest which extends its natural beauty. Waterfalls dropping down from a height of 60 feet and a melodious chriping of the birds in this region offers a refreshing break from tiring safari session. The area around the waterfall is just the perfect place to enjoy a picnic."
 			},
 			{
 				"title": "Hanuman Dham",
 				"image": "destinations/corbett/hanumanDham.png",
-				"description":"Hanuman Dham located in Ramnagar is a must visit attraction amidst peaceful and tranquil surrounding. The temple is dedicated to Lord Hanuman and the architecture of the temple is splendid in appearance both interiors and exteriors. This well known tourist attraction has an arched gateway to the temple that depicts two fishes on the gateway symbolizing fortune and prosperity."
+				"description": "Hanuman Dham located in Ramnagar is a must visit attraction amidst peaceful and tranquil surrounding. The temple is dedicated to Lord Hanuman and the architecture of the temple is splendid in appearance both interiors and exteriors. This well known tourist attraction has an arched gateway to the temple that depicts two fishes on the gateway symbolizing fortune and prosperity."
 			},
 			{
 				"title": "Wildlife Jungle Safaris Through Various Gate",
 				"image": "destinations/corbett/wildlifeJungleSafarisThroughVariousGate.png",
-				"description":"Corbett National Park spreads over 520.8 square km that can be explored by taking a jeep or canter safari. To offer best experience in Corbett National Park the administration has divided it into six zones - Jhirna, Bijrani, Dhikala, Durga Devi, Dhella and Sonanadi. Tourists can explore Bijrani, Jhirna, Dhella, Durga Devi & Sonanadi by opting for jeep safari while the canter safari is only available in Dhikala. To enjoy safari one needs to book in advance and even seek entry permits from the entrance gate."
+				"description": "Corbett National Park spreads over 520.8 square km that can be explored by taking a jeep or canter safari. To offer best experience in Corbett National Park the administration has divided it into six zones - Jhirna, Bijrani, Dhikala, Durga Devi, Dhella and Sonanadi. Tourists can explore Bijrani, Jhirna, Dhella, Durga Devi & Sonanadi by opting for jeep safari while the canter safari is only available in Dhikala. To enjoy safari one needs to book in advance and even seek entry permits from the entrance gate."
 			}
-		  ],
-		  "hotels":[
-			{	
-				"id":"Dest-L-18-H-1",
-				"key":"CorbettLeelaVilas",
-				"name":"Corbett Leela Vilas",				
-				"image":"hotels/corbett/corbettLeelaVilas.png",
-				"rating":4				
+		],
+		"hotels": [
+			{
+				"id": "Dest-L-18-H-1",
+				"key": "CorbettLeelaVilas",
+				"name": "Corbett Leela Vilas",
+				"image": "hotels/corbett/corbettLeelaVilas.png",
+				"rating": 4
 			},
-			{	
-				"id":"Dest-L-18-H-2",
-				"key":"InfinityResort",
-				"name":"Infinity Resort",				
-				"image":"hotels/corbett/infinityResort.png",
-				"rating":4				
+			{
+				"id": "Dest-L-18-H-2",
+				"key": "InfinityResort",
+				"name": "Infinity Resort",
+				"image": "hotels/corbett/infinityResort.png",
+				"rating": 4
 			},
-			{	
-				"id":"Dest-L-18-H-3",
-				"key":"TheGoldenTusk",
-				"name":"The Golden Tusk",				
-				"image":"hotels/corbett/theGoldenTusk.png",
-				"rating":4				
+			{
+				"id": "Dest-L-18-H-3",
+				"key": "TheGoldenTusk",
+				"name": "The Golden Tusk",
+				"image": "hotels/corbett/theGoldenTusk.png",
+				"rating": 4
 			},
-			{	
-				"id":"Dest-L-18-H-4",
-				"key":"JukasoManuMaharaniResort",
-				"name":"Jukaso Manu Maharani Resort",				
-				"image":"hotels/corbett/jukasoManuMaharaniResort.png",
-				"rating":4				
+			{
+				"id": "Dest-L-18-H-4",
+				"key": "JukasoManuMaharaniResort",
+				"name": "Jukaso Manu Maharani Resort",
+				"image": "hotels/corbett/jukasoManuMaharaniResort.png",
+				"rating": 4
 			},
-			{	
-				"id":"Dest-L-18-H-5",
-				"key":"CorbettAromaPark",
-				"name":"Corbett Aroma Park",				
-				"image":"hotels/corbett/corbettAromaPark.png",
-				"rating":4				
+			{
+				"id": "Dest-L-18-H-5",
+				"key": "CorbettAromaPark",
+				"name": "Corbett Aroma Park",
+				"image": "hotels/corbett/corbettAromaPark.png",
+				"rating": 4
 			},
-			{	
-				"id":"Dest-L-18-H-6",
-				"key":"CorbettRiverViewRetreat",
-				"name":"Corbett River View Retreat",				
-				"image":"hotels/corbett/corbettRiverViewRetreat.png",
-				"rating":4				
+			{
+				"id": "Dest-L-18-H-6",
+				"key": "CorbettRiverViewRetreat",
+				"name": "Corbett River View Retreat",
+				"image": "hotels/corbett/corbettRiverViewRetreat.png",
+				"rating": 4
 			},
-			{	
-				"id":"Dest-L-18-H-7",
-				"key":"TheDenCorbett",
-				"name":"The Den Corbett",				
-				"image":"hotels/corbett/theDenCorbett.png",
-				"rating":4				
+			{
+				"id": "Dest-L-18-H-7",
+				"key": "TheDenCorbett",
+				"name": "The Den Corbett",
+				"image": "hotels/corbett/theDenCorbett.png",
+				"rating": 4
 			},
-			{	
-				"id":"Dest-L-18-H-8",
-				"key":"CampRiverwildResort",
-				"name":"Camp Riverwild Resort",				
-				"image":"hotels/corbett/campRiverwildResort.png",
-				"rating":4				
+			{
+				"id": "Dest-L-18-H-8",
+				"key": "CampRiverwildResort",
+				"name": "Camp Riverwild Resort",
+				"image": "hotels/corbett/campRiverwildResort.png",
+				"rating": 4
 			},
-			{	
-				"id":"Dest-L-18-H-9",
-				"key":"3PalmsWildExotica",
-				"name":"3 Palms Wild Exotica",				
-				"image":"hotels/corbett/3PalmsWildExotica.png",
-				"rating":3				
+			{
+				"id": "Dest-L-18-H-9",
+				"key": "3PalmsWildExotica",
+				"name": "3 Palms Wild Exotica",
+				"image": "hotels/corbett/3PalmsWildExotica.png",
+				"rating": 3
 			},
-			{	
-				"id":"Dest-L-18-H-10",
-				"key":"KamyaResort",
-				"name":"Kamya Resort",				
-				"image":"hotels/corbett/kamyaResort.png",
-				"rating":4				
+			{
+				"id": "Dest-L-18-H-10",
+				"key": "KamyaResort",
+				"name": "Kamya Resort",
+				"image": "hotels/corbett/kamyaResort.png",
+				"rating": 4
 			}
-		  ],
-		  "includedPackages":[
+		],
+		"includedPackages": [
 			{
 				"id": "Pckg-B-3",
+				"type": "beautifulUttranchal",
 				"title": "Complete Uttranchal",
 				"image": "CompleteUttranchalTile.png",
 				"key": "Complete-Uttranchal",
 				"duration": "10 Nights / 11 Days"
-			  },
-			  {
+			},
+			{
 				"id": "Pckg-B-4",
+				"type": "beautifulUttranchal",
 				"title": "Kumaon Heritage",
 				"key": "Kumaon-Heritage",
 				"image": "KumaonTile.png",
 				"duration": "9 Nights / 10 Days"
-			  },
-			{
-			  "id": "Pckg-B-5",
-			  "title": "Beautiful Kumaon",
-			  "image": "BeautifulKumaonTile.png",
-			  "key": "BeautifulKumaon",
-			  "duration": "9 Nights / 10 Days"
 			},
 			{
-			  "id": "Pckg-B-7",
-			  "title": "Scenic Uttranchal",
-			  "image": "ScenicUttranchalTile.png",
-			  "key": "ScenicUttranchal",
-			  "duration": "9 Nights / 10 Days"
+				"id": "Pckg-B-5",
+				"type": "beautifulUttranchal",
+				"title": "Beautiful Kumaon",
+				"image": "BeautifulKumaonTile.png",
+				"key": "BeautifulKumaon",
+				"duration": "9 Nights / 10 Days"
 			},
 			{
-			  "id": "Pckg-B-9",
-			  "title": "Uttranchal Preview",
-			  "image": "UttranchalPreviewTile.png",
-			  "key": "UttranchalPreview",
-			  "duration": "7 Nights / 8 Days"
+				"id": "Pckg-B-7",
+				"type": "beautifulUttranchal",
+				"title": "Scenic Uttranchal",
+				"image": "ScenicUttranchalTile.png",
+				"key": "ScenicUttranchal",
+				"duration": "9 Nights / 10 Days"
 			},
 			{
-              "id": "Pckg-B-10",
-              "title": "Weekend Uttranchal",
-              "key": "WeekendUttranchal",
-              "image": "WeekendUttranchalTile.png",
-              "duration": "3 Nights / 4 Days"
-            },
+				"id": "Pckg-B-9",
+				"type": "beautifulUttranchal",
+				"title": "Uttranchal Preview",
+				"image": "UttranchalPreviewTile.png",
+				"key": "UttranchalPreview",
+				"duration": "7 Nights / 8 Days"
+			},
 			{
-			  "id": "Pckg-B-11",
-			  "title": "Aesthetic Kumaon",
-			  "image": "AestheticKumaonTile.png",
-			  "key": "AestheticKumaon",
-			  "duration": "7 Nights / 8 Days"
+				"id": "Pckg-B-10",
+				"type": "beautifulUttranchal",
+				"title": "Weekend Uttranchal",
+				"key": "WeekendUttranchal",
+				"image": "WeekendUttranchalTile.png",
+				"duration": "3 Nights / 4 Days"
+			},
+			{
+				"id": "Pckg-B-11",
+				"type": "beautifulUttranchal",
+				"title": "Aesthetic Kumaon",
+				"image": "AestheticKumaonTile.png",
+				"key": "AestheticKumaon",
+				"duration": "7 Nights / 8 Days"
 			},
 			{
 				"id": "Pckg-B-12",
+				"type": "beautifulUttranchal",
 				"title": "ALLURING UTTARAKHAND",
 				"key": "AlluringUttarakhand",
 				"image": "AlluringUttranchalTile.png",
 				"duration": "8 Nights / 9 Days"
-			  },
+			},
 			{
-			  "id": "Pckg-B-13",
-			  "title": "Charming Kumaon",
-			  "image": "CharmingKumaonTile.png",
-			  "key": "CharmingKumaon",
-			  "duration": "7 Nights / 8 Days"
+				"id": "Pckg-B-13",
+				"type": "beautifulUttranchal",
+				"title": "Charming Kumaon",
+				"image": "CharmingKumaonTile.png",
+				"key": "CharmingKumaon",
+				"duration": "7 Nights / 8 Days"
 			},
 			{
 				"id": "Pckg-B-14",
+				"type": "beautifulUttranchal",
 				"title": "MYSTIC UTTRANCHAL",
 				"key": "MysticUttranchal",
 				"image": "MysticUttranchalTile.png",
 				"duration": "7 Nights / 8 Days"
-			  },
+			},
 			{
 				"id": "Pckg-B-18",
+				"type": "beautifulUttranchal",
 				"title": "Spellbinding Kumaon",
 				"image": "SpellbindingKumaonTile.png",
 				"key": "SpellbindingKumaon",
@@ -219,26 +230,26 @@
 			},
 			{
 				"id": "Pckg-B-20",
+				"type": "beautifulUttranchal",
 				"title": "Enchanting Uttarakhand",
 				"image": "EnchantingUttarakhandTile.png",
 				"key": "EnchantingUttarakhand",
 				"duration": "9 Nights / 10 Days"
 			}
-			],
-		  "transit":[
+		],
+		"transit": [
 			{
-				"title":"BY AIR",
-				"subtitle": "Pantnagar Airport is the nearest airport which is located about 80 kms from Corbett. Moreover, the flights operate on a regular basis from major cities like; Delhi, Mumbai, and Kolkata to Pantnagar. Taxis are easily available from Pantnagar Airport to Jim Corbett National Park."				
+				"title": "BY AIR",
+				"subtitle": "Pantnagar Airport is the nearest airport which is located about 80 kms from Corbett. Moreover, the flights operate on a regular basis from major cities like; Delhi, Mumbai, and Kolkata to Pantnagar. Taxis are easily available from Pantnagar Airport to Jim Corbett National Park."
 			},
 			{
-				"title":"BY RAIL",
-				"subtitle": "Ramnagar is the nearest railway station situated 5 kms away from Corbett National Park. Ramnagar railway station is well connected to major cities like Delhi, Chandigarh, Gwalior, and more."			
+				"title": "BY RAIL",
+				"subtitle": "Ramnagar is the nearest railway station situated 5 kms away from Corbett National Park. Ramnagar railway station is well connected to major cities like Delhi, Chandigarh, Gwalior, and more."
 			},
 			{
-				"title":"BY ROAD",
-				"subtitle": "Jim Corbett National Park is well connected through road with the major cities like Delhi, Chandigarh, and other cities and towns of Uttarakhand. Many private and public buses are easily available from Delhi to Ramnagar and Jim Corbett National Park."			
+				"title": "BY ROAD",
+				"subtitle": "Jim Corbett National Park is well connected through road with the major cities like Delhi, Chandigarh, and other cities and towns of Uttarakhand. Many private and public buses are easily available from Delhi to Ramnagar and Jim Corbett National Park."
 			}
 		]
 	}
-	
 }

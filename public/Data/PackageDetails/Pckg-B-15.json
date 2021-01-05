@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-15",
+    "type": "beautifulUttranchal",
     "key": "PleasingGarhwal",
     "title": "Pleasing Garhwal",
     "qoute": "...Explore Lansdowne and Chopta and Auli and Rishikesh",
@@ -32,7 +33,9 @@
         "subtitle": "Located in the foothills of Himalayas along the convergence of Ganga and Chanderbhaga river, Rishikesh is known for its adventure activities, ancient temples, popular cafes and as the 'Yoga Capital of the World'. With whitewater rafting industry growing and varied camping and café sports springing up, Rishikesh has grown immensely as a favorite, catering to people with different needs."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi - Lansdowne - Chopta - Auli - Rishikesh - Delhi",
     "duration": "6 Nights / 7 Days",
     "nightStay": "Lansdowne (2 Nights), Chopta (1 Night), Auli (2 Nights), Rishikesh (1 Night)",
@@ -109,7 +112,6 @@
             "subtitle": "170Kms : 5-6Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -138,7 +140,6 @@
             "subtitle": "140Kms : 6Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -163,7 +164,6 @@
             "subtitle": ""
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -192,7 +192,6 @@
             "subtitle": "260Kms : 9Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",

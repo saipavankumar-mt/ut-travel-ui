@@ -1,124 +1,126 @@
- {
+{
 	"data": {
-		  "id": "Dest-L-6",
-		  "key": "Auli",
-		  "title": "AULI",
-		  "qoute": "…The Magnificent Miracle",
-		  "subtitle": "Auli is a beautiful tourist spot which is famous for skiing all across the globe. This scenic place is parched at an elevation 2800 meters above sea level. It is known for its oak-edged slopes and verdant coniferous forests. The history of Auli can be traced back to the 8th century. According to certain beliefs, Guru Adi Shankaracharya visited this sacred place. This place is also known as 'Bugyal', which means ’Meadows’ in the regional language.",
-		  "overview":[
+		"id": "Dest-L-6",
+		"key": "Auli",
+		"title": "AULI",
+		"qoute": "…The Magnificent Miracle",
+		"subtitle": "Auli is a beautiful tourist spot which is famous for skiing all across the globe. This scenic place is parched at an elevation 2800 meters above sea level. It is known for its oak-edged slopes and verdant coniferous forests. The history of Auli can be traced back to the 8th century. According to certain beliefs, Guru Adi Shankaracharya visited this sacred place. This place is also known as 'Bugyal', which means ’Meadows’ in the regional language.",
+		"overview": [
 			{
-			  "title":"Why Auli:",
-			  "subtitle":"Auli, a white winter land is a famous hiking and skiing destination located at an 2800 mt above the sea level. It is surrounded by coniferous and oak forests along with breathtaking views of Himalayas and the walk in nature is a witness to thousand miracles."
+				"title": "Why Auli:",
+				"subtitle": "Auli, a white winter land is a famous hiking and skiing destination located at an 2800 mt above the sea level. It is surrounded by coniferous and oak forests along with breathtaking views of Himalayas and the walk in nature is a witness to thousand miracles."
 			},
 			{
-			  "title":"BEST TIME TO VISIT:",
-			  "subtitle":"With glistening snow and shimmering nights Auli is a wondrous fairy-tale which is famous for snow skiing and hiking during winter. During summer and monsoon Auli is best suited for sightseeing."
+				"title": "BEST TIME TO VISIT:",
+				"subtitle": "With glistening snow and shimmering nights Auli is a wondrous fairy-tale which is famous for snow skiing and hiking during winter. During summer and monsoon Auli is best suited for sightseeing."
 			}
-		  ],
-		  "temperature":[
+		],
+		"temperature": [
 			{
-				"season":"Summer",
-				"months":"(April to Mid-June)",
-				"temp":"7°C to 20°C"
+				"season": "Summer",
+				"months": "(April to Mid-June)",
+				"temp": "7°C to 20°C"
 			},
 			{
-				"season":"Monsoon",
-				"months":"(Mid-June to September)",
-				"temp":"10°C to 20°C"
+				"season": "Monsoon",
+				"months": "(Mid-June to September)",
+				"temp": "10°C to 20°C"
 			},
 			{
-				"season":"Winter",
-				"months":"(October to March)",
-				"temp":"-4°C to 14°C"
+				"season": "Winter",
+				"months": "(October to March)",
+				"temp": "-4°C to 14°C"
 			}
-		  ],
-		  "heroImage": "destinations/AuliHeroImage.png",
-		  "images": [
-		    "destinations/auli/joshimath.png",
+		],
+		"heroImage": "destinations/AuliHeroImage.png",
+		"images": [
+			"destinations/auli/joshimath.png",
 			"destinations/auli/gorsonBugyal.png",
 			"destinations/auli/kwaniBugyal.png",
 			"destinations/auli/auliRopeway.png",
 			"destinations/auli/auliArtificialLake.png",
 			"destinations/auli/chattrakund.png"
-		  ],
-		  "attractions":[
+		],
+		"attractions": [
 			{
 				"title": "Joshimath",
 				"image": "destinations/auli/joshimath.png",
-				"description":"Joshimath also known as jyotirmath is the winter seat of Lord Badri, which is one of the four Maths established by the Adi Shankaracharya in the 8th century. Located at an height of 6150 ft it is a gateway to sevaral Himalayan mountain climbing expeditions, trekking trails and pilgrim centres like Badrinath."
+				"description": "Joshimath also known as jyotirmath is the winter seat of Lord Badri, which is one of the four Maths established by the Adi Shankaracharya in the 8th century. Located at an height of 6150 ft it is a gateway to sevaral Himalayan mountain climbing expeditions, trekking trails and pilgrim centres like Badrinath."
 			},
 			{
 				"title": "Gorson Bugyal",
 				"image": "destinations/auli/gorsonBugyal.png",
-				"description":"Gorson Bugyal is a meadow mistress located at an altitude of 3956 mt is an ideal trekking destination in Auli. Gorson Bugyal offers a 3 km trek with snow clad mountains, narrow pathways and views one can not encompass with their naked eye makes you cherish for a lifetime."
+				"description": "Gorson Bugyal is a meadow mistress located at an altitude of 3956 mt is an ideal trekking destination in Auli. Gorson Bugyal offers a 3 km trek with snow clad mountains, narrow pathways and views one can not encompass with their naked eye makes you cherish for a lifetime."
 			},
 			{
 				"title": "Kwani Bugyal",
 				"image": "destinations/auli/kwaniBugyal.png",
-				"description":"Kwani Bugyal is a popular trekking destination through the colossal mountains and lush green pastures known for untouched beauty of Himalayas. Located at an elevation of 3380 mt, with nature flourishing Kwani Bugyal offers a mesmerising view of mountain peaks like Nanda Devi and Dunagiri."
+				"description": "Kwani Bugyal is a popular trekking destination through the colossal mountains and lush green pastures known for untouched beauty of Himalayas. Located at an elevation of 3380 mt, with nature flourishing Kwani Bugyal offers a mesmerising view of mountain peaks like Nanda Devi and Dunagiri."
 			},
 			{
 				"title": "Auli Ropeway",
 				"image": "destinations/auli/auliRopeway.png",
-				"description":"Auli Ropeway is the highest and longest ropeway in Asia after Gulmarg, located at an elevation of 3010 mt above the sea level is a major attraction in Auli. Auli is the best skiing and paragliding destination offering magnificent and majestic Himalayan view attracting large number of tourists."
+				"description": "Auli Ropeway is the highest and longest ropeway in Asia after Gulmarg, located at an elevation of 3010 mt above the sea level is a major attraction in Auli. Auli is the best skiing and paragliding destination offering magnificent and majestic Himalayan view attracting large number of tourists."
 			},
 			{
 				"title": "Auli Artificial Lake",
 				"image": "destinations/auli/auliArtificialLake.png",
-				"description":"Auli Artificial Lake is one of the world's highest man made lake developed by the government in view of creating artificial snow on the ski slopes. Perched at a high elevation sitting by a deep blue lake admist snow-capped mountains you will bedazzled with its stunning beauty."
+				"description": "Auli Artificial Lake is one of the world's highest man made lake developed by the government in view of creating artificial snow on the ski slopes. Perched at a high elevation sitting by a deep blue lake admist snow-capped mountains you will bedazzled with its stunning beauty."
 			},
 			{
 				"title": "Chattrakund",
 				"image": "destinations/auli/chattrakund.png",
-				"description":"Serenity and peace accentuated by glittering water, sprakling reflections, cool air and breathtaking landscapes Chattrakund is everything you have dreamt of, absolutely picture perfect lake situated at an altitude of 3350 mt and is 4 km from skiing destination in Auli."
+				"description": "Serenity and peace accentuated by glittering water, sprakling reflections, cool air and breathtaking landscapes Chattrakund is everything you have dreamt of, absolutely picture perfect lake situated at an altitude of 3350 mt and is 4 km from skiing destination in Auli."
 			}
-		  ],
-		  "hotels":[
-			
-		  ],
-		  "includedPackages":[
+		],
+		"hotels": [],
+		"includedPackages": [
 			{
-              "id": "Pckg-B-2",
-              "title": "Magnificent Gharwal",
-              "key": "Magnificent-Gharwal",
-              "image": "MagnificientGarhwalTile.png",
-               "duration": "7 Nights / 8 Days"
-		   },
-		   {
-			"id": "Pckg-B-15",
-			"title": "PLEASING GARHWAL",
-			"key": "PleasingGarhwal",
-			"image": "PleasingGarhwalTile.png",
-			"duration": "6 Nights / 7 Days"
-		  },
-		  {
-			"id": "Pckg-B-16",
-			"title": "RAVISHING UTTARAKHAND",
-			"key": "RavishingUttarakhand",
-			"image": "RavishingUttarakhandTile.png",
-			"duration": "9 Nights / 10 Days"
-		  },
-		  {
-			"id": "Pckg-B-20",
-			"title": "ENCHANTNG UTTARAKHAND",
-			"key": "EnchantingUttarakhand",
-			"image": "EnchantingUttarakhandTile.png",
-			"duration": "9 Nights / 10 Days"
-		  }
-		  ],
-		  "transit":[
-			{
-				"title":"BY AIR",
-				"subtitle": "Located at a distance of 279 km away, Jolly Grant airport is the nearest one to Auli, which is easily accessible by cabs."				
+				"id": "Pckg-B-2",
+				"type": "beautifulUttranchal",
+				"title": "Magnificent Gharwal",
+				"key": "Magnificent-Gharwal",
+				"image": "MagnificientGarhwalTile.png",
+				"duration": "7 Nights / 8 Days"
 			},
 			{
-				"title":"BY RAIL",
-				"subtitle": "Rishikesh which is 262 km away from Auli is the nearest railway station to reach the destination. The distance thereafter can be covered by a cab."			
+				"id": "Pckg-B-15",
+				"type": "beautifulUttranchal",
+				"title": "PLEASING GARHWAL",
+				"key": "PleasingGarhwal",
+				"image": "PleasingGarhwalTile.png",
+				"duration": "6 Nights / 7 Days"
 			},
 			{
-				"title":"BY ROAD",
-				"subtitle": "Auli is well connected to all other major destinations of Uttarakhand by road. One can find state-run buses from Haridwar/Rishikesh that operate till Joshimath, from where, one can either drive in a cab or take a ropeway to Auli. Taxis from Haridwar and Dehradun are also available and can directly connect you to Auli."			
+				"id": "Pckg-B-16",
+				"type": "beautifulUttranchal",
+				"title": "RAVISHING UTTARAKHAND",
+				"key": "RavishingUttarakhand",
+				"image": "RavishingUttarakhandTile.png",
+				"duration": "9 Nights / 10 Days"
+			},
+			{
+				"id": "Pckg-B-20",
+				"type": "beautifulUttranchal",
+				"title": "ENCHANTNG UTTARAKHAND",
+				"key": "EnchantingUttarakhand",
+				"image": "EnchantingUttarakhandTile.png",
+				"duration": "9 Nights / 10 Days"
+			}
+		],
+		"transit": [
+			{
+				"title": "BY AIR",
+				"subtitle": "Located at a distance of 279 km away, Jolly Grant airport is the nearest one to Auli, which is easily accessible by cabs."
+			},
+			{
+				"title": "BY RAIL",
+				"subtitle": "Rishikesh which is 262 km away from Auli is the nearest railway station to reach the destination. The distance thereafter can be covered by a cab."
+			},
+			{
+				"title": "BY ROAD",
+				"subtitle": "Auli is well connected to all other major destinations of Uttarakhand by road. One can find state-run buses from Haridwar/Rishikesh that operate till Joshimath, from where, one can either drive in a cab or take a ropeway to Auli. Taxis from Haridwar and Dehradun are also available and can directly connect you to Auli."
 			}
 		]
-	}	
+	}
 }

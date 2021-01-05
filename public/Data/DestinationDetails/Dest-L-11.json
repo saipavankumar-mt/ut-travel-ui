@@ -1,78 +1,77 @@
- {
+{
 	"data": {
-		  "id": "Dest-L-11",
-		  "key": "Chaukori",
-		  "title": "CHAUKORI",
-		  "qoute": "…Views That Leave You Breathless",
-		  "subtitle": "Chaukori can be easily called the temple-architecture-scenery hub of Uttaranchal. Not a place you’d expect the usual tourists to go to. An excellent option for a summer/ winter retreat-this place will surely leave a mark your memory. With tea gardens, fruit orchards, beautiful oak-pine forests and vista matched by none-this picturesque hamlet is the place to go.",
-		  "overview":[
+		"id": "Dest-L-11",
+		"key": "Chaukori",
+		"title": "CHAUKORI",
+		"qoute": "…Views That Leave You Breathless",
+		"subtitle": "Chaukori can be easily called the temple-architecture-scenery hub of Uttaranchal. Not a place you’d expect the usual tourists to go to. An excellent option for a summer/ winter retreat-this place will surely leave a mark your memory. With tea gardens, fruit orchards, beautiful oak-pine forests and vista matched by none-this picturesque hamlet is the place to go.",
+		"overview": [
 			{
-			  "title":"Why Chaukori:",
-			  "subtitle":"Chaukori has become a prominent tourist place and from here a wide and picturesque view of Himalayan range can be viewed. The golden yellow colour of sun rays falling on the Himalayan range in the morning time is really worth seeing. Even the nights are pleasent as one can see the galaxy opening its heart for us."
+				"title": "Why Chaukori:",
+				"subtitle": "Chaukori has become a prominent tourist place and from here a wide and picturesque view of Himalayan range can be viewed. The golden yellow colour of sun rays falling on the Himalayan range in the morning time is really worth seeing. Even the nights are pleasent as one can see the galaxy opening its heart for us."
 			},
 			{
-			  "title":"BEST TIME TO VISIT:",
-			  "subtitle":"The best time for sightseeing is during summer and winter when the weather is most pleasent and ldeal for all outdoor activities."
+				"title": "BEST TIME TO VISIT:",
+				"subtitle": "The best time for sightseeing is during summer and winter when the weather is most pleasent and ldeal for all outdoor activities."
 			}
-		  ],
-		  "temperature":[
+		],
+		"temperature": [
 			{
-				"season":"Summer",
-				"months":"(April to Mid-June)",
-				"temp":"19°C to 25°C"
+				"season": "Summer",
+				"months": "(April to Mid-June)",
+				"temp": "19°C to 25°C"
 			},
 			{
-				"season":"Monsoon",
-				"months":"(Mid-June to September)",
-				"temp":"14°C to 23°C"
+				"season": "Monsoon",
+				"months": "(Mid-June to September)",
+				"temp": "14°C to 23°C"
 			},
 			{
-				"season":"Winter",
-				"months":"(October to March)",
-				"temp":"3°C to 15°C"
+				"season": "Winter",
+				"months": "(October to March)",
+				"temp": "3°C to 15°C"
 			}
-		  ],
-		  "heroImage": "destinations/ChaukoriHeroImage.png",
-		  "images": [
-		    "destinations/chaukori/kapileshwarMahadev.png",
+		],
+		"heroImage": "destinations/ChaukoriHeroImage.png",
+		"images": [
+			"destinations/chaukori/kapileshwarMahadev.png",
 			"destinations/chaukori/mahakaliTempleOfGangolihat.png",
 			"destinations/chaukori/nagMandirOfBerinag.png",
 			"destinations/chaukori/ghunseraDeviTemple.png",
 			"destinations/chaukori/arjuneshwarTemple.png"
-		  ],
-		  "attractions":[
+		],
+		"attractions": [
 			{
 				"title": "Kapileshwar Mahadev",
 				"image": "destinations/chaukori/kapileshwarMahadev.png",
-				"description":"Kapileshwar Mahadev is a unique Hindu temple located deep inside a cave dedicated to Lord Shiva lies about 3 km from Pithoragarh. It provides a beautiful view of thye Solar valley and the Himalayan ranges."
+				"description": "Kapileshwar Mahadev is a unique Hindu temple located deep inside a cave dedicated to Lord Shiva lies about 3 km from Pithoragarh. It provides a beautiful view of thye Solar valley and the Himalayan ranges."
 			},
 			{
 				"title": "Mahakali Temple Of Gangolihat",
 				"image": "destinations/chaukori/mahakaliTempleOfGangolihat.png",
-				"description":"Mahakali Temple is one of the famous shrines located in Gangolihat dedicated to the Goddess Kalika. Located admist the dense deodar forest it is one of the Shakti Peethas established y Guru Adi Shankaracharya."
+				"description": "Mahakali Temple is one of the famous shrines located in Gangolihat dedicated to the Goddess Kalika. Located admist the dense deodar forest it is one of the Shakti Peethas established y Guru Adi Shankaracharya."
 			},
 			{
 				"title": "Nag Mandir Of Berinag",
 				"image": "destinations/chaukori/nagMandirOfBerinag.png",
-				"description":"Berinag gets its name from the Berinag Temple(called as ‘Bedinag’ locally), which is a Nag Devta Temple situated at the top of Berinag Hill. In additional to the temples Berinag offers a panoramic view of the Greater Himalayas and also famous for its tea estates from the British period."
+				"description": "Berinag gets its name from the Berinag Temple(called as ‘Bedinag’ locally), which is a Nag Devta Temple situated at the top of Berinag Hill. In additional to the temples Berinag offers a panoramic view of the Greater Himalayas and also famous for its tea estates from the British period."
 			},
 			{
 				"title": "Ghunsera Devi Temple",
 				"image": "destinations/chaukori/ghunseraDeviTemple.png",
-				"description":"Perched on a hill top Ghunsera Devi Temple is situated inside the Ghunsera caves. The temple enshrined with stone pictures of various goddess established by Khol Kings of the Kartikeya Pura."
+				"description": "Perched on a hill top Ghunsera Devi Temple is situated inside the Ghunsera caves. The temple enshrined with stone pictures of various goddess established by Khol Kings of the Kartikeya Pura."
 			},
 			{
 				"title": "Arjuneshwar Temple",
 				"image": "destinations/chaukori/arjuneshwarTemple.png",
-				"description":"Arjuneshwar Temple is another famous Shiv temple situated at an altitude of 6000 ft believed to be built by Arjuna one of the Pandavas. Arjuneshwar Temple offers trekking to visitors with scenic beauties of hills and forests."
+				"description": "Arjuneshwar Temple is another famous Shiv temple situated at an altitude of 6000 ft believed to be built by Arjuna one of the Pandavas. Arjuneshwar Temple offers trekking to visitors with scenic beauties of hills and forests."
 			}
-		  ],
-		  "hotels":[
-			
-		  ],
-		  "includedPackages":[
+		],
+		"hotels": [],
+		"includedPackages": [
 			{
 				"id": "Pckg-B-4",
+				"type": "beautifulUttranchal",
 				"title": "Kumaon Heritage",
 				"key": "Kumaon-Heritage",
 				"image": "KumaonTile.png",
@@ -80,40 +79,42 @@
 			},
 			{
 				"id": "Pckg-B-9",
+				"type": "beautifulUttranchal",
 				"title": "Uttranchal Preview",
 				"key": "Uttranchal-Preview",
 				"image": "UttranchalPreviewTile.png",
 				"duration": "7 Nights / 8 Days"
-			  },
-			  {
+			},
+			{
 				"id": "Pckg-B-16",
+				"type": "beautifulUttranchal",
 				"title": "RAVISHING UTTARAKHAND",
 				"key": "RavishingUttarakhand",
 				"image": "RavishingUttarakhandTile.png",
 				"duration": "9 Nights / 10 Days"
-			  },
-			  {
+			},
+			{
 				"id": "Pckg-B-20",
+				"type": "beautifulUttranchal",
 				"title": "ENCHANTNG UTTARAKHAND",
 				"key": "EnchantingUttarakhand",
 				"image": "EnchantingUttarakhandTile.png",
 				"duration": "9 Nights / 10 Days"
-			  }
-		  ],
-		  "transit":[
+			}
+		],
+		"transit": [
 			{
-				"title":"BY AIR",
-				"subtitle": "Naini Saini Airport in Pithoragarh is the nearest domestic airport from Chaukori. After it, Jolly Grant Airport is the second nearest airport from Chaukori which is in Dehradun."				
+				"title": "BY AIR",
+				"subtitle": "Naini Saini Airport in Pithoragarh is the nearest domestic airport from Chaukori. After it, Jolly Grant Airport is the second nearest airport from Chaukori which is in Dehradun."
 			},
 			{
-				"title":"BY RAIL",
-				"subtitle": "Kathgodam Railway station is the nearest railway station from Chaukori. It is connected with major cities like Lucknow, Delhi, and Kolkata. One can take a taxi from here to reach Chaukori. The second nearest railway station is Tanakpur railway station which is 174 kms from the town."			
+				"title": "BY RAIL",
+				"subtitle": "Kathgodam Railway station is the nearest railway station from Chaukori. It is connected with major cities like Lucknow, Delhi, and Kolkata. One can take a taxi from here to reach Chaukori. The second nearest railway station is Tanakpur railway station which is 174 kms from the town."
 			},
 			{
-				"title":"BY ROAD",
-				"subtitle": "Kathgodam is the nearest bus station from Chaukori. Taxis and buses are also available from the major places like; Almora, Pithoragarh, Bageshwar, Kausani, Didihat. State-run buses are also available from Almora and Kausani to Chaukori."			
+				"title": "BY ROAD",
+				"subtitle": "Kathgodam is the nearest bus station from Chaukori. Taxis and buses are also available from the major places like; Almora, Pithoragarh, Bageshwar, Kausani, Didihat. State-run buses are also available from Almora and Kausani to Chaukori."
 			}
 		]
 	}
-	
 }

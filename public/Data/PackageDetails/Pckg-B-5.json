@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-5",
+    "type": "beautifulUttranchal",
     "key": "BeautifulKumaon",
     "title": "Beautiful Kumaon",
     "qoute": "...Explore Bhimtal and Nainital and Binsar and Kausani and Jim Corbett National Park",
@@ -36,7 +37,9 @@
         "subtitle": "Jim Corbett National Park can be befittingly called the paradise of Tigers for the fact that it holds a large population of Tigers in its breathtaking landscaped that consists of different varieties of flora and fauna. Named after the legendary tiger hunter turned naturalist Jim Corbett, the proud destinations ‘Jim Corbett National Park’ was the first national park of India, which was established in 1936 in the Uttarakhand."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi – Bhimtal - Nainital - Binsar - Kausani - Jim Corbett National Park - Delhi",
     "duration": "9 Nights / 10 Days",
     "nightStay": "Bhimtal (1 Night), Nainital (3 Nights), Binsar (2 Nights), Kausani, (2 Nights), Corbett (1 Night)",
@@ -141,7 +144,6 @@
             "subtitle": ""
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",

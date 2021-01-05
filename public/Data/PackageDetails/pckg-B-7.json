@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-7",
+    "type": "beautifulUttranchal",
     "key": "ScenicUttaranchal",
     "title": "Scenic Uttaranchal",
     "qoute": "...Explore Nainital and Ranikhet and Jim Corbett National Park and Haridwar and Mussoorie",
@@ -36,7 +37,9 @@
         "subtitle": "Mussoorie, the proverbial queen of Hill station, as professed by the British gentry who evaded hot, desultory summers of Delhi and Kolkata by Spending time here. Being at an average altitude of 2,000 meters Mussoorie, with its green hills and varied flora and fauna, is a fascinating hill resort. Commanding snow ranges to the north- east, and glittering views of the Doon Valley and Shivalik ranges in the south, the town was once said to present a ‘fairyland’ atmosphere to tourists."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi – Nainital - Ranikhet - Jim Corbett National Park - Haridwar - Mussoorie - Delhi",
     "duration": "9 Nights / 10 Days",
     "nightStay": "Nainital (3 Nights), Ranikhet (1 Night), Corbett (2 Nights), Haridwar (1 Night), Mussoorie (2 Nights)",
@@ -137,7 +140,6 @@
             "subtitle": "65Kms : 2Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",

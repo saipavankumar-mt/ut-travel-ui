@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-1",
+    "type": "beautifulUttranchal",
     "key": "GarhwalGlimpse",
     "title": "Garhwal Glimpse",
     "qoute": "...Explore Haridwar and Rishikesh",
@@ -15,7 +16,9 @@
         "subtitle": "Located in the foothills of Himalayas along the convergence of Ganga and Chanderbhaga river, Rishikesh is known for its adventure activities, ancient temples, popular cafes and as the 'Yoga Capital of the World'. With whitewater rafting industry growing and varied camping and café sports springing up, Rishikesh has grown immensely as a favourite, catering to people with different needs."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "weather": {
       "showWeatherForcast": true,
       "location": [
@@ -125,7 +128,6 @@
             "subtitle": ""
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",

@@ -198,6 +198,7 @@
     "includedPackages": [
       {
         "id": "Pckg-B-3",
+        "type": "beautifulUttranchal",
         "title": "Complete Uttranchal",
         "image": "CompleteUttranchalTile.png",
         "key": "Complete-Uttranchal",
@@ -205,6 +206,7 @@
       },
       {
         "id": "Pckg-B-6",
+        "type": "beautifulUttranchal",
         "title": "Tiny Uttranchal",
         "key": "Tiny-Uttranchal",
         "image": "TinyUttranchalTile.png",
@@ -212,6 +214,7 @@
       },
       {
         "id": "Pckg-B-7",
+        "type": "beautifulUttranchal",
         "title": "Scenic Uttranchal",
         "key": "Scenic-Uttranchal",
         "image": "ScenicUttranchalTile.png",
@@ -219,6 +222,7 @@
       },
       {
         "id": "Pckg-B-9",
+        "type": "beautifulUttranchal",
         "title": "Uttranchal Preview",
         "key": "Uttranchal-Preview",
         "image": "UttranchalPreviewTile.png",
@@ -226,6 +230,7 @@
       },
       {
         "id": "Pckg-B-12",
+        "type": "beautifulUttranchal",
         "title": "ALLURING UTTARAKHAND",
         "key": "AlluringUttarakhand",
         "image": "AlluringUttranchalTile.png",
@@ -233,6 +238,7 @@
       },
       {
         "id": "Pckg-B-14",
+        "type": "beautifulUttranchal",
         "title": "MYSTIC UTTRANCHAL",
         "key": "MysticUttranchal",
         "image": "MysticUttranchalTile.png",
@@ -240,6 +246,7 @@
       },
       {
         "id": "Pckg-B-16",
+        "type": "beautifulUttranchal",
         "title": "RAVISHING UTTARAKHAND",
         "key": "RavishingUttarakhand",
         "image": "RavishingUttarakhandTile.png",
@@ -247,6 +254,7 @@
       },
       {
         "id": "Pckg-B-17",
+        "type": "beautifulUttranchal",
         "title": "RENDEVOUZ IN UTTARAKHAND",
         "key": "RendevouzInUttarakhand",
         "image": "RendevouzInUttarakhandTile.png",
@@ -254,6 +262,7 @@
       },
       {
         "id": "Pckg-B-19",
+        "type": "beautifulUttranchal",
         "title": "FASCINATING GARHWAL",
         "key": "FascinatingGarhwal",
         "image": "FascinatingGarhwalTile.png",

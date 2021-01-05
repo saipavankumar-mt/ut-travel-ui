@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-14",
+    "type": "beautifulUttranchal",
     "key": "MysticUttaranchal",
     "title": "Mystic Uttaranchal",
     "qoute": "...Explore Nainital and Jim Corbett National Park and Mussoorie",
@@ -28,7 +29,9 @@
         "subtitle": "Mussoorie, the proverbial queen of Hill station, as professed by the British gentry who evaded hot, desultory summers of Delhi and Kolkata by Spending time here. Being at an average altitude of 2,000 meters Mussoorie, with its green hills and varied flora and fauna, is a fascinating hill resort. Commanding snow ranges to the north- east, and glittering views of the Doon Valley and Shivalik ranges in the south, the town was once said to present a ‘fairyland’ atmosphere to tourists."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi - Nainital - Jim Corbett National Park - Mussoorie - Delhi",
     "duration": "7 Nights / 8 Days",
     "nightStay": "Nainital (2 Nights), Corbett National Park (2 Nights), Mussoorie (2 Nights)",
@@ -101,7 +104,6 @@
             "subtitle": ""
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -130,7 +132,6 @@
             "subtitle": "80Kms : 2Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -155,7 +156,6 @@
             "subtitle": ""
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -184,7 +184,6 @@
             "subtitle": "305Kms : 7-8Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -213,7 +212,6 @@
             "subtitle": ""
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
