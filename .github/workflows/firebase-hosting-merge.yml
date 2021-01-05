@@ -17,6 +17,6 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_UT_TRAVEL_UI }}'
           channelId: live
-          projectId: ut-travel-ui
+          projectId: uttranchalholidays-41e55
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
