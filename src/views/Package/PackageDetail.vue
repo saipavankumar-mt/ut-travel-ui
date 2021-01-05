@@ -21,30 +21,7 @@
             <p>{{ item.subtitle }}</p>
           </div>
         </div>
-        <!-- <h5>Temperature</h5>
-        <ul>
-          <li>
-            <h4>28°C to 45°C</h4>
-            <p>
-              Summer
-              <br />(April to Mid-June)
-            </p>
-          </li>
-          <li>
-            <h4>24°C to 32°C</h4>
-            <p>
-              Monsoon
-              <br />(July to September)
-            </p>
-          </li>
-          <li>
-            <h4>5°C to 27°C</h4>
-            <p>
-              Winter
-              <br />(October to March)
-            </p>
-          </li>
-        </ul>-->
+        
         <b-button class="is-blue" @click="cardModal()">Book Now</b-button>
       </div>
       <div class="banner-inner">
