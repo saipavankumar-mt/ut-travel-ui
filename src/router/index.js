@@ -83,12 +83,21 @@ const routes = [
   {
     path: '/contact-us',
     name: 'Contact-us',
+    component: () => import('../views/ContactUs.vue'),
     meta: { breadCrumb: 'Contact Us' },
   },
 ];
 
 const router = new VueRouter({
+  base: process.env.BASE_URL,
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 });
 
 export default router;
