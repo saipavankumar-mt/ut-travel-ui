@@ -2,8 +2,8 @@ import firebase from 'firebase/app';
 import 'firebase/functions';
 
 const config = {
- apikey:'AIzaSyA4eB8JJ-WuBnxNSsJ1AUgD3lef9UHr-Qg',
- projectId: 'ut-travel-ui'
+ apikey: "AIzaSyCwhmdqRWbK8MWTjQtrIzUOua9Da8YNzMc",
+ projectId: "uttranchalholidays-41e55"
 }
 
 firebase.initializeApp(config);
