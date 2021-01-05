@@ -2,8 +2,8 @@ import firebase from 'firebase/app';
 import 'firebase/functions';
 
 const config = {
- apikey:'AIzaSyCwhmdqRWbK8MWTjQtrIzUOua9Da8YNzMc',
- projectId: 'uttranchalholidays-41e55'
+ apikey: functions.config().project.key,
+ projectId: functions.config().project.id
 }
 
 firebase.initializeApp(config);
