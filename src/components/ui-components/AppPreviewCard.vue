@@ -129,6 +129,7 @@ export default {
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
+  box-shadow: none;
 
   .card-image > .image > img {
     border-radius: 4px 4px 0 0;
@@ -159,13 +160,14 @@ export default {
       font-size: 14px;
       line-height: 20px;
       text-transform: uppercase;
-      color: rgb(96, 191, 243);
+      // color: rgb(96, 191, 243);
+      color: #3e3f54;
       // padding-bottom: 8px;
       margin: 0;
     }
 
     .subtitle {
-      margin-top: 8px !important;
+      margin-top: 0px !important;
       font-style: unset !important;
       text-transform: capitalize;
       color: #64666b;

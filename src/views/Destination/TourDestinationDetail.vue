@@ -72,7 +72,7 @@
       class="destination-carousel container"
       v-model="index"
       :data="destinationPackages.attractions"
-      :items-to-show="$isMobile() ? 1.5 : 4"
+      :items-to-show="$isMobile() ? 2 : 5"
       :arrow-hover="false"
       icon-prev="arrow-left"
       icon-next="arrow-right"
@@ -96,7 +96,7 @@
         class="destination-carousel container"
         v-model="itemIndex"
         :data="destinationPackages.hotels"
-        :items-to-show="$isMobile() ? 1.5 : 4"
+        :items-to-show="$isMobile() ? 2 : 5"
         :arrow-hover="false"
         icon-prev="arrow-left"
         icon-next="arrow-right"
@@ -121,7 +121,7 @@
         class="destination-carousel container"
         v-model="packageIndex"
         :data="destinationPackages.includedPackages"
-        :items-to-show="$isMobile() ? 1.5 : 4"
+        :items-to-show="$isMobile() ? 2 : 5"
         :arrow-hover="false"
         icon-prev="arrow-left"
         icon-next="arrow-right"
@@ -327,7 +327,7 @@ export default {
       this.redirect(value);
     },
 
-    redirectDestination(value) {
+    async redirectDestination(value) {
       this.$router.push({
         name: 'destination-detail',
         params: {
@@ -338,6 +338,8 @@ export default {
           id: value.id,
         },
       });
+      await this.getDestinationPackages();
+      window.location.reload();
     },
     redirect(value) {
       this.$router.push({
@@ -542,13 +544,6 @@ export default {
       color: #4a5258;
       padding-bottom: 5px;
     }
-  }
-
-  .divider {
-    height: 1px;
-    background: #bfa4a4;
-    margin-top: 24px;
-    width: 100%;
   }
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {

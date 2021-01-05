@@ -9,7 +9,7 @@
       class="trekking-carousel"
       v-model="itemIndex"
       :data="packages"
-      :items-to-show="$isMobile() ? 1 : 4"
+      :items-to-show="$isMobile() ? 2 : 5"
       :arrow-hover="false"
       icon-prev="arrow-left"
       icon-next="arrow-right"

@@ -34,7 +34,7 @@
         v-if="trekkingInfo && trekkingInfo.items"
       >
         <div
-          class="column is-one-quarter"
+          class="column is-one-fifth"
           v-for="(item, idx) in trekkingInfo.items"
           :key="idx"
         >

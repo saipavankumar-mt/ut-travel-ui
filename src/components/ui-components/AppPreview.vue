@@ -154,7 +154,7 @@ $carousel-arrow-color: #47caf0;
           font-size: 16px;
           font-weight: 600;
           // color: rgb(62, 63, 84);
-          text-transform: capitalize;
+          // text-transform: capitalize;
         }
         .subtitle.is-7 {
           // font: 12px/18px 'Lato', sans-serif;

@@ -57,7 +57,7 @@
         v-if="tourDestinations && tourDestinations.items"
       >
         <div
-          class="column is-one-quarter"
+          class="column is-one-fifth"
           v-for="(item, idx) in tourDestinations.items"
           :key="idx"
         >

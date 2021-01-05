@@ -61,7 +61,7 @@
             :label="tourPackage.type"
             size="is-medium"
           >
-            <div class="column is-one-quarter" v-for="(item, idx) in tourPackage.data" :key="idx">
+            <div class="column is-one-fifth" v-for="(item, idx) in tourPackage.data" :key="idx">
               <app-preview-card
                 @viewMoreClick="onViewClicked($event, tourPackage.key)"
                 @openCardModal="openCardModal"
