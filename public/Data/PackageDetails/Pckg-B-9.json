@@ -9,8 +9,29 @@
       "showWeatherForcast": true,
       "location": [
         {
-          "lat": "29.94791",
-          "long": "78.16025"
+          "lat": "29.3919",
+          "long": "79.4542",
+          "name": "Nainital"
+        },
+        {
+          "lat": "29.5300",
+          "long": "78.7747",
+          "name": "Jim Corbett"
+        },
+        {
+          "lat": "30.4598",
+          "long": "78.0644",
+          "name": "Mussoorie"
+        },
+        {
+          "lat": "29.8445",
+          "long": "79.6039",
+          "name": "Kausani"
+        },
+        {
+          "lat": "29.9457",
+          "long": "78.1642",
+          "name": "Haridwar"
         }
       ]
     },
