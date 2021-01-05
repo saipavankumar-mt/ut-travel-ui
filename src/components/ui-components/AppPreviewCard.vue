@@ -196,13 +196,13 @@ export default {
 .thumbnail > img {
   max-width: 100%;
   height: 100%;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in;
 }
 
 .description {
   top: 0;
   position: absolute;
-  background: rgba(1, 1, 1, 0.8);
+  background: rgba(1, 1, 1, 0.7);
   color: #fff;
   width: 100%;
   height: 100%;
@@ -245,6 +245,8 @@ export default {
 
   button {
     color: #60bff3 !important;
+    background: transparent;
+    border-radius: 2rem;
 
     &:hover {
       background-color: #60bff3;

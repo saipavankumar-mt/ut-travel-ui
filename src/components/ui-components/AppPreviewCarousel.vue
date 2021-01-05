@@ -13,11 +13,11 @@
     :arrow-hover="false"
     icon-size="is-large"
   >
-    <b-carousel-item v-for="item in carouselItems" :key="item.id">
+    <b-carousel-item v-for="(item, idx) in carouselItems" :key="idx+item.id">
       <div class="preview-carousel-content">
         <div class="title">{{item.title}}</div>
         <img v-bind:src="require('../../assets/images/' + item.image)" :alt="item.image" />
-        <button class="button is-primary" @click="goToDetail(item)">Explore Now</button>
+        <button class="button is-primary" @click.once="goToDetail(item)">Explore Now</button>
       </div>
     </b-carousel-item>
   </b-carousel>

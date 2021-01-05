@@ -1,131 +1,132 @@
- {
+{
 	"data": {
-		  "id": "Dest-L-10",
-		  "key": "Binsar",
-		  "title": "BINSAR",
-		  "qoute": "…Abode of Heavenly Mist",
-		  "subtitle": "Binsar is situated at altitude of 2,480 mtrs. It is a beautiful, quiet and wild Himalayan destination with rich natural surroundings among dense forest. Binsar is perched on the top of the Jhandi Dhar hills. This place is situated 33 km. north of Almora town in the Uttarakhand state of India. From Binsar one can see the 300 km. panoramic view of the Himalayas peaks like Kedarnath Peak, Shivling, Trisul and majestic Nanda Devi from a place called ‘Zero Point’.",
-		  "overview":[
+		"id": "Dest-L-10",
+		"key": "Binsar",
+		"title": "BINSAR",
+		"qoute": "…Abode of Heavenly Mist",
+		"subtitle": "Binsar is situated at altitude of 2,480 mtrs. It is a beautiful, quiet and wild Himalayan destination with rich natural surroundings among dense forest. Binsar is perched on the top of the Jhandi Dhar hills. This place is situated 33 km. north of Almora town in the Uttarakhand state of India. From Binsar one can see the 300 km. panoramic view of the Himalayas peaks like Kedarnath Peak, Shivling, Trisul and majestic Nanda Devi from a place called ‘Zero Point’.",
+		"overview": [
 			{
-			  "title":"Why Binsar:",
-			  "subtitle":"Binsar is a place of splendid natural beauty lies in Kumaon Himalayan known for its panoramic and mesmerizing views of the snowy Himalayan peaks, encircled by a wildlife sanctuary a home to many rare animals, birds and flowers, is also a paradise for trekkers and picture perfect destination for a hill station."
+				"title": "Why Binsar:",
+				"subtitle": "Binsar is a place of splendid natural beauty lies in Kumaon Himalayan known for its panoramic and mesmerizing views of the snowy Himalayan peaks, encircled by a wildlife sanctuary a home to many rare animals, birds and flowers, is also a paradise for trekkers and picture perfect destination for a hill station."
 			},
 			{
-			  "title":"BEST TIME TO VISIT:",
-			  "subtitle":"During summer the weather is pleasant and good for the excursion, winter with cold temparatue and snowfalls. Therefore summer and winter are considered to be the best time to experience the flawless beauty of this place."
+				"title": "BEST TIME TO VISIT:",
+				"subtitle": "During summer the weather is pleasant and good for the excursion, winter with cold temparatue and snowfalls. Therefore summer and winter are considered to be the best time to experience the flawless beauty of this place."
 			}
-		  ],
-		  "temperature":[
+		],
+		"temperature": [
 			{
-				"season":"Summer",
-				"months":"(April to Mid-June)",
-				"temp":"15°C to 30°C"
+				"season": "Summer",
+				"months": "(April to Mid-June)",
+				"temp": "15°C to 30°C"
 			},
 			{
-				"season":"Monsoon",
-				"months":"(Mid-June to September)",
-				"temp":"22°C to 29°C"
+				"season": "Monsoon",
+				"months": "(Mid-June to September)",
+				"temp": "22°C to 29°C"
 			},
 			{
-				"season":"Winter",
-				"months":"(October to March)",
-				"temp":"0°C to 24°C"
+				"season": "Winter",
+				"months": "(October to March)",
+				"temp": "0°C to 24°C"
 			}
-		  ],
-		  "heroImage": "destinations/BinsarHeroImage.png",
-		  "images": [
-		    "destinations/binsar/bineshwarMahadevTemple.png",
+		],
+		"heroImage": "destinations/BinsarHeroImage.png",
+		"images": [
+			"destinations/binsar/bineshwarMahadevTemple.png",
 			"destinations/binsar/gananathMandir.png",
 			"destinations/binsar/khaliEstate.png",
 			"destinations/binsar/binsarHil.png",
 			"destinations/binsar/binsarWildlifeSanctuary.png",
 			"destinations/binsar/jalna.png",
 			"destinations/binsar/shivaTemple.png"
-		  ],
-		  "attractions":[
+		],
+		"attractions": [
 			{
 				"title": "Bineshwar Mahadev Temple",
 				"image": "destinations/binsar/bineshwarMahadevTemple.png",
-				"description":"Bineshwar Mahadev Temple is an ancient Hindu rock temple dedicated to Lord Shiva built in 16 th century A.D. Situated at a distance of 6 km from Binsar the temple is known for its architectural excellence making it a popular tourist site."
+				"description": "Bineshwar Mahadev Temple is an ancient Hindu rock temple dedicated to Lord Shiva built in 16 th century A.D. Situated at a distance of 6 km from Binsar the temple is known for its architectural excellence making it a popular tourist site."
 			},
 			{
 				"title": "Gananath Mandir",
 				"image": "destinations/binsar/gananathMandir.png",
-				"description":"Gananath Mandir is a famous Shiv temple lies admist the natural caves an enchanting holy place where water percolates into Shiv lingh from the areial roots. A fair is held during Karthik Purnima every year, the entire region echoes with the sounds of rhythmic hymns and captivating folk songs."
+				"description": "Gananath Mandir is a famous Shiv temple lies admist the natural caves an enchanting holy place where water percolates into Shiv lingh from the areial roots. A fair is held during Karthik Purnima every year, the entire region echoes with the sounds of rhythmic hymns and captivating folk songs."
 			},
 			{
 				"title": "Khali Estate",
 				"image": "destinations/binsar/khaliEstate.png",
-				"description":"Khali Estate is a popular heritage hotel located in the Binsar Wildlife Sanctuary, once belonged to Sir Henry Ramsay. Khali Estate is surrounded by orchads and forsets with a view of snow claded Himalayan peaks such as Nanda Devi, Trishul, Badrinath , Kedarnath, Gangotri etc.."
+				"description": "Khali Estate is a popular heritage hotel located in the Binsar Wildlife Sanctuary, once belonged to Sir Henry Ramsay. Khali Estate is surrounded by orchads and forsets with a view of snow claded Himalayan peaks such as Nanda Devi, Trishul, Badrinath , Kedarnath, Gangotri etc.."
 			},
 			{
 				"title": "Binsar Hil",
 				"image": "destinations/binsar/binsarHil.png",
-				"description":"Perched at a height of 2420 mt and encircled by Binsar Wildlife Sanctuary is one of the scenic places where one can rejuvenate themselves admist the spellbinding views of majestic Himalayn ranges along with that one can encounter beautiful sunsets and sunrise from here."
+				"description": "Perched at a height of 2420 mt and encircled by Binsar Wildlife Sanctuary is one of the scenic places where one can rejuvenate themselves admist the spellbinding views of majestic Himalayn ranges along with that one can encounter beautiful sunsets and sunrise from here."
 			},
 			{
 				"title": "Binsar Wildlife Sanctuary",
 				"image": "destinations/binsar/binsarWildlifeSanctuary.png",
-				"description":"Binsar Wildlife Sanctuary sits on top of the Jhandi Dhar hills in the Himalayas, is home for wide range of rare and species of animals, birds, flowers and exotic flora. Perched at an elevation of 2412 mt offers a 360 ° view of Himalayan ranges from a place called Zero Point is a paradise for both trekkers and bird watchers."
+				"description": "Binsar Wildlife Sanctuary sits on top of the Jhandi Dhar hills in the Himalayas, is home for wide range of rare and species of animals, birds, flowers and exotic flora. Perched at an elevation of 2412 mt offers a 360 ° view of Himalayan ranges from a place called Zero Point is a paradise for both trekkers and bird watchers."
 			},
 			{
 				"title": "Jalna",
 				"image": "destinations/binsar/jalna.png",
-				"description":"Jalna charming hamlet perched at an elevation of 1677 mt offering the best views of Himalayas. The juicy orchard spread over a large area, produces best quality apples, pears, peaches and other alpine fruits, this lovely village will make you close to nature."
+				"description": "Jalna charming hamlet perched at an elevation of 1677 mt offering the best views of Himalayas. The juicy orchard spread over a large area, produces best quality apples, pears, peaches and other alpine fruits, this lovely village will make you close to nature."
 			},
 			{
 				"title": "Shiva Temple",
 				"image": "destinations/binsar/shivaTemple.png",
-				"description":"Another Shiva Temple residing inside a cave is a popular archeological site situated 31 km away from Binsar. The temple is frequented by the people of the hills and various other travellers as well."
+				"description": "Another Shiva Temple residing inside a cave is a popular archeological site situated 31 km away from Binsar. The temple is frequented by the people of the hills and various other travellers as well."
 			}
-		  ],
-		  "hotels":[
-			
-		  ],
-		  "includedPackages":[
+		],
+		"hotels": [],
+		"includedPackages": [
 			{
 				"id": "Pckg-B-3",
+				"type": "beautifulUttranchal",
 				"title": "Complete Uttranchal",
 				"image": "CompleteUttranchalTile.png",
 				"key": "Complete-Uttranchal",
 				"duration": "10 Nights / 11 Days"
-			  },
-			  {
+			},
+			{
 				"id": "Pckg-B-4",
+				"type": "beautifulUttranchal",
 				"title": "Kumaon Heritage",
 				"key": "Kumaon-Heritage",
 				"image": "KumaonTile.png",
 				"duration": "9 Nights / 10 Days"
-			  },
-			  {
+			},
+			{
 				"id": "Pckg-B-5",
+				"type": "beautifulUttranchal",
 				"title": "Beautiful Kumaon",
 				"key": "Beautiful-Kumaon",
 				"image": "BeautifulKumaonTile.png",
 				"duration": "9 Nights / 10 Days"
-			  },
-            {
-              "id": "Pckg-B-18",
-              "title": "Spellbinding Kumaon",
-              "key": "SpellbindingKumaon",
-              "image": "SpellbindingKumaonTile.png",
-              "duration": "7 Nights / 8 Days"
-            }	
-		  ],
-		  "transit":[
-			{
-				"title":"BY AIR",
-				"subtitle": "The nearest airport to Binsar is in Pantnagar, which lies at a distance of around 139 km. There is a direct flight available from Delhi that flies on a daily basis to Pant Nagar. Upon reaching the airport, one can hire a cab to reach Binsar."				
 			},
 			{
-				"title":"BY RAIL",
-				"subtitle": "Kathgodam is the nearest railway station to Binsar which is just 105 km away and is well-connected to major cities. After reach the Kathgodam railway station, one can easily find a cab to reach Binsar."			
+				"id": "Pckg-B-18",
+				"type": "beautifulUttranchal",
+				"title": "Spellbinding Kumaon",
+				"key": "SpellbindingKumaon",
+				"image": "SpellbindingKumaonTile.png",
+				"duration": "7 Nights / 8 Days"
+			}
+		],
+		"transit": [
+			{
+				"title": "BY AIR",
+				"subtitle": "The nearest airport to Binsar is in Pantnagar, which lies at a distance of around 139 km. There is a direct flight available from Delhi that flies on a daily basis to Pant Nagar. Upon reaching the airport, one can hire a cab to reach Binsar."
 			},
 			{
-				"title":"BY ROAD",
-				"subtitle": "Binsar has got good motorable roads that's very well-connected to major cities and towns. ISBT buses are easily available from Anand Vihar that goes through Haldwani (112 km), Nainital (86 km) and Almora (24 km)."			
+				"title": "BY RAIL",
+				"subtitle": "Kathgodam is the nearest railway station to Binsar which is just 105 km away and is well-connected to major cities. After reach the Kathgodam railway station, one can easily find a cab to reach Binsar."
+			},
+			{
+				"title": "BY ROAD",
+				"subtitle": "Binsar has got good motorable roads that's very well-connected to major cities and towns. ISBT buses are easily available from Anand Vihar that goes through Haldwani (112 km), Nainital (86 km) and Almora (24 km)."
 			}
 		]
 	}
-	
 }

@@ -135,7 +135,7 @@
               </div>
             </div>
           </b-tab-item>
-          <b-tab-item label="GALLERY">
+          <b-tab-item label="GALLERY" v-if="items.length">
             <div class="image-container">
               <b-carousel
                 :autoplay="false"

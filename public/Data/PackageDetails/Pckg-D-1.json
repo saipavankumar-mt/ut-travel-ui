@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-D-1",
+    "type": "piligrimDestination",
     "key": "chardham",
     "title": "Chardam Tour",
     "qoute": "...Voice of Conscience",
@@ -36,7 +37,9 @@
         "subtitle": "Char Dham Yatra is open for a brief period of 6 months every year. Every year, the Char Dham Yatra witnesses a heavy number of pilgrims and this start is subsequently increasing year-by-year. In 2021, the holy gates of Yamunotri and Gangotri are ready to reopen from around 28 April. Whereas, Kedarnath and Badrinath are also set to reopen for devotees around 29 April and 1 May respectively."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi – Haridwar – Yamunotri – Gangotri – Kedarnath – Badrinath – Rishikesh – Delhi",
     "duration": "11 Nights / 12 Days",
     "nightStay": "Haridwar (2N), Barkot (2N), Uttarkashi (2N), Guptkashi (2N), Kedarnath (1N), Badrinath (1N), Rudraprayag (1N)",
@@ -424,7 +427,9 @@
       },
       {
         "title": "For your kind Perusal",
-        "subtitles": ["VIP darshan Rs. 2,100/- per person per Dham."]
+        "subtitles": [
+          "VIP darshan Rs. 2,100/- per person per Dham."
+        ]
       },
       {
         "title": "General",

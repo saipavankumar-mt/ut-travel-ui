@@ -1,334 +1,328 @@
 {
-  "data":
-	{
-	  "id": "Pckg-D-8",
-	  "key": "EkDham (Gangotri)",
-	  "title": "Ek Dham (Gangotri)",
-	  "qoute": "...Explore Haridwar and Uttarkashi and Gangotri",
-	  "subtitle": "",
-	  "overview":[		
-		{
-		  "title":"Ek Dham (…A holy journey to reach Ek Dham of Uttarakhand.):",
-		  "subtitle":"Gangotri Dham yatra package of 4 Nights / 5 Days starts from & ends at Delhi. It takes you to the holy shrines via Haridwar & Rishikesh another holy cities in India. Gangotri, is the origin of river Ganges and seat of the Goddess Ganga."
-		}
-	  ],
-	  "weather": {
-		"showWeatherForcast": true,
-		"location": [
+	"data": {
+		"id": "Pckg-D-8",
+		"type": "piligrimDestination",
+		"key": "EkDham (Gangotri)",
+		"title": "Ek Dham (Gangotri)",
+		"qoute": "...Explore Haridwar and Uttarkashi and Gangotri",
+		"subtitle": "",
+		"overview": [
 			{
-				"lat": "30.9947",
-				"long": "78.9398",
-				"name": "Gangotri"
+				"title": "Ek Dham (…A holy journey to reach Ek Dham of Uttarakhand.):",
+				"subtitle": "Gangotri Dham yatra package of 4 Nights / 5 Days starts from & ends at Delhi. It takes you to the holy shrines via Haridwar & Rishikesh another holy cities in India. Gangotri, is the origin of river Ganges and seat of the Goddess Ganga."
+			}
+		],
+		"weather": {
+			"showWeatherForcast": true,
+			"location": [
+				{
+					"lat": "30.9947",
+					"long": "78.9398",
+					"name": "Gangotri"
+				}
+			]
+		},
+		"temperature": [
+			{}
+		],
+		"route": "Delhi – Haridwar – Uttarkashi – Gangotri – Uttarkashi – Haridwar – Delhi",
+		"duration": "4 Nights / 5 Days",
+		"nightStay": "Haridwar (2 Nights), Uttarkashi (2 Nights))",
+		"heroImage": "GangotriDham.png",
+		"price": "",
+		"images": [
+			"GangotriDham.png"
+		],
+		"description": [
+			{
+				"title": "Day 1 Pickup from Delhi Railway Station/Airport (220 Kms : 6Hrs. Travelling to Haridwar)",
+				"isMileStone": true,
+				"place": [
+					{
+						"title": "Delhi",
+						"subtitle": "0Kms"
+					},
+					{
+						"title": "Haridwar",
+						"subtitle": "220Kms : 6Hrs"
+					}
+				],
+				"subtitles": [
+					{
+						"activities": "Enjoy a quick and hassle-free check-in at Haridwar Hotel, with Welcome Drink(Non Alcoholic)."
+					},
+					{
+						"activities": "After fresh up, go for Haridwar sightseeing. Take a Holy Bath & see Evening Aarti at Har-Ki-Pauri and visit local market Moti Bazar and Temples like Bhuma Niketan Mandir, Bharat Mata Mandir, Vaishno Devi Mandir and Paawan Dham."
+					},
+					{
+						"activities": "Dinner & Overnight Stay at Haridwar."
+					}
+				]
+			},
+			{
+				"title": "Day 2 Haridwar to Uttarkashi (190 Kms : 6Hrs. Travelling to Uttarkashi)",
+				"isMileStone": true,
+				"place": [
+					{
+						"title": "Haridwar",
+						"subtitle": "0Kms"
+					},
+					{
+						"title": "Uttarkashi",
+						"subtitle": "190Kms : 6Hrs"
+					}
+				],
+				"subtitles": [
+					{
+						"activities": "Start Holy Yatra of Gangotri Dham early in the morning at 7:00 AM from Haridwar."
+					},
+					{
+						"activities": "On arrival, check in at hotel. Rest & Relax."
+					},
+					{
+						"activities": "Dinner & Overnight Stay at Uttarkashi."
+					}
+				]
+			},
+			{
+				"title": "Day 3 Uttarkashi to Gangotri (98 Kms : 4Hrs. Travelling to Gangotri)",
+				"isMileStone": false,
+				"place": [
+					{
+						"title": "Gangotri",
+						"subtitle": "98Kms : 4Hrs"
+					}
+				],
+				"subtitles": [
+					{
+						"activities": "Post tea / coffee, leave for Gangotri early in the morning with packed breakfast."
+					},
+					{
+						"activities": "Enroute stopover at Gangnani, a hot water spring. Post offering prayers & pooja darshan, stop enroute at place of your choice for lunch. Post lunch drive back to Uttarkashi, enroute visit Gangnani."
+					},
+					{
+						"activities": "Dinner & Overnight Stay at Uttarkashi Hotel."
+					}
+				]
+			},
+			{
+				"title": "Day 4 Uttarkashi to Haridwar / Rishikesh (190 Kms : 6Hrs. Travelling to Haridwar)",
+				"isMileStone": true,
+				"place": [
+					{
+						"title": "Uttarkashi",
+						"subtitle": "0Kms"
+					},
+					{
+						"title": "Haridwar",
+						"subtitle": "190Kms : 6Hrs"
+					}
+				],
+				"subtitles": [
+					{
+						"activities": "Morning after breakfast, check out from hotel and drive for Haridwar."
+					},
+					{
+						"activities": "Enroute visit local sightseeing of Rishikesh like evening Aarti Pooja at Prabhat Niketan Ghat at Rishikesh."
+					},
+					{
+						"activities": "On arrival, check in at hotel. Dinner & Overnight Stay at Haridwar / Rishikesh Hotel."
+					}
+				]
+			},
+			{
+				"title": "Day 5 Check Out from Haridwar / Rishikesh (220 Kms : 6-7Hrs. Travelling to Delhi)",
+				"isMileStone": true,
+				"place": [
+					{
+						"title": "Haridwar / Rishikesh",
+						"subtitle": "0Kms"
+					},
+					{
+						"title": "Delhi",
+						"subtitle": "220Kms : 6-7Hrs"
+					}
+				],
+				"subtitles": [
+					{
+						"activities": "After breakfast, check out from Hotel and move for Delhi."
+					},
+					{
+						"activities": "Reaching at Railway Station/Airport by having Sweet Memoires in mind and lots of love."
+					}
+				]
+			}
+		],
+		"importantInfo": [
+			{
+				"title": "Note",
+				"subtitles": [
+					"All extras (F & B and any other services) availed by the customer will be on direct payment basis.",
+					"AC and Music System in Vehicle will not be operated when we are on the Hilly Area.",
+					"In case of odd number groups, the extra person shall be accommodated in the same room with an extra bed /mattress.",
+					"The above rates are applicable to the Indian Nationals only.",
+					"Any Meals, services not utilized, partly utilized are non-refundable.",
+					"All the rates are subject to change without prior notice.",
+					"All rates are valid till 30th June, 2020.",
+					"All disputes are subject to Haridwar Jurisdiction.",
+					"Govt. Taxes (GST)"
+				]
+			},
+			{
+				"title": "Mode of Payment:",
+				"subtitles": [
+					"Kindly release 25% Payment for the Blocking.",
+					"Kindly release total 50% Payment before 30 days of arrival.",
+					"Kindly release total 100% Payment before 7 days of arrival."
+				]
+			}
+		],
+		"cancellationPolicy": {
+			"title": "Cancellation Policy:",
+			"subtitles": [
+				"10% of the Total Package Cost is Non-Refundable.",
+				"25% cancellation charge of the total package cost, if cancellation less than 30 days before arrival.",
+				"35% cancellation charge of the total package cost, if cancellation between 15 to 7 days before arrival.",
+				"50% cancellation charge of the total package cost if cancellation between 7 to 2 days before arrival.",
+				"100% cancellation charge of the total package cost if cancellation before 48 Hrs. before arrival.",
+				"Altering the confirmed plan Not possible."
+			]
+		},
+		"inclusionAndExclusion": [
+			{
+				"title": "Experience Includes:",
+				"subtitles": [
+					"Accommodation at all the places mention in the itinerary.",
+					"Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
+					"Transportation around the tour (As mentioned above).",
+					"All sightseeing and excursion as per the Itinerary.",
+					"All Toll Tax, Parking Includes."
+				]
+			},
+			{
+				"title": "Package Excludes:",
+				"subtitles": [
+					"Air Fare / Train Fare.",
+					"Any meals other than those specified in ‘Experience Includes’.",
+					"Expenses of personal nature such as tips, telephone calls, laundry etc.",
+					"Entrance fees during sightseeing.",
+					"Destination Guide.",
+					"Any item of personal nature like Telephone, Tips, Donations at Temples, Extended Stay or Travelling due to any reason."
+				]
+			},
+			{
+				"title": "High lights:",
+				"subtitles": [
+					"No Night Travel (After 7:00 pm as per Government Rules).",
+					"Sumptuous, Hygienic and pure vegetarian food as per regional taste and palate.",
+					"Neat & clean hotels and Camp with quality service"
+				]
+			},
+			{
+				"title": "Weather Condition:",
+				"subtitles": [
+					"Expenses incurred due to bad weather condition, Road Closes, Landslides are out of control will be charge extra as per actual."
+				]
+			}
+		],
+		"accomodationInfo": [
+			{
+				"accomodation": "Haridwar",
+				"standard": "",
+				"deluxe": "",
+				"luxury": ""
+			},
+			{
+				"accomodation": "Uttarkashi",
+				"standard": "",
+				"deluxe": "",
+				"luxury": ""
+			},
+			{
+				"accomodation": "Rishikesh / Haridwar",
+				"standard": "",
+				"deluxe": "",
+				"luxury": ""
+			}
+		],
+		"perPersonCostInfo": [
+			{
+				"passengers": "2",
+				"Vehicle": "Dzire/ Indigo",
+				"Standard": "",
+				"Deluxe": "",
+				"Luxury": ""
+			},
+			{
+				"passengers": "3",
+				"Vehicle": "Dzire/ Indigo",
+				"Standard": "",
+				"Deluxe": "",
+				"Luxury": ""
+			},
+			{
+				"passengers": "4",
+				"Vehicle": "Innova",
+				"Standard": "",
+				"Deluxe": "",
+				"Luxury": ""
+			},
+			{
+				"passengers": "5",
+				"Vehicle": "Innova",
+				"Standard": "",
+				"Deluxe": "",
+				"Luxury": ""
+			},
+			{
+				"passengers": "6",
+				"Vehicle": "Innova",
+				"Standard": "",
+				"Deluxe": "",
+				"Luxury": ""
+			},
+			{
+				"passengers": "7",
+				"Vehicle": "Innova",
+				"Standard": "",
+				"Deluxe": "",
+				"Luxury": ""
+			},
+			{
+				"passengers": "8",
+				"Vehicle": "Tempo Traveller",
+				"Standard": "",
+				"Deluxe": "",
+				"Luxury": ""
+			},
+			{
+				"passengers": "9",
+				"Vehicle": "Tempo Traveller",
+				"Standard": "",
+				"Deluxe": "",
+				"Luxury": ""
+			},
+			{
+				"passengers": "10",
+				"Vehicle": "Tempo Traveller",
+				"Standard": "",
+				"Deluxe": "",
+				"Luxury": ""
+			},
+			{
+				"passengers": "11",
+				"Vehicle": "Tempo Traveller",
+				"Standard": "",
+				"Deluxe": "",
+				"Luxury": ""
+			},
+			{
+				"passengers": "12",
+				"Vehicle": "Tempo Traveller",
+				"Standard": "",
+				"Deluxe": "",
+				"Luxury": ""
 			}
 		]
-	},
-	  "temperature":[
-		{
-			
-
-		} 	
-	  ],
-	  "route": "Delhi – Haridwar – Uttarkashi – Gangotri – Uttarkashi – Haridwar – Delhi",
-	  "duration": "4 Nights / 5 Days",
-	  "nightStay": "Haridwar (2 Nights), Uttarkashi (2 Nights))",
-	  "heroImage": "GangotriDham.png",
-	  "price": "",
-	  "images": [
-		"GangotriDham.png"
-	  ],
-	  "description": [
-		{
-		  "title": "Day 1 Pickup from Delhi Railway Station/Airport (220 Kms : 6Hrs. Travelling to Haridwar)",
-		  "isMileStone": true,
-		  "place": [
-			{
-			  "title": "Delhi",
-			  "subtitle": "0Kms"
-			},
-			{
-			  "title": "Haridwar",
-			  "subtitle": "220Kms : 6Hrs"
-			}
-		  ],		  
-		  "subtitles": [
-				{ 
-				  "activities": "Enjoy a quick and hassle-free check-in at Haridwar Hotel, with Welcome Drink(Non Alcoholic)."
-				},
-				{ 
-				  "activities": "After fresh up, go for Haridwar sightseeing. Take a Holy Bath & see Evening Aarti at Har-Ki-Pauri and visit local market Moti Bazar and Temples like Bhuma Niketan Mandir, Bharat Mata Mandir, Vaishno Devi Mandir and Paawan Dham."
-				},
-				{ 
-				  "activities": "Dinner & Overnight Stay at Haridwar."
-				}
-		  ]
-		},
-		{
-		  "title": "Day 2 Haridwar to Uttarkashi (190 Kms : 6Hrs. Travelling to Uttarkashi)",
-		  "isMileStone": true,
-		  "place": [
-			{
-			  "title": "Haridwar",
-			  "subtitle": "0Kms"
-			},
-			{
-			  "title": "Uttarkashi",
-			  "subtitle": "190Kms : 6Hrs"
-			}
-		  ],		  
-		  "subtitles": [
-				{
-				  "activities": "Start Holy Yatra of Gangotri Dham early in the morning at 7:00 AM from Haridwar."
-			    },
-				{ 
-				  "activities": "On arrival, check in at hotel. Rest & Relax."
-				},
-				{ 
-				  "activities": "Dinner & Overnight Stay at Uttarkashi."
-				}
-		  ]
-		},
-		{
-		  "title": "Day 3 Uttarkashi to Gangotri (98 Kms : 4Hrs. Travelling to Gangotri)",
-		  "isMileStone": false,
-		  "place": [
-			{
-			  "title": "Gangotri",
-			  "subtitle": "98Kms : 4Hrs"
-			}
-		  ],		  
-		  "subtitles": [
-				{
-				  "activities": "Post tea / coffee, leave for Gangotri early in the morning with packed breakfast."
-			    },
-				{ 
-				  "activities": "Enroute stopover at Gangnani, a hot water spring. Post offering prayers & pooja darshan, stop enroute at place of your choice for lunch. Post lunch drive back to Uttarkashi, enroute visit Gangnani."
-				},
-				{ 
-				  "activities": "Dinner & Overnight Stay at Uttarkashi Hotel."
-				}
-		  ]
-		},
-		{
-		  "title": "Day 4 Uttarkashi to Haridwar / Rishikesh (190 Kms : 6Hrs. Travelling to Haridwar)",
-		  "isMileStone": true,
-		  "place": [
-			{
-			  "title": "Uttarkashi",
-			  "subtitle": "0Kms"
-			},
-			{
-			  "title": "Haridwar",
-			  "subtitle": "190Kms : 6Hrs"
-			}
-		  ],		  
-		  "subtitles": [
-				{
-				  "activities": "Morning after breakfast, check out from hotel and drive for Haridwar."
-			    },
-				{ 
-				  "activities": "Enroute visit local sightseeing of Rishikesh like evening Aarti Pooja at Prabhat Niketan Ghat at Rishikesh."
-				},
-				{ 
-				  "activities": "On arrival, check in at hotel. Dinner & Overnight Stay at Haridwar / Rishikesh Hotel."
-				}
-		  ]
-		},
-		{
-		"title": "Day 5 Check Out from Haridwar / Rishikesh (220 Kms : 6-7Hrs. Travelling to Delhi)",
-		  "isMileStone": true,
-		  "place": [
-			{
-			  "title": "Haridwar / Rishikesh",
-			  "subtitle": "0Kms"
-			},
-			{
-			  "title": "Delhi",
-			  "subtitle": "220Kms : 6-7Hrs"
-			}
-		  ],		  
-		  "subtitles": [
-			  {
-				"activities": "After breakfast, check out from Hotel and move for Delhi."				
-			  },
-			  {
-				"activities": "Reaching at Railway Station/Airport by having Sweet Memoires in mind and lots of love."				
-			  }			
-		  ]
-		}
-		
-	  ],
-	  "importantInfo": [
-		{
-		  "title": "Note",
-		  "subtitles": [
-			"All extras (F & B and any other services) availed by the customer will be on direct payment basis.",
-			"AC and Music System in Vehicle will not be operated when we are on the Hilly Area.",
-			"In case of odd number groups, the extra person shall be accommodated in the same room with an extra bed /mattress.",
-			"The above rates are applicable to the Indian Nationals only.",
-			"Any Meals, services not utilized, partly utilized are non-refundable.",
-			"All the rates are subject to change without prior notice.",
-			"All rates are valid till 30th June, 2020.",
-			"All disputes are subject to Haridwar Jurisdiction.",
-			"Govt. Taxes (GST)"
-		  ]
-		},
-		{
-		  "title": "Mode of Payment:",
-		  "subtitles": [
-		    "Kindly release 25% Payment for the Blocking.",
-			"Kindly release total 50% Payment before 30 days of arrival.",
-			"Kindly release total 100% Payment before 7 days of arrival."
-		  ]
-		}
-	  ],
-	  "cancellationPolicy":{
-		"title": "Cancellation Policy:",
-		  "subtitles": [
-			"10% of the Total Package Cost is Non-Refundable.",
-			"25% cancellation charge of the total package cost, if cancellation less than 30 days before arrival.",
-			"35% cancellation charge of the total package cost, if cancellation between 15 to 7 days before arrival.",
-			"50% cancellation charge of the total package cost if cancellation between 7 to 2 days before arrival.",
-			"100% cancellation charge of the total package cost if cancellation before 48 Hrs. before arrival.",
-			"Altering the confirmed plan Not possible."
-		  ]
-	  },
-	  "inclusionAndExclusion":[
-		{
-		  "title": "Experience Includes:",
-		  "subtitles": [
-			"Accommodation at all the places mention in the itinerary.",
-			"Meal Plan: MAPAI (Bed with Breakfast and Dinner) based on fixed meals, served in the restaurant.",
-			"Transportation around the tour (As mentioned above).",
-			"All sightseeing and excursion as per the Itinerary.",
-			"All Toll Tax, Parking Includes."
-		  ]
-		},
-		{
-		  "title": "Package Excludes:",
-		  "subtitles": [
-			"Air Fare / Train Fare.",
-			"Any meals other than those specified in ‘Experience Includes’.",
-			"Expenses of personal nature such as tips, telephone calls, laundry etc.",
-			"Entrance fees during sightseeing.",
-			"Destination Guide.",
-			"Any item of personal nature like Telephone, Tips, Donations at Temples, Extended Stay or Travelling due to any reason."
-			
-		  ]
-		},
-		{
-		  "title": "High lights:",
-		  "subtitles": [
-			"No Night Travel (After 7:00 pm as per Government Rules).",
-			"Sumptuous, Hygienic and pure vegetarian food as per regional taste and palate.",
-			"Neat & clean hotels and Camp with quality service"
-		  ]
-		},
-		{
-		  "title": "Weather Condition:",
-		  "subtitles": [
-			"Expenses incurred due to bad weather condition, Road Closes, Landslides are out of control will be charge extra as per actual."
-		  ]
-		}
-	  ],
-	 "accomodationInfo":[
-		{
-			"accomodation": "Haridwar",
-			"standard": "",
-			"deluxe": "",
-			"luxury": ""
-		},
-		{
-			"accomodation": "Uttarkashi",
-			"standard": "",
-			"deluxe": "",
-			"luxury": ""
-		},
-		{
-			"accomodation": "Rishikesh / Haridwar",
-			"standard": "",
-			"deluxe": "",
-			"luxury": ""
-		}
-		
-	  ],
-	 "perPersonCostInfo":[
-		{
-			"passengers": "2",
-			"Vehicle": "Dzire/ Indigo",
-			"Standard": "",
-			"Deluxe": "",
-			"Luxury": ""
-		},
-		{
-			"passengers": "3",
-			"Vehicle": "Dzire/ Indigo",
-			"Standard": "",
-			"Deluxe": "",
-			"Luxury": ""
-		},
-		{
-			"passengers": "4",
-			"Vehicle": "Innova",
-			"Standard": "",
-			"Deluxe": "",
-			"Luxury": ""
-		},
-		{
-			"passengers": "5",
-			"Vehicle": "Innova",
-			"Standard": "",
-			"Deluxe": "",
-			"Luxury": ""
-		},
-		{
-			"passengers": "6",
-			"Vehicle": "Innova",
-			"Standard": "",
-			"Deluxe": "",
-			"Luxury": ""
-		},
-		{
-			"passengers": "7",
-			"Vehicle": "Innova",
-			"Standard": "",
-			"Deluxe": "",
-			"Luxury": ""
-		},
-		{
-			"passengers": "8",
-			"Vehicle": "Tempo Traveller",
-			"Standard": "",
-			"Deluxe": "",
-			"Luxury": ""
-		},
-		{
-			"passengers": "9",
-			"Vehicle": "Tempo Traveller",
-			"Standard": "",
-			"Deluxe": "",
-			"Luxury": ""
-		},
-		{
-			"passengers": "10",
-			"Vehicle": "Tempo Traveller",
-			"Standard": "",
-			"Deluxe": "",
-			"Luxury": ""
-		},
-		{
-			"passengers": "11",
-			"Vehicle": "Tempo Traveller",
-			"Standard": "",
-			"Deluxe": "",
-			"Luxury": ""
-		},
-		{
-			"passengers": "12",
-			"Vehicle": "Tempo Traveller",
-			"Standard": "",
-			"Deluxe": "",
-			"Luxury": ""
-		}
-	  ]
 	}
 }

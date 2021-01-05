@@ -166,7 +166,7 @@
               </template>
             </div>
           </b-tab-item>
-          <b-tab-item label="GALLERY">
+          <b-tab-item label="GALLERY" v-if="items.length">
             <div class="image-container">
               <b-carousel
                 :autoplay="false"
@@ -178,7 +178,7 @@
                   :key="i"
                 >
                   <figure class="image">
-                    <img :src="item.image" />
+                    <img class="image-ht" :src="item.image" />
                   </figure>
                 </b-carousel-item>
                 <span class="modal-close is-small" />
@@ -316,6 +316,18 @@ export default {
 </script>
 
 <style lang="scss">
+.image-ht {
+  height: 300px !important;
+  object-fit: contain;
+  background: #dbdbdb;
+}
+/deep/.carousel-slide .image {
+  height: 100%;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
 .events {
   padding: 30px;
   li {
@@ -480,6 +492,11 @@ export default {
   }
 
   .itinerary-container {
+    padding: 2rem;
+    .image-container {
+      width: 70%;
+      margin: auto;
+    }
     .imp-info-container {
       padding: 20px 0 20px 20%;
       text-align: left;
@@ -559,6 +576,26 @@ export default {
     .itinerary-container {
       .imp-info-container {
         padding: 20px 0 20px 10%;
+      }
+      .image-container {
+        /deep/.carousel-items {
+          height: 100%;
+          .image-ht {
+            height: 175px !important;
+          }
+        }
+        .carousel-gallery {
+          /deep/.carousel-slide {
+            height: 50%;
+            .image {
+              height: 50%;
+              img {
+                height: 70px;
+                object-fit: cover;
+              }
+            }
+          }
+        }
       }
     }
     .banner {

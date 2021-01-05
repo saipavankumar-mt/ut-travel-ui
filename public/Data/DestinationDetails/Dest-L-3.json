@@ -226,6 +226,7 @@
     "includedPackages": [
       {
         "id": "Pckg-B-3",
+        "type": "beautifulUttranchal",
         "title": "Complete Uttranchal",
         "image": "CompleteUttranchalTile.png",
         "key": "CompleteUttranchal",
@@ -233,6 +234,7 @@
       },
       {
         "id": "Pckg-B-6",
+        "type": "beautifulUttranchal",
         "title": "Tiny Uttaranchal",
         "image": "TinyUttranchalTile.png",
         "key": "TinyUttaranchal",
@@ -240,6 +242,7 @@
       },
       {
         "id": "Pckg-B-7",
+        "type": "beautifulUttranchal",
         "title": "Scenic Uttaranchal",
         "image": "ScenicUttranchalTile.png",
         "key": "ScenicUttaranchal",
@@ -247,6 +250,7 @@
       },
       {
         "id": "Pckg-B-9",
+        "type": "beautifulUttranchal",
         "title": "Uttaranchal Preview",
         "image": "UttranchalPreviewTile.png",
         "key": "UttaranchalPreview",

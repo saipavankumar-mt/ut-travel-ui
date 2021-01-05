@@ -175,7 +175,7 @@
             </div>
           </b-tab-item>
 
-          <b-tab-item label="GALLERY">
+          <b-tab-item label="GALLERY" v-if="items.length">
             <div class="image-container">
               <b-carousel
                 :autoplay="false"
@@ -212,7 +212,7 @@
             </div>
           </b-tab-item>
 
-          <b-tab-item label="MAP"></b-tab-item>
+          <!-- <b-tab-item label="MAP"></b-tab-item> -->
         </b-tabs>
       </section>
     </div>
@@ -339,7 +339,7 @@ export default {
         },
       });
     },
-    redirect: function (value) {
+    redirect(value) {
       this.$router.push({
         name: 'detail',
         params: {
@@ -347,7 +347,7 @@ export default {
           packageId: value.id,
         },
         query: {
-          key: this.$route.query.key,
+          key: value.type,
           id: value.id,
         },
       });
@@ -521,6 +521,7 @@ export default {
   }
 
   .itinerary-container {
+    padding: 2rem;
     .column {
       text-align: center;
     }

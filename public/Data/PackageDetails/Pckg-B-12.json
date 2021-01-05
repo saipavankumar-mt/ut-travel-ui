@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-12",
+    "type": "beautifulUttranchal",
     "key": "AlluringUttarakhand",
     "title": "Alluring Uttarakhand",
     "qoute": "...Explore Mussoorie and Rishikesh and Jim Corbett National Park and Kausani and Nainital",
@@ -36,7 +37,9 @@
         "subtitle": "Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi - Mussoorie - Rishikesh - Jim Corbett National Park - Kausani – Nainital - Delhi",
     "duration": "8 Nights / 9 Days",
     "nightStay": "Mussoorie (2 Nights), Rishikesh (2 Nights),Corbett National Park (1 Night), Kausani (1 Night), Nainital (2 Nights)",
@@ -113,7 +116,6 @@
             "subtitle": "80Kms : 2-3Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -142,7 +144,6 @@
             "subtitle": ""
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -171,7 +172,6 @@
             "subtitle": "260Kms : 5-6Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -200,7 +200,6 @@
             "subtitle": "145Kms : 5-6Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -233,7 +232,6 @@
             "subtitle": "125Kms : 4Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
@@ -258,7 +256,6 @@
             "subtitle": ""
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",

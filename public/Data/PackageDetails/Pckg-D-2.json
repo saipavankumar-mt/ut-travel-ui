@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-D-2",
+    "type": "piligrimDestination",
     "key": "PanchKedar",
     "title": "Panch Kedar",
     "qoute": "...Explore Haridwar and Kedarnath and Tungnath and Madhmaheshwar and Rudranath and Kalpeshwar and Rishikesh",
@@ -113,7 +114,7 @@
       {
         "title": "Day 3 Guptkashi to Kedarnath (35 Kms Drive and 21 Kms by foot)",
         "isMileStone": false,
-        "place": [          
+        "place": [
           {
             "title": "Kedarnath",
             "subtitle": "35 Kms: 21 Kms by foot"

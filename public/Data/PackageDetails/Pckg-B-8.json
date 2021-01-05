@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-8",
+    "type": "beautifulUttranchal",
     "key": "UntouchedGarhwal",
     "title": "Untouched Garhwal",
     "qoute": "...Explore Lansdowne and Khirsu and Pauri",
@@ -28,7 +29,9 @@
         "subtitle": "The Garhwal Himalayas have always been considered a place where nature seems to have endowed all her innate loveliness. The land of Pauri Garhwal is blessed with splendid view of snow-bound peaks of Himalayas, scenic valleys, surroundings, meandering rivers, dense forest."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi – Lansdowne - Khirsu - Pauri - Delhi",
     "duration": "4 Nights / 5 Days",
     "nightStay": "Lansdowne (2 Nights), Khirshu (1 Night), Pauri (1 Night)",
@@ -101,7 +104,6 @@
             "subtitle": "95Kms : 3Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",

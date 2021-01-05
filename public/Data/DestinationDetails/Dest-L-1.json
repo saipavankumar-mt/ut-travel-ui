@@ -136,6 +136,7 @@
     "includedPackages": [
       {
         "id": "Pckg-B-3",
+        "type": "beautifulUttranchal",
         "title": "Complete Uttranchal",
         "image": "CompleteUttranchalTile.png",
         "key": "CompleteUttranchal",
@@ -143,6 +144,7 @@
       },
       {
         "id": "Pckg-B-4",
+        "type": "beautifulUttranchal",
         "title": "Kumaon Heritage",
         "image": "KumaonTile.png",
         "key": "KumaonHeritage",
@@ -150,6 +152,7 @@
       },
       {
         "id": "Pckg-B-5",
+        "type": "beautifulUttranchal",
         "title": "Beautiful Kumaon",
         "image": "BeautifulKumaonTile.png",
         "key": "BeautifulKumaon",
@@ -157,6 +160,7 @@
       },
       {
         "id": "Pckg-B-6",
+        "type": "beautifulUttranchal",
         "title": "Tiny Uttaranchal",
         "image": "TinyUttranchalTile.png",
         "key": "TinyUttaranchal",
@@ -164,6 +168,7 @@
       },
       {
         "id": "Pckg-B-7",
+        "type": "beautifulUttranchal",
         "title": "Scenic Uttaranchal",
         "image": "ScenicUttranchalTile.png",
         "key": "ScenicUttaranchal",
@@ -171,6 +176,7 @@
       },
       {
         "id": "Pckg-B-9",
+        "type": "beautifulUttranchal",
         "title": "Uttaranchal Preview",
         "image": "UttranchalPreviewTile.png",
         "key": "UttaranchalPreview",
@@ -178,6 +184,7 @@
       },
       {
         "id": "Pckg-B-10",
+        "type": "beautifulUttranchal",
         "title": "Weekend Uttaranchal",
         "image": "WeekendUttranchalTile.png",
         "key": "WeekendUttaranchal",

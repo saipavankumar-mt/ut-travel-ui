@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-20",
+    "type": "beautifulUttranchal",
     "key": "EnchantingUttarakhand",
     "title": "Enchanting Uttarakhand",
     "qoute": "...Explore Corbett and Nainital and Kausani and Auli and Chopta and Haridwar",
@@ -40,7 +41,9 @@
         "subtitle": "Haridwar is one of the seven sacred cities of the Hindus and is a major pilgrimage center. It has been known by many names originally it was called Kapila’ for the sage who once lived there. Its present name means 'Door to Hari' Hari is one of the names of Lord Vishnu’ a principal deity of Hindusim."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi - Corbett - Nainital - Kausani - Auli - Chopta - Haridwar - Delhi",
     "duration": "9 Nights / 10 Days",
     "nightStay": "Corbett (1 Night), Nainital (2 Nights), Kausani (1 Night), Auli (2 Nights), Chopta (2 Nights),Haridwar (1 Night)",
@@ -113,7 +116,6 @@
             "subtitle": ""
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",

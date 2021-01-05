@@ -1,6 +1,7 @@
 {
   "data": {
     "id": "Pckg-B-6",
+    "type": "beautifulUttranchal",
     "key": "TinyUttaranchal",
     "title": "Tiny Uttaranchal",
     "qoute": "...Explore Haridwar and Mussoorie and Rishikesh and Nainital",
@@ -32,7 +33,9 @@
         "subtitle": "Beautiful mountain, crystal-clear lakes, famous temples and greenery all over is Nainital for you. Popularly known as the City of Lakes, Nainital is an idyllic escape from the humdrum of city life. Enveloped in a thick foil of nature, accentuated by the scent of the flowering blossoms blending miraculously in the crisp fresh air, Nainital is truly the treasure trove of Kumano. It is among the most visited hill station of the North India since British period."
       }
     ],
-    "temperature": [{}],
+    "temperature": [
+      {}
+    ],
     "route": "Delhi – Haridwar - Mussoorie - Rishikesh - Nainital - Delhi",
     "duration": "6 Nights / 7 Days",
     "nightStay": "Haridwar (1 Night), Mussoorie (2 Nights), Rishikesh (1 Night), Nainital (2 Nights)",
@@ -137,7 +140,6 @@
             "subtitle": "70Kms : 2-3Hrs"
           }
         ],
-
         "subtitles": [
           {
             "time": "7:00 am to 9:00 am",
