@@ -10,8 +10,24 @@
       "showWeatherForcast": true,
       "location": [
         {
-          "lat": "29.94791",
-          "long": "78.16025"
+          "lat": "29.3919",
+          "long": "79.4542",
+          "name": "Nainital"
+        },
+        {
+          "lat": "29.9457",
+          "long": "78.1642",
+          "name": "Haridwar"
+        },
+        {
+          "lat": "30.0869",
+          "long": "78.2676",
+          "name": "Rishikesh"
+        },
+        {
+          "lat": "30.4598",
+          "long": "78.0644",
+          "name": "Mussoorie"
         }
       ]
     },

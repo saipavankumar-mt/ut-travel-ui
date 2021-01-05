@@ -10,8 +10,19 @@
       "showWeatherForcast": true,
       "location": [
         {
-          "lat": "29.94791",
-          "long": "78.16025"
+          "lat": "29.8377",
+          "long": "78.6871",
+          "name": "Lansdowne"
+        },
+        {
+          "lat": "30.1722",
+          "long": "78.8680",
+          "name": "Khirsu"
+        },
+        {
+          "lat": "30.1471",
+          "long": "78.7745",
+          "name": "Pauri"
         }
       ]
     },

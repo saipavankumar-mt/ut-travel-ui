@@ -10,8 +10,14 @@
       "showWeatherForcast": true,
       "location": [
         {
-          "lat": "29.94791",
-          "long": "78.16025"
+          "lat": "30.4598",
+          "long": "78.0644",
+          "name": "Mussoorie"
+        },
+        {
+          "lat": "29.3919",
+          "long": "79.4542",
+          "name": "Nainital"
         }
       ]
     },

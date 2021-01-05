@@ -10,8 +10,29 @@
       "showWeatherForcast": true,
       "location": [
         {
-          "lat": "29.94791",
-          "long": "78.16025"
+          "lat": "30.4598",
+          "long": "78.0644",
+          "name": "Mussoorie"
+        },
+        {
+          "lat": "29.9457",
+          "long": "78.1642",
+          "name": "Haridwar"
+        },
+        {
+          "lat": "30.7016",
+          "long": "77.8696",
+          "name": "Chakrata"
+        },
+        {
+          "lat": "30.4137",
+          "long": "78.3458",
+          "name": "Kanatal"
+        },
+        {
+          "lat": "30.3739",
+          "long": "78.4325",
+          "name": "New Tehri"
         }
       ]
     },

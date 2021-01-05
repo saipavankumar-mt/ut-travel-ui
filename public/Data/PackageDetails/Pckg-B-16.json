@@ -10,8 +10,34 @@
       "showWeatherForcast": true,
       "location": [
         {
-          "lat": "29.94791",
-          "long": "78.16025"
+          "lat": "30.0869",
+          "long": "78.2676",
+          "name": "Rishikesh"
+        },
+        {
+          "lat": "30.3462",
+          "long": "79.0485",
+          "name": "Chopta"
+        },
+        {
+          "lat": "30.9494",
+          "long": "77.7478",
+          "name": "Auli"
+        },
+        {
+          "lat": "29.3919",
+          "long": "79.4542",
+          "name": "Nainital"
+        },
+        {
+          "lat": "29.8445",
+          "long": "79.6039",
+          "name": "Kausani"
+        },
+        {
+          "lat": "30.4598",
+          "long": "78.0644",
+          "name": "Mussoorie"
         }
       ]
     },
