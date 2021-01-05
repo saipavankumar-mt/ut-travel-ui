@@ -20,7 +20,7 @@
       class="package-detail-carousel"
       v-model="itemIndex"
       :data="packages"
-      :items-to-show="$isMobile() ? 2 : 4"
+      :items-to-show="$isMobile() ? 2 : 5"
       :arrow-hover="false"
       icon-size="is-medium"
     >

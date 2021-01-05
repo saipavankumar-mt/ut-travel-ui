@@ -9,7 +9,7 @@
       class="destination-carousel container"
       v-model="itemIndex"
       :data="packages"
-      :items-to-show="$isMobile() ? 1 : 4"
+      :items-to-show="$isMobile() ? 2 : 5"
       :arrow-hover="false"
       icon-prev="arrow-left"
       icon-next="arrow-right"
@@ -69,6 +69,7 @@ export default {
         });
     },
     onViewPackageClicked(value) {
+      if (!value.id) return;
       this.$emit("similarPackageRouteChange", value);
     },
   },
