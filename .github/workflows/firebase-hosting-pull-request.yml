@@ -12,7 +12,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_UT_TRAVEL_UI }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_UTTRANCHALHOLIDAYS_41E55 }}'
           projectId: uttranchalholidays-41e55
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels

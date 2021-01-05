@@ -1,6 +1,5 @@
 {
   "projects": {
-    "default": "ut-travel-ui",
-    "staging": "uttranchalholidays-41e55"
+    "default": "uttranchalholidays-41e55"
   }
 }
