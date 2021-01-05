@@ -10,8 +10,14 @@
       "showWeatherForcast": true,
       "location": [
         {
-          "lat": "29.94791",
-          "long": "78.16025"
+          "lat": "30.0869",
+          "long": "78.2676",
+          "name": "Rishikesh"
+        },
+        {
+          "lat": "29.5300",
+          "long": "78.7747",
+          "name": "Jim Corbett"
         }
       ]
     },

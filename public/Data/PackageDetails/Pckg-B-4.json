@@ -8,8 +8,39 @@
       "showWeatherForcast": true,
       "location": [
         {
-          "lat": "29.94791",
-          "long": "78.16025"
+          "lat": "29.7055",
+          "long": "79.7540",
+          "name": "Binsar"
+        },
+        {
+          "lat": "29.3919",
+          "long": "79.4542",
+          "name": "Nainital"
+        },
+        {
+          "lat": "29.5300",
+          "long": "78.7747",
+          "name": "Jim Corbett"
+        },
+        {
+          "lat": "29.8445",
+          "long": "79.6039",
+          "name": "Kausani"
+        },
+        {
+          "lat": "29.8385",
+          "long": "80.0332",
+          "name": "Chaukori"
+        },
+        {
+          "lat": "29.5829",
+          "long": "80.2182",
+          "name": "Pithoragarh"
+        },
+        {
+          "lat": "30.0715",
+          "long": "80.2373",
+          "name": "Munsyari"
         }
       ]
     },

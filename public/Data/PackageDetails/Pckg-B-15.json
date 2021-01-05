@@ -10,8 +10,24 @@
       "showWeatherForcast": true,
       "location": [
         {
-          "lat": "29.94791",
-          "long": "78.16025"
+          "lat": "29.8377",
+          "long": "78.6871",
+          "name": "Lansdowne"
+        },
+        {
+          "lat": "30.3462",
+          "long": "79.0485",
+          "name": "Chopta"
+        },
+        {
+          "lat": "30.9494",
+          "long": "77.7478",
+          "name": "Auli"
+        },
+        {
+          "lat": "30.0869",
+          "long": "78.2676",
+          "name": "Rishikesh"
         }
       ]
     },
