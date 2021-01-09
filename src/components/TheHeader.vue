@@ -34,7 +34,7 @@
           <a
             v-else
             :href="navItem.redirect"
-            class="navbar-item"
+            class="navbar-item e-pass"
             :key="idx + 're'"
           >
             <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
@@ -70,7 +70,7 @@
           <a
             v-else
             :href="navItem.redirect"
-            class="navbar-item"
+            class="navbar-item e-pass"
             :key="idx + 're'"
           >
             <b-icon :icon="navItem.icon" size="is-small" />&nbsp;
@@ -105,11 +105,6 @@ export default {
         { label: 'Tour Packages', icon: 'bag-checked', path: '/tour-packages' },
         { label: 'Destinations', icon: 'map-marker', path: '/destinations' },
         { label: 'Trekking', icon: 'walk', path: '/trekking' },
-        {
-          label: 'Yatra E Pass',
-          icon: 'ticket',
-          redirect: 'https://badrinath-kedarnath.gov.in/registration',
-        },
         // { label: 'Hotel', icon: 'bed' },
         // { label: 'Car Rental', icon: 'car' },
         // { label: 'Helipad', icon: 'helicopter' },
@@ -118,6 +113,11 @@ export default {
           label: 'Contact Us',
           icon: 'card-account-phone',
           path: '/contact-us',
+        },
+        {
+          label: 'Yatra E Pass',
+          icon: 'ticket',
+          redirect: 'https://badrinath-kedarnath.gov.in/registration',
         },
       ],
       contactDetails: {
@@ -267,6 +267,21 @@ export default {
 
   .nav-link:hover {
     color: var(--primary);
+  }
+}
+
+.e-pass {
+  animation: pulse .6s infinite;
+  &:hover {
+    animation: none;
+  }
+}
+@keyframes pulse {
+  0% {
+    color:#585858;
+  }
+  100% {
+    color:red;
   }
 }
 
