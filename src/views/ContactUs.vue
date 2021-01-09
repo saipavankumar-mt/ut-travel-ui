@@ -2,9 +2,34 @@
   <div class="contact-us">
     <header class="contact-us-header">
       <h1 class="main-title">Contact Us</h1>
-      <p class="main-title-desc">
-      </p>
     </header>
+    <section class="columns is-multiline contact-us-body">
+      <div
+        class="column is-full"
+        v-for="contact in contacts"
+        :key="contact.type"
+      >
+        <div class="has-text-weight-bold is-size-5 mb-3">
+          {{ contact.typeDesc }} :
+        </div>
+        <div class="is-size-7">
+          <div class="mb-1">{{ contact.address }}</div>
+          <div class="mb-1">
+            <span v-if="contact.mobile">
+              Mobile# {{ contact.mobile.code }} -
+              {{ contact.mobile.numbers.join(', ') }}
+            </span>
+            <span v-if="contact.phone">
+              Phone# {{ contact.phone.code }} -
+              {{ contact.phone.numbers.join(', ') }}
+            </span>
+          </div>
+          <div class="mb-1" v-if="contact.email">
+            Email : {{ contact.email }}
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -13,19 +38,12 @@ export default {
   name: 'ContactUs',
   data() {
     return {
-      members: {
-        FOUNDER: [],
-        MARKETING: [],
-        OPERATIONS: [],
-        TECHNICAL: [],
-      },
+      contacts: [],
     };
   },
   created() {
     this.$http.get(`${process.env.BASE_URL}Data/contactus.json`).then((res) => {
-      res.data.map((response) => {
-        this.members[response.key.toUpperCase()] = response.members;
-      });
+      this.contacts = res.data;
     });
   },
 };
@@ -71,6 +89,11 @@ export default {
       line-height: 21px;
     }
   }
+
+  .contact-us-body {
+    color: #3e3f54;
+    padding: 2rem 0;
+  }
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
   .contact-us {
@@ -78,6 +101,9 @@ export default {
     .main-title-desc {
       padding: 1.5rem !important;
       padding-bottom: 0 !important;
+    }
+    .contact-us-body {
+      padding: 1rem 0;
     }
   }
 }

@@ -1,0 +1,49 @@
+[
+  {
+    "type": "HEAD_OFFICE",
+    "typeDesc": "Head Office (Haridwar)",
+    "address": "B - 86, Raj Nagar, Jwalapur, Distt. - Haridwar (Uttarakhand), PIN - 249407",
+    "mobile": {
+      "code": "+91",
+      "numbers": [
+        "9359079393",
+        "8630353030",
+        "7830030003"
+      ]
+    },
+    "email": "info@spiritualyatra.com"
+  },
+  {
+    "type": "MUMBAI_OFFICE",
+    "typeDesc": "Mumbai Office",
+    "address": "9, Krishna Classic CHS Ltd, “B” Wing, Ground Floor, Ram Mandir Cross Road, Babhai Naka, Borivali (W) PIN - 400092",
+    "phone": {
+      "code": "022",
+      "numbers": [
+        "64503666"
+      ]
+    }
+  },
+  {
+    "type": "AHMEDABAD_OFFICE",
+    "typeDesc": "Ahmedabad Office",
+    "address": "51, Aniroodh Society Bhimjipura, Nava Vadaj, Ahmedabad",
+    "mobile": {
+      "code": "+91",
+      "numbers": [
+        "9724346486"
+      ]
+    }
+  },
+  {
+    "type": "KOLKATA_OFFICE",
+    "typeDesc": "Kolkata Office",
+    "address": "Dumdum Queen, 3rd Floor, Shop No. 18, 88/1, Dumdum Road, Kolkata, PIN - 700030",
+    "phone": {
+      "code": "033",
+      "numbers": [
+        "25480042"
+      ]
+    }
+  }
+]
