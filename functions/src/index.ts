@@ -10,7 +10,7 @@ export const genericEmail = functions.https.onCall(async (data, context) => {
     sgMail.setApiKey(API_KEY);
     console.log(data);
     const msg = {
-        to: 'admin@uttranchalholidays.com',
+        to: 'sales@uttranchalholidays.com',
         from: 'admin@uttranchalholidays.com',
         templateId: TEMPLATE_ID,
         dynamic_template_data: {
