@@ -2,48 +2,63 @@
   {
     "type": "HEAD_OFFICE",
     "typeDesc": "Head Office (Haridwar)",
-    "address": "B - 86, Raj Nagar, Jwalapur, Distt. - Haridwar (Uttarakhand), PIN - 249407",
+    "address": "Arya Nagar Chowk, near Shivam Auto, Sharda Nagar, Jwalapur, Uttarakhand, PIN - 249407",
     "mobile": {
       "code": "+91",
       "numbers": [
         "9359079393",
-        "8630353030",
-        "7830030003"
+        "9368079393",
+        "7217219393"
       ]
     },
-    "email": "info@spiritualyatra.com"
-  },
-  {
-    "type": "MUMBAI_OFFICE",
-    "typeDesc": "Mumbai Office",
-    "address": "9, Krishna Classic CHS Ltd, “B” Wing, Ground Floor, Ram Mandir Cross Road, Babhai Naka, Borivali (W) PIN - 400092",
-    "phone": {
-      "code": "022",
-      "numbers": [
-        "64503666"
-      ]
-    }
+    "email": "sales@uttranchalholidays.com"
   },
   {
     "type": "AHMEDABAD_OFFICE",
     "typeDesc": "Ahmedabad Office",
-    "address": "51, Aniroodh Society Bhimjipura, Nava Vadaj, Ahmedabad",
+    "address": "51, Aniroodh Society Bhimjipura, Nava Vadaj, Ahmedabad. PIN - 380013",
+    "mobile": {
+      "code": "+91",
+      "numbers": [
+        "7217220393"
+      ]
+    },
+    "email": "ahmedabad@uttranchalholidays.com"
+  },
+  {
+    "type": "MEHSANA_OFFICE",
+    "typeDesc": "Mehsana Office",
+    "address": "C 201 Hub Town, Nr Modhera Char Rasta, Mehsana. PIN - 384435",
+    "mobile": {
+      "code": "+91",
+      "numbers": [
+        "7217220393"
+      ]
+    },
+    "email": "mehsana@uttranchalholidays.com"
+  },
+  {
+    "type": "MUMBAI_OFFICE",
+    "typeDesc": "Mumbai Office",
+    "address": "143/29, Datt Niwas, Sector - 1, Near Akhil Hotel, charkop kandivali west, Mumbai- 400067",
     "mobile": {
       "code": "+91",
       "numbers": [
         "9724346486"
       ]
-    }
+    },
+    "email": "mumbai@uttranchalholidays.com"
+  },  
+  {
+    "type": "PUNE_OFFICE",
+    "typeDesc": "Pune Office",
+    "address": "Vishal Nagar, Jagtap Dairy Rd, Pimple Nilakh, Pimpri-Chinchwad, Maharashtra 411027",
+    "email":"pune@uttranchalholidays.com"
   },
   {
-    "type": "KOLKATA_OFFICE",
-    "typeDesc": "Kolkata Office",
-    "address": "Dumdum Queen, 3rd Floor, Shop No. 18, 88/1, Dumdum Road, Kolkata, PIN - 700030",
-    "phone": {
-      "code": "033",
-      "numbers": [
-        "25480042"
-      ]
-    }
+    "type": "HYDERABAD_OFFICE",
+    "typeDesc": "Hyderabad Office",
+    "address": "Sri Sai Colony, Ganesh Nagar, Chintal, Balanagar, Hyderabad, Telangana 500054",
+    "email":"hyderabad@uttranchalholidays.com"
   }
 ]
